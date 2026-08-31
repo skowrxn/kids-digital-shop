@@ -124,74 +124,71 @@ def status(tor="produkty"):
 
 # ---------------------------------------------------------------- bootstrap
 
-#: Przypisanie archetypów. Wyprowadzone z tytułu, ceny, wieku i podkategorii
-#: w prototypie. Zmiana wymaga zmiany spec.md danego produktu.
+#: Przypisanie archetypów. Decyduje WYŁĄCZNIE struktura materiału, nigdy
+#: cena ani objętość — to sygnały marży, nie budowy. Kryterium:
+#:   sztywna sekwencja z rosnącą trudnością        -> PROGRAM
+#:   bloki ćwiczeń bez sekwencji między blokami    -> ZESZYT
+#:   talia do wycięcia                             -> KARTY
+#:   plansza bazowa + elementy ruchome na rzep     -> SEGREGATOR
+#:   zasady gry, rozgrywka                         -> GRY
+#:   proza do czytania przez dorosłego             -> PORADNIK
+#: Podstawą są opisy z p-<slug>.html, nie tytuły.
 ARCHETYP_PRODUKTU = {
-    # PROGRAM — sekwencyjny kurs, trudność rośnie monotonicznie
-    "czytam-sylabami": "PROGRAM",
-    "litery-od-zera": "PROGRAM",
-    "dodawanie-bez-palcow": "PROGRAM",
-    "mnozenie-bez-lez": "PROGRAM",
-    "gloski-szumiace": "PROGRAM",
-    "czytam-po-angielsku": "PROGRAM",
-    "litery-pisane": "PROGRAM",
-    # ZESZYT — bloki ćwiczeń, kolejność swobodna w obrębie bloku
+    # PROGRAM — kolejność jest treścią; trudność rośnie monotonicznie
+    "czytam-sylabami": "PROGRAM",          # 12 tygodni po kolei
+    "litery-od-zera": "PROGRAM",           # jedna litera na dwa dni, stała kolejność
+    "czytam-po-angielsku": "PROGRAM",      # phonics od najprostszych wzorów
+    "gloski-szumiace": "PROGRAM",          # ustawienie → sylaby → wyrazy → mowa
+    "wierszyki-na-r": "PROGRAM",           # trzy miesiące, od pionizacji języka
+    "dodawanie-bez-palcow": "PROGRAM",     # sześć tygodni jednego przejścia
+    "mnozenie-bez-lez": "PROGRAM",         # osiem tygodni + powtórka co tydzień
+    "pisze-bez-nacisku": "PROGRAM",        # sześć tygodni pracy nad ręką
+    # ZESZYT — bloki od najłatwiejszego, w bloku kolejność dowolna
     "sylaby-dogrywka": "ZESZYT",
     "czytam-i-rozumiem": "ZESZYT",
     "licze-do-20": "ZESZYT",
     "zadania-z-trescia": "ZESZYT",
     "slyszymy-gloski": "ZESZYT",
-    "wierszyki-na-r": "ZESZYT",
-    "pisze-bez-nacisku": "ZESZYT",
+    "mowa-startuje": "ZESZYT",             # bloki po poziomach + obserwacje rodzica
+    "litery-pisane": "ZESZYT",             # bloki liter, osobny blok na mylone
     "szlaczki-i-wzory": "ZESZYT",
+    "lewa-reka": "ZESZYT",
     "kiedy-jestem-zly": "ZESZYT",
+    "moje-mocne-strony": "ZESZYT",
+    "angielski-w-aucie": "ZESZYT",         # 30 zabaw w blokach: trasy krótkie/długie
     "jesienne-popoludnia": "ZESZYT",
-    "ferie-bez-ekranu": "ZESZYT",
-    "wiosna-w-doniczce": "ZESZYT",
+    "ferie-bez-ekranu": "ZESZYT",          # 14 dni, ale trudność NIE rośnie
+    "swieta-w-domu": "ZESZYT",
+    "wiosna-w-doniczce": "ZESZYT",         # dziennik obserwacji = formularz
     "kosmos-dla-poczatkujacych": "ZESZYT",
-    "moj-tydzien": "ZESZYT",
-    # KARTY — talia do wycięcia, 8–9 kart na A4
+    "cichy-poranek": "ZESZYT",             # wprost: „wszystko bez nożyczek”
+    "tablica-obowiazkow": "ZESZYT",        # tablica + punkty = formularz
+    "moj-tydzien": "ZESZYT",               # planer = formularz
+    "nadrabiamy-lato": "ZESZYT",           # dwa równoległe poziomy, nie jedna sekwencja
+    # KARTY — talia do wycięcia, 8–9 kart na A4, wersja bez podpisów
     "karty-rutyn": "KARTY",
-    "cichy-poranek": "KARTY",
-    "tablica-obowiazkow": "KARTY",
     "emocjometr": "KARTY",
     "wieczor-bez-lekow": "KARTY",
-    "mowa-startuje": "KARTY",
-    "angielski-przy-kolacji": "KARTY",
+    "angielski-przy-kolacji": "KARTY",     # wprost: „100 kart z obrazkami”
     "memory-domowe": "KARTY",
+    "ubieram-sie-sam": "KARTY",            # obrazkowe instrukcje do powieszenia
     # SEGREGATOR — plansza bazowa + elementy ruchome na rzep
     "busy-pierwsze-slowa": "SEGREGATOR",
     "busy-przedszkolak": "SEGREGATOR",
     "teczka-pojazdy": "SEGREGATOR",
     "teczka-zwierzeta": "SEGREGATOR",
-    "ubieram-sie-sam": "SEGREGATOR",
-    "kto-tu-mieszka": "SEGREGATOR",
-    "moje-cialo": "SEGREGATOR",
-    # GRY — plansza, pionki, kostka, zasady na jednej stronie
+    "kto-tu-mieszka": "SEGREGATOR",        # plansze siedlisk + zwierzęta ruchome
+    "moje-cialo": "SEGREGATOR",            # plansza ciała + narządy ruchome
+    "mapa-polski": "SEGREGATOR",           # mapa sklejana + karty miast i rzek
+    # GRY — zasady na jednej stronie, pionki i kostka w pliku
     "gry-po-angielsku": "GRY",
     "planszowki-na-start": "GRY",
-    "zestaw-na-podroz": "GRY",
+    "zestaw-na-podroz": "GRY",             # gry papier-długopis, bez pionków
     "bingo-rodzinne": "GRY",
-    # PORADNIK — jedyny archetyp z dominującą prozą
+    # PORADNIK — dominująca proza, materiał czytany przez rodzica
     "kiedy-nic-nie-dziala": "PORADNIK",
-    "rozmowa-z-nauczycielem": "PORADNIK",
+    "rozmowa-z-nauczycielem": "PORADNIK",  # rozdziały + formularz na notatki
 }
-
-#: Produkty znane z kart, ale bez przypisania kategorii w menu prototypu.
-#: Kategoria wywnioskowana z tytułu; oznaczona flagą w KOLEJKA.json.
-KATEGORIA_WYWNIOSKOWANA = {
-    "czytam-i-rozumiem": "czytanie",
-    "zadania-z-trescia": "matematyka",
-    "teczka-zwierzeta": "busy",
-    "ubieram-sie-sam": "rutyny",
-    "slyszymy-gloski": "logopedia",
-    "bingo-rodzinne": "gry",
-}
-
-#: Liczba stron deklarowana w prototypie. Źródło: tabela `.specs`, klucz
-#: „Objętość", w p-<slug>.html. Tych plików NIE MA jeszcze w repo, więc
-#: znamy tylko tę jedną wartość — podaną wprost w brief­ie zadania.
-STRONY_ZNANE = {"czytam-sylabami": 184}
 
 #: Sześć produktów flagowych — po jednym na intencję z sekcji „chcę…"
 #: prototypu. To jest zakres KROKU 7 (teksty reklamowe).
@@ -217,24 +214,21 @@ def bootstrap():
 
     produkty, reklamy = [], []
     for slug, d in sorted(kat["produkty"].items()):
-        kategoria = d.get("kategoria") or KATEGORIA_WYWNIOSKOWANA.get(slug)
         p = {
             "slug": slug,
             "tytul": d.get("tytul"),
             "archetyp": ARCHETYP_PRODUKTU.get(slug),
-            "kategoria": kategoria,
+            "kategoria": d.get("kategoria"),
             "podkategoria": d.get("podkategoria"),
             "wiek": d.get("wiek"),
             "autor": d.get("autor"),
             "cena_pln": d.get("cena_pln"),
-            "strony_prototyp": d.get("strony", STRONY_ZNANE.get(slug)),
+            "strony_prototyp": d.get("strony"),
             "etap": "brak",
             "proba": 0,
             "ostatni_blad": None,
             "zaktualizowano": teraz(),
         }
-        if slug in KATEGORIA_WYWNIOSKOWANA and not d.get("kategoria"):
-            p["kategoria_wywnioskowana"] = True
         if p["strony_prototyp"] is None:
             p["blokada"] = ("brak p-%s.html w web/mockup — nieznana „Objętość”; "
                             "spec.md nie może zadeklarować liczby stron" % slug)

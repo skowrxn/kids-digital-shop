@@ -100,7 +100,9 @@ i sekcja „czego to nie robi". Oceny wystawiają wyłącznie kupujący.
 **Dla kogo:** ICP-1 `szkola`, ICP-4 `system`, ICP-2 `kolejka`.
 **Haczyk:** autorzy są na czas testów wymyśleni (`brand.md`). Wolno użyć
 imienia i domeny. **Nie wolno** dopisywać tytułów zawodowych, uprawnień,
-stażu, miejsca pracy ani zdjęcia twarzy jako prawdziwej osoby.
+stażu, miejsca pracy ani zdjęcia twarzy jako prawdziwej osoby. Dotyczy to
+także roli podanej w prototypie (`autor_rola_prototyp`) i pigułki
+„Zweryfikowany twórca" — to elementy makiety, nie fakty.
 Brief statyku dla tego kąta opisuje postać z obsady `cast.png`, nie portret.
 
 ---

@@ -1,53 +1,30 @@
 {
   "zrodlo": "web/mockup/",
   "kategorie": {
-    "czytanie": {
-      "nazwa": "czytanie i sylaby",
-      "opis": "Od pierwszych liter do samodzielnie przeczytanej książeczki. Materiały ułożone tak, żebyś wiedziała, co robicie w tym tygodniu, a co dopiero za miesiąc.",
+    "angielski": {
+      "nazwa": "angielski",
+      "opis": "Angielski przy stole, w aucie i przy kolacji. Bez aplikacji i bez wymowy, której sama nie jesteś pewna — wszystko z zapisem fonetycznym po polsku.",
       "podkategorie": [
         {
-          "id": "litery",
-          "nazwa": "Poznawanie liter"
+          "id": "pierwsze-slowa",
+          "nazwa": "Pierwsze słowa"
         },
         {
-          "id": "sylaby",
-          "nazwa": "Czytanie sylabami"
+          "id": "gry-jezykowe",
+          "nazwa": "Gry językowe"
         },
         {
-          "id": "zrozumienie",
-          "nazwa": "Czytanie ze zrozumieniem"
+          "id": "czytanie-en",
+          "nazwa": "Czytanie po angielsku"
         }
       ],
-      "slugi_w_menu": [
-        "czytam-sylabami",
-        "litery-od-zera",
-        "sylaby-dogrywka"
-      ],
-      "deklarowana_liczba_produktow": 4
-    },
-    "matematyka": {
-      "nazwa": "matematyka",
-      "opis": "Liczenie na konkretach, zanim przejdziecie do cyfr na papierze. Bez ścigania się z klasą i bez zadań, których dziecko nie rozumie.",
-      "podkategorie": [
-        {
-          "id": "liczenie",
-          "nazwa": "Liczenie do 20"
-        },
-        {
-          "id": "dzialania",
-          "nazwa": "Dodawanie i odejmowanie"
-        },
-        {
-          "id": "mnozenie",
-          "nazwa": "Tabliczka mnożenia"
-        }
-      ],
-      "slugi_w_menu": [
-        "licze-do-20",
-        "dodawanie-bez-palcow",
-        "mnozenie-bez-lez"
-      ],
-      "deklarowana_liczba_produktow": 4
+      "deklarowana_liczba_produktow": 4,
+      "produkty": [
+        "angielski-przy-kolacji",
+        "angielski-w-aucie",
+        "czytam-po-angielsku",
+        "gry-po-angielsku"
+      ]
     },
     "busy": {
       "nazwa": "busy booki i montessori",
@@ -66,36 +43,38 @@
           "nazwa": "Teczki tematyczne"
         }
       ],
-      "slugi_w_menu": [
+      "deklarowana_liczba_produktow": 4,
+      "produkty": [
         "busy-pierwsze-slowa",
         "busy-przedszkolak",
-        "teczka-pojazdy"
-      ],
-      "deklarowana_liczba_produktow": 4
+        "teczka-pojazdy",
+        "teczka-zwierzeta"
+      ]
     },
-    "rutyny": {
-      "nazwa": "rutyny i samodzielność",
-      "opis": "Plany dnia w obrazkach, tablice obowiązków i wszystko, co zdejmuje z ciebie powtarzanie tego samego dwadzieścia razy dziennie.",
+    "czytanie": {
+      "nazwa": "czytanie i sylaby",
+      "opis": "Od pierwszych liter do samodzielnie przeczytanej książeczki. Materiały ułożone tak, żebyś wiedziała, co robicie w tym tygodniu, a co dopiero za miesiąc.",
       "podkategorie": [
         {
-          "id": "plan-dnia",
-          "nazwa": "Plany dnia"
+          "id": "litery",
+          "nazwa": "Poznawanie liter"
         },
         {
-          "id": "obowiazki",
-          "nazwa": "Obowiązki i nagrody"
+          "id": "sylaby",
+          "nazwa": "Czytanie sylabami"
         },
         {
-          "id": "samodzielnosc",
-          "nazwa": "Samodzielność"
+          "id": "zrozumienie",
+          "nazwa": "Czytanie ze zrozumieniem"
         }
       ],
-      "slugi_w_menu": [
-        "karty-rutyn",
-        "cichy-poranek",
-        "tablica-obowiazkow"
-      ],
-      "deklarowana_liczba_produktow": 4
+      "deklarowana_liczba_produktow": 4,
+      "produkty": [
+        "czytam-i-rozumiem",
+        "czytam-sylabami",
+        "litery-od-zera",
+        "sylaby-dogrywka"
+      ]
     },
     "emocje": {
       "nazwa": "emocje i wyciszenie",
@@ -114,60 +93,13 @@
           "nazwa": "Lęki i zasypianie"
         }
       ],
-      "slugi_w_menu": [
+      "deklarowana_liczba_produktow": 4,
+      "produkty": [
         "emocjometr",
         "kiedy-jestem-zly",
+        "moje-mocne-strony",
         "wieczor-bez-lekow"
-      ],
-      "deklarowana_liczba_produktow": 4
-    },
-    "logopedia": {
-      "nazwa": "logopedia",
-      "opis": "Ćwiczenia ułożone przez logopedów z uprawnieniami, do robienia w domu. Nie zastępują diagnozy — pozwalają nie stać w miejscu, czekając na wizytę.",
-      "podkategorie": [
-        {
-          "id": "szumiace",
-          "nazwa": "Głoski szumiące"
-        },
-        {
-          "id": "gloska-r",
-          "nazwa": "Głoska R"
-        },
-        {
-          "id": "opoznienie",
-          "nazwa": "Opóźniony rozwój mowy"
-        }
-      ],
-      "slugi_w_menu": [
-        "gloski-szumiace",
-        "wierszyki-na-r",
-        "mowa-startuje"
-      ],
-      "deklarowana_liczba_produktow": 4
-    },
-    "angielski": {
-      "nazwa": "angielski",
-      "opis": "Angielski przy stole, w aucie i przy kolacji. Bez aplikacji i bez wymowy, której sama nie jesteś pewna — wszystko z zapisem fonetycznym po polsku.",
-      "podkategorie": [
-        {
-          "id": "pierwsze-slowa",
-          "nazwa": "Pierwsze słowa"
-        },
-        {
-          "id": "gry-jezykowe",
-          "nazwa": "Gry językowe"
-        },
-        {
-          "id": "czytanie-en",
-          "nazwa": "Czytanie po angielsku"
-        }
-      ],
-      "slugi_w_menu": [
-        "angielski-przy-kolacji",
-        "gry-po-angielsku",
-        "czytam-po-angielsku"
-      ],
-      "deklarowana_liczba_produktow": 4
+      ]
     },
     "grafo": {
       "nazwa": "grafomotoryka i pisanie",
@@ -186,60 +118,13 @@
           "nazwa": "Litery pisane"
         }
       ],
-      "slugi_w_menu": [
+      "deklarowana_liczba_produktow": 4,
+      "produkty": [
+        "lewa-reka",
+        "litery-pisane",
         "pisze-bez-nacisku",
-        "szlaczki-i-wzory",
-        "litery-pisane"
-      ],
-      "deklarowana_liczba_produktow": 4
-    },
-    "pory": {
-      "nazwa": "pory roku i święta",
-      "opis": "Materiały, które wyjmujesz dwa razy w roku i które ratują długi weekend, ferie albo popołudnie przed świętami.",
-      "podkategorie": [
-        {
-          "id": "jesien-zima",
-          "nazwa": "Jesień i zima"
-        },
-        {
-          "id": "wiosna-lato",
-          "nazwa": "Wiosna i lato"
-        },
-        {
-          "id": "swieta",
-          "nazwa": "Święta i tradycje"
-        }
-      ],
-      "slugi_w_menu": [
-        "jesienne-popoludnia",
-        "ferie-bez-ekranu",
-        "wiosna-w-doniczce"
-      ],
-      "deklarowana_liczba_produktow": 4
-    },
-    "swiat": {
-      "nazwa": "nauka o świecie",
-      "opis": "Odpowiedzi na pytania, które dziecko zadaje w aucie. Przyroda, ciało, kosmos i mapa.",
-      "podkategorie": [
-        {
-          "id": "przyroda",
-          "nazwa": "Przyroda i zwierzęta"
-        },
-        {
-          "id": "cialo",
-          "nazwa": "Ciało człowieka"
-        },
-        {
-          "id": "kosmos",
-          "nazwa": "Kosmos i mapa"
-        }
-      ],
-      "slugi_w_menu": [
-        "kto-tu-mieszka",
-        "moje-cialo",
-        "kosmos-dla-poczatkujacych"
-      ],
-      "deklarowana_liczba_produktow": 4
+        "szlaczki-i-wzory"
+      ]
     },
     "gry": {
       "nazwa": "gry do wydruku",
@@ -258,12 +143,88 @@
           "nazwa": "Na podróż"
         }
       ],
-      "slugi_w_menu": [
-        "planszowki-na-start",
+      "deklarowana_liczba_produktow": 4,
+      "produkty": [
+        "bingo-rodzinne",
         "memory-domowe",
+        "planszowki-na-start",
         "zestaw-na-podroz"
+      ]
+    },
+    "logopedia": {
+      "nazwa": "logopedia",
+      "opis": "Ćwiczenia ułożone przez logopedów z uprawnieniami, do robienia w domu. Nie zastępują diagnozy — pozwalają nie stać w miejscu, czekając na wizytę.",
+      "podkategorie": [
+        {
+          "id": "szumiace",
+          "nazwa": "Głoski szumiące"
+        },
+        {
+          "id": "gloska-r",
+          "nazwa": "Głoska R"
+        },
+        {
+          "id": "opoznienie",
+          "nazwa": "Opóźniony rozwój mowy"
+        }
       ],
-      "deklarowana_liczba_produktow": 4
+      "deklarowana_liczba_produktow": 4,
+      "produkty": [
+        "gloski-szumiace",
+        "mowa-startuje",
+        "slyszymy-gloski",
+        "wierszyki-na-r"
+      ]
+    },
+    "matematyka": {
+      "nazwa": "matematyka",
+      "opis": "Liczenie na konkretach, zanim przejdziecie do cyfr na papierze. Bez ścigania się z klasą i bez zadań, których dziecko nie rozumie.",
+      "podkategorie": [
+        {
+          "id": "liczenie",
+          "nazwa": "Liczenie do 20"
+        },
+        {
+          "id": "dzialania",
+          "nazwa": "Dodawanie i odejmowanie"
+        },
+        {
+          "id": "mnozenie",
+          "nazwa": "Tabliczka mnożenia"
+        }
+      ],
+      "deklarowana_liczba_produktow": 4,
+      "produkty": [
+        "dodawanie-bez-palcow",
+        "licze-do-20",
+        "mnozenie-bez-lez",
+        "zadania-z-trescia"
+      ]
+    },
+    "pory": {
+      "nazwa": "pory roku i święta",
+      "opis": "Materiały, które wyjmujesz dwa razy w roku i które ratują długi weekend, ferie albo popołudnie przed świętami.",
+      "podkategorie": [
+        {
+          "id": "jesien-zima",
+          "nazwa": "Jesień i zima"
+        },
+        {
+          "id": "wiosna-lato",
+          "nazwa": "Wiosna i lato"
+        },
+        {
+          "id": "swieta",
+          "nazwa": "Święta i tradycje"
+        }
+      ],
+      "deklarowana_liczba_produktow": 4,
+      "produkty": [
+        "ferie-bez-ekranu",
+        "jesienne-popoludnia",
+        "swieta-w-domu",
+        "wiosna-w-doniczce"
+      ]
     },
     "rodzic": {
       "nazwa": "dla rodzica",
@@ -282,631 +243,2077 @@
           "nazwa": "Kiedy nic nie działa"
         }
       ],
-      "slugi_w_menu": [
+      "deklarowana_liczba_produktow": 4,
+      "produkty": [
+        "kiedy-nic-nie-dziala",
         "moj-tydzien",
-        "rozmowa-z-nauczycielem",
-        "kiedy-nic-nie-dziala"
+        "nadrabiamy-lato",
+        "rozmowa-z-nauczycielem"
+      ]
+    },
+    "rutyny": {
+      "nazwa": "rutyny i samodzielność",
+      "opis": "Plany dnia w obrazkach, tablice obowiązków i wszystko, co zdejmuje z ciebie powtarzanie tego samego dwadzieścia razy dziennie.",
+      "podkategorie": [
+        {
+          "id": "plan-dnia",
+          "nazwa": "Plany dnia"
+        },
+        {
+          "id": "obowiazki",
+          "nazwa": "Obowiązki i nagrody"
+        },
+        {
+          "id": "samodzielnosc",
+          "nazwa": "Samodzielność"
+        }
       ],
-      "deklarowana_liczba_produktow": 4
+      "deklarowana_liczba_produktow": 4,
+      "produkty": [
+        "cichy-poranek",
+        "karty-rutyn",
+        "tablica-obowiazkow",
+        "ubieram-sie-sam"
+      ]
+    },
+    "swiat": {
+      "nazwa": "nauka o świecie",
+      "opis": "Odpowiedzi na pytania, które dziecko zadaje w aucie. Przyroda, ciało, kosmos i mapa.",
+      "podkategorie": [
+        {
+          "id": "przyroda",
+          "nazwa": "Przyroda i zwierzęta"
+        },
+        {
+          "id": "cialo",
+          "nazwa": "Ciało człowieka"
+        },
+        {
+          "id": "kosmos",
+          "nazwa": "Kosmos i mapa"
+        }
+      ],
+      "deklarowana_liczba_produktow": 4,
+      "produkty": [
+        "kosmos-dla-poczatkujacych",
+        "kto-tu-mieszka",
+        "mapa-polski",
+        "moje-cialo"
+      ]
     }
   },
   "produkty": {
     "angielski-przy-kolacji": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Tom Bryant",
+      "autor_rola_prototyp": "lektor angielskiego, 9 lat z dziećmi",
       "cena_pln": 35,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla rodzica, który sam nie mówi po angielsku i się tego wstydzi.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "angielski",
+      "kategoria_nazwa": "Angielski",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 64. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.6,
       "opinie": 219,
+      "opis_akapity": [
+        "Sto słów, które dziecko realnie usłyszy: jedzenie, dom, ubrania, emocje. Karty do rozłożenia na stole i pięć minut rozmowy dziennie.",
+        "Przy każdym słowie jest zapis wymowy po polsku, więc nie musisz znać angielskiego, żeby to poprowadzić."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–8 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "pierwsze-slowa",
+      "podkategoria_nazwa": "Pierwsze słowa",
+      "podtytul": "100 kart z obrazkami",
+      "specs": {
+        "objętość": "64 stron",
+        "wiek": "4–8 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 64,
       "tytul": "Angielski przy kolacji",
       "w_klubie": true,
-      "wiek": "4–8 lat"
+      "wiek": "4–8 lat",
+      "zweryfikowany_tworca": true
+    },
+    "angielski-w-aucie": {
+      "aktualizacje": "Bezpłatne, na zawsze",
+      "autor": "Tom Bryant",
+      "autor_rola_prototyp": "lektor angielskiego, 9 lat z dziećmi",
+      "cena_pln": 25,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla rodzin, które dużo jeżdżą i chcą oderwać dzieci od tabletu.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
+      "kategoria": "angielski",
+      "kategoria_nazwa": "Angielski",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 40. Cały fragment pobierzesz za darmo, bez zakładania konta.",
+      "ocena": 4.5,
+      "opinie": 167,
+      "opis_akapity": [
+        "Trzydzieści zabaw słownych do grania w trasie: bez patrzenia w kartkę, bez pisania i bez ekranu. Ty czytasz raz, potem gracie z głowy.",
+        "Zestaw jest podzielony na trasy krótkie i długie, żeby dobrać coś do czasu jazdy."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "5–10 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "gry-jezykowe",
+      "podkategoria_nazwa": "Gry językowe",
+      "podtytul": "Zabawy bez kartki i bez ekranu",
+      "specs": {
+        "objętość": "40 stron",
+        "wiek": "5–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 40,
+      "tytul": "Angielski w aucie",
+      "w_klubie": false,
+      "wiek": "5–10 lat",
+      "zweryfikowany_tworca": true
     },
     "bingo-rodzinne": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Michał Ptak",
+      "autor_rola_prototyp": "grafik i tata dwójki",
       "cena_pln": 25,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla rodzin z dziećmi w różnym wieku, które grają razem.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
+      "kategoria": "gry",
+      "kategoria_nazwa": "Gry do wydruku",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 44. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.5,
       "opinie": 132,
+      "opis_akapity": [
+        "Bingo do grania w podróży, na spacerze, w sklepie i przed telewizorem. Osiem plansz, każda pod inną sytuację.",
+        "Wersja dla nieczytających jest w całości na obrazkach."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–10 lat"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "memory",
+      "podkategoria_nazwa": "Karty i memory",
+      "podtytul": "Osiem plansz na każdą okazję",
+      "specs": {
+        "objętość": "44 stron",
+        "wiek": "4–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 44,
       "tytul": "Bingo rodzinne",
       "w_klubie": false,
-      "wiek": "4–10 lat"
+      "wiek": "4–10 lat",
+      "zweryfikowany_tworca": true
     },
     "busy-pierwsze-slowa": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Kasia Wrona",
+      "autor_rola_prototyp": "nauczycielka przedszkolna, trenerka Montessori",
       "cena_pln": 59,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dwulatka, który chce robić to samo co starsze rodzeństwo.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "busy",
+      "kategoria_nazwa": "Busy booki i Montessori",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 140. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 486,
+      "opis_akapity": [
+        "Sto czterdzieści stron aktywności do wpięcia w segregator: dopasowywanie, sortowanie, pierwsze kategorie i dużo rzeczy do przyklejania rzepem.",
+        "Drukujesz raz, laminujesz i wraca do was przez kilka miesięcy. Potem wraca jeszcze raz przy młodszym dziecku."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "2–4 lata",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "maluch",
+      "podkategoria_nazwa": "1–3 lata",
+      "podtytul": "Segregator Montessori, 140 stron",
+      "specs": {
+        "objętość": "140 stron",
+        "wiek": "2–4 lata",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 140,
       "tytul": "Busy book: Pierwsze słowa",
       "w_klubie": false,
-      "wiek": "2–4 lata"
+      "wiek": "2–4 lata",
+      "zweryfikowany_tworca": true
     },
     "busy-przedszkolak": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Kasia Wrona",
+      "autor_rola_prototyp": "nauczycielka przedszkolna, trenerka Montessori",
       "cena_pln": 65,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla przedszkolaka, który znudził się materiałami dla maluchów.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "busy",
+      "kategoria_nazwa": "Busy booki i Montessori",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 160. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.9,
       "opinie": 291,
+      "opis_akapity": [
+        "Cięższa wersja dla starszego dziecka: pierwsze litery, liczby do dziesięciu, wzory, sekwencje i zadania na uwagę. Sto sześćdziesiąt stron ułożonych w sześć bloków.",
+        "Każdy blok ma kartę postępu, którą dziecko samo zakleja naklejką."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "3–5 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "przedszkolak",
+      "podkategoria_nazwa": "3–5 lat",
+      "podtytul": "Segregator na 3–5 lat, 160 stron",
+      "specs": {
+        "objętość": "160 stron",
+        "wiek": "3–5 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 160,
       "tytul": "Busy book: Przedszkolak",
       "w_klubie": true,
-      "wiek": "3–5 lat"
+      "wiek": "3–5 lat",
+      "zweryfikowany_tworca": true
     },
     "cichy-poranek": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Ala Dębska",
+      "autor_rola_prototyp": "pedagog, mama trójki",
       "cena_pln": 25,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla rodzica, który wstaje o szóstej razem z dzieckiem i potrzebuje piętnastu minut.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "rutyny",
+      "kategoria_nazwa": "Rutyny i samodzielność",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 40. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 298,
+      "opis_akapity": [
+        "Zestaw krótkich rzeczy do zrobienia samodzielnie zaraz po wstaniu, kiedy dziecko jest już na nogach, a ty jeszcze nie.",
+        "Wszystko bez nożyczek i bez twojej pomocy. Kładziesz wieczorem na stole, rano po prostu działa."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "3–6 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "plan-dnia",
+      "podkategoria_nazwa": "Plany dnia",
+      "podtytul": "Aktywności na pierwszą godzinę dnia",
+      "specs": {
+        "objętość": "40 stron",
+        "wiek": "3–6 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 40,
       "tytul": "Cichy poranek",
       "w_klubie": false,
-      "wiek": "3–6 lat"
+      "wiek": "3–6 lat",
+      "zweryfikowany_tworca": true
     },
     "czytam-i-rozumiem": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Ala Dębska",
+      "autor_rola_prototyp": "pedagog, mama trójki",
       "cena_pln": 55,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które czyta płynnie, ale po przeczytaniu nie umie powiedzieć, o czym było.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
+      "kategoria": "czytanie",
+      "kategoria_nazwa": "Czytanie i sylaby",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 120. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 143,
+      "opis_akapity": [
+        "Czterdzieści tekstów po pół strony, każdy z trzema pytaniami: jedno o fakt, jedno o powód, jedno o to, co dziecko samo o tym myśli. Teksty o rzeczach, które dzieci lubią, nie o Bolku i Lolku.",
+        "Poziom rośnie stopniowo, więc widać postęp bez żadnego testu."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "7–10 lat"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "zrozumienie",
+      "podkategoria_nazwa": "Czytanie ze zrozumieniem",
+      "podtytul": "40 krótkich tekstów z pytaniami",
+      "specs": {
+        "objętość": "120 stron",
+        "wiek": "7–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 120,
       "tytul": "Czytam i rozumiem",
       "w_klubie": false,
-      "wiek": "7–10 lat"
+      "wiek": "7–10 lat",
+      "zweryfikowany_tworca": true
     },
     "czytam-po-angielsku": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Tom Bryant",
+      "autor_rola_prototyp": "lektor angielskiego, 9 lat z dziećmi",
       "cena_pln": 49,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które zna sporo słów, ale nie umie ich przeczytać.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "angielski",
+      "kategoria_nazwa": "Angielski",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 92. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 96,
+      "opis_akapity": [
+        "Angielski czyta się inaczej, niż pisze, i to jest pierwsza ściana. Materiał prowadzi przez phonics: od najprostszych wzorów po te, które trzeba zapamiętać.",
+        "Dwadzieścia krótkich tekstów rośnie razem z poziomem dziecka."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "7–10 lat"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "czytanie-en",
+      "podkategoria_nazwa": "Czytanie po angielsku",
+      "podtytul": "Pierwsze teksty i phonics",
+      "specs": {
+        "objętość": "92 stron",
+        "wiek": "7–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 92,
       "tytul": "Czytam po angielsku",
       "w_klubie": false,
-      "wiek": "7–10 lat"
+      "wiek": "7–10 lat",
+      "zweryfikowany_tworca": true
     },
     "czytam-sylabami": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Marta Zielińska",
+      "autor_rola_prototyp": "neurologopeda, 14 lat praktyki",
       "cena_pln": 79,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które zna litery, ale nie potrafi ich połączyć w słowo.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "czytanie",
+      "kategoria_nazwa": "Czytanie i sylaby",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 184. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.9,
       "opinie": 312,
+      "opis_akapity": [
+        "Dwanaście tygodni ułożonych po kolei: od dwóch liter do książeczki, którą dziecko przeczyta samo. Każdy tydzień ma komplet kart, jedną grę i czytankę na koniec.",
+        "Do każdego tygodnia dostajesz kartkę dla rodzica — co powiedzieć, na co uważać i po czym poznać, że można iść dalej. Nie musisz nic wiedzieć o metodzie sylabowej."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "5–7 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "sylaby",
+      "podkategoria_nazwa": "Czytanie sylabami",
+      "podtytul": "12-tygodniowy program nauki czytania",
+      "specs": {
+        "objętość": "184 stron",
+        "wiek": "5–7 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 184,
       "tytul": "Czytam sylabami",
       "w_klubie": true,
-      "wiek": "5–7 lat"
+      "wiek": "5–7 lat",
+      "zweryfikowany_tworca": true
     },
     "dodawanie-bez-palcow": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Paweł Nowak",
+      "autor_rola_prototyp": "nauczyciel matematyki w klasach 1–3",
       "cena_pln": 49,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które liczy poprawnie, ale wolno i zawsze na palcach.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "matematyka",
+      "kategoria_nazwa": "Matematyka",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 104. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 176,
+      "opis_akapity": [
+        "Sześć tygodni pracy nad tym jednym przejściem: od odliczania po jednym do widzenia wyniku od razu. Głównie przez gry, bo tabelki tego nie załatwiają.",
+        "Osobny blok na przekraczanie progu dziesiątkowego, czyli miejsce, gdzie zwykle wszystko się sypie."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "6–8 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "dzialania",
+      "podkategoria_nazwa": "Dodawanie i odejmowanie",
+      "podtytul": "Przejście na rachunek pamięciowy",
+      "specs": {
+        "objętość": "104 stron",
+        "wiek": "6–8 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 104,
       "tytul": "Dodawanie bez liczenia na palcach",
       "w_klubie": true,
-      "wiek": "6–8 lat"
+      "wiek": "6–8 lat",
+      "zweryfikowany_tworca": true
     },
     "emocjometr": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Julia Rak",
+      "autor_rola_prototyp": "psycholożka dziecięca",
       "cena_pln": 39,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które na pytanie „co się stało” odpowiada „nic”.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "emocje",
+      "kategoria_nazwa": "Emocje i wyciszenie",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 64. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 356,
+      "opis_akapity": [
+        "Karty z minami i sytuacjami, które pomagają dziecku nazwać, co czuje, zanim to wybuchnie. Do rozłożenia na podłodze albo powieszenia na drzwiach pokoju.",
+        "Zestaw ma też kartę dla rodzica z pytaniami, które otwierają rozmowę zamiast ją zamykać."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–9 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "rozpoznawanie",
+      "podkategoria_nazwa": "Rozpoznawanie emocji",
+      "podtytul": "Karty rozmów o uczuciach",
+      "specs": {
+        "objętość": "64 stron",
+        "wiek": "4–9 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 64,
       "tytul": "Emocjometr",
       "w_klubie": false,
-      "wiek": "4–9 lat"
+      "wiek": "4–9 lat",
+      "zweryfikowany_tworca": true
     },
     "ferie-bez-ekranu": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "zespół Lupy",
+      "autor_rola_prototyp": "redakcja",
       "cena_pln": 29,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla rodzica, który bierze urlop na ferie i boi się tych dwóch tygodni.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "pory",
+      "kategoria_nazwa": "Pory roku i święta",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 56. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 511,
+      "opis_akapity": [
+        "Czternaście dni rozpisanych po kolei: każdy dzień ma jedną rzecz do zrobienia rano i jedną po obiedzie. Drukujesz w niedzielę przed feriami i masz spokój.",
+        "Nic nie wymaga wyjścia z domu ani kupowania materiałów poza kredkami i nożyczkami."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–9 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "jesien-zima",
+      "podkategoria_nazwa": "Jesień i zima",
+      "podtytul": "14 dni aktywności, jeden wydruk",
+      "specs": {
+        "objętość": "56 stron",
+        "wiek": "4–9 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 56,
       "tytul": "Ferie bez ekranu",
       "w_klubie": false,
-      "wiek": "4–9 lat"
+      "wiek": "4–9 lat",
+      "zweryfikowany_tworca": true
     },
     "gloski-szumiace": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Anna Bem",
+      "autor_rola_prototyp": "neurologopeda kliniczny",
       "cena_pln": 69,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które seplenі, i dla rodzica czekającego w kolejce do logopedy.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "logopedia",
+      "kategoria_nazwa": "Logopedia",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 132. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 5.0,
       "opinie": 128,
+      "opis_akapity": [
+        "Pełna ścieżka dla trzech głosek szumiących: od ustawienia języka, przez sylaby, wyrazy i zdania, aż po mowę spontaniczną. Ta kolejność jest tu najważniejsza.",
+        "Do każdego etapu jest nagranie wideo z instruktażem dla rodzica, dostępne po zakupie przez link w pliku."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–8 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "szumiace",
+      "podkategoria_nazwa": "Głoski szumiące",
+      "podtytul": "Zestaw ćwiczeń logopedycznych",
+      "specs": {
+        "objętość": "132 stron",
+        "wiek": "4–8 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 132,
       "tytul": "Głoska Sz, Ż, Cz krok po kroku",
       "w_klubie": true,
-      "wiek": "4–8 lat"
+      "wiek": "4–8 lat",
+      "zweryfikowany_tworca": true
     },
     "gry-po-angielsku": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Tom Bryant",
+      "autor_rola_prototyp": "lektor angielskiego, 9 lat z dziećmi",
       "cena_pln": 39,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla rodziny, która chce ćwiczyć angielski, ale nie przy zeszycie.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "angielski",
+      "kategoria_nazwa": "Angielski",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 72. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 148,
+      "opis_akapity": [
+        "Sześć gier, w których wygrywa się przez użycie słowa, a nie przez jego zapisanie. Zasady na jednej stronie, żeby dało się zacząć od razu.",
+        "Gry są tak zbudowane, że działają też z rodzeństwem w różnym wieku."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "6–10 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "gry-jezykowe",
+      "podkategoria_nazwa": "Gry językowe",
+      "podtytul": "Sześć planszówek do nauki słówek",
+      "specs": {
+        "objętość": "72 stron",
+        "wiek": "6–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 72,
       "tytul": "Gry po angielsku",
       "w_klubie": false,
-      "wiek": "6–10 lat"
+      "wiek": "6–10 lat",
+      "zweryfikowany_tworca": true
     },
     "jesienne-popoludnia": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "zespół Lupy",
+      "autor_rola_prototyp": "redakcja",
       "cena_pln": 29,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla października i listopada, kiedy pomysły się kończą.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "pory",
+      "kategoria_nazwa": "Pory roku i święta",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 64. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.6,
       "opinie": 274,
+      "opis_akapity": [
+        "Trzydzieści rzeczy do zrobienia, kiedy jest ciemno o szesnastej i nikomu nie chce się wyjść z domu. Część z kasztanami, część przy stole.",
+        "Materiał jest tak ułożony, że można wyciągnąć jedną kartkę i tyle wystarczy na godzinę."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "3–8 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "jesien-zima",
+      "podkategoria_nazwa": "Jesień i zima",
+      "podtytul": "30 aktywności na szarą porę roku",
+      "specs": {
+        "objętość": "64 stron",
+        "wiek": "3–8 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 64,
       "tytul": "Jesienne popołudnia",
       "w_klubie": false,
-      "wiek": "3–8 lat"
+      "wiek": "3–8 lat",
+      "zweryfikowany_tworca": true
     },
     "karty-rutyn": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Ala Dębska",
+      "autor_rola_prototyp": "pedagog, mama trójki",
       "cena_pln": 29,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla domu, w którym poranek to codziennie ta sama awantura.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "rutyny",
+      "kategoria_nazwa": "Rutyny i samodzielność",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 56. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 741,
+      "opis_akapity": [
+        "Czterdzieści osiem kart z obrazkami do ułożenia w kolejność: co robimy rano, co wieczorem. Dziecko przesuwa kartę po każdej zrobionej rzeczy.",
+        "Jest wersja dla dziecka, które jeszcze nie czyta, i wersja z podpisami."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "3–7 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "plan-dnia",
+      "podkategoria_nazwa": "Plany dnia",
+      "podtytul": "48 kart i tablica",
+      "specs": {
+        "objętość": "56 stron",
+        "wiek": "3–7 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 56,
       "tytul": "Karty rutyn: poranek i wieczór",
       "w_klubie": false,
-      "wiek": "3–7 lat"
+      "wiek": "3–7 lat",
+      "zweryfikowany_tworca": true
     },
     "kiedy-jestem-zly": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Julia Rak",
+      "autor_rola_prototyp": "psycholożka dziecięca",
       "cena_pln": 39,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, u którego złość przychodzi szybciej, niż zdąży pomyśleć.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "emocje",
+      "kategoria_nazwa": "Emocje i wyciszenie",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 72. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.9,
       "opinie": 228,
+      "opis_akapity": [
+        "Nie jest to materiał do robienia w trakcie awantury. Ustalacie plan wcześniej, na spokojnie, a potem dziecko ma gotową ścieżkę, kiedy zaczyna się gotować.",
+        "W środku: karta „mojej złości”, trzy techniki oddechowe w obrazkach i kącik wyciszenia do wydrukowania."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "5–9 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "zlosc",
+      "podkategoria_nazwa": "Złość i frustracja",
+      "podtytul": "Plan na wybuch, ustalony na spokojnie",
+      "specs": {
+        "objętość": "72 stron",
+        "wiek": "5–9 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 72,
       "tytul": "Kiedy jestem zły",
       "w_klubie": true,
-      "wiek": "5–9 lat"
+      "wiek": "5–9 lat",
+      "zweryfikowany_tworca": true
     },
     "kiedy-nic-nie-dziala": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Julia Rak",
+      "autor_rola_prototyp": "psycholożka dziecięca",
       "cena_pln": 25,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla rodzica, który kupił już trzy programy i żaden nie ruszył.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "rodzic",
+      "kategoria_nazwa": "Dla rodzica",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 40. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 167,
+      "opis_akapity": [
+        "Krótki materiał o tym, dlaczego dziecko odmawia siadania do nauki i co z tym zrobić, zanim zaczniesz je przekupywać albo karać.",
+        "Cztery najczęstsze przyczyny, każda z konkretną rzeczą do sprawdzenia w tym tygodniu."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "dowolny"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "motywacja",
+      "podkategoria_nazwa": "Kiedy nic nie działa",
+      "podtytul": "Co robić, gdy dziecko odmawia",
+      "specs": {
+        "objętość": "40 stron",
+        "wiek": "dowolny",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 40,
       "tytul": "Kiedy nic nie działa",
       "w_klubie": false,
-      "wiek": "dowolny"
+      "wiek": "dowolny",
+      "zweryfikowany_tworca": true
     },
     "kosmos-dla-poczatkujacych": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Iga Sobczak",
+      "autor_rola_prototyp": "nauczycielka biologii i przyrody",
       "cena_pln": 39,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które chce być astronautą, i dla wieczoru z widoczną Wenus.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "swiat",
+      "kategoria_nazwa": "Nauka o świecie",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 80. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 173,
+      "opis_akapity": [
+        "Układ Słoneczny w skali, którą da się rozłożyć na podłodze w korytarzu, i mapy nieba na cztery pory roku do zabrania na dwór.",
+        "Wszystko z aktualnymi danymi, bez planety, która przestała być planetą."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "5–10 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "kosmos",
+      "podkategoria_nazwa": "Kosmos i mapa",
+      "podtytul": "Planety, Księżyc i pierwsze mapy nieba",
+      "specs": {
+        "objętość": "80 stron",
+        "wiek": "5–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 80,
       "tytul": "Kosmos dla początkujących",
       "w_klubie": true,
-      "wiek": "5–10 lat"
+      "wiek": "5–10 lat",
+      "zweryfikowany_tworca": true
     },
     "kto-tu-mieszka": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Iga Sobczak",
+      "autor_rola_prototyp": "nauczycielka biologii i przyrody",
       "cena_pln": 35,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które przynosi do domu każdego znalezionego ślimaka.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "swiat",
+      "kategoria_nazwa": "Nauka o świecie",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 76. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 186,
+      "opis_akapity": [
+        "Zwierzęta, które dziecko realnie może spotkać w parku i w lesie, a nie lwy i żyrafy. Kto gdzie mieszka, co je i co robi zimą.",
+        "Dołączona jest karta do zabrania na spacer, na której zaznacza się, kogo się spotkało."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–8 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "przyroda",
+      "podkategoria_nazwa": "Przyroda i zwierzęta",
+      "podtytul": "Zwierzęta Polski i ich domy",
+      "specs": {
+        "objętość": "76 stron",
+        "wiek": "4–8 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 76,
       "tytul": "Kto tu mieszka",
       "w_klubie": false,
-      "wiek": "4–8 lat"
+      "wiek": "4–8 lat",
+      "zweryfikowany_tworca": true
+    },
+    "lewa-reka": {
+      "aktualizacje": "Bezpłatne, na zawsze",
+      "autor": "Ewa Lis",
+      "autor_rola_prototyp": "terapeutka ręki",
+      "cena_pln": 45,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla leworęcznego dziecka, któremu standardowe karty pracy tylko szkodzą.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
+      "kategoria": "grafo",
+      "kategoria_nazwa": "Grafomotoryka i pisanie",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 80. Cały fragment pobierzesz za darmo, bez zakładania konta.",
+      "ocena": 4.9,
+      "opinie": 84,
+      "opis_akapity": [
+        "Materiał napisany od zera dla dziecka leworęcznego: inne ułożenie kartki, inny chwyt, inne kierunki kreślenia i szlaczki prowadzone w drugą stronę.",
+        "Jest też kartka dla rodzica o tym, czego nie robić, jeśli sam jesteś praworęczny."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "5–8 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "chwyt",
+      "podkategoria_nazwa": "Chwyt i nacisk",
+      "podtytul": "Grafomotoryka dla leworęcznych",
+      "specs": {
+        "objętość": "80 stron",
+        "wiek": "5–8 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 80,
+      "tytul": "Piszę lewą ręką",
+      "w_klubie": false,
+      "wiek": "5–8 lat",
+      "zweryfikowany_tworca": true
     },
     "licze-do-20": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Paweł Nowak",
+      "autor_rola_prototyp": "nauczyciel matematyki w klasach 1–3",
       "cena_pln": 45,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla przedszkolaka i pierwszaka, który liczy z pamięci, ale gubi się przy pięciu jabłkach.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "matematyka",
+      "kategoria_nazwa": "Matematyka",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 90. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 142,
+      "opis_akapity": [
+        "Najpierw liczymy klocki, guziki i schody, potem to samo na papierze. Cyfra pojawia się dopiero wtedy, kiedy dziecko wie, co za nią stoi.",
+        "Materiał zawiera karty do liczenia w ruchu — do przyklejenia na podłodze albo na schodach."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "5–6 lat"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "liczenie",
+      "podkategoria_nazwa": "Liczenie do 20",
+      "podtytul": "Matematyka konkretna, 90 stron",
+      "specs": {
+        "objętość": "90 stron",
+        "wiek": "5–6 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 90,
       "tytul": "Liczę do 20 na palcach i bez",
       "w_klubie": false,
-      "wiek": "5–6 lat"
+      "wiek": "5–6 lat",
+      "zweryfikowany_tworca": true
     },
     "litery-od-zera": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Kasia Wrona",
+      "autor_rola_prototyp": "nauczycielka przedszkolna, trenerka Montessori",
       "cena_pln": 45,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla przedszkolaka, który zaczyna pytać, co to za znaczki.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "czytanie",
+      "kategoria_nazwa": "Czytanie i sylaby",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 96. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 204,
+      "opis_akapity": [
+        "Jedna litera na dwa dni, zawsze w tej samej kolejności: słuchamy, szukamy, piszemy palcem, dopiero potem kredką. Litery ułożone od najłatwiejszych do wymówienia.",
+        "Zestaw zawiera karty do powieszenia na lodówce i wersję do wycięcia, żeby dziecko układało z liter swoje imię."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–6 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "litery",
+      "podkategoria_nazwa": "Poznawanie liter",
+      "podtytul": "Poznajemy alfabet bez pośpiechu",
+      "specs": {
+        "objętość": "96 stron",
+        "wiek": "4–6 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 96,
       "tytul": "Litery od zera",
       "w_klubie": false,
-      "wiek": "4–6 lat"
+      "wiek": "4–6 lat",
+      "zweryfikowany_tworca": true
     },
     "litery-pisane": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Ewa Lis",
+      "autor_rola_prototyp": "terapeutka ręki",
       "cena_pln": 49,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla pierwszoklasisty, który uczy się pisać, i dla drugoklasisty, u którego pismo jest nieczytelne.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "grafo",
+      "kategoria_nazwa": "Grafomotoryka i pisanie",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 132. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 139,
+      "opis_akapity": [
+        "Wszystkie litery pisane z zaznaczonym kierunkiem kreślenia i — co ważniejsze — z połączeniami między nimi, bo tam zwykle wszystko się rozjeżdża.",
+        "Osobny blok na litery, które dzieci mylą najczęściej."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "6–8 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "litery-pisane",
+      "podkategoria_nazwa": "Litery pisane",
+      "podtytul": "Cały alfabet z połączeniami",
+      "specs": {
+        "objętość": "132 stron",
+        "wiek": "6–8 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 132,
       "tytul": "Litery pisane",
       "w_klubie": true,
-      "wiek": "6–8 lat"
+      "wiek": "6–8 lat",
+      "zweryfikowany_tworca": true
+    },
+    "mapa-polski": {
+      "aktualizacje": "Bezpłatne, na zawsze",
+      "autor": "Iga Sobczak",
+      "autor_rola_prototyp": "nauczycielka biologii i przyrody",
+      "cena_pln": 35,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka przed pierwszą wycieczką szkolną i dla nauki przed sprawdzianem.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
+      "kategoria": "swiat",
+      "kategoria_nazwa": "Nauka o świecie",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 72. Cały fragment pobierzesz za darmo, bez zakładania konta.",
+      "ocena": 4.6,
+      "opinie": 119,
+      "opis_akapity": [
+        "Mapa do wydruku w kawałkach na format A4, do sklejenia i powieszenia, plus karty z miastami, rzekami i regionami.",
+        "Dołączona gra w zgadywanie, gdzie mieszka rodzina, która działa lepiej niż wkuwanie."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "6–10 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "kosmos",
+      "podkategoria_nazwa": "Kosmos i mapa",
+      "podtytul": "Miasta, rzeki i co gdzie leży",
+      "specs": {
+        "objętość": "72 stron",
+        "wiek": "6–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 72,
+      "tytul": "Mapa Polski dla dzieci",
+      "w_klubie": false,
+      "wiek": "6–10 lat",
+      "zweryfikowany_tworca": true
     },
     "memory-domowe": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Michał Ptak",
+      "autor_rola_prototyp": "grafik i tata dwójki",
       "cena_pln": 29,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla trzylatka i dla wieczoru, kiedy nikt nie ma siły na nic skomplikowanego.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "gry",
+      "kategoria_nazwa": "Gry do wydruku",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 52. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.6,
       "opinie": 198,
+      "opis_akapity": [
+        "Cztery komplety memory: zwierzęta, jedzenie, pojazdy i emocje. Karty są duże, żeby zmieściły się w małych dłoniach.",
+        "Wersja dla młodszych ma dwadzieścia cztery karty, żeby gra nie trwała wiecznie."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "3–8 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "memory",
+      "podkategoria_nazwa": "Karty i memory",
+      "podtytul": "Cztery zestawy po 48 kart",
+      "specs": {
+        "objętość": "52 stron",
+        "wiek": "3–8 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 52,
       "tytul": "Memory domowe",
       "w_klubie": false,
-      "wiek": "3–8 lat"
+      "wiek": "3–8 lat",
+      "zweryfikowany_tworca": true
     },
     "mnozenie-bez-lez": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Paweł Nowak",
+      "autor_rola_prototyp": "nauczyciel matematyki w klasach 1–3",
       "cena_pln": 49,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla trzecioklasisty, u którego mnożenie zamieniło się w płacz przy stole.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "matematyka",
+      "kategoria_nazwa": "Matematyka",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 112. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.9,
       "opinie": 203,
+      "opis_akapity": [
+        "Tabliczka rozbita na osiem tygodni w kolejności od najłatwiejszych do najtrudniejszych, z powtórką starych działek co tydzień, żeby nic nie wypadło.",
+        "Zero wyścigów na czas. Zamiast tego cztery gry planszowe i karty do samodzielnych powtórek."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "7–9 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "mnozenie",
+      "podkategoria_nazwa": "Tabliczka mnożenia",
+      "podtytul": "Gry, karty i plan na 8 tygodni",
+      "specs": {
+        "objętość": "112 stron",
+        "wiek": "7–9 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 112,
       "tytul": "Tabliczka mnożenia bez łez",
       "w_klubie": true,
-      "wiek": "7–9 lat"
+      "wiek": "7–9 lat",
+      "zweryfikowany_tworca": true
     },
     "moj-tydzien": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "zespół Lupy",
+      "autor_rola_prototyp": "redakcja",
       "cena_pln": 19,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla rodzica, który ma materiały, ale nigdy nie wie, kiedy je zrobić.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "rodzic",
+      "kategoria_nazwa": "Dla rodzica",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 32. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.9,
       "opinie": 892,
+      "opis_akapity": [
+        "Jedna kartka na tydzień: co robicie którego dnia, ile to zajmuje i co odpuszczasz. Zaprojektowane tak, żeby dało się wypełnić w pięć minut w niedzielę wieczorem.",
+        "Jest też wersja dla dwójki i trójki dzieci, bo to zupełnie inna logistyka."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "dowolny",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "planowanie",
+      "podkategoria_nazwa": "Planowanie nauki",
+      "podtytul": "Planer nauki dla rodzica",
+      "specs": {
+        "objętość": "32 stron",
+        "wiek": "dowolny",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 32,
       "tytul": "Mój tydzień",
       "w_klubie": false,
-      "wiek": "dowolny"
+      "wiek": "dowolny",
+      "zweryfikowany_tworca": true
     },
     "moje-cialo": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Iga Sobczak",
+      "autor_rola_prototyp": "nauczycielka biologii i przyrody",
       "cena_pln": 39,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka w wieku pytań „a czemu?”.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "swiat",
+      "kategoria_nazwa": "Nauka o świecie",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 84. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 142,
+      "opis_akapity": [
+        "Układy i narządy wytłumaczone tak, żeby dziecko zrozumiało, po co ma serce i co się dzieje z jedzeniem po połknięciu.",
+        "Osobny blok o tym, dlaczego trzeba spać i myć ręce — bez straszenia."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "5–10 lat"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "cialo",
+      "podkategoria_nazwa": "Ciało człowieka",
+      "podtytul": "Jak to wszystko działa w środku",
+      "specs": {
+        "objętość": "84 stron",
+        "wiek": "5–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 84,
       "tytul": "Moje ciało",
       "w_klubie": false,
-      "wiek": "5–10 lat"
+      "wiek": "5–10 lat",
+      "zweryfikowany_tworca": true
+    },
+    "moje-mocne-strony": {
+      "aktualizacje": "Bezpłatne, na zawsze",
+      "autor": "Julia Rak",
+      "autor_rola_prototyp": "psycholożka dziecięca",
+      "cena_pln": 32,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które na każdą trudność mówi „ja tego nie umiem”.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
+      "kategoria": "emocje",
+      "kategoria_nazwa": "Emocje i wyciszenie",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 56. Cały fragment pobierzesz za darmo, bez zakładania konta.",
+      "ocena": 4.6,
+      "opinie": 121,
+      "opis_akapity": [
+        "Ćwiczenia, w których dziecko samo znajduje dowody na to, że coś potrafi — zamiast słuchać, że jest zdolne, w co i tak nie wierzy.",
+        "Materiał dobrze działa po trudnym okresie w szkole albo po zmianie klasy."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "6–10 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "rozpoznawanie",
+      "podkategoria_nazwa": "Rozpoznawanie emocji",
+      "podtytul": "Pewność siebie bez pustych pochwał",
+      "specs": {
+        "objętość": "56 stron",
+        "wiek": "6–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 56,
+      "tytul": "Moje mocne strony",
+      "w_klubie": false,
+      "wiek": "6–10 lat",
+      "zweryfikowany_tworca": true
     },
     "mowa-startuje": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Renata Kołodziej",
+      "autor_rola_prototyp": "oligofrenopedagog",
       "cena_pln": 65,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla rodzica dwulatka, który słyszy „poczekajcie, jeszcze zagada”.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "logopedia",
+      "kategoria_nazwa": "Logopedia",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 96. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 156,
+      "opis_akapity": [
+        "Materiał dla dziecka, które jeszcze nie mówi albo mówi bardzo mało: onomatopeje, gesty, pierwsze sylaby i zabawy, które prowokują dźwięk.",
+        "W środku jest też lista sygnałów, przy których warto pójść do specjalisty, i czego się spodziewać na wizycie."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "1,5–3 lata"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "opoznienie",
+      "podkategoria_nazwa": "Opóźniony rozwój mowy",
+      "podtytul": "Wspieranie mowy u dwulatka",
+      "specs": {
+        "objętość": "96 stron",
+        "wiek": "1,5–3 lata",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 96,
       "tytul": "Mowa startuje",
       "w_klubie": false,
-      "wiek": "1,5–3 lata"
+      "wiek": "1,5–3 lata",
+      "zweryfikowany_tworca": true
+    },
+    "nadrabiamy-lato": {
+      "aktualizacje": "Bezpłatne, na zawsze",
+      "autor": "zespół Lupy",
+      "autor_rola_prototyp": "redakcja",
+      "cena_pln": 32,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla sierpnia i dla rodzica, który wie, że pierwszy tydzień września zwykle boli.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
+      "kategoria": "rodzic",
+      "kategoria_nazwa": "Dla rodzica",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 48. Cały fragment pobierzesz za darmo, bez zakładania konta.",
+      "ocena": 4.7,
+      "opinie": 289,
+      "opis_akapity": [
+        "Plan na ostatnie trzy tygodnie wakacji: po dwadzieścia minut dziennie, żeby wrócić do rytmu bez odbierania dziecku reszty lata.",
+        "Rozpisane osobno dla klas 1–2 i 3–4, bo potrzeby są zupełnie inne."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "6–10 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "planowanie",
+      "podkategoria_nazwa": "Planowanie nauki",
+      "podtytul": "Trzy tygodnie przed wrześniem",
+      "specs": {
+        "objętość": "48 stron",
+        "wiek": "6–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 48,
+      "tytul": "Nadrabiamy lato",
+      "w_klubie": true,
+      "wiek": "6–10 lat",
+      "zweryfikowany_tworca": true
     },
     "pisze-bez-nacisku": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Ewa Lis",
+      "autor_rola_prototyp": "terapeutka ręki",
       "cena_pln": 45,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które przeciska ołówek przez kartkę i po dwóch linijkach mówi, że boli.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "grafo",
+      "kategoria_nazwa": "Grafomotoryka i pisanie",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 88. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 164,
+      "opis_akapity": [
+        "Sześć tygodni pracy nad ręką, zanim zaczniemy pisać litery: chwyt, siła nacisku, ruchy nadgarstka i ćwiczenia rozluźniające.",
+        "Do każdego tygodnia jest ćwiczenie bez kartki — z ciastoliną, gąbką albo kredą na chodniku."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "5–7 lat"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "chwyt",
+      "podkategoria_nazwa": "Chwyt i nacisk",
+      "podtytul": "Grafomotoryka na 6 tygodni",
+      "specs": {
+        "objętość": "88 stron",
+        "wiek": "5–7 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 88,
       "tytul": "Piszę bez nacisku",
       "w_klubie": false,
-      "wiek": "5–7 lat"
+      "wiek": "5–7 lat",
+      "zweryfikowany_tworca": true
     },
     "planszowki-na-start": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Michał Ptak",
+      "autor_rola_prototyp": "grafik i tata dwójki",
       "cena_pln": 39,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla rodzin, które grają w niedzielę i mają dość Chińczyka.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "gry",
+      "kategoria_nazwa": "Gry do wydruku",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 80. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 264,
+      "opis_akapity": [
+        "Sześć plansz z prostymi zasadami, każda ćwiczy coś innego: liczenie, kolejność, pamięć, podejmowanie decyzji. Do wydruku na zwykłym papierze i podklejenia kartonem.",
+        "Pionki i kostka też są w pliku, więc nie trzeba niczego dokupować."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–8 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "planszowki",
+      "podkategoria_nazwa": "Planszówki",
+      "podtytul": "Sześć gier do wydruku i sklejenia",
+      "specs": {
+        "objętość": "80 stron",
+        "wiek": "4–8 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 80,
       "tytul": "Planszówki na start",
       "w_klubie": false,
-      "wiek": "4–8 lat"
+      "wiek": "4–8 lat",
+      "zweryfikowany_tworca": true
     },
     "rozmowa-z-nauczycielem": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Ala Dębska",
+      "autor_rola_prototyp": "pedagog, mama trójki",
       "cena_pln": 25,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla rodzica przed pierwszym zebraniem albo przed trudną rozmową o dziecku.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "rodzic",
+      "kategoria_nazwa": "Dla rodzica",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 36. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 204,
+      "opis_akapity": [
+        "Lista pytań, które warto zadać, i sposób na zapisanie tego, co usłyszysz, żeby po tygodniu nie zostało samo wrażenie.",
+        "Osobna część o tym, co zrobić, jeśli usłyszysz coś, z czym się nie zgadzasz."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "dowolny",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "rozmowy",
+      "podkategoria_nazwa": "Trudne rozmowy",
+      "podtytul": "Jak przygotować się na zebranie",
+      "specs": {
+        "objętość": "36 stron",
+        "wiek": "dowolny",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 36,
       "tytul": "Rozmowa z nauczycielem",
       "w_klubie": false,
-      "wiek": "dowolny"
+      "wiek": "dowolny",
+      "zweryfikowany_tworca": true
     },
     "slyszymy-gloski": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Anna Bem",
+      "autor_rola_prototyp": "neurologopeda kliniczny",
       "cena_pln": 45,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla przedszkolaka przed nauką czytania i dla dziecka, któremu czytanie idzie opornie.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
+      "kategoria": "logopedia",
+      "kategoria_nazwa": "Logopedia",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 84. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 137,
+      "opis_akapity": [
+        "Zanim dziecko zacznie czytać, musi usłyszeć, że „kot” zaczyna się inaczej niż „dom”. Ten materiał ćwiczy dokładnie to i nic więcej.",
+        "Bez liter — wszystko na obrazkach i dźwiękach, więc można zacząć rok przed szkołą."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–7 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "szumiace",
+      "podkategoria_nazwa": "Głoski szumiące",
+      "podtytul": "Słuch fonemowy przed nauką czytania",
+      "specs": {
+        "objętość": "84 stron",
+        "wiek": "4–7 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 84,
       "tytul": "Słyszymy głoski",
       "w_klubie": false,
-      "wiek": "4–7 lat"
+      "wiek": "4–7 lat",
+      "zweryfikowany_tworca": true
+    },
+    "swieta-w-domu": {
+      "aktualizacje": "Bezpłatne, na zawsze",
+      "autor": "zespół Lupy",
+      "autor_rola_prototyp": "redakcja",
+      "cena_pln": 39,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla grudnia, kiedy i tak wszystko robisz na ostatnią chwilę.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
+      "kategoria": "pory",
+      "kategoria_nazwa": "Pory roku i święta",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 88. Cały fragment pobierzesz za darmo, bez zakładania konta.",
+      "ocena": 4.7,
+      "opinie": 332,
+      "opis_akapity": [
+        "Kalendarz adwentowy z zadaniami zamiast czekoladek, ozdoby do wycięcia i karty o tradycjach, które dziecko może przeczytać dziadkom.",
+        "Wszystko drukuje się czarno-białym — kolorowanie ozdób jest częścią zabawy."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "3–10 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "swieta",
+      "podkategoria_nazwa": "Święta i tradycje",
+      "podtytul": "Adwent, ozdoby i tradycje",
+      "specs": {
+        "objętość": "88 stron",
+        "wiek": "3–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 88,
+      "tytul": "Święta w domu",
+      "w_klubie": true,
+      "wiek": "3–10 lat",
+      "zweryfikowany_tworca": true
     },
     "sylaby-dogrywka": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Marta Zielińska",
+      "autor_rola_prototyp": "neurologopeda, 14 lat praktyki",
       "cena_pln": 39,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które czyta „ma” i „la”, ale rozsypuje się na „mak” i „las”.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "czytanie",
+      "kategoria_nazwa": "Czytanie i sylaby",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 64. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.9,
       "opinie": 87,
+      "opis_akapity": [
+        "Osobny materiał na jedno konkretne miejsce, w którym zacina się większość dzieci: sylaba domknięta spółgłoską. Szesnaście kart z podziałem na kolory i cztery gry w parach.",
+        "Można go zrobić w tydzień albo rozłożyć na trzy. Jest też wersja z większą czcionką."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "6–8 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "sylaby",
+      "podkategoria_nazwa": "Czytanie sylabami",
+      "podtytul": "Blok dla dzieci, które utknęły",
+      "specs": {
+        "objętość": "64 stron",
+        "wiek": "6–8 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 64,
       "tytul": "Sylaby zamknięte — dogrywka",
       "w_klubie": true,
-      "wiek": "6–8 lat"
+      "wiek": "6–8 lat",
+      "zweryfikowany_tworca": true
     },
     "szlaczki-i-wzory": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Ewa Lis",
+      "autor_rola_prototyp": "terapeutka ręki",
       "cena_pln": 35,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla przedszkolaka przygotowującego się do pisania.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "grafo",
+      "kategoria_nazwa": "Grafomotoryka i pisanie",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 120. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 231,
+      "opis_akapity": [
+        "Klasyczne szlaczki, ale ułożone od bardzo grubych i dużych do drobnych, żeby ręka schodziła w dół stopniowo, a nie od razu.",
+        "Wszystko drukuje się czarno-białym i nie zjada tuszu."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–6 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "szlaczki",
+      "podkategoria_nazwa": "Szlaczki i wzory",
+      "podtytul": "120 stron od grubej linii do cienkiej",
+      "specs": {
+        "objętość": "120 stron",
+        "wiek": "4–6 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 120,
       "tytul": "Szlaczki i wzory",
       "w_klubie": false,
-      "wiek": "4–6 lat"
+      "wiek": "4–6 lat",
+      "zweryfikowany_tworca": true
     },
     "tablica-obowiazkow": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Ala Dębska",
+      "autor_rola_prototyp": "pedagog, mama trójki",
       "cena_pln": 35,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla rodziny, która próbowała już trzech tablic i żadna nie przetrwała.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "rutyny",
+      "kategoria_nazwa": "Rutyny i samodzielność",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 52. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.6,
       "opinie": 389,
+      "opis_akapity": [
+        "Tablica z obowiązkami dopasowanymi do wieku i prosty system punktów, który nie zamienia się w licytację o nagrody.",
+        "Osobna kartka dla rodzica o tym, dlaczego większość takich tablic pada po dziesięciu dniach i jak tego uniknąć."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–9 lat"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "obowiazki",
+      "podkategoria_nazwa": "Obowiązki i nagrody",
+      "podtytul": "System, który nie rozpada się po tygodniu",
+      "specs": {
+        "objętość": "52 stron",
+        "wiek": "4–9 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 52,
       "tytul": "Tablica obowiązków i nagród",
       "w_klubie": false,
-      "wiek": "4–9 lat"
+      "wiek": "4–9 lat",
+      "zweryfikowany_tworca": true
     },
     "teczka-pojazdy": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Michał Ptak",
+      "autor_rola_prototyp": "grafik i tata dwójki",
       "cena_pln": 29,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które od pół roku mówi wyłącznie o koparkach.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "busy",
+      "kategoria_nazwa": "Busy booki i Montessori",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 48. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 167,
+      "opis_akapity": [
+        "Dwadzieścia aktywności wokół jednego tematu, który dziecko i tak kocha. Liczenie, dopasowywanie, labirynty i pierwsze słowa związane z pojazdami.",
+        "Teczki działają dobrze, jeśli dziecko ma jedną obsesję i nie chce robić nic innego."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "3–6 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "teczki",
+      "podkategoria_nazwa": "Teczki tematyczne",
+      "podtytul": "Jeden temat, dwadzieścia aktywności",
+      "specs": {
+        "objętość": "48 stron",
+        "wiek": "3–6 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 48,
       "tytul": "Teczka tematyczna: Pojazdy",
       "w_klubie": false,
-      "wiek": "3–6 lat"
+      "wiek": "3–6 lat",
+      "zweryfikowany_tworca": true
     },
     "teczka-zwierzeta": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Iga Sobczak",
+      "autor_rola_prototyp": "nauczycielka biologii i przyrody",
       "cena_pln": 29,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla przedszkolaka na deszczowe popołudnie.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
+      "kategoria": "busy",
+      "kategoria_nazwa": "Busy booki i Montessori",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 48. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 212,
+      "opis_akapity": [
+        "To samo, co teczka o pojazdach, tylko o zwierzętach: gdzie mieszkają, co jedzą, kto ma jakie młode. Aktywności bez czytania, więc działa też z młodszym dzieckiem.",
+        "Można ją połączyć z materiałami z kategorii Przyroda, jeśli dziecko chce iść dalej."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "3–6 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "teczki",
+      "podkategoria_nazwa": "Teczki tematyczne",
+      "podtytul": "Dwadzieścia aktywności o zwierzętach",
+      "specs": {
+        "objętość": "48 stron",
+        "wiek": "3–6 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 48,
       "tytul": "Teczka tematyczna: Zwierzęta",
       "w_klubie": false,
-      "wiek": "3–6 lat"
+      "wiek": "3–6 lat",
+      "zweryfikowany_tworca": true
     },
     "ubieram-sie-sam": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Kasia Wrona",
+      "autor_rola_prototyp": "nauczycielka przedszkolna, trenerka Montessori",
       "cena_pln": 25,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla przedszkolaka przed pierwszą zimą, kiedy ubieranie zajmuje dwadzieścia minut.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
+      "kategoria": "rutyny",
+      "kategoria_nazwa": "Rutyny i samodzielność",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 36. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 176,
+      "opis_akapity": [
+        "Rozłożone na etapy: guziki, zamek, buty, kolejność ubierania. Każdy etap ma obrazkową instrukcję, którą dziecko może powiesić w przedpokoju.",
+        "Dołączona jest karta „sam założyłem”, żeby dziecko widziało postęp."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "3–5 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "samodzielnosc",
+      "podkategoria_nazwa": "Samodzielność",
+      "podtytul": "Nauka samodzielności krok po kroku",
+      "specs": {
+        "objętość": "36 stron",
+        "wiek": "3–5 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 36,
       "tytul": "Ubieram się sam",
       "w_klubie": false,
-      "wiek": "3–5 lat"
+      "wiek": "3–5 lat",
+      "zweryfikowany_tworca": true
     },
     "wieczor-bez-lekow": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Julia Rak",
+      "autor_rola_prototyp": "psycholożka dziecięca",
       "cena_pln": 35,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla domu, w którym zasypianie zajmuje półtorej godziny.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "emocje",
+      "kategoria_nazwa": "Emocje i wyciszenie",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 60. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.7,
       "opinie": 194,
+      "opis_akapity": [
+        "Stała rutyna wieczorna w obrazkach plus zestaw kart do rozmowy o tym, czego dziecko się boi — bez zapewniania, że nic tam nie ma.",
+        "Osobny blok o koszmarach i o tym, co robić, kiedy dziecko przychodzi w nocy."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–8 lat"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "sen",
+      "podkategoria_nazwa": "Lęki i zasypianie",
+      "podtytul": "Rutyna zasypiania i rozmowa o strachu",
+      "specs": {
+        "objętość": "60 stron",
+        "wiek": "4–8 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 60,
       "tytul": "Wieczór bez lęków",
       "w_klubie": false,
-      "wiek": "4–8 lat"
+      "wiek": "4–8 lat",
+      "zweryfikowany_tworca": true
     },
     "wierszyki-na-r": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Anna Bem",
+      "autor_rola_prototyp": "neurologopeda kliniczny",
       "cena_pln": 59,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które ma już wszystkie głoski poza R.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "logopedia",
+      "kategoria_nazwa": "Logopedia",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 108. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.9,
       "opinie": 204,
+      "opis_akapity": [
+        "R jest najtrudniejsza i najdłużej się jej uczy, więc materiał jest rozłożony na trzy miesiące i zaczyna się od ćwiczeń pionizacji języka, nie od samego R.",
+        "Wierszyki są krótkie i głupawe, bo dzieci robią je wtedy chętniej niż poważne czytanki."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "5–9 lat",
+        "W Klubie"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "gloska-r",
+      "podkategoria_nazwa": "Głoska R",
+      "podtytul": "Ćwiczenia głoski R dla domu",
+      "specs": {
+        "objętość": "108 stron",
+        "wiek": "5–9 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 108,
       "tytul": "Wierszyki na R",
       "w_klubie": true,
-      "wiek": "5–9 lat"
+      "wiek": "5–9 lat",
+      "zweryfikowany_tworca": true
     },
     "wiosna-w-doniczce": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Iga Sobczak",
+      "autor_rola_prototyp": "nauczycielka biologii i przyrody",
       "cena_pln": 32,
-      "darmowy_fragment_na_karcie": false,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla marca i kwietnia, i dla dziecka, które lubi patrzeć, jak coś rośnie.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "pory",
+      "kategoria_nazwa": "Pory roku i święta",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 60. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 148,
+      "opis_akapity": [
+        "Sadzicie fasolę, rzeżuchę i cebulę, a dziecko prowadzi dziennik obserwacji przez cztery tygodnie. Karty pomiarów i miejsce na rysunek każdego dnia.",
+        "Przy okazji wchodzi pierwsza nauka o roślinach, ale bez wykładu."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "4–9 lat"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "wiosna-lato",
+      "podkategoria_nazwa": "Wiosna i lato",
+      "podtytul": "Hodowla, obserwacje i dziennik",
+      "specs": {
+        "objętość": "60 stron",
+        "wiek": "4–9 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 60,
       "tytul": "Wiosna w doniczce",
       "w_klubie": false,
-      "wiek": "4–9 lat"
+      "wiek": "4–9 lat",
+      "zweryfikowany_tworca": true
     },
     "zadania-z-trescia": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "Paweł Nowak",
+      "autor_rola_prototyp": "nauczyciel matematyki w klasach 1–3",
       "cena_pln": 42,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla dziecka, które liczy dobrze, a przy zadaniu z treścią pyta „to dodać czy odjąć?”.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
+      "kategoria": "matematyka",
+      "kategoria_nazwa": "Matematyka",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 88. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.6,
       "opinie": 98,
+      "opis_akapity": [
+        "Zadania z treścią rozłożone na cztery pytania, które dziecko zadaje sobie za każdym razem: co wiem, czego szukam, co robię, czy wynik ma sens.",
+        "Zaczynamy od zadań jednodziałaniowych i schodzimy z podpowiedziami coraz niżej, aż zostaje samo zadanie."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "7–10 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "dzialania",
+      "podkategoria_nazwa": "Dodawanie i odejmowanie",
+      "podtytul": "Jak w ogóle zacząć je czytać",
+      "specs": {
+        "objętość": "88 stron",
+        "wiek": "7–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 88,
       "tytul": "Zadania z treścią krok po kroku",
       "w_klubie": false,
-      "wiek": "7–10 lat"
+      "wiek": "7–10 lat",
+      "zweryfikowany_tworca": true
     },
     "zestaw-na-podroz": {
+      "aktualizacje": "Bezpłatne, na zawsze",
       "autor": "zespół Lupy",
+      "autor_rola_prototyp": "redakcja",
       "cena_pln": 19,
-      "darmowy_fragment_na_karcie": true,
+      "darmowy_fragment": true,
+      "dla_kogo": "Dla lotniska, pociągu, poczekalni u lekarza i restauracji, w której czekacie na jedzenie.",
+      "druk": "Czarno-biały wystarczy",
+      "format": "PDF A4",
       "kategoria": "gry",
+      "kategoria_nazwa": "Gry do wydruku",
+      "licencja": "Domowa, bez limitu wydruków",
+      "nota_podgladu": "Cztery pierwsze strony z 24. Cały fragment pobierzesz za darmo, bez zakładania konta.",
       "ocena": 4.8,
       "opinie": 447,
+      "opis_akapity": [
+        "Dwadzieścia gier, z których każda mieści się na jednej kartce i nie wymaga niczego poza długopisem. Do wydruku przed wyjazdem albo w hotelu.",
+        "Nie ma tu nic do wycinania, gubienia ani składania."
+      ],
+      "pigulki": [
+        "Zweryfikowany twórca",
+        "5–10 lat",
+        "Darmowy fragment"
+      ],
+      "podgladow_na_stronie": "Cztery",
+      "podkategoria": "podroz",
+      "podkategoria_nazwa": "Na podróż",
+      "podtytul": "Wszystko na jedną kartkę A4",
+      "specs": {
+        "objętość": "24 stron",
+        "wiek": "5–10 lat",
+        "format": "PDF A4",
+        "druk": "Czarno-biały wystarczy",
+        "licencja": "Domowa, bez limitu wydruków",
+        "aktualizacje": "Bezpłatne, na zawsze"
+      },
+      "strony": 24,
       "tytul": "Zestaw na podróż",
       "w_klubie": false,
-      "wiek": "5–10 lat"
+      "wiek": "5–10 lat",
+      "zweryfikowany_tworca": true
     }
   },
   "braki": {
-    "produktow_znalezionych": 42,
-    "produktow_oczekiwanych": 48,
-    "brak_stron_p_html": [
-      "angielski-przy-kolacji",
-      "bingo-rodzinne",
-      "busy-pierwsze-slowa",
-      "busy-przedszkolak",
-      "cichy-poranek",
-      "czytam-i-rozumiem",
-      "czytam-po-angielsku",
-      "czytam-sylabami",
-      "dodawanie-bez-palcow",
-      "emocjometr",
-      "ferie-bez-ekranu",
-      "gloski-szumiace",
-      "gry-po-angielsku",
-      "jesienne-popoludnia",
-      "karty-rutyn",
-      "kiedy-jestem-zly",
-      "kiedy-nic-nie-dziala",
-      "kosmos-dla-poczatkujacych",
-      "kto-tu-mieszka",
-      "licze-do-20",
-      "litery-od-zera",
-      "litery-pisane",
-      "memory-domowe",
-      "mnozenie-bez-lez",
-      "moj-tydzien",
-      "moje-cialo",
-      "mowa-startuje",
-      "pisze-bez-nacisku",
-      "planszowki-na-start",
-      "rozmowa-z-nauczycielem",
-      "slyszymy-gloski",
-      "sylaby-dogrywka",
-      "szlaczki-i-wzory",
-      "tablica-obowiazkow",
-      "teczka-pojazdy",
-      "teczka-zwierzeta",
-      "ubieram-sie-sam",
-      "wieczor-bez-lekow",
-      "wierszyki-na-r",
-      "wiosna-w-doniczce",
-      "zadania-z-trescia",
-      "zestaw-na-podroz"
-    ],
-    "brak_liczby_stron": [
-      "angielski-przy-kolacji",
-      "bingo-rodzinne",
-      "busy-pierwsze-slowa",
-      "busy-przedszkolak",
-      "cichy-poranek",
-      "czytam-i-rozumiem",
-      "czytam-po-angielsku",
-      "czytam-sylabami",
-      "dodawanie-bez-palcow",
-      "emocjometr",
-      "ferie-bez-ekranu",
-      "gloski-szumiace",
-      "gry-po-angielsku",
-      "jesienne-popoludnia",
-      "karty-rutyn",
-      "kiedy-jestem-zly",
-      "kiedy-nic-nie-dziala",
-      "kosmos-dla-poczatkujacych",
-      "kto-tu-mieszka",
-      "licze-do-20",
-      "litery-od-zera",
-      "litery-pisane",
-      "memory-domowe",
-      "mnozenie-bez-lez",
-      "moj-tydzien",
-      "moje-cialo",
-      "mowa-startuje",
-      "pisze-bez-nacisku",
-      "planszowki-na-start",
-      "rozmowa-z-nauczycielem",
-      "slyszymy-gloski",
-      "sylaby-dogrywka",
-      "szlaczki-i-wzory",
-      "tablica-obowiazkow",
-      "teczka-pojazdy",
-      "teczka-zwierzeta",
-      "ubieram-sie-sam",
-      "wieczor-bez-lekow",
-      "wierszyki-na-r",
-      "wiosna-w-doniczce",
-      "zadania-z-trescia",
-      "zestaw-na-podroz"
-    ],
-    "brak_kategorii": [
-      "bingo-rodzinne",
-      "czytam-i-rozumiem",
-      "slyszymy-gloski",
-      "teczka-zwierzeta",
-      "ubieram-sie-sam",
-      "zadania-z-trescia"
-    ],
-    "brak_podkategorii": [
-      "angielski-przy-kolacji",
-      "bingo-rodzinne",
-      "busy-pierwsze-slowa",
-      "busy-przedszkolak",
-      "cichy-poranek",
-      "czytam-i-rozumiem",
-      "czytam-po-angielsku",
-      "czytam-sylabami",
-      "dodawanie-bez-palcow",
-      "emocjometr",
-      "ferie-bez-ekranu",
-      "gloski-szumiace",
-      "gry-po-angielsku",
-      "jesienne-popoludnia",
-      "karty-rutyn",
-      "kiedy-jestem-zly",
-      "kiedy-nic-nie-dziala",
-      "kosmos-dla-poczatkujacych",
-      "kto-tu-mieszka",
-      "licze-do-20",
-      "litery-od-zera",
-      "litery-pisane",
-      "memory-domowe",
-      "mnozenie-bez-lez",
-      "moj-tydzien",
-      "moje-cialo",
-      "mowa-startuje",
-      "pisze-bez-nacisku",
-      "planszowki-na-start",
-      "rozmowa-z-nauczycielem",
-      "slyszymy-gloski",
-      "sylaby-dogrywka",
-      "szlaczki-i-wzory",
-      "tablica-obowiazkow",
-      "teczka-pojazdy",
-      "teczka-zwierzeta",
-      "ubieram-sie-sam",
-      "wieczor-bez-lekow",
-      "wierszyki-na-r",
-      "wiosna-w-doniczce",
-      "zadania-z-trescia",
-      "zestaw-na-podroz"
-    ],
-    "brakujace_pliki_listingu": [
-      "katalog.html"
-    ],
-    "brakujace_strony_kategorii": [
-      "k-angielski.html",
-      "k-busy.html",
-      "k-czytanie.html",
-      "k-emocje.html",
-      "k-grafo.html",
-      "k-gry.html",
-      "k-logopedia.html",
-      "k-matematyka.html",
-      "k-pory.html",
-      "k-rodzic.html",
-      "k-rutyny.html",
-      "k-swiat.html"
-    ]
+    "produktow": 48,
+    "zrodlo_listy": "katalog.html",
+    "w_katalogu_bez_strony_p": [],
+    "strona_p_bez_karty_w_katalogu": [],
+    "kategorie_niepelne": {}
   }
 }

@@ -157,6 +157,17 @@ Na czas testów autorzy są **wymyśleni**. Nie są to prawdziwe osoby i nie
 wolno dopisywać im tytułów zawodowych, numerów uprawnień ani miejsc pracy.
 Imię i nazwisko z prototypu, nic więcej.
 
+**Uwaga na dane z prototypu.** Strony `p-*.html` podają przy nazwisku rolę,
+np. „neurologopeda, 14 lat praktyki", a w pigułkach „Zweryfikowany twórca".
+To są elementy makiety, nie fakty o realnej osobie. Ekstraktor zachowuje
+rolę w `_katalog.json` pod kluczem `autor_rola_prototyp` wyłącznie dla
+zgodności katalogu z prototypem — **do PDF-a i do reklam nie wchodzi**.
+Kąt reklamowy A8 (`autor`) opiera się na metodzie i strukturze materiału,
+nie na kwalifikacjach autora.
+
+**Opinie w prototypie też są wygenerowane** (bloki `.revs`, awatary
+`img/ava*.webp`). Nie cytuj ich jako prawdziwych i nie przenoś do bazy.
+
 Obsada autorska z prototypu (`web/mockup/index.html`):
 
 | autor | domena |

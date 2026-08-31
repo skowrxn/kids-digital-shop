@@ -177,11 +177,34 @@ projektu: **sześć rzeczy do zrobienia dobrze, nie czterdzieści osiem.**
 | `ZESZYT` | zbiór ćwiczeń bez sztywnej sekwencji | bloki od najłatwiejszego; w obrębie bloku kolejność dowolna |
 | `KARTY` | talia do wycięcia | 8 lub 9 kart na A4, siatka cięcia, wersja z podpisami i bez (dla nieczytających) |
 | `SEGREGATOR` | busy book / Montessori | każda plansza ma listę elementów do zalaminowania i miejsce na rzep; instrukcja przygotowania na pierwszej stronie sekcji |
-| `GRY` | planszówki i gry karciane | zasady na **jednej** stronie; pionki i kostka zawsze w pliku |
+| `GRY` | planszówki i gry karciane | zasady na **jednej** stronie; jeśli gra wymaga pionków lub kostki, są w pliku — nigdy „użyj własnych" |
 | `PORADNIK` | materiał dla rodzica | jedyny archetyp z dominującą prozą; maks. **65 znaków w linii** |
 
 Schematy: `produkty/_archetypy/<ARCHETYP>.schema.json`.
 Szablony: `renderer/templates/<archetyp>.html.j2`.
+
+**Typ `formularz`** (rubryki do wypełnienia ręką) jest współdzielony przez
+`ZESZYT` i `PORADNIK`:
+
+```json
+{ "typ": "formularz",
+  "pola": [ { "etykieta": "...", "wysokosc_mm": 12, "linie": 3 } ] }
+```
+
+Obsługuje planer („Mój tydzień"), tablicę punktów („Tablica obowiązków"),
+dziennik obserwacji („Wiosna w doniczce") i arkusz notatek
+(„Rozmowa z nauczycielem"). Rubryki są **zawsze puste** — wypełnia je rodzic
+u siebie, patrz żelazna zasada 3.
+
+**Archetyp wybiera struktura, nigdy cena ani objętość.** 96 stron za 65 zł
+to nie argument za żadnym archetypem — to sygnał marży. Pytanie brzmi
+wyłącznie: sztywna sekwencja (PROGRAM), bloki bez sekwencji (ZESZYT),
+elementy do wycięcia (KARTY), plansza z ruchomymi elementami (SEGREGATOR),
+zasady gry (GRY), czy proza czytana przez dorosłego (PORADNIK).
+
+Granica PROGRAM/ZESZYT bywa cienka — rozstrzyga ją **monotonicznie rosnąca
+trudność**. „Ferie bez ekranu" mają 14 dni po kolei, ale dzień 14 nie jest
+trudniejszy od dnia 1, więc to ZESZYT, nie PROGRAM.
 
 **Jeśli produkt nie pasuje do żadnego z sześciu — nie dodawaj siódmego.
 Zapytaj użytkownika.** Prawdopodobnie źle napisana specyfikacja.
@@ -295,34 +318,48 @@ Produkty flagowe (KROK 7), po jednym na intencję z sekcji „chcę…" prototyp
 
 ---
 
-## 14. Stan wejścia — znane braki
+## 14. Stan wejścia
 
-**W repo jest 4 z 64 plików prototypu**: `index.html`, `style.css`,
-`README.md` oraz `marka/design-system.md`. Brakuje `katalog.html`,
-12 stron `k-*.html`, 48 stron `p-*.html`, `klub.html`, `dla-tworcow.html`
-i katalogu `img/` (w tym `cast.png`).
+Prototyp jest **kompletny**: 64 strony HTML w `web/mockup/`, `style.css`,
+`app.js` i `img/` (7 PNG + 13 WebP, w tym `cast.png`).
 
-Skutki, aktualne dopóki pliki nie zostaną dorzucone:
+`produkty/_katalog.json` ma komplet danych dla wszystkich 48 produktów —
+tytuł, podtytuł, cena, wiek, autor, liczba stron, kategoria, podkategoria,
+zdanie „Dla kogo", opisy i tabela `.specs`. Ekstraktor raportuje
+`braków: 0`. Jeśli kiedykolwiek zaraportuje więcej — **popraw ekstraktor,
+nie łataj `KOLEJKA.json` ręcznie.**
 
-- **Znamy 42 z 48 produktów.** 6 pozycji istnieje tylko jako luka
-  (12 kategorii × 4 zadeklarowane = 48, w mockupie jest 42). Są w kolejce
-  jako `__brak-<kategoria>-N` z polem `blokada` i bez archetypu;
-  `kolejka.py lista` ich nie wydaje.
-- **Nie znamy liczby stron żadnego produktu poza „Czytam sylabami" (184).**
-  „Objętość" jest tylko w tabeli `.specs` na `p-*.html`. Bez tego `spec.md`
-  nie może zadeklarować liczby stron, a walidator nie ma czego porównać.
-- **Nie znamy podtytułów, opisów, zdania „Dla kogo" ani podkategorii**
-  poszczególnych produktów.
-- Kategoria 6 produktów (`czytam-i-rozumiem`, `zadania-z-trescia`,
-  `teczka-zwierzeta`, `ubieram-sie-sam`, `slyszymy-gloski`, `bingo-rodzinne`)
-  jest **wywnioskowana z tytułu**, nie odczytana — oznaczona flagą
-  `kategoria_wywnioskowana`.
+Dwie pułapki prototypu, obie już obsłużone w `renderer/katalog.py`
+(nie cofaj tych zabezpieczeń):
 
-Po dorzuceniu brakujących plików do `web/mockup/` uruchom:
+1. **Listą wejściową jest `katalog.html`, nie `index.html`.** Strona główna
+   pokazuje tylko wybrane półki — 42 z 48 produktów.
+2. **Mega-menu siedzi w nagłówku każdej strony** i niesie 36 kart
+   produktowych oraz własne `<h1>`, `.card` i `.price`. Naiwne zliczanie
+   kart w `katalog.html` daje 84, nie 48. Dlatego deduplikujemy po slugu,
+   a stronę produktową tniemy najpierw do `<section class="product">`.
+   Sprawdzianem poprawności jest zgodność listy ze zbiorem plików
+   `p-*.html` w obie strony — ekstraktor to raportuje.
 
-```bash
-python3 renderer/katalog.py && python3 renderer/kolejka.py bootstrap
-```
+Parsowanie idzie przez `renderer/dom.py` (drzewo DOM na stdlib-owym
+`html.parser`), nie przez wyrażenia regularne. Zagnieżdżonych `<div>`
+nie da się poprawnie ciąć regexem — `.*?` zatrzymuje się na pierwszym
+domknięciu wewnętrznym.
 
-Bootstrap jest idempotentny — zachowa etapy już wykonanej pracy i uzupełni
-brakujące dane.
+### Czego z prototypu NIE przenosimy do produktu
+
+- **Rola autora.** `p-*.html` podaje przy nazwisku np. „neurologopeda,
+  14 lat praktyki". Autorzy są na czas testów wymyśleni, więc ta rola
+  zostaje w `_katalog.json` jako `autor_rola_prototyp` i **nie wchodzi**
+  ani do PDF-a, ani do tekstów reklamowych. Patrz `marka/brand.md`.
+- **Opinie i twarze.** Bloki `.revs` i pliki `img/ava*.webp` są wygenerowane
+  na potrzeby makiety i nie przedstawiają realnych osób
+  (`web/mockup/README.md`, `web/mockup/img/README.md`). Nie cytuj ich
+  jako prawdziwych, nie przenoś do żadnej bazy.
+- **Pigułka „Zweryfikowany twórca".** To element makiety, nie fakt.
+
+### Grafiki
+
+Nie generujemy obrazów — nie ma do tego API. `img/cast.png` i pozostałe
+pliki służą wyłącznie jako **referencja stylu przy pisaniu briefów
+opisowych** do kreacji reklamowych (KROK 7).
