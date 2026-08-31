@@ -143,10 +143,10 @@
       "autor": "Marta Zielińska",
       "cena_pln": 79,
       "strony_prototyp": 184,
-      "etap": "brak",
+      "etap": "tresc",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-08-31T14:55:49Z",
+      "zaktualizowano": "2026-08-31T16:41:30Z",
       "flagowy": true,
       "icp_glowne": "ICP-1-szkola"
     },
@@ -1178,5 +1178,5 @@
       "zaktualizowano": "2026-08-31T14:55:38Z"
     }
   ],
-  "zaktualizowano": "2026-08-31T16:18:04Z"
+  "zaktualizowano": "2026-08-31T16:41:30Z"
 }

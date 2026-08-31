@@ -157,13 +157,27 @@ Na czas testów autorzy są **wymyśleni**. Nie są to prawdziwe osoby i nie
 wolno dopisywać im tytułów zawodowych, numerów uprawnień ani miejsc pracy.
 Imię i nazwisko z prototypu, nic więcej.
 
-**Uwaga na dane z prototypu.** Strony `p-*.html` podają przy nazwisku rolę,
-np. „neurologopeda, 14 lat praktyki", a w pigułkach „Zweryfikowany twórca".
-To są elementy makiety, nie fakty o realnej osobie. Ekstraktor zachowuje
-rolę w `_katalog.json` pod kluczem `autor_rola_prototyp` wyłącznie dla
-zgodności katalogu z prototypem — **do PDF-a i do reklam nie wchodzi**.
-Kąt reklamowy A8 (`autor`) opiera się na metodzie i strukturze materiału,
-nie na kwalifikacjach autora.
+**Gdzie autor jest, a gdzie go nie ma.** Reguła jest zakresowa, nie zero-jedynkowa:
+
+| miejsce | imię i nazwisko | rola („neurologopeda, 14 lat praktyki") |
+|---|---|---|
+| `produkty/_katalog.json` | **tak** | tak, jako `autor_rola_prototyp` |
+| strony prototypu `web/mockup/` | **tak** (są tam już) | tak (są tam już) |
+| strona tytułowa PDF-a | **nie** | nie |
+| stopka PDF-a | nie | nie |
+| teksty reklamowe `reklamy/` | **nie** | nie |
+
+Powód rozdziału: katalog ma się zgadzać z prototypem co do znaku (żelazna
+zasada 6), ale PDF i reklama to miejsca, w których wymyślone nazwisko
+zaczyna działać jak dowód wiarygodności. Tam go nie dajemy.
+
+W PDF-ie zamiast autora idzie **wydawca**: `Lupa`. Kąt reklamowy A8
+(`autor`) opiera się na metodzie i strukturze materiału, nie na osobie.
+
+**Planowana zmiana:** nazwiska zostaną docelowo zastąpione wzmianką
+o współautorstwie AI. Do tego czasu zostają jak w prototypie. Kiedy
+zmiana nadejdzie, ruszamy `_katalog.json` przez ekstraktor i `web/mockup/`,
+a PDF-y i reklamy nie wymagają żadnej zmiany — nie ma w nich autora.
 
 **Opinie w prototypie też są wygenerowane** (bloki `.revs`, awatary
 `img/ava*.webp`). Nie cytuj ich jako prawdziwych i nie przenoś do bazy.
