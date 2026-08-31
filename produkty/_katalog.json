@@ -1,0 +1,912 @@
+{
+  "zrodlo": "web/mockup/",
+  "kategorie": {
+    "czytanie": {
+      "nazwa": "czytanie i sylaby",
+      "opis": "Od pierwszych liter do samodzielnie przeczytanej książeczki. Materiały ułożone tak, żebyś wiedziała, co robicie w tym tygodniu, a co dopiero za miesiąc.",
+      "podkategorie": [
+        {
+          "id": "litery",
+          "nazwa": "Poznawanie liter"
+        },
+        {
+          "id": "sylaby",
+          "nazwa": "Czytanie sylabami"
+        },
+        {
+          "id": "zrozumienie",
+          "nazwa": "Czytanie ze zrozumieniem"
+        }
+      ],
+      "slugi_w_menu": [
+        "czytam-sylabami",
+        "litery-od-zera",
+        "sylaby-dogrywka"
+      ],
+      "deklarowana_liczba_produktow": 4
+    },
+    "matematyka": {
+      "nazwa": "matematyka",
+      "opis": "Liczenie na konkretach, zanim przejdziecie do cyfr na papierze. Bez ścigania się z klasą i bez zadań, których dziecko nie rozumie.",
+      "podkategorie": [
+        {
+          "id": "liczenie",
+          "nazwa": "Liczenie do 20"
+        },
+        {
+          "id": "dzialania",
+          "nazwa": "Dodawanie i odejmowanie"
+        },
+        {
+          "id": "mnozenie",
+          "nazwa": "Tabliczka mnożenia"
+        }
+      ],
+      "slugi_w_menu": [
+        "licze-do-20",
+        "dodawanie-bez-palcow",
+        "mnozenie-bez-lez"
+      ],
+      "deklarowana_liczba_produktow": 4
+    },
+    "busy": {
+      "nazwa": "busy booki i montessori",
+      "opis": "Segregatory aktywności, które drukujesz raz i wracasz do nich przez kilka miesięcy. Dziecko pracuje samo, ty masz chwilę.",
+      "podkategorie": [
+        {
+          "id": "maluch",
+          "nazwa": "1–3 lata"
+        },
+        {
+          "id": "przedszkolak",
+          "nazwa": "3–5 lat"
+        },
+        {
+          "id": "teczki",
+          "nazwa": "Teczki tematyczne"
+        }
+      ],
+      "slugi_w_menu": [
+        "busy-pierwsze-slowa",
+        "busy-przedszkolak",
+        "teczka-pojazdy"
+      ],
+      "deklarowana_liczba_produktow": 4
+    },
+    "rutyny": {
+      "nazwa": "rutyny i samodzielność",
+      "opis": "Plany dnia w obrazkach, tablice obowiązków i wszystko, co zdejmuje z ciebie powtarzanie tego samego dwadzieścia razy dziennie.",
+      "podkategorie": [
+        {
+          "id": "plan-dnia",
+          "nazwa": "Plany dnia"
+        },
+        {
+          "id": "obowiazki",
+          "nazwa": "Obowiązki i nagrody"
+        },
+        {
+          "id": "samodzielnosc",
+          "nazwa": "Samodzielność"
+        }
+      ],
+      "slugi_w_menu": [
+        "karty-rutyn",
+        "cichy-poranek",
+        "tablica-obowiazkow"
+      ],
+      "deklarowana_liczba_produktow": 4
+    },
+    "emocje": {
+      "nazwa": "emocje i wyciszenie",
+      "opis": "Narzędzia do rozmowy o tym, co dziecko czuje, i do wieczorów, kiedy nikt już nie ma siły.",
+      "podkategorie": [
+        {
+          "id": "rozpoznawanie",
+          "nazwa": "Rozpoznawanie emocji"
+        },
+        {
+          "id": "zlosc",
+          "nazwa": "Złość i frustracja"
+        },
+        {
+          "id": "sen",
+          "nazwa": "Lęki i zasypianie"
+        }
+      ],
+      "slugi_w_menu": [
+        "emocjometr",
+        "kiedy-jestem-zly",
+        "wieczor-bez-lekow"
+      ],
+      "deklarowana_liczba_produktow": 4
+    },
+    "logopedia": {
+      "nazwa": "logopedia",
+      "opis": "Ćwiczenia ułożone przez logopedów z uprawnieniami, do robienia w domu. Nie zastępują diagnozy — pozwalają nie stać w miejscu, czekając na wizytę.",
+      "podkategorie": [
+        {
+          "id": "szumiace",
+          "nazwa": "Głoski szumiące"
+        },
+        {
+          "id": "gloska-r",
+          "nazwa": "Głoska R"
+        },
+        {
+          "id": "opoznienie",
+          "nazwa": "Opóźniony rozwój mowy"
+        }
+      ],
+      "slugi_w_menu": [
+        "gloski-szumiace",
+        "wierszyki-na-r",
+        "mowa-startuje"
+      ],
+      "deklarowana_liczba_produktow": 4
+    },
+    "angielski": {
+      "nazwa": "angielski",
+      "opis": "Angielski przy stole, w aucie i przy kolacji. Bez aplikacji i bez wymowy, której sama nie jesteś pewna — wszystko z zapisem fonetycznym po polsku.",
+      "podkategorie": [
+        {
+          "id": "pierwsze-slowa",
+          "nazwa": "Pierwsze słowa"
+        },
+        {
+          "id": "gry-jezykowe",
+          "nazwa": "Gry językowe"
+        },
+        {
+          "id": "czytanie-en",
+          "nazwa": "Czytanie po angielsku"
+        }
+      ],
+      "slugi_w_menu": [
+        "angielski-przy-kolacji",
+        "gry-po-angielsku",
+        "czytam-po-angielsku"
+      ],
+      "deklarowana_liczba_produktow": 4
+    },
+    "grafo": {
+      "nazwa": "grafomotoryka i pisanie",
+      "opis": "Ręka, która się nie męczy po dwóch linijkach. Od chwytu kredki po litery pisane.",
+      "podkategorie": [
+        {
+          "id": "chwyt",
+          "nazwa": "Chwyt i nacisk"
+        },
+        {
+          "id": "szlaczki",
+          "nazwa": "Szlaczki i wzory"
+        },
+        {
+          "id": "litery-pisane",
+          "nazwa": "Litery pisane"
+        }
+      ],
+      "slugi_w_menu": [
+        "pisze-bez-nacisku",
+        "szlaczki-i-wzory",
+        "litery-pisane"
+      ],
+      "deklarowana_liczba_produktow": 4
+    },
+    "pory": {
+      "nazwa": "pory roku i święta",
+      "opis": "Materiały, które wyjmujesz dwa razy w roku i które ratują długi weekend, ferie albo popołudnie przed świętami.",
+      "podkategorie": [
+        {
+          "id": "jesien-zima",
+          "nazwa": "Jesień i zima"
+        },
+        {
+          "id": "wiosna-lato",
+          "nazwa": "Wiosna i lato"
+        },
+        {
+          "id": "swieta",
+          "nazwa": "Święta i tradycje"
+        }
+      ],
+      "slugi_w_menu": [
+        "jesienne-popoludnia",
+        "ferie-bez-ekranu",
+        "wiosna-w-doniczce"
+      ],
+      "deklarowana_liczba_produktow": 4
+    },
+    "swiat": {
+      "nazwa": "nauka o świecie",
+      "opis": "Odpowiedzi na pytania, które dziecko zadaje w aucie. Przyroda, ciało, kosmos i mapa.",
+      "podkategorie": [
+        {
+          "id": "przyroda",
+          "nazwa": "Przyroda i zwierzęta"
+        },
+        {
+          "id": "cialo",
+          "nazwa": "Ciało człowieka"
+        },
+        {
+          "id": "kosmos",
+          "nazwa": "Kosmos i mapa"
+        }
+      ],
+      "slugi_w_menu": [
+        "kto-tu-mieszka",
+        "moje-cialo",
+        "kosmos-dla-poczatkujacych"
+      ],
+      "deklarowana_liczba_produktow": 4
+    },
+    "gry": {
+      "nazwa": "gry do wydruku",
+      "opis": "Planszówki, memory i zestawy na podróż. Drukujesz, tniesz raz i grasz przez lata.",
+      "podkategorie": [
+        {
+          "id": "planszowki",
+          "nazwa": "Planszówki"
+        },
+        {
+          "id": "memory",
+          "nazwa": "Karty i memory"
+        },
+        {
+          "id": "podroz",
+          "nazwa": "Na podróż"
+        }
+      ],
+      "slugi_w_menu": [
+        "planszowki-na-start",
+        "memory-domowe",
+        "zestaw-na-podroz"
+      ],
+      "deklarowana_liczba_produktow": 4
+    },
+    "rodzic": {
+      "nazwa": "dla rodzica",
+      "opis": "Nie dla dziecka, tylko dla ciebie. Planowanie nauki, trudne rozmowy i to, co zrobić, kiedy nic nie działa.",
+      "podkategorie": [
+        {
+          "id": "planowanie",
+          "nazwa": "Planowanie nauki"
+        },
+        {
+          "id": "rozmowy",
+          "nazwa": "Trudne rozmowy"
+        },
+        {
+          "id": "motywacja",
+          "nazwa": "Kiedy nic nie działa"
+        }
+      ],
+      "slugi_w_menu": [
+        "moj-tydzien",
+        "rozmowa-z-nauczycielem",
+        "kiedy-nic-nie-dziala"
+      ],
+      "deklarowana_liczba_produktow": 4
+    }
+  },
+  "produkty": {
+    "angielski-przy-kolacji": {
+      "autor": "Tom Bryant",
+      "cena_pln": 35,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "angielski",
+      "ocena": 4.6,
+      "opinie": 219,
+      "tytul": "Angielski przy kolacji",
+      "w_klubie": true,
+      "wiek": "4–8 lat"
+    },
+    "bingo-rodzinne": {
+      "autor": "Michał Ptak",
+      "cena_pln": 25,
+      "darmowy_fragment_na_karcie": false,
+      "ocena": 4.5,
+      "opinie": 132,
+      "tytul": "Bingo rodzinne",
+      "w_klubie": false,
+      "wiek": "4–10 lat"
+    },
+    "busy-pierwsze-slowa": {
+      "autor": "Kasia Wrona",
+      "cena_pln": 59,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "busy",
+      "ocena": 4.8,
+      "opinie": 486,
+      "tytul": "Busy book: Pierwsze słowa",
+      "w_klubie": false,
+      "wiek": "2–4 lata"
+    },
+    "busy-przedszkolak": {
+      "autor": "Kasia Wrona",
+      "cena_pln": 65,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "busy",
+      "ocena": 4.9,
+      "opinie": 291,
+      "tytul": "Busy book: Przedszkolak",
+      "w_klubie": true,
+      "wiek": "3–5 lat"
+    },
+    "cichy-poranek": {
+      "autor": "Ala Dębska",
+      "cena_pln": 25,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "rutyny",
+      "ocena": 4.8,
+      "opinie": 298,
+      "tytul": "Cichy poranek",
+      "w_klubie": false,
+      "wiek": "3–6 lat"
+    },
+    "czytam-i-rozumiem": {
+      "autor": "Ala Dębska",
+      "cena_pln": 55,
+      "darmowy_fragment_na_karcie": false,
+      "ocena": 4.7,
+      "opinie": 143,
+      "tytul": "Czytam i rozumiem",
+      "w_klubie": false,
+      "wiek": "7–10 lat"
+    },
+    "czytam-po-angielsku": {
+      "autor": "Tom Bryant",
+      "cena_pln": 49,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "angielski",
+      "ocena": 4.7,
+      "opinie": 96,
+      "tytul": "Czytam po angielsku",
+      "w_klubie": false,
+      "wiek": "7–10 lat"
+    },
+    "czytam-sylabami": {
+      "autor": "Marta Zielińska",
+      "cena_pln": 79,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "czytanie",
+      "ocena": 4.9,
+      "opinie": 312,
+      "tytul": "Czytam sylabami",
+      "w_klubie": true,
+      "wiek": "5–7 lat"
+    },
+    "dodawanie-bez-palcow": {
+      "autor": "Paweł Nowak",
+      "cena_pln": 49,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "matematyka",
+      "ocena": 4.8,
+      "opinie": 176,
+      "tytul": "Dodawanie bez liczenia na palcach",
+      "w_klubie": true,
+      "wiek": "6–8 lat"
+    },
+    "emocjometr": {
+      "autor": "Julia Rak",
+      "cena_pln": 39,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "emocje",
+      "ocena": 4.8,
+      "opinie": 356,
+      "tytul": "Emocjometr",
+      "w_klubie": false,
+      "wiek": "4–9 lat"
+    },
+    "ferie-bez-ekranu": {
+      "autor": "zespół Lupy",
+      "cena_pln": 29,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "pory",
+      "ocena": 4.7,
+      "opinie": 511,
+      "tytul": "Ferie bez ekranu",
+      "w_klubie": false,
+      "wiek": "4–9 lat"
+    },
+    "gloski-szumiace": {
+      "autor": "Anna Bem",
+      "cena_pln": 69,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "logopedia",
+      "ocena": 5.0,
+      "opinie": 128,
+      "tytul": "Głoska Sz, Ż, Cz krok po kroku",
+      "w_klubie": true,
+      "wiek": "4–8 lat"
+    },
+    "gry-po-angielsku": {
+      "autor": "Tom Bryant",
+      "cena_pln": 39,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "angielski",
+      "ocena": 4.7,
+      "opinie": 148,
+      "tytul": "Gry po angielsku",
+      "w_klubie": false,
+      "wiek": "6–10 lat"
+    },
+    "jesienne-popoludnia": {
+      "autor": "zespół Lupy",
+      "cena_pln": 29,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "pory",
+      "ocena": 4.6,
+      "opinie": 274,
+      "tytul": "Jesienne popołudnia",
+      "w_klubie": false,
+      "wiek": "3–8 lat"
+    },
+    "karty-rutyn": {
+      "autor": "Ala Dębska",
+      "cena_pln": 29,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "rutyny",
+      "ocena": 4.7,
+      "opinie": 741,
+      "tytul": "Karty rutyn: poranek i wieczór",
+      "w_klubie": false,
+      "wiek": "3–7 lat"
+    },
+    "kiedy-jestem-zly": {
+      "autor": "Julia Rak",
+      "cena_pln": 39,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "emocje",
+      "ocena": 4.9,
+      "opinie": 228,
+      "tytul": "Kiedy jestem zły",
+      "w_klubie": true,
+      "wiek": "5–9 lat"
+    },
+    "kiedy-nic-nie-dziala": {
+      "autor": "Julia Rak",
+      "cena_pln": 25,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "rodzic",
+      "ocena": 4.8,
+      "opinie": 167,
+      "tytul": "Kiedy nic nie działa",
+      "w_klubie": false,
+      "wiek": "dowolny"
+    },
+    "kosmos-dla-poczatkujacych": {
+      "autor": "Iga Sobczak",
+      "cena_pln": 39,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "swiat",
+      "ocena": 4.8,
+      "opinie": 173,
+      "tytul": "Kosmos dla początkujących",
+      "w_klubie": true,
+      "wiek": "5–10 lat"
+    },
+    "kto-tu-mieszka": {
+      "autor": "Iga Sobczak",
+      "cena_pln": 35,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "swiat",
+      "ocena": 4.8,
+      "opinie": 186,
+      "tytul": "Kto tu mieszka",
+      "w_klubie": false,
+      "wiek": "4–8 lat"
+    },
+    "licze-do-20": {
+      "autor": "Paweł Nowak",
+      "cena_pln": 45,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "matematyka",
+      "ocena": 4.7,
+      "opinie": 142,
+      "tytul": "Liczę do 20 na palcach i bez",
+      "w_klubie": false,
+      "wiek": "5–6 lat"
+    },
+    "litery-od-zera": {
+      "autor": "Kasia Wrona",
+      "cena_pln": 45,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "czytanie",
+      "ocena": 4.8,
+      "opinie": 204,
+      "tytul": "Litery od zera",
+      "w_klubie": false,
+      "wiek": "4–6 lat"
+    },
+    "litery-pisane": {
+      "autor": "Ewa Lis",
+      "cena_pln": 49,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "grafo",
+      "ocena": 4.8,
+      "opinie": 139,
+      "tytul": "Litery pisane",
+      "w_klubie": true,
+      "wiek": "6–8 lat"
+    },
+    "memory-domowe": {
+      "autor": "Michał Ptak",
+      "cena_pln": 29,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "gry",
+      "ocena": 4.6,
+      "opinie": 198,
+      "tytul": "Memory domowe",
+      "w_klubie": false,
+      "wiek": "3–8 lat"
+    },
+    "mnozenie-bez-lez": {
+      "autor": "Paweł Nowak",
+      "cena_pln": 49,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "matematyka",
+      "ocena": 4.9,
+      "opinie": 203,
+      "tytul": "Tabliczka mnożenia bez łez",
+      "w_klubie": true,
+      "wiek": "7–9 lat"
+    },
+    "moj-tydzien": {
+      "autor": "zespół Lupy",
+      "cena_pln": 19,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "rodzic",
+      "ocena": 4.9,
+      "opinie": 892,
+      "tytul": "Mój tydzień",
+      "w_klubie": false,
+      "wiek": "dowolny"
+    },
+    "moje-cialo": {
+      "autor": "Iga Sobczak",
+      "cena_pln": 39,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "swiat",
+      "ocena": 4.7,
+      "opinie": 142,
+      "tytul": "Moje ciało",
+      "w_klubie": false,
+      "wiek": "5–10 lat"
+    },
+    "mowa-startuje": {
+      "autor": "Renata Kołodziej",
+      "cena_pln": 65,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "logopedia",
+      "ocena": 4.8,
+      "opinie": 156,
+      "tytul": "Mowa startuje",
+      "w_klubie": false,
+      "wiek": "1,5–3 lata"
+    },
+    "pisze-bez-nacisku": {
+      "autor": "Ewa Lis",
+      "cena_pln": 45,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "grafo",
+      "ocena": 4.8,
+      "opinie": 164,
+      "tytul": "Piszę bez nacisku",
+      "w_klubie": false,
+      "wiek": "5–7 lat"
+    },
+    "planszowki-na-start": {
+      "autor": "Michał Ptak",
+      "cena_pln": 39,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "gry",
+      "ocena": 4.7,
+      "opinie": 264,
+      "tytul": "Planszówki na start",
+      "w_klubie": false,
+      "wiek": "4–8 lat"
+    },
+    "rozmowa-z-nauczycielem": {
+      "autor": "Ala Dębska",
+      "cena_pln": 25,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "rodzic",
+      "ocena": 4.7,
+      "opinie": 204,
+      "tytul": "Rozmowa z nauczycielem",
+      "w_klubie": false,
+      "wiek": "dowolny"
+    },
+    "slyszymy-gloski": {
+      "autor": "Anna Bem",
+      "cena_pln": 45,
+      "darmowy_fragment_na_karcie": true,
+      "ocena": 4.8,
+      "opinie": 137,
+      "tytul": "Słyszymy głoski",
+      "w_klubie": false,
+      "wiek": "4–7 lat"
+    },
+    "sylaby-dogrywka": {
+      "autor": "Marta Zielińska",
+      "cena_pln": 39,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "czytanie",
+      "ocena": 4.9,
+      "opinie": 87,
+      "tytul": "Sylaby zamknięte — dogrywka",
+      "w_klubie": true,
+      "wiek": "6–8 lat"
+    },
+    "szlaczki-i-wzory": {
+      "autor": "Ewa Lis",
+      "cena_pln": 35,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "grafo",
+      "ocena": 4.7,
+      "opinie": 231,
+      "tytul": "Szlaczki i wzory",
+      "w_klubie": false,
+      "wiek": "4–6 lat"
+    },
+    "tablica-obowiazkow": {
+      "autor": "Ala Dębska",
+      "cena_pln": 35,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "rutyny",
+      "ocena": 4.6,
+      "opinie": 389,
+      "tytul": "Tablica obowiązków i nagród",
+      "w_klubie": false,
+      "wiek": "4–9 lat"
+    },
+    "teczka-pojazdy": {
+      "autor": "Michał Ptak",
+      "cena_pln": 29,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "busy",
+      "ocena": 4.7,
+      "opinie": 167,
+      "tytul": "Teczka tematyczna: Pojazdy",
+      "w_klubie": false,
+      "wiek": "3–6 lat"
+    },
+    "teczka-zwierzeta": {
+      "autor": "Iga Sobczak",
+      "cena_pln": 29,
+      "darmowy_fragment_na_karcie": true,
+      "ocena": 4.8,
+      "opinie": 212,
+      "tytul": "Teczka tematyczna: Zwierzęta",
+      "w_klubie": false,
+      "wiek": "3–6 lat"
+    },
+    "ubieram-sie-sam": {
+      "autor": "Kasia Wrona",
+      "cena_pln": 25,
+      "darmowy_fragment_na_karcie": true,
+      "ocena": 4.7,
+      "opinie": 176,
+      "tytul": "Ubieram się sam",
+      "w_klubie": false,
+      "wiek": "3–5 lat"
+    },
+    "wieczor-bez-lekow": {
+      "autor": "Julia Rak",
+      "cena_pln": 35,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "emocje",
+      "ocena": 4.7,
+      "opinie": 194,
+      "tytul": "Wieczór bez lęków",
+      "w_klubie": false,
+      "wiek": "4–8 lat"
+    },
+    "wierszyki-na-r": {
+      "autor": "Anna Bem",
+      "cena_pln": 59,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "logopedia",
+      "ocena": 4.9,
+      "opinie": 204,
+      "tytul": "Wierszyki na R",
+      "w_klubie": true,
+      "wiek": "5–9 lat"
+    },
+    "wiosna-w-doniczce": {
+      "autor": "Iga Sobczak",
+      "cena_pln": 32,
+      "darmowy_fragment_na_karcie": false,
+      "kategoria": "pory",
+      "ocena": 4.8,
+      "opinie": 148,
+      "tytul": "Wiosna w doniczce",
+      "w_klubie": false,
+      "wiek": "4–9 lat"
+    },
+    "zadania-z-trescia": {
+      "autor": "Paweł Nowak",
+      "cena_pln": 42,
+      "darmowy_fragment_na_karcie": true,
+      "ocena": 4.6,
+      "opinie": 98,
+      "tytul": "Zadania z treścią krok po kroku",
+      "w_klubie": false,
+      "wiek": "7–10 lat"
+    },
+    "zestaw-na-podroz": {
+      "autor": "zespół Lupy",
+      "cena_pln": 19,
+      "darmowy_fragment_na_karcie": true,
+      "kategoria": "gry",
+      "ocena": 4.8,
+      "opinie": 447,
+      "tytul": "Zestaw na podróż",
+      "w_klubie": false,
+      "wiek": "5–10 lat"
+    }
+  },
+  "braki": {
+    "produktow_znalezionych": 42,
+    "produktow_oczekiwanych": 48,
+    "brak_stron_p_html": [
+      "angielski-przy-kolacji",
+      "bingo-rodzinne",
+      "busy-pierwsze-slowa",
+      "busy-przedszkolak",
+      "cichy-poranek",
+      "czytam-i-rozumiem",
+      "czytam-po-angielsku",
+      "czytam-sylabami",
+      "dodawanie-bez-palcow",
+      "emocjometr",
+      "ferie-bez-ekranu",
+      "gloski-szumiace",
+      "gry-po-angielsku",
+      "jesienne-popoludnia",
+      "karty-rutyn",
+      "kiedy-jestem-zly",
+      "kiedy-nic-nie-dziala",
+      "kosmos-dla-poczatkujacych",
+      "kto-tu-mieszka",
+      "licze-do-20",
+      "litery-od-zera",
+      "litery-pisane",
+      "memory-domowe",
+      "mnozenie-bez-lez",
+      "moj-tydzien",
+      "moje-cialo",
+      "mowa-startuje",
+      "pisze-bez-nacisku",
+      "planszowki-na-start",
+      "rozmowa-z-nauczycielem",
+      "slyszymy-gloski",
+      "sylaby-dogrywka",
+      "szlaczki-i-wzory",
+      "tablica-obowiazkow",
+      "teczka-pojazdy",
+      "teczka-zwierzeta",
+      "ubieram-sie-sam",
+      "wieczor-bez-lekow",
+      "wierszyki-na-r",
+      "wiosna-w-doniczce",
+      "zadania-z-trescia",
+      "zestaw-na-podroz"
+    ],
+    "brak_liczby_stron": [
+      "angielski-przy-kolacji",
+      "bingo-rodzinne",
+      "busy-pierwsze-slowa",
+      "busy-przedszkolak",
+      "cichy-poranek",
+      "czytam-i-rozumiem",
+      "czytam-po-angielsku",
+      "czytam-sylabami",
+      "dodawanie-bez-palcow",
+      "emocjometr",
+      "ferie-bez-ekranu",
+      "gloski-szumiace",
+      "gry-po-angielsku",
+      "jesienne-popoludnia",
+      "karty-rutyn",
+      "kiedy-jestem-zly",
+      "kiedy-nic-nie-dziala",
+      "kosmos-dla-poczatkujacych",
+      "kto-tu-mieszka",
+      "licze-do-20",
+      "litery-od-zera",
+      "litery-pisane",
+      "memory-domowe",
+      "mnozenie-bez-lez",
+      "moj-tydzien",
+      "moje-cialo",
+      "mowa-startuje",
+      "pisze-bez-nacisku",
+      "planszowki-na-start",
+      "rozmowa-z-nauczycielem",
+      "slyszymy-gloski",
+      "sylaby-dogrywka",
+      "szlaczki-i-wzory",
+      "tablica-obowiazkow",
+      "teczka-pojazdy",
+      "teczka-zwierzeta",
+      "ubieram-sie-sam",
+      "wieczor-bez-lekow",
+      "wierszyki-na-r",
+      "wiosna-w-doniczce",
+      "zadania-z-trescia",
+      "zestaw-na-podroz"
+    ],
+    "brak_kategorii": [
+      "bingo-rodzinne",
+      "czytam-i-rozumiem",
+      "slyszymy-gloski",
+      "teczka-zwierzeta",
+      "ubieram-sie-sam",
+      "zadania-z-trescia"
+    ],
+    "brak_podkategorii": [
+      "angielski-przy-kolacji",
+      "bingo-rodzinne",
+      "busy-pierwsze-slowa",
+      "busy-przedszkolak",
+      "cichy-poranek",
+      "czytam-i-rozumiem",
+      "czytam-po-angielsku",
+      "czytam-sylabami",
+      "dodawanie-bez-palcow",
+      "emocjometr",
+      "ferie-bez-ekranu",
+      "gloski-szumiace",
+      "gry-po-angielsku",
+      "jesienne-popoludnia",
+      "karty-rutyn",
+      "kiedy-jestem-zly",
+      "kiedy-nic-nie-dziala",
+      "kosmos-dla-poczatkujacych",
+      "kto-tu-mieszka",
+      "licze-do-20",
+      "litery-od-zera",
+      "litery-pisane",
+      "memory-domowe",
+      "mnozenie-bez-lez",
+      "moj-tydzien",
+      "moje-cialo",
+      "mowa-startuje",
+      "pisze-bez-nacisku",
+      "planszowki-na-start",
+      "rozmowa-z-nauczycielem",
+      "slyszymy-gloski",
+      "sylaby-dogrywka",
+      "szlaczki-i-wzory",
+      "tablica-obowiazkow",
+      "teczka-pojazdy",
+      "teczka-zwierzeta",
+      "ubieram-sie-sam",
+      "wieczor-bez-lekow",
+      "wierszyki-na-r",
+      "wiosna-w-doniczce",
+      "zadania-z-trescia",
+      "zestaw-na-podroz"
+    ],
+    "brakujace_pliki_listingu": [
+      "katalog.html"
+    ],
+    "brakujace_strony_kategorii": [
+      "k-angielski.html",
+      "k-busy.html",
+      "k-czytanie.html",
+      "k-emocje.html",
+      "k-grafo.html",
+      "k-gry.html",
+      "k-logopedia.html",
+      "k-matematyka.html",
+      "k-pory.html",
+      "k-rodzic.html",
+      "k-rutyny.html",
+      "k-swiat.html"
+    ]
+  }
+}
