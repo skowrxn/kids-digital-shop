@@ -1,0 +1,233 @@
+/* ============================================================
+   LUPA — arkusz druku. Tokeny z marka/design-system.md.
+
+   Wariant DOMYŚLNY jest czarno-biały i ma działać na domowej
+   laserówce. Kolor włącza klasa .kolor na <body>.
+
+   Reguły twarde (marka/design-system.md, sekcja „Druk"):
+   - A4 pionowo, marginesy 15 mm, lewy 22 mm pod dziurkacz
+   - żadna strona nie przekracza 12% pokrycia tuszem
+   - bez teł pełnostronicowych i bez ramek dookoła strony
+   - minimum 14 pt dla dzieci uczących się czytać, 11 pt gdzie indziej
+   - elementy do wycięcia: linie cięcia, minimum 3 mm od krawędzi
+   - lip na przyciskach NIE istnieje w druku — na papierze nie ma stanów
+   ============================================================ */
+
+@page { size: A4 portrait; margin: 0; }
+
+:root{
+  /* w wariancie BW paleta schodzi do szarości — te same role, inne wartości */
+  --ink:#000000;
+  --slate:#5A5A5A;
+  --fold:#B8B8B8;
+  --akcent:#000000;
+  --papier:#FFFFFF;
+
+  --margines:15mm;
+  --margines-lewy:22mm;      /* dziurkacz */
+  --pole:3mm;                /* minimalny odstęp linii cięcia od krawędzi */
+}
+
+body.kolor{
+  --ink:#1E2D4D;
+  --slate:#7C8FA8;
+  --fold:#E4DED2;
+  --akcent:#E2643C;          /* persymon: raz na stronę, nigdy jako tło */
+  --papier:#F7F4ED;
+}
+
+*{ box-sizing:border-box; }
+
+html,body{
+  margin:0; padding:0;
+  background:#FFFFFF;
+  color:var(--ink);
+  font-family:'Plus Jakarta Sans',system-ui,sans-serif;
+  font-size:11pt;            /* podłoga dla tekstu rodzica */
+  line-height:1.45;
+  -webkit-print-color-adjust:exact; print-color-adjust:exact;
+}
+
+/* ---------------------------------------------------------- strona */
+.strona{
+  position:relative;
+  width:210mm; height:297mm;
+  padding:var(--margines) var(--margines) 27mm var(--margines-lewy);
+  overflow:hidden;
+  break-after:page;
+  background:var(--papier);
+  display:flex; flex-direction:column;
+}
+
+/* Obszar ćwiczenia rozpycha się na całą wolną wysokość. Bez tego strona
+   z sześcioma sylabami jest zapełniona w jednej trzeciej i wygląda jak
+   pomyłka w składzie, a dziecko dostaje niepotrzebnie małe pola. */
+.tresc{ flex:1; display:flex; flex-direction:column; min-height:0; }
+.tresc--rozciagnij > *{ flex:1; }
+.tresc--rozloz{ justify-content:space-evenly; }
+.strona:last-child{ break-after:auto; }
+
+/* Bez ramek dookoła strony i bez teł pełnostronicowych — reguła twarda. */
+
+.stopka{
+  position:absolute; left:var(--margines-lewy); right:var(--margines);
+  bottom:var(--margines);        /* stopka NA granicy marginesu, nie w nim */
+  display:flex; justify-content:space-between; align-items:baseline;
+  font-size:8pt; color:var(--slate);
+  border-top:.4pt solid var(--fold); padding-top:2mm;
+}
+.stopka__srodek{ letter-spacing:.02em; }
+.stopka__nr{ font-variant-numeric:tabular-nums; font-weight:700; color:var(--ink); }
+
+/* ------------------------------------------------------ nagłówki stron */
+.naglowek{ display:flex; justify-content:space-between; align-items:baseline;
+           border-bottom:.6pt solid var(--fold); padding-bottom:2.5mm; margin-bottom:7mm; }
+.naglowek__tydzien{ font-size:9pt; font-weight:800; letter-spacing:.09em;
+                    text-transform:uppercase; color:var(--slate); }
+.naglowek__cel{ font-size:11pt; color:var(--slate); text-align:right;
+                max-width:120mm; }
+
+h1.tytul{ font-family:'Bricolage Grotesque',Georgia,serif; font-weight:700;
+          font-size:40pt; line-height:1.04; letter-spacing:-.02em;
+          text-transform:lowercase; margin:0 0 4mm; }
+h2.sekcja{ font-family:'Bricolage Grotesque',Georgia,serif; font-weight:700;
+           font-size:20pt; line-height:1.1; letter-spacing:-.015em;
+           text-transform:lowercase; margin:0 0 4mm; }
+/* Wersaliki display mają wysoki wydłużacz górny. Bez tego odstępu obrys
+   pierwszego nagłówka na stronie wychodzi ~0,5 mm nad margines. */
+.strona > h2.sekcja:first-child{ padding-top:2mm; }
+h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
+        letter-spacing:.04em; text-transform:uppercase; color:var(--slate); }
+
+/* Polecenie do dziecka — czyta je dziecko, więc 14 pt to podłoga. */
+.polecenie{ font-size:16pt; font-weight:800; margin:0 0 2mm; }
+.dla-rodzica{ font-size:11pt; color:var(--slate); margin:0 0 7mm;
+              padding-left:3mm; border-left:1.5pt solid var(--fold); }
+
+/* ------------------------------------------------------------ ćwiczenia */
+.tabela-sylab{ width:100%; height:100%; border-collapse:collapse; margin-top:4mm; }
+.tabela-sylab td{
+  border:.5pt solid var(--fold);
+  text-align:center; padding:4mm 1mm;
+  font-size:26pt; font-weight:700; letter-spacing:.02em;
+}
+/* Komórka bez sylaby nie dostaje obramowania — ostatni wiersz bywa niepełny. */
+.tabela-sylab td:empty{ border:none; }
+
+.sciezka{ display:flex; flex-wrap:wrap; align-items:center; align-content:space-evenly;
+          gap:4mm 3mm; margin-top:8mm; flex:1; }
+.sciezka__krok{ border:.8pt solid var(--ink); border-radius:4mm;
+                padding:3mm 5mm; font-size:22pt; font-weight:700; }
+.sciezka__strzalka{ font-size:14pt; color:var(--slate); }
+.sciezka__meta{ font-size:10pt; color:var(--slate); margin-top:5mm; }
+
+/* Wąskie pola i szeroka przerwa w środku — dziecko musi mieć gdzie
+   poprowadzić linię między kolumnami. */
+.lacz{ display:flex; justify-content:space-between; margin-top:8mm; flex:1; }
+.lacz__kol{ display:flex; flex-direction:column; justify-content:space-evenly;
+            width:48mm; }
+.lacz__pole{ border:.8pt solid var(--ink); border-radius:3mm; padding:3mm 2mm;
+             text-align:center; font-size:22pt; font-weight:700; }
+
+.wyrazy{ display:grid; grid-template-columns:repeat(2,1fr);
+         align-content:space-evenly; gap:6mm 10mm; margin-top:6mm; flex:1; }
+.wyraz{ font-size:22pt; font-weight:700; letter-spacing:.01em; }
+.wyraz__dziel{ color:var(--slate); font-weight:400; padding:0 .5mm; }
+
+.pozycje{ display:flex; flex-direction:column; justify-content:space-evenly;
+          gap:8mm; margin-top:6mm; flex:1; }
+.pozycja{ display:flex; align-items:center; gap:6mm; flex-wrap:wrap; }
+.pozycja__wzor{ font-size:22pt; font-weight:700; min-width:38mm; }
+.pozycja__podpowiedz{ font-size:11pt; color:var(--slate); flex-basis:100%;
+                      margin-bottom:-4mm; }
+.opcja{ border:.8pt solid var(--ink); border-radius:3mm; padding:2mm 5mm;
+        font-size:18pt; font-weight:700; }
+
+.slad{ margin-top:5mm; flex:1; display:flex; flex-direction:column;
+       justify-content:space-evenly; }
+.slad__wzor{ font-size:30pt; font-weight:700; color:var(--fold); letter-spacing:.12em; }
+.linie{ margin:1.5mm 0 6mm; }
+.linia{ height:9mm; border-bottom:.5pt solid var(--fold); position:relative; }
+.linia--srodek::after{ content:""; position:absolute; left:0; right:0; top:50%;
+                       border-top:.4pt dashed var(--fold); }
+
+.zdania{ margin-top:6mm; flex:1; display:flex; flex-direction:column;
+         justify-content:space-evenly; }
+.zdanie{ font-size:20pt; font-weight:700; line-height:1.75; letter-spacing:.01em; }
+.pytanie{ font-size:11pt; color:var(--slate); margin-top:8mm;
+          padding-left:3mm; border-left:1.5pt solid var(--fold); }
+
+.ramki{ display:grid; grid-template-columns:repeat(2,1fr); gap:6mm;
+        margin-top:6mm; flex:1; align-content:start; }
+.ramka{ border:.8pt solid var(--ink); border-radius:3mm; padding:3mm;
+        display:flex; flex-direction:column; }
+.ramka__wyraz{ font-size:20pt; font-weight:700; text-align:center;
+               border-bottom:.5pt solid var(--fold); padding-bottom:2mm; }
+
+/* --------------------------------------------------------- karta rodzica */
+.karta{ display:flex; flex-direction:column; gap:6mm; margin-top:2mm; }
+.karta__blok{ border-left:2pt solid var(--fold); padding-left:5mm; }
+.karta__blok--akcent{ border-left-color:var(--akcent); }
+.karta__lista{ margin:0; padding-left:5mm; font-size:11pt; }
+.karta__lista li{ margin-bottom:2mm; }
+
+/* ------------------------------------------------------------------ gra */
+.gra__meta{ display:flex; gap:8mm; font-size:11pt; color:var(--slate);
+            margin-bottom:5mm; }
+.gra__kroki{ counter-reset:krok; margin:0; padding:0; list-style:none; }
+.gra__kroki li{ counter-increment:krok; position:relative;
+                padding-left:9mm; margin-bottom:3.5mm; font-size:11pt; }
+.gra__kroki li::before{ content:counter(krok); position:absolute; left:0; top:0;
+                        width:6mm; height:6mm; border:.8pt solid var(--ink);
+                        border-radius:50%; text-align:center; font-size:9pt;
+                        font-weight:800; line-height:5.6mm; }
+
+/* Elementy do wycięcia: linia cięcia i minimum 3 mm od krawędzi. */
+.do-wyciecia{ border:.5pt dashed var(--ink); border-radius:2mm;
+              margin:var(--pole); padding:4mm; }
+.do-wyciecia__etykieta{ font-size:8pt; letter-spacing:.08em;
+                        text-transform:uppercase; color:var(--slate); }
+
+/* -------------------------------------------------------------- czytanka */
+.czytanka__linie{ margin-top:8mm; flex:1; }
+.czytanka__linia{ font-size:20pt; font-weight:700; line-height:1.85; }
+.czytanka__kto{ font-size:9pt; color:var(--slate); text-transform:uppercase;
+                letter-spacing:.08em; }
+
+/* --------------------------------------------------------- karta postępu */
+.postep{ width:100%; border-collapse:collapse; margin-top:6mm; }
+.postep th{ font-size:9pt; font-weight:800; color:var(--slate);
+            border-bottom:.8pt solid var(--fold); padding:2mm 1mm; text-align:center; }
+.postep th:first-child{ text-align:left; width:52%; }
+.postep td{ border:.5pt solid var(--fold); height:11mm; }
+.postep td:first-child{ border:none; border-bottom:.5pt solid var(--fold);
+                        font-size:11pt; padding-right:4mm; }
+.postep__nota{ font-size:11pt; color:var(--slate); margin-top:6mm; }
+
+/* -------------------------------------------------------------- formularz */
+.formularz__pole{ margin-bottom:5mm; }
+.formularz__etykieta{ font-size:10pt; font-weight:800; margin-bottom:1.5mm; }
+
+/* ------------------------------------------------------------- okładka */
+.okladka{ display:flex; flex-direction:column; height:100%; }
+.okladka__gora{ flex:1; display:flex; flex-direction:column; justify-content:center; }
+.okladka__meta{ font-size:11pt; color:var(--slate); }
+.okladka__podtytul{ font-size:15pt; font-weight:600; color:var(--slate);
+                    margin:0 0 10mm; }
+.okladka__obietnica{ font-size:12pt; font-weight:700; border-left:3pt solid var(--akcent);
+                     padding-left:6mm; margin:8mm 0; max-width:120mm; }
+.okladka__dol{ font-size:11pt; color:var(--slate); border-top:.6pt solid var(--fold);
+               padding-top:4mm; }
+
+/* ------------------------------------------------------------ dwie kolumny */
+/* Klucz odpowiedzi: 44 wpisy przy podłodze 11 pt mieszczą się na jednej
+   stronie dopiero w trzech kolumnach. */
+.kolumny-klucza{ column-count:3; column-gap:7mm; }
+.klucz__wpis{ break-inside:avoid; margin-bottom:2.5mm; font-size:11pt; }
+.klucz__id{ font-weight:800; font-size:9pt; color:var(--slate);
+            text-transform:uppercase; letter-spacing:.04em; }
+
+.spis{ font-size:11pt; }
+.spis__wiersz{ display:flex; justify-content:space-between; gap:4mm;
+               border-bottom:.4pt dotted var(--fold); padding:1.6mm 0; }
+.spis__nr{ font-variant-numeric:tabular-nums; color:var(--slate); }

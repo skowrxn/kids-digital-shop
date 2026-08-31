@@ -910,20 +910,20 @@
                 "poprawna": 0
               },
               {
-                "wzor": "PA__",
-                "opcje": [
-                  "PA",
-                  "MA",
-                  "MY"
-                ],
-                "poprawna": 0
-              },
-              {
                 "wzor": "PU__",
                 "opcje": [
                   "MA",
                   "PA",
                   "MY"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "MA__",
+                "opcje": [
+                  "MY",
+                  "PA",
+                  "MA"
                 ],
                 "poprawna": 0
               }
@@ -1367,29 +1367,29 @@
                 "poprawna": 0
               },
               {
-                "wzor": "O__",
+                "wzor": "LU__",
                 "opcje": [
-                  "LA",
                   "PA",
+                  "LA",
                   "BA"
                 ],
                 "poprawna": 0
               },
               {
-                "wzor": "U__",
+                "wzor": "BA__",
                 "opcje": [
+                  "BA",
                   "LA",
-                  "PA",
-                  "BA"
+                  "PA"
                 ],
                 "poprawna": 0
               },
               {
-                "wzor": "LA__",
+                "wzor": "MA__",
                 "opcje": [
+                  "MA",
                   "LA",
-                  "PA",
-                  "BA"
+                  "PA"
                 ],
                 "poprawna": 0
               }
@@ -1853,29 +1853,29 @@
                 "poprawna": 0
               },
               {
-                "wzor": "DA__",
-                "opcje": [
-                  "TA",
-                  "MY",
-                  "TY"
-                ],
-                "poprawna": 0
-              },
-              {
-                "wzor": "LA__",
-                "opcje": [
-                  "TA",
-                  "MY",
-                  "TY"
-                ],
-                "poprawna": 0
-              },
-              {
                 "wzor": "DO__",
                 "opcje": [
                   "MY",
                   "TA",
                   "TY"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "LO__",
+                "opcje": [
+                  "TY",
+                  "TA",
+                  "MY"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "A__",
+                "opcje": [
+                  "LA",
+                  "TA",
+                  "MY"
                 ],
                 "poprawna": 0
               }
@@ -3431,9 +3431,9 @@
                 "poprawna": 0
               },
               {
-                "wzor": "NO__",
+                "wzor": "SO__",
                 "opcje": [
-                  "SEK",
+                  "WA",
                   "TEK",
                   "MEK"
                 ],
@@ -3953,18 +3953,18 @@
                 "poprawna": 0
               },
               {
-                "wzor": "WA__",
+                "wzor": "NO__",
                 "opcje": [
-                  "ZA",
+                  "GA",
                   "PA",
-                  "GA"
+                  "ZA"
                 ],
                 "poprawna": 0
               },
               {
-                "wzor": "NO__",
+                "wzor": "GU__",
                 "opcje": [
-                  "GA",
+                  "MA",
                   "PA",
                   "ZA"
                 ],
@@ -5734,8 +5734,8 @@
       "strona_id": "t3-uzupelnij",
       "odpowiedzi": [
         "PA",
-        "PA",
-        "MA"
+        "MA",
+        "MY"
       ]
     },
     {
@@ -5772,9 +5772,9 @@
       "strona_id": "t4-uzupelnij",
       "odpowiedzi": [
         "LA",
-        "LA",
-        "LA",
-        "LA"
+        "PA",
+        "BA",
+        "MA"
       ]
     },
     {
@@ -5812,9 +5812,9 @@
       "strona_id": "t5-uzupelnij",
       "odpowiedzi": [
         "TA",
-        "TA",
-        "TA",
-        "MY"
+        "MY",
+        "TY",
+        "LA"
       ]
     },
     {
@@ -5932,7 +5932,7 @@
         "TEK",
         "MEK",
         "SEK",
-        "SEK"
+        "WA"
       ]
     },
     {
@@ -5971,8 +5971,8 @@
       "odpowiedzi": [
         "PA",
         "ZA",
-        "ZA",
-        "GA"
+        "GA",
+        "MA"
       ]
     },
     {

@@ -152,7 +152,12 @@ def reguly_program(c, bledy, ostrz):
                     if p["poprawna"] >= len(p["opcje"]):
                         bledy.append(f"{s['id']}: pozycja {i} — indeks poprawnej poza opcjami")
                     if len(set(p["opcje"])) != len(p["opcje"]):
-                        ostrz.append(f"{s['id']}: pozycja {i} — powtórzona opcja")
+                        bledy.append(f"{s['id']}: pozycja {i} — powtórzona opcja, "
+                                     "ćwiczenie nie ma jednego rozwiązania")
+                odp = [p["opcje"][p["poprawna"]] for p in d["pozycje"]]
+                if len(odp) > 2 and len(set(odp)) < 2:
+                    bledy.append(f"{s['id']}: wszystkie {len(odp)} odpowiedzi to {odp[0]!r} — "
+                                 "dziecko trafia bez czytania")
 
     # karta postępu zawsze pusta — żadnych danych dziecka
     for t in tygodnie:
@@ -265,6 +270,28 @@ def waliduj_pdf(slug):
                 bledy.append(f"strona {i}: tekst poza obszarem zadruku "
                              f"({x0:.0f},{y0:.0f})-({x1:.0f},{y1:.0f})")
                 break
+    d.close()
+
+    # Stopień pisma. Podłoga z design-system.md: 14 pt dla dzieci uczących się
+    # czytać, 11 pt wszędzie indziej. Sprawdzamy tylko tekst, który się CZYTA —
+    # ciągi dłuższe niż 12 znaków, spoza pasa stopki i nie pisane wersalikami.
+    # Krótsze ciągi, stopka i etykiety wersalikowe to chrome — mogą być mniejsze.
+    d = fitz.open(pelny)
+    min_pt = c["meta"].get("min_pt_dziecka", 14)
+    za_male = {}
+    for i, strona in enumerate(d, 1):
+        for b in strona.get_text("dict")["blocks"]:
+            for l in b.get("lines", []):
+                for sp in l["spans"]:
+                    tekst = sp["text"].strip()
+                    if sp["bbox"][1] > 780:      # pas stopki — numer, tytuł, adres
+                        continue
+                    if tekst.isupper():          # etykieta wersalikowa = chrome
+                        continue
+                    if len(tekst) > 12 and sp["size"] < 10.9:
+                        za_male.setdefault(round(sp["size"], 1), (i, tekst[:40]))
+    for rozmiar, (i, probka) in sorted(za_male.items()):
+        bledy.append(f"strona {i}: tekst {rozmiar}pt poniżej podłogi 11pt: {probka!r}")
     d.close()
 
     if fragment.exists():

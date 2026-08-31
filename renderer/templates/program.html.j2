@@ -1,0 +1,343 @@
+{# =========================================================================
+   Szablon archetypu PROGRAM.
+
+   ZASADA: ten plik opisuje UKŁAD i nie zawiera ani jednego słowa treści
+   produktu. Wszystko, co czyta rodzic albo dziecko, przychodzi z content.json.
+   Jeśli dopisujesz tu zdanie merytoryczne — to jest błąd architektoniczny,
+   patrz CLAUDE.md sekcja 2.
+   ========================================================================= #}
+
+{% macro stopka(nr) %}
+  <div class="stopka">
+    <span>{{ c.meta.tytul }}</span>
+    <span class="stopka__srodek">lupa.pl</span>
+    <span><span class="stopka__nr">{{ nr }}</span> · v{{ c.meta.wersja }}</span>
+  </div>
+{% endmacro %}
+
+{% macro naglowek(t) %}
+  <div class="naglowek">
+    <span class="naglowek__tydzien">Tydzień {{ t.nr }}</span>
+    <span class="naglowek__cel">{{ t.nowy_material.opis }}</span>
+  </div>
+{% endmacro %}
+
+{% macro linie(ile, srodek=True) %}
+  <div class="linie">
+    {% for _ in range(ile) %}<div class="linia {{ 'linia--srodek' if srodek }}"></div>{% endfor %}
+  </div>
+{% endmacro %}
+
+{# ---------------------------------------------------------------- ćwiczenia #}
+{% macro cwiczenie(s) %}
+  <p class="polecenie">{{ s.polecenie }}</p>
+  {% if s.get('dla_rodzica') %}<p class="dla-rodzica">{{ s.dla_rodzica }}</p>{% endif %}
+  {% set d = s.dane %}
+  {% set rozciagnij = s.typ in ('sylaby_tabela',) %}
+  <div class="tresc {{ 'tresc--rozciagnij' if rozciagnij else 'tresc--rozloz' }}">
+
+  {% if s.typ == 'sylaby_tabela' %}
+    <table class="tabela-sylab">
+      {% for w in d.wiersze %}<tr>{% for x in w %}<td>{{ x }}</td>{% endfor %}</tr>{% endfor %}
+    </table>
+
+  {% elif s.typ == 'sylaby_sciezka' %}
+    <div class="sciezka">
+      {% for k in d.kroki %}
+        <span class="sciezka__krok">{{ k }}</span>
+        {% if not loop.last %}<span class="sciezka__strzalka">&rarr;</span>{% endif %}
+      {% endfor %}
+    </div>
+    {% if d.get('meta') %}<p class="sciezka__meta">Meta: {{ d.meta }}</p>{% endif %}
+
+  {% elif s.typ == 'lacz_sylaby' %}
+    <div class="lacz">
+      <div class="lacz__kol">
+        {% for x in d.lewa %}<div class="lacz__pole">{{ x }}</div>{% endfor %}
+      </div>
+      <div class="lacz__kol">
+        {% for x in d.prawa %}<div class="lacz__pole">{{ x }}</div>{% endfor %}
+      </div>
+    </div>
+
+  {% elif s.typ == 'wyrazy_do_czytania' %}
+    <div class="wyrazy">
+      {% for w in d.wyrazy %}
+        <div class="wyraz">
+          {%- for syl in w.sylaby -%}
+            {{ syl }}{% if not loop.last %}<span class="wyraz__dziel">·</span>{% endif %}
+          {%- endfor -%}
+        </div>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'uzupelnij_sylabe' %}
+    <div class="pozycje">
+      {% for p in d.pozycje %}
+        <div class="pozycja">
+          <span class="pozycja__wzor">{{ p.wzor }}</span>
+          {% for o in p.opcje %}<span class="opcja">{{ o }}</span>{% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'wybierz_wyraz' %}
+    <div class="pozycje">
+      {% for p in d.pozycje %}
+        <div class="pozycja">
+          <span class="pozycja__podpowiedz">{{ loop.index }}. {{ p.podpowiedz_rodzica }}</span>
+          {% for o in p.opcje %}<span class="opcja">{{ o }}</span>{% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'pisanie_sylab' %}
+    <div class="slad">
+      {% for w in d.wzory %}
+        <div class="slad__wzor">{{ (w ~ '  ') * 3 }}</div>
+        {{ linie(d.get('linie_na_wzor', 2), d.get('liniatura') != 'gladka') }}
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'czytanie_zdan' %}
+    <div class="zdania">
+      {% for z in d.zdania %}<div class="zdanie">{{ z }}</div>{% endfor %}
+    </div>
+    {% if d.get('pytanie') %}<p class="pytanie">{{ d.pytanie }}</p>{% endif %}
+
+  {% elif s.typ == 'dyktando_sylabowe' %}
+    {{ linie(d.do_dyktowania | length, d.get('liniatura') != 'gladka') }}
+
+  {% elif s.typ == 'ramka_rysunkowa' %}
+    <div class="ramki">
+      {% for w in d.wyrazy %}
+        <div class="ramka" style="height:{{ d.get('wysokosc_ramki_mm', 55) }}mm">
+          <div class="ramka__wyraz">{{ w }}</div>
+        </div>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'formularz' %}
+    {% for p in d.pola %}
+      <div class="formularz__pole">
+        <div class="formularz__etykieta">{{ p.etykieta }}</div>
+        {{ linie(p.get('linie', 1), False) }}
+      </div>
+    {% endfor %}
+  {% endif %}
+  </div>
+{% endmacro %}
+
+{# =============================== STRONY =============================== #}
+{% set ns = namespace(nr=0) %}
+
+{# --- 1. okładka --- #}
+{% set ns.nr = ns.nr + 1 %}
+<div class="strona">
+  <div class="okladka">
+    <div class="okladka__gora">
+      <p class="okladka__meta">{{ c.meta.wiek }} · materiał do druku</p>
+      <h1 class="tytul">{{ c.meta.tytul }}</h1>
+      <p class="okladka__podtytul">{{ c.meta.podtytul }}</p>
+      <p class="okladka__obietnica">{{ c.wstep.obietnica }}</p>
+      <p class="okladka__meta">{{ c.wstep.get('ile_czasu_dziennie', '') }}</p>
+    </div>
+    <div class="okladka__dol">
+      Lupa · lupa.pl · wersja {{ c.meta.wersja }} ·
+      {{ c.meta.strony_deklarowane }} stron ·
+      licencja domowa, bez limitu wydruków
+    </div>
+  </div>
+  {{ stopka(ns.nr) }}
+</div>
+
+{# --- 2. jak korzystać --- #}
+{% set ns.nr = ns.nr + 1 %}
+<div class="strona">
+  <h2 class="sekcja">jak z tego korzystać</h2>
+  <div class="karta" style="flex:1">
+    <div class="karta__blok karta__blok--akcent">
+      <h3 class="pod">Zanim zaczniecie</h3>
+      <p style="font-size:11pt;margin:0">{{ c.wstep.warunek_wejscia }}</p>
+    </div>
+    <div class="karta__blok">
+      <h3 class="pod">Krok po kroku</h3>
+      <ol class="karta__lista">
+        {% for x in c.wstep.jak_korzystac %}<li>{{ x }}</li>{% endfor %}
+      </ol>
+    </div>
+    <div class="karta__blok">
+      <h3 class="pod">Ile czasu</h3>
+      <p style="font-size:11pt;margin:0">{{ c.wstep.get('ile_czasu_dziennie', '') }}</p>
+    </div>
+  </div>
+  {{ stopka(ns.nr) }}
+</div>
+
+{# --- 3. czego to nie robi + plan tygodni --- #}
+{% set ns.nr = ns.nr + 1 %}
+<div class="strona">
+  <h2 class="sekcja">czego ten materiał nie robi</h2>
+  <div class="karta__blok karta__blok--akcent" style="margin-bottom:7mm">
+    <ul class="karta__lista">
+      {% for x in c.wstep.czego_nie_robi %}<li>{{ x }}</li>{% endfor %}
+    </ul>
+  </div>
+  {% if c.wstep.get('kiedy_do_specjalisty') %}
+    <div class="karta__blok" style="margin-bottom:7mm">
+      <h3 class="pod">Kiedy zapytać specjalisty</h3>
+      <p style="font-size:11pt;margin:0">{{ c.wstep.kiedy_do_specjalisty }}</p>
+    </div>
+  {% endif %}
+  <h3 class="pod">Plan tygodni</h3>
+  <div class="spis">
+    {% for t in c.tygodnie %}
+      <div class="spis__wiersz">
+        <span><strong>{{ t.nr }}.</strong> {{ t.nowy_material.opis }}</span>
+        <span class="spis__nr">{{ 4 + (loop.index0 * 15) }}</span>
+      </div>
+    {% endfor %}
+  </div>
+  {{ stopka(ns.nr) }}
+</div>
+
+{# --- tygodnie --- #}
+{% for t in c.tygodnie %}
+
+  {# karta rodzica #}
+  {% set ns.nr = ns.nr + 1 %}
+  <div class="strona">
+    {{ naglowek(t) }}
+    <h2 class="sekcja">karta rodzica</h2>
+    <p style="font-size:11.5pt;font-weight:700;margin:0 0 6mm">{{ t.cel }}</p>
+    <div class="karta" style="flex:1">
+      <div class="karta__blok karta__blok--akcent">
+        <h3 class="pod">Co powiedzieć</h3>
+        <ul class="karta__lista">
+          {% for x in t.karta_rodzica.co_powiedziec %}<li>{{ x }}</li>{% endfor %}
+        </ul>
+      </div>
+      <div class="karta__blok">
+        <h3 class="pod">Na co uważać</h3>
+        <ul class="karta__lista">
+          {% for x in t.karta_rodzica.na_co_uwazac %}<li>{{ x }}</li>{% endfor %}
+        </ul>
+      </div>
+      <div class="karta__blok">
+        <h3 class="pod">Kiedy przejść dalej</h3>
+        <ul class="karta__lista">
+          {% for x in t.karta_rodzica.kiedy_dalej %}<li>{{ x }}</li>{% endfor %}
+        </ul>
+      </div>
+      {% if t.karta_rodzica.get('jesli_nie_idzie') %}
+        <div class="karta__blok">
+          <h3 class="pod">Jeśli nie idzie</h3>
+          <ul class="karta__lista">
+            {% for x in t.karta_rodzica.jesli_nie_idzie %}<li>{{ x }}</li>{% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
+    {{ stopka(ns.nr) }}
+  </div>
+
+  {# materiał dziecka #}
+  {% for s in t.material_dziecka %}
+    {% set ns.nr = ns.nr + 1 %}
+    <div class="strona">
+      {{ naglowek(t) }}
+      {{ cwiczenie(s) }}
+      {{ stopka(ns.nr) }}
+    </div>
+  {% endfor %}
+
+  {# gra #}
+  {% set ns.nr = ns.nr + 1 %}
+  <div class="strona">
+    {{ naglowek(t) }}
+    <h2 class="sekcja">{{ t.gra.nazwa }}</h2>
+    <div class="gra__meta">
+      <span>{{ t.gra.get('gracze', '') }}</span><span>{{ t.gra.get('czas_min', '') }} minut</span>
+    </div>
+    <p style="font-size:11pt;margin:0 0 5mm">{{ t.gra.cel }}</p>
+    {% if t.gra.get('przygotowanie') %}
+      <h3 class="pod">Przygotowanie</h3>
+      <ul class="karta__lista" style="margin-bottom:5mm">
+        {% for x in t.gra.przygotowanie %}<li>{{ x }}</li>{% endfor %}
+      </ul>
+    {% endif %}
+    <h3 class="pod">Zasady</h3>
+    <ol class="gra__kroki">
+      {% for x in t.gra.zasady %}<li>{{ x }}</li>{% endfor %}
+    </ol>
+    {% if t.gra.get('elementy_do_wyciecia') %}
+      <div class="do-wyciecia" style="margin-top:6mm">
+        <span class="do-wyciecia__etykieta">Do wycięcia — tnij po linii</span>
+        <ul class="karta__lista" style="margin-top:2mm">
+          {% for x in t.gra.elementy_do_wyciecia %}<li>{{ x }}</li>{% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+    {{ stopka(ns.nr) }}
+  </div>
+
+  {# czytanka #}
+  {% set ns.nr = ns.nr + 1 %}
+  <div class="strona">
+    {{ naglowek(t) }}
+    <span class="czytanka__kto">Czyta: {{ t.czytanka.get('czyta', 'dziecko') }}</span>
+    <h2 class="sekcja" style="margin-top:2mm">{{ t.czytanka.tytul }}</h2>
+    <div class="czytanka__linie">
+      {% for l in t.czytanka.linie %}<div class="czytanka__linia">{{ l }}</div>{% endfor %}
+    </div>
+    {% if t.czytanka.get('pytania') %}
+      <div class="pytanie">
+        <ul class="karta__lista" style="margin:0">
+          {% for p in t.czytanka.pytania %}<li>{{ p }}</li>{% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+    {{ stopka(ns.nr) }}
+  </div>
+
+  {# karta postępu — ZAWSZE pusta, wypełnia rodzic u siebie #}
+  {% set ns.nr = ns.nr + 1 %}
+  <div class="strona">
+    {{ naglowek(t) }}
+    <h2 class="sekcja">{{ t.karta_postepu.get('naglowek', 'karta postępu') }}</h2>
+    <table class="postep">
+      <tr>
+        <th></th>
+        {% for k in t.karta_postepu.get('kolumny', []) %}<th>{{ k }}</th>{% endfor %}
+      </tr>
+      {% for w in t.karta_postepu.wiersze %}
+        <tr>
+          <td>{{ w }}</td>
+          {% for _ in t.karta_postepu.get('kolumny', []) %}<td></td>{% endfor %}
+        </tr>
+      {% endfor %}
+    </table>
+    <p class="postep__nota">
+      Tę kartę wypełniacie u siebie. Nic z niej do nas nie wraca.
+    </p>
+    {{ stopka(ns.nr) }}
+  </div>
+{% endfor %}
+
+{# --- klucz odpowiedzi --- #}
+{% set ns.nr = ns.nr + 1 %}
+<div class="strona">
+  <h2 class="sekcja">klucz odpowiedzi</h2>
+  <p class="dla-rodzica" style="margin-bottom:5mm">
+    Dla rodzica. Numer przy odpowiedzi wskazuje tydzień i ćwiczenie.
+  </p>
+  <div class="kolumny-klucza">
+    {% for k in c.klucz_odpowiedzi %}
+      <div class="klucz__wpis">
+        <span class="klucz__id">{{ k.strona_id }}</span><br>
+        {{ k.odpowiedzi | join(' · ') }}
+      </div>
+    {% endfor %}
+  </div>
+  {{ stopka(ns.nr) }}
+</div>
