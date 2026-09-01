@@ -129,7 +129,7 @@ h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
 .lacz__pole{ border:.8pt solid var(--ink); border-radius:3mm; padding:3mm 2mm;
              text-align:center; font-size:22pt; font-weight:700; }
 
-.wyrazy{ display:grid; grid-template-columns:repeat(2,1fr);
+.wyrazy{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
          align-content:space-evenly; gap:6mm 10mm; margin-top:6mm; flex:1; }
 .wyraz{ font-size:22pt; font-weight:700; letter-spacing:.01em; }
 .wyraz__dziel{ color:var(--slate); font-weight:400; padding:0 .5mm; }
@@ -154,15 +154,48 @@ h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
 .zdania{ margin-top:6mm; flex:1; display:flex; flex-direction:column;
          justify-content:space-evenly; }
 .zdanie{ font-size:20pt; font-weight:700; line-height:1.75; letter-spacing:.01em; }
-.pytanie{ font-size:11pt; color:var(--slate); margin-top:8mm;
+.pytanie{ font-size:11pt; color:var(--slate); margin-top:5mm;
           padding-left:3mm; border-left:1.5pt solid var(--fold); }
 
-.ramki{ display:grid; grid-template-columns:repeat(2,1fr); gap:6mm;
+.ramki{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6mm;
         margin-top:6mm; flex:1; align-content:start; }
 .ramka{ border:.8pt solid var(--ink); border-radius:3mm; padding:3mm;
         display:flex; flex-direction:column; }
 .ramka__wyraz{ font-size:20pt; font-weight:700; text-align:center;
                border-bottom:.5pt solid var(--fold); padding-bottom:2mm; }
+
+/* ------------------------------------------------------------ ilustracje */
+/* Domyślnie drukujemy wariant BW: wysoki kontrast, białe wypełnienia,
+   ok. 15% pokrycia na obrazek. Kolorowy pokazuje się tylko w pelny-kolor.pdf. */
+.obraz{ display:block; }
+.obraz img{ width:100%; height:auto; }
+/* Kolejność i specyficzność mają tu znaczenie: `.obraz img` (0,1,1) bije
+   samo `.obraz__kolor` (0,1,0), więc przełącznik musi być równie mocny —
+   inaczej w wariancie BW widać OBA obrazki jeden pod drugim. */
+.obraz .obraz__bw{ display:block; }
+.obraz .obraz__kolor{ display:none; }
+body.kolor .obraz .obraz__bw{ display:none; }
+body.kolor .obraz .obraz__kolor{ display:block; }
+
+/* Rozmiary są ograniczone budżetem tuszu, nie estetyką: obrazek 3:2 na
+   150 mm zajmuje ~24% strony i sam wypycha ją ponad bramkę 12%. */
+.obraz--zadanie{ width:28mm; }
+.obraz--otwarcie{ width:56mm; margin:2mm 0 3mm; }
+.otwarcie{ display:flex; align-items:flex-start; gap:7mm; margin-bottom:5mm; }
+.otwarcie__cel{ font-size:11.5pt; font-weight:700; margin:0; }
+.obraz--okladka{ width:78mm; margin:0 0 6mm; }
+
+/* Jedna pozycja na wiersz: obrazek z lewej, opcje z prawej.
+   Dwie pozycje obok siebie wymagałyby zmieszczenia trzech pól z wyrazami
+   w połowie szerokości kolumny — przy MAMA / MAMY / MIMO to nie wychodzi
+   i ostatnie pole ląduje poza kartką. */
+.pozycje--obrazkowe{ display:flex; flex-direction:column;
+                     justify-content:space-evenly; gap:5mm; }
+.pozycja--obrazek{ display:flex; flex-direction:row; align-items:center;
+                   gap:8mm; min-width:0; }
+.pozycja__opcje{ display:flex; flex-wrap:wrap; gap:4mm; flex:1; min-width:0; }
+.pozycja--obrazek .opcja{ font-size:18pt; }
+.pozycja--obrazek .pozycja__podpowiedz{ flex:0 0 28mm; margin:0; font-size:11pt; }
 
 /* --------------------------------------------------------- karta rodzica */
 .karta{ display:flex; flex-direction:column; gap:6mm; margin-top:2mm; }
@@ -189,8 +222,8 @@ h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
                         text-transform:uppercase; color:var(--slate); }
 
 /* -------------------------------------------------------------- czytanka */
-.czytanka__linie{ margin-top:8mm; flex:1; }
-.czytanka__linia{ font-size:20pt; font-weight:700; line-height:1.85; }
+.czytanka__linie{ margin-top:5mm; }
+.czytanka__linia{ font-size:20pt; font-weight:700; line-height:1.6; }
 .czytanka__kto{ font-size:9pt; color:var(--slate); text-transform:uppercase;
                 letter-spacing:.08em; }
 
@@ -210,7 +243,10 @@ h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
 
 /* ------------------------------------------------------------- okładka */
 .okladka{ display:flex; flex-direction:column; height:100%; }
-.okladka__gora{ flex:1; display:flex; flex-direction:column; justify-content:center; }
+.okladka__gora{ flex:1; display:flex; flex-direction:column; justify-content:center;
+                min-height:0; }
+/* Z ilustracją blok nie mieści się wyśrodkowany — idzie od góry. */
+.okladka__gora--z-obrazkiem{ justify-content:flex-start; padding-top:4mm; }
 .okladka__meta{ font-size:11pt; color:var(--slate); }
 .okladka__podtytul{ font-size:15pt; font-weight:600; color:var(--slate);
                     margin:0 0 10mm; }

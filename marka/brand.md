@@ -216,6 +216,31 @@ Nie dobieraj imion pod dziecko użytkownika.
 
 ---
 
+## Ilustracje w produktach
+
+Powstają przez `renderer/ilustracje.py` (kie.ai, `gpt-image-2`). Reguły
+wizualne bierzemy z `design-system.md` i są zakodowane w stałej `STYL`:
+paleta z dziesięciu barw, **persymon dokładnie raz na obrazek**, białe tło,
+bez czarnych konturów, bez cienia rzuconego i linii podłoża.
+
+Co z tego wynika dla treści:
+
+- **Obrazek zastępuje podpowiedź rodzica, nie polecenie.** Tam, gdzie dziecko
+  widzi obrazek, ćwiczenie staje się samodzielne — dorosły nie musi już nic
+  czytać. To jest cel, nie ozdoba.
+- **Nie ilustrujemy wyrazów abstrakcyjnych.** `MIMO`, `DATA`, `NOSI` zostają
+  przy podpowiedzi słownej. Obrazek, którego dziecko nie rozszyfruje, jest
+  gorszy niż jego brak.
+- **Bez tekstu na obrazku.** Litery na ilustracji rozpraszają dziecko, które
+  dopiero uczy się czytać, i psują wersję dla nieczytających.
+- **Bez twarzy udających prawdziwe osoby.** Obsada jest rysunkowa, tak jak
+  `img/cast.png`.
+
+Klucz API żyje wyłącznie w zmiennej `KIE_API_KEY`. Nie trafia do repo,
+do manifestu ani do logów.
+
+---
+
 ## Ograniczenia techniczne, które mają skutek redakcyjny
 
 - Wariant domyślny PDF-a jest **czarno-biały**. Nie pisz „pokoloruj na

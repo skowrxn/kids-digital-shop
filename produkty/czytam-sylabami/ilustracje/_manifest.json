@@ -1,0 +1,320 @@
+{
+  "okladka": {
+    "odcisk": "8455b89fd0fdd255",
+    "taskId": "55d46f9e7dfba1874930f01737950375",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.208
+  },
+  "obraz-sowa": {
+    "odcisk": "ee7d935734f37783",
+    "taskId": "714323ab9a44c177ec7e32e798a0402a",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.158
+  },
+  "obraz-kot": {
+    "odcisk": "b05147d7a8dc8d9f",
+    "taskId": "16175e204d51a6684c0b1e307e60a4f7",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.184
+  },
+  "tydzien-01": {
+    "odcisk": "90cda4778ead1319",
+    "taskId": "cfba97764a0b2292efaa78316b35b5c9",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.147
+  },
+  "obraz-ananas": {
+    "odcisk": "633087b86de14afd",
+    "taskId": "4851ef7f6a555f494c3de7421228a25d",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.142
+  },
+  "obraz-oko": {
+    "odcisk": "d78e07767b9f740a",
+    "taskId": "4fb219ef1eedeef9875a332788733331",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.134
+  },
+  "obraz-ucho": {
+    "odcisk": "3a3964496f1ff6cf",
+    "taskId": "a22c50da18af943aad9d22dc6e156039",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.109
+  },
+  "obraz-igla": {
+    "odcisk": "272db9383d47e91b",
+    "taskId": "0e3d8e9e29b9d1e6e3a8cb6cd2fd9437",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.112
+  },
+  "obraz-ekran": {
+    "odcisk": "baaf41ac3f92eb5f",
+    "taskId": "ccd901599b5b4135bd2608530fe72eca",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.207
+  },
+  "obraz-osa": {
+    "odcisk": "dbba04aa34616cf9",
+    "taskId": "512ecee417a38dba718649536646d2bd",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.131
+  },
+  "obraz-ulica": {
+    "odcisk": "fbe32e02fa69527c",
+    "taskId": "f337b5774e5b8a58ffb55097de78b95e",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.143
+  },
+  "obraz-indyk": {
+    "odcisk": "c34b91905224d95e",
+    "taskId": "cb480308adf10ee95ec3c1876ae7d136",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.308
+  },
+  "tydzien-02": {
+    "odcisk": "6b621fdfa51755af",
+    "taskId": "1f8a7cfcbf49fcf7cebe85b354fcbbd6",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.182
+  },
+  "obraz-mama": {
+    "odcisk": "a633701283dc1195",
+    "taskId": "78e5e712e42d1477eb7c09dd9368d5de",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.242
+  },
+  "tydzien-03": {
+    "odcisk": "3d3ad733ed3452e8",
+    "taskId": "02fa8813d20e46201eebf2643f9f3648",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.187
+  },
+  "obraz-mapa": {
+    "odcisk": "5848fe9e46f6f3cf",
+    "taskId": "4e1d7680c36d1c6458e44c2efadacf8e",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.188
+  },
+  "obraz-puma": {
+    "odcisk": "c5858f8cb1a61c70",
+    "taskId": "2d87aca1f6f1e603a40e3efbc1c635d7",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.183
+  },
+  "tydzien-04": {
+    "odcisk": "040e3b52819c0050",
+    "taskId": "909b6ddd423b76f4f4b83f381a8ea8f0",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.17
+  },
+  "obraz-ala": {
+    "odcisk": "8aceb1544895b4af",
+    "taskId": "5bc894643d144b11bca2998c11e42e1f",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.198
+  },
+  "obraz-ola": {
+    "odcisk": "4e21170d8d50ac6e",
+    "taskId": "c604520af8b66978c6c5ccbe0563a30f",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.141
+  },
+  "obraz-ula": {
+    "odcisk": "21159af1f81211a3",
+    "taskId": "afa8d8461a145ffa732c134252c81b31",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.141
+  },
+  "obraz-lala": {
+    "odcisk": "d3a54b4852db803f",
+    "taskId": "7ad0d2b96a08ab59dbd80125e1a9a58c",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.12
+  },
+  "tydzien-05": {
+    "odcisk": "23d4b79d3b011a32",
+    "taskId": "10ce4059a7a15e2c09088dabe1605adf",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.293
+  },
+  "obraz-tata": {
+    "odcisk": "467714f85165b364",
+    "taskId": "8ad1829f4b0ec255841235ea9c0ef73b",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.196
+  },
+  "obraz-domy": {
+    "odcisk": "1082627584fcc36c",
+    "taskId": "be9f37fab4eaec237a3174cf4f9e954c",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.258
+  },
+  "tydzien-06": {
+    "odcisk": "daeefefbc4ce7d24",
+    "taskId": "8ef8d392b227c801e3b92e18b22c96a8",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.145
+  },
+  "obraz-kino": {
+    "odcisk": "2ec36918d99cda59",
+    "taskId": "0fb7494f84f3abab3f34b13fbdbd8284",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.391
+  },
+  "obraz-koty": {
+    "odcisk": "ec2e67ea5b729f9c",
+    "taskId": "1b3d4797bab9351d28b7c64e66a80248",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.153
+  },
+  "obraz-kuna": {
+    "odcisk": "3b61200e0df528ed",
+    "taskId": "c41673c3cea9baf5db4b023b4ef20cd0",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.268
+  },
+  "obraz-nuta": {
+    "odcisk": "efd03cdddca0cf19",
+    "taskId": "3175cd7e53e7b8dd8d2f8723702a76d3",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.175
+  },
+  "tydzien-07": {
+    "odcisk": "bff40a71ea962cb8",
+    "taskId": "015d26c1d705b76f4c8aa92b71fa6cfa",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.197
+  },
+  "obraz-wata": {
+    "odcisk": "1611377036594c09",
+    "taskId": "f74fa4b64c7c6b82b688a4a912d07ed7",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.146
+  },
+  "obraz-sanie": {
+    "odcisk": "4d7d11112b32ddce",
+    "taskId": "9027eb66f94a5f5dbf201f645d9d1f91",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.136
+  },
+  "tydzien-08": {
+    "odcisk": "b5f279c20abfb282",
+    "taskId": "7a51f21f802e0434b82ec5d0775d5b5c",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.24
+  },
+  "obraz-dom": {
+    "odcisk": "61e6c5d63876ae54",
+    "taskId": "4720702f39334a07947f6a3e5a2cf0b6",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.281
+  },
+  "obraz-las": {
+    "odcisk": "64e964c402616047",
+    "taskId": "6513fd968fe58595399e7f150e06dd0c",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.141
+  },
+  "obraz-nos": {
+    "odcisk": "73612c83f4ae261c",
+    "taskId": "fc6b6736b23560baf17df19b50c9698e",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.156
+  },
+  "tydzien-09": {
+    "odcisk": "ec2ca0ae775dedba",
+    "taskId": "3145d423556a4b1af75e6eb87a6357f9",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.144
+  },
+  "obraz-zupa": {
+    "odcisk": "ed96cf32b8d94853",
+    "taskId": "45ce8bd3bee899de044a0afa11d385ef",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.138
+  },
+  "obraz-koza": {
+    "odcisk": "8d402c5116a51268",
+    "taskId": "405fe5d5fdd46bc6a450261f7ea50c7d",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.134
+  },
+  "obraz-waza": {
+    "odcisk": "c5d136ee7b6b6d86",
+    "taskId": "115315f356d62674c378b6f737083ae0",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.125
+  },
+  "obraz-noga": {
+    "odcisk": "1ac2fdd6c9047e36",
+    "taskId": "8c91e44962bc16c57bbfbe22845499ac",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.143
+  },
+  "tydzien-10": {
+    "odcisk": "2cfd8a56f5a9cf12",
+    "taskId": "3030e2521ad4252c072a61262a617b95",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.198
+  },
+  "obraz-szafa": {
+    "odcisk": "85f94fd915efb143",
+    "taskId": "456aaecbacf59c8badb695cc15d52965",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.182
+  },
+  "obraz-zaba": {
+    "odcisk": "c5815a8d896e566d",
+    "taskId": "1ce14faec74117ce689e3a4696056ed2",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.181
+  },
+  "obraz-chata": {
+    "odcisk": "1a8fbdd62c2b2bf1",
+    "taskId": "c6775ec4a89644eeab0d7f725b8c0686",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.218
+  },
+  "obraz-mucha": {
+    "odcisk": "023af73d3c9565c6",
+    "taskId": "4216f8caa6146d47d2740daf6dbb8dab",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.153
+  },
+  "tydzien-11": {
+    "odcisk": "9974ec5d3dc242d8",
+    "taskId": "dee23e007d38769d6b89a8c2b870d59b",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.136
+  },
+  "obraz-rak": {
+    "odcisk": "3b2a020b8a1e2c7a",
+    "taskId": "087764ebe95af8cc903d83cad0884515",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.167
+  },
+  "obraz-rura": {
+    "odcisk": "11c06f59605873e8",
+    "taskId": "a0db13da5e3c932f0a2697529372a99f",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.128
+  },
+  "obraz-rower": {
+    "odcisk": "f55b225939e5b2e9",
+    "taskId": "6eeda99b39f91198133281f3f95ff4f2",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.172
+  },
+  "obraz-brat": {
+    "odcisk": "fab7fc1a63ec4fff",
+    "taskId": "29c3cd7984eb63b57e2967d6a93e8e99",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.147
+  },
+  "tydzien-12": {
+    "odcisk": "68681925b5af9c73",
+    "taskId": "d009681ac7f6196937e60225f0fa0efd",
+    "kredyty": 6.0,
+    "pokrycie_bw": 0.348
+  }
+}

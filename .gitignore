@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 .kolejka-*.tmp
+_build.html
+.*.raw.png

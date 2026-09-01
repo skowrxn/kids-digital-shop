@@ -9,7 +9,12 @@
     "kategoria": "czytanie",
     "podkategoria": "sylaby",
     "strony_deklarowane": 184,
-    "min_pt_dziecka": 14
+    "min_pt_dziecka": 14,
+    "ilustracja": {
+      "id": "okladka",
+      "brief": "A hedgehog holding an oversized magnifying glass with a persimmon orange rim, looking through it at a large open book. Beside the hedgehog sits a small girl of about six, cross-legged, reading aloud from the same book.",
+      "proporcje": "3:2"
+    }
   },
   "wstep": {
     "warunek_wejscia": "Dziecko rozpoznaje kilka liter i potrafi je nazwać. Nie musi znać całego alfabetu ani umieć pisać.",
@@ -37,6 +42,11 @@
       "nr": 1,
       "cel": "W tym tygodniu dziecko rozpoznaje sześć samogłosek i słyszy je na początku wyrazu.",
       "poziom_trudnosci": 1,
+      "ilustracja": {
+        "id": "tydzien-01",
+        "brief": "A child's mouth open wide saying AAA, drawn as a simple friendly face, front view.",
+        "proporcje": "3:2"
+      },
       "nowy_material": {
         "litery": [
           "A",
@@ -103,7 +113,10 @@
           "dane": {
             "pozycje": [
               {
-                "podpowiedz_rodzica": "ANANAS",
+                "ilustracja": {
+                  "id": "obraz-ananas",
+                  "brief": "A whole pineapple with a green leafy crown."
+                },
                 "opcje": [
                   "A",
                   "O",
@@ -112,7 +125,10 @@
                 "poprawna": 0
               },
               {
-                "podpowiedz_rodzica": "OKO",
+                "ilustracja": {
+                  "id": "obraz-oko",
+                  "brief": "A single human eye, open, with lashes and a blue iris."
+                },
                 "opcje": [
                   "I",
                   "O",
@@ -121,7 +137,10 @@
                 "poprawna": 1
               },
               {
-                "podpowiedz_rodzica": "UCHO",
+                "ilustracja": {
+                  "id": "obraz-ucho",
+                  "brief": "A single human ear seen from the side."
+                },
                 "opcje": [
                   "Y",
                   "A",
@@ -130,7 +149,10 @@
                 "poprawna": 2
               },
               {
-                "podpowiedz_rodzica": "IGŁA",
+                "ilustracja": {
+                  "id": "obraz-igla",
+                  "brief": "A sewing needle with a long blue thread through its eye."
+                },
                 "opcje": [
                   "I",
                   "E",
@@ -140,7 +162,7 @@
               }
             ]
           },
-          "dla_rodzica": "Przeczytaj wyraz i przeciągnij pierwszą głoskę: AAAnanas."
+          "dla_rodzica": "Dziecko nazywa obrazek, przeciąga pierwszą głoskę i zakreśla literę."
         },
         {
           "id": "t1-pisanie-1",
@@ -231,7 +253,10 @@
           "dane": {
             "pozycje": [
               {
-                "podpowiedz_rodzica": "EKRAN",
+                "ilustracja": {
+                  "id": "obraz-ekran",
+                  "brief": "A computer monitor on a stand, screen blank and pale."
+                },
                 "opcje": [
                   "A",
                   "E",
@@ -240,7 +265,10 @@
                 "poprawna": 1
               },
               {
-                "podpowiedz_rodzica": "OSA",
+                "ilustracja": {
+                  "id": "obraz-osa",
+                  "brief": "A wasp with yellow and black striped body, seen from above."
+                },
                 "opcje": [
                   "O",
                   "U",
@@ -249,7 +277,10 @@
                 "poprawna": 0
               },
               {
-                "podpowiedz_rodzica": "ULICA",
+                "ilustracja": {
+                  "id": "obraz-ulica",
+                  "brief": "A short street with two simple houses and a road running between them."
+                },
                 "opcje": [
                   "E",
                   "A",
@@ -258,7 +289,10 @@
                 "poprawna": 2
               },
               {
-                "podpowiedz_rodzica": "INDYK",
+                "ilustracja": {
+                  "id": "obraz-indyk",
+                  "brief": "A turkey with a fanned tail, seen from the side."
+                },
                 "opcje": [
                   "I",
                   "Y",
@@ -268,7 +302,7 @@
               }
             ]
           },
-          "dla_rodzica": "Ta sama zasada: przeciągaj pierwszą głoskę."
+          "dla_rodzica": "Ta sama zasada: nazwij obrazek i przeciągnij pierwszą głoskę."
         },
         {
           "id": "t1-pisanie-2",
@@ -375,6 +409,11 @@
       "nr": 2,
       "cel": "Dziecko czyta pierwsze sylaby otwarte z M i składa z nich wyraz MAMA.",
       "poziom_trudnosci": 2,
+      "ilustracja": {
+        "id": "tydzien-02",
+        "brief": "A mother and a small child sitting at a kitchen table with a sheet of paper between them.",
+        "proporcje": "3:2"
+      },
       "nowy_material": {
         "litery": [
           "M"
@@ -567,35 +606,38 @@
           "dane": {
             "pozycje": [
               {
-                "podpowiedz_rodzica": "Osoba, która cię urodziła.",
                 "opcje": [
                   "MAMA",
                   "MAMY",
                   "MIMO"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-mama",
+                  "brief": "A mother in a navy jumper, smiling warmly, seen from the waist up."
+                }
               },
               {
-                "podpowiedz_rodzica": "Więcej niż jedna mama.",
                 "opcje": [
                   "MAMY",
                   "MAMA",
                   "MIMO"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "podpowiedz_rodzica": "Więcej niż jedna mama."
               },
               {
-                "podpowiedz_rodzica": "Mimo deszczu wyszliśmy.",
                 "opcje": [
                   "MIMO",
                   "MAMA",
                   "MAMY"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "podpowiedz_rodzica": "Mimo deszczu wyszliśmy."
               }
             ]
           },
-          "dla_rodzica": "Ty czytasz podpowiedź, dziecko czyta trzy wyrazy i wybiera."
+          "dla_rodzica": "Przy pozycjach bez obrazka przeczytaj podpowiedź na głos."
         },
         {
           "id": "t2-pisanie",
@@ -740,6 +782,11 @@
       "nr": 3,
       "cel": "Dziecko czyta sylaby z P i składa wyrazy z dwóch różnych sylab.",
       "poziom_trudnosci": 3,
+      "ilustracja": {
+        "id": "tydzien-03",
+        "brief": "A child's hand pointing at a large printed syllable on a sheet of paper.",
+        "proporcje": "3:2"
+      },
       "nowy_material": {
         "litery": [
           "P"
@@ -937,35 +984,53 @@
           "dane": {
             "pozycje": [
               {
-                "podpowiedz_rodzica": "Rysunek kraju albo drogi na papierze.",
                 "opcje": [
                   "MAPA",
                   "PAPA",
                   "PUMA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-mapa",
+                  "brief": "An open paper map with simple blue rivers and green land shapes."
+                }
               },
               {
-                "podpowiedz_rodzica": "Mówimy tak na pożegnanie.",
-                "opcje": [
-                  "PAPA",
-                  "MAPA",
-                  "PUMA"
-                ],
-                "poprawna": 0
-              },
-              {
-                "podpowiedz_rodzica": "Duży dziki kot.",
                 "opcje": [
                   "PUMA",
                   "MAPA",
                   "PAPA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-puma",
+                  "brief": "A sand-coloured wild cat, a puma, standing in profile."
+                }
+              },
+              {
+                "opcje": [
+                  "MAMA",
+                  "MAPA",
+                  "PAPA"
+                ],
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-mama",
+                  "brief": "A mother in a navy jumper, smiling warmly, seen from the waist up."
+                }
+              },
+              {
+                "opcje": [
+                  "PAPA",
+                  "MAPA",
+                  "PUMA"
+                ],
+                "poprawna": 0,
+                "podpowiedz_rodzica": "Mówimy tak na pożegnanie."
               }
             ]
           },
-          "dla_rodzica": "Ty czytasz podpowiedź, dziecko czyta trzy wyrazy i wybiera."
+          "dla_rodzica": "Przy pozycjach bez obrazka przeczytaj podpowiedź na głos."
         },
         {
           "id": "t3-pisanie",
@@ -1111,6 +1176,11 @@
       "nr": 4,
       "cel": "Dziecko czyta pierwsze zdanie złożone z wyrazów, które zna.",
       "poziom_trudnosci": 4,
+      "ilustracja": {
+        "id": "tydzien-04",
+        "brief": "Two small girls sitting on the floor, one holding a doll, the other holding a ball.",
+        "proporcje": "3:2"
+      },
       "nowy_material": {
         "litery": [
           "L",
@@ -1403,44 +1473,56 @@
           "dane": {
             "pozycje": [
               {
-                "podpowiedz_rodzica": "Imię dziewczynki.",
                 "opcje": [
                   "ALA",
                   "OLA",
                   "ULA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-ala",
+                  "brief": "A small girl with short dark hair in a blue dress, standing and waving."
+                }
               },
               {
-                "podpowiedz_rodzica": "Imię dziewczynki.",
                 "opcje": [
                   "OLA",
                   "ALA",
                   "ULA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-ola",
+                  "brief": "A small girl with two blonde plaits in a green dress, holding a flower."
+                }
               },
               {
-                "podpowiedz_rodzica": "Imię dziewczynki.",
                 "opcje": [
                   "ULA",
                   "ALA",
                   "OLA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-ula",
+                  "brief": "A small girl with curly ginger hair in a sand-coloured dress, smiling."
+                }
               },
               {
-                "podpowiedz_rodzica": "Zabawka, która wygląda jak dziecko.",
                 "opcje": [
                   "LALA",
                   "ALA",
                   "OLA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-lala",
+                  "brief": "A simple rag doll toy with yarn hair and a sand-coloured dress."
+                }
               }
             ]
           },
-          "dla_rodzica": "Ty czytasz podpowiedź, dziecko czyta trzy wyrazy i wybiera."
+          "dla_rodzica": "Dziecko nazywa obrazek, czyta trzy wyrazy i zakreśla ten pasujący."
         },
         {
           "id": "t4-pisanie",
@@ -1585,6 +1667,11 @@
       "nr": 5,
       "cel": "Dziecko czyta zdania z czasownikiem i rozpoznaje, kto co robi.",
       "poziom_trudnosci": 5,
+      "ilustracja": {
+        "id": "tydzien-05",
+        "brief": "A father and child reading a short sentence together from a card.",
+        "proporcje": "3:2"
+      },
       "nowy_material": {
         "litery": [
           "T",
@@ -1889,44 +1976,56 @@
           "dane": {
             "pozycje": [
               {
-                "podpowiedz_rodzica": "Drugi rodzic, obok mamy.",
                 "opcje": [
                   "TATA",
                   "DATA",
                   "LATA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-tata",
+                  "brief": "A father in a blue shirt with short beard, smiling, seen from the waist up."
+                }
               },
               {
-                "podpowiedz_rodzica": "Mówi, którego dnia coś było.",
-                "opcje": [
-                  "DATA",
-                  "TATA",
-                  "LATA"
-                ],
-                "poprawna": 0
-              },
-              {
-                "podpowiedz_rodzica": "Najcieplejsza pora roku, w liczbie mnogiej.",
-                "opcje": [
-                  "LATA",
-                  "TATA",
-                  "DATA"
-                ],
-                "poprawna": 0
-              },
-              {
-                "podpowiedz_rodzica": "Budynki, w których mieszkają ludzie.",
                 "opcje": [
                   "DOMY",
                   "TATA",
                   "DATA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-domy",
+                  "brief": "Three simple houses of different heights standing side by side."
+                }
+              },
+              {
+                "opcje": [
+                  "ALA",
+                  "TATA",
+                  "DATA"
+                ],
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-ala",
+                  "brief": "A small girl with short dark hair in a blue dress, standing and waving."
+                }
+              },
+              {
+                "opcje": [
+                  "OLA",
+                  "TATA",
+                  "DATA"
+                ],
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-ola",
+                  "brief": "A small girl with two blonde plaits in a green dress, holding a flower."
+                }
               }
             ]
           },
-          "dla_rodzica": "Ty czytasz podpowiedź, dziecko czyta trzy wyrazy i wybiera."
+          "dla_rodzica": "Dziecko nazywa obrazek, czyta trzy wyrazy i zakreśla ten pasujący."
         },
         {
           "id": "t5-pisanie",
@@ -2071,6 +2170,11 @@
       "nr": 6,
       "cel": "Dziecko czyta wyrazy z czterech różnych spółgłosek bez zatrzymywania się.",
       "poziom_trudnosci": 6,
+      "ilustracja": {
+        "id": "tydzien-06",
+        "brief": "A child at a table with a row of picture cards laid out in front of them.",
+        "proporcje": "3:2"
+      },
       "nowy_material": {
         "litery": [
           "K",
@@ -2390,44 +2494,56 @@
           "dane": {
             "pozycje": [
               {
-                "podpowiedz_rodzica": "Miejsce, gdzie ogląda się filmy.",
                 "opcje": [
                   "KINO",
                   "KOTY",
                   "KUNA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-kino",
+                  "brief": "A cinema screen with three rows of empty seats seen from behind."
+                }
               },
               {
-                "podpowiedz_rodzica": "Zwierzęta, które mruczą.",
                 "opcje": [
                   "KOTY",
                   "KINO",
                   "KUNA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-koty",
+                  "brief": "Three cats of different colours sitting next to each other in a row."
+                }
               },
               {
-                "podpowiedz_rodzica": "Małe leśne zwierzę z długim ciałem.",
                 "opcje": [
                   "KUNA",
                   "KINO",
                   "KOTY"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-kuna",
+                  "brief": "A slender brown marten with a cream chest, standing on all fours."
+                }
               },
               {
-                "podpowiedz_rodzica": "Znak, który mówi, co zagrać.",
                 "opcje": [
                   "NUTA",
                   "KINO",
                   "KOTY"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-nuta",
+                  "brief": "A single large musical note, a crotchet, in navy blue."
+                }
               }
             ]
           },
-          "dla_rodzica": "Ty czytasz podpowiedź, dziecko czyta trzy wyrazy i wybiera."
+          "dla_rodzica": "Dziecko nazywa obrazek, czyta trzy wyrazy i zakreśla ten pasujący."
         },
         {
           "id": "t6-pisanie",
@@ -2572,6 +2688,11 @@
       "nr": 7,
       "cel": "Dziecko czyta sylaby z Ł i rozróżnia je od L.",
       "poziom_trudnosci": 7,
+      "ilustracja": {
+        "id": "tydzien-07",
+        "brief": "An owl perched on a branch next to a child holding a sheet of paper.",
+        "proporcje": "3:2"
+      },
       "nowy_material": {
         "litery": [
           "S",
@@ -2902,44 +3023,56 @@
           "dane": {
             "pozycje": [
               {
-                "podpowiedz_rodzica": "Ptak, który nie śpi w nocy.",
                 "opcje": [
                   "SOWA",
                   "WATA",
                   "SANIE"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-sowa",
+                  "brief": "An owl with big round eyes perched on a short branch, front view."
+                }
               },
               {
-                "podpowiedz_rodzica": "Miękkie białe kłaczki z apteki.",
                 "opcje": [
                   "WATA",
                   "SOWA",
                   "SANIE"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-wata",
+                  "brief": "A round pack of white cotton wool with a blue paper band around it, and two loose cotton balls resting beside it."
+                }
               },
               {
-                "podpowiedz_rodzica": "Jeździ się na nich po śniegu.",
                 "opcje": [
                   "SANIE",
                   "SOWA",
                   "WATA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-sanie",
+                  "brief": "A wooden sledge with curved runners, seen from the side."
+                }
               },
               {
-                "podpowiedz_rodzica": "Trzyma coś i idzie.",
                 "opcje": [
-                  "NOSI",
+                  "KINO",
                   "SOWA",
                   "WATA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-kino",
+                  "brief": "A cinema screen with three rows of empty seats seen from behind."
+                }
               }
             ]
           },
-          "dla_rodzica": "Ty czytasz podpowiedź, dziecko czyta trzy wyrazy i wybiera."
+          "dla_rodzica": "Dziecko nazywa obrazek, czyta trzy wyrazy i zakreśla ten pasujący."
         },
         {
           "id": "t7-pisanie",
@@ -3084,6 +3217,11 @@
       "nr": 8,
       "cel": "Dziecko czyta sylabę zamkniętą spółgłoską: KOT, DOM, LAS.",
       "poziom_trudnosci": 8,
+      "ilustracja": {
+        "id": "tydzien-08",
+        "brief": "A child looking closely at three letter blocks pushed together to make one short word.",
+        "proporcje": "3:2"
+      },
       "nowy_material": {
         "litery": [
           "Ó"
@@ -3449,44 +3587,56 @@
           "dane": {
             "pozycje": [
               {
-                "podpowiedz_rodzica": "Zwierzę, które mruczy.",
                 "opcje": [
                   "KOT",
                   "DOM",
                   "LAS"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-kot",
+                  "brief": "A grey domestic cat sitting upright, tail curled around its paws."
+                }
               },
               {
-                "podpowiedz_rodzica": "Budynek, w którym mieszkasz.",
                 "opcje": [
                   "DOM",
                   "KOT",
                   "LAS"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-dom",
+                  "brief": "A simple detached house with a pitched roof, one door and two windows."
+                }
               },
               {
-                "podpowiedz_rodzica": "Miejsce, gdzie rośnie dużo drzew.",
                 "opcje": [
                   "LAS",
                   "KOT",
                   "DOM"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-las",
+                  "brief": "A group of five simple trees, pine and deciduous mixed, forming a small wood."
+                }
               },
               {
-                "podpowiedz_rodzica": "Masz go na środku twarzy.",
                 "opcje": [
                   "NOS",
                   "KOT",
                   "DOM"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-nos",
+                  "brief": "A simple friendly cartoon face seen in profile, the nose clearly visible."
+                }
               }
             ]
           },
-          "dla_rodzica": "Ty czytasz podpowiedź, dziecko czyta trzy wyrazy i wybiera."
+          "dla_rodzica": "Dziecko nazywa obrazek, czyta trzy wyrazy i zakreśla ten pasujący."
         },
         {
           "id": "t8-pisanie",
@@ -3631,6 +3781,11 @@
       "nr": 9,
       "cel": "Dziecko czyta wyrazy trzysylabowe.",
       "poziom_trudnosci": 9,
+      "ilustracja": {
+        "id": "tydzien-09",
+        "brief": "A child counting three syllable cards laid out in a row on a table.",
+        "proporcje": "3:2"
+      },
       "nowy_material": {
         "litery": [
           "Z",
@@ -3980,44 +4135,56 @@
           "dane": {
             "pozycje": [
               {
-                "podpowiedz_rodzica": "Jesz ją łyżką z talerza.",
                 "opcje": [
                   "ZUPA",
                   "KOZA",
                   "WAZA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-zupa",
+                  "brief": "A bowl of soup with steam rising and a spoon resting beside it."
+                }
               },
               {
-                "podpowiedz_rodzica": "Zwierzę z rogami, daje mleko.",
                 "opcje": [
                   "KOZA",
                   "ZUPA",
                   "WAZA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-koza",
+                  "brief": "A white goat with small curved horns, standing in profile."
+                }
               },
               {
-                "podpowiedz_rodzica": "Naczynie, w którym podaje się zupę.",
                 "opcje": [
                   "WAZA",
                   "ZUPA",
                   "KOZA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-waza",
+                  "brief": "A tall soup tureen with a lid and two handles."
+                }
               },
               {
-                "podpowiedz_rodzica": "Chodzisz na dwóch.",
                 "opcje": [
                   "NOGA",
                   "ZUPA",
                   "KOZA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-noga",
+                  "brief": "A single human leg from hip to foot, wearing a blue sock and shoe."
+                }
               }
             ]
           },
-          "dla_rodzica": "Ty czytasz podpowiedź, dziecko czyta trzy wyrazy i wybiera."
+          "dla_rodzica": "Dziecko nazywa obrazek, czyta trzy wyrazy i zakreśla ten pasujący."
         },
         {
           "id": "t9-pisanie",
@@ -4161,6 +4328,11 @@
       "nr": 10,
       "cel": "Dziecko czyta dwuznaki jako jeden dźwięk, nie dwie litery.",
       "poziom_trudnosci": 10,
+      "ilustracja": {
+        "id": "tydzien-10",
+        "brief": "A child pointing at two letters printed side by side on a large card.",
+        "proporcje": "3:2"
+      },
       "nowy_material": {
         "litery": [
           "SZ",
@@ -4532,44 +4704,56 @@
           "dane": {
             "pozycje": [
               {
-                "podpowiedz_rodzica": "Wieszasz w niej ubrania.",
                 "opcje": [
                   "SZAFA",
                   "ŻABA",
                   "CHATA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-szafa",
+                  "brief": "A tall wooden wardrobe with two doors, one slightly open."
+                }
               },
               {
-                "podpowiedz_rodzica": "Zielone zwierzę, które skacze.",
                 "opcje": [
                   "ŻABA",
                   "SZAFA",
                   "CHATA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-zaba",
+                  "brief": "A green frog sitting, seen from the front."
+                }
               },
               {
-                "podpowiedz_rodzica": "Mały drewniany dom.",
                 "opcje": [
                   "CHATA",
                   "SZAFA",
                   "ŻABA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-chata",
+                  "brief": "A small wooden log cabin with a steep roof and a chimney."
+                }
               },
               {
-                "podpowiedz_rodzica": "Owad, który brzęczy nad stołem.",
                 "opcje": [
                   "MUCHA",
                   "SZAFA",
                   "ŻABA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-mucha",
+                  "brief": "A single housefly with translucent wings, seen from above."
+                }
               }
             ]
           },
-          "dla_rodzica": "Ty czytasz podpowiedź, dziecko czyta trzy wyrazy i wybiera."
+          "dla_rodzica": "Dziecko nazywa obrazek, czyta trzy wyrazy i zakreśla ten pasujący."
         },
         {
           "id": "t10-pisanie",
@@ -4713,6 +4897,11 @@
       "nr": 11,
       "cel": "Dziecko czyta wyrazy, w których dwie spółgłoski stoją obok siebie.",
       "poziom_trudnosci": 11,
+      "ilustracja": {
+        "id": "tydzien-11",
+        "brief": "A boy on a bicycle riding past a tree, seen from the side.",
+        "proporcje": "3:2"
+      },
       "nowy_material": {
         "litery": [
           "R",
@@ -5079,44 +5268,56 @@
           "dane": {
             "pozycje": [
               {
-                "podpowiedz_rodzica": "Zwierzę z wody, ma szczypce.",
                 "opcje": [
                   "RAK",
                   "RURA",
                   "ROWER"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-rak",
+                  "brief": "A river crayfish with two large claws, seen from above."
+                }
               },
               {
-                "podpowiedz_rodzica": "Płynie przez nią woda.",
                 "opcje": [
                   "RURA",
                   "RAK",
                   "ROWER"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-rura",
+                  "brief": "A length of metal pipe with a bend in the middle."
+                }
               },
               {
-                "podpowiedz_rodzica": "Ma dwa koła i pedały.",
                 "opcje": [
                   "ROWER",
                   "RAK",
                   "RURA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-rower",
+                  "brief": "A bicycle seen from the side, with a navy frame."
+                }
               },
               {
-                "podpowiedz_rodzica": "Chłopiec, który ma tych samych rodziców co ty.",
                 "opcje": [
                   "BRAT",
                   "RAK",
                   "RURA"
                 ],
-                "poprawna": 0
+                "poprawna": 0,
+                "ilustracja": {
+                  "id": "obraz-brat",
+                  "brief": "An older boy of about nine in a green t-shirt, arms crossed, grinning."
+                }
               }
             ]
           },
-          "dla_rodzica": "Ty czytasz podpowiedź, dziecko czyta trzy wyrazy i wybiera."
+          "dla_rodzica": "Dziecko nazywa obrazek, czyta trzy wyrazy i zakreśla ten pasujący."
         },
         {
           "id": "t11-pisanie",
@@ -5261,6 +5462,11 @@
       "nr": 12,
       "cel": "Dziecko czyta samo ośmiostronicową książeczkę.",
       "poziom_trudnosci": 12,
+      "ilustracja": {
+        "id": "tydzien-12",
+        "brief": "A small girl sitting alone in an armchair, reading a small book by herself.",
+        "proporcje": "3:2"
+      },
       "nowy_material": {
         "litery": [
           "Ą",
@@ -5742,8 +5948,9 @@
       "strona_id": "t3-wybierz",
       "odpowiedzi": [
         "MAPA",
-        "PAPA",
-        "PUMA"
+        "PUMA",
+        "MAMA",
+        "PAPA"
       ]
     },
     {
@@ -5821,9 +6028,9 @@
       "strona_id": "t5-wybierz",
       "odpowiedzi": [
         "TATA",
-        "DATA",
-        "LATA",
-        "DOMY"
+        "DOMY",
+        "ALA",
+        "OLA"
       ]
     },
     {
@@ -5903,7 +6110,7 @@
         "SOWA",
         "WATA",
         "SANIE",
-        "NOSI"
+        "KINO"
       ]
     },
     {

@@ -12,6 +12,15 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from tygodnie import TYGODNIE, KSIAZECZKA          # noqa: E402
+from ilustracje_dane import WYRAZY, PODPOWIEDZI_T1, TYGODNIE as ILU_TYG, OKLADKA  # noqa: E402
+
+
+def ilustracja(ident, brief, proporcje=None):
+    d = {"id": ident, "brief": brief}
+    if proporcje:
+        d["proporcje"] = proporcje
+    return d
+
 
 SYLABY_WYRAZOW = {
     "MAMA": ["MA", "MA"], "MAMY": ["MA", "MY"], "MIMO": ["MI", "MO"],
@@ -96,6 +105,18 @@ PODPOWIEDZI = {
 }
 
 
+#: wyraz -> bezpieczny fragment id ilustracji
+SLUGI = {
+    "ALA": "ala", "OLA": "ola", "ULA": "ula", "MAMA": "mama", "TATA": "tata",
+    "BRAT": "brat", "LALA": "lala", "LUPA": "lupa", "MAPA": "mapa", "PUMA": "puma",
+    "KOT": "kot", "KOTY": "koty", "DOM": "dom", "DOMY": "domy", "LAS": "las",
+    "KINO": "kino", "KUNA": "kuna", "NUTA": "nuta", "SOWA": "sowa", "WATA": "wata",
+    "SANIE": "sanie", "NOGA": "noga", "NOS": "nos", "KOZA": "koza", "ZUPA": "zupa",
+    "WAZA": "waza", "SZAFA": "szafa", "ŻABA": "zaba", "MUCHA": "mucha",
+    "CHATA": "chata", "RAK": "rak", "ROWER": "rower", "RURA": "rura",
+}
+
+
 def kolumny(lista, n=6):
     return [lista[i:i + n] for i in range(0, len(lista), n)] or [[""]]
 
@@ -129,11 +150,15 @@ def strony_tygodnia(t, klucz):
                    {"kroki": ["A", "O", "U", "I", "E", "Y"], "meta": "Y"}),
             strona(nr, "slychac-1", "wybierz_wyraz", "Zakreśl literę, którą słyszysz.",
                    {"pozycje": [
-                       {"podpowiedz_rodzica": "ANANAS", "opcje": ["A", "O", "U"], "poprawna": 0},
-                       {"podpowiedz_rodzica": "OKO", "opcje": ["I", "O", "E"], "poprawna": 1},
-                       {"podpowiedz_rodzica": "UCHO", "opcje": ["Y", "A", "U"], "poprawna": 2},
-                       {"podpowiedz_rodzica": "IGŁA", "opcje": ["I", "E", "O"], "poprawna": 0}]},
-                   "Przeczytaj wyraz i przeciągnij pierwszą głoskę: AAAnanas."),
+                       {"ilustracja": ilustracja("obraz-ananas", PODPOWIEDZI_T1["ANANAS"]),
+                        "opcje": ["A", "O", "U"], "poprawna": 0},
+                       {"ilustracja": ilustracja("obraz-oko", PODPOWIEDZI_T1["OKO"]),
+                        "opcje": ["I", "O", "E"], "poprawna": 1},
+                       {"ilustracja": ilustracja("obraz-ucho", PODPOWIEDZI_T1["UCHO"]),
+                        "opcje": ["Y", "A", "U"], "poprawna": 2},
+                       {"ilustracja": ilustracja("obraz-igla", PODPOWIEDZI_T1["IGŁA"]),
+                        "opcje": ["I", "E", "O"], "poprawna": 0}]},
+                   "Dziecko nazywa obrazek, przeciąga pierwszą głoskę i zakreśla literę."),
             strona(nr, "pisanie-1", "pisanie_sylab", "Napisz po śladzie.",
                    {"wzory": ["A", "O", "U"], "linie_na_wzor": 2, "liniatura": "trzylinia"}),
             strona(nr, "pary", "sylaby_tabela", "Przeczytaj dwie naraz.",
@@ -149,11 +174,15 @@ def strony_tygodnia(t, klucz):
                    {"kroki": ["O", "A", "E", "U", "Y", "I", "A"], "meta": "A"}),
             strona(nr, "slychac-2", "wybierz_wyraz", "Zakreśl literę, którą słyszysz.",
                    {"pozycje": [
-                       {"podpowiedz_rodzica": "EKRAN", "opcje": ["A", "E", "Y"], "poprawna": 1},
-                       {"podpowiedz_rodzica": "OSA", "opcje": ["O", "U", "I"], "poprawna": 0},
-                       {"podpowiedz_rodzica": "ULICA", "opcje": ["E", "A", "U"], "poprawna": 2},
-                       {"podpowiedz_rodzica": "INDYK", "opcje": ["I", "Y", "O"], "poprawna": 0}]},
-                   "Ta sama zasada: przeciągaj pierwszą głoskę."),
+                       {"ilustracja": ilustracja("obraz-ekran", PODPOWIEDZI_T1["EKRAN"]),
+                        "opcje": ["A", "E", "Y"], "poprawna": 1},
+                       {"ilustracja": ilustracja("obraz-osa", PODPOWIEDZI_T1["OSA"]),
+                        "opcje": ["O", "U", "I"], "poprawna": 0},
+                       {"ilustracja": ilustracja("obraz-ulica", PODPOWIEDZI_T1["ULICA"]),
+                        "opcje": ["E", "A", "U"], "poprawna": 2},
+                       {"ilustracja": ilustracja("obraz-indyk", PODPOWIEDZI_T1["INDYK"]),
+                        "opcje": ["I", "Y", "O"], "poprawna": 0}]},
+                   "Ta sama zasada: nazwij obrazek i przeciągnij pierwszą głoskę."),
             strona(nr, "pisanie-2", "pisanie_sylab", "Napisz po śladzie.",
                    {"wzory": ["I", "E", "Y"], "linie_na_wzor": 2, "liniatura": "trzylinia"}),
             strona(nr, "rysunek-2", "ramka_rysunkowa", "Narysuj coś na O.",
@@ -175,7 +204,17 @@ def strony_tygodnia(t, klucz):
     pary = [[lewa.index(SYLABY_WYRAZOW[w][0]), prawa.index(SYLABY_WYRAZOW[w][1])]
             for w in dwu]
 
-    do_uzup = dwu[:4] or dwusylabowe(t["powtorka_wyr"])[:4]
+    # ALA, OLA, ULA, LALA kończą się tak samo — cztery pozycje z tą samą
+    # odpowiedzią to ćwiczenie bez wartości. Bierzemy wyrazy o RÓŻNYCH
+    # drugich sylabach, w razie potrzeby dobierając z powtórki.
+    do_uzup, uzyte = [], set()
+    for w in dwu + dwusylabowe(t["powtorka_wyr"]):
+        koncowka = SYLABY_WYRAZOW[w][1]
+        if koncowka not in uzyte:
+            uzyte.add(koncowka)
+            do_uzup.append(w)
+        if len(do_uzup) == 4:
+            break
     # Dystraktory muszą być RÓŻNE od poprawnej i od siebie — inaczej ćwiczenie
     # nie ma jednego rozwiązania. Pula: drugie sylaby innych wyrazów tygodnia,
     # w razie potrzeby uzupełniona sylabami powtórkowymi.
@@ -190,14 +229,24 @@ def strony_tygodnia(t, klucz):
         assert len(dystraktory) == 2, f"za mało dystraktorów dla {w} w T{nr}"
         poz_uzup.append({"wzor": f"{a}__", "opcje": [b] + dystraktory, "poprawna": 0})
 
-    do_wyb = [w for w in wyrazy if w in PODPOWIEDZI][:4] or \
-             [w for w in t["powtorka_wyr"] if w in PODPOWIEDZI][:4]
+    # Najpierw wyrazy, które mają obrazek — wtedy całe ćwiczenie jest
+    # samodzielne i rodzic nie musi nic czytać. Wyrazy bez obrazka
+    # (DATA, LATA, MIMO) dobieramy dopiero, gdy brakuje ilustrowanych.
+    pula_wyb = [w for w in wyrazy + t["powtorka_wyr"] if w in PODPOWIEDZI]
+    do_wyb = list(dict.fromkeys(
+        [w for w in pula_wyb if w in WYRAZY] + [w for w in pula_wyb if w not in WYRAZY]))[:4]
     poz_wyb = []
     for w in do_wyb:
         dystr = list(dict.fromkeys(x for x in wyrazy + t["powtorka_wyr"] if x != w))[:2]
         assert len(dystr) == 2, f"za mało dystraktorów wyrazowych dla {w} w T{nr}"
-        poz_wyb.append({"podpowiedz_rodzica": PODPOWIEDZI[w],
-                        "opcje": [w] + dystr, "poprawna": 0})
+        poz = {"opcje": [w] + dystr, "poprawna": 0}
+        if w in WYRAZY:
+            # obrazek robi z tego ćwiczenie samodzielne — dziecko patrzy i czyta
+            poz["ilustracja"] = ilustracja(f"obraz-{SLUGI[w]}", WYRAZY[w])
+        else:
+            # wyraz nieilustrowalny (MIMO, DATA, NOSI) — zostaje podpowiedź rodzica
+            poz["podpowiedz_rodzica"] = PODPOWIEDZI[w]
+        poz_wyb.append(poz)
 
     dyktando = (nowe[:3] + powt[:3])[:6]
     rysunkowe = [w for w in wyrazy if w in PODPOWIEDZI][:4]
@@ -223,7 +272,9 @@ def strony_tygodnia(t, klucz):
                {"pozycje": poz_uzup}),
         strona(nr, "wybierz", "wybierz_wyraz", "Zakreśl właściwy wyraz.",
                {"pozycje": poz_wyb},
-               "Ty czytasz podpowiedź, dziecko czyta trzy wyrazy i wybiera."),
+               "Dziecko nazywa obrazek, czyta trzy wyrazy i zakreśla ten pasujący."
+               if all(p.get("ilustracja") for p in poz_wyb)
+               else "Przy pozycjach bez obrazka przeczytaj podpowiedź na głos."),
         strona(nr, "pisanie", "pisanie_sylab", "Napisz po śladzie.",
                {"wzory": nowe[:4], "linie_na_wzor": 2, "liniatura": "trzylinia"}),
     ]
@@ -304,6 +355,7 @@ def main():
         g = t["gra"]
         tygodnie.append({
             "nr": t["nr"], "cel": t["cel"], "poziom_trudnosci": t["poziom"],
+            "ilustracja": ilustracja(f"tydzien-{t['nr']:02d}", ILU_TYG[t["nr"]], "3:2"),
             "nowy_material": nowy, "powtorka": powtorka,
             "material_dziecka": strony,
             "gra": {"nazwa": g["nazwa"], "cel": g["cel"], "gracze": g["gracze"],
@@ -327,6 +379,7 @@ def main():
             "archetyp": "PROGRAM", "wersja": "1.0", "wiek": "5–7 lat",
             "kategoria": "czytanie", "podkategoria": "sylaby",
             "strony_deklarowane": 184, "min_pt_dziecka": 14,
+            "ilustracja": ilustracja("okladka", OKLADKA, "3:2"),
         },
         "wstep": {
             "warunek_wejscia": "Dziecko rozpoznaje kilka liter i potrafi je nazwać. "

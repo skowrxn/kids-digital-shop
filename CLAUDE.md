@@ -61,9 +61,11 @@ czarno-biała, wersja B produktu powstaje przez zmianę danych w minutę.
 - **Brak dostępu do Anthropic API.** Nie pisz skryptów wołających
   `api.anthropic.com`. Nie proponuj Batch API. Całą treść generujesz Ty,
   w sesjach Claude Code, według kolejki.
-- **Brak API do generowania obrazów.** Nigdzie nie generujemy statyków
-  reklamowych ani ilustracji. Gdzie potrzebna jest grafika — piszesz
-  **brief opisowy**, nie plik.
+- **Ilustracje: kie.ai, model `gpt-image-2`.** Klucz TYLKO ze zmiennej
+  środowiskowej `KIE_API_KEY` — nigdy w repo, w manifeście ani w logu.
+  Obsługa jest w `renderer/ilustracje.py`, szczegóły w sekcji 10a.
+  **Statyków reklamowych nadal nie generujemy** — do kreacji piszesz
+  brief opisowy (KROK 7), bo tam obrazek powstaje poza tym repo.
 - Renderer, walidator i skrypty pomocnicze działają **całkowicie offline**,
   w Pythonie, odpalane Bashem.
 - Chromium jest lokalnie, ale Playwright ma inną wersję niż zainstalowana
@@ -114,7 +116,8 @@ Skrypt nigdy nic nie wymyśla — czego nie ma w mockupie, raportuje w sekcji
    ustalonej listy (`brand.md`).
 4. **Język: prosty, do rodzica, drugą osobą.** Wzorzec w `web/mockup/p-*.html`.
    Konkret zamiast obietnicy, zdania poniżej 15 słów, zero żargonu.
-5. **Bez Anthropic API i bez API do generowania obrazów.**
+5. **Bez Anthropic API.** Treść generujesz Ty, w sesjach. Ilustracje —
+   przez `renderer/ilustracje.py`, nigdy ad hoc curl-em.
 6. **Dane katalogowe muszą zgadzać się z prototypem co do znaku.**
    Tytuł, cena, wiek, autor, liczba stron, kategoria — nie wymyślaj ich
    od nowa. Jeśli czegoś nie ma w mockupie, zgłoś brak, nie zgaduj.
@@ -255,6 +258,47 @@ python3 renderer/render.py <slug> --kolor    # dodatkowo pelny-kolor.pdf
 
 Wyjście: `produkty/<slug>/out/{pelny.pdf,fragment.pdf,podglad-01..04.png}`.
 
+**Fonty muszą być statyczne.** `renderer/fonty.py` robi statyczne instancje
+z krojów wariacyjnych. Font wariacyjny Chromium osadza w PDF-ie jako **Type3**
+— obrysy glifów zamiast kroju. Nie podmieniaj plików w `renderer/fonts/`
+na pobrane wprost z Google Fonts.
+
+---
+
+## 10a. Ilustracje
+
+```bash
+export KIE_API_KEY=...                                  # nigdy w repo
+python3 renderer/ilustracje.py <slug> --raport          # czego brakuje
+python3 renderer/ilustracje.py <slug>                   # dogeneruj brakujące
+python3 renderer/ilustracje.py <slug> --przelicz-bw     # nowa receptura druku, bez kosztu
+```
+
+Zasady:
+
+1. **Brief jest daną produktu**, nie parametrem skryptu. Siedzi w `content.json`
+   w polu `ilustracja: { id, brief, proporcje }`. Ta sama reguła co przy
+   treści: to są dane, nie proza.
+2. **`id` jest per motyw, nie per pozycja.** `KOT` w tygodniu 8 i w tygodniu 9
+   to jeden obrazek — jeden koszt i jedna spójna talia.
+3. **Brief opisuje wyłącznie kadr.** Styl dokleja stała `STYL`
+   w `renderer/ilustracje.py`: paleta z `design-system.md`, persymon dokładnie
+   raz, białe tło, bez konturów, bez cienia i linii podłoża.
+4. **Dwa pliki na motyw**: `<id>.png` (kolor) i `<id>-bw.png` (druk domyślny).
+   Przełącza je CSS, szablon nie wie o wariancie.
+5. **Cache w `_manifest.json`.** Odcisk promptu decyduje o ponownym
+   generowaniu. Zapis po każdej ilustracji — przerwana sesja nic nie traci.
+6. **Nie każdy wyraz da się zilustrować.** `MIMO`, `DATA`, `NOSI` briefu nie
+   mają i zostają przy podpowiedzi czytanej przez rodzica. Lepszy brak obrazka
+   niż obrazek, którego dziecko nie rozszyfruje.
+
+**Post-produkcja jest obowiązkowa i nietrywialna.** Model zwraca obrazek
+z pełnym tłem — bez wybielenia strona ma 100% pokrycia tuszem. Wariantu
+drukarskiego **nie robi się rozjaśnianiem**: bramka liczy piksele niebiałe,
+więc jasna szarość kosztuje tyle samo co czerń, a obrazek robi się nieczytelny.
+Robi się go podniesieniem kontrastu i wycięciem wszystkiego powyżej progu
+do czystej bieli. Próg dobiera się automatycznie pod budżet pokrycia.
+
 ---
 
 ## 11. Walidacja — bramki, których build nie przepuszcza
@@ -360,6 +404,8 @@ domknięciu wewnętrznym.
 
 ### Grafiki
 
-Nie generujemy obrazów — nie ma do tego API. `img/cast.png` i pozostałe
-pliki służą wyłącznie jako **referencja stylu przy pisaniu briefów
-opisowych** do kreacji reklamowych (KROK 7).
+`img/cast.png` to arkusz obsady (Zosia, Ola, Kuba, Mama, Bruno). Służy jako
+**referencja stylu** — przy briefach do kreacji reklamowych (KROK 7) i przy
+pisaniu pól `ilustracja` w `content.json`. Ilustracje do produktów powstają
+przez `renderer/ilustracje.py` (sekcja 10a); statyki reklamowe nadal nie —
+tam zostaje brief opisowy.

@@ -77,6 +77,9 @@ def zbuduj_html(c, archetyp, kolor, tylko_strony=None):
 def do_pdf(strona, html, cel, katalog_roboczy):
     """Zapisuje HTML na dysk i drukuje go do PDF-a.
 
+    HTML ląduje w katalogu PRODUKTU, nie w out/, żeby ścieżki
+    `ilustracje/<id>.png` rozwiązywały się względem niego.
+
     Marginesy są w CSS (.strona), nie w opcjach pdf() — inaczej Chromium
     dokłada swoje i strona rozjeżdża się o kilka milimetrów.
     """
@@ -89,6 +92,12 @@ def do_pdf(strona, html, cel, katalog_roboczy):
                margin={"top": "0", "right": "0", "bottom": "0", "left": "0"},
                prefer_css_page_size=True)
     return plik
+
+
+def _wymagane_ilustracje(c):
+    sys.path.insert(0, str(RENDERER))
+    from ilustracje import zlecenia
+    return sorted(zlecenia(c))
 
 
 def podglady(pdf, out, ile=4, dpi=110):
@@ -126,18 +135,24 @@ def main():
     stron_fragmentu = stron_wstepu + sum(
         1 + len(t["material_dziecka"]) + 3 for t in c["tygodnie"][:do_tyg])
 
+    brak = [i for i in (kat / "content.json").exists() and _wymagane_ilustracje(c) or []
+            if not (kat / "ilustracje" / f"{i}-bw.png").exists()]
+    if brak:
+        print(f"UWAGA: brak {len(brak)} ilustracji ({', '.join(brak[:5])}"
+              f"{' …' if len(brak) > 5 else ''}) — uruchom renderer/ilustracje.py")
+
     with otworz() as strona:
         html_pelny = zbuduj_html(c, archetyp, kolor=False)
-        build = do_pdf(strona, html_pelny, out / "pelny.pdf", out)
+        build = do_pdf(strona, html_pelny, out / "pelny.pdf", kat)
         print(f"  pelny.pdf")
 
         html_fr = zbuduj_html(c, archetyp, kolor=False, tylko_strony=stron_fragmentu)
-        do_pdf(strona, html_fr, out / "fragment.pdf", out)
+        do_pdf(strona, html_fr, out / "fragment.pdf", kat)
         print(f"  fragment.pdf ({stron_fragmentu} stron: wstęp + tygodnie 1–{do_tyg})")
 
         if a.kolor:
             html_k = zbuduj_html(c, archetyp, kolor=True)
-            do_pdf(strona, html_k, out / "pelny-kolor.pdf", out)
+            do_pdf(strona, html_k, out / "pelny-kolor.pdf", kat)
             print(f"  pelny-kolor.pdf")
 
     if not a.html and build.exists():

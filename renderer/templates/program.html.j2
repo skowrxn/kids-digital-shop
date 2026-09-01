@@ -15,6 +15,15 @@
   </div>
 {% endmacro %}
 
+{% macro obraz(ilu, klasa='') %}
+  {# Dwa pliki na jeden motyw: -bw do druku domyślnego, kolorowy do wariantu
+     pełnokolorowego. Przełącza je CSS, więc szablon nic nie wie o wariancie. #}
+  <span class="obraz {{ klasa }}">
+    <img class="obraz__bw"    src="ilustracje/{{ ilu.id }}-bw.png" alt="">
+    <img class="obraz__kolor" src="ilustracje/{{ ilu.id }}.png" alt="">
+  </span>
+{% endmacro %}
+
 {% macro naglowek(t) %}
   <div class="naglowek">
     <span class="naglowek__tydzien">Tydzień {{ t.nr }}</span>
@@ -82,11 +91,17 @@
     </div>
 
   {% elif s.typ == 'wybierz_wyraz' %}
-    <div class="pozycje">
+    <div class="pozycje pozycje--obrazkowe">
       {% for p in d.pozycje %}
-        <div class="pozycja">
-          <span class="pozycja__podpowiedz">{{ loop.index }}. {{ p.podpowiedz_rodzica }}</span>
-          {% for o in p.opcje %}<span class="opcja">{{ o }}</span>{% endfor %}
+        <div class="pozycja pozycja--obrazek">
+          {% if p.get('ilustracja') %}
+            {{ obraz(p.ilustracja, 'obraz--zadanie') }}
+          {% else %}
+            <span class="pozycja__podpowiedz">{{ loop.index }}. {{ p.podpowiedz_rodzica }}</span>
+          {% endif %}
+          <span class="pozycja__opcje">
+            {% for o in p.opcje %}<span class="opcja">{{ o }}</span>{% endfor %}
+          </span>
         </div>
       {% endfor %}
     </div>
@@ -135,7 +150,8 @@
 {% set ns.nr = ns.nr + 1 %}
 <div class="strona">
   <div class="okladka">
-    <div class="okladka__gora">
+    <div class="okladka__gora okladka__gora--z-obrazkiem">
+      {% if c.meta.get('ilustracja') %}{{ obraz(c.meta.ilustracja, 'obraz--okladka') }}{% endif %}
       <p class="okladka__meta">{{ c.meta.wiek }} · materiał do druku</p>
       <h1 class="tytul">{{ c.meta.tytul }}</h1>
       <p class="okladka__podtytul">{{ c.meta.podtytul }}</p>
@@ -209,7 +225,7 @@
   <div class="strona">
     {{ naglowek(t) }}
     <h2 class="sekcja">karta rodzica</h2>
-    <p style="font-size:11.5pt;font-weight:700;margin:0 0 6mm">{{ t.cel }}</p>
+    <p class="otwarcie__cel" style="margin:0 0 6mm">{{ t.cel }}</p>
     <div class="karta" style="flex:1">
       <div class="karta__blok karta__blok--akcent">
         <h3 class="pod">Co powiedzieć</h3>
@@ -287,6 +303,7 @@
     {{ naglowek(t) }}
     <span class="czytanka__kto">Czyta: {{ t.czytanka.get('czyta', 'dziecko') }}</span>
     <h2 class="sekcja" style="margin-top:2mm">{{ t.czytanka.tytul }}</h2>
+    {% if t.get('ilustracja') %}{{ obraz(t.ilustracja, 'obraz--otwarcie') }}{% endif %}
     <div class="czytanka__linie">
       {% for l in t.czytanka.linie %}<div class="czytanka__linia">{{ l }}</div>{% endfor %}
     </div>
