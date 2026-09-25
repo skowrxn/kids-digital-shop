@@ -337,7 +337,12 @@ def main():
     tygodnie = []
     for t in TYGODNIE:
         strony = strony_tygodnia_12(t, klucz) if t["nr"] == 12 else strony_tygodnia(t, klucz)
-        assert len(strony) == 11, f"T{t['nr']}: {len(strony)} stron dziecka, ma być 11"
+        # Tygodnie 1-11 maja staly szkielet 11 stron. Tydzien 12 ma 10:
+        # 2 strony powtorki + 8 stron ksiazeczki. Jedna strona zeszla, gdy
+        # klucz odpowiedzi urosl do dwoch stron - bilans musi trafic w 184.
+        oczekiwane = 10 if t["nr"] == 12 else 11
+        assert len(strony) == oczekiwane, \
+            f"T{t['nr']}: {len(strony)} stron dziecka, ma byc {oczekiwane}"
         nowy = {}
         if t["litery"]:
             nowy["litery"] = t["litery"]

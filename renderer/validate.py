@@ -301,7 +301,10 @@ def bilans_stron(c):
     elif a == "SEGREGATOR":
         n += sum(3 + len(k.get("dodatkowe", [])) for k in c["sekcje"])
     elif a == "GRY":
-        n += sum(1 + (1 if g.get("plansza") else 0) + len(g.get("arkusze", []))
+        # Gra "zwarta" ma planszę POD zasadami, na tej samej stronie —
+        # nie dolicza się jej osobno. Patrz gry.html.j2.
+        n += sum(1 + (0 if g.get("zwarta") else (1 if g.get("plansza") else 0))
+                 + len(g.get("arkusze", []))
                  for g in c["gry"])
     elif a == "PORADNIK":
         n += sum(len(r["strony"]) + (1 if r.get("do_zrobienia_w_tym_tygodniu") else 0)

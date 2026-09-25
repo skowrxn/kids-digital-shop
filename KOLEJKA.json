@@ -66,10 +66,10 @@
       "autor": "Kasia Wrona",
       "cena_pln": 59,
       "strony_prototyp": 140,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:52:51Z",
+      "zaktualizowano": "2026-09-25T11:25:55Z",
       "flagowy": true,
       "icp_glowne": "ICP-3-pogoda"
     },
@@ -143,10 +143,10 @@
       "autor": "Marta Zielińska",
       "cena_pln": 79,
       "strony_prototyp": 184,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-01T14:18:45Z",
+      "zaktualizowano": "2026-09-25T11:25:54Z",
       "flagowy": true,
       "icp_glowne": "ICP-1-szkola"
     },
@@ -175,10 +175,10 @@
       "autor": "Julia Rak",
       "cena_pln": 39,
       "strony_prototyp": 64,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:52:51Z"
+      "zaktualizowano": "2026-09-25T11:25:55Z"
     },
     {
       "slug": "ferie-bez-ekranu",
@@ -205,10 +205,10 @@
       "autor": "Anna Bem",
       "cena_pln": 69,
       "strony_prototyp": 132,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T11:06:31Z",
+      "zaktualizowano": "2026-09-25T11:25:55Z",
       "flagowy": true,
       "icp_glowne": "ICP-2-kolejka"
     },
@@ -252,10 +252,10 @@
       "autor": "Ala Dębska",
       "cena_pln": 29,
       "strony_prototyp": 56,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:40:57Z",
+      "zaktualizowano": "2026-09-25T11:25:55Z",
       "flagowy": true,
       "icp_glowne": "ICP-0-ekran"
     },
@@ -269,10 +269,10 @@
       "autor": "Julia Rak",
       "cena_pln": 39,
       "strony_prototyp": 72,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:52:51Z",
+      "zaktualizowano": "2026-09-25T11:25:55Z",
       "flagowy": true,
       "icp_glowne": "ICP-5-zlosc"
     },
@@ -286,10 +286,10 @@
       "autor": "Julia Rak",
       "cena_pln": 25,
       "strony_prototyp": 40,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:40:57Z"
+      "zaktualizowano": "2026-09-25T11:25:55Z"
     },
     {
       "slug": "kosmos-dla-poczatkujacych",
@@ -346,10 +346,10 @@
       "autor": "Paweł Nowak",
       "cena_pln": 45,
       "strony_prototyp": 90,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T11:15:21Z"
+      "zaktualizowano": "2026-09-25T11:25:55Z"
     },
     {
       "slug": "litery-od-zera",
@@ -361,10 +361,10 @@
       "autor": "Kasia Wrona",
       "cena_pln": 45,
       "strony_prototyp": 96,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:52:51Z"
+      "zaktualizowano": "2026-09-25T11:25:54Z"
     },
     {
       "slug": "litery-pisane",
@@ -406,10 +406,10 @@
       "autor": "Michał Ptak",
       "cena_pln": 29,
       "strony_prototyp": 52,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:57:57Z"
+      "zaktualizowano": "2026-09-25T11:25:55Z"
     },
     {
       "slug": "mnozenie-bez-lez",
@@ -436,10 +436,10 @@
       "autor": "zespół Lupy",
       "cena_pln": 19,
       "strony_prototyp": 32,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:40:57Z",
+      "zaktualizowano": "2026-09-25T11:25:55Z",
       "flagowy": true,
       "icp_glowne": "ICP-4-system"
     },
@@ -528,10 +528,10 @@
       "autor": "Michał Ptak",
       "cena_pln": 39,
       "strony_prototyp": 80,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:40:57Z"
+      "zaktualizowano": "2026-09-25T11:25:55Z"
     },
     {
       "slug": "rozmowa-z-nauczycielem",
@@ -543,10 +543,10 @@
       "autor": "Ala Dębska",
       "cena_pln": 25,
       "strony_prototyp": 36,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T11:11:28Z"
+      "zaktualizowano": "2026-09-25T11:25:55Z"
     },
     {
       "slug": "slyszymy-gloski",
@@ -603,10 +603,10 @@
       "autor": "Ewa Lis",
       "cena_pln": 35,
       "strony_prototyp": 120,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T11:08:05Z"
+      "zaktualizowano": "2026-09-25T11:25:55Z"
     },
     {
       "slug": "tablica-obowiazkow",
@@ -633,10 +633,10 @@
       "autor": "Michał Ptak",
       "cena_pln": 29,
       "strony_prototyp": 48,
-      "etap": "walidacja",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T11:04:06Z"
+      "zaktualizowano": "2026-09-25T11:25:55Z"
     },
     {
       "slug": "teczka-zwierzeta",
@@ -738,10 +738,10 @@
       "autor": "zespół Lupy",
       "cena_pln": 19,
       "strony_prototyp": 24,
-      "etap": "spec",
+      "etap": "gotowy",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:31:46Z"
+      "zaktualizowano": "2026-09-25T11:25:55Z"
     }
   ],
   "reklamy": [
@@ -1178,5 +1178,5 @@
       "zaktualizowano": "2026-08-31T14:55:38Z"
     }
   ],
-  "zaktualizowano": "2026-09-25T11:15:21Z"
+  "zaktualizowano": "2026-09-25T11:25:55Z"
 }

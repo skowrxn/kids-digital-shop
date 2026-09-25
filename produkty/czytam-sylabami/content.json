@@ -5592,111 +5592,6 @@
           "dla_rodzica": "Materiał z tygodni 8, 9, 10 i 11 — wszystko naraz."
         },
         {
-          "id": "t12-wyrazy",
-          "typ": "wyrazy_do_czytania",
-          "polecenie": "Przeczytaj wyrazy.",
-          "dane": {
-            "wyrazy": [
-              {
-                "wyraz": "KOT",
-                "sylaby": [
-                  "KOT"
-                ]
-              },
-              {
-                "wyraz": "DOM",
-                "sylaby": [
-                  "DOM"
-                ]
-              },
-              {
-                "wyraz": "SZAFA",
-                "sylaby": [
-                  "SZA",
-                  "FA"
-                ]
-              },
-              {
-                "wyraz": "ŻABA",
-                "sylaby": [
-                  "ŻA",
-                  "BA"
-                ]
-              },
-              {
-                "wyraz": "BRAT",
-                "sylaby": [
-                  "BRAT"
-                ]
-              },
-              {
-                "wyraz": "ROWER",
-                "sylaby": [
-                  "RO",
-                  "WER"
-                ]
-              },
-              {
-                "wyraz": "JAGODA",
-                "sylaby": [
-                  "JA",
-                  "GO",
-                  "DA"
-                ]
-              },
-              {
-                "wyraz": "KOZA",
-                "sylaby": [
-                  "KO",
-                  "ZA"
-                ]
-              },
-              {
-                "wyraz": "SĄ",
-                "sylaby": [
-                  "SĄ"
-                ]
-              },
-              {
-                "wyraz": "MAJĄ",
-                "sylaby": [
-                  "MA",
-                  "JĄ"
-                ]
-              },
-              {
-                "wyraz": "IDĘ",
-                "sylaby": [
-                  "I",
-                  "DĘ"
-                ]
-              },
-              {
-                "wyraz": "RĘKA",
-                "sylaby": [
-                  "RĘ",
-                  "KA"
-                ]
-              },
-              {
-                "wyraz": "WĄSY",
-                "sylaby": [
-                  "WĄ",
-                  "SY"
-                ]
-              },
-              {
-                "wyraz": "KSIĄŻKA",
-                "sylaby": [
-                  "KSIĄŻ",
-                  "KA"
-                ]
-              }
-            ]
-          },
-          "dla_rodzica": "Bez kreski między sylabami. Dziecko dzieli je samo, w głowie."
-        },
-        {
           "id": "t12-ksiazeczka-01",
           "typ": "czytanie_zdan",
           "polecenie": "Przeczytaj sam.",
@@ -6280,25 +6175,6 @@
         "SZA",
         "SZO",
         "SZU"
-      ]
-    },
-    {
-      "strona_id": "t12-wyrazy",
-      "odpowiedzi": [
-        "KOT",
-        "DOM",
-        "SZAFA",
-        "ŻABA",
-        "BRAT",
-        "ROWER",
-        "JAGODA",
-        "KOZA",
-        "SĄ",
-        "MAJĄ",
-        "IDĘ",
-        "RĘKA",
-        "WĄSY",
-        "KSIĄŻKA"
       ]
     }
   ],

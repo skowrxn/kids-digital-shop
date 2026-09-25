@@ -77,9 +77,9 @@ w tygodniu 8 wprost do niego kieruje.
 | 14 | czytanka |
 | 15 | karta postępu (pusta) |
 
-**Bilans do 184 stron:** 3 strony wstępu (tytułowa + „jak korzystać" ×2)
-+ 12 × 15 = 180 + 1 strona klucza odpowiedzi = **184**. Zgadza się
-z prototypem co do strony, bez tolerancji ±2.
+**Bilans do 184 stron:** 3 strony wstępu + 11 tygodni po 15 stron + tydzień 12 liczący 14 stron + 2 strony klucza odpowiedzi = **184**. Zgadza się z prototypem co do strony, bez tolerancji plus-minus 2.
+
+*(Tydzień 12 ma o jedną stronę materiału dziecka mniej, bo klucz odpowiedzi przy 43 wpisach zajmuje dwie strony, nie jedną. Ostatni tydzień jest w całości powtórką, więc ubyło z niego powtórzenie wyrazów. Książeczka i wprowadzenie Ą/Ę są nietknięte.)*
 
 Jedenaście stron dziecka to stały szkielet, ten sam w każdym tygodniu —
 zmieniają się dane, nie układ:
