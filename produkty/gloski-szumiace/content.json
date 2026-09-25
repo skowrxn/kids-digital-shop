@@ -1,0 +1,4334 @@
+{
+  "meta": {
+    "slug": "gloski-szumiace",
+    "tytul": "Głoska Sz, Ż, Cz krok po kroku",
+    "podtytul": "Zestaw ćwiczeń logopedycznych",
+    "archetyp": "PROGRAM",
+    "wersja": "1.0",
+    "wiek": "4–8 lat",
+    "kategoria": "logopedia",
+    "podkategoria": "szumiace",
+    "strony_deklarowane": 132,
+    "min_pt_dziecka": 14
+  },
+  "wstep": {
+    "warunek_wejscia": "Dziecko potrafi naśladować ruch języka pokazany przez dorosłego i wytrzymuje pięć minut ćwiczeń.",
+    "obietnica": "Dziecko przechodzi pełną ścieżkę dla Sz, Ż i Cz: od ustawienia języka, przez sylaby i wyrazy, po zdania.",
+    "ile_czasu_dziennie": "5–10 minut dziennie, sześć dni w tygodniu. Krótko i codziennie działa lepiej niż raz a długo.",
+    "jak_korzystac": [
+      "Drukuj po jednym tygodniu naraz, nie cały plik. Sześć albo siedem stron, w poniedziałek rano.",
+      "Zacznij od karty rodzica. Zajmuje minutę i mówi, co robić przez cały tydzień.",
+      "Usiądźcie obok siebie, nie naprzeciw. Dziecko ma widzieć twoją buzię z tej samej strony co swoją w lustrze.",
+      "Najpierw pokazujesz ty, potem prosisz dziecko. Nigdy odwrotnie.",
+      "Rób jedną stronę dziennie. Dwie, jeśli dziecko chce — nigdy więcej.",
+      "Grę zostaw na koniec tygodnia. Działa jako nagroda i jako powtórka.",
+      "Nie przechodź dalej, dopóki nie zgadza się warunek z rubryki „kiedy dalej”.",
+      "Jeśli tydzień nie wyszedł, powtórz go. Program nie ma terminu."
+    ],
+    "czego_nie_robi": [
+      "To nie jest terapia ani diagnoza. To ćwiczenia do zrobienia w domu.",
+      "Nie zastępuje wizyty u logopedy — pozwala nie stać w miejscu, czekając na termin.",
+      "Nie mówi, czy wymowa twojego dziecka jest na czas. Tego nie da się ocenić z kartki.",
+      "Nie nadaje się dla dziecka, które ma inaczej zbudowany aparat mowy. To ogląda się na żywo, u specjalisty.",
+      "Nie zawiera nagrań ani filmów. Wszystkie instrukcje są opisane słowami.",
+      "Nie zadziała w tydzień. Dwanaście tygodni to minimum, nie obietnica."
+    ],
+    "kiedy_do_specjalisty": "Umów się do logopedy, jeśli dziecko nie unosi języka do góry, jeśli mówi przez nos, jeśli ślini się przy ćwiczeniach albo jeśli po czterech tygodniach nie słyszysz żadnej zmiany. Zrób to też wtedy, gdy dziecko przestaje chcieć mówić przy tobie. To nie znaczy, że robisz coś źle. Znaczy, że warto, żeby ktoś obejrzał buzię dziecka na żywo."
+  },
+  "tygodnie": [
+    {
+      "nr": 1,
+      "cel": "W tym tygodniu dziecko ustawia język do SZ i mówi długie szszsz bez wyrazów.",
+      "poziom_trudnosci": 1,
+      "nowy_material": {
+        "litery": [
+          "SZ"
+        ],
+        "sylaby": [
+          "SZ"
+        ],
+        "opis": "Samo ustawienie buzi i sama głoska SZ. Żadnych sylab i żadnych wyrazów."
+      },
+      "powtorka": {
+        "z_tygodni": []
+      },
+      "material_dziecka": [
+        {
+          "id": "t1-ustawienie",
+          "typ": "sylaby_sciezka",
+          "polecenie": "Zrób pięć kroków po kolei.",
+          "dane": {
+            "kroki": [
+              "Złóż zęby razem.",
+              "Unieś język do góry.",
+              "Zaokrąglij usta jak do U.",
+              "Dmuchnij ciepło: szszsz.",
+              "Policz do pięciu."
+            ],
+            "meta": "SZ"
+          },
+          "dla_rodzica": "Usiądź obok dziecka, nie naprzeciw. Rób każdy krok razem z nim."
+        },
+        {
+          "id": "t1-waz",
+          "typ": "sylaby_tabela",
+          "polecenie": "Mów tak długo, jak widzisz.",
+          "dane": {
+            "wiersze": [
+              [
+                "SZ",
+                "SZSZ",
+                "SZSZSZ"
+              ],
+              [
+                "SZSZSZSZ",
+                "SZSZ",
+                "SZ"
+              ]
+            ]
+          },
+          "dla_rodzica": "Im dłuższy zapis, tym dłuższy wydech. Nie przerywaj dziecku w połowie."
+        },
+        {
+          "id": "t1-sz-czy-s",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl to, co słyszysz.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz: szszsz.",
+                "opcje": [
+                  "SZ",
+                  "S"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: sssss.",
+                "opcje": [
+                  "SZ",
+                  "S"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: szszsz.",
+                "opcje": [
+                  "S",
+                  "SZ"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: sssss.",
+                "opcje": [
+                  "S",
+                  "SZ"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: szszsz.",
+                "opcje": [
+                  "SZ",
+                  "S"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: sssss.",
+                "opcje": [
+                  "SZ",
+                  "S"
+                ],
+                "poprawna": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Mów z zakrytą buzią, żeby dziecko słuchało, a nie patrzyło."
+        },
+        {
+          "id": "t1-gdzie-slychac",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl, gdzie słyszysz SZ.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Mówię: szafa.",
+                "opcje": [
+                  "POCZĄTEK",
+                  "KONIEC"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Mówię: kosz.",
+                "opcje": [
+                  "POCZĄTEK",
+                  "KONIEC"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Mówię: szalik.",
+                "opcje": [
+                  "POCZĄTEK",
+                  "KONIEC"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Mówię: mysz.",
+                "opcje": [
+                  "POCZĄTEK",
+                  "KONIEC"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Mówię: szyba.",
+                "opcje": [
+                  "POCZĄTEK",
+                  "KONIEC"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Mówię: nasz.",
+                "opcje": [
+                  "POCZĄTEK",
+                  "KONIEC"
+                ],
+                "poprawna": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Czytasz ty. Dziecko tylko słucha i pokazuje palcem."
+        },
+        {
+          "id": "t1-po-sladzie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dane": {
+            "wzory": [
+              "SZ"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          },
+          "dla_rodzica": "Dla młodszego dziecka wystarczy palec po śladzie, bez ołówka."
+        },
+        {
+          "id": "t1-narysuj",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj to, co szumi.",
+          "dane": {
+            "wyrazy": [
+              "WĄŻ",
+              "WIATR",
+              "WODA"
+            ],
+            "wysokosc_ramki_mm": 55
+          },
+          "dla_rodzica": "Przeczytaj wyraz dziecku. Po rysunku poproś o długie szszsz."
+        },
+        {
+          "id": "t1-lustro",
+          "typ": "formularz",
+          "polecenie": "Zaznacz, co dziś wyszło.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Zęby złożone razem",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Język uniesiony do góry",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Usta zaokrąglone jak do U",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Długie szszsz na jednym wydechu",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Pięć powtórzeń pod rząd",
+                "wysokosc_mm": 14,
+                "linie": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Rubryki są puste. Wypełniaj je ołówkiem, przy lustrze, razem z dzieckiem."
+        }
+      ],
+      "gra": {
+        "nazwa": "Długi wąż",
+        "cel": "Wydłużyć wydech na głosce SZ.",
+        "gracze": "dziecko i dorosły",
+        "czas_min": 5,
+        "przygotowanie": [
+          "Wytnij pasek z falą z dołu strony.",
+          "Połóż go na stole między wami."
+        ],
+        "zasady": [
+          "Prowadzisz palcem po fali i mówisz szszsz bez przerwy.",
+          "Kto dojedzie dalej na jednym wydechu, bierze pasek do siebie.",
+          "Gracie pięć rund. Po każdej rundzie zamieniacie się kolejnością.",
+          "Przerwany wydech kończy przejazd. Nikt nikogo nie poprawia w trakcie."
+        ],
+        "elementy_do_wyciecia": [
+          "pasek z falą",
+          "dwa znaczniki startu"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Kto szumi",
+        "czyta": "rodzic",
+        "linie": [
+          "Wąż leży w trawie.",
+          "Wąż mówi: szszsz.",
+          "Wiatr wieje w lesie.",
+          "Liście mówią: szszsz.",
+          "Woda leci z kranu.",
+          "Woda mówi: szszsz.",
+          "Mama prosi o ciszę.",
+          "Mama mówi: szszsz."
+        ],
+        "pytania": [
+          "Kto w tej opowieści mówi szszsz?",
+          "Powiedz szszsz tak długo jak wąż."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Złóż ząbki razem. Prawie się dotykają.”",
+          "„Podnieś język wysoko, za górne zęby. Nie dotykaj nimi zębów.”",
+          "„Zrób usta w kółko, jak do U.”",
+          "„Dmuchnij ciepłym powietrzem przez środek języka. Wyjdzie szszsz.”",
+          "Pokaż wszystko na sobie, powoli, zanim poprosisz dziecko."
+        ],
+        "na_co_uwazac": [
+          "Powietrze ma iść środkiem języka, nie bokami. Bokami słychać świst.",
+          "Język nie może wychodzić między zęby. Wtedy wyjdzie S, nie SZ.",
+          "Usta okrągłe, nie rozciągnięte w uśmiech.",
+          "Pięć minut dziennie wystarczy. Dłużej męczy buzię i zniechęca."
+        ],
+        "kiedy_dalej": [
+          "Dziecko robi długie szszsz pięć razy pod rząd, bez przypominania ustawienia.",
+          "Dziecko słyszy różnicę między SZ i S w twoich słowach.",
+          "Jeśli obie rzeczy są na tak, przejdź do tygodnia 2. Jeśli nie, powtórz ten tydzień."
+        ],
+        "jesli_nie_idzie": [
+          "Poproś dziecko, żeby powiedziało długie sss, a ty delikatnie unieś mu brodę.",
+          "Spróbujcie przed lustrem. Dziecko widzi wtedy swoją buzię i twoją.",
+          "Wróć do samego dmuchania ciepłym powietrzem na dłoń, bez dźwięku.",
+          "Nie zastępuje wizyty u logopedy — to ćwiczenie, które robicie w oczekiwaniu."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 1 — zaznacz, co dziś zrobiliście",
+        "wiersze": [
+          "Ustawienie buzi bez pokazywania",
+          "Długie szszsz",
+          "Pięć powtórzeń pod rząd",
+          "Słyszę różnicę SZ i S",
+          "Gra Długi wąż"
+        ],
+        "kolumny": [
+          "pon",
+          "wt",
+          "śr",
+          "czw",
+          "pt",
+          "sob"
+        ]
+      }
+    },
+    {
+      "nr": 2,
+      "cel": "W tym tygodniu dziecko łączy SZ z samogłoską i mówi sylaby otwarte.",
+      "poziom_trudnosci": 2,
+      "nowy_material": {
+        "sylaby": [
+          "SZA",
+          "SZO",
+          "SZU",
+          "SZE",
+          "SZY"
+        ],
+        "opis": "Sylaby otwarte: SZ na początku, samogłoska na końcu. Wyrazów jeszcze nie ma."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          1
+        ],
+        "sylaby": [
+          "SZ"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t2-sylaby",
+          "typ": "sylaby_tabela",
+          "polecenie": "Przeczytaj na głos, wiersz po wierszu.",
+          "dane": {
+            "wiersze": [
+              [
+                "SZA",
+                "SZO",
+                "SZU"
+              ],
+              [
+                "SZE",
+                "SZY",
+                "SZA"
+              ],
+              [
+                "SZO",
+                "SZU",
+                "SZE"
+              ]
+            ]
+          },
+          "dla_rodzica": "Najpierw ty, potem dziecko. Zaczynajcie każdą sylabę od długiego SZ."
+        },
+        {
+          "id": "t2-sciezka",
+          "typ": "sylaby_sciezka",
+          "polecenie": "Idź palcem i mów sylaby.",
+          "dane": {
+            "kroki": [
+              "SZA",
+              "SZO",
+              "SZU",
+              "SZE",
+              "SZY",
+              "SZA"
+            ],
+            "meta": "SZY"
+          },
+          "dla_rodzica": "Palec nie odrywa się od kartki. Dziecko mówi w rytmie kroków."
+        },
+        {
+          "id": "t2-pary-sylab",
+          "typ": "sylaby_tabela",
+          "polecenie": "Przeczytaj dwie sylaby naraz.",
+          "dane": {
+            "wiersze": [
+              [
+                "SZA-SZA",
+                "SZO-SZO",
+                "SZU-SZU"
+              ],
+              [
+                "SZA-SZO",
+                "SZU-SZY",
+                "SZE-SZA"
+              ],
+              [
+                "SZY-SZE",
+                "SZO-SZU",
+                "SZA-SZY"
+              ]
+            ]
+          },
+          "dla_rodzica": "Dwie sylaby na jednym wydechu. To przygotowanie do wyrazów."
+        },
+        {
+          "id": "t2-lacz",
+          "typ": "lacz_sylaby",
+          "polecenie": "Połącz sylaby w wyraz.",
+          "dane": {
+            "lewa": [
+              "SZA",
+              "SZO",
+              "SZU",
+              "SZY"
+            ],
+            "prawa": [
+              "FA",
+              "PA",
+              "KA",
+              "JA"
+            ],
+            "pary": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ]
+          },
+          "dla_rodzica": "Dziecko czyta lewą sylabę, potem prawą, na końcu cały wyraz."
+        },
+        {
+          "id": "t2-uzupelnij",
+          "typ": "uzupelnij_sylabe",
+          "polecenie": "Wstaw brakującą sylabę.",
+          "dane": {
+            "pozycje": [
+              {
+                "wzor": "__FA",
+                "opcje": [
+                  "SZA",
+                  "SA",
+                  "ŻA"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "__PA",
+                "opcje": [
+                  "SO",
+                  "SZO",
+                  "ŻO"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "__JA",
+                "opcje": [
+                  "SY",
+                  "ŻY",
+                  "SZY"
+                ],
+                "poprawna": 2
+              },
+              {
+                "wzor": "__KA",
+                "opcje": [
+                  "SZU",
+                  "SU",
+                  "ŻU"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "__LIK",
+                "opcje": [
+                  "SA",
+                  "SZA",
+                  "ŻA"
+                ],
+                "poprawna": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Czytasz wzór, dziecko mówi cały wyraz i zakreśla sylabę."
+        },
+        {
+          "id": "t2-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dane": {
+            "wzory": [
+              "SZA",
+              "SZO",
+              "SZU"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t2-powtorka-t1",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl wyraz z SZ.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Stoi w pokoju, wiszą w niej ubrania.",
+                "opcje": [
+                  "SZAFA",
+                  "SANKI"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Jedzie po śniegu z górki.",
+                "opcje": [
+                  "SZOPA",
+                  "SANKI"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Zimą owijasz nim szyję.",
+                "opcje": [
+                  "SALON",
+                  "SZALIK"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Sypiesz ją kurom.",
+                "opcje": [
+                  "KASZA",
+                  "KASA"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Wrzucasz do niego śmieci.",
+                "opcje": [
+                  "KOS",
+                  "KOSZ"
+                ],
+                "poprawna": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Powtórka z tygodnia 1: dziecko ma usłyszeć SZ, zanim zakreśli."
+        }
+      ],
+      "gra": {
+        "nazwa": "Sylabowe schody",
+        "cel": "Powtórzyć pięć sylab otwartych bez zmęczenia.",
+        "gracze": "dziecko i dorosły",
+        "czas_min": 7,
+        "przygotowanie": [
+          "Wytnij pięć stopni z dołu strony.",
+          "Ułóż je w schody na stole."
+        ],
+        "zasady": [
+          "Dziecko wchodzi palcem na stopień i mówi sylabę zapisaną na stopniu.",
+          "Na szczycie mówi wszystkie pięć sylab z rzędu.",
+          "Jeśli sylaba wyjdzie, stopień zostaje. Jeśli nie, wracacie o jeden niżej.",
+          "Gra kończy się, gdy dziecko dojdzie na szczyt dwa razy."
+        ],
+        "elementy_do_wyciecia": [
+          "pięć stopni z sylabami SZA SZO SZU SZE SZY"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Szafa Zosi",
+        "czyta": "rodzic",
+        "linie": [
+          "Zosia ma dużą szafę.",
+          "W szafie wisi szalik.",
+          "Sza, szo, szu.",
+          "Zosia szuka szalika.",
+          "Szy, sze, sza.",
+          "Szalik leży na dole.",
+          "Zosia mówi: mam go."
+        ],
+        "pytania": [
+          "Czego szukała Zosia?",
+          "Powiedz sza, szo, szu tak jak Zosia."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Zacznij od długiego szszsz, a dopiero potem dołóż A.”",
+          "„Sza. Usta cały czas okrągłe.”",
+          "„Teraz dwie naraz: sza-szo.”",
+          "Pokazuj palcem sylabę, którą dziecko ma powiedzieć."
+        ],
+        "na_co_uwazac": [
+          "Przy SZE i SZY usta najłatwiej się rozciągają. Przypomnij o kółku.",
+          "Nie przyspieszajcie. Wolna sylaba jest ważniejsza niż dziesięć szybkich.",
+          "Jeśli wraca S, wróćcie na chwilę do samego SZ z tygodnia 1."
+        ],
+        "kiedy_dalej": [
+          "Dziecko mówi wszystkie pięć sylab otwartych bez przypominania ustawienia.",
+          "Dwie sylaby na jednym wydechu wychodzą co najmniej trzy razy pod rząd.",
+          "Jeśli tak, przejdź do tygodnia 3."
+        ],
+        "jesli_nie_idzie": [
+          "Rozdziel sylabę: sz — a. Z przerwą. Potem skracaj przerwę.",
+          "Zostaw SZE i SZY na koniec tygodnia. Są trudniejsze.",
+          "Powtórz tydzień. Nic się nie stanie, program nie ma terminu."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 2 — zaznacz, co dziś zrobiliście",
+        "wiersze": [
+          "SZA, SZO, SZU",
+          "SZE, SZY",
+          "Dwie sylaby na wydechu",
+          "Powtórka: długie SZ",
+          "Gra Sylabowe schody"
+        ],
+        "kolumny": [
+          "pon",
+          "wt",
+          "śr",
+          "czw",
+          "pt",
+          "sob"
+        ]
+      }
+    },
+    {
+      "nr": 3,
+      "cel": "W tym tygodniu dziecko mówi SZ na końcu sylaby, czyli sylaby zamknięte.",
+      "poziom_trudnosci": 3,
+      "nowy_material": {
+        "sylaby": [
+          "ASZ",
+          "OSZ",
+          "USZ",
+          "ESZ",
+          "YSZ"
+        ],
+        "opis": "Sylaby zamknięte: samogłoska na początku, SZ na końcu. Trudniejsze niż otwarte."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          1,
+          2
+        ],
+        "sylaby": [
+          "SZ",
+          "SZA",
+          "SZO",
+          "SZU",
+          "SZE",
+          "SZY"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t3-zamkniete",
+          "typ": "sylaby_tabela",
+          "polecenie": "Przeczytaj na głos, wiersz po wierszu.",
+          "dane": {
+            "wiersze": [
+              [
+                "ASZ",
+                "OSZ",
+                "USZ"
+              ],
+              [
+                "ESZ",
+                "YSZ",
+                "ASZ"
+              ],
+              [
+                "OSZ",
+                "USZ",
+                "ESZ"
+              ]
+            ]
+          },
+          "dla_rodzica": "Samogłoska krótka, SZ długie. Zakończenie ma być słyszalne."
+        },
+        {
+          "id": "t3-sciezka",
+          "typ": "sylaby_sciezka",
+          "polecenie": "Idź palcem i mów sylaby.",
+          "dane": {
+            "kroki": [
+              "ASZ",
+              "OSZ",
+              "USZ",
+              "ESZ",
+              "YSZ",
+              "ASZ"
+            ],
+            "meta": "YSZ"
+          },
+          "dla_rodzica": "Jeśli SZ na końcu ginie, przedłuż je razem z dzieckiem."
+        },
+        {
+          "id": "t3-otwarte-zamkniete",
+          "typ": "sylaby_tabela",
+          "polecenie": "Przeczytaj parami, z góry na dół.",
+          "dane": {
+            "wiersze": [
+              [
+                "SZA",
+                "ASZ"
+              ],
+              [
+                "SZO",
+                "OSZ"
+              ],
+              [
+                "SZU",
+                "USZ"
+              ],
+              [
+                "SZE",
+                "ESZ"
+              ],
+              [
+                "SZY",
+                "YSZ"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "otwarta",
+              "zamknięta"
+            ]
+          },
+          "dla_rodzica": "Powtórka z tygodnia 2 obok nowego materiału. Zwracaj uwagę na kolejność."
+        },
+        {
+          "id": "t3-uzupelnij",
+          "typ": "uzupelnij_sylabe",
+          "polecenie": "Wstaw brakującą sylabę.",
+          "dane": {
+            "pozycje": [
+              {
+                "wzor": "KO__",
+                "opcje": [
+                  "SZ",
+                  "S",
+                  "Ż"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "MY__",
+                "opcje": [
+                  "S",
+                  "SZ",
+                  "Ż"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "NA__",
+                "opcje": [
+                  "Ż",
+                  "S",
+                  "SZ"
+                ],
+                "poprawna": 2
+              },
+              {
+                "wzor": "KAPELU__",
+                "opcje": [
+                  "SZ",
+                  "S",
+                  "Ż"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "WA__",
+                "opcje": [
+                  "S",
+                  "SZ",
+                  "Ż"
+                ],
+                "poprawna": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Czytasz wzór bez końcówki. Dziecko dopowiada i zakreśla."
+        },
+        {
+          "id": "t3-lacz",
+          "typ": "lacz_sylaby",
+          "polecenie": "Połącz sylaby w wyraz.",
+          "dane": {
+            "lewa": [
+              "KA",
+              "PU",
+              "U",
+              "GRU"
+            ],
+            "prawa": [
+              "SZA",
+              "SZEK",
+              "SZY",
+              "SZKA"
+            ],
+            "pary": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ]
+          },
+          "dla_rodzica": "Tu SZ jest w środku wyrazu. Dziecko czyta wolno, sylaba po sylabie."
+        },
+        {
+          "id": "t3-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dane": {
+            "wzory": [
+              "ASZ",
+              "OSZ",
+              "SZA"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          },
+          "dla_rodzica": "Trzeci wzór to powtórka z tygodnia 2. Zapytaj, czym się różni od pierwszego."
+        }
+      ],
+      "gra": {
+        "nazwa": "Kosz na sylaby",
+        "cel": "Odróżnić sylabę otwartą od zamkniętej.",
+        "gracze": "dziecko i dorosły",
+        "czas_min": 8,
+        "przygotowanie": [
+          "Wytnij dziesięć kartoników z sylabami.",
+          "Postaw dwa kubki i podpisz je: SZ na początku, SZ na końcu."
+        ],
+        "zasady": [
+          "Dziecko losuje kartonik, czyta sylabę na głos i wrzuca do właściwego kubka.",
+          "Za sylabę przeczytaną i wrzuconą dobrze dziecko bierze kartonik na swoją stronę.",
+          "Gra kończy się, gdy skończą się kartoniki. Liczycie, ile leży po której stronie.",
+          "Kartonik z błędnego kubka wraca do puli i losuje się go jeszcze raz."
+        ],
+        "elementy_do_wyciecia": [
+          "dziesięć kartoników z sylabami",
+          "dwie etykiety na kubki"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Nasz kosz",
+        "czyta": "na_zmiane",
+        "linie": [
+          "Kuba niesie kosz.",
+          "W koszu leży gruszka.",
+          "Asz, osz, usz.",
+          "Mysz patrzy na kosz.",
+          "Esz, ysz, asz.",
+          "Mysz chce gruszkę.",
+          "Kuba mówi: to nasz kosz."
+        ],
+        "pytania": [
+          "Co leżało w koszu?",
+          "Powiedz: nasz kosz. Wyraźnie do końca."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Najpierw A, potem długie szszsz. Asz.”",
+          "„Nie kończ za szybko. SZ ma być słychać do końca.”",
+          "„Teraz porównaj: sza i asz. Słyszysz różnicę?”",
+          "Pokaż na sobie, przesadnie wolno, zanim poprosisz dziecko."
+        ],
+        "na_co_uwazac": [
+          "SZ na końcu najczęściej ucieka i zamienia się w S. Przedłużaj je razem.",
+          "Nie dokładaj wyrazów, jeśli sylaby jeszcze się chwieją.",
+          "Krótka samogłoska, długie SZ. Taki jest rytm przez cały tydzień."
+        ],
+        "kiedy_dalej": [
+          "Dziecko mówi pięć sylab zamkniętych i SZ słychać w każdej do końca.",
+          "Dziecko czyta pary SZA-ASZ bez mylenia kolejności.",
+          "Jeśli tak, przejdź do tygodnia 4 i pierwszych wyrazów."
+        ],
+        "jesli_nie_idzie": [
+          "Zacznijcie od samego SZ, a samogłoskę dołóż z przodu po chwili.",
+          "Pomaga klaśnięcie na samogłosce i przeciągnięcie ręki na SZ.",
+          "Zostawcie YSZ na koniec. To najtrudniejsza z pięciu."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 3 — zaznacz, co dziś zrobiliście",
+        "wiersze": [
+          "ASZ, OSZ, USZ",
+          "ESZ, YSZ",
+          "Pary SZA-ASZ",
+          "Powtórka: sylaby otwarte",
+          "Gra Kosz na sylaby"
+        ],
+        "kolumny": [
+          "pon",
+          "wt",
+          "śr",
+          "czw",
+          "pt",
+          "sob"
+        ]
+      }
+    },
+    {
+      "nr": 4,
+      "cel": "W tym tygodniu dziecko mówi całe wyrazy z SZ na początku, w środku i na końcu.",
+      "poziom_trudnosci": 4,
+      "nowy_material": {
+        "wyrazy": [
+          "SZAFA",
+          "SZOPA",
+          "SZALIK",
+          "SZYJA",
+          "SZYBA",
+          "KASZA",
+          "USZY",
+          "PUSZEK",
+          "GRUSZKA",
+          "KOSZULA",
+          "KOSZ",
+          "MYSZ",
+          "NASZ",
+          "KAPELUSZ"
+        ],
+        "opis": "Wyrazy w trzech pozycjach: SZ na początku, w środku i na końcu wyrazu."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          2,
+          3
+        ],
+        "sylaby": [
+          "SZA",
+          "SZO",
+          "SZU",
+          "SZE",
+          "SZY",
+          "ASZ",
+          "OSZ",
+          "USZ",
+          "ESZ",
+          "YSZ"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t4-poczatek",
+          "typ": "wyrazy_do_czytania",
+          "polecenie": "Przeczytaj wyrazy na głos.",
+          "dane": {
+            "wyrazy": [
+              {
+                "wyraz": "SZAFA",
+                "sylaby": [
+                  "SZA",
+                  "FA"
+                ]
+              },
+              {
+                "wyraz": "SZOPA",
+                "sylaby": [
+                  "SZO",
+                  "PA"
+                ]
+              },
+              {
+                "wyraz": "SZALIK",
+                "sylaby": [
+                  "SZA",
+                  "LIK"
+                ]
+              },
+              {
+                "wyraz": "SZYJA",
+                "sylaby": [
+                  "SZY",
+                  "JA"
+                ]
+              },
+              {
+                "wyraz": "SZYBA",
+                "sylaby": [
+                  "SZY",
+                  "BA"
+                ]
+              },
+              {
+                "wyraz": "SZUKA",
+                "sylaby": [
+                  "SZU",
+                  "KA"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "SZ na początku jest najłatwiejsze. Od tego zaczynamy tydzień."
+        },
+        {
+          "id": "t4-srodek",
+          "typ": "wyrazy_do_czytania",
+          "polecenie": "Przeczytaj wyrazy na głos.",
+          "dane": {
+            "wyrazy": [
+              {
+                "wyraz": "KASZA",
+                "sylaby": [
+                  "KA",
+                  "SZA"
+                ]
+              },
+              {
+                "wyraz": "USZY",
+                "sylaby": [
+                  "U",
+                  "SZY"
+                ]
+              },
+              {
+                "wyraz": "PUSZEK",
+                "sylaby": [
+                  "PU",
+                  "SZEK"
+                ]
+              },
+              {
+                "wyraz": "GRUSZKA",
+                "sylaby": [
+                  "GRU",
+                  "SZKA"
+                ]
+              },
+              {
+                "wyraz": "KOSZULA",
+                "sylaby": [
+                  "KO",
+                  "SZU",
+                  "LA"
+                ]
+              },
+              {
+                "wyraz": "PODUSZKA",
+                "sylaby": [
+                  "PO",
+                  "DU",
+                  "SZKA"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "SZ w środku. Poproś o wolne czytanie, sylaba po sylabie."
+        },
+        {
+          "id": "t4-koniec",
+          "typ": "wyrazy_do_czytania",
+          "polecenie": "Przeczytaj wyrazy na głos.",
+          "dane": {
+            "wyrazy": [
+              {
+                "wyraz": "KOSZ",
+                "sylaby": [
+                  "KOSZ"
+                ]
+              },
+              {
+                "wyraz": "MYSZ",
+                "sylaby": [
+                  "MYSZ"
+                ]
+              },
+              {
+                "wyraz": "NASZ",
+                "sylaby": [
+                  "NASZ"
+                ]
+              },
+              {
+                "wyraz": "WASZ",
+                "sylaby": [
+                  "WASZ"
+                ]
+              },
+              {
+                "wyraz": "KAPELUSZ",
+                "sylaby": [
+                  "KA",
+                  "PE",
+                  "LUSZ"
+                ]
+              },
+              {
+                "wyraz": "TUSZ",
+                "sylaby": [
+                  "TUSZ"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "SZ na końcu ucieka najczęściej. Przedłużaj je razem z dzieckiem."
+        },
+        {
+          "id": "t4-pary",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl wyraz, który mówię.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Ptak, który śpiewa na wiosnę.",
+                "opcje": [
+                  "KOSZ",
+                  "KOS"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Wrzucasz do niego śmieci.",
+                "opcje": [
+                  "KOSZ",
+                  "KOS"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Ryba z wąsami, żyje w rzece.",
+                "opcje": [
+                  "SZUM",
+                  "SUM"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Robi go morze i wiatr.",
+                "opcje": [
+                  "SZUM",
+                  "SUM"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Sypiesz ją kurom albo jesz na śniadanie.",
+                "opcje": [
+                  "KASZA",
+                  "KASA"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Płacisz w niej w sklepie.",
+                "opcje": [
+                  "KASZA",
+                  "KASA"
+                ],
+                "poprawna": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Czytasz podpowiedź, dziecko wybiera. Potem samo mówi oba wyrazy."
+        },
+        {
+          "id": "t4-uzupelnij",
+          "typ": "uzupelnij_sylabe",
+          "polecenie": "Wstaw brakującą sylabę.",
+          "dane": {
+            "pozycje": [
+              {
+                "wzor": "__FA",
+                "opcje": [
+                  "SZA",
+                  "SA",
+                  "ZA"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "KA__",
+                "opcje": [
+                  "SA",
+                  "SZA",
+                  "ŻA"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "GRU__KA",
+                "opcje": [
+                  "S",
+                  "Ż",
+                  "SZ"
+                ],
+                "poprawna": 2
+              },
+              {
+                "wzor": "KO__LA",
+                "opcje": [
+                  "SZU",
+                  "SU",
+                  "ŻU"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "MY__",
+                "opcje": [
+                  "S",
+                  "SZ",
+                  "Ż"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "__LIK",
+                "opcje": [
+                  "SA",
+                  "ŻA",
+                  "SZA"
+                ],
+                "poprawna": 2
+              }
+            ]
+          },
+          "dla_rodzica": "Dziecko mówi cały wyraz, dopiero potem zakreśla sylabę."
+        },
+        {
+          "id": "t4-narysuj",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj i nazwij na głos.",
+          "dane": {
+            "wyrazy": [
+              "SZAFA",
+              "KOSZ",
+              "MYSZ",
+              "GRUSZKA"
+            ],
+            "wysokosc_ramki_mm": 45
+          },
+          "dla_rodzica": "Po każdym rysunku dziecko mówi wyraz trzy razy, wolno."
+        },
+        {
+          "id": "t4-dyktando",
+          "typ": "dyktando_sylabowe",
+          "polecenie": "Zapisz sylaby, które słyszysz.",
+          "dane": {
+            "do_dyktowania": [
+              "SZA",
+              "ASZ",
+              "SZO",
+              "OSZ",
+              "SZU",
+              "USZ",
+              "SZY",
+              "YSZ"
+            ],
+            "liniatura": "trzylinia"
+          },
+          "dla_rodzica": "Dyktujesz po jednej, wolno. Dla młodszego dziecka zapisuj ty, a ono powtarza."
+        }
+      ],
+      "gra": {
+        "nazwa": "Memory z SZ",
+        "cel": "Powtórzyć czternaście wyrazów z SZ w trzech pozycjach.",
+        "gracze": "dziecko i dorosły",
+        "czas_min": 10,
+        "przygotowanie": [
+          "Wytnij szesnaście kartoników z dołu strony.",
+          "Rozłóż je napisem do stołu."
+        ],
+        "zasady": [
+          "Odkrywasz dwa kartoniki i czytasz oba wyrazy na głos.",
+          "Para to dwa wyrazy z SZ w tym samym miejscu: na początku, w środku albo na końcu.",
+          "Za zabraną parę gracz mówi oba wyrazy jeszcze raz i bierze kartoniki do siebie.",
+          "Gra kończy się, gdy stół jest pusty. Wygrywa większa kupka."
+        ],
+        "elementy_do_wyciecia": [
+          "szesnaście kartoników z wyrazami"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Mysz i gruszka",
+        "czyta": "na_zmiane",
+        "linie": [
+          "W szopie mieszka mysz.",
+          "Mysz ma szare uszy.",
+          "Na półce leży gruszka.",
+          "Mysz wchodzi na koszulę.",
+          "Z koszuli skacze na półkę.",
+          "Gruszka spada do kosza.",
+          "Mysz siedzi w koszu.",
+          "Nasza mysz jest szczęśliwa."
+        ],
+        "pytania": [
+          "Gdzie skończyła mysz?",
+          "Znajdź w czytance trzy wyrazy z SZ."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Przeczytaj wolno, sylaba po sylabie. Szybko zrobimy później.”",
+          "„Zatrzymaj się na SZ. Niech będzie słychać.”",
+          "„Powiedz cały wyraz jeszcze raz, jednym tchem.”",
+          "Czytaj pierwszy wyraz w każdym wierszu sam. Dziecko idzie dalej."
+        ],
+        "na_co_uwazac": [
+          "Wyraz na końcu wiersza wychodzi najgorzej. Wracajcie do niego na koniec dnia.",
+          "Jeśli SZ znika w szybkim czytaniu, zwolnijcie. Tempo to ostatnia rzecz.",
+          "Nie poprawiaj w połowie wyrazu. Poczekaj do kropki i poproś o powtórzenie."
+        ],
+        "kiedy_dalej": [
+          "Dziecko czyta albo powtarza po tobie dwanaście z czternastu wyrazów z SZ.",
+          "Wyrazy z SZ na końcu wychodzą co najmniej połowę razy.",
+          "Jeśli tak, przejdź do tygodnia 5 i zdań."
+        ],
+        "jesli_nie_idzie": [
+          "Zostań przy wyrazach z SZ na początku. Reszta poczeka tydzień.",
+          "Podziel wyraz na sylaby i klaszczcie na każdej.",
+          "Wróćcie na dwa dni do sylab z tygodni 2 i 3."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 4 — zaznacz, co dziś zrobiliście",
+        "wiersze": [
+          "Wyrazy z SZ na początku",
+          "Wyrazy z SZ w środku",
+          "Wyrazy z SZ na końcu",
+          "Pary: kosz i kos",
+          "Gra Memory z SZ"
+        ],
+        "kolumny": [
+          "pon",
+          "wt",
+          "śr",
+          "czw",
+          "pt",
+          "sob"
+        ]
+      }
+    },
+    {
+      "nr": 5,
+      "cel": "W tym tygodniu dziecko mówi całe zdania z SZ i opowiada własnymi słowami.",
+      "poziom_trudnosci": 5,
+      "nowy_material": {
+        "wyrazy": [
+          "SZYBKO",
+          "SZEROKI",
+          "SZUKAM",
+          "SZARY",
+          "SZUMI"
+        ],
+        "opis": "Zdania z SZ i pierwsza swobodna rozmowa. Głoska wychodzi poza pojedynczy wyraz."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          3,
+          4
+        ],
+        "sylaby": [
+          "ASZ",
+          "OSZ",
+          "USZ",
+          "ESZ",
+          "YSZ"
+        ],
+        "wyrazy": [
+          "SZAFA",
+          "KASZA",
+          "KOSZ",
+          "MYSZ",
+          "GRUSZKA",
+          "KAPELUSZ"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t5-powtorka",
+          "typ": "wyrazy_do_czytania",
+          "polecenie": "Przeczytaj wyrazy na głos.",
+          "dane": {
+            "wyrazy": [
+              {
+                "wyraz": "SZOPA",
+                "sylaby": [
+                  "SZO",
+                  "PA"
+                ]
+              },
+              {
+                "wyraz": "KASZA",
+                "sylaby": [
+                  "KA",
+                  "SZA"
+                ]
+              },
+              {
+                "wyraz": "PODUSZKA",
+                "sylaby": [
+                  "PO",
+                  "DU",
+                  "SZKA"
+                ]
+              },
+              {
+                "wyraz": "KAPELUSZ",
+                "sylaby": [
+                  "KA",
+                  "PE",
+                  "LUSZ"
+                ]
+              },
+              {
+                "wyraz": "KOSZULA",
+                "sylaby": [
+                  "KO",
+                  "SZU",
+                  "LA"
+                ]
+              },
+              {
+                "wyraz": "NASZ",
+                "sylaby": [
+                  "NASZ"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "Rozgrzewka z tygodnia 4. Wyrazy mają wyjść, zanim wejdziecie w zdania."
+        },
+        {
+          "id": "t5-krotkie",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj zdania na głos.",
+          "dane": {
+            "zdania": [
+              "Szafa jest szara.",
+              "Mysz ma szare uszy.",
+              "Kosz stoi w szopie.",
+              "Nasza gruszka jest duża.",
+              "Szalik wisi na szafie.",
+              "Woda szumi w kranie."
+            ],
+            "pytanie": "W każdym zdaniu znajdź wyraz z SZ."
+          },
+          "dla_rodzica": "Najpierw czytasz ty, potem dziecko. Zawsze w tej kolejności."
+        },
+        {
+          "id": "t5-dluzsze",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj zdania na głos.",
+          "dane": {
+            "zdania": [
+              "Zosia szuka szalika w szafie.",
+              "Kuba niesie kosz z gruszkami do szopy.",
+              "Szara mysz schowała się pod poduszką.",
+              "Nasz kapelusz leży na szybie.",
+              "Ola myje szybę i szuka szmatki."
+            ],
+            "pytanie": "Powiedz najdłuższe zdanie jeszcze raz."
+          },
+          "dla_rodzica": "Zdania są dłuższe. Pozwól dziecku zrobić przerwę w środku."
+        },
+        {
+          "id": "t5-uzupelnij",
+          "typ": "uzupelnij_sylabe",
+          "polecenie": "Wstaw brakującą sylabę.",
+          "dane": {
+            "pozycje": [
+              {
+                "wzor": "PODU__KA",
+                "opcje": [
+                  "S",
+                  "SZ",
+                  "Ż"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "__ROKI",
+                "opcje": [
+                  "SZE",
+                  "SE",
+                  "ŻE"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "__RY",
+                "opcje": [
+                  "SA",
+                  "ŻA",
+                  "SZA"
+                ],
+                "poprawna": 2
+              },
+              {
+                "wzor": "__MI",
+                "opcje": [
+                  "SU",
+                  "SZU",
+                  "ŻU"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "__BKO",
+                "opcje": [
+                  "SY",
+                  "SZY",
+                  "ŻY"
+                ],
+                "poprawna": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Powtórka sylab z tygodni 2 i 3 wewnątrz nowych wyrazów."
+        },
+        {
+          "id": "t5-wybierz",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl wyraz, który mówię.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Proszę cię o wodę.",
+                "opcje": [
+                  "PROSZĘ",
+                  "PROSIĘ"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Małe zwierzę, dziecko świni.",
+                "opcje": [
+                  "PROSZĘ",
+                  "PROSIĘ"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Ptak, który śpiewa na wiosnę.",
+                "opcje": [
+                  "KOS",
+                  "KOSZ"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Ryba z wąsami, żyje w rzece.",
+                "opcje": [
+                  "SUM",
+                  "SZUM"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Kolor chmury przed deszczem.",
+                "opcje": [
+                  "SZARY",
+                  "STARY"
+                ],
+                "poprawna": 0
+              }
+            ]
+          },
+          "dla_rodzica": "Dziecko wybiera po słuchu, potem mówi oba wyrazy z pary."
+        },
+        {
+          "id": "t5-opowiadam",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj i opowiedz o tym.",
+          "dane": {
+            "wyrazy": [
+              "SZOPA",
+              "SZAFA",
+              "KOSZ"
+            ],
+            "wysokosc_ramki_mm": 55
+          },
+          "dla_rodzica": "Po rysunku poproś o dwa zdania. Nie podpowiadaj słów, słuchaj SZ."
+        },
+        {
+          "id": "t5-rozmowa",
+          "typ": "czytanie_zdan",
+          "polecenie": "Odpowiedz całym zdaniem.",
+          "dane": {
+            "zdania": [
+              "Co masz w swojej szafie?",
+              "Co szumi u was w domu?",
+              "Kto nosi szalik, a kto czapkę?",
+              "Gdzie chowa się mysz?",
+              "Co włożysz do kosza?"
+            ],
+            "pytanie": "Odpowiadaj pełnym zdaniem, nie jednym wyrazem."
+          },
+          "dla_rodzica": "To mowa swobodna. Liczy się zdanie dziecka, nie poprawna odpowiedź."
+        }
+      ],
+      "gra": {
+        "nazwa": "Zdanie z kosza",
+        "cel": "Ułożyć własne zdanie z wyrazem, który zawiera SZ.",
+        "gracze": "dziecko i dorosły",
+        "czas_min": 10,
+        "przygotowanie": [
+          "Wytnij dwanaście kartoników z wyrazami.",
+          "Wrzuć je do kubka."
+        ],
+        "zasady": [
+          "Losujesz kartonik, czytasz wyraz i układasz z nim zdanie.",
+          "Zdanie musi mieć co najmniej cztery wyrazy.",
+          "Za zdanie wypowiedziane bez zatrzymania gracz zatrzymuje kartonik.",
+          "Gra kończy się przy pustym kubku. Na koniec każdy czyta swoje kartoniki."
+        ],
+        "elementy_do_wyciecia": [
+          "dwanaście kartoników z wyrazami z SZ"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Szopa w lesie",
+        "czyta": "na_zmiane",
+        "linie": [
+          "W lesie stoi stara szopa.",
+          "Szopa ma szeroką szybę.",
+          "Przez szybę patrzy szara mysz.",
+          "Na dworze szumi wiatr.",
+          "Mysz szuka gruszki.",
+          "Gruszka leży w koszu.",
+          "Kosz stoi przy szafie.",
+          "Mysz wchodzi do kosza.",
+          "Teraz szopa jest cicha."
+        ],
+        "pytania": [
+          "Kto patrzył przez szybę?",
+          "Opowiedz tę historię swoimi słowami."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Przeczytaj całe zdanie. Jeśli trzeba, zrób przerwę w środku.”",
+          "„Teraz powiedz to samo zdanie z pamięci.”",
+          "„Odpowiedz mi pełnym zdaniem, nie jednym słowem.”",
+          "Przy rozmowie nie podpowiadaj wyrazów. Czekaj."
+        ],
+        "na_co_uwazac": [
+          "W swobodnej mowie SZ znika pierwsze. To normalne na tym etapie.",
+          "Nie przerywaj dziecku w środku opowiadania. Zapamiętaj wyraz i wróć do niego potem.",
+          "Jeśli zdanie się sypie, skróć je do czterech wyrazów."
+        ],
+        "kiedy_dalej": [
+          "Dziecko czyta lub powtarza pięć dłuższych zdań i SZ słychać w większości wyrazów.",
+          "Dziecko odpowiada pełnym zdaniem na co najmniej trzy pytania z rozmowy.",
+          "Jeśli tak, przejdź do tygodnia 6 i głoski Ż."
+        ],
+        "jesli_nie_idzie": [
+          "Wróćcie do krótkich zdań i zostawcie dłuższe na następny tydzień.",
+          "Powtarzajcie zdanie chórem, razem, zanim dziecko powie je samo.",
+          "Jedno zdanie dziennie też jest postępem. Nie ma limitu czasu."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 5 — zaznacz, co dziś zrobiliście",
+        "wiersze": [
+          "Krótkie zdania z SZ",
+          "Dłuższe zdania z SZ",
+          "Odpowiedź pełnym zdaniem",
+          "Własne opowiadanie",
+          "Gra Zdanie z kosza"
+        ],
+        "kolumny": [
+          "pon",
+          "wt",
+          "śr",
+          "czw",
+          "pt",
+          "sob"
+        ]
+      }
+    },
+    {
+      "nr": 6,
+      "cel": "W tym tygodniu dziecko dokłada głos do SZ i mówi Ż oraz sylaby otwarte.",
+      "poziom_trudnosci": 6,
+      "nowy_material": {
+        "litery": [
+          "Ż"
+        ],
+        "sylaby": [
+          "Ż",
+          "ŻA",
+          "ŻO",
+          "ŻU",
+          "ŻE",
+          "ŻY"
+        ],
+        "opis": "Ż to SZ z włączonym głosem. Ustawienie buzi jest identyczne, zmienia się gardło."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          4,
+          5
+        ],
+        "sylaby": [
+          "SZA",
+          "ASZ"
+        ],
+        "wyrazy": [
+          "SZAFA",
+          "KASZA",
+          "KOSZ",
+          "MYSZ",
+          "SZALIK",
+          "GRUSZKA"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t6-ustawienie",
+          "typ": "sylaby_sciezka",
+          "polecenie": "Zrób pięć kroków po kolei.",
+          "dane": {
+            "kroki": [
+              "Ustaw buzię jak do SZ.",
+              "Przyłóż palce do gardła.",
+              "Włącz głos: żżż.",
+              "Sprawdź, czy gardło drży.",
+              "Policz do pięciu."
+            ],
+            "meta": "Ż"
+          },
+          "dla_rodzica": "Palce dziecka na swoim gardle, drugą rękę na twoim. Ma poczuć różnicę."
+        },
+        {
+          "id": "t6-brzeczy",
+          "typ": "sylaby_tabela",
+          "polecenie": "Mów tak długo, jak widzisz.",
+          "dane": {
+            "wiersze": [
+              [
+                "Ż",
+                "ŻŻ",
+                "ŻŻŻ"
+              ],
+              [
+                "ŻŻŻŻ",
+                "ŻŻ",
+                "Ż"
+              ]
+            ]
+          },
+          "dla_rodzica": "Głos ma być włączony przez cały wydech, nie tylko na początku."
+        },
+        {
+          "id": "t6-sz-czy-z",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl to, co słyszysz.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz: szszsz.",
+                "opcje": [
+                  "SZ",
+                  "Ż"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: żżż.",
+                "opcje": [
+                  "SZ",
+                  "Ż"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: żżż.",
+                "opcje": [
+                  "Ż",
+                  "SZ"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: szszsz.",
+                "opcje": [
+                  "Ż",
+                  "SZ"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: żżż.",
+                "opcje": [
+                  "SZ",
+                  "Ż"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: szszsz.",
+                "opcje": [
+                  "SZ",
+                  "Ż"
+                ],
+                "poprawna": 0
+              }
+            ]
+          },
+          "dla_rodzica": "Mów z zakrytą buzią. Dziecko ma słuchać, a nie patrzeć."
+        },
+        {
+          "id": "t6-sylaby",
+          "typ": "sylaby_tabela",
+          "polecenie": "Przeczytaj na głos, wiersz po wierszu.",
+          "dane": {
+            "wiersze": [
+              [
+                "ŻA",
+                "ŻO",
+                "ŻU"
+              ],
+              [
+                "ŻE",
+                "ŻY",
+                "ŻA"
+              ],
+              [
+                "ŻO",
+                "ŻU",
+                "ŻE"
+              ]
+            ]
+          },
+          "dla_rodzica": "Zaczynajcie od długiego Ż, dopiero potem dokładajcie samogłoskę."
+        },
+        {
+          "id": "t6-sciezka",
+          "typ": "sylaby_sciezka",
+          "polecenie": "Idź palcem i mów sylaby.",
+          "dane": {
+            "kroki": [
+              "ŻA",
+              "ŻO",
+              "ŻU",
+              "ŻE",
+              "ŻY",
+              "ŻA"
+            ],
+            "meta": "ŻY"
+          },
+          "dla_rodzica": "Palec nie odrywa się od kartki. Głos ma być włączony na całej drodze."
+        },
+        {
+          "id": "t6-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dane": {
+            "wzory": [
+              "Ż",
+              "ŻA",
+              "ŻO"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t6-powtorka-sz",
+          "typ": "wyrazy_do_czytania",
+          "polecenie": "Przeczytaj wyrazy na głos.",
+          "dane": {
+            "wyrazy": [
+              {
+                "wyraz": "SZAFA",
+                "sylaby": [
+                  "SZA",
+                  "FA"
+                ]
+              },
+              {
+                "wyraz": "KASZA",
+                "sylaby": [
+                  "KA",
+                  "SZA"
+                ]
+              },
+              {
+                "wyraz": "KOSZ",
+                "sylaby": [
+                  "KOSZ"
+                ]
+              },
+              {
+                "wyraz": "MYSZ",
+                "sylaby": [
+                  "MYSZ"
+                ]
+              },
+              {
+                "wyraz": "GRUSZKA",
+                "sylaby": [
+                  "GRU",
+                  "SZKA"
+                ]
+              },
+              {
+                "wyraz": "SZALIK",
+                "sylaby": [
+                  "SZA",
+                  "LIK"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "Powtórka z tygodni 4 i 5. SZ nie może zniknąć, kiedy uczycie się Ż."
+        }
+      ],
+      "gra": {
+        "nazwa": "Żabie skoki",
+        "cel": "Powtórzyć pięć sylab z Ż i utrzymać włączony głos.",
+        "gracze": "dziecko i dorosły",
+        "czas_min": 7,
+        "przygotowanie": [
+          "Wytnij sześć liści z dołu strony.",
+          "Ułóż je w rząd na stole."
+        ],
+        "zasady": [
+          "Dziecko przeskakuje palcem z liścia na liść i mówi sylabę z liścia.",
+          "Przed skokiem kładzie palce na gardle i sprawdza, czy drży.",
+          "Jeśli gardło nie drgnęło, żaba wraca na poprzedni liść.",
+          "Rundę kończy dojście do ostatniego liścia i powiedzenie wszystkich sylab z rzędu."
+        ],
+        "elementy_do_wyciecia": [
+          "sześć liści z sylabami ŻA ŻO ŻU ŻE ŻY",
+          "żeton żaby"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Żaba i żuk",
+        "czyta": "na_zmiane",
+        "linie": [
+          "Na liściu siedzi żaba.",
+          "Ża, żo, żu.",
+          "Obok idzie żuk.",
+          "Że, ży, ża.",
+          "Żaba mówi: żżż.",
+          "Żuk mówi: żżż.",
+          "Razem jest głośniej."
+        ],
+        "pytania": [
+          "Kto siedział na liściu?",
+          "Powiedz żżż i sprawdź palcami gardło."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Ustaw buzię tak samo jak do szszsz. Nic nie zmieniamy.”",
+          "„Teraz dołóż głos. Gardło ma zadrżeć pod palcami.”",
+          "„Przyłóż rękę do mojego gardła. Czujesz? Teraz do swojego.”",
+          "„Ża. Głos włączony od początku do końca.”"
+        ],
+        "na_co_uwazac": [
+          "Najczęstszy poślizg: Ż na początku, a dalej samo SZ. Sprawdzajcie palcami.",
+          "Usta zostają okrągłe. Rozciągnięte usta psują Ż tak samo jak SZ.",
+          "Nie ćwiczcie Ż na końcu wyrazu. Po polsku i tak brzmi tam jak SZ."
+        ],
+        "kiedy_dalej": [
+          "Dziecko mówi długie żżż z drżącym gardłem przez cały wydech.",
+          "Pięć sylab otwartych z Ż wychodzi bez przypominania o głosie.",
+          "Wyrazy z SZ z tygodnia 4 nadal wychodzą. Jeśli tak, przejdź do tygodnia 7."
+        ],
+        "jesli_nie_idzie": [
+          "Zacznijcie od długiego mmm z ręką na gardle. Dziecko pozna drganie.",
+          "Powiedzcie szszsz i w połowie wydechu włączcie głos. Wyjdzie żżż.",
+          "Jeśli głos się nie włącza, zostańcie przy tym tydzień dłużej."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 6 — zaznacz, co dziś zrobiliście",
+        "wiersze": [
+          "Długie żżż z drżącym gardłem",
+          "ŻA, ŻO, ŻU",
+          "ŻE, ŻY",
+          "Powtórka: wyrazy z SZ",
+          "Gra Żabie skoki"
+        ],
+        "kolumny": [
+          "pon",
+          "wt",
+          "śr",
+          "czw",
+          "pt",
+          "sob"
+        ]
+      }
+    },
+    {
+      "nr": 7,
+      "cel": "W tym tygodniu dziecko mówi Ż w sylabach zamkniętych i w całych wyrazach.",
+      "poziom_trudnosci": 7,
+      "nowy_material": {
+        "sylaby": [
+          "AŻ",
+          "OŻ",
+          "UŻ",
+          "EŻ",
+          "YŻ",
+          "AŻA",
+          "OŻO",
+          "UŻU",
+          "EŻE",
+          "YŻY"
+        ],
+        "wyrazy": [
+          "ŻABA",
+          "ŻUK",
+          "ŻYRAFA",
+          "ŻELAZKO",
+          "ŻOŁĄDŹ",
+          "KAŁUŻA",
+          "LEŻAK",
+          "JEŻYK",
+          "NOŻYCE",
+          "WAŻKA"
+        ],
+        "opis": "Sylaby zamknięte z Ż i sylaby z Ż w środku, potem całe wyrazy."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          5,
+          6
+        ],
+        "sylaby": [
+          "ŻA",
+          "ŻO",
+          "ŻU",
+          "ŻE",
+          "ŻY"
+        ],
+        "wyrazy": [
+          "SZOPA",
+          "KOSZ",
+          "SZARY",
+          "MYSZ"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t7-zamkniete",
+          "typ": "sylaby_tabela",
+          "polecenie": "Przeczytaj na głos, wiersz po wierszu.",
+          "dane": {
+            "wiersze": [
+              [
+                "AŻ",
+                "OŻ",
+                "UŻ"
+              ],
+              [
+                "EŻ",
+                "YŻ",
+                "AŻ"
+              ],
+              [
+                "OŻ",
+                "UŻ",
+                "EŻ"
+              ]
+            ]
+          },
+          "dla_rodzica": "Ćwiczymy same sylaby. W wyrazie na końcu Ż brzmi po polsku jak SZ."
+        },
+        {
+          "id": "t7-w-srodku",
+          "typ": "sylaby_tabela",
+          "polecenie": "Przeczytaj na głos, wiersz po wierszu.",
+          "dane": {
+            "wiersze": [
+              [
+                "AŻA",
+                "OŻO",
+                "UŻU"
+              ],
+              [
+                "EŻE",
+                "YŻY",
+                "AŻA"
+              ],
+              [
+                "OŻO",
+                "UŻU",
+                "EŻE"
+              ]
+            ]
+          },
+          "dla_rodzica": "Głos ma być włączony przez całą sylabę, także w środku."
+        },
+        {
+          "id": "t7-wyrazy",
+          "typ": "wyrazy_do_czytania",
+          "polecenie": "Przeczytaj wyrazy na głos.",
+          "dane": {
+            "wyrazy": [
+              {
+                "wyraz": "ŻABA",
+                "sylaby": [
+                  "ŻA",
+                  "BA"
+                ]
+              },
+              {
+                "wyraz": "ŻUK",
+                "sylaby": [
+                  "ŻUK"
+                ]
+              },
+              {
+                "wyraz": "ŻYRAFA",
+                "sylaby": [
+                  "ŻY",
+                  "RA",
+                  "FA"
+                ]
+              },
+              {
+                "wyraz": "ŻELAZKO",
+                "sylaby": [
+                  "ŻE",
+                  "LAZ",
+                  "KO"
+                ]
+              },
+              {
+                "wyraz": "KAŁUŻA",
+                "sylaby": [
+                  "KA",
+                  "ŁU",
+                  "ŻA"
+                ]
+              },
+              {
+                "wyraz": "LEŻAK",
+                "sylaby": [
+                  "LE",
+                  "ŻAK"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "Trzy pierwsze mają Ż na początku, trzy kolejne w środku."
+        },
+        {
+          "id": "t7-lacz",
+          "typ": "lacz_sylaby",
+          "polecenie": "Połącz sylaby w wyraz.",
+          "dane": {
+            "lewa": [
+              "ŻA",
+              "ŻY",
+              "KA",
+              "NO"
+            ],
+            "prawa": [
+              "BA",
+              "RAFA",
+              "ŁUŻA",
+              "ŻYCE"
+            ],
+            "pary": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ]
+          },
+          "dla_rodzica": "Dziecko czyta lewą sylabę, potem prawą, na końcu cały wyraz."
+        },
+        {
+          "id": "t7-uzupelnij",
+          "typ": "uzupelnij_sylabe",
+          "polecenie": "Wstaw brakującą sylabę.",
+          "dane": {
+            "pozycje": [
+              {
+                "wzor": "__BA",
+                "opcje": [
+                  "SZA",
+                  "ŻA",
+                  "ZA"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "KA__ŻA",
+                "opcje": [
+                  "ŁU",
+                  "LU",
+                  "RU"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "__RAFA",
+                "opcje": [
+                  "ŻY",
+                  "ZY",
+                  "SZY"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "LE__K",
+                "opcje": [
+                  "ZA",
+                  "SZA",
+                  "ŻA"
+                ],
+                "poprawna": 2
+              },
+              {
+                "wzor": "WA__KA",
+                "opcje": [
+                  "Z",
+                  "Ż",
+                  "SZ"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "JE__K",
+                "opcje": [
+                  "ŻY",
+                  "ZY",
+                  "SZY"
+                ],
+                "poprawna": 0
+              }
+            ]
+          },
+          "dla_rodzica": "Dziecko mówi cały wyraz, dopiero potem zakreśla sylabę."
+        },
+        {
+          "id": "t7-wybierz",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl wyraz z Ż.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Skacze i mieszka nad stawem.",
+                "opcje": [
+                  "ŻABA",
+                  "ZAMEK"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Robisz w nim zakupy.",
+                "opcje": [
+                  "ŻUK",
+                  "SKLEP"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Ma najdłuższą szyję ze zwierząt.",
+                "opcje": [
+                  "ZEBRA",
+                  "ŻYRAFA"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Prasujesz nim koszulę.",
+                "opcje": [
+                  "ŻELAZKO",
+                  "ZEGAR"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Zostaje po deszczu na chodniku.",
+                "opcje": [
+                  "KAŁUŻA",
+                  "KALOSZ"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Tniesz nimi papier.",
+                "opcje": [
+                  "NOŻYCE",
+                  "ZESZYT"
+                ],
+                "poprawna": 0
+              }
+            ]
+          },
+          "dla_rodzica": "Czytasz podpowiedź. Dziecko wybiera i mówi wyraz trzy razy."
+        }
+      ],
+      "gra": {
+        "nazwa": "Kałuża słów",
+        "cel": "Znaleźć Ż w wyrazie i powiedzieć wyraz w całości.",
+        "gracze": "dziecko i dorosły",
+        "czas_min": 8,
+        "przygotowanie": [
+          "Wytnij dwanaście kropli z wyrazami.",
+          "Narysuj na kartce dużą kałużę."
+        ],
+        "zasady": [
+          "Losujesz kroplę, czytasz wyraz i mówisz, gdzie słyszysz Ż.",
+          "Za wyraz powiedziany w całości kropla ląduje w kałuży.",
+          "Za wyraz z zagubionym Ż kropla wraca do puli.",
+          "Gra kończy się, gdy w kałuży jest osiem kropli."
+        ],
+        "elementy_do_wyciecia": [
+          "dwanaście kropli z wyrazami z Ż"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Kałuża",
+        "czyta": "na_zmiane",
+        "linie": [
+          "Po deszczu została kałuża.",
+          "W kałuży siedzi żaba.",
+          "Obok leży leżak.",
+          "Na leżaku śpi żuk.",
+          "Nad nimi lata ważka.",
+          "Żyrafa patrzy z obrazka.",
+          "Żaba mówi: dobrze tu."
+        ],
+        "pytania": [
+          "Kto spał na leżaku?",
+          "Znajdź w czytance cztery wyrazy z Ż."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Aż. Najpierw A, potem długie żżż z głosem.”",
+          "„W środku wyrazu też trzymamy głos. Kałuża.”",
+          "„Powiedz cały wyraz jeszcze raz, wolniej.”",
+          "Czytaj pierwszy wyraz w rzędzie sam. Dziecko idzie dalej."
+        ],
+        "na_co_uwazac": [
+          "W środku wyrazu głos gaśnie najszybciej. Palce na gardle pomagają.",
+          "Jeśli wyraz ma i SZ, i Ż, zostawcie go na przyszły tydzień.",
+          "Nie poprawiaj w połowie wyrazu. Poczekaj do końca i poproś o powtórzenie."
+        ],
+        "kiedy_dalej": [
+          "Dziecko mówi pięć sylab zamkniętych i pięć sylab z Ż w środku.",
+          "Osiem z dziesięciu wyrazów z Ż wychodzi z włączonym głosem.",
+          "Jeśli tak, przejdź do tygodnia 8 i zdań."
+        ],
+        "jesli_nie_idzie": [
+          "Zostańcie przy wyrazach z Ż na początku. Środek poczeka.",
+          "Przedłużajcie Ż w środku wyrazu: ka-łuuużżża.",
+          "Wróćcie na dwa dni do sylab otwartych z tygodnia 6."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 7 — zaznacz, co dziś zrobiliście",
+        "wiersze": [
+          "AŻ, OŻ, UŻ, EŻ, YŻ",
+          "Ż w środku sylaby",
+          "Wyrazy z Ż na początku",
+          "Wyrazy z Ż w środku",
+          "Gra Kałuża słów"
+        ],
+        "kolumny": [
+          "pon",
+          "wt",
+          "śr",
+          "czw",
+          "pt",
+          "sob"
+        ]
+      }
+    },
+    {
+      "nr": 8,
+      "cel": "W tym tygodniu dziecko mówi zdania z Ż i miesza je ze zdaniami z SZ.",
+      "poziom_trudnosci": 8,
+      "nowy_material": {
+        "wyrazy": [
+          "ŻÓŁTY",
+          "ŻYCZĘ",
+          "MOŻE",
+          "DUŻY",
+          "RÓŻA"
+        ],
+        "opis": "Zdania z Ż, a potem zdania, w których Ż i SZ stoją obok siebie."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          6,
+          7
+        ],
+        "sylaby": [
+          "ŻA",
+          "AŻ",
+          "AŻA"
+        ],
+        "wyrazy": [
+          "ŻABA",
+          "ŻUK",
+          "KAŁUŻA",
+          "ŻYRAFA",
+          "SZOPA",
+          "KOSZ"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t8-krotkie",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj zdania na głos.",
+          "dane": {
+            "zdania": [
+              "Żaba siedzi w kałuży.",
+              "Żuk ma duży brzuch.",
+              "Żyrafa je liście.",
+              "Róża rośnie przy leżaku.",
+              "Ważka lata nad wodą.",
+              "Jeżyk śpi pod krzakiem."
+            ],
+            "pytanie": "Powiedz, w którym zdaniu są dwa wyrazy z Ż."
+          },
+          "dla_rodzica": "Najpierw czytasz ty, potem dziecko. Zawsze w tej kolejności."
+        },
+        {
+          "id": "t8-mieszane",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj zdania na głos.",
+          "dane": {
+            "zdania": [
+              "Żaba wskoczyła do kosza.",
+              "Szara ważka siedzi na szybie.",
+              "Kuba szuka żółtego szalika.",
+              "Duży żuk wszedł do szopy.",
+              "Mysz i żaba mieszkają przy kałuży."
+            ],
+            "pytanie": "W każdym zdaniu znajdź wyraz z SZ i wyraz z Ż."
+          },
+          "dla_rodzica": "Tu SZ i Ż stoją obok siebie. Zwolnijcie tempo o połowę."
+        },
+        {
+          "id": "t8-narysuj",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj i nazwij na głos.",
+          "dane": {
+            "wyrazy": [
+              "ŻABA",
+              "ŻUK",
+              "KAŁUŻA",
+              "ŻYRAFA"
+            ],
+            "wysokosc_ramki_mm": 45
+          },
+          "dla_rodzica": "Po każdym rysunku dziecko mówi wyraz trzy razy, wolno."
+        },
+        {
+          "id": "t8-rozmowa",
+          "typ": "czytanie_zdan",
+          "polecenie": "Odpowiedz całym zdaniem.",
+          "dane": {
+            "zdania": [
+              "Co robi żaba po deszczu?",
+              "Jakie zwierzę ma najdłuższą szyję?",
+              "Co można zobaczyć w kałuży?",
+              "Kto mieszka w twojej ulubionej książce?",
+              "Co jest w twoim pokoju żółte?"
+            ],
+            "pytanie": "Odpowiadaj pełnym zdaniem, nie jednym wyrazem."
+          },
+          "dla_rodzica": "To mowa swobodna. Nie podpowiadaj wyrazów, czekaj."
+        },
+        {
+          "id": "t8-dyktando",
+          "typ": "dyktando_sylabowe",
+          "polecenie": "Zapisz sylaby, które słyszysz.",
+          "dane": {
+            "do_dyktowania": [
+              "ŻA",
+              "AŻ",
+              "ŻO",
+              "OŻ",
+              "ŻU",
+              "UŻ",
+              "SZA",
+              "ASZ"
+            ],
+            "liniatura": "trzylinia"
+          },
+          "dla_rodzica": "Ostatnie dwie to powtórka z SZ. Dyktuj wolno, po jednej."
+        },
+        {
+          "id": "t8-wybierz",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl wyraz, który mówię.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Zwierzę w czarno-białe pasy.",
+                "opcje": [
+                  "ŻEBRA",
+                  "ZEBRA"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Kości w klatce piersiowej.",
+                "opcje": [
+                  "ŻEBRA",
+                  "ZEBRA"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Skacze i mieszka nad stawem.",
+                "opcje": [
+                  "ŻABA",
+                  "SZAFA"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Wiszą w niej ubrania.",
+                "opcje": [
+                  "ŻABA",
+                  "SZAFA"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Sprawdza, ile coś waży.",
+                "opcje": [
+                  "WAŻY",
+                  "WAZY"
+                ],
+                "poprawna": 0
+              }
+            ]
+          },
+          "dla_rodzica": "Czytasz podpowiedź. Dziecko wybiera, potem mówi oba wyrazy z pary."
+        }
+      ],
+      "gra": {
+        "nazwa": "Szopa czy kałuża",
+        "cel": "Rozdzielić wyrazy z SZ od wyrazów z Ż.",
+        "gracze": "dziecko i dorosły",
+        "czas_min": 10,
+        "przygotowanie": [
+          "Wytnij szesnaście kartoników z wyrazami.",
+          "Wytnij dwie plansze: szopę i kałużę."
+        ],
+        "zasady": [
+          "Losujesz kartonik, czytasz wyraz i kładziesz go na właściwej planszy.",
+          "Wyraz z SZ idzie do szopy, wyraz z Ż do kałuży.",
+          "Za dobrze położony kartonik gracz bierze punkt i mówi wyraz jeszcze raz.",
+          "Gra kończy się, gdy plansze są pełne. Liczycie punkty."
+        ],
+        "elementy_do_wyciecia": [
+          "szesnaście kartoników z wyrazami",
+          "plansza szopa",
+          "plansza kałuża"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Żyrafa w szopie",
+        "czyta": "na_zmiane",
+        "linie": [
+          "Do szopy weszła żyrafa.",
+          "Szopa była za niska.",
+          "Żyrafa schyliła szyję.",
+          "W koszu leżała gruszka.",
+          "Obok siedziała żaba.",
+          "Żaba mówi: to nasza gruszka.",
+          "Żyrafa mówi: mogę wziąć jedną?",
+          "Żaba się zgodziła.",
+          "Potem obie poszły nad kałużę."
+        ],
+        "pytania": [
+          "Dlaczego żyrafa schyliła szyję?",
+          "Opowiedz tę historię swoimi słowami."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Przeczytaj całe zdanie. Jeśli trzeba, zrób przerwę w środku.”",
+          "„W tym zdaniu są dwa trudne wyrazy. Zwolnij na nich.”",
+          "„Odpowiedz mi pełnym zdaniem, nie jednym słowem.”",
+          "Przy zdaniach mieszanych czytaj pierwszy raz razem z dzieckiem, chórem."
+        ],
+        "na_co_uwazac": [
+          "Kiedy SZ i Ż są w jednym zdaniu, dziecko często myli głos. To normalne.",
+          "Nie przerywaj opowiadania. Zapamiętaj wyraz i wróć do niego po kropce.",
+          "Jeśli zdanie się sypie, skróć je do czterech wyrazów."
+        ],
+        "kiedy_dalej": [
+          "Dziecko czyta lub powtarza sześć krótkich zdań z Ż bez gubienia głosu.",
+          "Trzy z pięciu zdań mieszanych wychodzą w całości.",
+          "Jeśli tak, przejdź do tygodnia 9 i głoski CZ."
+        ],
+        "jesli_nie_idzie": [
+          "Zostawcie zdania mieszane i wróćcie do nich za dwa tygodnie.",
+          "Powtarzajcie zdanie chórem, razem, zanim dziecko powie je samo.",
+          "Rozłóżcie zdanie na wyrazy i ułóżcie je z kartoników."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 8 — zaznacz, co dziś zrobiliście",
+        "wiersze": [
+          "Krótkie zdania z Ż",
+          "Zdania z SZ i Ż razem",
+          "Odpowiedź pełnym zdaniem",
+          "Własne opowiadanie",
+          "Gra Szopa czy kałuża"
+        ],
+        "kolumny": [
+          "pon",
+          "wt",
+          "śr",
+          "czw",
+          "pt",
+          "sob"
+        ]
+      }
+    },
+    {
+      "nr": 9,
+      "cel": "W tym tygodniu dziecko składa T i SZ w jedną głoskę CZ i mówi sylaby otwarte.",
+      "poziom_trudnosci": 9,
+      "nowy_material": {
+        "litery": [
+          "CZ"
+        ],
+        "sylaby": [
+          "CZ",
+          "CZA",
+          "CZO",
+          "CZU",
+          "CZE",
+          "CZY"
+        ],
+        "opis": "CZ to szybkie T i SZ powiedziane razem. Jedno uderzenie, nigdy przeciągane."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          7,
+          8
+        ],
+        "sylaby": [
+          "ŻA",
+          "AŻ"
+        ],
+        "wyrazy": [
+          "ŻABA",
+          "KAŁUŻA",
+          "SZAFA",
+          "KOSZ",
+          "ŻYRAFA",
+          "MYSZ"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t9-ustawienie",
+          "typ": "sylaby_sciezka",
+          "polecenie": "Zrób pięć kroków po kolei.",
+          "dane": {
+            "kroki": [
+              "Unieś język do góry.",
+              "Powiedz krótko: T.",
+              "Zaraz potem: SZ.",
+              "Razem wyjdzie: CZ.",
+              "Powtórz pięć razy."
+            ],
+            "meta": "CZ"
+          },
+          "dla_rodzica": "Język zostaje w górze przez oba dźwięki. To jedno uderzenie, nie dwa."
+        },
+        {
+          "id": "t9-pociag",
+          "typ": "sylaby_tabela",
+          "polecenie": "Mów krótko i równo.",
+          "dane": {
+            "wiersze": [
+              [
+                "CZ",
+                "CZ",
+                "CZ"
+              ],
+              [
+                "CZ CZ",
+                "CZ CZ",
+                "CZ CZ"
+              ],
+              [
+                "CZ CZ CZ",
+                "CZ CZ CZ",
+                "CZ CZ CZ"
+              ]
+            ]
+          },
+          "dla_rodzica": "CZ nigdy się nie przeciąga. Rytm jak pociąg: krótko, krótko, krótko."
+        },
+        {
+          "id": "t9-cz-czy-c",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl to, co słyszysz.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz: cz.",
+                "opcje": [
+                  "CZ",
+                  "C"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: c.",
+                "opcje": [
+                  "CZ",
+                  "C"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: cz.",
+                "opcje": [
+                  "C",
+                  "CZ"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: c.",
+                "opcje": [
+                  "C",
+                  "CZ"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: cz.",
+                "opcje": [
+                  "CZ",
+                  "SZ"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: szszsz.",
+                "opcje": [
+                  "CZ",
+                  "SZ"
+                ],
+                "poprawna": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Mów z zakrytą buzią. Dziecko ma słuchać, a nie patrzeć."
+        },
+        {
+          "id": "t9-sylaby",
+          "typ": "sylaby_tabela",
+          "polecenie": "Przeczytaj na głos, wiersz po wierszu.",
+          "dane": {
+            "wiersze": [
+              [
+                "CZA",
+                "CZO",
+                "CZU"
+              ],
+              [
+                "CZE",
+                "CZY",
+                "CZA"
+              ],
+              [
+                "CZO",
+                "CZU",
+                "CZE"
+              ]
+            ]
+          },
+          "dla_rodzica": "Sylaba ma być krótka. Jeśli słyszysz szszsz na początku, zacznijcie od T."
+        },
+        {
+          "id": "t9-sciezka",
+          "typ": "sylaby_sciezka",
+          "polecenie": "Idź palcem i mów sylaby.",
+          "dane": {
+            "kroki": [
+              "CZA",
+              "CZO",
+              "CZU",
+              "CZE",
+              "CZY",
+              "CZA"
+            ],
+            "meta": "CZY"
+          },
+          "dla_rodzica": "Palec skacze, nie sunie. Rytm ma być krótki i równy."
+        },
+        {
+          "id": "t9-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dane": {
+            "wzory": [
+              "CZ",
+              "CZA",
+              "CZO"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t9-powtorka",
+          "typ": "wyrazy_do_czytania",
+          "polecenie": "Przeczytaj wyrazy na głos.",
+          "dane": {
+            "wyrazy": [
+              {
+                "wyraz": "SZAFA",
+                "sylaby": [
+                  "SZA",
+                  "FA"
+                ]
+              },
+              {
+                "wyraz": "KOSZ",
+                "sylaby": [
+                  "KOSZ"
+                ]
+              },
+              {
+                "wyraz": "MYSZ",
+                "sylaby": [
+                  "MYSZ"
+                ]
+              },
+              {
+                "wyraz": "ŻABA",
+                "sylaby": [
+                  "ŻA",
+                  "BA"
+                ]
+              },
+              {
+                "wyraz": "KAŁUŻA",
+                "sylaby": [
+                  "KA",
+                  "ŁU",
+                  "ŻA"
+                ]
+              },
+              {
+                "wyraz": "ŻYRAFA",
+                "sylaby": [
+                  "ŻY",
+                  "RA",
+                  "FA"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "Powtórka z tygodni 7 i 8. SZ i Ż mają zostać, kiedy dochodzi CZ."
+        }
+      ],
+      "gra": {
+        "nazwa": "Pociąg CZ",
+        "cel": "Powiedzieć CZ krótko, w równym rytmie.",
+        "gracze": "dziecko i dorosły",
+        "czas_min": 7,
+        "przygotowanie": [
+          "Wytnij sześć wagonów z dołu strony.",
+          "Ustaw je w pociąg na stole."
+        ],
+        "zasady": [
+          "Dziecko dotyka wagonu i mówi sylabę zapisaną na wagonie.",
+          "Pociąg jedzie tylko wtedy, gdy sylaba jest krótka. Przeciągnięta cofa wagon.",
+          "Po dojechaniu do końca dziecko mówi wszystkie sylaby jednym ciągiem.",
+          "Rundę wygrywa ten, kto przejedzie całą trasę bez cofania."
+        ],
+        "elementy_do_wyciecia": [
+          "sześć wagonów z sylabami CZA CZO CZU CZE CZY",
+          "lokomotywa"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Czapka Kuby",
+        "czyta": "na_zmiane",
+        "linie": [
+          "Kuba ma nową czapkę.",
+          "Cza, czo, czu.",
+          "Czapka jest za duża.",
+          "Cze, czy, cza.",
+          "Kuba czeka na mamę.",
+          "Mama czyta gazetę.",
+          "Czapka spada na czoło."
+        ],
+        "pytania": [
+          "Co było za duże?",
+          "Powiedz cza, czo, czu krótko i równo."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Podnieś język wysoko, tak jak do szszsz.”",
+          "„Powiedz krótkie T. Teraz zaraz po nim szszsz.”",
+          "„Szybciej. Jeszcze szybciej. Teraz wyszło cz.”",
+          "„CZ jest krótkie. Nigdy go nie ciągniemy.”"
+        ],
+        "na_co_uwazac": [
+          "Jeśli słychać t-sz osobno, przyspieszajcie stopniowo. Nie od razu.",
+          "Język zostaje w górze przy obu częściach. Opuszczony daje C.",
+          "Usta okrągłe, tak jak przy SZ i Ż."
+        ],
+        "kiedy_dalej": [
+          "Dziecko mówi krótkie CZ pięć razy pod rząd, bez rozdzielania na t i sz.",
+          "Pięć sylab otwartych z CZ wychodzi w równym rytmie.",
+          "SZ i Ż z poprzednich tygodni nadal wychodzą. Jeśli tak, przejdź do tygodnia 10."
+        ],
+        "jesli_nie_idzie": [
+          "Powiedzcie ATSZA, coraz szybciej, aż zrobi się ACZA.",
+          "Zacznijcie od sylaby zamkniętej: ACZ jest łatwiejsze niż CZA.",
+          "Jeśli CZ nadal się rozpada, porozmawiaj z logopedą przy najbliższej okazji."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 9 — zaznacz, co dziś zrobiliście",
+        "wiersze": [
+          "Krótkie CZ",
+          "CZA, CZO, CZU",
+          "CZE, CZY",
+          "Powtórka: wyrazy z SZ i Ż",
+          "Gra Pociąg CZ"
+        ],
+        "kolumny": [
+          "pon",
+          "wt",
+          "śr",
+          "czw",
+          "pt",
+          "sob"
+        ]
+      }
+    },
+    {
+      "nr": 10,
+      "cel": "W tym tygodniu dziecko mówi CZ na końcu sylaby i w całych wyrazach.",
+      "poziom_trudnosci": 10,
+      "nowy_material": {
+        "sylaby": [
+          "ACZ",
+          "OCZ",
+          "UCZ",
+          "ECZ",
+          "YCZ",
+          "ACZA",
+          "OCZO",
+          "UCZU",
+          "ECZE",
+          "YCZY"
+        ],
+        "wyrazy": [
+          "CZAPKA",
+          "CZAJNIK",
+          "CZOSNEK",
+          "CZOŁO",
+          "OCZY",
+          "PACZKA",
+          "BECZKA",
+          "TARCZA",
+          "KLUCZ",
+          "MIECZ",
+          "PŁACZ",
+          "WARKOCZ"
+        ],
+        "opis": "Sylaby zamknięte z CZ, sylaby z CZ w środku i wyrazy w trzech pozycjach."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          8,
+          9
+        ],
+        "sylaby": [
+          "CZA",
+          "CZO",
+          "CZU",
+          "CZE",
+          "CZY"
+        ],
+        "wyrazy": [
+          "ŻABA",
+          "SZOPA",
+          "KAŁUŻA",
+          "MYSZ"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t10-zamkniete",
+          "typ": "sylaby_tabela",
+          "polecenie": "Przeczytaj na głos, wiersz po wierszu.",
+          "dane": {
+            "wiersze": [
+              [
+                "ACZ",
+                "OCZ",
+                "UCZ"
+              ],
+              [
+                "ECZ",
+                "YCZ",
+                "ACZ"
+              ],
+              [
+                "OCZ",
+                "UCZ",
+                "ECZ"
+              ]
+            ]
+          },
+          "dla_rodzica": "Samogłoska krótka, CZ jeszcze krótsze. Nie przeciągajcie końcówki."
+        },
+        {
+          "id": "t10-w-srodku",
+          "typ": "sylaby_tabela",
+          "polecenie": "Przeczytaj na głos, wiersz po wierszu.",
+          "dane": {
+            "wiersze": [
+              [
+                "ACZA",
+                "OCZO",
+                "UCZU"
+              ],
+              [
+                "ECZE",
+                "YCZY",
+                "ACZA"
+              ],
+              [
+                "OCZO",
+                "UCZU",
+                "ECZE"
+              ]
+            ]
+          },
+          "dla_rodzica": "CZ w środku sylaby. Rytm jak dwa uderzenia w bębenek."
+        },
+        {
+          "id": "t10-wyrazy",
+          "typ": "wyrazy_do_czytania",
+          "polecenie": "Przeczytaj wyrazy na głos.",
+          "dane": {
+            "wyrazy": [
+              {
+                "wyraz": "CZAPKA",
+                "sylaby": [
+                  "CZAP",
+                  "KA"
+                ]
+              },
+              {
+                "wyraz": "CZAJNIK",
+                "sylaby": [
+                  "CZAJ",
+                  "NIK"
+                ]
+              },
+              {
+                "wyraz": "CZOSNEK",
+                "sylaby": [
+                  "CZOS",
+                  "NEK"
+                ]
+              },
+              {
+                "wyraz": "OCZY",
+                "sylaby": [
+                  "O",
+                  "CZY"
+                ]
+              },
+              {
+                "wyraz": "PACZKA",
+                "sylaby": [
+                  "PACZ",
+                  "KA"
+                ]
+              },
+              {
+                "wyraz": "KLUCZ",
+                "sylaby": [
+                  "KLUCZ"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "Dwa pierwsze mają CZ na początku, dwa w środku, ostatni na końcu."
+        },
+        {
+          "id": "t10-lacz",
+          "typ": "lacz_sylaby",
+          "polecenie": "Połącz sylaby w wyraz.",
+          "dane": {
+            "lewa": [
+              "CZAP",
+              "CZAJ",
+              "BECZ",
+              "TAR"
+            ],
+            "prawa": [
+              "KA",
+              "NIK",
+              "KA",
+              "CZA"
+            ],
+            "pary": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ]
+          },
+          "dla_rodzica": "Dwie sylaby KA są podobne, ale wyrazy inne. Dziecko czyta całość na głos."
+        },
+        {
+          "id": "t10-uzupelnij",
+          "typ": "uzupelnij_sylabe",
+          "polecenie": "Wstaw brakującą sylabę.",
+          "dane": {
+            "pozycje": [
+              {
+                "wzor": "__PKA",
+                "opcje": [
+                  "CZA",
+                  "CA",
+                  "SZA"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "O__",
+                "opcje": [
+                  "CY",
+                  "CZY",
+                  "SZY"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "PA__KA",
+                "opcje": [
+                  "C",
+                  "SZ",
+                  "CZ"
+                ],
+                "poprawna": 2
+              },
+              {
+                "wzor": "KLU__",
+                "opcje": [
+                  "CZ",
+                  "C",
+                  "SZ"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "__SNEK",
+                "opcje": [
+                  "CO",
+                  "SZO",
+                  "CZO"
+                ],
+                "poprawna": 2
+              },
+              {
+                "wzor": "TAR__",
+                "opcje": [
+                  "CA",
+                  "CZA",
+                  "SZA"
+                ],
+                "poprawna": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Dziecko mówi cały wyraz, dopiero potem zakreśla sylabę."
+        },
+        {
+          "id": "t10-wybierz",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl wyraz, który mówię.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Otwierasz nim drzwi.",
+                "opcje": [
+                  "KLUCZ",
+                  "KLUC"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Nosisz ją na głowie zimą.",
+                "opcje": [
+                  "CZAPKA",
+                  "CEBULA"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Gotujesz w nim wodę na herbatę.",
+                "opcje": [
+                  "CZAJNIK",
+                  "CUKIER"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Patrzysz nimi.",
+                "opcje": [
+                  "OCY",
+                  "OCZY"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Przychodzi pocztą, w pudełku.",
+                "opcje": [
+                  "PACZKA",
+                  "PASKA"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Rycerz trzyma go w ręku.",
+                "opcje": [
+                  "MIECZ",
+                  "MIEC"
+                ],
+                "poprawna": 0
+              }
+            ]
+          },
+          "dla_rodzica": "Czytasz podpowiedź. Dziecko wybiera i mówi wyraz trzy razy."
+        }
+      ],
+      "gra": {
+        "nazwa": "Paczka z wyrazami",
+        "cel": "Powiedzieć wyraz z CZ w trzech różnych pozycjach.",
+        "gracze": "dziecko i dorosły",
+        "czas_min": 10,
+        "przygotowanie": [
+          "Wytnij dwanaście kartoników z wyrazami.",
+          "Włóż je do pudełka albo do kubka."
+        ],
+        "zasady": [
+          "Losujesz kartonik, czytasz wyraz i mówisz, gdzie słyszysz CZ.",
+          "Za wyraz powiedziany krótko i w całości gracz bierze kartonik do siebie.",
+          "Za przeciągnięte CZ kartonik wraca do pudełka.",
+          "Gra kończy się przy pustym pudełku. Liczycie kartoniki."
+        ],
+        "elementy_do_wyciecia": [
+          "dwanaście kartoników z wyrazami z CZ"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Paczka od babci",
+        "czyta": "na_zmiane",
+        "linie": [
+          "Przyszła paczka od babci.",
+          "W paczce leży czapka.",
+          "Obok stoi czajnik.",
+          "Na dnie leży klucz.",
+          "Kuba czeka z otwarciem.",
+          "Ola liczy do trzech.",
+          "Czapka pasuje na czoło.",
+          "Klucz otwiera beczkę.",
+          "W beczce nie ma nic."
+        ],
+        "pytania": [
+          "Co było na dnie paczki?",
+          "Znajdź w czytance pięć wyrazów z CZ."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Acz. Najpierw A, a potem krótkie cz.”",
+          "„CZ na końcu też ma być słychać. Klucz.”",
+          "„Powiedz cały wyraz jeszcze raz, krócej.”",
+          "Czytaj pierwszy wyraz w rzędzie sam. Dziecko idzie dalej."
+        ],
+        "na_co_uwazac": [
+          "Na końcu wyrazu CZ często zamienia się w C. Przypomnij o języku w górze.",
+          "W wyrazach z dwoma trudnymi głoskami zwolnijcie o połowę.",
+          "Nie poprawiaj w połowie wyrazu. Poczekaj do końca i poproś o powtórzenie."
+        ],
+        "kiedy_dalej": [
+          "Dziecko mówi pięć sylab zamkniętych z CZ, krótko i wyraźnie.",
+          "Dziesięć z dwunastu wyrazów z CZ wychodzi bez rozpadania się na t i sz.",
+          "Jeśli tak, przejdź do tygodnia 11 i zdań."
+        ],
+        "jesli_nie_idzie": [
+          "Zostańcie przy sylabach zamkniętych. ACZ jest łatwiejsze niż CZA.",
+          "Wyrazy z CZ na końcu zostawcie na ostatnie dwa dni tygodnia.",
+          "Wróćcie na dwa dni do krótkiego CZ z tygodnia 9."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 10 — zaznacz, co dziś zrobiliście",
+        "wiersze": [
+          "ACZ, OCZ, UCZ, ECZ, YCZ",
+          "CZ w środku sylaby",
+          "Wyrazy z CZ na początku",
+          "Wyrazy z CZ na końcu",
+          "Gra Paczka z wyrazami"
+        ],
+        "kolumny": [
+          "pon",
+          "wt",
+          "śr",
+          "czw",
+          "pt",
+          "sob"
+        ]
+      }
+    },
+    {
+      "nr": 11,
+      "cel": "W tym tygodniu dziecko mówi zdania z CZ i opowiada o obrazku własnymi słowami.",
+      "poziom_trudnosci": 11,
+      "nowy_material": {
+        "wyrazy": [
+          "CZEKA",
+          "CZYTA",
+          "CZYSTY",
+          "CZWARTEK",
+          "RĘCZNIK"
+        ],
+        "opis": "Zdania z CZ, a potem zdania, w których CZ spotyka SZ i Ż."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          9,
+          10
+        ],
+        "sylaby": [
+          "CZA",
+          "ACZ",
+          "ACZA"
+        ],
+        "wyrazy": [
+          "CZAPKA",
+          "KLUCZ",
+          "OCZY",
+          "PACZKA",
+          "ŻABA",
+          "SZAFA"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t11-krotkie",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj zdania na głos.",
+          "dane": {
+            "zdania": [
+              "Kuba czyta książkę.",
+              "Czajnik stoi na kuchence.",
+              "Czapka leży na czole.",
+              "Ola czeka na paczkę.",
+              "Klucz leży przy beczce.",
+              "Ręcznik jest czysty."
+            ],
+            "pytanie": "Powiedz, w którym zdaniu są dwa wyrazy z CZ."
+          },
+          "dla_rodzica": "Najpierw czytasz ty, potem dziecko. Zawsze w tej kolejności."
+        },
+        {
+          "id": "t11-mieszane",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj zdania na głos.",
+          "dane": {
+            "zdania": [
+              "Żaba wskoczyła do czajnika.",
+              "Szary klucz leży w szufladzie.",
+              "Kuba czyta o żyrafie i myszy.",
+              "Czapka i szalik leżą w szafie.",
+              "Żuk czeka przy kałuży."
+            ],
+            "pytanie": "W każdym zdaniu znajdź dwa trudne wyrazy."
+          },
+          "dla_rodzica": "Tu spotykają się trzy głoski. Zwolnijcie tempo o połowę."
+        },
+        {
+          "id": "t11-narysuj",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj i nazwij na głos.",
+          "dane": {
+            "wyrazy": [
+              "CZAPKA",
+              "CZAJNIK",
+              "KLUCZ",
+              "OCZY"
+            ],
+            "wysokosc_ramki_mm": 45
+          },
+          "dla_rodzica": "Po każdym rysunku dziecko mówi wyraz trzy razy, krótko."
+        },
+        {
+          "id": "t11-rozmowa",
+          "typ": "czytanie_zdan",
+          "polecenie": "Odpowiedz całym zdaniem.",
+          "dane": {
+            "zdania": [
+              "Na co dzisiaj czekasz?",
+              "Co lubisz czytać wieczorem?",
+              "Co robisz w czwartek?",
+              "Czym otwiera się drzwi?",
+              "Co gotujesz w czajniku?"
+            ],
+            "pytanie": "Odpowiadaj pełnym zdaniem, nie jednym wyrazem."
+          },
+          "dla_rodzica": "To mowa swobodna. Nie podpowiadaj wyrazów, czekaj."
+        },
+        {
+          "id": "t11-dyktando",
+          "typ": "dyktando_sylabowe",
+          "polecenie": "Zapisz sylaby, które słyszysz.",
+          "dane": {
+            "do_dyktowania": [
+              "CZA",
+              "ACZ",
+              "CZO",
+              "OCZ",
+              "CZU",
+              "UCZ",
+              "ŻA",
+              "SZA"
+            ],
+            "liniatura": "trzylinia"
+          },
+          "dla_rodzica": "Dwie ostatnie to powtórka z Ż i SZ. Dyktuj wolno, po jednej."
+        },
+        {
+          "id": "t11-uzupelnij",
+          "typ": "uzupelnij_sylabe",
+          "polecenie": "Wstaw brakującą sylabę.",
+          "dane": {
+            "pozycje": [
+              {
+                "wzor": "__KA",
+                "opcje": [
+                  "CZE",
+                  "CE",
+                  "SZE"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "__TA",
+                "opcje": [
+                  "CY",
+                  "CZY",
+                  "SZY"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "RĘ__NIK",
+                "opcje": [
+                  "C",
+                  "CZ",
+                  "SZ"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "__WARTEK",
+                "opcje": [
+                  "CZ",
+                  "C",
+                  "SZ"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "__STY",
+                "opcje": [
+                  "CZY",
+                  "CY",
+                  "SZY"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "__PKA",
+                "opcje": [
+                  "CA",
+                  "CZA",
+                  "SZA"
+                ],
+                "poprawna": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Dziecko mówi cały wyraz, dopiero potem zakreśla sylabę."
+        }
+      ],
+      "gra": {
+        "nazwa": "Klucz do zdania",
+        "cel": "Ułożyć własne zdanie z wyrazem, który zawiera CZ.",
+        "gracze": "dziecko i dorosły",
+        "czas_min": 10,
+        "przygotowanie": [
+          "Wytnij dwanaście kluczy z wyrazami.",
+          "Wytnij planszę z zamkiem."
+        ],
+        "zasady": [
+          "Losujesz klucz, czytasz wyraz i układasz z nim zdanie.",
+          "Zdanie musi mieć co najmniej pięć wyrazów.",
+          "Za zdanie powiedziane bez zatrzymania klucz trafia do zamka.",
+          "Gra kończy się, gdy w zamku jest osiem kluczy."
+        ],
+        "elementy_do_wyciecia": [
+          "dwanaście kluczy z wyrazami z CZ",
+          "plansza z zamkiem"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Klucz w kałuży",
+        "czyta": "dziecko",
+        "linie": [
+          "Kuba niósł klucz do szopy.",
+          "Po drodze była kałuża.",
+          "Klucz wpadł do wody.",
+          "Kuba czekał na Olę.",
+          "Ola przyniosła ręcznik.",
+          "Razem wyjęli klucz.",
+          "Klucz był mokry i czysty.",
+          "Szopa wreszcie się otworzyła.",
+          "W szopie siedziała żaba."
+        ],
+        "pytania": [
+          "Co wpadło do kałuży?",
+          "Opowiedz tę historię swoimi słowami."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Przeczytaj całe zdanie. Jeśli trzeba, zrób przerwę w środku.”",
+          "„W tym zdaniu spotykają się trzy trudne głoski. Zwolnij.”",
+          "„Odpowiedz mi pełnym zdaniem, nie jednym słowem.”",
+          "Przy zdaniach mieszanych przeczytajcie pierwszy raz chórem."
+        ],
+        "na_co_uwazac": [
+          "CZ w swobodnej mowie gubi się pierwsze. To normalne na tym etapie.",
+          "Nie przerywaj opowiadania. Zapamiętaj wyraz i wróć do niego po kropce.",
+          "Jeśli zdanie się sypie, skróć je do czterech wyrazów."
+        ],
+        "kiedy_dalej": [
+          "Dziecko czyta lub powtarza sześć krótkich zdań z CZ bez rozpadania głoski.",
+          "Trzy z pięciu zdań mieszanych wychodzą w całości.",
+          "Jeśli tak, przejdź do tygodnia 12 i wszystkich trzech głosek razem."
+        ],
+        "jesli_nie_idzie": [
+          "Zostawcie zdania mieszane i wróćcie do nich po tygodniu 12.",
+          "Powtarzajcie zdanie chórem, razem, zanim dziecko powie je samo.",
+          "Rozłóżcie zdanie na wyrazy i ułóżcie je z kartoników."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 11 — zaznacz, co dziś zrobiliście",
+        "wiersze": [
+          "Krótkie zdania z CZ",
+          "Zdania z SZ, Ż i CZ",
+          "Odpowiedź pełnym zdaniem",
+          "Własne opowiadanie",
+          "Gra Klucz do zdania"
+        ],
+        "kolumny": [
+          "pon",
+          "wt",
+          "śr",
+          "czw",
+          "pt",
+          "sob"
+        ]
+      }
+    },
+    {
+      "nr": 12,
+      "cel": "W tym tygodniu dziecko rozróżnia SZ, Ż i CZ i używa ich w swobodnej rozmowie.",
+      "poziom_trudnosci": 12,
+      "nowy_material": {
+        "opis": "Żadnych nowych sylab. Trzy głoski spotykają się w jednym wyrazie, zdaniu i rozmowie."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          10,
+          11
+        ],
+        "sylaby": [
+          "SZA",
+          "ŻA",
+          "CZA",
+          "ASZ",
+          "AŻ",
+          "ACZ"
+        ],
+        "wyrazy": [
+          "SZAFA",
+          "KOSZ",
+          "ŻABA",
+          "KAŁUŻA",
+          "CZAPKA",
+          "KLUCZ"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t12-trzy-kolumny",
+          "typ": "sylaby_tabela",
+          "polecenie": "Przeczytaj w dół, kolumna po kolumnie.",
+          "dane": {
+            "wiersze": [
+              [
+                "SZA",
+                "ŻA",
+                "CZA"
+              ],
+              [
+                "SZO",
+                "ŻO",
+                "CZO"
+              ],
+              [
+                "SZU",
+                "ŻU",
+                "CZU"
+              ],
+              [
+                "SZE",
+                "ŻE",
+                "CZE"
+              ],
+              [
+                "SZY",
+                "ŻY",
+                "CZY"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "SZ",
+              "Ż",
+              "CZ"
+            ]
+          },
+          "dla_rodzica": "Najpierw w dół, potem w poprzek. W poprzek jest trudniej."
+        },
+        {
+          "id": "t12-rozroznianie",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl wyraz, który mówię.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Wiszą w niej ubrania.",
+                "opcje": [
+                  "SZAFA",
+                  "ŻABA",
+                  "CZAPKA"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Skacze i mieszka nad stawem.",
+                "opcje": [
+                  "SZAFA",
+                  "ŻABA",
+                  "CZAPKA"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Nosisz ją na głowie zimą.",
+                "opcje": [
+                  "SZAFA",
+                  "ŻABA",
+                  "CZAPKA"
+                ],
+                "poprawna": 2
+              },
+              {
+                "podpowiedz_rodzica": "Otwierasz nim drzwi.",
+                "opcje": [
+                  "KOSZ",
+                  "KLUCZ",
+                  "KAŁUŻA"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Zostaje po deszczu na chodniku.",
+                "opcje": [
+                  "KOSZ",
+                  "KLUCZ",
+                  "KAŁUŻA"
+                ],
+                "poprawna": 2
+              },
+              {
+                "podpowiedz_rodzica": "Wrzucasz do niego śmieci.",
+                "opcje": [
+                  "KOSZ",
+                  "KLUCZ",
+                  "KAŁUŻA"
+                ],
+                "poprawna": 0
+              }
+            ]
+          },
+          "dla_rodzica": "Czytasz podpowiedź. Dziecko wybiera z trzech, nie z dwóch."
+        },
+        {
+          "id": "t12-wyrazy",
+          "typ": "wyrazy_do_czytania",
+          "polecenie": "Przeczytaj wyrazy na głos.",
+          "dane": {
+            "wyrazy": [
+              {
+                "wyraz": "SZCZOTKA",
+                "sylaby": [
+                  "SZCZOT",
+                  "KA"
+                ]
+              },
+              {
+                "wyraz": "ŻUCZEK",
+                "sylaby": [
+                  "ŻU",
+                  "CZEK"
+                ]
+              },
+              {
+                "wyraz": "CZYSZCZĘ",
+                "sylaby": [
+                  "CZY",
+                  "SZCZĘ"
+                ]
+              },
+              {
+                "wyraz": "KOSZYCZEK",
+                "sylaby": [
+                  "KO",
+                  "SZY",
+                  "CZEK"
+                ]
+              },
+              {
+                "wyraz": "ŻÓŁWICZEK",
+                "sylaby": [
+                  "ŻÓŁ",
+                  "WI",
+                  "CZEK"
+                ]
+              },
+              {
+                "wyraz": "PSZCZOŁA",
+                "sylaby": [
+                  "PSZCZO",
+                  "ŁA"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "Najtrudniejsze wyrazy w całym programie. Jeden dziennie wystarczy."
+        },
+        {
+          "id": "t12-zdania",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj zdania na głos.",
+          "dane": {
+            "zdania": [
+              "Żuczek wszedł do koszyczka.",
+              "Czyszczę szczotką szarą czapkę.",
+              "Pszczoła usiadła na żółtej róży.",
+              "Kuba czyta o myszy i żabie.",
+              "W szafie leży klucz i szalik.",
+              "Żaba czeka przy czystej kałuży."
+            ],
+            "pytanie": "Powiedz, w którym zdaniu są wszystkie trzy głoski."
+          },
+          "dla_rodzica": "Czytajcie pierwszy raz chórem, drugi raz dziecko samo."
+        },
+        {
+          "id": "t12-opowiadam",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj i opowiedz o tym.",
+          "dane": {
+            "wyrazy": [
+              "SZOPA",
+              "KAŁUŻA",
+              "CZAPKA"
+            ],
+            "wysokosc_ramki_mm": 55
+          },
+          "dla_rodzica": "Poproś o trzy zdania do każdego rysunku. Słuchaj, nie poprawiaj w trakcie."
+        },
+        {
+          "id": "t12-moje-wyrazy",
+          "typ": "formularz",
+          "polecenie": "Wpisz swoje trzy wyrazy.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Wyraz z SZ, który mówię najlepiej",
+                "wysokosc_mm": 16,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wyraz z Ż, który mówię najlepiej",
+                "wysokosc_mm": 16,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wyraz z CZ, który mówię najlepiej",
+                "wysokosc_mm": 16,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wyraz, który jeszcze poćwiczę",
+                "wysokosc_mm": 16,
+                "linie": 1
+              },
+              {
+                "etykieta": "Zdanie, które sam wymyśliłem",
+                "wysokosc_mm": 24,
+                "linie": 2
+              }
+            ]
+          },
+          "dla_rodzica": "Rubryki są puste. Dziecko dyktuje, ty zapisujesz, albo pisze samo."
+        },
+        {
+          "id": "t12-dyktando",
+          "typ": "dyktando_sylabowe",
+          "polecenie": "Zapisz sylaby, które słyszysz.",
+          "dane": {
+            "do_dyktowania": [
+              "SZA",
+              "ŻA",
+              "CZA",
+              "ASZ",
+              "AŻ",
+              "ACZ",
+              "SZY",
+              "ŻY",
+              "CZY"
+            ],
+            "liniatura": "trzylinia"
+          },
+          "dla_rodzica": "Dyktuj bez pokazywania buzi. To sprawdzian słuchu po całym programie."
+        }
+      ],
+      "gra": {
+        "nazwa": "Trzy kosze",
+        "cel": "Rozdzielić wyrazy na SZ, Ż i CZ.",
+        "gracze": "dziecko i dorosły, można więcej",
+        "czas_min": 12,
+        "przygotowanie": [
+          "Wytnij osiemnaście kartoników z wyrazami.",
+          "Wytnij trzy etykiety: SZ, Ż, CZ."
+        ],
+        "zasady": [
+          "Losujesz kartonik, czytasz wyraz i kładziesz go przy właściwej etykiecie.",
+          "Wyraz z dwiema trudnymi głoskami możesz położyć przy dowolnej z nich.",
+          "Za dobrze położony kartonik gracz mówi wyraz jeszcze raz i bierze punkt.",
+          "Gra kończy się przy pustej puli. Wygrywa więcej punktów."
+        ],
+        "elementy_do_wyciecia": [
+          "osiemnaście kartoników z wyrazami",
+          "trzy etykiety: SZ, Ż, CZ"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Szara żaba i czapka",
+        "czyta": "dziecko",
+        "linie": [
+          "Nad kałużą siedziała szara żaba.",
+          "Obok leżała czerwona czapka.",
+          "Żaba weszła do czapki.",
+          "Czapka była miękka i czysta.",
+          "Przyszedł Kuba z koszem.",
+          "W koszu leżał klucz i szalik.",
+          "Kuba zobaczył żabę w czapce.",
+          "Żaba wyskoczyła do kałuży.",
+          "Czapka została pusta.",
+          "Kuba włożył czapkę na głowę."
+        ],
+        "pytania": [
+          "Gdzie schowała się żaba?",
+          "Opowiedz tę historię swoimi słowami.",
+          "Wymyśl własne zakończenie."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Najpierw w dół: sza, szo, szu. Teraz w poprzek: sza, ża, cza.”",
+          "„Zwolnij. W tym wyrazie są dwie trudne głoski.”",
+          "„Opowiedz mi to swoimi słowami. Ja tylko słucham.”",
+          "„Który wyraz wychodzi ci dziś najlepiej?”"
+        ],
+        "na_co_uwazac": [
+          "Czytanie w poprzek jest dużo trudniejsze niż w dół. Zostawcie je na koniec tygodnia.",
+          "W swobodnej rozmowie głoski gubią się najpierw. Na tym etapie ćwiczeń tak jest u większości dzieci.",
+          "Wyrazy takie jak SZCZOTKA czy CZYSZCZĘ to materiał na wiele tygodni. Jeden dziennie wystarczy."
+        ],
+        "kiedy_dalej": [
+          "Dziecko czyta trzy kolumny w dół bez mylenia głosek.",
+          "Cztery z sześciu zdań mieszanych wychodzą w całości.",
+          "Program się kończy. Wróćcie do tygodni 5, 8 i 11 raz w tygodniu, żeby utrwalić.",
+          "Nie zastępuje wizyty u logopedy — pozwala nie stać w miejscu, czekając na termin."
+        ],
+        "jesli_nie_idzie": [
+          "Wróćcie do tygodnia, w którym ostatnio było łatwo, i zróbcie go jeszcze raz.",
+          "Ćwiczcie po jednej głosce dziennie: poniedziałek SZ, wtorek Ż, środa CZ.",
+          "Jeśli po powtórzeniu programu jedna głoska nadal nie wychodzi, porozmawiaj z logopedą."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 12 — zaznacz, co dziś zrobiliście",
+        "wiersze": [
+          "Trzy kolumny w dół",
+          "Trzy kolumny w poprzek",
+          "Wyrazy z dwiema głoskami",
+          "Swobodna rozmowa",
+          "Gra Trzy kosze"
+        ],
+        "kolumny": [
+          "pon",
+          "wt",
+          "śr",
+          "czw",
+          "pt",
+          "sob"
+        ]
+      }
+    }
+  ],
+  "klucz_odpowiedzi": [
+    {
+      "strona_id": "t1-sz-czy-s",
+      "odpowiedzi": [
+        "1. SZ",
+        "2. S",
+        "3. SZ",
+        "4. S",
+        "5. SZ",
+        "6. S"
+      ]
+    },
+    {
+      "strona_id": "t1-gdzie-slychac",
+      "odpowiedzi": [
+        "1. POCZĄTEK",
+        "2. KONIEC",
+        "3. POCZĄTEK",
+        "4. KONIEC",
+        "5. POCZĄTEK",
+        "6. KONIEC"
+      ]
+    },
+    {
+      "strona_id": "t2-lacz",
+      "odpowiedzi": [
+        "SZA + FA = SZAFA",
+        "SZO + PA = SZOPA",
+        "SZU + KA = SZUKA",
+        "SZY + JA = SZYJA"
+      ]
+    },
+    {
+      "strona_id": "t2-uzupelnij",
+      "odpowiedzi": [
+        "1. SZA",
+        "2. SZO",
+        "3. SZY",
+        "4. SZU",
+        "5. SZA"
+      ]
+    },
+    {
+      "strona_id": "t2-powtorka-t1",
+      "odpowiedzi": [
+        "1. SZAFA",
+        "2. SANKI",
+        "3. SZALIK",
+        "4. KASZA",
+        "5. KOSZ"
+      ]
+    },
+    {
+      "strona_id": "t3-uzupelnij",
+      "odpowiedzi": [
+        "1. SZ",
+        "2. SZ",
+        "3. SZ",
+        "4. SZ",
+        "5. SZ"
+      ]
+    },
+    {
+      "strona_id": "t3-lacz",
+      "odpowiedzi": [
+        "KA + SZA = KASZA",
+        "PU + SZEK = PUSZEK",
+        "U + SZY = USZY",
+        "GRU + SZKA = GRUSZKA"
+      ]
+    },
+    {
+      "strona_id": "t4-pary",
+      "odpowiedzi": [
+        "1. KOS",
+        "2. KOSZ",
+        "3. SUM",
+        "4. SZUM",
+        "5. KASZA",
+        "6. KASA"
+      ]
+    },
+    {
+      "strona_id": "t4-uzupelnij",
+      "odpowiedzi": [
+        "1. SZA",
+        "2. SZA",
+        "3. SZ",
+        "4. SZU",
+        "5. SZ",
+        "6. SZA"
+      ]
+    },
+    {
+      "strona_id": "t4-dyktando",
+      "odpowiedzi": [
+        "SZA",
+        "ASZ",
+        "SZO",
+        "OSZ",
+        "SZU",
+        "USZ",
+        "SZY",
+        "YSZ"
+      ]
+    },
+    {
+      "strona_id": "t5-uzupelnij",
+      "odpowiedzi": [
+        "1. SZ",
+        "2. SZE",
+        "3. SZA",
+        "4. SZU",
+        "5. SZY"
+      ]
+    },
+    {
+      "strona_id": "t5-wybierz",
+      "odpowiedzi": [
+        "1. PROSZĘ",
+        "2. PROSIĘ",
+        "3. KOS",
+        "4. SUM",
+        "5. SZARY"
+      ]
+    },
+    {
+      "strona_id": "t6-sz-czy-z",
+      "odpowiedzi": [
+        "1. SZ",
+        "2. Ż",
+        "3. Ż",
+        "4. SZ",
+        "5. Ż",
+        "6. SZ"
+      ]
+    },
+    {
+      "strona_id": "t7-lacz",
+      "odpowiedzi": [
+        "ŻA + BA = ŻABA",
+        "ŻY + RAFA = ŻYRAFA",
+        "KA + ŁUŻA = KAŁUŻA",
+        "NO + ŻYCE = NOŻYCE"
+      ]
+    },
+    {
+      "strona_id": "t7-uzupelnij",
+      "odpowiedzi": [
+        "1. ŻA",
+        "2. ŁU",
+        "3. ŻY",
+        "4. ŻA",
+        "5. Ż",
+        "6. ŻY"
+      ]
+    },
+    {
+      "strona_id": "t7-wybierz",
+      "odpowiedzi": [
+        "1. ŻABA",
+        "2. SKLEP",
+        "3. ŻYRAFA",
+        "4. ŻELAZKO",
+        "5. KAŁUŻA",
+        "6. NOŻYCE"
+      ]
+    },
+    {
+      "strona_id": "t8-dyktando",
+      "odpowiedzi": [
+        "ŻA",
+        "AŻ",
+        "ŻO",
+        "OŻ",
+        "ŻU",
+        "UŻ",
+        "SZA",
+        "ASZ"
+      ]
+    },
+    {
+      "strona_id": "t8-wybierz",
+      "odpowiedzi": [
+        "1. ZEBRA",
+        "2. ŻEBRA",
+        "3. ŻABA",
+        "4. SZAFA",
+        "5. WAŻY"
+      ]
+    },
+    {
+      "strona_id": "t9-cz-czy-c",
+      "odpowiedzi": [
+        "1. CZ",
+        "2. C",
+        "3. CZ",
+        "4. C",
+        "5. CZ",
+        "6. SZ"
+      ]
+    },
+    {
+      "strona_id": "t10-lacz",
+      "odpowiedzi": [
+        "CZAP + KA = CZAPKA",
+        "CZAJ + NIK = CZAJNIK",
+        "BECZ + KA = BECZKA",
+        "TAR + CZA = TARCZA"
+      ]
+    },
+    {
+      "strona_id": "t10-uzupelnij",
+      "odpowiedzi": [
+        "1. CZA",
+        "2. CZY",
+        "3. CZ",
+        "4. CZ",
+        "5. CZO",
+        "6. CZA"
+      ]
+    },
+    {
+      "strona_id": "t10-wybierz",
+      "odpowiedzi": [
+        "1. KLUCZ",
+        "2. CZAPKA",
+        "3. CZAJNIK",
+        "4. OCZY",
+        "5. PACZKA",
+        "6. MIECZ"
+      ]
+    },
+    {
+      "strona_id": "t11-dyktando",
+      "odpowiedzi": [
+        "CZA",
+        "ACZ",
+        "CZO",
+        "OCZ",
+        "CZU",
+        "UCZ",
+        "ŻA",
+        "SZA"
+      ]
+    },
+    {
+      "strona_id": "t11-uzupelnij",
+      "odpowiedzi": [
+        "1. CZE",
+        "2. CZY",
+        "3. CZ",
+        "4. CZ",
+        "5. CZY",
+        "6. CZA"
+      ]
+    },
+    {
+      "strona_id": "t12-rozroznianie",
+      "odpowiedzi": [
+        "1. SZAFA",
+        "2. ŻABA",
+        "3. CZAPKA",
+        "4. KLUCZ",
+        "5. KAŁUŻA",
+        "6. KOSZ"
+      ]
+    },
+    {
+      "strona_id": "t12-dyktando",
+      "odpowiedzi": [
+        "SZA",
+        "ŻA",
+        "CZA",
+        "ASZ",
+        "AŻ",
+        "ACZ",
+        "SZY",
+        "ŻY",
+        "CZY"
+      ]
+    }
+  ],
+  "fragment": {
+    "do_tygodnia": 1,
+    "obietnica_na_stronie": "Cztery pierwsze strony z 132. Cały fragment pobierzesz za darmo, bez zakładania konta."
+  }
+}

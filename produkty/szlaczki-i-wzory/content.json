@@ -161,14 +161,14 @@
         {
           "id": "b1-male-kolka",
           "typ": "pisanie_po_sladzie",
-          "polecenie": "Rysuj małe kółka po śladzie.",
-          "dla_rodzica": "Mniejsze koło to więcej pracy palców niż ramienia.",
+          "polecenie": "Rysuj grube kropki po śladzie.",
+          "dla_rodzica": "Gruba kropka powstaje z małego kółka zamalowanego w środku.",
           "dane": {
             "wzory": [
-              "◦◦◦",
-              "◦·◦",
-              "◦|◦",
-              "◦○◦"
+              "•••",
+              "•·•",
+              "•|•",
+              "•○•"
             ],
             "linie_na_wzor": 1,
             "liniatura": "gladka"
@@ -743,24 +743,24 @@
               "○☆○",
               "☆·☆",
               "☆|☆",
-              "☆◦☆"
+              "☆•☆"
             ],
             "linie_na_wzor": 2,
             "liniatura": "gladka"
           }
         },
         {
-          "id": "b2-romby",
+          "id": "b2-kola-pelne",
           "typ": "pisanie_po_sladzie",
-          "polecenie": "Rysuj romby po śladzie.",
-          "dla_rodzica": "Romb ma cztery rogi, tak jak kwadrat postawiony na sztorc.",
+          "polecenie": "Rysuj pełne i puste koła.",
+          "dla_rodzica": "Najpierw obwódka, dopiero potem zamalowany środek.",
           "dane": {
             "wzory": [
-              "♦·♦",
-              "·♦·",
-              "♦○♦",
-              "○♦○",
-              "♦|♦"
+              "●·●",
+              "·●·",
+              "●○●",
+              "○●○",
+              "●|●"
             ],
             "linie_na_wzor": 2,
             "liniatura": "gladka"
@@ -831,41 +831,41 @@
               "°·°",
               "°○°",
               "°|°",
-              "°◦°"
+              "°•°"
             ],
             "linie_na_wzor": 2,
             "liniatura": "gladka"
           }
         },
         {
-          "id": "b2-ptaszki",
+          "id": "b2-klamry",
           "typ": "pisanie_po_sladzie",
-          "polecenie": "Rysuj ptaszki po śladzie.",
-          "dla_rodzica": "W dół, potem w górę i dłużej. Jeden ruch.",
+          "polecenie": "Rysuj klamry po śladzie.",
+          "dla_rodzica": "Klamra ma dwa zawinięcia i szpic w środku. Jeden powolny ruch.",
           "dane": {
             "wzory": [
-              "✓✓✓",
-              "✓·✓",
-              "✓|✓",
-              "✓○✓",
-              "✓◦✓"
+              "{{{",
+              "}}}",
+              "{·}",
+              "}·{",
+              "{|}"
             ],
             "linie_na_wzor": 2,
             "liniatura": "gladka"
           }
         },
         {
-          "id": "b2-ptaszki-i-krzyzyki",
+          "id": "b2-nawiasy-kanciaste",
           "typ": "pisanie_po_sladzie",
-          "polecenie": "Rysuj ptaszek i krzyżyk na zmianę.",
-          "dla_rodzica": "Ostatnia strona bloku. Sprawdź, czy ręka jest luźna.",
+          "polecenie": "Rysuj kanciaste nawiasy na zmianę.",
+          "dla_rodzica": "Ostatnia strona bloku. Trzy kreski i dwa ostre rogi.",
           "dane": {
             "wzory": [
-              "✓✕✓",
-              "✕✓✕",
-              "✓·✕",
-              "✕·✓",
-              "✓|✕"
+              "[[[",
+              "]]]",
+              "[·]",
+              "]·[",
+              "[|]"
             ],
             "linie_na_wzor": 2,
             "liniatura": "gladka"
@@ -924,11 +924,11 @@
           "dla_rodzica": "Drobne znaki siadają na linii środkowej.",
           "dane": {
             "wzory": [
-              "▪◦▪",
-              "◦▪◦",
-              "▪◦·",
-              "·▪◦",
-              "◦·▪"
+              "■•■",
+              "•■•",
+              "■•·",
+              "·■•",
+              "•·■"
             ],
             "linie_na_wzor": 2,
             "liniatura": "trzylinia"
@@ -977,13 +977,13 @@
             "kroki": [
               "○",
               "□",
-              "▪",
+              "■",
               "○",
               "□",
               ""
             ],
             "brakujace": [
-              "▪"
+              "■"
             ]
           }
         },
@@ -1022,17 +1022,17 @@
           }
         },
         {
-          "id": "b3-ptaszek-krzyzyk",
+          "id": "b3-klamry-rytm",
           "typ": "pisanie_po_sladzie",
-          "polecenie": "Rysuj ptaszek i krzyżyk w rytmie.",
+          "polecenie": "Rysuj klamry w rytmie.",
           "dla_rodzica": "Kropka to pauza. Ręka ma na niej odpocząć.",
           "dane": {
             "wzory": [
-              "✓·✕",
-              "✕·✓",
-              "✓✕·",
-              "·✓✕",
-              "✕✓·"
+              "{·}",
+              "}·{",
+              "{}·",
+              "·{}",
+              "}{·"
             ],
             "linie_na_wzor": 2,
             "liniatura": "trzylinia"
@@ -1114,11 +1114,11 @@
               "○□○",
               "/|\\",
               "→↑←",
-              "✓·✕"
+              "{·}"
             ],
             "prawa": [
               "→↑←",
-              "✓·✕",
+              "{·}",
               "○□○",
               "/|\\"
             ],
@@ -1151,9 +1151,9 @@
             "wzory": [
               "○·□",
               "□·○",
-              "○□▪",
-              "□▪○",
-              "▪○□"
+              "○□■",
+              "□■○",
+              "■○□"
             ],
             "linie_na_wzor": 2,
             "liniatura": "trzylinia"
@@ -1250,14 +1250,14 @@
           "id": "b3-od-kropki-do-kola",
           "typ": "pisanie_po_sladzie",
           "polecenie": "Rysuj od najmniejszego do największego.",
-          "dla_rodzica": "Wielkość znaku zmienia się w jednej linijce.",
+          "dla_rodzica": "Znak rośnie: kropka, gruba kropka, koło. W jednej linijce.",
           "dane": {
             "wzory": [
-              "·◦○",
-              "○◦·",
-              "◦·○",
-              "○·◦",
-              "·○◦"
+              "·•○",
+              "○•·",
+              "•·○",
+              "○·•",
+              "·○•"
             ],
             "linie_na_wzor": 2,
             "liniatura": "trzylinia"
@@ -1274,7 +1274,7 @@
               "○·☆",
               "☆□☆",
               "□☆□",
-              "☆◦☆"
+              "☆•☆"
             ],
             "linie_na_wzor": 2,
             "liniatura": "trzylinia"
@@ -1328,14 +1328,14 @@
         {
           "id": "b4-kolka-drobne",
           "typ": "pisanie_po_sladzie",
-          "polecenie": "Rysuj drobne kółka w rytmie.",
-          "dla_rodzica": "Kółko mieści się między linią środkową a dolną.",
+          "polecenie": "Rysuj grube kropki w rytmie.",
+          "dla_rodzica": "Kropka mieści się między linią środkową a dolną.",
           "dane": {
             "wzory": [
-              "◦·◦",
-              "·◦·",
-              "◦◦·",
-              "·◦◦"
+              "•·•",
+              "·•·",
+              "••·",
+              "·••"
             ],
             "linie_na_wzor": 3,
             "liniatura": "trzylinia"
@@ -1345,13 +1345,13 @@
           "id": "b4-kwadraciki",
           "typ": "pisanie_po_sladzie",
           "polecenie": "Rysuj kwadraciki w rytmie.",
-          "dla_rodzica": "Rogi mają zostać ostre, nawet przy tej wielkości.",
+          "dla_rodzica": "Najpierw obrys, potem zamalowany środek. Rogi zostają ostre.",
           "dane": {
             "wzory": [
-              "▪·▪",
-              "·▪·",
-              "▪▪·",
-              "·▪▪"
+              "■·■",
+              "·■·",
+              "■■·",
+              "·■■"
             ],
             "linie_na_wzor": 3,
             "liniatura": "trzylinia"
@@ -1377,14 +1377,14 @@
           "id": "b4-rytm-wielkosci",
           "typ": "sekwencja",
           "polecenie": "Dorysuj brakujący znak.",
-          "dla_rodzica": "Znak rośnie: kropka, kółko, koło. Potem od nowa.",
+          "dla_rodzica": "Znak rośnie: kropka, gruba kropka, koło. Potem od nowa.",
           "dane": {
             "kroki": [
               "·",
-              "◦",
+              "•",
               "○",
               "·",
-              "◦",
+              "•",
               ""
             ],
             "brakujace": [
@@ -1511,15 +1511,15 @@
           "dane": {
             "lewa": [
               "·|·",
-              "◦·◦",
-              "▪·▪",
+              "•·•",
+              "■·■",
               "^·^"
             ],
             "prawa": [
-              "▪·▪",
+              "■·■",
               "^·^",
               "·|·",
-              "◦·◦"
+              "•·•"
             ],
             "pary": [
               [
@@ -1558,53 +1558,53 @@
           }
         },
         {
-          "id": "b4-ptaszki-drobne",
+          "id": "b4-klamry-drobne",
           "typ": "pisanie_po_sladzie",
-          "polecenie": "Rysuj drobne ptaszki i krzyżyki.",
-          "dla_rodzica": "Ptaszek ma jedno ramię dłuższe. To ta sama zasada co wcześniej.",
+          "polecenie": "Rysuj drobne klamry w rytmie.",
+          "dla_rodzica": "Klamra ma jedno ramię dłuższe. To ta sama zasada co wcześniej.",
           "dane": {
             "wzory": [
-              "✓·✓",
-              "✕·✕",
-              "✓·✕",
-              "✕·✓"
+              "{·{",
+              "}·}",
+              "{·}",
+              "}·{"
             ],
             "linie_na_wzor": 3,
             "liniatura": "trzylinia"
           }
         },
         {
-          "id": "b4-gwiazdka-romb",
+          "id": "b4-gwiazdka-kolo",
           "typ": "pisanie_po_sladzie",
-          "polecenie": "Rysuj drobną gwiazdkę i romb.",
+          "polecenie": "Rysuj drobną gwiazdkę i koło.",
           "dla_rodzica": "Dwa najbardziej złożone znaki w zeszycie, teraz w małej skali.",
           "dane": {
             "wzory": [
               "☆·☆",
-              "♦·♦",
-              "☆·♦",
-              "♦·☆"
+              "●·●",
+              "☆·●",
+              "●·☆"
             ],
             "linie_na_wzor": 3,
             "liniatura": "trzylinia"
           }
         },
         {
-          "id": "b4-rytm-ptaszkow",
+          "id": "b4-rytm-klamer",
           "typ": "sekwencja",
           "polecenie": "Dorysuj brakujący znak.",
           "dla_rodzica": "Rytm z dwóch znaków, ale zaczyna się od nieparzystego.",
           "dane": {
             "kroki": [
-              "✓",
-              "✕",
-              "✓",
-              "✕",
-              "✓",
+              "{",
+              "}",
+              "{",
+              "}",
+              "{",
               ""
             ],
             "brakujace": [
-              "✕"
+              "}"
             ]
           }
         },
@@ -1719,13 +1719,13 @@
         {
           "id": "b5-kolka-najdrobniejsze",
           "typ": "pisanie_po_sladzie",
-          "polecenie": "Rysuj najdrobniejsze kółka.",
-          "dla_rodzica": "Kółko mieści się między dwiema środkowymi liniami.",
+          "polecenie": "Stawiaj grubsze kropki w pasie.",
+          "dla_rodzica": "Kropka mieści się między dwiema środkowymi liniami.",
           "dane": {
             "wzory": [
-              "◦◦◦",
-              "◦·◦",
-              "·◦·"
+              "•••",
+              "•·•",
+              "·•·"
             ],
             "linie_na_wzor": 4,
             "liniatura": "czterolinia"
@@ -1735,12 +1735,12 @@
           "id": "b5-kwadraciki-cienkie",
           "typ": "pisanie_po_sladzie",
           "polecenie": "Rysuj najdrobniejsze kwadraciki.",
-          "dla_rodzica": "Cztery mikroskopijne kreski. Zwolnijcie o połowę.",
+          "dla_rodzica": "Cztery mikroskopijne kreski i środek. Zwolnijcie o połowę.",
           "dane": {
             "wzory": [
-              "▪▪▪",
-              "▪·▪",
-              "·▪·"
+              "■■■",
+              "■·■",
+              "·■·"
             ],
             "linie_na_wzor": 4,
             "liniatura": "czterolinia"
@@ -1765,18 +1765,18 @@
           "id": "b5-rytm-kropek",
           "typ": "sekwencja",
           "polecenie": "Dorysuj brakujący znak.",
-          "dla_rodzica": "Dwie kropki, kółko. Najdrobniejszy rytm w zeszycie.",
+          "dla_rodzica": "Dwie drobne kropki, gruba kropka. Najdrobniejszy rytm w zeszycie.",
           "dane": {
             "kroki": [
               "·",
               "·",
-              "◦",
+              "•",
               "·",
               "·",
               ""
             ],
             "brakujace": [
-              "◦"
+              "•"
             ]
           }
         },
@@ -1893,15 +1893,15 @@
           "dane": {
             "lewa": [
               "···",
-              "◦◦◦",
+              "•••",
               "|||",
-              "✓✓✓"
+              "{{{"
             ],
             "prawa": [
               "|||",
-              "✓✓✓",
+              "{{{",
               "···",
-              "◦◦◦"
+              "•••"
             ],
             "pary": [
               [
@@ -1954,15 +1954,15 @@
           }
         },
         {
-          "id": "b5-ptaszki-cienkie",
+          "id": "b5-klamry-cienkie",
           "typ": "pisanie_po_sladzie",
-          "polecenie": "Rysuj cienkie ptaszki w pasie.",
+          "polecenie": "Rysuj cienkie klamry w pasie.",
           "dla_rodzica": "Jeden ruch, bez odrywania ołówka.",
           "dane": {
             "wzory": [
-              "✓✓✓",
-              "✓·✓",
-              "·✓·"
+              "{{{",
+              "{·{",
+              "·{·"
             ],
             "linie_na_wzor": 4,
             "liniatura": "czterolinia"
@@ -2100,7 +2100,7 @@
     {
       "strona_id": "b3-rytm-trzech",
       "odpowiedzi": [
-        "▪"
+        "■"
       ]
     },
     {
@@ -2134,15 +2134,15 @@
       ]
     },
     {
-      "strona_id": "b4-rytm-ptaszkow",
+      "strona_id": "b4-rytm-klamer",
       "odpowiedzi": [
-        "✕"
+        "}"
       ]
     },
     {
       "strona_id": "b5-rytm-kropek",
       "odpowiedzi": [
-        "◦"
+        "•"
       ]
     },
     {
