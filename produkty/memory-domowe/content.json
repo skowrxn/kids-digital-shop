@@ -1,0 +1,1806 @@
+{
+  "meta": {
+    "slug": "memory-domowe",
+    "tytul": "Memory domowe",
+    "podtytul": "Cztery zestawy po 48 kart",
+    "archetyp": "KARTY",
+    "wersja": "1.0",
+    "wiek": "3–8 lat",
+    "kategoria": "gry",
+    "podkategoria": "memory",
+    "strony_deklarowane": 52,
+    "min_pt_dziecka": 14
+  },
+  "wstep": {
+    "dla_kogo": "Dla trzylatka i dla wieczoru, kiedy nikt nie ma siły na nic skomplikowanego.",
+    "obietnica": "Dziecko gra z wami w memory kartami, które zna — i wygrywa wystarczająco często, żeby chcieć grać dalej.",
+    "warunek_wejscia": "Dziecko utrzymuje uwagę przez pięć minut przy stole i rozumie zasadę „odkryj dwie”.",
+    "ile_czasu_dziennie": "Jedna runda trwa od pięciu do piętnastu minut. Tyle wystarczy.",
+    "jak_korzystac": [
+      "Zacznij od jednego kompletu. Cztery naraz to za dużo.",
+      "Dla trzylatka rozłóż sześć par, nie dwadzieścia cztery.",
+      "Karty kładźcie w równym kwadracie. Dziecko zapamiętuje miejsce.",
+      "Graj razem przy stole. To gra we dwoje albo więcej.",
+      "Odkrywacie po dwie karty na zmianę, zawsze w tę samą stronę.",
+      "Trafioną parę odkładacie obok. Resztę wracacie na miejsce.",
+      "Kończcie, zanim dziecko się znudzi. Lepiej o rundę za wcześnie.",
+      "Puste karty dorysujcie razem. To osobna zabawa na deszczowy dzień."
+    ],
+    "czego_nie_robi": [
+      "Nie uczy czytania. Karty są obrazkowe albo z jednym słowem.",
+      "Nie jest testem pamięci. Nie liczcie, ile par kto zapamiętał.",
+      "Nie ma wersji na jedną osobę — to gra we dwoje albo więcej.",
+      "Nie zastąpi wspólnego czasu przy stole. Jest tylko pretekstem."
+    ]
+  },
+  "talie": [
+    {
+      "nazwa": "Zwierzęta",
+      "format_mm": [
+        60,
+        60
+      ],
+      "bez_podpisow": true,
+      "arkusze": [
+        {
+          "id": "zw-przygotowanie",
+          "typ": "lista_krokow",
+          "polecenie": "Przygotuj komplet: zwierzęta.",
+          "dla_rodzica": "Zrób to raz, bez dziecka. Zajmuje dwadzieścia minut.",
+          "dane": {
+            "kroki": [
+              "Wydrukuj sześć kolejnych arkuszy. Zwykły papier wystarczy.",
+              "Każdy motyw jest na arkuszu dwa razy — to jedna para.",
+              "Potnij karty po liniach. Zostaw trzy milimetry marginesu.",
+              "Podklej karty kartonem albo zalaminuj. Inaczej prześwitują.",
+              "Sprawdź pod światło, czy nie widać drugiej strony.",
+              "Trzy ostatnie arkusze mają puste pola — dorysujcie je razem.",
+              "Na obu kartach pary rysujecie to samo, na przykład kot na obu kartach kompletu.",
+              "Trzymaj komplet w osobnej kopercie. Nie mieszaj kompletów."
+            ]
+          }
+        },
+        {
+          "id": "zw-karty-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: kot, pies, krowa, koń.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "kot",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "kot",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "pies",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "pies",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "krowa",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "krowa",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "koń",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "koń",
+                "rewers": "zwierzęta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "zw-karty-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: owca, świnia, kura, kaczka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "owca",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "owca",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "świnia",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "świnia",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "kura",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "kura",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "kaczka",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "kaczka",
+                "rewers": "zwierzęta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "zw-karty-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: królik, mysz, jeż, wiewiórka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "królik",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "królik",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "mysz",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "mysz",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "jeż",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "jeż",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "wiewiórka",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "wiewiórka",
+                "rewers": "zwierzęta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "zw-karty-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: lis, wilk, sarna, niedźwiedź.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "lis",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "lis",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "wilk",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "wilk",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "sarna",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "sarna",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "niedźwiedź",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "niedźwiedź",
+                "rewers": "zwierzęta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "zw-karty-5",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: żaba, ryba, ptak, motyl.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "żaba",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "żaba",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "ryba",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "ryba",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "ptak",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "ptak",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "motyl",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "motyl",
+                "rewers": "zwierzęta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "zw-karty-6",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: biedronka, pszczoła, ślimak, sowa.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "biedronka",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "biedronka",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "pszczoła",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "pszczoła",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "ślimak",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "ślimak",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "sowa",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "sowa",
+                "rewers": "zwierzęta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "zw-puste-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj to samo na obu kartach.",
+          "dla_rodzica": "Wersja bez podpisów, dla dziecka, które nie czyta. Trzy arkusze dają dwanaście par — komplet dla młodszych. Rysujcie albo wklejajcie: kot, pies, krowa, koń.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "kot",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "kot",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "pies",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "pies",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "krowa",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "krowa",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "koń",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "koń",
+                "rewers": "zwierzęta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "zw-puste-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj to samo na obu kartach.",
+          "dla_rodzica": "Wersja bez podpisów, dla dziecka, które nie czyta. Trzy arkusze dają dwanaście par — komplet dla młodszych. Rysujcie albo wklejajcie: owca, świnia, kura, kaczka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "owca",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "owca",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "świnia",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "świnia",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "kura",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "kura",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "kaczka",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "kaczka",
+                "rewers": "zwierzęta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "zw-puste-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj to samo na obu kartach.",
+          "dla_rodzica": "Wersja bez podpisów, dla dziecka, które nie czyta. Trzy arkusze dają dwanaście par — komplet dla młodszych. Rysujcie albo wklejajcie: królik, mysz, jeż, wiewiórka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "królik",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "królik",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "mysz",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "mysz",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "jeż",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "jeż",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "wiewiórka",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "wiewiórka",
+                "rewers": "zwierzęta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Jedzenie",
+      "format_mm": [
+        60,
+        60
+      ],
+      "bez_podpisow": true,
+      "arkusze": [
+        {
+          "id": "je-przygotowanie",
+          "typ": "lista_krokow",
+          "polecenie": "Przygotuj komplet: jedzenie.",
+          "dla_rodzica": "Zrób to raz, bez dziecka. Zajmuje dwadzieścia minut.",
+          "dane": {
+            "kroki": [
+              "Wydrukuj sześć kolejnych arkuszy. Zwykły papier wystarczy.",
+              "Każdy motyw jest na arkuszu dwa razy — to jedna para.",
+              "Potnij karty po liniach. Zostaw trzy milimetry marginesu.",
+              "Podklej karty kartonem albo zalaminuj. Inaczej prześwitują.",
+              "Sprawdź pod światło, czy nie widać drugiej strony.",
+              "Trzy ostatnie arkusze mają puste pola — dorysujcie je razem.",
+              "Na obu kartach pary rysujecie to samo, na przykład to samo jabłko dwa razy.",
+              "Trzymaj komplet w osobnej kopercie. Nie mieszaj kompletów."
+            ]
+          }
+        },
+        {
+          "id": "je-karty-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: jabłko, gruszka, banan, śliwka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "jabłko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "jabłko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "gruszka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "gruszka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "banan",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "banan",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "śliwka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "śliwka",
+                "rewers": "jedzenie"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "je-karty-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: truskawka, marchewka, ziemniak, pomidor.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "truskawka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "truskawka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "marchewka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "marchewka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "ziemniak",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "ziemniak",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "pomidor",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "pomidor",
+                "rewers": "jedzenie"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "je-karty-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: ogórek, cebula, chleb, bułka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "ogórek",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "ogórek",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "cebula",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "cebula",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "chleb",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "chleb",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "bułka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "bułka",
+                "rewers": "jedzenie"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "je-karty-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: ser, jajko, mleko, masło.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "ser",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "ser",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "jajko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "jajko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "mleko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "mleko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "masło",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "masło",
+                "rewers": "jedzenie"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "je-karty-5",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: zupa, makaron, ryż, naleśnik.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "zupa",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "zupa",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "makaron",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "makaron",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "ryż",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "ryż",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "naleśnik",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "naleśnik",
+                "rewers": "jedzenie"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "je-karty-6",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: ciastko, miód, woda, herbata.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "ciastko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "ciastko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "miód",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "miód",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "woda",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "woda",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "herbata",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "herbata",
+                "rewers": "jedzenie"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "je-puste-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj to samo na obu kartach.",
+          "dla_rodzica": "Wersja bez podpisów, dla dziecka, które nie czyta. Trzy arkusze dają dwanaście par — komplet dla młodszych. Rysujcie albo wklejajcie: jabłko, gruszka, banan, śliwka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "jabłko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "jabłko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "gruszka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "gruszka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "banan",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "banan",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "śliwka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "śliwka",
+                "rewers": "jedzenie"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "je-puste-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj to samo na obu kartach.",
+          "dla_rodzica": "Wersja bez podpisów, dla dziecka, które nie czyta. Trzy arkusze dają dwanaście par — komplet dla młodszych. Rysujcie albo wklejajcie: truskawka, marchewka, ziemniak, pomidor.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "truskawka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "truskawka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "marchewka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "marchewka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "ziemniak",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "ziemniak",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "pomidor",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "pomidor",
+                "rewers": "jedzenie"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "je-puste-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj to samo na obu kartach.",
+          "dla_rodzica": "Wersja bez podpisów, dla dziecka, które nie czyta. Trzy arkusze dają dwanaście par — komplet dla młodszych. Rysujcie albo wklejajcie: ogórek, cebula, chleb, bułka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "ogórek",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "ogórek",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "cebula",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "cebula",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "chleb",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "chleb",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "bułka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "bułka",
+                "rewers": "jedzenie"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Pojazdy",
+      "format_mm": [
+        60,
+        60
+      ],
+      "bez_podpisow": true,
+      "arkusze": [
+        {
+          "id": "po-przygotowanie",
+          "typ": "lista_krokow",
+          "polecenie": "Przygotuj komplet: pojazdy.",
+          "dla_rodzica": "Zrób to raz, bez dziecka. Zajmuje dwadzieścia minut.",
+          "dane": {
+            "kroki": [
+              "Wydrukuj sześć kolejnych arkuszy. Zwykły papier wystarczy.",
+              "Każdy motyw jest na arkuszu dwa razy — to jedna para.",
+              "Potnij karty po liniach. Zostaw trzy milimetry marginesu.",
+              "Podklej karty kartonem albo zalaminuj. Inaczej prześwitują.",
+              "Sprawdź pod światło, czy nie widać drugiej strony.",
+              "Trzy ostatnie arkusze mają puste pola — dorysujcie je razem.",
+              "Na obu kartach pary rysujecie to samo, na przykład ten sam autobus dwa razy.",
+              "Trzymaj komplet w osobnej kopercie. Nie mieszaj kompletów."
+            ]
+          }
+        },
+        {
+          "id": "po-karty-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: samochód, autobus, tramwaj, pociąg.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "samochód",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "samochód",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "autobus",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "autobus",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "tramwaj",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "tramwaj",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "pociąg",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "pociąg",
+                "rewers": "pojazdy"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "po-karty-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: rower, hulajnoga, motor, traktor.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "rower",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "rower",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "hulajnoga",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "hulajnoga",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "motor",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "motor",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "traktor",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "traktor",
+                "rewers": "pojazdy"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "po-karty-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: koparka, dźwig, śmieciarka, wóz strażacki.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "koparka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "koparka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "dźwig",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "dźwig",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "śmieciarka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "śmieciarka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "wóz strażacki",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "wóz strażacki",
+                "rewers": "pojazdy"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "po-karty-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: karetka, radiowóz, taksówka, ciężarówka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "karetka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "karetka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "radiowóz",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "radiowóz",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "taksówka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "taksówka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "ciężarówka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "ciężarówka",
+                "rewers": "pojazdy"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "po-karty-5",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: łódka, statek, prom, samolot.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "łódka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "łódka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "statek",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "statek",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "prom",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "prom",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "samolot",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "samolot",
+                "rewers": "pojazdy"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "po-karty-6",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: helikopter, balon, rakieta, sanki.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "helikopter",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "helikopter",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "balon",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "balon",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "rakieta",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "rakieta",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "sanki",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "sanki",
+                "rewers": "pojazdy"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "po-puste-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj to samo na obu kartach.",
+          "dla_rodzica": "Wersja bez podpisów, dla dziecka, które nie czyta. Trzy arkusze dają dwanaście par — komplet dla młodszych. Rysujcie albo wklejajcie: samochód, autobus, tramwaj, pociąg.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "samochód",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "samochód",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "autobus",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "autobus",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "tramwaj",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "tramwaj",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "pociąg",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "pociąg",
+                "rewers": "pojazdy"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "po-puste-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj to samo na obu kartach.",
+          "dla_rodzica": "Wersja bez podpisów, dla dziecka, które nie czyta. Trzy arkusze dają dwanaście par — komplet dla młodszych. Rysujcie albo wklejajcie: rower, hulajnoga, motor, traktor.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "rower",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "rower",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "hulajnoga",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "hulajnoga",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "motor",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "motor",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "traktor",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "traktor",
+                "rewers": "pojazdy"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "po-puste-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj to samo na obu kartach.",
+          "dla_rodzica": "Wersja bez podpisów, dla dziecka, które nie czyta. Trzy arkusze dają dwanaście par — komplet dla młodszych. Rysujcie albo wklejajcie: koparka, dźwig, śmieciarka, wóz strażacki.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "koparka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "koparka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "dźwig",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "dźwig",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "śmieciarka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "śmieciarka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "wóz strażacki",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "wóz strażacki",
+                "rewers": "pojazdy"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Emocje",
+      "format_mm": [
+        60,
+        60
+      ],
+      "bez_podpisow": true,
+      "arkusze": [
+        {
+          "id": "em-przygotowanie",
+          "typ": "lista_krokow",
+          "polecenie": "Przygotuj komplet: emocje.",
+          "dla_rodzica": "Zrób to raz, bez dziecka. Zajmuje dwadzieścia minut.",
+          "dane": {
+            "kroki": [
+              "Wydrukuj sześć kolejnych arkuszy. Zwykły papier wystarczy.",
+              "Każdy motyw jest na arkuszu dwa razy — to jedna para.",
+              "Potnij karty po liniach. Zostaw trzy milimetry marginesu.",
+              "Podklej karty kartonem albo zalaminuj. Inaczej prześwitują.",
+              "Sprawdź pod światło, czy nie widać drugiej strony.",
+              "Trzy ostatnie arkusze mają puste pola — dorysujcie je razem.",
+              "Na obu kartach pary rysujecie to samo, na przykład ta sama buzia dwa razy.",
+              "Trzymaj komplet w osobnej kopercie. Nie mieszaj kompletów."
+            ]
+          }
+        },
+        {
+          "id": "em-karty-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: radość, złość, smutek, strach.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "radość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "radość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "złość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "złość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "smutek",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "smutek",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "strach",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "strach",
+                "rewers": "emocje"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "em-karty-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: spokój, duma, wstyd, zazdrość.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "spokój",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "spokój",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "duma",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "duma",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "wstyd",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "wstyd",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "zazdrość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "zazdrość",
+                "rewers": "emocje"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "em-karty-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: tęsknota, nuda, ulga, wdzięczność.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "tęsknota",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "tęsknota",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "nuda",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "nuda",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "ulga",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "ulga",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "wdzięczność",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "wdzięczność",
+                "rewers": "emocje"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "em-karty-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: zmęczenie, ciekawość, zachwyt, zaskoczenie.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "zmęczenie",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "zmęczenie",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "ciekawość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "ciekawość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "zachwyt",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "zachwyt",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "zaskoczenie",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "zaskoczenie",
+                "rewers": "emocje"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "em-karty-5",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: rozczarowanie, samotność, odwaga, niecierpliwość.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "rozczarowanie",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "rozczarowanie",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "samotność",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "samotność",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "odwaga",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "odwaga",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "niecierpliwość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "niecierpliwość",
+                "rewers": "emocje"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "em-karty-6",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Cztery pary na arkuszu: czułość, zakłopotanie, ekscytacja, żal.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "czułość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "czułość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "zakłopotanie",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "zakłopotanie",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "ekscytacja",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "ekscytacja",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "żal",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "żal",
+                "rewers": "emocje"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "em-puste-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj to samo na obu kartach.",
+          "dla_rodzica": "Wersja bez podpisów, dla dziecka, które nie czyta. Trzy arkusze dają dwanaście par — komplet dla młodszych. Rysujcie albo wklejajcie: radość, złość, smutek, strach.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "radość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "radość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "złość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "złość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "smutek",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "smutek",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "strach",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "strach",
+                "rewers": "emocje"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "em-puste-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj to samo na obu kartach.",
+          "dla_rodzica": "Wersja bez podpisów, dla dziecka, które nie czyta. Trzy arkusze dają dwanaście par — komplet dla młodszych. Rysujcie albo wklejajcie: spokój, duma, wstyd, zazdrość.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "spokój",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "spokój",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "duma",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "duma",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "wstyd",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "wstyd",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "zazdrość",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "zazdrość",
+                "rewers": "emocje"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "em-puste-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj to samo na obu kartach.",
+          "dla_rodzica": "Wersja bez podpisów, dla dziecka, które nie czyta. Trzy arkusze dają dwanaście par — komplet dla młodszych. Rysujcie albo wklejajcie: tęsknota, nuda, ulga, wdzięczność.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "tęsknota",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "tęsknota",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "nuda",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "nuda",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "ulga",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "ulga",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "wdzięczność",
+                "rewers": "emocje"
+              },
+              {
+                "awers": "wdzięczność",
+                "rewers": "emocje"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        }
+      ]
+    }
+  ],
+  "instrukcja_zabaw": [
+    {
+      "nazwa": "Memory klasyczne",
+      "wiek": "5–8 lat",
+      "kroki": [
+        "Rozłóżcie karty obrazkiem do dołu, w równym kwadracie.",
+        "Najmłodszy gracz zaczyna. Odkrywa dwie karty.",
+        "Jeśli karty są takie same, zabiera parę i gra dalej.",
+        "Jeśli są różne, odkłada je dokładnie na to samo miejsce.",
+        "Kolejka przechodzi w lewo. Gracie, aż stół będzie pusty.",
+        "Na końcu policzcie pary razem, wszystkie na jednej kupce."
+      ]
+    },
+    {
+      "nazwa": "Wersja dla młodszych",
+      "wiek": "3–4 lata",
+      "kroki": [
+        "Wybierzcie sześć par. Resztę schowajcie do koperty.",
+        "Rozłóżcie dwanaście kart w trzech rzędach po cztery.",
+        "Dziecko odkrywa dwie karty. Ty nazywasz obie na głos.",
+        "Para zostaje u dziecka. Różne karty wracają na miejsce.",
+        "Kiedy sześć par idzie gładko, dołóżcie dwie kolejne."
+      ]
+    },
+    {
+      "nazwa": "Runda z minutnikiem",
+      "wiek": "5–8 lat",
+      "kroki": [
+        "Nastawcie minutnik na pięć minut. Gracie wspólnie, nie przeciw sobie.",
+        "Rozłóżcie dwanaście par obrazkiem do dołu.",
+        "Odkrywacie po dwie karty na zmianę, cała drużyna zbiera jedną kupkę.",
+        "Nikt nie ma własnych punktów. Liczy się, ile par zebrał stół.",
+        "Po sygnale zapamiętajcie wynik drużyny i zagrajcie jeszcze raz jutro."
+      ]
+    },
+    {
+      "nazwa": "Opowiedz o karcie",
+      "wiek": "4–8 lat",
+      "kroki": [
+        "Gracie jak w klasyczne memory, jednym kompletem.",
+        "Kto zbierze parę, mówi o niej jedno zdanie.",
+        "Przy emocjach powiedz, kiedy ostatnio tak się czułeś.",
+        "Nie poprawiaj zdania dziecka. Każde jest dobre.",
+        "Jeśli dziecko milczy, ty mówisz pierwszy. Potem ono."
+      ]
+    },
+    {
+      "nazwa": "Dwa komplety naraz",
+      "wiek": "6–8 lat",
+      "kroki": [
+        "Wybierzcie po dziewięć par z dwóch różnych kompletów.",
+        "Wymieszajcie wszystko i rozłóżcie w czterech rzędach.",
+        "Zasady są te same. Kart jest więcej, więc runda trwa dłużej.",
+        "Rewersy różnią się nazwą kompletu — potem łatwo je rozdzielić."
+      ]
+    },
+    {
+      "nazwa": "Karty odkryte",
+      "wiek": "3–5 lat",
+      "kroki": [
+        "Rozłóżcie wszystkie karty obrazkiem do góry.",
+        "Dziecko szuka dwóch takich samych i odkłada je obok.",
+        "Ty nazywasz każdą parę na głos, spokojnie.",
+        "To rozgrzewka przed grą na zakrytych kartach."
+      ]
+    }
+  ],
+  "klucz_odpowiedzi": [],
+  "fragment": {
+    "do_strony": 13,
+    "obietnica_na_stronie": "Komplet „zwierzęta” w całości: przygotowanie, dwadzieścia cztery pary z podpisami i dwanaście par do narysowania. Wystarczy na pierwszy wieczór."
+  }
+}

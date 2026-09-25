@@ -33,7 +33,7 @@ SPECY = {
    obietnica="Dziecko gra z wami w memory kartami, które zna — i wygrywa wystarczająco często, żeby chcieć grać dalej.",
    warunek="Dziecko utrzymuje uwagę przez pięć minut przy stole i rozumie zasadę „odkryj dwie”.",
    progresja="Cztery komplety: zwierzęta, jedzenie, pojazdy i emocje. Wersja dla młodszych ma 24 karty zamiast 48 — zaczynacie od niej.",
-   fragment="Komplet „zwierzęta” w całości, 10 stron: instrukcja, dwa arkusze kart i trzy warianty gry.",
+   fragment="Komplet „zwierzęta” w całości, 13 stron: instrukcja przygotowania, sześć arkuszy kart z podpisami i trzy arkusze bez podpisów. Komplet liczy 24 pary i kończy się na stronie 13.",
    nie=["Nie uczy czytania. Karty są obrazkowe.",
         "Nie jest testem pamięci. Nie liczcie, ile par kto zapamiętał.",
         "Nie ma wersji na jedną osobę — to gra we dwoje albo więcej."]),

@@ -37,7 +37,9 @@ Cztery komplety: zwierzęta, jedzenie, pojazdy i emocje. Wersja dla młodszych m
 
 ## Zakres darmowego fragmentu
 
-Komplet „zwierzęta” w całości, 10 stron: instrukcja, dwa arkusze kart i trzy warianty gry.
+Komplet „zwierzęta” w całości, **13 stron**: instrukcja przygotowania, sześć arkuszy kart z podpisami i trzy arkusze bez podpisów.
+
+*(Korekta wobec szacunku 10 stron: komplet liczy 24 pary i kończy się na stronie 13. Fragment tniemy po pełnych stronach od początku pliku, więc ucięcie na dziesiątej dałoby niepełną talię — bezużyteczną, bo memory wymaga kompletu par.)*
 
 ## Czego ten materiał NIE robi
 

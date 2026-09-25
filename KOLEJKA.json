@@ -406,10 +406,10 @@
       "autor": "Michał Ptak",
       "cena_pln": 29,
       "strony_prototyp": 52,
-      "etap": "spec",
+      "etap": "walidacja",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:31:46Z"
+      "zaktualizowano": "2026-09-25T10:57:57Z"
     },
     {
       "slug": "mnozenie-bez-lez",
@@ -1178,5 +1178,5 @@
       "zaktualizowano": "2026-08-31T14:55:38Z"
     }
   ],
-  "zaktualizowano": "2026-09-25T10:52:51Z"
+  "zaktualizowano": "2026-09-25T10:57:57Z"
 }

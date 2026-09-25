@@ -109,6 +109,18 @@ Skrypt nigdy nic nie wymyśla — czego nie ma w mockupie, raportuje w sekcji
 1. **Każdy produkt MUSI mieć `fragment.pdf`.** Bez niego nie przechodzi
    do stanu `gotowy`. To jedyny powód, dla którego ktoś zaufa nowemu sklepowi
    zamiast wrócić na Etsy. Minimum 10 stron albo 1 pełny tydzień.
+
+   **Fragment kończy się na pełnej jednostce**: całym tygodniu (PROGRAM),
+   całej talii (KARTY), całej sekcji (SEGREGATOR), całym bloku (ZESZYT),
+   całej grze (GRY), całym rozdziale (PORADNIK). Renderer tnie po pełnych
+   stronach od początku pliku, więc urwanie w połowie talii daje fragment
+   bezużyteczny — memory bez kompletu par nie działa, a talia bez wersji
+   dla nieczytających traci połowę wartości.
+
+   Z tego powodu **zakres fragmentu w `spec.md` jest szacunkiem do korekty
+   po pierwszym renderze**. Jeśli realny układ stron wypadnie inaczej,
+   popraw `spec.md`, nie tnij produktu. Tak było przy `emocjometr`
+   (18 zamiast 11 stron), `memory-domowe` (13 zamiast 10) i `litery-od-zera`.
 2. **Autorzy są na czas testów wymyśleni.** Imię i nazwisko z prototypu,
    nic więcej — bez tytułów zawodowych, uprawnień i miejsc pracy.
 3. **Żadnych danych dzieci.** Nigdzie w produkcie ani w kodzie. Karta postępu
