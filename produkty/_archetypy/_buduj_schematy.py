@@ -296,6 +296,10 @@ ARCHETYPY = {
                     "additionalProperties": False,
                     "properties": {"nazwa": {"type": "string"},
                                    "zmiana": {"type": "string"}}}},
+                "zwarta": {"type": "boolean",
+                           "description": "Zasady i pole gry na JEDNEJ stronie. "
+                                          "Dla produktów, w których jedna gra to "
+                                          "dosłownie jedna kartka do wyrwania."},
                 "plansza": {"$ref": "#/$defs/strona"},
                 "arkusze": {"type": "array", "items": {"$ref": "#/$defs/strona"},
                             "description": "Pionki, kostka, karty — wszystko w pliku."}}}}}),

@@ -1,0 +1,1062 @@
+{
+  "meta": {
+    "slug": "zestaw-na-podroz",
+    "tytul": "Zestaw na podróż",
+    "podtytul": "Wszystko na jedną kartkę A4",
+    "archetyp": "GRY",
+    "wersja": "1.0",
+    "wiek": "5–10 lat",
+    "kategoria": "gry",
+    "podkategoria": "podroz",
+    "strony_deklarowane": 24,
+    "min_pt_dziecka": 14
+  },
+  "wstep": {
+    "dla_kogo": "Dla lotniska, pociągu, poczekalni u lekarza i restauracji, w której czekacie na jedzenie.",
+    "obietnica": "Dziesięć gier i dwadzieścia wariantów. Do żadnego z nich nie potrzebujesz niczego poza kartką i długopisem.",
+    "warunek_wejscia": "Dziecko pisze albo rysuje na tyle, żeby zaznaczyć kółko i kreskę.",
+    "ile_czasu_dziennie": "Jedna gra trwa pięć minut, kwadrans albo pół godziny. Wybierasz po czasie, nie po kolei.",
+    "jak_korzystac": [
+      "Wydrukuj cały zestaw przed wyjazdem i włóż go do teczki.",
+      "Gry idą po czasie: najpierw pięciominutowe, na końcu te na pół godziny.",
+      "Wybierz grę pod to, ile macie czekać. Kolejność nie ma znaczenia.",
+      "Przeczytaj zasady na głos, zanim zaczniecie pierwszą partię.",
+      "Arkusze do zapisywania wydrukuj w kilku kopiach — jedna idzie na partię.",
+      "Spakuj dwa długopisy. Nic więcej ten zestaw nie potrzebuje.",
+      "Jeśli dziecko ma pięć lat, zacznij od wariantu łatwiejszego.",
+      "Przy stole w restauracji bierz grę z pierwszej grupy, na pięć minut."
+    ],
+    "czego_nie_robi": [
+      "Nie ma tu nic do wycinania, gubienia ani składania.",
+      "Nie zastąpi snu w samochodzie.",
+      "Nie nadaje się dla dziecka, które jeszcze nie trzyma długopisu."
+    ]
+  },
+  "gry": [
+    {
+      "nazwa": "Łańcuch słów",
+      "cel": "Dziecko szuka wyrazu na ostatnią głoskę poprzedniego.",
+      "gracze": "2–4",
+      "czas_min": 5,
+      "przygotowanie": [
+        "Narysuj na kartce kreskę wzdłuż środka.",
+        "Po lewej stronie pisze jeden gracz, po prawej drugi."
+      ],
+      "zasady": [
+        "Pierwszy gracz mówi dowolny wyraz i zapisuje go.",
+        "Następny szuka wyrazu na ostatnią głoskę poprzedniego.",
+        "Kot — tygrys — schody. Tak idzie łańcuch.",
+        "Każdy zapisuje swój wyraz pod poprzednim.",
+        "Wyraz, który już padł, nie liczy się drugi raz.",
+        "Kto szuka dłużej niż do dziesięciu, oddaje kolejkę.",
+        "Gracie do dwudziestu wyrazów albo do przystanku.",
+        "Na koniec dziecko czyta całą listę na głos."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Bierzcie wyrazy z jednej grupy: zwierzęta albo jedzenie."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Każdy wyraz musi mieć co najmniej pięć liter."
+        }
+      ]
+    },
+    {
+      "nazwa": "Kropki i kreski",
+      "cel": "Dziecko domyka kwadraty i liczy swoje zdobycze.",
+      "gracze": "2",
+      "czas_min": 5,
+      "przygotowanie": [
+        "Weźcie arkusz z siatką kropek.",
+        "Ustalcie, kto wpisuje kółko, a kto krzyżyk."
+      ],
+      "zasady": [
+        "Na zmianę rysujecie kreskę między dwiema sąsiednimi kropkami.",
+        "Kreska idzie w pionie albo w poziomie, nigdy na ukos.",
+        "Kto domknie kwadrat, wpisuje w nim swój znak.",
+        "Po domkniętym kwadracie rysujesz od razu następną kreskę.",
+        "Partia kończy się, gdy nie ma już wolnych kresek.",
+        "Wygrywa ten, kto ma więcej kwadratów ze swoim znakiem."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Grajcie tylko na górnej połowie siatki."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Kwadrat przy brzegu siatki liczy się podwójnie."
+        }
+      ],
+      "arkusze": [
+        {
+          "id": "g2-siatka",
+          "typ": "tabela",
+          "polecenie": "Łączcie kropki kreskami.",
+          "dla_rodzica": "Siatka starcza na jedną partię. Wydrukuj kilka kopii przed wyjazdem.",
+          "dane": {
+            "wiersze": [
+              [
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·"
+              ],
+              [
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·"
+              ],
+              [
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·"
+              ],
+              [
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·"
+              ],
+              [
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·"
+              ],
+              [
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·"
+              ],
+              [
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·"
+              ],
+              [
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·"
+              ],
+              [
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·",
+                "·"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Cztery w rzędzie",
+      "cel": "Dziecko planuje ruch o jeden do przodu.",
+      "gracze": "2",
+      "czas_min": 5,
+      "przygotowanie": [
+        "Otwórzcie planszę z siatką sześć na sześć.",
+        "Jedno z was wpisuje kółko, drugie krzyżyk."
+      ],
+      "zasady": [
+        "Na zmianę wpisujecie swój znak w puste pole.",
+        "Pole podajesz na głos: najpierw litera, potem cyfra.",
+        "Wygrywa ten, kto ustawi cztery swoje znaki w rzędzie.",
+        "Rząd liczy się w poziomie, w pionie i na ukos.",
+        "Jeśli siatka się zapełni, partia kończy się remisem.",
+        "Po partii zamieńcie się znakami."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Wygrywają trzy znaki w rzędzie zamiast czterech."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Cztery pola narożne są wyłączone z gry."
+        }
+      ],
+      "plansza": {
+        "id": "g3-plansza",
+        "typ": "plansza_gry",
+        "polecenie": "Wpisuj swój znak w puste pole.",
+        "dla_rodzica": "Litera i cyfra przy polu pozwalają grać samym głosem, bez patrzenia na kartkę.",
+        "dane": {
+          "pola": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "B1",
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6",
+            "E1",
+            "E2",
+            "E3",
+            "E4",
+            "E5",
+            "E6",
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "F5",
+            "F6"
+          ]
+        }
+      }
+    },
+    {
+      "nazwa": "Oko detektywa",
+      "cel": "Dziecko wypatruje rzeczy dookoła i zapisuje je w tabeli.",
+      "gracze": "1–3",
+      "czas_min": 5,
+      "przygotowanie": [
+        "Rozejrzyjcie się i ustalcie, dokąd sięga wasze pole widzenia."
+      ],
+      "zasady": [
+        "Każdy gracz dostaje jedną kolumnę w tabeli.",
+        "Szukacie rzeczy z kategorii wypisanych po lewej stronie.",
+        "Zapisujcie albo rysujcie to, co widzicie.",
+        "Liczy się tylko to, co widać z waszego miejsca.",
+        "Gracie, póki ktoś nie zapełni całej kolumny.",
+        "Każda zapełniona kratka to jeden punkt.",
+        "Wygrywa ten, kto ma więcej punktów."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Szukajcie razem i zapełnijcie jedną wspólną kolumnę."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Wszystko musi zaczynać się na tę samą literę."
+        }
+      ],
+      "arkusze": [
+        {
+          "id": "g4-karta",
+          "typ": "tabela",
+          "polecenie": "Wpisz, co widzisz w każdej kategorii.",
+          "dla_rodzica": "Rysunek liczy się tak samo jak wyraz. Młodsze dziecko rysuje.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Szukamy",
+              "Gracz 1",
+              "Gracz 2",
+              "Gracz 3"
+            ],
+            "wiersze": [
+              [
+                "Coś okrągłego",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Coś w paski",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Coś z literą A",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Coś wyższego od ciebie",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Coś, co się rusza",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Coś miękkiego",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Coś na kółkach",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Coś z cyfrą",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Coś ze szkła",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Coś, co wydaje dźwięk",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Wyścig liter",
+      "cel": "Dziecko szuka wyrazów na jedną literę w sześciu kategoriach.",
+      "gracze": "2–4",
+      "czas_min": 15,
+      "przygotowanie": [
+        "Każdy bierze jeden arkusz z tabelą.",
+        "Ktoś mówi alfabet po cichu, ktoś mówi stop. Tak wypada litera."
+      ],
+      "zasady": [
+        "Wszyscy szukają wyrazów na wypadniętą literę.",
+        "Kategorie są wypisane w nagłówkach tabeli.",
+        "Piszecie w tym samym czasie i nikt nie podpowiada.",
+        "Kto zapełni cały wiersz, mówi stop.",
+        "Reszta kończy wtedy pisać, nawet w połowie wyrazu.",
+        "Za wyraz, którego nie ma nikt inny, są dwa punkty.",
+        "Za wyraz powtórzony przez kogoś jest jeden punkt.",
+        "Po pięciu rundach liczycie punkty z ostatniej kolumny."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Grajcie tylko na trzech pierwszych kategoriach."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Nie liczą się wyrazy krótsze niż pięć liter."
+        }
+      ],
+      "arkusze": [
+        {
+          "id": "g5-tabela",
+          "typ": "tabela",
+          "polecenie": "Wpisz wyraz na wybraną literę.",
+          "dla_rodzica": "Spór o wyraz rozstrzyga dorosły. Przykłady są w kluczu na końcu.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Litera",
+              "Imię z bajki",
+              "Zwierzę",
+              "Jedzenie",
+              "Miasto",
+              "Rzecz w plecaku",
+              "Punkty"
+            ],
+            "wiersze": [
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Dokończ bazgroł",
+      "cel": "Dziecko zamienia przypadkowy znak w rysunek.",
+      "gracze": "1–3",
+      "czas_min": 15,
+      "przygotowanie": [
+        "Weźcie arkusz z dziewięcioma zaczątkami rysunków."
+      ],
+      "zasady": [
+        "W każdym polu jest jeden znak na start.",
+        "Wybierz pole i dorysuj do znaku resztę rysunku.",
+        "Znak ze startu musi zostać częścią rysunku.",
+        "Kiedy skończysz, podpisz rysunek jednym wyrazem.",
+        "Drugi gracz najpierw zgaduje, potem czyta podpis.",
+        "Za trafione zgadnięcie obie osoby biorą po punkcie.",
+        "Gracie, póki nie zapełnicie wszystkich dziewięciu pól."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Rysujcie razem i nie liczcie punktów."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Wszystkie dziewięć rysunków musi tworzyć jedną historię."
+        }
+      ],
+      "arkusze": [
+        {
+          "id": "g6-bazgroly",
+          "typ": "tabela",
+          "polecenie": "Dorysuj resztę do każdego znaku.",
+          "dla_rodzica": "Znak jest początkiem rysunku, nie wzorem do odwzorowania.",
+          "dane": {
+            "wiersze": [
+              [
+                "○",
+                "□",
+                "★"
+              ],
+              [
+                "→",
+                "•",
+                "×"
+              ],
+              [
+                "—",
+                "↑",
+                "●"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Statki",
+      "cel": "Dziecko czyta współrzędne i zapisuje trafienia.",
+      "gracze": "2",
+      "czas_min": 15,
+      "przygotowanie": [
+        "Każdy bierze jedną siatkę i jeden arkusz strzałów.",
+        "Usiądźcie tak, żeby nie widzieć swoich kartek."
+      ],
+      "zasady": [
+        "Na swojej siatce zaznacz cztery statki: 4, 3, 2 i 2 pola.",
+        "Statek zajmuje pola w jednej linii, bez zakrętów.",
+        "Statki nie mogą się stykać bokami.",
+        "Na zmianę podajecie pole: litera i cyfra.",
+        "Przeciwnik odpowiada pudło albo trafiony.",
+        "Swoje strzały zapisujesz na arkuszu obok siatki.",
+        "Po trafieniu strzelasz jeszcze raz.",
+        "Wygrywa ten, kto pierwszy trafi wszystkie statki."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Grajcie tylko na polach od A1 do F6."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Statki wolno stawiać bokiem do siebie."
+        }
+      ],
+      "plansza": {
+        "id": "g7-morze",
+        "typ": "plansza_gry",
+        "polecenie": "Zaznacz swoje statki na tej siatce.",
+        "dla_rodzica": "Statek to tyle sąsiednich pól, ile mówią zasady. Zamaluj je kreską.",
+        "dane": {
+          "pola": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "B1",
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8",
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6",
+            "D7",
+            "D8",
+            "E1",
+            "E2",
+            "E3",
+            "E4",
+            "E5",
+            "E6",
+            "E7",
+            "E8",
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "F5",
+            "F6",
+            "F7",
+            "F8",
+            "G1",
+            "G2",
+            "G3",
+            "G4",
+            "G5",
+            "G6",
+            "G7",
+            "G8",
+            "H1",
+            "H2",
+            "H3",
+            "H4",
+            "H5",
+            "H6",
+            "H7",
+            "H8"
+          ]
+        }
+      },
+      "arkusze": [
+        {
+          "id": "g7-strzaly",
+          "typ": "tabela",
+          "polecenie": "Zapisuj tu swoje strzały.",
+          "dla_rodzica": "Kropka to pudło, krzyżyk to trafienie. Tyle wystarczy.",
+          "dane": {
+            "naglowki_kolumn": [
+              "",
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "wiersze": [
+              [
+                "1",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "2",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "3",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "4",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "5",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "6",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "7",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "8",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Historia na dziesięć ramek",
+      "cel": "Dziecko układa opowieść z dziesięciu rysunków po kolei.",
+      "gracze": "1–3",
+      "czas_min": 30,
+      "przygotowanie": [
+        "Weźcie arkusz z dziesięcioma pustymi ramkami.",
+        "Ten, kto nie rysuje, wymyśla dziesięć wyrazów. Po jednym na ramkę."
+      ],
+      "zasady": [
+        "W pierwszej ramce narysuj bohatera historii.",
+        "Do każdej kolejnej ramki dostajesz jeden wyraz.",
+        "Rysunek musi łączyć się z tym z poprzedniej ramki.",
+        "Pod ramką zapisz jedno zdanie o tym, co się dzieje.",
+        "Wyrazy podaje się po kolei, nigdy wszystkie naraz.",
+        "W ostatniej ramce bohater wraca tam, gdzie zaczynał.",
+        "Na koniec opowiadasz całą historię z ramek na głos."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Zróbcie sześć ramek i same podpisy z jednego wyrazu."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Co druga ramka dzieje się w innym miejscu."
+        }
+      ],
+      "arkusze": [
+        {
+          "id": "g8-ramki",
+          "typ": "tabela",
+          "polecenie": "Narysuj historię, ramka po ramce.",
+          "dla_rodzica": "Gotowe zestawy wyrazów na start znajdziesz w kluczu na końcu.",
+          "dane": {
+            "wiersze": [
+              [
+                "1",
+                "2"
+              ],
+              [
+                "3",
+                "4"
+              ],
+              [
+                "5",
+                "6"
+              ],
+              [
+                "7",
+                "8"
+              ],
+              [
+                "9",
+                "10"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Turniej podróżny",
+      "cel": "Dzieci rozgrywają pięć krótkich gier pod rząd i liczą punkty.",
+      "gracze": "2–4",
+      "czas_min": 30,
+      "przygotowanie": [
+        "Wybierzcie pięć gier z tego zestawu.",
+        "Wpiszcie ich nazwy w pierwszą kolumnę tabeli."
+      ],
+      "zasady": [
+        "Gracie po kolei we wszystkie pięć wybranych gier.",
+        "Zwycięzca pojedynczej gry dostaje trzy punkty.",
+        "Drugie miejsce dostaje jeden punkt.",
+        "Przy remisie obie osoby biorą po dwa punkty.",
+        "Punkty wpisujecie do tabeli od razu po partii.",
+        "Po piątej grze sumujecie kolumny w ostatnim wierszu.",
+        "Zwycięzca wybiera grę na następny przystanek."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Rozegrajcie trzy gry zamiast pięciu."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Gracz z ostatniego miejsca wybiera następną grę."
+        }
+      ],
+      "arkusze": [
+        {
+          "id": "g9-punkty",
+          "typ": "tabela",
+          "polecenie": "Wpisuj punkty po każdej partii.",
+          "dla_rodzica": "Tabela jest pusta. Nazwy gier i imiona wpisujecie sami.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Gra",
+              "Gracz 1",
+              "Gracz 2",
+              "Gracz 3",
+              "Gracz 4"
+            ],
+            "wiersze": [
+              [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Razem",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Bingo z poczekalni",
+      "cel": "Dziecko wypatruje rzeczy z karty i skreśla pola.",
+      "gracze": "1–4",
+      "czas_min": 30,
+      "przygotowanie": [
+        "Każdy bierze inną kartę bingo.",
+        "Ustalcie, dokąd sięga wasze pole widzenia."
+      ],
+      "zasady": [
+        "Wypatrujesz rzeczy wypisanych na swojej karcie.",
+        "Kiedy coś zobaczysz, skreśl to pole.",
+        "Pole liczy się dopiero, gdy pokażesz rzecz reszcie.",
+        "Jedną rzecz skreśla tylko jedna osoba.",
+        "Kto skreśli cały rząd, mówi bingo.",
+        "Potem gra idzie dalej, aż do pełnej karty.",
+        "Kto zapełni kartę, wybiera grę na następny przystanek."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Wystarczy skreślić cztery dowolne pola."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Skreślone pola muszą tworzyć ukos przez całą kartę."
+        }
+      ],
+      "plansza": {
+        "id": "g10-karta-a",
+        "typ": "plansza_gry",
+        "polecenie": "Skreśl pole, kiedy zobaczysz rzecz.",
+        "dla_rodzica": "Jeśli czegoś u was nie ma, zamieńcie pole na coś z waszego miejsca.",
+        "dane": {
+          "pola": [
+            "Walizka na kółkach",
+            "Zegar ze wskazówkami",
+            "Ktoś w czapce",
+            "Pies na smyczy",
+            "Parasol",
+            "Kubek z napojem",
+            "Schody ruchome",
+            "Ktoś czyta gazetę",
+            "Strzałka w prawo",
+            "Kosz na śmieci",
+            "Rower",
+            "Okno z kratką",
+            "Ktoś w okularach",
+            "Plecak większy od dziecka",
+            "Numer z dwiema cyframi",
+            "Roślina w doniczce"
+          ]
+        }
+      },
+      "arkusze": [
+        {
+          "id": "g10-karta-b",
+          "typ": "tabela",
+          "polecenie": "Skreślaj pola na drugiej karcie.",
+          "dla_rodzica": "Ta karta ma inne pola niż pierwsza. Dwoje dzieci gra bez kłótni.",
+          "dane": {
+            "wiersze": [
+              [
+                "Autobus",
+                "Ktoś z wózkiem",
+                "Klucze w ręce",
+                "Butelka wody"
+              ],
+              [
+                "Tablica z godzinami",
+                "Ktoś w szaliku",
+                "Znak zakazu",
+                "Drzewo za oknem"
+              ],
+              [
+                "Ktoś je kanapkę",
+                "Torba na pasku",
+                "Litera S na tabliczce",
+                "Ptak"
+              ],
+              [
+                "Rozwiązana sznurówka",
+                "Ktoś ziewa",
+                "Dwa takie same plecaki",
+                "Zegar bez wskazówek"
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "klucz_odpowiedzi": [
+    {
+      "strona_id": "g5-tabela",
+      "odpowiedzi": [
+        "Litera K: Kopciuszek · kot · kanapka · Kraków · klucze",
+        "Litera S: Smerf · sarna · ser · Sopot · skarpetki",
+        "Litera M: Muminek · mysz · marchewka · Malbork · mapa",
+        "Wyraz zmyślony nie liczy się. Spór rozstrzyga dorosły."
+      ]
+    },
+    {
+      "strona_id": "g6-bazgroly",
+      "odpowiedzi": [
+        "Kółko: słońce, piłka, balon, twarz",
+        "Kwadrat: dom, prezent, okno, tablica",
+        "Gwiazdka: kwiat, iskra, odznaka",
+        "Strzałka: rakieta, drzewo, dach",
+        "Kropka: mrówka, nuta, oko",
+        "Krzyżyk: wiatrak, apteka, latawiec"
+      ]
+    },
+    {
+      "strona_id": "g8-ramki",
+      "odpowiedzi": [
+        "Zestaw pierwszy: klucz, walizka, ptak, most, lody, mapa, lampa, but, chmura, drzwi",
+        "Zestaw drugi: schody, pies, guzik, wiatr, list, koło, świeca, dach, kamień, okno"
+      ]
+    },
+    {
+      "strona_id": "g10-karta-a",
+      "odpowiedzi": [
+        "Na lotnisku najłatwiej idą: walizka, zegar, schody ruchome, strzałka",
+        "W restauracji trudno o: rower, schody ruchome, pies na smyczy",
+        "Pole nie do znalezienia zamieńcie na inne i dopiszcie je obok"
+      ]
+    }
+  ],
+  "fragment": {
+    "do_strony": 11,
+    "obietnica_na_stronie": "Pięć pierwszych gier w komplecie, razem z arkuszami. Dalej czeka pięć kolejnych, na kwadrans i na pół godziny."
+  }
+}

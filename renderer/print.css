@@ -185,8 +185,13 @@ h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
 /* ------------------------------------------------- ćwiczenia pozostałych archetypów */
 .dzialania{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
             gap:7mm 12mm; align-content:space-evenly; }
-.dzialanie{ display:flex; align-items:center; gap:4mm; font-size:20pt; font-weight:700; }
-.dzialanie__tresc{ white-space:nowrap; }
+.dzialanie{ display:flex; align-items:center; gap:4mm; font-size:20pt;
+            font-weight:700; min-width:0; }
+/* Treść zadania musi się łamać: „policz kółka" potrafi mieć dwadzieścia
+   znaków w jednym ciągu i przy nowrap wychodzi poza kartkę. */
+.dzialanie__tresc{ flex:1; min-width:0; overflow-wrap:anywhere;
+                   line-height:1.25; }
+.dzialanie__pole{ flex:0 0 18mm; }
 .dzialanie__pole{ flex:1; min-width:16mm; height:11mm; border:.8pt solid var(--ink);
                   border-radius:2mm; }
 
@@ -244,6 +249,9 @@ h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
                    border-radius:2mm; min-height:22mm; }
 
 .plansza{ display:grid; grid-template-columns:repeat(4,1fr); gap:0; flex:1; }
+/* Wariant zwarty dzieli stronę z zasadami, więc pola są niższe. */
+.plansza--zwarta .plansza__pole{ min-height:13mm; padding:2mm 1.5mm; }
+.plansza--zwarta .plansza__tresc{ font-size:10pt; line-height:1.2; }
 .plansza__pole{ border:.5pt solid var(--ink); padding:3mm 2mm; min-height:26mm;
                 display:flex; flex-direction:column; gap:1.5mm; }
 .plansza__pole--meta{ border-width:1.5pt; }

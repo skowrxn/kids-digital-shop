@@ -168,6 +168,10 @@
               }
             }
           },
+          "zwarta": {
+            "type": "boolean",
+            "description": "Zasady i pole gry na JEDNEJ stronie. Dla produktów, w których jedna gra to dosłownie jedna kartka do wyrwania."
+          },
           "plansza": {
             "$ref": "#/$defs/strona"
           },

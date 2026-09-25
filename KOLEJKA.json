@@ -346,10 +346,10 @@
       "autor": "Paweł Nowak",
       "cena_pln": 45,
       "strony_prototyp": 90,
-      "etap": "spec",
+      "etap": "walidacja",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:31:46Z"
+      "zaktualizowano": "2026-09-25T11:15:21Z"
     },
     {
       "slug": "litery-od-zera",
@@ -1178,5 +1178,5 @@
       "zaktualizowano": "2026-08-31T14:55:38Z"
     }
   ],
-  "zaktualizowano": "2026-09-25T11:11:28Z"
+  "zaktualizowano": "2026-09-25T11:15:21Z"
 }

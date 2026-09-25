@@ -1,0 +1,3618 @@
+{
+ "meta": {
+  "slug": "licze-do-20",
+  "tytul": "Liczę do 20 na palcach i bez",
+  "podtytul": "Matematyka konkretna, 90 stron",
+  "archetyp": "ZESZYT",
+  "wersja": "1.0",
+  "wiek": "5–6 lat",
+  "kategoria": "matematyka",
+  "podkategoria": "liczenie",
+  "strony_deklarowane": 90,
+  "min_pt_dziecka": 14
+ },
+ "wstep": {
+  "dla_kogo": "Dla przedszkolaka i pierwszaka, który liczy z pamięci, ale gubi się przy pięciu jabłkach.",
+  "obietnica": "Dziecko liczy pięć jabłek i wie, że to pięć — nie tylko recytuje ciąg do dwudziestu.",
+  "warunek_wejscia": "Dziecko powtarza za tobą liczby do dziesięciu, nawet jeśli nie rozumie, co znaczą.",
+  "ile_czasu_dziennie": "Jedna strona dziennie. Dziesięć do piętnastu minut przy stole.",
+  "jak_korzystac": [
+   "Drukuj pojedyncze strony. Cały zeszyt naraz zniechęca dziecko i ciebie.",
+   "Idźcie blokami od pierwszego do czwartego. W bloku kolejność jest dowolna.",
+   "Blok pierwszy robicie na guzikach i klockach. Kartka jest instrukcją dla ciebie.",
+   "Cyfra pojawia się dopiero w bloku trzecim. Nie przyspieszaj tego.",
+   "Przy każdym liczeniu dziecko dotyka przedmiotu albo kropki. Palec pilnuje kolejności.",
+   "Pozwól przekreślać policzone kropki. To metoda, nie oszustwo.",
+   "Karty wytnijcie raz i trzymajcie w kopercie. Wracają w każdym bloku.",
+   "Jeśli w bloku drugim dziecko się gubi, wróćcie na dzień do prawdziwych przedmiotów.",
+   "Klucz odpowiedzi jest na końcu i jest dla ciebie, nie dla dziecka."
+  ],
+  "czego_nie_robi": [
+   "Nie uczy dodawania. To jest w „Dodawaniu bez liczenia na palcach”.",
+   "Nie ćwiczy pisania cyfr ładnie — tylko ich rozpoznawania.",
+   "Nie jest testem gotowości szkolnej. Nie porównuje dziecka z nikim."
+  ]
+ },
+ "bloki": [
+  {
+   "temat": "Liczenie na konkretach",
+   "poziom": 1,
+   "opis": "Guziki, klocki i schody. Na tych stronach nie ma ani jednej cyfry.",
+   "dla_rodzica": [
+    "Wszystko robicie na prawdziwych przedmiotach. Kartka jest tylko instrukcją dla ciebie.",
+    "Dziecko dotyka każdego przedmiotu, kiedy mówi liczbę. Palec pilnuje kolejności.",
+    "Ostatnie powiedziane słowo mówi, ile jest wszystkiego. To cel całego bloku.",
+    "Nie spiesz się. Jedna strona dziennie to dobre tempo.",
+    "Cyfry jeszcze nie pokazujemy. Dziecko ma najpierw wiedzieć, co za nimi stoi."
+   ],
+   "cwiczenia": [
+    {
+     "id": "b1-dotykam-kazdy",
+     "typ": "lista_krokow",
+     "polecenie": "Licz guziki i dotykaj każdego.",
+     "dla_rodzica": "Dziecko, które liczy wzrokiem, zwykle gubi się na piątym elemencie. Ręka pilnuje kolejności lepiej niż oko.",
+     "dane": {
+      "kroki": [
+       "Wysyp garść guzików na stół.",
+       "Przesuwaj po jednym guziku w bok.",
+       "Przy każdym przesunięciu mów jedno słowo.",
+       "Kiedy guziki się skończą, przestań mówić.",
+       "Ostatnie słowo mówi, ile było guzików.",
+       "Powtórzcie z inną garścią, mniejszą."
+      ]
+     }
+    },
+    {
+     "id": "b1-slowa-po-kolei",
+     "typ": "sekwencja",
+     "polecenie": "Powiedz brakujące słowa po kolei.",
+     "dla_rodzica": "Czytaj ciąg na głos, zatrzymuj się na pustym polu. Dziecko uzupełnia słowem, nie pisze.",
+     "dane": {
+      "kroki": [
+       "jeden",
+       "dwa",
+       "",
+       "cztery",
+       "",
+       "sześć",
+       "siedem",
+       "",
+       "dziewięć",
+       "dziesięć"
+      ],
+      "brakujace": [
+       "trzy",
+       "pięć",
+       "osiem"
+      ]
+     }
+    },
+    {
+     "id": "b1-licze-stopnie",
+     "typ": "lista_krokow",
+     "polecenie": "Licz stopnie, wchodząc po schodach.",
+     "dla_rodzica": "Liczenie w ruchu wiąże słowo z jednym krokiem. To ta sama zasada, co dotykanie guzika.",
+     "dane": {
+      "kroki": [
+       "Stań z dzieckiem u dołu schodów.",
+       "Wchodźcie po jednym stopniu naraz.",
+       "Na każdym stopniu mówicie jedno słowo.",
+       "Na górze powtórz ostatnie słowo.",
+       "Zejdźcie i policzcie jeszcze raz.",
+       "Jeśli schodów jest mało, liczcie kroki w korytarzu."
+      ]
+     }
+    },
+    {
+     "id": "b1-karty-na-schody",
+     "typ": "karty_do_wyciecia",
+     "polecenie": "Wytnij karty i połóż na stopniach.",
+     "dla_rodzica": "Karta z jedną kropką idzie na pierwszy stopień. Dziecko wchodzi i mówi, co widzi.",
+     "dane": {
+      "karty": [
+       {
+        "awers": "○",
+        "rewers": "jeden"
+       },
+       {
+        "awers": "○ ○",
+        "rewers": "dwa"
+       },
+       {
+        "awers": "○ ○ ○",
+        "rewers": "trzy"
+       },
+       {
+        "awers": "○ ○ ○ ○",
+        "rewers": "cztery"
+       },
+       {
+        "awers": "○ ○ ○ ○ ○",
+        "rewers": "pięć"
+       },
+       {
+        "awers": "○ ○ ○ ○ ○ ○",
+        "rewers": "sześć"
+       },
+       {
+        "awers": "○ ○ ○ ○ ○ ○ ○",
+        "rewers": "siedem"
+       },
+       {
+        "awers": "○ ○ ○ ○ ○ ○ ○ ○",
+        "rewers": "osiem"
+       },
+       {
+        "awers": "○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "rewers": "dziewięć"
+       }
+      ],
+      "na_arkuszu": 9,
+      "z_podpisami": true
+     }
+    },
+    {
+     "id": "b1-sortuj-garsci",
+     "typ": "sortowanie",
+     "polecenie": "Ułóż kartki w dwóch pudełkach.",
+     "dla_rodzica": "Przeczytaj hasło na głos, potem odliczcie razem prawdziwe przedmioty. Decyduje liczenie, nie zgadywanie.",
+     "dane": {
+      "elementy": [
+       "dwa guziki",
+       "trzy klocki",
+       "cztery łyżki",
+       "sześć kredek",
+       "siedem spinaczy",
+       "dziewięć fasolek"
+      ],
+      "kategorie": [
+       {
+        "nazwa": "mniej niż pięć",
+        "naleza": [
+         "dwa guziki",
+         "trzy klocki",
+         "cztery łyżki"
+        ]
+       },
+       {
+        "nazwa": "pięć albo więcej",
+        "naleza": [
+         "sześć kredek",
+         "siedem spinaczy",
+         "dziewięć fasolek"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b1-wiecej-czy-mniej",
+     "typ": "wybierz",
+     "polecenie": "Pokaż, czego jest więcej.",
+     "dla_rodzica": "Najpierw dziecko zgaduje, potem liczycie. Jeśli zgadło źle, to dobry moment na liczenie.",
+     "dane": {
+      "pozycje": [
+       {
+        "podpowiedz_rodzica": "Połóż cztery łyżki i sześć widelców.",
+        "opcje": [
+         "łyżki",
+         "widelce"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Połóż siedem klocków i trzy guziki.",
+        "opcje": [
+         "klocki",
+         "guziki"
+        ],
+        "poprawna": 0
+       },
+       {
+        "podpowiedz_rodzica": "Połóż pięć kredek i osiem spinaczy.",
+        "opcje": [
+         "kredki",
+         "spinacze"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Połóż dziewięć fasolek i dwa korki.",
+        "opcje": [
+         "fasolki",
+         "korki"
+        ],
+        "poprawna": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "b1-liczymy-w-kuchni",
+     "typ": "tabela",
+     "polecenie": "Policz rzeczy w kuchni.",
+     "dla_rodzica": "Rubryki zostają puste, dopóki nie policzycie. Wpisuj kreski, nie cyfry — cyfra przyjdzie w bloku trzecim.",
+     "dane": {
+      "naglowki_kolumn": [
+       "co liczymy",
+       "zgadujemy",
+       "liczymy"
+      ],
+      "wiersze": [
+       [
+        "łyżeczki w szufladzie",
+        "",
+        ""
+       ],
+       [
+        "kubki na półce",
+        "",
+        ""
+       ],
+       [
+        "krzesła przy stole",
+        "",
+        ""
+       ],
+       [
+        "jabłka w misce",
+        "",
+        ""
+       ],
+       [
+        "magnesy na lodówce",
+        "",
+        ""
+       ],
+       [
+        "okna w kuchni",
+        "",
+        ""
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b1-ostatnie-slowo",
+     "typ": "lista_krokow",
+     "polecenie": "Powiedz, ile jest, bez liczenia dwa razy.",
+     "dla_rodzica": "To najważniejszy krok w całym bloku. Dziecko ma zrozumieć, że ostatnie słowo nazywa całą garść.",
+     "dane": {
+      "kroki": [
+       "Policzcie razem pięć klocków.",
+       "Zapytaj: ile tu jest klocków?",
+       "Jeśli dziecko liczy od nowa, policz z nim.",
+       "Powiedz: ostatnie słowo to odpowiedź.",
+       "Powtórzcie z trzema, potem z siedmioma klockami."
+      ]
+     }
+    },
+    {
+     "id": "b1-co-policzylismy",
+     "typ": "formularz",
+     "polecenie": "Zapisz kreską, co dziś policzyliście.",
+     "dla_rodzica": "Rubryki wypełniasz ty, u siebie w domu. Kreska na każdą policzoną rzecz wystarczy.",
+     "dane": {
+      "pola": [
+       {
+        "etykieta": "Policzyliśmy w kuchni",
+        "wysokosc_mm": 14,
+        "linie": 1
+       },
+       {
+        "etykieta": "Policzyliśmy w pokoju",
+        "wysokosc_mm": 14,
+        "linie": 1
+       },
+       {
+        "etykieta": "Policzyliśmy na spacerze",
+        "wysokosc_mm": 14,
+        "linie": 1
+       },
+       {
+        "etykieta": "Najdłuższe liczenie dnia",
+        "wysokosc_mm": 14,
+        "linie": 1
+       },
+       {
+        "etykieta": "Co było łatwe",
+        "wysokosc_mm": 14,
+        "linie": 1
+       },
+       {
+        "etykieta": "Co powtórzymy jutro",
+        "wysokosc_mm": 14,
+        "linie": 1
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "temat": "Przejście na papier",
+   "poziom": 2,
+   "opis": "To samo liczenie, ale narysowane. Kropki zamiast guzików, wciąż bez cyfr.",
+   "dla_rodzica": [
+    "Kropka na kartce zastępuje guzik ze stołu. Zasada się nie zmienia.",
+    "Pozwól dziecku przekreślać policzone kropki. To nie oszustwo, to metoda.",
+    "Jeśli dziecko się gubi, wróćcie na jeden dzień do prawdziwych przedmiotów.",
+    "Odpowiedzią jest słowo, nie znak. Cyfra przyjdzie w kolejnym bloku.",
+    "Do pięciu elementów da się zobaczyć bez liczenia. Powyżej trzeba liczyć."
+   ],
+   "cwiczenia": [
+    {
+     "id": "b2-ile-kropek-do-trzech",
+     "typ": "uzupelnij",
+     "polecenie": "Policz kropki i wskaż słowo.",
+     "dla_rodzica": "Dziecko wodzi palcem po kropkach. Słowo wskazuje, nie pisze.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "○",
+        "opcje": [
+         "jeden",
+         "dwa",
+         "trzy"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "○ ○ ○",
+        "opcje": [
+         "jeden",
+         "dwa",
+         "trzy"
+        ],
+        "poprawna": 2
+       },
+       {
+        "wzor": "○ ○",
+        "opcje": [
+         "jeden",
+         "dwa",
+         "trzy"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○",
+        "opcje": [
+         "dwa",
+         "trzy"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○",
+        "opcje": [
+         "jeden",
+         "trzy"
+        ],
+        "poprawna": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "b2-ile-kropek-do-pieciu",
+     "typ": "uzupelnij",
+     "polecenie": "Policz kropki i wskaż słowo.",
+     "dla_rodzica": "Jeśli dziecko się myli, wróćcie na chwilę do guzików na stole.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "○ ○ ○ ○",
+        "opcje": [
+         "trzy",
+         "cztery",
+         "pięć"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○",
+        "opcje": [
+         "trzy",
+         "cztery",
+         "pięć"
+        ],
+        "poprawna": 2
+       },
+       {
+        "wzor": "○ ○ ○",
+        "opcje": [
+         "trzy",
+         "cztery",
+         "pięć"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○",
+        "opcje": [
+         "cztery",
+         "pięć"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○",
+        "opcje": [
+         "dwa",
+         "cztery"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "b2-lacz-kropki-slowa-a",
+     "typ": "lacz_pary",
+     "polecenie": "Połącz kropki ze słowem.",
+     "dla_rodzica": "Kolumna po prawej jest w innej kolejności celowo. Dziecko ma liczyć, nie jechać po kolei.",
+     "dane": {
+      "lewa": [
+       "○",
+       "○ ○",
+       "○ ○ ○",
+       "○ ○ ○ ○"
+      ],
+      "prawa": [
+       "cztery",
+       "jeden",
+       "trzy",
+       "dwa"
+      ],
+      "pary": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        0
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b2-narysuj-tyle-samo-a",
+     "typ": "ramka_rysunkowa",
+     "polecenie": "Narysuj tyle kropek, ile mówi słowo.",
+     "dla_rodzica": "Kropka ma być kropką, nie obrazkiem. Chodzi o liczbę, nie o ładność.",
+     "dane": {
+      "wyrazy": [
+       "dwa",
+       "trzy",
+       "cztery"
+      ],
+      "wysokosc_ramki_mm": 45
+     }
+    },
+    {
+     "id": "b2-wiecej-kropek",
+     "typ": "wybierz",
+     "polecenie": "Wskaż rząd, w którym jest więcej.",
+     "dla_rodzica": "Przeczytaj rzędy na głos. Dziecko liczy oba, dopiero potem wskazuje.",
+     "dane": {
+      "pozycje": [
+       {
+        "podpowiedz_rodzica": "Rząd pierwszy: ○ ○ ○. Rząd drugi: ○ ○ ○ ○ ○.",
+        "opcje": [
+         "pierwszy",
+         "drugi"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Rząd pierwszy: ○ ○ ○ ○ ○ ○. Rząd drugi: ○ ○.",
+        "opcje": [
+         "pierwszy",
+         "drugi"
+        ],
+        "poprawna": 0
+       },
+       {
+        "podpowiedz_rodzica": "Rząd pierwszy: ○ ○ ○ ○. Rząd drugi: ○ ○ ○ ○ ○ ○ ○.",
+        "opcje": [
+         "pierwszy",
+         "drugi"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Rząd pierwszy: ○ ○ ○ ○ ○ ○ ○ ○. Rząd drugi: ○ ○ ○ ○ ○.",
+        "opcje": [
+         "pierwszy",
+         "drugi"
+        ],
+        "poprawna": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "b2-ile-kropek-do-szesciu",
+     "typ": "uzupelnij",
+     "polecenie": "Policz kropki i wskaż słowo.",
+     "dla_rodzica": "Sześć kropek to już za dużo na jedno spojrzenie. Palec pomaga.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "cztery",
+         "pięć",
+         "sześć"
+        ],
+        "poprawna": 2
+       },
+       {
+        "wzor": "○ ○ ○ ○",
+        "opcje": [
+         "cztery",
+         "pięć",
+         "sześć"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○",
+        "opcje": [
+         "cztery",
+         "pięć",
+         "sześć"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "pięć",
+         "sześć"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○",
+        "opcje": [
+         "trzy",
+         "sześć"
+        ],
+        "poprawna": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "b2-lacz-kropki-slowa-b",
+     "typ": "lacz_pary",
+     "polecenie": "Połącz kropki ze słowem.",
+     "dla_rodzica": "Przy siedmiu i ośmiu dziecko często gubi jedną kropkę. Niech przekreśla policzone.",
+     "dane": {
+      "lewa": [
+       "○ ○ ○ ○ ○",
+       "○ ○ ○ ○ ○ ○",
+       "○ ○ ○ ○ ○ ○ ○",
+       "○ ○ ○ ○ ○ ○ ○ ○"
+      ],
+      "prawa": [
+       "siedem",
+       "pięć",
+       "osiem",
+       "sześć"
+      ],
+      "pary": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        3,
+        2
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b2-sortuj-grupy",
+     "typ": "sortowanie",
+     "polecenie": "Ułóż kartki w dwóch koszach.",
+     "dla_rodzica": "Wytnijcie kartki z kropkami. Sortowanie idzie szybciej, gdy można je przesuwać.",
+     "dane": {
+      "elementy": [
+       "○ ○",
+       "○ ○ ○",
+       "○ ○ ○ ○",
+       "○ ○ ○ ○ ○ ○ ○",
+       "○ ○ ○ ○ ○ ○ ○ ○",
+       "○ ○ ○ ○ ○ ○ ○ ○ ○"
+      ],
+      "kategorie": [
+       {
+        "nazwa": "mało, mniej niż pięć",
+        "naleza": [
+         "○ ○",
+         "○ ○ ○",
+         "○ ○ ○ ○"
+        ]
+       },
+       {
+        "nazwa": "dużo, pięć albo więcej",
+        "naleza": [
+         "○ ○ ○ ○ ○ ○ ○",
+         "○ ○ ○ ○ ○ ○ ○ ○",
+         "○ ○ ○ ○ ○ ○ ○ ○ ○"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b2-narysuj-tyle-samo-b",
+     "typ": "ramka_rysunkowa",
+     "polecenie": "Narysuj tyle kropek, ile mówi słowo.",
+     "dla_rodzica": "Podpowiedz układ: trzy kropki w rzędzie, reszta pod spodem. Łatwiej sprawdzić.",
+     "dane": {
+      "wyrazy": [
+       "pięć",
+       "sześć",
+       "siedem"
+      ],
+      "wysokosc_ramki_mm": 45
+     }
+    },
+    {
+     "id": "b2-mniej-kropek",
+     "typ": "wybierz",
+     "polecenie": "Wskaż rząd, w którym jest mniej.",
+     "dla_rodzica": "Słowo mniej bywa trudniejsze niż więcej. Pokaż palcem oba rzędy, zanim dziecko odpowie.",
+     "dane": {
+      "pozycje": [
+       {
+        "podpowiedz_rodzica": "Rząd pierwszy: ○ ○ ○ ○ ○ ○ ○. Rząd drugi: ○ ○ ○ ○.",
+        "opcje": [
+         "pierwszy",
+         "drugi"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Rząd pierwszy: ○ ○ ○. Rząd drugi: ○ ○ ○ ○ ○ ○ ○ ○ ○.",
+        "opcje": [
+         "pierwszy",
+         "drugi"
+        ],
+        "poprawna": 0
+       },
+       {
+        "podpowiedz_rodzica": "Rząd pierwszy: ○ ○ ○ ○ ○ ○ ○ ○. Rząd drugi: ○ ○ ○ ○ ○ ○.",
+        "opcje": [
+         "pierwszy",
+         "drugi"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Rząd pierwszy: ○ ○ ○ ○ ○. Rząd drugi: ○ ○ ○ ○ ○ ○ ○ ○ ○ ○.",
+        "opcje": [
+         "pierwszy",
+         "drugi"
+        ],
+        "poprawna": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "b2-ile-kropek-do-osmiu",
+     "typ": "uzupelnij",
+     "polecenie": "Policz kropki i wskaż słowo.",
+     "dla_rodzica": "Jeśli dziecko liczy dwa razy tę samą kropkę, poproś, żeby ją przekreśliło.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "sześć",
+         "siedem",
+         "osiem"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "sześć",
+         "siedem",
+         "osiem"
+        ],
+        "poprawna": 2
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "sześć",
+         "siedem",
+         "osiem"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "siedem",
+         "osiem"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "pięć",
+         "siedem"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "b2-tabela-kropki-slowa",
+     "typ": "tabela",
+     "polecenie": "Policz kropki w każdym wierszu.",
+     "dla_rodzica": "Druga kolumna zostaje pusta. Dziecko mówi, ty stawiasz tyle kresek, ile powiedziało.",
+     "dane": {
+      "naglowki_kolumn": [
+       "kropki",
+       "ile ich jest"
+      ],
+      "wiersze": [
+       [
+        "○ ○",
+        ""
+       ],
+       [
+        "○ ○ ○ ○ ○",
+        ""
+       ],
+       [
+        "○ ○ ○",
+        ""
+       ],
+       [
+        "○ ○ ○ ○ ○ ○ ○ ○",
+        ""
+       ],
+       [
+        "○ ○ ○ ○ ○ ○",
+        ""
+       ],
+       [
+        "○ ○ ○ ○ ○ ○ ○ ○ ○",
+        ""
+       ],
+       [
+        "○ ○ ○ ○",
+        ""
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b2-lacz-kropki-slowa-c",
+     "typ": "lacz_pary",
+     "polecenie": "Połącz kropki ze słowem.",
+     "dla_rodzica": "Dziesięć kropek to pełna garść. Pokaż dziecku obie dłonie.",
+     "dane": {
+      "lewa": [
+       "○ ○ ○ ○ ○ ○ ○",
+       "○ ○ ○ ○ ○ ○ ○ ○",
+       "○ ○ ○ ○ ○ ○ ○ ○ ○",
+       "○ ○ ○ ○ ○ ○ ○ ○ ○ ○"
+      ],
+      "prawa": [
+       "dziesięć",
+       "dziewięć",
+       "siedem",
+       "osiem"
+      ],
+      "pary": [
+       [
+        0,
+        2
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        2,
+        1
+       ],
+       [
+        3,
+        0
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b2-sekwencja-rosnaca",
+     "typ": "sekwencja",
+     "polecenie": "Powiedz brakujące słowa.",
+     "dla_rodzica": "Ciąg czyta się od lewej. Zatrzymaj palec na pustym polu i czekaj.",
+     "dane": {
+      "kroki": [
+       "jeden",
+       "",
+       "trzy",
+       "cztery",
+       "",
+       "sześć",
+       "",
+       "osiem"
+      ],
+      "brakujace": [
+       "dwa",
+       "pięć",
+       "siedem"
+      ]
+     }
+    },
+    {
+     "id": "b2-ile-kropek-do-dziesieciu",
+     "typ": "uzupelnij",
+     "polecenie": "Policz kropki i wskaż słowo.",
+     "dla_rodzica": "Przy dziewięciu i dziesięciu najlepiej liczyć parami: dwie, cztery nie, po jednej.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "osiem",
+         "dziewięć",
+         "dziesięć"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "osiem",
+         "dziewięć",
+         "dziesięć"
+        ],
+        "poprawna": 2
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "osiem",
+         "dziewięć",
+         "dziesięć"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "dziewięć",
+         "dziesięć"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "siedem",
+         "dziewięć"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "b2-sortuj-do-pieciu",
+     "typ": "sortowanie",
+     "polecenie": "Ułóż kartki w trzech koszach.",
+     "dla_rodzica": "Trzy kosze są trudniejsze niż dwa. Jeśli dziecko się gubi, zakryj trzeci kosz.",
+     "dane": {
+      "elementy": [
+       "○",
+       "○ ○",
+       "○ ○ ○ ○",
+       "○ ○ ○ ○ ○",
+       "○ ○ ○ ○ ○ ○ ○",
+       "○ ○ ○ ○ ○ ○ ○ ○ ○"
+      ],
+      "kategorie": [
+       {
+        "nazwa": "mniej niż trzy",
+        "naleza": [
+         "○",
+         "○ ○"
+        ]
+       },
+       {
+        "nazwa": "trzy, cztery albo pięć",
+        "naleza": [
+         "○ ○ ○ ○",
+         "○ ○ ○ ○ ○"
+        ]
+       },
+       {
+        "nazwa": "więcej niż pięć",
+        "naleza": [
+         "○ ○ ○ ○ ○ ○ ○",
+         "○ ○ ○ ○ ○ ○ ○ ○ ○"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b2-narysuj-tyle-samo-c",
+     "typ": "ramka_rysunkowa",
+     "polecenie": "Narysuj tyle kropek, ile mówi słowo.",
+     "dla_rodzica": "Przy dziesięciu zaproponuj dwa rzędy po pięć. To układ, który wróci w bloku czwartym.",
+     "dane": {
+      "wyrazy": [
+       "osiem",
+       "dziewięć",
+       "dziesięć"
+      ],
+      "wysokosc_ramki_mm": 45
+     }
+    },
+    {
+     "id": "b2-tyle-samo",
+     "typ": "wybierz",
+     "polecenie": "Wskaż rząd z taką samą liczbą.",
+     "dla_rodzica": "Tyle samo znaczy ani więcej, ani mniej. Liczcie oba rzędy do końca.",
+     "dane": {
+      "pozycje": [
+       {
+        "podpowiedz_rodzica": "Wzór: ○ ○ ○ ○. Pierwszy: ○ ○ ○ ○. Drugi: ○ ○ ○ ○ ○ ○.",
+        "opcje": [
+         "pierwszy",
+         "drugi"
+        ],
+        "poprawna": 0
+       },
+       {
+        "podpowiedz_rodzica": "Wzór: ○ ○ ○ ○ ○ ○ ○. Pierwszy: ○ ○ ○ ○ ○. Drugi: ○ ○ ○ ○ ○ ○ ○.",
+        "opcje": [
+         "pierwszy",
+         "drugi"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Wzór: ○ ○ ○. Pierwszy: ○ ○ ○. Drugi: ○ ○.",
+        "opcje": [
+         "pierwszy",
+         "drugi"
+        ],
+        "poprawna": 0
+       },
+       {
+        "podpowiedz_rodzica": "Wzór: ○ ○ ○ ○ ○ ○ ○ ○ ○. Pierwszy: ○ ○ ○ ○ ○ ○ ○ ○. Drugi: ○ ○ ○ ○ ○ ○ ○ ○ ○.",
+        "opcje": [
+         "pierwszy",
+         "drugi"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "b2-kwadraty-i-kolka",
+     "typ": "uzupelnij",
+     "polecenie": "Policz kwadraty i wskaż słowo.",
+     "dla_rodzica": "Kształt się zmienił, zasada nie. Liczba nie zależy od tego, co liczymy.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "□ □ □",
+        "opcje": [
+         "dwa",
+         "trzy",
+         "cztery"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "□ □ □ □ □ □",
+        "opcje": [
+         "pięć",
+         "sześć",
+         "siedem"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "□ □ □ □",
+        "opcje": [
+         "trzy",
+         "cztery",
+         "pięć"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "□ □ □ □ □ □ □ □",
+        "opcje": [
+         "siedem",
+         "osiem",
+         "dziewięć"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "□ □ □ □ □",
+        "opcje": [
+         "cztery",
+         "pięć",
+         "sześć"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "b2-licz-wzrokiem",
+     "typ": "uzupelnij",
+     "polecenie": "Popatrz krótko i wskaż słowo.",
+     "dla_rodzica": "Zakryj rząd po dwóch sekundach. Do pięciu da się zobaczyć bez liczenia, wyżej już nie.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "★ ★",
+        "opcje": [
+         "dwa",
+         "trzy"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "★ ★ ★",
+        "opcje": [
+         "trzy",
+         "cztery"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "★ ★ ★ ★",
+        "opcje": [
+         "cztery",
+         "pięć"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "★ ★ ★ ★ ★",
+        "opcje": [
+         "pięć",
+         "sześć"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "★ ★ ★ ★ ★ ★",
+        "opcje": [
+         "sześć",
+         "siedem"
+        ],
+        "poprawna": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "b2-sekwencja-malejaca",
+     "typ": "sekwencja",
+     "polecenie": "Powiedz brakujące słowa wstecz.",
+     "dla_rodzica": "Liczenie wstecz jest trudniejsze. Pomóż pierwszym słowem, dalej dziecko samo.",
+     "dane": {
+      "kroki": [
+       "dziesięć",
+       "dziewięć",
+       "",
+       "siedem",
+       "",
+       "pięć",
+       "cztery",
+       ""
+      ],
+      "brakujace": [
+       "osiem",
+       "sześć",
+       "trzy"
+      ]
+     }
+    },
+    {
+     "id": "b2-lacz-ksztalty-slowa",
+     "typ": "lacz_pary",
+     "polecenie": "Połącz rząd ze słowem.",
+     "dla_rodzica": "Trzy różne kształty w jednym zadaniu. Dziecko ma patrzeć na liczbę, nie na kształt.",
+     "dane": {
+      "lewa": [
+       "□ □",
+       "○ ○ ○ ○ ○",
+       "★ ★ ★ ★ ★ ★ ★",
+       "□ □ □ □ □ □ □ □ □"
+      ],
+      "prawa": [
+       "siedem",
+       "dziewięć",
+       "dwa",
+       "pięć"
+      ],
+      "pary": [
+       [
+        0,
+        2
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        3,
+        1
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b2-powtorka-do-dziesieciu",
+     "typ": "uzupelnij",
+     "polecenie": "Policz i wskaż słowo.",
+     "dla_rodzica": "To podsumowanie bloku. Jeśli sześć pozycji idzie gładko, przejdźcie do cyfr.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "pięć",
+         "sześć",
+         "siedem"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "□ □ □ □ □ □ □ □ □",
+        "opcje": [
+         "osiem",
+         "dziewięć",
+         "dziesięć"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "★ ★ ★ ★",
+        "opcje": [
+         "trzy",
+         "cztery",
+         "pięć"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "dziewięć",
+         "dziesięć"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "□ □ □ □ □ □ □",
+        "opcje": [
+         "sześć",
+         "siedem",
+         "osiem"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "★ ★ ★",
+        "opcje": [
+         "dwa",
+         "trzy",
+         "cztery"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "temat": "Cyfra jako zapis",
+   "poziom": 3,
+   "opis": "Dopiero tutaj pojawia się cyfra. Dziecko już wie, co ona znaczy.",
+   "dla_rodzica": [
+    "Cyfra to znak, który mówi ile. Powiedz to dziecku dokładnie tymi słowami.",
+    "Nie ćwiczymy pisania cyfr. Wystarczy, że dziecko je rozpozna i pokaże.",
+    "Karty z cyframi wytnijcie raz i trzymajcie w kopercie przy stole.",
+    "Zero jest znakiem na pustą rękę. Pokaż pustą dłoń, zanim je wprowadzisz.",
+    "Szóstka i dziewiątka mylą się najczęściej. Obróćcie kartkę i porównajcie."
+   ],
+   "cwiczenia": [
+    {
+     "id": "b3-poznaj-jeden-dwa-trzy",
+     "typ": "lacz_pary",
+     "polecenie": "Połącz kropki z cyfrą.",
+     "dla_rodzica": "Pierwsza strona z cyfrą. Powiedz na głos: to jest znak, który mówi ile.",
+     "dane": {
+      "lewa": [
+       "○",
+       "○ ○",
+       "○ ○ ○"
+      ],
+      "prawa": [
+       "3",
+       "1",
+       "2"
+      ],
+      "pary": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        2
+       ],
+       [
+        2,
+        0
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b3-poznaj-cztery-piec",
+     "typ": "lacz_pary",
+     "polecenie": "Połącz kropki z cyfrą.",
+     "dla_rodzica": "Nie każ pisać cyfry. Wystarczy, że dziecko ją rozpozna i pokaże palcem.",
+     "dane": {
+      "lewa": [
+       "○ ○ ○ ○",
+       "○ ○ ○ ○ ○",
+       "○ ○ ○"
+      ],
+      "prawa": [
+       "5",
+       "3",
+       "4"
+      ],
+      "pary": [
+       [
+        0,
+        2
+       ],
+       [
+        1,
+        0
+       ],
+       [
+        2,
+        1
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b3-ile-kropek-zapisz-a",
+     "typ": "dzialania",
+     "polecenie": "Policz kropki i pokaż cyfrę.",
+     "dla_rodzica": "Pole obok zostaje puste albo dziecko kładzie w nim wyciętą kartę z cyfrą.",
+     "dane": {
+      "zadania": [
+       {
+        "tresc": "○ ○",
+        "wynik": "2"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○",
+        "wynik": "5"
+       },
+       {
+        "tresc": "○ ○ ○",
+        "wynik": "3"
+       },
+       {
+        "tresc": "○",
+        "wynik": "1"
+       },
+       {
+        "tresc": "○ ○ ○ ○",
+        "wynik": "4"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○",
+        "wynik": "5"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b3-cyfra-do-slowa-a",
+     "typ": "lacz_pary",
+     "polecenie": "Połącz cyfrę ze słowem.",
+     "dla_rodzica": "Słowo czytasz ty. Dziecko dopasowuje znak do tego, co usłyszało.",
+     "dane": {
+      "lewa": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5"
+      ],
+      "prawa": [
+       "cztery",
+       "jeden",
+       "pięć",
+       "dwa",
+       "trzy"
+      ],
+      "pary": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        2,
+        4
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        4,
+        2
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b3-wybierz-cyfre-a",
+     "typ": "wybierz",
+     "polecenie": "Wskaż cyfrę, którą słyszysz.",
+     "dla_rodzica": "Mów tylko słowo, nie pokazuj palcem. Dziecko szuka znaku samo.",
+     "dane": {
+      "pozycje": [
+       {
+        "podpowiedz_rodzica": "Powiedz: trzy.",
+        "opcje": [
+         "1",
+         "3",
+         "5"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: pięć.",
+        "opcje": [
+         "2",
+         "4",
+         "5"
+        ],
+        "poprawna": 2
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: jeden.",
+        "opcje": [
+         "1",
+         "2",
+         "3"
+        ],
+        "poprawna": 0
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: cztery.",
+        "opcje": [
+         "3",
+         "4",
+         "5"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: dwa.",
+        "opcje": [
+         "2",
+         "3",
+         "4"
+        ],
+        "poprawna": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "b3-sekwencja-do-pieciu",
+     "typ": "sekwencja",
+     "polecenie": "Powiedz brakujące cyfry.",
+     "dla_rodzica": "Puste pole zostaje puste. Dziecko mówi, nie pisze.",
+     "dane": {
+      "kroki": [
+       "1",
+       "",
+       "3",
+       "",
+       "5"
+      ],
+      "brakujace": [
+       "2",
+       "4"
+      ]
+     }
+    },
+    {
+     "id": "b3-ile-kropek-zapisz-b",
+     "typ": "dzialania",
+     "polecenie": "Policz kropki i pokaż cyfrę.",
+     "dla_rodzica": "Przy sześciu i siedmiu warto przekreślać policzone kropki.",
+     "dane": {
+      "zadania": [
+       {
+        "tresc": "○ ○ ○ ○ ○ ○",
+        "wynik": "6"
+       },
+       {
+        "tresc": "○ ○ ○ ○",
+        "wynik": "4"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○",
+        "wynik": "7"
+       },
+       {
+        "tresc": "○ ○",
+        "wynik": "2"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○ ○",
+        "wynik": "6"
+       },
+       {
+        "tresc": "○ ○ ○",
+        "wynik": "3"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b3-poznaj-szesc-siedem",
+     "typ": "lacz_pary",
+     "polecenie": "Połącz kropki z cyfrą.",
+     "dla_rodzica": "Sześć i siedem mylą się najczęściej. Liczcie na głos, powoli.",
+     "dane": {
+      "lewa": [
+       "○ ○ ○ ○ ○ ○",
+       "○ ○ ○ ○ ○ ○ ○",
+       "○ ○ ○ ○ ○"
+      ],
+      "prawa": [
+       "7",
+       "5",
+       "6"
+      ],
+      "pary": [
+       [
+        0,
+        2
+       ],
+       [
+        1,
+        0
+       ],
+       [
+        2,
+        1
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b3-narysuj-do-cyfry-a",
+     "typ": "ramka_rysunkowa",
+     "polecenie": "Narysuj tyle kropek, ile mówi cyfra.",
+     "dla_rodzica": "Cyfra jest w rogu ramki. Dziecko rysuje, potem przeliczcie razem. Przy dziewięciu zaproponuj trzy rzędy po trzy.",
+     "dane": {
+      "wyrazy": [
+       "3",
+       "6",
+       "9"
+      ],
+      "wysokosc_ramki_mm": 45
+     }
+    },
+    {
+     "id": "b3-cyfra-do-slowa-b",
+     "typ": "lacz_pary",
+     "polecenie": "Połącz cyfrę ze słowem.",
+     "dla_rodzica": "Dziesięć ma dwa znaki obok siebie. To normalne, wyjaśnisz to w bloku czwartym.",
+     "dane": {
+      "lewa": [
+       "6",
+       "7",
+       "8",
+       "9",
+       "10"
+      ],
+      "prawa": [
+       "dziewięć",
+       "sześć",
+       "dziesięć",
+       "osiem",
+       "siedem"
+      ],
+      "pary": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        4
+       ],
+       [
+        2,
+        3
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        4,
+        2
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b3-sekwencja-do-dziesieciu",
+     "typ": "sekwencja",
+     "polecenie": "Powiedz brakujące cyfry.",
+     "dla_rodzica": "Jeśli dziecko się zatrzyma, wróć do początku ciągu i przeczytaj razem.",
+     "dane": {
+      "kroki": [
+       "1",
+       "2",
+       "",
+       "4",
+       "",
+       "6",
+       "7",
+       "",
+       "9",
+       "10"
+      ],
+      "brakujace": [
+       "3",
+       "5",
+       "8"
+      ]
+     }
+    },
+    {
+     "id": "b3-ile-kropek-zapisz-c",
+     "typ": "dzialania",
+     "polecenie": "Policz kropki i pokaż cyfrę.",
+     "dla_rodzica": "Dziesięć kropek układaj w dwóch rzędach po pięć. Łatwiej sprawdzić.",
+     "dane": {
+      "zadania": [
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "8"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "9"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○",
+        "wynik": "7"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "10"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "8"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "9"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b3-wybierz-cyfre-b",
+     "typ": "wybierz",
+     "polecenie": "Wskaż cyfrę, którą słyszysz.",
+     "dla_rodzica": "Jeśli dziecko waha się między szóstką a dziewiątką, obróćcie kartkę do góry nogami.",
+     "dane": {
+      "pozycje": [
+       {
+        "podpowiedz_rodzica": "Powiedz: osiem.",
+        "opcje": [
+         "6",
+         "8",
+         "9"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: dziesięć.",
+        "opcje": [
+         "7",
+         "9",
+         "10"
+        ],
+        "poprawna": 2
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: sześć.",
+        "opcje": [
+         "6",
+         "7",
+         "8"
+        ],
+        "poprawna": 0
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: dziewięć.",
+        "opcje": [
+         "8",
+         "9",
+         "10"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: siedem.",
+        "opcje": [
+         "5",
+         "7",
+         "9"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "b3-sortuj-cyfry",
+     "typ": "sortowanie",
+     "polecenie": "Ułóż cyfry w dwóch koszach.",
+     "dla_rodzica": "Piątka jest granicą, bo tyle jest palców u jednej ręki. Powiedz to dziecku.",
+     "dane": {
+      "elementy": [
+       "2",
+       "3",
+       "4",
+       "7",
+       "8",
+       "9"
+      ],
+      "kategorie": [
+       {
+        "nazwa": "mniejsze niż pięć",
+        "naleza": [
+         "2",
+         "3",
+         "4"
+        ]
+       },
+       {
+        "nazwa": "większe niż pięć",
+        "naleza": [
+         "7",
+         "8",
+         "9"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b3-karty-cyfry",
+     "typ": "karty_do_wyciecia",
+     "polecenie": "Wytnij karty z cyframi.",
+     "dla_rodzica": "Karty zostają z wami do końca zeszytu. Trzymaj je w kopercie przy stole.",
+     "dane": {
+      "karty": [
+       {
+        "awers": "1",
+        "rewers": "○"
+       },
+       {
+        "awers": "2",
+        "rewers": "○ ○"
+       },
+       {
+        "awers": "3",
+        "rewers": "○ ○ ○"
+       },
+       {
+        "awers": "4",
+        "rewers": "○ ○ ○ ○"
+       },
+       {
+        "awers": "5",
+        "rewers": "○ ○ ○ ○ ○"
+       },
+       {
+        "awers": "6",
+        "rewers": "○ ○ ○ ○ ○ ○"
+       },
+       {
+        "awers": "7",
+        "rewers": "○ ○ ○ ○ ○ ○ ○"
+       },
+       {
+        "awers": "8",
+        "rewers": "○ ○ ○ ○ ○ ○ ○ ○"
+       },
+       {
+        "awers": "9",
+        "rewers": "○ ○ ○ ○ ○ ○ ○ ○ ○"
+       }
+      ],
+      "na_arkuszu": 9,
+      "z_podpisami": true
+     }
+    },
+    {
+     "id": "b3-tabela-cyfra-slowo",
+     "typ": "tabela",
+     "polecenie": "Przeczytaj wiersz od lewej.",
+     "dla_rodzica": "To strona do powieszenia nad stołem. Nie jest ćwiczeniem, jest ściągą.",
+     "dane": {
+      "naglowki_kolumn": [
+       "cyfra",
+       "kropki",
+       "słowo"
+      ],
+      "wiersze": [
+       [
+        "1",
+        "○",
+        "jeden"
+       ],
+       [
+        "2",
+        "○ ○",
+        "dwa"
+       ],
+       [
+        "3",
+        "○ ○ ○",
+        "trzy"
+       ],
+       [
+        "4",
+        "○ ○ ○ ○",
+        "cztery"
+       ],
+       [
+        "5",
+        "○ ○ ○ ○ ○",
+        "pięć"
+       ],
+       [
+        "6",
+        "○ ○ ○ ○ ○ ○",
+        "sześć"
+       ],
+       [
+        "7",
+        "○ ○ ○ ○ ○ ○ ○",
+        "siedem"
+       ],
+       [
+        "8",
+        "○ ○ ○ ○ ○ ○ ○ ○",
+        "osiem"
+       ],
+       [
+        "9",
+        "○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "dziewięć"
+       ],
+       [
+        "10",
+        "○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "dziesięć"
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b3-uzupelnij-cyfre-a",
+     "typ": "uzupelnij",
+     "polecenie": "Policz kropki i wskaż cyfrę.",
+     "dla_rodzica": "Trzy znaki obok siebie to już wybór. Dziecko zakreśla jeden.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "○ ○ ○",
+        "opcje": [
+         "2",
+         "3",
+         "4"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "5",
+         "6",
+         "7"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○",
+        "opcje": [
+         "1",
+         "2",
+         "3"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "7",
+         "8",
+         "9"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○",
+        "opcje": [
+         "4",
+         "5",
+         "6"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "b3-zero-to-nic",
+     "typ": "dzialania",
+     "polecenie": "Policz kropki. Pokaż cyfrę.",
+     "dla_rodzica": "Zero to znak na pustą rękę. Pokaż pustą dłoń i powiedz: zero.",
+     "dane": {
+      "zadania": [
+       {
+        "tresc": "brak",
+        "wynik": "0"
+       },
+       {
+        "tresc": "○ ○",
+        "wynik": "2"
+       },
+       {
+        "tresc": "brak",
+        "wynik": "0"
+       },
+       {
+        "tresc": "○",
+        "wynik": "1"
+       },
+       {
+        "tresc": "○ ○ ○",
+        "wynik": "3"
+       },
+       {
+        "tresc": "brak",
+        "wynik": "0"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b3-ile-kropek-zapisz-d",
+     "typ": "dzialania",
+     "polecenie": "Policz kwadraty i pokaż cyfrę.",
+     "dla_rodzica": "Zmiana kształtu sprawdza, czy dziecko liczy, a nie zapamiętało obrazek.",
+     "dane": {
+      "zadania": [
+       {
+        "tresc": "□ □ □ □",
+        "wynik": "4"
+       },
+       {
+        "tresc": "□ □ □ □ □ □ □",
+        "wynik": "7"
+       },
+       {
+        "tresc": "□ □",
+        "wynik": "2"
+       },
+       {
+        "tresc": "□ □ □ □ □ □ □ □ □",
+        "wynik": "9"
+       },
+       {
+        "tresc": "□ □ □ □ □",
+        "wynik": "5"
+       },
+       {
+        "tresc": "□ □ □ □ □ □",
+        "wynik": "6"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b3-sekwencja-wstecz",
+     "typ": "sekwencja",
+     "polecenie": "Powiedz brakujące cyfry wstecz.",
+     "dla_rodzica": "Liczenie wstecz przygotowuje do odejmowania, ale go nie uczy. Na razie to zabawa w rakietę.",
+     "dane": {
+      "kroki": [
+       "10",
+       "9",
+       "",
+       "7",
+       "",
+       "5",
+       "4",
+       "",
+       "2",
+       "1"
+      ],
+      "brakujace": [
+       "8",
+       "6",
+       "3"
+      ]
+     }
+    },
+    {
+     "id": "b3-uzupelnij-cyfre-b",
+     "typ": "uzupelnij",
+     "polecenie": "Policz gwiazdki i wskaż cyfrę.",
+     "dla_rodzica": "Gwiazdki stoją gęściej niż kropki. Palec pomaga jeszcze bardziej.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "★ ★ ★ ★ ★ ★ ★",
+        "opcje": [
+         "6",
+         "7",
+         "8"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "★ ★ ★ ★",
+        "opcje": [
+         "3",
+         "4",
+         "5"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "★ ★ ★ ★ ★ ★ ★ ★ ★",
+        "opcje": [
+         "8",
+         "9",
+         "10"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "★ ★",
+        "opcje": [
+         "1",
+         "2",
+         "3"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "★ ★ ★ ★ ★ ★",
+        "opcje": [
+         "5",
+         "6",
+         "7"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "b3-sortuj-przed-po",
+     "typ": "sortowanie",
+     "polecenie": "Ułóż cyfry w dwóch koszach.",
+     "dla_rodzica": "Użyjcie kart wyciętych wcześniej. Sortowanie kart idzie szybciej niż rysowanie.",
+     "dane": {
+      "elementy": [
+       "1",
+       "2",
+       "6",
+       "7",
+       "9",
+       "10"
+      ],
+      "kategorie": [
+       {
+        "nazwa": "przed piątką",
+        "naleza": [
+         "1",
+         "2"
+        ]
+       },
+       {
+        "nazwa": "po piątce",
+        "naleza": [
+         "6",
+         "7",
+         "9",
+         "10"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b3-powtorka-cyfry",
+     "typ": "dzialania",
+     "polecenie": "Policz i pokaż cyfrę.",
+     "dla_rodzica": "Podsumowanie bloku. Jeśli sześć pozycji idzie gładko, ruszajcie powyżej dziesięciu.",
+     "dane": {
+      "zadania": [
+       {
+        "tresc": "○ ○ ○ ○ ○",
+        "wynik": "5"
+       },
+       {
+        "tresc": "□ □ □ □ □ □ □ □",
+        "wynik": "8"
+       },
+       {
+        "tresc": "★ ★ ★",
+        "wynik": "3"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "10"
+       },
+       {
+        "tresc": "□ □ □ □ □ □",
+        "wynik": "6"
+       },
+       {
+        "tresc": "★ ★ ★ ★ ★ ★ ★ ★ ★",
+        "wynik": "9"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "temat": "Liczby do dwudziestu",
+   "poziom": 4,
+   "opis": "Pełna dziesiątka i reszta. Stąd biorą się nazwy z końcówką naście.",
+   "dla_rodzica": [
+    "Pełna dziesiątka jest kotwicą. Dziecko ma ją rozpoznawać bez liczenia.",
+    "Trzynaście to dziesięć i jeszcze trzy. Pokazuj to klockami, nie tłumacz słowami.",
+    "Dwanaście i dwadzieścia brzmią podobnie. Wymawiaj je wolno i osobno.",
+    "Karty z liczbami rozkładaj na podłodze. Liczenie w ruchu utrwala kolejność.",
+    "Kiedy ten blok idzie gładko, dziecko jest gotowe na dodawanie. To osobny zeszyt."
+   ],
+   "cwiczenia": [
+    {
+     "id": "b4-pelna-dziesiatka",
+     "typ": "lista_krokow",
+     "polecenie": "Ułóż dziesięć klocków w dwóch rzędach.",
+     "dla_rodzica": "Pełna dziesiątka to kotwica całego bloku. Dziecko ma ją rozpoznawać bez liczenia.",
+     "dane": {
+      "kroki": [
+       "Ułóż pięć klocków w rzędzie.",
+       "Pod spodem ułóż drugie pięć.",
+       "Policzcie wszystkie, dotykając po kolei.",
+       "Powiedz: to jest pełna dziesiątka.",
+       "Odsuń dziesiątkę na bok, nie rozsypuj.",
+       "Dołóż obok jeden klocek i policzcie dalej."
+      ]
+     }
+    },
+    {
+     "id": "b4-dziesiatka-i-reszta-a",
+     "typ": "dzialania",
+     "polecenie": "Policz wszystkie kropki.",
+     "dla_rodzica": "Po lewej stronie kreski jest dziesiątka. Dziecko liczy dalej od dziesięciu, nie od jednego.",
+     "dane": {
+      "zadania": [
+       {
+        "tresc": "○○○○○○○○○○ | ○",
+        "wynik": "11"
+       },
+       {
+        "tresc": "○○○○○○○○○○ | ○ ○",
+        "wynik": "12"
+       },
+       {
+        "tresc": "○○○○○○○○○○ | ○ ○ ○",
+        "wynik": "13"
+       },
+       {
+        "tresc": "○○○○○○○○○○ | ○ ○ ○ ○",
+        "wynik": "14"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-sekwencja-do-pietnastu",
+     "typ": "sekwencja",
+     "polecenie": "Powiedz brakujące liczby.",
+     "dla_rodzica": "Nazwy od jedenastu do piętnastu brzmią podobnie. Mów je wolno i wyraźnie.",
+     "dane": {
+      "kroki": [
+       "10",
+       "11",
+       "",
+       "13",
+       "",
+       "15"
+      ],
+      "brakujace": [
+       "12",
+       "14"
+      ]
+     }
+    },
+    {
+     "id": "b4-lacz-liczba-slowo-a",
+     "typ": "lacz_pary",
+     "polecenie": "Połącz liczbę ze słowem.",
+     "dla_rodzica": "Słowo czytasz ty. Zwróć uwagę, że każda nazwa kończy się tak samo.",
+     "dane": {
+      "lewa": [
+       "11",
+       "12",
+       "13",
+       "14",
+       "15"
+      ],
+      "prawa": [
+       "trzynaście",
+       "jedenaście",
+       "piętnaście",
+       "dwanaście",
+       "czternaście"
+      ],
+      "pary": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        3,
+        4
+       ],
+       [
+        4,
+        2
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b4-ile-kropek-zapisz-e",
+     "typ": "dzialania",
+     "polecenie": "Policz kropki i pokaż liczbę.",
+     "dla_rodzica": "Bez kreski jest trudniej. Niech dziecko odłoży dziesięć kropek palcem, potem liczy dalej.",
+     "dane": {
+      "zadania": [
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "11"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "13"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "12"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "14"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-wybierz-liczbe-a",
+     "typ": "wybierz",
+     "polecenie": "Wskaż liczbę, którą słyszysz.",
+     "dla_rodzica": "Dwanaście i dwadzieścia brzmią podobnie. Jeśli dziecko myli, pokaż obie karty obok siebie.",
+     "dane": {
+      "pozycje": [
+       {
+        "podpowiedz_rodzica": "Powiedz: trzynaście.",
+        "opcje": [
+         "11",
+         "13",
+         "15"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: jedenaście.",
+        "opcje": [
+         "11",
+         "12",
+         "14"
+        ],
+        "poprawna": 0
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: piętnaście.",
+        "opcje": [
+         "12",
+         "13",
+         "15"
+        ],
+        "poprawna": 2
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: dwanaście.",
+        "opcje": [
+         "12",
+         "14",
+         "16"
+        ],
+        "poprawna": 0
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: czternaście.",
+        "opcje": [
+         "13",
+         "14",
+         "15"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-sekwencja-do-dwudziestu",
+     "typ": "sekwencja",
+     "polecenie": "Powiedz brakujące liczby.",
+     "dla_rodzica": "Dwadzieścia to dwie pełne dziesiątki. Ułóżcie je z klocków, zanim przeczytacie ciąg.",
+     "dane": {
+      "kroki": [
+       "15",
+       "16",
+       "",
+       "18",
+       "",
+       "20"
+      ],
+      "brakujace": [
+       "17",
+       "19"
+      ]
+     }
+    },
+    {
+     "id": "b4-lacz-liczba-slowo-b",
+     "typ": "lacz_pary",
+     "polecenie": "Połącz liczbę ze słowem.",
+     "dla_rodzica": "Dwudziestka jako jedyna nie kończy się na naście. Powiedz to dziecku wprost.",
+     "dane": {
+      "lewa": [
+       "16",
+       "17",
+       "18",
+       "19",
+       "20"
+      ],
+      "prawa": [
+       "dwadzieścia",
+       "osiemnaście",
+       "szesnaście",
+       "dziewiętnaście",
+       "siedemnaście"
+      ],
+      "pary": [
+       [
+        0,
+        2
+       ],
+       [
+        1,
+        4
+       ],
+       [
+        2,
+        1
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        0
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b4-sortuj-mniej-wiecej",
+     "typ": "sortowanie",
+     "polecenie": "Ułóż liczby w dwóch koszach.",
+     "dla_rodzica": "Wytnijcie liczby z kolejnej strony. Kosze można narysować kredą na podłodze.",
+     "dane": {
+      "elementy": [
+       "11",
+       "12",
+       "13",
+       "17",
+       "18",
+       "20"
+      ],
+      "kategorie": [
+       {
+        "nazwa": "mniejsze niż piętnaście",
+        "naleza": [
+         "11",
+         "12",
+         "13"
+        ]
+       },
+       {
+        "nazwa": "większe niż piętnaście",
+        "naleza": [
+         "17",
+         "18",
+         "20"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-ile-kropek-zapisz-f",
+     "typ": "dzialania",
+     "polecenie": "Policz kropki i pokaż liczbę.",
+     "dla_rodzica": "Piętnaście to dziesiątka i pięć. Ta piątka jest znajoma z bloku drugiego.",
+     "dane": {
+      "zadania": [
+       {
+        "tresc": "○○○○○○○○○○ | ○ ○ ○ ○ ○",
+        "wynik": "15"
+       },
+       {
+        "tresc": "○○○○○○○○○○ | ○ ○ ○ ○ ○ ○",
+        "wynik": "16"
+       },
+       {
+        "tresc": "○○○○○○○○○○ | ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "17"
+       },
+       {
+        "tresc": "○○○○○○○○○○ | ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "18"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-karty-liczby",
+     "typ": "karty_do_wyciecia",
+     "polecenie": "Wytnij karty z liczbami.",
+     "dla_rodzica": "Te karty rozłóż na podłodze albo na stopniach. Dziecko przeskakuje i czyta.",
+     "dane": {
+      "karty": [
+       {
+        "awers": "11",
+        "rewers": "jedenaście"
+       },
+       {
+        "awers": "12",
+        "rewers": "dwanaście"
+       },
+       {
+        "awers": "13",
+        "rewers": "trzynaście"
+       },
+       {
+        "awers": "14",
+        "rewers": "czternaście"
+       },
+       {
+        "awers": "15",
+        "rewers": "piętnaście"
+       },
+       {
+        "awers": "16",
+        "rewers": "szesnaście"
+       },
+       {
+        "awers": "17",
+        "rewers": "siedemnaście"
+       },
+       {
+        "awers": "18",
+        "rewers": "osiemnaście"
+       },
+       {
+        "awers": "19",
+        "rewers": "dziewiętnaście"
+       }
+      ],
+      "na_arkuszu": 9,
+      "z_podpisami": true
+     }
+    },
+    {
+     "id": "b4-tabela-do-dwudziestu",
+     "typ": "tabela",
+     "polecenie": "Przeczytaj wiersz od lewej.",
+     "dla_rodzica": "Druga ściąga do powieszenia. Nie jest ćwiczeniem, jest pomocą.",
+     "dane": {
+      "naglowki_kolumn": [
+       "liczba",
+       "słowo"
+      ],
+      "wiersze": [
+       [
+        "11",
+        "jedenaście"
+       ],
+       [
+        "12",
+        "dwanaście"
+       ],
+       [
+        "13",
+        "trzynaście"
+       ],
+       [
+        "14",
+        "czternaście"
+       ],
+       [
+        "15",
+        "piętnaście"
+       ],
+       [
+        "16",
+        "szesnaście"
+       ],
+       [
+        "17",
+        "siedemnaście"
+       ],
+       [
+        "18",
+        "osiemnaście"
+       ],
+       [
+        "19",
+        "dziewiętnaście"
+       ],
+       [
+        "20",
+        "dwadzieścia"
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b4-uzupelnij-liczbe-a",
+     "typ": "uzupelnij",
+     "polecenie": "Policz kropki i wskaż liczbę.",
+     "dla_rodzica": "Kreska dzieli dziesiątkę od reszty. Dziecko czyta: dziesięć i jeszcze kilka.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "○○○○○○○○○○ | ○ ○",
+        "opcje": [
+         "11",
+         "12",
+         "13"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○○○○○○○○○○ | ○ ○ ○ ○ ○",
+        "opcje": [
+         "14",
+         "15",
+         "16"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○○○○○○○○○○ | ○",
+        "opcje": [
+         "11",
+         "12"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "○○○○○○○○○○ | ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "16",
+         "17",
+         "18"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○○○○○○○○○○ | ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "18",
+         "19",
+         "20"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-sekwencja-wstecz-20",
+     "typ": "sekwencja",
+     "polecenie": "Powiedz brakujące liczby wstecz.",
+     "dla_rodzica": "Wstecz zawsze jest trudniej. Pierwszą liczbę podaj ty, dalej dziecko samo.",
+     "dane": {
+      "kroki": [
+       "20",
+       "19",
+       "",
+       "17",
+       "",
+       "15",
+       "14",
+       ""
+      ],
+      "brakujace": [
+       "18",
+       "16",
+       "13"
+      ]
+     }
+    },
+    {
+     "id": "b4-ile-kropek-zapisz-g",
+     "typ": "dzialania",
+     "polecenie": "Policz kropki i pokaż liczbę.",
+     "dla_rodzica": "Dwadzieścia kropek to dużo. Pozwól przekreślać policzone, to nie oszustwo.",
+     "dane": {
+      "zadania": [
+       {
+        "tresc": "○○○○○○○○○○ | ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "19"
+       },
+       {
+        "tresc": "○○○○○○○○○○ | ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "20"
+       },
+       {
+        "tresc": "○○○○○○○○○○ | ○ ○ ○ ○ ○ ○",
+        "wynik": "16"
+       },
+       {
+        "tresc": "○○○○○○○○○○ | ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "20"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-wybierz-liczbe-b",
+     "typ": "wybierz",
+     "polecenie": "Wskaż liczbę, którą słyszysz.",
+     "dla_rodzica": "Mów jedno słowo i czekaj. Cisza pomaga bardziej niż podpowiedź.",
+     "dane": {
+      "pozycje": [
+       {
+        "podpowiedz_rodzica": "Powiedz: osiemnaście.",
+        "opcje": [
+         "16",
+         "18",
+         "20"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: dwadzieścia.",
+        "opcje": [
+         "12",
+         "19",
+         "20"
+        ],
+        "poprawna": 2
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: szesnaście.",
+        "opcje": [
+         "16",
+         "17",
+         "18"
+        ],
+        "poprawna": 0
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: dziewiętnaście.",
+        "opcje": [
+         "17",
+         "19",
+         "20"
+        ],
+        "poprawna": 1
+       },
+       {
+        "podpowiedz_rodzica": "Powiedz: siedemnaście.",
+        "opcje": [
+         "15",
+         "17",
+         "19"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-dziesiatka-i-reszta-b",
+     "typ": "dzialania",
+     "polecenie": "Policz wszystkie kwadraty.",
+     "dla_rodzica": "Kształt inny, dziesiątka ta sama. Dziecko ma ją rozpoznać bez liczenia.",
+     "dane": {
+      "zadania": [
+       {
+        "tresc": "□□□□□□□□□□ | □ □ □",
+        "wynik": "13"
+       },
+       {
+        "tresc": "□□□□□□□□□□ | □ □ □ □ □ □",
+        "wynik": "16"
+       },
+       {
+        "tresc": "□□□□□□□□□□ | □ □ □ □ □ □ □ □",
+        "wynik": "18"
+       },
+       {
+        "tresc": "□□□□□□□□□□ | □ □",
+        "wynik": "12"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-sortuj-nascie",
+     "typ": "sortowanie",
+     "polecenie": "Ułóż liczby w dwóch koszach.",
+     "dla_rodzica": "Liczby powyżej dziewięciu mają dwa znaki. To pierwsza rzecz, którą widać gołym okiem.",
+     "dane": {
+      "elementy": [
+       "4",
+       "7",
+       "9",
+       "14",
+       "17",
+       "19"
+      ],
+      "kategorie": [
+       {
+        "nazwa": "jeden znak",
+        "naleza": [
+         "4",
+         "7",
+         "9"
+        ]
+       },
+       {
+        "nazwa": "dwa znaki",
+        "naleza": [
+         "14",
+         "17",
+         "19"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-narysuj-do-liczby",
+     "typ": "ramka_rysunkowa",
+     "polecenie": "Narysuj tyle kropek, ile mówi liczba.",
+     "dla_rodzica": "Podpowiedz: najpierw dziesięć w dwóch rzędach po pięć, potem reszta obok.",
+     "dane": {
+      "wyrazy": [
+       "12",
+       "15",
+       "11"
+      ],
+      "wysokosc_ramki_mm": 45
+     }
+    },
+    {
+     "id": "b4-uzupelnij-liczbe-b",
+     "typ": "uzupelnij",
+     "polecenie": "Policz kropki i wskaż liczbę.",
+     "dla_rodzica": "Ostatnia pozycja ma dwadzieścia kropek. To celowo długie liczenie.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "12",
+         "13",
+         "14"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "15",
+         "16",
+         "17"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "11",
+         "12",
+         "13"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "17",
+         "18",
+         "19"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "opcje": [
+         "19",
+         "20"
+        ],
+        "poprawna": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-co-przed-co-po",
+     "typ": "uzupelnij",
+     "polecenie": "Wskaż liczbę, która idzie dalej.",
+     "dla_rodzica": "Trzy kropki znaczą: mów dalej. Przeczytaj ciąg na głos i zatrzymaj się.",
+     "dane": {
+      "pozycje": [
+       {
+        "wzor": "11, 12, 13, ...",
+        "opcje": [
+         "14",
+         "15",
+         "16"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "15, 16, 17, ...",
+        "opcje": [
+         "17",
+         "18",
+         "19"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "8, 9, 10, ...",
+        "opcje": [
+         "11",
+         "12",
+         "13"
+        ],
+        "poprawna": 0
+       },
+       {
+        "wzor": "17, 18, 19, ...",
+        "opcje": [
+         "18",
+         "20",
+         "21"
+        ],
+        "poprawna": 1
+       },
+       {
+        "wzor": "12, 13, 14, ...",
+        "opcje": [
+         "15",
+         "16",
+         "17"
+        ],
+        "poprawna": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-licz-w-ruchu",
+     "typ": "lista_krokow",
+     "polecenie": "Policz dwadzieścia kroków po mieszkaniu.",
+     "dla_rodzica": "Ruch utrwala kolejność lepiej niż kartka. Dziesięć minut wystarczy.",
+     "dane": {
+      "kroki": [
+       "Rozłóż karty z liczbami na podłodze, po kolei.",
+       "Dziecko staje przed pierwszą kartą.",
+       "Przeskakuje na kolejną i mówi liczbę.",
+       "Na dwudziestce zatrzymajcie się i klaśnijcie.",
+       "Wróćcie tą samą drogą, licząc wstecz.",
+       "Kiedy idzie gładko, zabierzcie co drugą kartę."
+      ]
+     }
+    },
+    {
+     "id": "b4-tabela-dwie-dziesiatki",
+     "typ": "tabela",
+     "polecenie": "Przeczytaj oba rzędy od lewej.",
+     "dla_rodzica": "Pokaż palcem: pod trójką jest trzynaście. Nazwy powtarzają się z dodanym naście.",
+     "dane": {
+      "naglowki_kolumn": [
+       "pierwsza dziesiątka",
+       "druga dziesiątka"
+      ],
+      "wiersze": [
+       [
+        "1",
+        "11"
+       ],
+       [
+        "2",
+        "12"
+       ],
+       [
+        "3",
+        "13"
+       ],
+       [
+        "4",
+        "14"
+       ],
+       [
+        "5",
+        "15"
+       ],
+       [
+        "6",
+        "16"
+       ],
+       [
+        "7",
+        "17"
+       ],
+       [
+        "8",
+        "18"
+       ],
+       [
+        "9",
+        "19"
+       ],
+       [
+        "10",
+        "20"
+       ]
+      ]
+     }
+    },
+    {
+     "id": "b4-powtorka-do-dwudziestu",
+     "typ": "dzialania",
+     "polecenie": "Policz i pokaż liczbę.",
+     "dla_rodzica": "Ostatnie ćwiczenie z liczeniem. Jeśli idzie gładko, dziecko jest gotowe na dodawanie.",
+     "dane": {
+      "zadania": [
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "12"
+       },
+       {
+        "tresc": "□ □ □ □ □ □ □ □ □ □ □ □ □ □ □",
+        "wynik": "15"
+       },
+       {
+        "tresc": "○○○○○○○○○○ | ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "17"
+       },
+       {
+        "tresc": "★ ★ ★ ★ ★ ★ ★ ★ ★",
+        "wynik": "9"
+       },
+       {
+        "tresc": "○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+        "wynik": "20"
+       },
+       {
+        "tresc": "□ □ □ □ □ □ □ □ □ □ □ □ □ □",
+        "wynik": "14"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b4-co-juz-umiem",
+     "typ": "formularz",
+     "polecenie": "Zaznacz kreską, co już idzie samo.",
+     "dla_rodzica": "Rubryki wypełniasz ty, u siebie. Porównuj dziecko z nim samym sprzed miesiąca.",
+     "dane": {
+      "pola": [
+       {
+        "etykieta": "Liczy przedmioty, dotykając po kolei",
+        "wysokosc_mm": 12,
+        "linie": 1
+       },
+       {
+        "etykieta": "Mówi, ile jest, bez liczenia drugi raz",
+        "wysokosc_mm": 12,
+        "linie": 1
+       },
+       {
+        "etykieta": "Rozpoznaje cyfry od jednego do dziesięciu",
+        "wysokosc_mm": 12,
+        "linie": 1
+       },
+       {
+        "etykieta": "Rozpoznaje liczby do dwudziestu",
+        "wysokosc_mm": 12,
+        "linie": 1
+       },
+       {
+        "etykieta": "Widzi pełną dziesiątkę bez liczenia",
+        "wysokosc_mm": 12,
+        "linie": 1
+       },
+       {
+        "etykieta": "Liczy wstecz od dziesięciu",
+        "wysokosc_mm": 12,
+        "linie": 1
+       },
+       {
+        "etykieta": "Data pierwszego razu",
+        "wysokosc_mm": 12,
+        "linie": 1
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "klucz_odpowiedzi": [
+  {
+   "strona_id": "b1-slowa-po-kolei",
+   "odpowiedzi": [
+    "trzy",
+    "pięć",
+    "osiem"
+   ]
+  },
+  {
+   "strona_id": "b1-sortuj-garsci",
+   "odpowiedzi": [
+    "mniej niż pięć: dwa guziki, trzy klocki, cztery łyżki",
+    "pięć albo więcej: sześć kredek, siedem spinaczy, dziewięć fasolek"
+   ]
+  },
+  {
+   "strona_id": "b1-wiecej-czy-mniej",
+   "odpowiedzi": [
+    "1. widelce",
+    "2. klocki",
+    "3. spinacze",
+    "4. fasolki"
+   ]
+  },
+  {
+   "strona_id": "b2-ile-kropek-do-trzech",
+   "odpowiedzi": [
+    "1. jeden",
+    "2. trzy",
+    "3. dwa",
+    "4. trzy",
+    "5. jeden"
+   ]
+  },
+  {
+   "strona_id": "b2-ile-kropek-do-pieciu",
+   "odpowiedzi": [
+    "1. cztery",
+    "2. pięć",
+    "3. trzy",
+    "4. pięć",
+    "5. cztery"
+   ]
+  },
+  {
+   "strona_id": "b2-lacz-kropki-slowa-a",
+   "odpowiedzi": [
+    "1 → jeden",
+    "2 → dwa",
+    "3 → trzy",
+    "4 → cztery"
+   ]
+  },
+  {
+   "strona_id": "b2-wiecej-kropek",
+   "odpowiedzi": [
+    "1. drugi",
+    "2. pierwszy",
+    "3. drugi",
+    "4. pierwszy"
+   ]
+  },
+  {
+   "strona_id": "b2-ile-kropek-do-szesciu",
+   "odpowiedzi": [
+    "1. sześć",
+    "2. cztery",
+    "3. pięć",
+    "4. sześć",
+    "5. trzy"
+   ]
+  },
+  {
+   "strona_id": "b2-lacz-kropki-slowa-b",
+   "odpowiedzi": [
+    "1 → pięć",
+    "2 → sześć",
+    "3 → siedem",
+    "4 → osiem"
+   ]
+  },
+  {
+   "strona_id": "b2-sortuj-grupy",
+   "odpowiedzi": [
+    "mało, mniej niż pięć: ○ ○, ○ ○ ○, ○ ○ ○ ○",
+    "dużo, pięć albo więcej: ○ ○ ○ ○ ○ ○ ○, ○ ○ ○ ○ ○ ○ ○ ○, ○ ○ ○ ○ ○ ○ ○ ○ ○"
+   ]
+  },
+  {
+   "strona_id": "b2-mniej-kropek",
+   "odpowiedzi": [
+    "1. drugi",
+    "2. pierwszy",
+    "3. drugi",
+    "4. pierwszy"
+   ]
+  },
+  {
+   "strona_id": "b2-ile-kropek-do-osmiu",
+   "odpowiedzi": [
+    "1. siedem",
+    "2. osiem",
+    "3. sześć",
+    "4. osiem",
+    "5. siedem"
+   ]
+  },
+  {
+   "strona_id": "b2-lacz-kropki-slowa-c",
+   "odpowiedzi": [
+    "1 → siedem",
+    "2 → osiem",
+    "3 → dziewięć",
+    "4 → dziesięć"
+   ]
+  },
+  {
+   "strona_id": "b2-sekwencja-rosnaca",
+   "odpowiedzi": [
+    "dwa",
+    "pięć",
+    "siedem"
+   ]
+  },
+  {
+   "strona_id": "b2-ile-kropek-do-dziesieciu",
+   "odpowiedzi": [
+    "1. dziewięć",
+    "2. dziesięć",
+    "3. osiem",
+    "4. dziesięć",
+    "5. dziewięć"
+   ]
+  },
+  {
+   "strona_id": "b2-sortuj-do-pieciu",
+   "odpowiedzi": [
+    "mniej niż trzy: ○, ○ ○",
+    "trzy, cztery albo pięć: ○ ○ ○ ○, ○ ○ ○ ○ ○",
+    "więcej niż pięć: ○ ○ ○ ○ ○ ○ ○, ○ ○ ○ ○ ○ ○ ○ ○ ○"
+   ]
+  },
+  {
+   "strona_id": "b2-tyle-samo",
+   "odpowiedzi": [
+    "1. pierwszy",
+    "2. drugi",
+    "3. pierwszy",
+    "4. drugi"
+   ]
+  },
+  {
+   "strona_id": "b2-kwadraty-i-kolka",
+   "odpowiedzi": [
+    "1. trzy",
+    "2. sześć",
+    "3. cztery",
+    "4. osiem",
+    "5. pięć"
+   ]
+  },
+  {
+   "strona_id": "b2-licz-wzrokiem",
+   "odpowiedzi": [
+    "1. dwa",
+    "2. trzy",
+    "3. cztery",
+    "4. pięć",
+    "5. sześć"
+   ]
+  },
+  {
+   "strona_id": "b2-sekwencja-malejaca",
+   "odpowiedzi": [
+    "osiem",
+    "sześć",
+    "trzy"
+   ]
+  },
+  {
+   "strona_id": "b2-lacz-ksztalty-slowa",
+   "odpowiedzi": [
+    "1 → dwa",
+    "2 → pięć",
+    "3 → siedem",
+    "4 → dziewięć"
+   ]
+  },
+  {
+   "strona_id": "b2-powtorka-do-dziesieciu",
+   "odpowiedzi": [
+    "1. sześć",
+    "2. dziewięć",
+    "3. cztery",
+    "4. dziesięć",
+    "5. siedem",
+    "6. trzy"
+   ]
+  },
+  {
+   "strona_id": "b3-poznaj-jeden-dwa-trzy",
+   "odpowiedzi": [
+    "1 → 1",
+    "2 → 2",
+    "3 → 3"
+   ]
+  },
+  {
+   "strona_id": "b3-poznaj-cztery-piec",
+   "odpowiedzi": [
+    "1 → 4",
+    "2 → 5",
+    "3 → 3"
+   ]
+  },
+  {
+   "strona_id": "b3-ile-kropek-zapisz-a",
+   "odpowiedzi": [
+    "1. 2",
+    "2. 5",
+    "3. 3",
+    "4. 1",
+    "5. 4",
+    "6. 5"
+   ]
+  },
+  {
+   "strona_id": "b3-cyfra-do-slowa-a",
+   "odpowiedzi": [
+    "1 → jeden",
+    "2 → dwa",
+    "3 → trzy",
+    "4 → cztery",
+    "5 → pięć"
+   ]
+  },
+  {
+   "strona_id": "b3-wybierz-cyfre-a",
+   "odpowiedzi": [
+    "1. 3",
+    "2. 5",
+    "3. 1",
+    "4. 4",
+    "5. 2"
+   ]
+  },
+  {
+   "strona_id": "b3-sekwencja-do-pieciu",
+   "odpowiedzi": [
+    "2",
+    "4"
+   ]
+  },
+  {
+   "strona_id": "b3-ile-kropek-zapisz-b",
+   "odpowiedzi": [
+    "1. 6",
+    "2. 4",
+    "3. 7",
+    "4. 2",
+    "5. 6",
+    "6. 3"
+   ]
+  },
+  {
+   "strona_id": "b3-poznaj-szesc-siedem",
+   "odpowiedzi": [
+    "1 → 6",
+    "2 → 7",
+    "3 → 5"
+   ]
+  },
+  {
+   "strona_id": "b3-cyfra-do-slowa-b",
+   "odpowiedzi": [
+    "1 → sześć",
+    "2 → siedem",
+    "3 → osiem",
+    "4 → dziewięć",
+    "5 → dziesięć"
+   ]
+  },
+  {
+   "strona_id": "b3-sekwencja-do-dziesieciu",
+   "odpowiedzi": [
+    "3",
+    "5",
+    "8"
+   ]
+  },
+  {
+   "strona_id": "b3-ile-kropek-zapisz-c",
+   "odpowiedzi": [
+    "1. 8",
+    "2. 9",
+    "3. 7",
+    "4. 10",
+    "5. 8",
+    "6. 9"
+   ]
+  },
+  {
+   "strona_id": "b3-wybierz-cyfre-b",
+   "odpowiedzi": [
+    "1. 8",
+    "2. 10",
+    "3. 6",
+    "4. 9",
+    "5. 7"
+   ]
+  },
+  {
+   "strona_id": "b3-sortuj-cyfry",
+   "odpowiedzi": [
+    "mniejsze niż pięć: 2, 3, 4",
+    "większe niż pięć: 7, 8, 9"
+   ]
+  },
+  {
+   "strona_id": "b3-uzupelnij-cyfre-a",
+   "odpowiedzi": [
+    "1. 3",
+    "2. 6",
+    "3. 1",
+    "4. 8",
+    "5. 5"
+   ]
+  },
+  {
+   "strona_id": "b3-zero-to-nic",
+   "odpowiedzi": [
+    "1. 0",
+    "2. 2",
+    "3. 0",
+    "4. 1",
+    "5. 3",
+    "6. 0"
+   ]
+  },
+  {
+   "strona_id": "b3-ile-kropek-zapisz-d",
+   "odpowiedzi": [
+    "1. 4",
+    "2. 7",
+    "3. 2",
+    "4. 9",
+    "5. 5",
+    "6. 6"
+   ]
+  },
+  {
+   "strona_id": "b3-sekwencja-wstecz",
+   "odpowiedzi": [
+    "8",
+    "6",
+    "3"
+   ]
+  },
+  {
+   "strona_id": "b3-uzupelnij-cyfre-b",
+   "odpowiedzi": [
+    "1. 7",
+    "2. 4",
+    "3. 9",
+    "4. 2",
+    "5. 6"
+   ]
+  },
+  {
+   "strona_id": "b3-sortuj-przed-po",
+   "odpowiedzi": [
+    "przed piątką: 1, 2",
+    "po piątce: 6, 7, 9, 10"
+   ]
+  },
+  {
+   "strona_id": "b3-powtorka-cyfry",
+   "odpowiedzi": [
+    "1. 5",
+    "2. 8",
+    "3. 3",
+    "4. 10",
+    "5. 6",
+    "6. 9"
+   ]
+  },
+  {
+   "strona_id": "b4-dziesiatka-i-reszta-a",
+   "odpowiedzi": [
+    "1. 11",
+    "2. 12",
+    "3. 13",
+    "4. 14"
+   ]
+  },
+  {
+   "strona_id": "b4-sekwencja-do-pietnastu",
+   "odpowiedzi": [
+    "12",
+    "14"
+   ]
+  },
+  {
+   "strona_id": "b4-lacz-liczba-slowo-a",
+   "odpowiedzi": [
+    "1 → jedenaście",
+    "2 → dwanaście",
+    "3 → trzynaście",
+    "4 → czternaście",
+    "5 → piętnaście"
+   ]
+  },
+  {
+   "strona_id": "b4-ile-kropek-zapisz-e",
+   "odpowiedzi": [
+    "1. 11",
+    "2. 13",
+    "3. 12",
+    "4. 14"
+   ]
+  },
+  {
+   "strona_id": "b4-wybierz-liczbe-a",
+   "odpowiedzi": [
+    "1. 13",
+    "2. 11",
+    "3. 15",
+    "4. 12",
+    "5. 14"
+   ]
+  },
+  {
+   "strona_id": "b4-sekwencja-do-dwudziestu",
+   "odpowiedzi": [
+    "17",
+    "19"
+   ]
+  },
+  {
+   "strona_id": "b4-lacz-liczba-slowo-b",
+   "odpowiedzi": [
+    "1 → szesnaście",
+    "2 → siedemnaście",
+    "3 → osiemnaście",
+    "4 → dziewiętnaście",
+    "5 → dwadzieścia"
+   ]
+  },
+  {
+   "strona_id": "b4-sortuj-mniej-wiecej",
+   "odpowiedzi": [
+    "mniejsze niż piętnaście: 11, 12, 13",
+    "większe niż piętnaście: 17, 18, 20"
+   ]
+  },
+  {
+   "strona_id": "b4-ile-kropek-zapisz-f",
+   "odpowiedzi": [
+    "1. 15",
+    "2. 16",
+    "3. 17",
+    "4. 18"
+   ]
+  },
+  {
+   "strona_id": "b4-uzupelnij-liczbe-a",
+   "odpowiedzi": [
+    "1. 12",
+    "2. 15",
+    "3. 11",
+    "4. 17",
+    "5. 19"
+   ]
+  },
+  {
+   "strona_id": "b4-sekwencja-wstecz-20",
+   "odpowiedzi": [
+    "18",
+    "16",
+    "13"
+   ]
+  },
+  {
+   "strona_id": "b4-ile-kropek-zapisz-g",
+   "odpowiedzi": [
+    "1. 19",
+    "2. 20",
+    "3. 16",
+    "4. 20"
+   ]
+  },
+  {
+   "strona_id": "b4-wybierz-liczbe-b",
+   "odpowiedzi": [
+    "1. 18",
+    "2. 20",
+    "3. 16",
+    "4. 19",
+    "5. 17"
+   ]
+  },
+  {
+   "strona_id": "b4-dziesiatka-i-reszta-b",
+   "odpowiedzi": [
+    "1. 13",
+    "2. 16",
+    "3. 18",
+    "4. 12"
+   ]
+  },
+  {
+   "strona_id": "b4-sortuj-nascie",
+   "odpowiedzi": [
+    "jeden znak: 4, 7, 9",
+    "dwa znaki: 14, 17, 19"
+   ]
+  },
+  {
+   "strona_id": "b4-uzupelnij-liczbe-b",
+   "odpowiedzi": [
+    "1. 13",
+    "2. 16",
+    "3. 11",
+    "4. 18",
+    "5. 20"
+   ]
+  },
+  {
+   "strona_id": "b4-co-przed-co-po",
+   "odpowiedzi": [
+    "1. 14",
+    "2. 18",
+    "3. 11",
+    "4. 20",
+    "5. 15"
+   ]
+  },
+  {
+   "strona_id": "b4-powtorka-do-dwudziestu",
+   "odpowiedzi": [
+    "1. 12",
+    "2. 15",
+    "3. 17",
+    "4. 9",
+    "5. 20",
+    "6. 14"
+   ]
+  }
+ ],
+ "fragment": {
+  "do_strony": 12,
+  "obietnica_na_stronie": "Dalej są trzy bloki: kropki na papierze, cyfry od zera do dziesięciu i liczby do dwudziestu. Razem 78 kartek."
+ }
+}

@@ -26,9 +26,32 @@
     <ul class="karta__lista">
       {% for v in g.warianty_trudnosci %}<li><strong>{{ v.nazwa }}</strong> — {{ v.zmiana }}</li>{% endfor %}
     </ul>
+    {# Wariant zwarty: pole gry pod zasadami, na tej samej kartce. Wymusza go
+       format produktów w rodzaju zestawu na podróż, gdzie jedna gra to
+       dosłownie jedna strona do wyrwania. #}
+    {% if g.get('zwarta') and g.get('plansza') %}
+      <div class="tresc tresc--rozciagnij" style="margin-top:5mm">
+        {% if g.plansza.typ == 'plansza_gry' %}
+          <div class="plansza plansza--zwarta">
+            {% for pole in g.plansza.dane.pola %}
+              <div class="plansza__pole {{ 'plansza__pole--meta' if loop.last }}">
+                <span class="plansza__nr">{{ loop.index }}</span>
+                <span class="plansza__tresc">{{ pole }}</span>
+              </div>
+            {% endfor %}
+          </div>
+        {% else %}
+          <table class="tabela-sylab">
+            {% for wiersz in g.plansza.dane.wiersze %}
+              <tr>{% for x in wiersz %}<td>{{ x }}</td>{% endfor %}</tr>
+            {% endfor %}
+          </table>
+        {% endif %}
+      </div>
+    {% endif %}
     {{ w.stopka(c, ns.nr) }}
   </div>
-  {% if g.get('plansza') %}
+  {% if g.get('plansza') and not g.get('zwarta') %}
     {% set ns.nr = ns.nr + 1 %}
     {{ w.strona_cwiczenia(c, g.plansza, g.nazwa, 'plansza', ns.nr) }}
   {% endif %}
