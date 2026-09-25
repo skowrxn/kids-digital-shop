@@ -65,7 +65,7 @@ SPECY = {
    obietnica="Wchodzisz na zebranie z listą pytań i wychodzisz z zapisanymi odpowiedziami, a nie z samym wrażeniem.",
    warunek="Brak. To materiał dla ciebie.",
    progresja="Trzy rozdziały: przygotowanie, sama rozmowa, co potem. Arkusz notatek jest w środku i wypełniasz go na miejscu.",
-   fragment="Rozdział o przygotowaniu plus arkusz notatek, 10 stron.",
+   fragment="Cały rozdział o przygotowaniu, 14 stron. Arkusz notatek z rozdziału 2 wypada dopiero na stronach 18-19, więc fragment obejmuje samodzielny rozdział 1.",
    nie=["Nie mówi, kto ma rację w sporze ze szkołą.",
         "Nie jest pismem procesowym ani wzorem skargi.",
         "Nie zawiera porad prawnych."]),

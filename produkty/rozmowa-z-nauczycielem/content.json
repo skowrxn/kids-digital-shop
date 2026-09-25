@@ -1,0 +1,705 @@
+{
+  "meta": {
+    "slug": "rozmowa-z-nauczycielem",
+    "tytul": "Rozmowa z nauczycielem",
+    "podtytul": "Jak przygotować się na zebranie",
+    "archetyp": "PORADNIK",
+    "wersja": "1.0",
+    "wiek": "dowolny",
+    "kategoria": "rodzic",
+    "podkategoria": "rozmowy",
+    "strony_deklarowane": 36,
+    "min_pt_dziecka": 12
+  },
+  "wstep": {
+    "dla_kogo": "Dla rodzica przed pierwszym zebraniem albo przed trudną rozmową o dziecku.",
+    "obietnica": "Wchodzisz na zebranie z listą pytań i wychodzisz z zapisanymi odpowiedziami, a nie z samym wrażeniem.",
+    "warunek_wejscia": "Żaden. To materiał dla ciebie.",
+    "ile_czasu_dziennie": "Rozdział pierwszy czytasz raz, dzień przed zebraniem. Zajmie ci to kwadrans.",
+    "jak_korzystac": [
+      "Przeczytaj rozdział pierwszy dzień przed rozmową, nie w jej dniu.",
+      "Wybierz trzy pytania, nie dziesięć. Trzy zdążysz zadać.",
+      "Wydrukuj arkusz notatek z rozdziału drugiego i weź go ze sobą.",
+      "Notuj na miejscu. Po powrocie zostanie ci wrażenie, nie zdania.",
+      "Rozdział trzeci przeczytaj tego samego wieczoru, póki pamiętasz.",
+      "Rubryki są puste. Wypełniasz je u siebie, ołówkiem."
+    ],
+    "czego_nie_robi": [
+      "Nie mówi, kto ma rację w sporze ze szkołą.",
+      "Nie jest pismem procesowym ani wzorem skargi.",
+      "Nie zawiera porad prawnych.",
+      "Nie ocenia nauczycieli ani szkoły. Porządkuje twoją stronę rozmowy."
+    ]
+  },
+  "rozdzialy": [
+    {
+      "tytul": "rozdział 1. zanim pójdziesz",
+      "strony": [
+        {
+          "id": "r1-s1",
+          "typ": "proza",
+          "polecenie": "Zacznij tutaj",
+          "dane": {
+            "akapity": [
+              "Zebranie trwa czterdzieści minut. Twoja część to zwykle pięć. W tych pięciu minutach mieści się wszystko, co chcesz wiedzieć o swoim dziecku w szkole.",
+              "Dlatego rozmowa bez przygotowania kończy się tak samo u większości rodziców. Wracasz do domu z jednym zdaniem w głowie i nie wiesz, co z nim zrobić.",
+              "Nie chodzi o to, żeby wejść z kartką pełną zarzutów. Chodzi o to, żeby wiedzieć, o co pytasz, i zapisać, co usłyszysz.",
+              "Ten rozdział przygotowuje cię w kwadrans. Reszta materiału pomaga w trakcie i po rozmowie."
+            ]
+          }
+        },
+        {
+          "id": "r1-s2",
+          "typ": "proza",
+          "polecenie": "Ustal jedną rzecz na wyjście",
+          "dane": {
+            "akapity": [
+              "Zanim ułożysz pytania, dokończ zdanie: wyjdę stąd, wiedząc, że… Jedno zdanie, nie pięć.",
+              "Może to być: wiem, jak dziecko radzi sobie z czytaniem. Albo: wiem, z kim siedzi i czy ma z kim wyjść na przerwę.",
+              "To zdanie jest twoim kompasem. Kiedy rozmowa zejdzie na boczny tor, wracasz do niego i pytasz jeszcze raz.",
+              "Jeśli masz trzy takie zdania, wybierz jedno na tę rozmowę. Pozostałe zapisz na następną. Rozmów będzie więcej."
+            ]
+          }
+        },
+        {
+          "id": "r1-s3",
+          "typ": "proza",
+          "polecenie": "Zebranie a rozmowa indywidualna",
+          "dane": {
+            "akapity": [
+              "To są dwie różne sytuacje i nie zadaje się na nich tych samych pytań.",
+              "Zebranie ogólne dotyczy klasy. Wycieczki, składki, plan roku, ogólny obraz grupy. Twoje dziecko jest tam jednym z dwudziestu pięciu.",
+              "Rozmowa indywidualna dotyczy twojego dziecka. Jest krótsza i dostajesz w niej konkretne przykłady.",
+              "Jeśli twoje pytanie zaczyna się od „a moje dziecko…”, to jest pytanie na rozmowę indywidualną. Na zebraniu poproś o termin i zapisz go od razu."
+            ]
+          }
+        },
+        {
+          "id": "r1-s4",
+          "typ": "lista_krokow",
+          "polecenie": "Przygotowanie w kwadrans",
+          "dla_rodzica": "Zrób to dzień wcześniej, nie w drodze do szkoły.",
+          "dane": {
+            "kroki": [
+              "Dokończ zdanie: wyjdę stąd, wiedząc, że…",
+              "Wypisz wszystko, co przychodzi ci do głowy. Nie oceniaj na tym etapie.",
+              "Skreśl pytania, na które odpowiedź nic nie zmieni w waszym domu.",
+              "Z reszty zostaw trzy. Zapisz je na arkuszu z rozdziału drugiego.",
+              "Sprawdź, czy któreś jest o innym dziecku. Takie wykreśl.",
+              "Przy każdym pytaniu dopisz, kiedy ostatnio widziałeś to w domu.",
+              "Wydrukuj arkusz notatek i włóż do torby razem z długopisem."
+            ]
+          }
+        },
+        {
+          "id": "r1-s5",
+          "typ": "proza",
+          "polecenie": "Trzy obszary, z których wybierasz",
+          "dane": {
+            "akapity": [
+              "Pytania rodziców mieszczą się prawie zawsze w trzech obszarach.",
+              "Pierwszy to postępy: co dziecko już robi samo, a przy czym potrzebuje pomocy. Drugi to funkcjonowanie w grupie: z kim pracuje, jak wygląda przerwa, jak reaguje na zmianę planu.",
+              "Trzeci bywa pomijany, a jest najbardziej praktyczny: czego szkoła oczekuje od domu. Ile minut pracy dziennie, co ćwiczyć, czego lepiej nie robić.",
+              "Na kolejnych trzech stronach masz gotowe pytania z każdego obszaru. Wybierz trzy łącznie, nie trzy z każdego."
+            ]
+          }
+        },
+        {
+          "id": "r1-s6",
+          "typ": "tabela",
+          "polecenie": "Pytania o postępy",
+          "dla_rodzica": "Wybierz najwyżej jedno albo dwa. Zapisz je własnymi słowami.",
+          "dane": {
+            "naglowki_kolumn": [
+              "pytanie",
+              "co ci daje"
+            ],
+            "wiersze": [
+              [
+                "Co robi teraz samo, a czego jeszcze nie robi bez pomocy?",
+                "granicę, od której zaczynasz w domu"
+              ],
+              [
+                "Co zmieniło się od września?",
+                "kierunek zamiast jednej fotografii"
+              ],
+              [
+                "Przy którym zadaniu widzi pan lub pani najwięcej wysiłku?",
+                "jedno miejsce do popracowania"
+              ],
+              [
+                "Jak wygląda jego praca, gdy zadanie jest dłuższe?",
+                "obraz wytrwałości, nie samej wiedzy"
+              ],
+              [
+                "Czy prosi o pomoc, kiedy utknie?",
+                "rzecz, którą można ćwiczyć w domu"
+              ],
+              [
+                "Po czym pozna pan lub pani, że poszło do przodu?",
+                "wspólną miarę na następną rozmowę"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "r1-s7",
+          "typ": "tabela",
+          "polecenie": "Pytania o życie w grupie",
+          "dla_rodzica": "Pytaj o to, co da się zobaczyć. Nie o to, co dziecko czuje.",
+          "dane": {
+            "naglowki_kolumn": [
+              "pytanie",
+              "co ci daje"
+            ],
+            "wiersze": [
+              [
+                "Z kim pracuje w parze, gdy może wybrać sam?",
+                "realny obraz znajomości w klasie"
+              ],
+              [
+                "Jak wygląda jego przerwa?",
+                "część dnia, której nigdy nie widzisz"
+              ],
+              [
+                "Co robi, gdy plan dnia się zmienia?",
+                "informację o elastyczności, nie o charakterze"
+              ],
+              [
+                "Odzywa się na forum czy raczej przy stoliku?",
+                "sposób, w jaki się pokazuje w grupie"
+              ],
+              [
+                "Były w tym miesiącu sytuacje, o których powinienem wiedzieć?",
+                "otwarte drzwi bez oskarżania kogokolwiek"
+              ],
+              [
+                "Jak wygląda jego powrót po dniu wolnym?",
+                "wskazówkę, ile trwa wejście w rytm"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "r1-s8",
+          "typ": "tabela",
+          "polecenie": "Pytania o to, czego szkoła oczekuje",
+          "dla_rodzica": "Te pytania kończą rozmowę czymś, co zrobisz w przyszłym tygodniu.",
+          "dane": {
+            "naglowki_kolumn": [
+              "pytanie",
+              "co ci daje"
+            ],
+            "wiersze": [
+              [
+                "Ile minut pracy w domu ma sens w tym wieku?",
+                "liczbę zamiast domysłów"
+              ],
+              [
+                "Co powinniśmy ćwiczyć w domu, a co zostawić szkole?",
+                "podział zadań, nie dublowanie"
+              ],
+              [
+                "Czego lepiej w domu nie robić?",
+                "rzecz, którą zwykle robisz z dobrych chęci"
+              ],
+              [
+                "Jak mam reagować, gdy dziecko nie chce usiąść do zadania?",
+                "jedno zdanie do powiedzenia wieczorem"
+              ],
+              [
+                "Jak najlepiej się kontaktować, gdy będę miał pytanie?",
+                "kanał i realny czas odpowiedzi"
+              ],
+              [
+                "Kiedy możemy porozmawiać następnym razem?",
+                "termin, a nie dobre chęci"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "r1-s9",
+          "typ": "proza",
+          "polecenie": "Czego nie pytać przy innych rodzicach",
+          "dla_rodzica": "Ta strona dotyczy zebrania ogólnego, gdy sala jest pełna.",
+          "dane": {
+            "akapity": [
+              "Na zebraniu ogólnym siedzi dwadzieścia osób. Wszystko, co powiesz, usłyszą wszyscy.",
+              "Nie pytaj o innych uczniów, nawet jeśli twoje pytanie dotyczy twojego dziecka. Pytanie „kto go popycha na przerwie” zostanie w głowach rodziców dłużej niż odpowiedź.",
+              "Nie pytaj o ocenę swojego dziecka na tle klasy. Nauczyciel i tak nie odpowie, a ty dostaniesz zdanie ogólne.",
+              "Nie opowiadaj na forum o zdrowiu dziecka ani o sytuacji w domu. To należy do rozmowy we dwoje.",
+              "Wszystkie trzy da się zadać osobno. Wystarczy jedno zdanie: chciałbym umówić się na krótką rozmowę, kiedy będzie pani lub panu wygodnie."
+            ]
+          }
+        },
+        {
+          "id": "r1-s10",
+          "typ": "formularz",
+          "polecenie": "Twoje trzy pytania",
+          "dla_rodzica": "Rubryki są puste. Wpisz je ołówkiem dzień przed rozmową.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Wyjdę stąd, wiedząc, że…",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Pytanie 1",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Pytanie 2",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Pytanie 3",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Pytanie na osobną rozmowę, nie na forum",
+                "wysokosc_mm": 16,
+                "linie": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "r1-s11",
+          "typ": "proza",
+          "polecenie": "Co zabrać i jak ustawić czas",
+          "dane": {
+            "akapity": [
+              "Weź kartkę z pytaniami, długopis i telefon wyciszony, schowany w torbie.",
+              "Jeśli idziecie we dwoje, ustalcie wcześniej, kto pyta, a kto notuje. Dwie osoby mówiące naraz skracają wasze pięć minut do trzech.",
+              "Przy rozmowie indywidualnej zapytaj na wejściu, ile macie czasu. To nie jest nietaktowne. Dzięki temu wiesz, czy zdążysz z trzema pytaniami, czy z jednym.",
+              "Kartkę z pytaniami trzymaj na wierzchu. Nikt nie ma o to pretensji, a ty nie tracisz połowy rozmowy na przypominanie sobie, po co przyszedłeś."
+            ]
+          }
+        }
+      ],
+      "do_zrobienia_w_tym_tygodniu": [
+        "Dokończ zdanie: wyjdę stąd, wiedząc, że…",
+        "Wybierz trzy pytania i zapisz je własnymi słowami.",
+        "Sprawdź, czy któreś z nich dotyczy innego dziecka. Takie wykreśl.",
+        "Wydrukuj arkusz notatek ze stron rozdziału drugiego.",
+        "Włóż kartkę i długopis do torby dzień wcześniej."
+      ]
+    },
+    {
+      "tytul": "rozdział 2. w trakcie rozmowy",
+      "strony": [
+        {
+          "id": "r2-s1",
+          "typ": "proza",
+          "polecenie": "Pierwsze dwie minuty",
+          "dane": {
+            "akapity": [
+              "Rozmowa ustawia się na początku i potem trudno ją przestawić.",
+              "Zacznij od tego, po co przyszedłeś. Jedno zdanie wystarczy: chciałbym zapytać o trzy rzeczy i zapisać sobie odpowiedzi.",
+              "To zdanie robi dwie rzeczy naraz. Pokazuje, że masz plan, i uprzedza, że będziesz notował. Nikt się wtedy nie dziwi kartce.",
+              "Nie zaczynaj od przeprosin za zajmowanie czasu. Rozmowa o dziecku jest częścią pracy nauczyciela, a nie przysługą."
+            ]
+          }
+        },
+        {
+          "id": "r2-s2",
+          "typ": "proza",
+          "polecenie": "Dlaczego po tygodniu zostaje wrażenie",
+          "dane": {
+            "akapity": [
+              "Po rozmowie pamiętasz ton głosu i jedno zdanie, które zabolało albo ucieszyło. Reszta znika w ciągu dwóch dni.",
+              "Potem opowiadasz to drugiemu rodzicowi i z każdą opowieścią zdanie przesuwa się o krok od tego, co padło naprawdę.",
+              "Dlatego notujesz. Nie po to, żeby mieć dowód. Po to, żeby za tydzień pracować na słowach, a nie na wspomnieniu.",
+              "Zapisane zdanie ma jeszcze jedną zaletę. Możesz do niego wrócić na następnej rozmowie i zapytać, co się zmieniło."
+            ]
+          }
+        },
+        {
+          "id": "r2-s3",
+          "typ": "lista_krokow",
+          "polecenie": "Jak notować, żeby coś zostało",
+          "dla_rodzica": "Notujesz krótko. Pełne zdania spisujesz wieczorem w domu.",
+          "dane": {
+            "kroki": [
+              "Zapisuj cudze słowa, nie swoje wnioski. Wniosek zrobisz wieczorem.",
+              "Kiedy padnie przykład z konkretnym dniem albo zadaniem, zapisz go w całości.",
+              "Liczby zapisuj zawsze: ile minut, ile razy w tygodniu, który miesiąc.",
+              "Nie notuj wszystkiego. Trzy zdania z całej rozmowy to dobry wynik.",
+              "Gdy czegoś nie rozumiesz, postaw znak zapytania i dopytaj na koniec.",
+              "Na końcu przeczytaj na głos, co zapisałeś, i zapytaj, czy dobrze zrozumiałeś."
+            ]
+          }
+        },
+        {
+          "id": "r2-s4",
+          "typ": "formularz",
+          "polecenie": "Arkusz notatek, część pierwsza",
+          "dla_rodzica": "Wydrukuj i weź ze sobą. Rubryki wypełniasz na miejscu.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Dzień rozmowy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Rodzaj rozmowy: zebranie czy spotkanie we dwoje",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Odpowiedź na pytanie 1 — cytat, nie wniosek",
+                "wysokosc_mm": 26,
+                "linie": 4
+              },
+              {
+                "etykieta": "Odpowiedź na pytanie 2 — cytat, nie wniosek",
+                "wysokosc_mm": 26,
+                "linie": 4
+              },
+              {
+                "etykieta": "Odpowiedź na pytanie 3 — cytat, nie wniosek",
+                "wysokosc_mm": 26,
+                "linie": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "r2-s5",
+          "typ": "formularz",
+          "polecenie": "Arkusz notatek, część druga",
+          "dla_rodzica": "Tę stronę wypełniasz w ostatnich dwóch minutach rozmowy.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Padł konkretny przykład — jaki",
+                "wysokosc_mm": 22,
+                "linie": 3
+              },
+              {
+                "etykieta": "Liczby, które usłyszałem: minuty, dni, razy w tygodniu",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Co robi szkoła",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Co robię ja w domu",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Do czego nie mam pewności i dopytam",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Następna rozmowa — kiedy i w jakiej formie",
+                "wysokosc_mm": 12,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "r2-s6",
+          "typ": "proza",
+          "polecenie": "Gdy rozmowa schodzi na ogólniki",
+          "dane": {
+            "akapity": [
+              "„Jest bardzo grzeczny”, „radzi sobie dobrze”, „wszystko w porządku”. To są zdania uprzejme i prawie puste.",
+              "Zwykle nie znaczą, że nauczyciel unika odpowiedzi. Znaczą, że pytanie było szerokie, a czasu jest mało.",
+              "Odpowiedź na ogólnik to prośba o przykład. Jeden konkretny dzień, jedno zadanie, jedna sytuacja z ostatniego tygodnia.",
+              "Prośba o przykład nie jest podważaniem. Brzmi zwyczajnie: czy może pani podać przykład z ostatniego tygodnia?",
+              "Na następnej stronie masz gotowe przełożenia najczęstszych ogólników na pytania, które dają konkret."
+            ]
+          }
+        },
+        {
+          "id": "r2-s7",
+          "typ": "tabela",
+          "polecenie": "Ogólnik i pytanie doprecyzowujące",
+          "dla_rodzica": "Nie zadawaj wszystkich. Wybierz to, które dotyczy twojej sprawy.",
+          "dane": {
+            "naglowki_kolumn": [
+              "gdy słyszysz",
+              "pytasz"
+            ],
+            "wiersze": [
+              [
+                "Radzi sobie dobrze",
+                "Przy którym zadaniu radzi sobie najlepiej?"
+              ],
+              [
+                "Bywa różnie",
+                "Jak wyglądał dzień, w którym było trudniej?"
+              ],
+              [
+                "Musi bardziej się starać",
+                "Co konkretnie miałby robić inaczej?"
+              ],
+              [
+                "Jest zdolny, tylko się nie przykłada",
+                "Po czym widać, że się nie przykłada?"
+              ],
+              [
+                "Trzeba popracować w domu",
+                "Ile minut dziennie i nad czym dokładnie?"
+              ],
+              [
+                "Wszystko w porządku",
+                "Co chciałaby pani zobaczyć u niego za miesiąc?"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "r2-s8",
+          "typ": "proza",
+          "polecenie": "Proś o przykład, nie o ocenę",
+          "dane": {
+            "akapity": [
+              "Pytanie „czy on jest zdolny” nie daje ci nic, co zrobisz w domu. Pytanie „co zrobił w poniedziałek, kiedy utknął” daje ci scenę.",
+              "Scena jest przydatna, bo możesz ją porównać z tym, co widzisz przy stole u siebie. Ocena porównać się nie da.",
+              "Jeśli nauczyciel nie ma przykładu pod ręką, to normalne. Dzieci w klasie są dwadzieścia cztery. Poproś, żeby zwrócił uwagę w tym tygodniu, i umów się na krótką odpowiedź.",
+              "Unikaj pytań, które zaczynają się od „dlaczego pani”. Zamień je na „co się wtedy wydarzyło”. Ta sama sprawa, inna temperatura."
+            ]
+          }
+        },
+        {
+          "id": "r2-s9",
+          "typ": "proza",
+          "polecenie": "Ostatnie dwie minuty",
+          "dane": {
+            "akapity": [
+              "Zakończenie decyduje o tym, czy rozmowa zostanie rozmową, czy zamieni się w plan.",
+              "Podsumuj na głos, co zapisałeś. Trzy zdania wystarczą: szkoła robi to, ja robię tamto, wracamy do tematu wtedy.",
+              "Podsumowanie na głos wyłapuje nieporozumienia, póki obie strony siedzą przy stole. Po wyjściu nie wyłapie ich już nic.",
+              "Umów termin następnej rozmowy albo ustal, w jakiej formie dostaniesz odpowiedź. Bez terminu sprawa wraca dopiero na kolejnym zebraniu.",
+              "Podziękuj i wyjdź o czasie. Przedłużanie kosztuje rodzica, który czeka za drzwiami."
+            ]
+          }
+        },
+        {
+          "id": "r2-s10",
+          "typ": "proza",
+          "polecenie": "Gdy rośnie napięcie albo brakuje czasu",
+          "dane": {
+            "akapity": [
+              "Czasem pada zdanie, po którym robi ci się gorąco. Pierwszy odruch to odpowiedzieć od razu. Odłóż go.",
+              "Powiedz: muszę to sobie poukładać, wrócę do tego. Zapisz zdanie dokładnie tak, jak padło, i przejdź dalej. Rozdział trzeci mówi, co z nim zrobić.",
+              "Jeśli czas się kończy w połowie twojego drugiego pytania, nie przyspieszaj. Pospieszna odpowiedź jest warta tyle, co żadna.",
+              "Powiedz wprost: zostały mi dwa pytania, wolę zapytać o nie spokojnie. Kiedy możemy to dokończyć? Termin zapisz od razu na arkuszu."
+            ]
+          }
+        }
+      ],
+      "do_zrobienia_w_tym_tygodniu": [
+        "Weź na rozmowę wydrukowany arkusz i długopis.",
+        "Zapisz przynajmniej jeden cytat, a nie sam wniosek.",
+        "Poproś o jeden konkretny przykład z ostatniego tygodnia.",
+        "Podsumuj na głos ustalenia, zanim wstaniesz od stołu.",
+        "Zapisz termin albo formę następnego kontaktu."
+      ]
+    },
+    {
+      "tytul": "rozdział 3. co potem",
+      "strony": [
+        {
+          "id": "r3-s1",
+          "typ": "proza",
+          "polecenie": "Pierwszy wieczór",
+          "dane": {
+            "akapity": [
+              "Notatki z rozmowy są skrótowe i za trzy dni przestaną być zrozumiałe. Dlatego wracasz do nich tego samego wieczoru.",
+              "Usiądź na dziesięć minut i rozwiń skróty w pełne zdania. Pisz w czasie przeszłym i po kolei, tak jak rozmowa szła.",
+              "Oddziel dwie rzeczy: co padło naprawdę i co ty z tego wywnioskowałeś. To bardzo łatwo się zlewa po kilku godzinach.",
+              "Jeśli byliście we dwoje, przeczytajcie notatki sobie nawzajem. Zdziwisz się, ile rzeczy każde z was usłyszało inaczej."
+            ]
+          }
+        },
+        {
+          "id": "r3-s2",
+          "typ": "lista_krokow",
+          "polecenie": "Od notatek do jednej rzeczy",
+          "dla_rodzica": "Cała ta lista zajmuje kwadrans. Zrób ją w ciągu doby.",
+          "dane": {
+            "kroki": [
+              "Przeczytaj notatki i podkreśl zdania z konkretem: liczbą, dniem, zadaniem.",
+              "Z podkreślonych wybierz te, na które masz wpływ w domu.",
+              "Z nich wybierz jedno. Jedno, nie trzy.",
+              "Zapisz, co dokładnie będziesz robił: co, ile minut, w które dni.",
+              "Ustal, po czym poznasz za dwa tygodnie, że to zadziałało.",
+              "Resztę zdań przepisz na listę pytań na następną rozmowę.",
+              "Notatki schowaj w jednym miejscu. Przydadzą się za trzy miesiące."
+            ]
+          }
+        },
+        {
+          "id": "r3-s3",
+          "typ": "proza",
+          "polecenie": "Dlaczego jedna rzecz, nie pięć",
+          "dane": {
+            "akapity": [
+              "Po dobrej rozmowie masz ochotę zmienić wszystko naraz. Czytanie wieczorem, krótsze wieczory przy ekranie, nowe zasady przy odrabianiu.",
+              "Pięć zmian naraz kończy się tak samo prawie zawsze. Po tygodniu zostaje zero, a w domu jest gorzej niż przed zebraniem.",
+              "Jedna zmiana ma jeszcze jedną zaletę. Kiedy coś ruszy, wiesz, co ruszyło. Przy pięciu nie wiesz nic.",
+              "Nie mów dziecku, że to wynik rozmowy w szkole. Rozmowa dorosłych nie powinna wracać do niego jako wykaz nowych obowiązków."
+            ]
+          }
+        },
+        {
+          "id": "r3-s4",
+          "typ": "formularz",
+          "polecenie": "Plan na dwa tygodnie",
+          "dla_rodzica": "Rubryki są puste. Wypełniasz je u siebie, ołówkiem.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Jedna rzecz, którą biorę z tej rozmowy",
+                "wysokosc_mm": 20,
+                "linie": 3
+              },
+              {
+                "etykieta": "Co robię: ile minut i w które dni",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Po czym poznam za dwa tygodnie, że to działa",
+                "wysokosc_mm": 20,
+                "linie": 3
+              },
+              {
+                "etykieta": "Czego celowo nie zmieniam w tym czasie",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Pytania na następną rozmowę",
+                "wysokosc_mm": 24,
+                "linie": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "r3-s5",
+          "typ": "proza",
+          "polecenie": "Gdy się nie zgadzasz",
+          "dane": {
+            "akapity": [
+              "Czasem wracasz do domu ze zdaniem, które do niczego ci nie pasuje. Widzisz swoje dziecko codziennie i po prostu tego nie widzisz.",
+              "Pierwsza rzecz: odłóż odpowiedź o jeden dzień. Wiadomość napisana wieczorem po rozmowie brzmi inaczej niż ta sama wiadomość napisana rano.",
+              "Druga rzecz: rozdziel opis od oceny. „Nie skończył trzech zadań” to opis i da się go sprawdzić. „Nie chce mu się” to ocena i sprawdzić się jej nie da.",
+              "Z opisem można pracować, nawet jeśli nie zgadzasz się z oceną, która za nim poszła. Zacznij od opisu, bo tam jest wspólny grunt.",
+              "Ten materiał nie rozstrzygnie, kto ma rację. Nie ma do tego dostępu ani prawa. Pokazuje tylko, jak nie zamienić różnicy zdań w okop."
+            ]
+          }
+        },
+        {
+          "id": "r3-s6",
+          "typ": "lista_krokow",
+          "polecenie": "Gdy chcesz do tego wrócić",
+          "dla_rodzica": "To jest droga rozmowy, nie droga pisma. Wzorów pism tu nie ma.",
+          "dane": {
+            "kroki": [
+              "Przeczytaj swoje notatki jeszcze raz. Sprawdź, co padło, a co dopowiedziałeś.",
+              "Wypisz, co sam widzisz w domu: konkretne dni, sytuacje, zadania.",
+              "Poproś o krótką rozmowę i powiedz, czego będzie dotyczyć.",
+              "Zacznij od pytania, nie od sprostowania: chciałbym zrozumieć, na czym to było oparte.",
+              "Pokaż, co widzisz u siebie. Nie jako dowód przeciwko, tylko jako drugą część obrazu.",
+              "Zapytaj, jak możecie to razem sprawdzić przez następne dwa tygodnie.",
+              "Umów termin, w którym wrócicie do tematu, i zapisz go."
+            ]
+          }
+        },
+        {
+          "id": "r3-s7",
+          "typ": "proza",
+          "polecenie": "Jak umówić następną rozmowę",
+          "dane": {
+            "akapity": [
+              "Najlepszy moment na umówienie kolejnej rozmowy jest na końcu poprzedniej. Drugi najlepszy jest dziś.",
+              "Wiadomość może być krótka. Piszesz, czego będzie dotyczyć i ile czasu potrzebujesz. Dwa zdania wystarczą.",
+              "Podaj dwa terminy, które ci pasują, zamiast pytać ogólnie o możliwość. Ustalanie terminu skraca się wtedy z tygodnia do jednej odpowiedzi.",
+              "Jeśli sprawa jest spokojna, napisz to wprost. Zdanie „nic pilnego, chodzi o czytanie w domu” zdejmuje niepotrzebne napięcie z obu stron."
+            ]
+          }
+        },
+        {
+          "id": "r3-s8",
+          "typ": "proza",
+          "polecenie": "Co zapisać na następny raz",
+          "dane": {
+            "akapity": [
+              "Rozmów z nauczycielem będzie w ciągu roku kilka. Każda kolejna jest łatwiejsza, jeśli masz przy sobie poprzednią.",
+              "Trzymaj arkusze w jednym miejscu, w kolejności. Trzy kartki po trzech rozmowach to najlepszy obraz roku, jaki możesz mieć.",
+              "Przed kolejnym zebraniem przeczytaj poprzedni arkusz. Zwykle wystarczy on za całe przygotowanie i zostaje ci jedno pytanie: co się od tamtej pory zmieniło?",
+              "Zapisz też, co zadziałało w samej rozmowie. Które pytanie dało konkret, a które puste zdanie. Następnym razem zadasz to pierwsze."
+            ]
+          }
+        }
+      ],
+      "do_zrobienia_w_tym_tygodniu": [
+        "Rozwiń notatki w pełne zdania jeszcze tego samego wieczoru.",
+        "Wybierz jedną rzecz do zrobienia i zapisz, ile minut zajmie.",
+        "Ustal, po czym poznasz za dwa tygodnie, że to zadziałało.",
+        "Jeśli się z czymś nie zgadzasz, odłóż odpowiedź o jeden dzień.",
+        "Schowaj arkusz do teczki. Przeczytasz go przed następną rozmową."
+      ]
+    }
+  ],
+  "checklisty": [
+    {
+      "id": "chk-przed",
+      "typ": "checklista",
+      "polecenie": "Zanim wyjdziesz z domu",
+      "dla_rodzica": "Przejdź po niej wzrokiem w przedpokoju. Zajmie ci minutę.",
+      "dane": {
+        "pozycje": [
+          "Mam dokończone zdanie: wyjdę stąd, wiedząc, że…",
+          "Mam wybrane trzy pytania, zapisane własnymi słowami.",
+          "Żadne z nich nie dotyczy innego dziecka.",
+          "Wiem, które pytanie zadam osobno, a nie przy wszystkich.",
+          "Mam wydrukowany arkusz notatek i długopis, który pisze.",
+          "Wiem, ile mniej więcej mamy czasu.",
+          "Jeśli idziemy we dwoje, wiemy, kto pyta, a kto notuje.",
+          "Telefon jest wyciszony i schowany."
+        ]
+      }
+    },
+    {
+      "id": "chk-po",
+      "typ": "checklista",
+      "polecenie": "W tydzień po rozmowie",
+      "dla_rodzica": "Wróć do niej siódmego dnia, nie wcześniej.",
+      "dane": {
+        "pozycje": [
+          "Notatki są rozwinięte w pełne zdania.",
+          "Wiem, które zdania padły, a które dopowiedziałem sobie sam.",
+          "Wybrałem jedną rzecz do zrobienia i robię ją.",
+          "Wiem, po czym poznam, że zadziałała.",
+          "Nie zmieniłem przy okazji czterech innych rzeczy.",
+          "Mam termin albo formę następnego kontaktu.",
+          "Pytania bez odpowiedzi są zapisane na następną rozmowę.",
+          "Arkusz leży tam, gdzie go znajdę za trzy miesiące."
+        ]
+      }
+    }
+  ],
+  "klucz_odpowiedzi": [],
+  "fragment": {
+    "do_strony": 14,
+    "obietnica_na_stronie": "Cały rozdział o przygotowaniu plus arkusz z twoimi trzema pytaniami — wchodzisz na zebranie z listą, a nie z pustą głową."
+  }
+}

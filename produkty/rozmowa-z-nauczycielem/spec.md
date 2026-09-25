@@ -37,7 +37,9 @@ Trzy rozdziały: przygotowanie, sama rozmowa, co potem. Arkusz notatek jest w ś
 
 ## Zakres darmowego fragmentu
 
-Rozdział o przygotowaniu plus arkusz notatek, 10 stron.
+Cały rozdział o przygotowaniu, **14 stron**: pytania o postępy, o grupę i o oczekiwania szkoły wobec domu, strona o tym, czego nie pytać na forum, oraz formularz na własne trzy pytania.
+
+*(Korekta wobec szacunku 10 stron. Arkusz notatek z rozdziału 2 wypada dopiero na stronach 18–19, a fragment tniemy po pełnych stronach od początku pliku — sięgnięcie po niego oznaczałoby fragment obejmujący 40% produktu. Rozdział 1 jest samodzielny: rodzic może z nim wejść na zebranie.)*
 
 ## Czego ten materiał NIE robi
 
