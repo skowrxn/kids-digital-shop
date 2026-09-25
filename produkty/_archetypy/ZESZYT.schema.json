@@ -1,0 +1,1021 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lupa.pl/schema/ZESZYT.schema.json",
+  "title": "ZESZYT — zbiór ćwiczeń bez sztywnej sekwencji",
+  "description": "Bloki uporządkowane od najłatwiejszego. W obrębie bloku kolejność dowolna. Reguły niewyrażalne w JSON Schema sprawdza validate.py.",
+  "type": "object",
+  "required": [
+    "meta",
+    "wstep",
+    "bloki",
+    "klucz_odpowiedzi",
+    "fragment"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "slug",
+        "tytul",
+        "archetyp",
+        "wersja",
+        "wiek",
+        "strony_deklarowane",
+        "min_pt_dziecka"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "tytul": {
+          "type": "string"
+        },
+        "podtytul": {
+          "type": "string"
+        },
+        "archetyp": {
+          "const": "ZESZYT"
+        },
+        "wersja": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "wiek": {
+          "type": "string"
+        },
+        "kategoria": {
+          "type": "string"
+        },
+        "podkategoria": {
+          "type": "string"
+        },
+        "strony_deklarowane": {
+          "type": "integer",
+          "minimum": 8
+        },
+        "min_pt_dziecka": {
+          "type": "integer",
+          "minimum": 11
+        },
+        "ilustracja": {
+          "$ref": "#/$defs/ilustracja"
+        }
+      }
+    },
+    "wstep": {
+      "type": "object",
+      "required": [
+        "dla_kogo",
+        "obietnica",
+        "jak_korzystac",
+        "czego_nie_robi"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "dla_kogo": {
+          "type": "string"
+        },
+        "obietnica": {
+          "type": "string"
+        },
+        "warunek_wejscia": {
+          "type": "string"
+        },
+        "ile_czasu_dziennie": {
+          "type": "string"
+        },
+        "jak_korzystac": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "czego_nie_robi": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          },
+          "description": "NIE renderujemy tego w PDF-ie (decyzja z 2026-09-25). Zostaje jako dana dla spec.md i kreacji reklamowych."
+        },
+        "kiedy_do_specjalisty": {
+          "type": "string"
+        }
+      }
+    },
+    "bloki": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "temat",
+          "poziom",
+          "cwiczenia"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "temat": {
+            "type": "string"
+          },
+          "poziom": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "Bloki MUSZĄ iść od najniższego poziomu."
+          },
+          "opis": {
+            "type": "string"
+          },
+          "dla_rodzica": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "cwiczenia": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/strona"
+            }
+          }
+        }
+      }
+    },
+    "klucz_odpowiedzi": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "strona_id",
+          "odpowiedzi"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "strona_id": {
+            "type": "string"
+          },
+          "odpowiedzi": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "fragment": {
+      "type": "object",
+      "required": [
+        "do_strony",
+        "obietnica_na_stronie"
+      ],
+      "additionalProperties": false,
+      "description": "Żelazna zasada 1: minimum 10 stron.",
+      "properties": {
+        "do_strony": {
+          "type": "integer",
+          "minimum": 10
+        },
+        "obietnica_na_stronie": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "x-typy-z-odpowiedziami": [
+    "lacz_pary",
+    "uzupelnij",
+    "wybierz",
+    "dyktando",
+    "dzialania",
+    "sortowanie",
+    "sekwencja"
+  ],
+  "$defs": {
+    "ilustracja": {
+      "type": "object",
+      "required": [
+        "id",
+        "brief"
+      ],
+      "additionalProperties": false,
+      "description": "Zlecenie na ilustrację. `brief` opisuje TYLKO kadr — styl dokłada renderer/ilustracje.py. `id` jest per motyw, nie per pozycja, żeby ten sam motyw nie kosztował dwa razy.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "brief": {
+          "type": "string",
+          "minLength": 10
+        },
+        "proporcje": {
+          "enum": [
+            "1:1",
+            "3:2",
+            "2:3",
+            "16:9"
+          ]
+        }
+      }
+    },
+    "strona": {
+      "type": "object",
+      "required": [
+        "id",
+        "typ",
+        "polecenie",
+        "dane"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "typ": {
+          "enum": [
+            "tabela",
+            "sciezka",
+            "lacz_pary",
+            "wyrazy_do_czytania",
+            "uzupelnij",
+            "wybierz",
+            "pisanie_po_sladzie",
+            "czytanie_zdan",
+            "dyktando",
+            "ramka_rysunkowa",
+            "formularz",
+            "dzialania",
+            "sortowanie",
+            "sekwencja",
+            "lista_krokow",
+            "karty_do_wyciecia"
+          ]
+        },
+        "polecenie": {
+          "type": "string",
+          "maxLength": 60,
+          "description": "Do dziecka albo do rodzica. Maks. 8 słów."
+        },
+        "dla_rodzica": {
+          "type": "string"
+        },
+        "dane": {
+          "type": "object"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "tabela"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_tabela"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "sciezka"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_sciezka"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "lacz_pary"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_lacz_pary"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "wyrazy_do_czytania"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_wyrazy_do_czytania"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "uzupelnij"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_uzupelnij"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "wybierz"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_wybierz"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "pisanie_po_sladzie"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_pisanie_po_sladzie"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "czytanie_zdan"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_czytanie_zdan"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "dyktando"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_dyktando"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "ramka_rysunkowa"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_ramka_rysunkowa"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "formularz"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_formularz"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "dzialania"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_dzialania"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "sortowanie"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_sortowanie"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "sekwencja"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_sekwencja"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "lista_krokow"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_lista_krokow"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "karty_do_wyciecia"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_karty_do_wyciecia"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "d_tabela": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "wiersze"
+      ],
+      "properties": {
+        "wiersze": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "naglowki_kolumn": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "d_sciezka": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kroki"
+      ],
+      "properties": {
+        "kroki": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "meta": {
+          "type": "string"
+        }
+      }
+    },
+    "d_lacz_pary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lewa",
+        "prawa",
+        "pary"
+      ],
+      "properties": {
+        "lewa": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          }
+        },
+        "prawa": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          }
+        },
+        "pary": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      }
+    },
+    "d_wyrazy_do_czytania": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "wyrazy"
+      ],
+      "properties": {
+        "wyrazy": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "wyraz",
+              "sylaby"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "wyraz": {
+                "type": "string"
+              },
+              "sylaby": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "d_uzupelnij": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pozycje"
+      ],
+      "properties": {
+        "pozycje": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "wzor",
+              "opcje",
+              "poprawna"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "wzor": {
+                "type": "string"
+              },
+              "opcje": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "string"
+                }
+              },
+              "poprawna": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "ilustracja": {
+                "$ref": "#/$defs/ilustracja"
+              }
+            }
+          }
+        }
+      }
+    },
+    "d_wybierz": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pozycje"
+      ],
+      "properties": {
+        "pozycje": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "opcje",
+              "poprawna"
+            ],
+            "additionalProperties": false,
+            "description": "Albo `ilustracja`, albo `podpowiedz_rodzica` — dziecko musi wiedzieć, o co chodzi.",
+            "anyOf": [
+              {
+                "required": [
+                  "ilustracja"
+                ]
+              },
+              {
+                "required": [
+                  "podpowiedz_rodzica"
+                ]
+              }
+            ],
+            "properties": {
+              "podpowiedz_rodzica": {
+                "type": "string"
+              },
+              "opcje": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "string"
+                }
+              },
+              "poprawna": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "ilustracja": {
+                "$ref": "#/$defs/ilustracja"
+              }
+            }
+          }
+        }
+      }
+    },
+    "d_pisanie_po_sladzie": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "wzory"
+      ],
+      "properties": {
+        "wzory": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "linie_na_wzor": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "liniatura": {
+          "enum": [
+            "trzylinia",
+            "czterolinia",
+            "gladka"
+          ]
+        }
+      }
+    },
+    "d_czytanie_zdan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "zdania"
+      ],
+      "properties": {
+        "zdania": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "pytanie": {
+          "type": "string"
+        }
+      }
+    },
+    "d_dyktando": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "do_dyktowania"
+      ],
+      "properties": {
+        "do_dyktowania": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          }
+        },
+        "liniatura": {
+          "enum": [
+            "trzylinia",
+            "czterolinia",
+            "gladka"
+          ]
+        }
+      }
+    },
+    "d_ramka_rysunkowa": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "wyrazy"
+      ],
+      "properties": {
+        "wyrazy": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 6,
+          "items": {
+            "type": "string"
+          }
+        },
+        "wysokosc_ramki_mm": {
+          "type": "integer",
+          "minimum": 20
+        }
+      }
+    },
+    "d_formularz": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pola"
+      ],
+      "properties": {
+        "pola": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "etykieta"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "etykieta": {
+                "type": "string"
+              },
+              "wysokosc_mm": {
+                "type": "integer",
+                "minimum": 6
+              },
+              "linie": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "d_dzialania": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "zadania"
+      ],
+      "properties": {
+        "zadania": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "tresc",
+              "wynik"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "tresc": {
+                "type": "string"
+              },
+              "wynik": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "d_sortowanie": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "elementy",
+        "kategorie"
+      ],
+      "properties": {
+        "elementy": {
+          "type": "array",
+          "minItems": 4,
+          "items": {
+            "type": "string"
+          }
+        },
+        "kategorie": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "nazwa",
+              "naleza"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "nazwa": {
+                "type": "string"
+              },
+              "naleza": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "d_sekwencja": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kroki",
+        "brakujace"
+      ],
+      "properties": {
+        "kroki": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          },
+          "description": "Pusty string = pole do uzupełnienia."
+        },
+        "brakujace": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Co wpada w puste pola, po kolei. Klucz odpowiedzi."
+        }
+      }
+    },
+    "d_lista_krokow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kroki"
+      ],
+      "properties": {
+        "kroki": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "d_karty_do_wyciecia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "karty"
+      ],
+      "properties": {
+        "karty": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 9,
+          "items": {
+            "type": "object",
+            "required": [
+              "awers"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "awers": {
+                "type": "string"
+              },
+              "rewers": {
+                "type": "string"
+              },
+              "ilustracja": {
+                "$ref": "#/$defs/ilustracja"
+              }
+            }
+          }
+        },
+        "na_arkuszu": {
+          "enum": [
+            8,
+            9
+          ],
+          "description": "Reguła twarda archetypu KARTY: 8 albo 9 na A4."
+        },
+        "z_podpisami": {
+          "type": "boolean",
+          "description": "false = wersja dla nieczytających."
+        }
+      }
+    }
+  }
+}

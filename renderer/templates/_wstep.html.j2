@@ -1,0 +1,75 @@
+{# Wspólne strony wstępne. Sekcji „czego ten materiał nie robi" NIE ma —
+   decyzja z 2026-09-25. Pole wstep.czego_nie_robi zostaje w danych. #}
+{% import '_cwiczenia.html.j2' as w %}
+
+{% macro okladka(c, nr) %}
+<div class="strona">
+  <div class="okladka">
+    <div class="okladka__gora {{ 'okladka__gora--z-obrazkiem' if c.meta.get('ilustracja') }}">
+      {% if c.meta.get('ilustracja') %}{{ w.obraz(c.meta.ilustracja, 'obraz--okladka') }}{% endif %}
+      <p class="okladka__meta">{{ c.meta.wiek }} · materiał do druku</p>
+      <h1 class="tytul">{{ c.meta.tytul }}</h1>
+      {% if c.meta.get('podtytul') %}
+        <p class="okladka__podtytul">{{ c.meta.podtytul }}</p>
+      {% endif %}
+      <p class="okladka__obietnica">{{ c.wstep.obietnica }}</p>
+      {% if c.wstep.get('ile_czasu_dziennie') %}
+        <p class="okladka__meta">{{ c.wstep.ile_czasu_dziennie }}</p>
+      {% endif %}
+    </div>
+    <div class="okladka__dol">
+      {{ c.meta.strony_deklarowane }} stron · licencja domowa, bez limitu wydruków
+    </div>
+  </div>
+  {{ w.stopka(c, nr) }}
+</div>
+{% endmacro %}
+
+{% macro jak_korzystac(c, nr) %}
+<div class="strona">
+  <h2 class="sekcja">jak z tego korzystać</h2>
+  <div class="karta" style="flex:1">
+    <div class="karta__blok karta__blok--akcent">
+      <h3 class="pod">Dla kogo</h3>
+      <p style="font-size:11pt;margin:0">{{ c.wstep.dla_kogo }}</p>
+    </div>
+    {% if c.wstep.get('warunek_wejscia') %}
+      <div class="karta__blok">
+        <h3 class="pod">Zanim zaczniecie</h3>
+        <p style="font-size:11pt;margin:0">{{ c.wstep.warunek_wejscia }}</p>
+      </div>
+    {% endif %}
+    <div class="karta__blok">
+      <h3 class="pod">Krok po kroku</h3>
+      <ol class="karta__lista">
+        {% for x in c.wstep.jak_korzystac %}<li>{{ x }}</li>{% endfor %}
+      </ol>
+    </div>
+    {% if c.wstep.get('kiedy_do_specjalisty') %}
+      <div class="karta__blok">
+        <h3 class="pod">Kiedy zapytać specjalisty</h3>
+        <p style="font-size:11pt;margin:0">{{ c.wstep.kiedy_do_specjalisty }}</p>
+      </div>
+    {% endif %}
+  </div>
+  {{ w.stopka(c, nr) }}
+</div>
+{% endmacro %}
+
+{% macro klucz(c, nr) %}
+{% if c.klucz_odpowiedzi %}
+<div class="strona">
+  <h2 class="sekcja">klucz odpowiedzi</h2>
+  <p class="dla-rodzica" style="margin-bottom:5mm">Dla rodzica.</p>
+  <div class="kolumny-klucza">
+    {% for k in c.klucz_odpowiedzi %}
+      <div class="klucz__wpis">
+        <span class="klucz__id">{{ k.strona_id }}</span><br>
+        {{ k.odpowiedzi | join(' · ') }}
+      </div>
+    {% endfor %}
+  </div>
+  {{ w.stopka(c, nr) }}
+</div>
+{% endif %}
+{% endmacro %}

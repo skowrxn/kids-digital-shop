@@ -1,0 +1,22 @@
+{# SEGREGATOR — instrukcja przygotowania ZAWSZE na pierwszej stronie sekcji. #}
+{% import '_cwiczenia.html.j2' as w %}
+{% import '_wstep.html.j2' as ws %}
+{% set ns = namespace(nr=0) %}
+
+{% set ns.nr = ns.nr + 1 %}{{ ws.okladka(c, ns.nr) }}
+{% set ns.nr = ns.nr + 1 %}{{ ws.jak_korzystac(c, ns.nr) }}
+
+{% for sek in c.sekcje %}
+  {% set ns.nr = ns.nr + 1 %}
+  {{ w.strona_cwiczenia(c, sek.instrukcja_przygotowania, 'Sekcja ' ~ loop.index, sek.temat, ns.nr) }}
+  {% set ns.nr = ns.nr + 1 %}
+  {{ w.strona_cwiczenia(c, sek.plansza_bazowa, 'Sekcja ' ~ loop.index, sek.temat, ns.nr) }}
+  {% set ns.nr = ns.nr + 1 %}
+  {{ w.strona_cwiczenia(c, sek.elementy_ruchome, 'Sekcja ' ~ loop.index, sek.temat, ns.nr) }}
+  {% for s in sek.get('dodatkowe', []) %}
+    {% set ns.nr = ns.nr + 1 %}
+    {{ w.strona_cwiczenia(c, s, 'Sekcja ' ~ loop.parent.loop.index, sek.temat, ns.nr) }}
+  {% endfor %}
+{% endfor %}
+
+{% set ns.nr = ns.nr + 1 %}{{ ws.klucz(c, ns.nr) }}

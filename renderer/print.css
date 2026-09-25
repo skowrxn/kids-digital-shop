@@ -76,7 +76,6 @@ html,body{
   font-size:8pt; color:var(--slate);
   border-top:.4pt solid var(--fold); padding-top:2mm;
 }
-.stopka__srodek{ letter-spacing:.02em; }
 .stopka__nr{ font-variant-numeric:tabular-nums; font-weight:700; color:var(--ink); }
 
 /* ------------------------------------------------------ nagłówki stron */
@@ -163,6 +162,69 @@ h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
         display:flex; flex-direction:column; }
 .ramka__wyraz{ font-size:20pt; font-weight:700; text-align:center;
                border-bottom:.5pt solid var(--fold); padding-bottom:2mm; }
+
+/* ------------------------------------------------- ćwiczenia pozostałych archetypów */
+.dzialania{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
+            gap:7mm 12mm; align-content:space-evenly; }
+.dzialanie{ display:flex; align-items:center; gap:4mm; font-size:20pt; font-weight:700; }
+.dzialanie__tresc{ white-space:nowrap; }
+.dzialanie__pole{ flex:1; min-width:16mm; height:11mm; border:.8pt solid var(--ink);
+                  border-radius:2mm; }
+
+.sort__pula{ display:flex; flex-wrap:wrap; gap:3mm; margin-bottom:7mm; }
+.sort__zeton{ border:.8pt solid var(--ink); border-radius:3mm; padding:2mm 4mm;
+              font-size:15pt; font-weight:700; }
+.sort__kosze{ display:grid; grid-template-columns:repeat(auto-fit,minmax(45mm,1fr));
+              gap:5mm; flex:1; }
+.sort__kosz{ border:.8pt dashed var(--ink); border-radius:3mm; padding:3mm;
+             display:flex; flex-direction:column; min-height:42mm; }
+.sort__nazwa{ font-size:12pt; font-weight:800; border-bottom:.5pt solid var(--fold);
+              padding-bottom:2mm; }
+
+.sekwencja{ display:flex; flex-wrap:wrap; align-items:center; gap:4mm; }
+.sekwencja__pole{ border:.8pt solid var(--ink); border-radius:3mm; padding:4mm 6mm;
+                  font-size:20pt; font-weight:700; min-width:20mm; text-align:center; }
+.sekwencja__pole--puste{ border-style:dashed; min-height:16mm; }
+
+/* PORADNIK: jedyny archetyp z dominującą prozą. Maks. 65 znaków w linii —
+   przy 12pt Jakarcie to ok. 112 mm, stąd ograniczenie szerokości. */
+.proza{ max-width:112mm; }
+.proza p{ font-size:12pt; line-height:1.62; margin:0 0 4.5mm; }
+
+.checklista{ list-style:none; margin:0; padding:0; }
+.checklista li{ display:flex; align-items:flex-start; gap:4mm;
+                font-size:12pt; margin-bottom:4mm; max-width:112mm; }
+.checklista__box{ flex:0 0 5mm; height:5mm; border:1pt solid var(--ink);
+                  border-radius:1mm; margin-top:1mm; }
+
+/* Karty do wycięcia: linie cięcia i minimum 3 mm od krawędzi zadruku. */
+.karty{ display:grid; gap:0; flex:1; align-content:start;
+        margin:var(--pole); }
+.karty--8{ grid-template-columns:repeat(2,1fr); grid-auto-rows:1fr; }
+.karty--9{ grid-template-columns:repeat(3,1fr); grid-auto-rows:1fr; }
+.karta-tnij{ border:.5pt dashed var(--ink); padding:4mm 3mm;
+             display:flex; flex-direction:column; justify-content:center;
+             align-items:center; text-align:center; gap:2mm; min-height:52mm; }
+.karta-tnij__awers{ font-size:17pt; font-weight:700; line-height:1.2; }
+.karta-tnij__rewers{ font-size:10pt; color:var(--slate); }
+
+.plansza{ display:grid; grid-template-columns:repeat(4,1fr); gap:0; flex:1; }
+.plansza__pole{ border:.5pt solid var(--ink); padding:3mm 2mm; min-height:26mm;
+                display:flex; flex-direction:column; gap:1.5mm; }
+.plansza__pole--meta{ border-width:1.5pt; }
+.plansza__nr{ font-size:9pt; font-weight:800; color:var(--slate); }
+.plansza__tresc{ font-size:11pt; line-height:1.25; }
+
+.elementy{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
+           gap:4mm 8mm; align-content:start; }
+.element{ display:flex; justify-content:space-between; align-items:baseline;
+          gap:4mm; border-bottom:.5pt dotted var(--fold); padding-bottom:2mm;
+          font-size:12pt; }
+.element__ile{ font-variant-numeric:tabular-nums; color:var(--slate);
+               font-size:11pt; white-space:nowrap; }
+
+.tabela-sylab th{ font-size:11pt; font-weight:800; color:var(--slate);
+                  border:.5pt solid var(--fold); padding:2.5mm 1mm; }
 
 /* ------------------------------------------------------------ ilustracje */
 /* Domyślnie drukujemy wariant BW: wysoki kontrast, białe wypełnienia,

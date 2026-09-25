@@ -1,0 +1,29 @@
+{# ZESZYT — bloki od najłatwiejszego, w bloku kolejność dowolna. #}
+{% import '_cwiczenia.html.j2' as w %}
+{% import '_wstep.html.j2' as ws %}
+{% set ns = namespace(nr=0) %}
+
+{% set ns.nr = ns.nr + 1 %}{{ ws.okladka(c, ns.nr) }}
+{% set ns.nr = ns.nr + 1 %}{{ ws.jak_korzystac(c, ns.nr) }}
+
+{% for b in c.bloki %}
+  {% set ns.nr = ns.nr + 1 %}
+  <div class="strona">
+    {{ w.naglowek('Blok ' ~ loop.index ~ ' · poziom ' ~ b.poziom, '') }}
+    <h2 class="sekcja">{{ b.temat }}</h2>
+    {% if b.get('opis') %}<p style="font-size:11.5pt;font-weight:700;margin:0 0 6mm">{{ b.opis }}</p>{% endif %}
+    {% if b.get('dla_rodzica') %}
+      <div class="karta__blok karta__blok--akcent" style="flex:1">
+        <h3 class="pod">Dla rodzica</h3>
+        <ul class="karta__lista">{% for x in b.dla_rodzica %}<li>{{ x }}</li>{% endfor %}</ul>
+      </div>
+    {% endif %}
+    {{ w.stopka(c, ns.nr) }}
+  </div>
+  {% for s in b.cwiczenia %}
+    {% set ns.nr = ns.nr + 1 %}
+    {{ w.strona_cwiczenia(c, s, 'Blok ' ~ loop.parent.loop.index, b.temat, ns.nr) }}
+  {% endfor %}
+{% endfor %}
+
+{% set ns.nr = ns.nr + 1 %}{{ ws.klucz(c, ns.nr) }}

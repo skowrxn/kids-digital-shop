@@ -246,7 +246,12 @@ Wymagania twarde:
   kolor osobno jako `pelny-kolor.pdf`
 - żadna strona nie przekracza **12% pokrycia tuszem** w wariancie BW
   (mierzone rasteryzacją strony i zliczeniem pikseli niebiałych)
-- stopka: numer strony, tytuł, `lupa.pl`, numer wersji
+- stopka: **tylko tytuł i numer strony**. Bez adresu i bez numeru
+  wersji — nazwa marki nie jest przesądzona, a nie chcemy przerabiać
+  gotowych PDF-ów po jej zmianie (decyzja z 2026-09-25)
+- **żadnej sekcji „czego ten materiał nie robi" w PDF-ie.** Pole
+  `wstep.czego_nie_robi` zostaje w `content.json` i zasila `spec.md`
+  oraz kreacje reklamowe, ale nie jest renderowane
 - bez teł pełnostronicowych i bez ramek dookoła strony
 - minimum **14pt** dla dzieci uczących się czytać, **11pt** wszędzie indziej
 - elementy do wycięcia: linie cięcia, minimum **3 mm** od krawędzi

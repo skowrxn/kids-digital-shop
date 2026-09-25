@@ -84,6 +84,104 @@ def frazy_zakazane(dane):
 
 
 # ------------------------------------------------------------------ reguły treści
+def reguly_wspolne(c, schemat, bledy, ostrz):
+    """Bramki niezależne od archetypu, liczone na stronach-ćwiczeniach."""
+    strony = wszystkie_strony(c)
+
+    ident = [s["id"] for s in strony]
+    duble = {i for i in ident if ident.count(i) > 1}
+    if duble:
+        bledy.append(f"powtórzone id stron: {sorted(duble)}")
+
+    z_odp = set(schemat.get("x-typy-z-odpowiedziami", []))
+    maja = {k["strona_id"] for k in c.get("klucz_odpowiedzi", [])}
+    for s in strony:
+        if s["typ"] in z_odp and s["id"] not in maja:
+            bledy.append(f"{s['id']}: typ {s['typ']} wymaga klucza odpowiedzi")
+        if len(s["polecenie"].split()) > 8:
+            bledy.append(f"{s['id']}: polecenie ma {len(s['polecenie'].split())} słów, maks. 8")
+
+        d = s["dane"]
+        if s["typ"] == "lacz_pary":
+            for a, b in d["pary"]:
+                if a >= len(d["lewa"]) or b >= len(d["prawa"]):
+                    bledy.append(f"{s['id']}: para [{a},{b}] poza zakresem kolumn")
+            for kol in ("lewa", "prawa"):
+                dubel = {x for x in d[kol] if d[kol].count(x) > 1}
+                if dubel:
+                    bledy.append(f"{s['id']}: kolumna {kol} ma powtórzone pola {dubel}")
+            bez = set(range(len(d["lewa"]))) - {a for a, _ in d["pary"]}
+            if bez:
+                bledy.append(f"{s['id']}: pola lewej kolumny bez pary: {sorted(bez)}")
+        if s["typ"] in ("uzupelnij", "wybierz"):
+            for i, p in enumerate(d["pozycje"]):
+                if p["poprawna"] >= len(p["opcje"]):
+                    bledy.append(f"{s['id']}: pozycja {i} — indeks poprawnej poza opcjami")
+                if len(set(p["opcje"])) != len(p["opcje"]):
+                    bledy.append(f"{s['id']}: pozycja {i} — powtórzona opcja, "
+                                 "ćwiczenie nie ma jednego rozwiązania")
+            odp = [p["opcje"][p["poprawna"]] for p in d["pozycje"]]
+            if len(odp) > 2 and len(set(odp)) < 2:
+                bledy.append(f"{s['id']}: wszystkie {len(odp)} odpowiedzi to {odp[0]!r} — "
+                             "dziecko trafia bez czytania")
+        if s["typ"] == "karty_do_wyciecia":
+            na = d.get("na_arkuszu", 9)
+            if len(d["karty"]) > na:
+                bledy.append(f"{s['id']}: {len(d['karty'])} kart przy siatce {na} na A4")
+        if s["typ"] == "sekwencja":
+            puste = sum(1 for k in d["kroki"] if k == "")
+            if puste != len(d["brakujace"]):
+                bledy.append(f"{s['id']}: {puste} pustych pól, "
+                             f"{len(d['brakujace'])} odpowiedzi w `brakujace`")
+
+    # żadnych danych dzieci — nigdzie w produkcie
+    for sciezka, tekst in zbierz_teksty(c):
+        if re.search(r"\b(imię dziecka|nazwisko dziecka|data urodzenia)\b", tekst.lower()):
+            bledy.append(f"{sciezka}: prosi o dane dziecka — {tekst[:40]!r}")
+
+
+def reguly_zeszyt(c, bledy, ostrz):
+    poziomy = [b["poziom"] for b in c["bloki"]]
+    if poziomy != sorted(poziomy):
+        bledy.append(f"ZESZYT: bloki nie idą od najłatwiejszego — poziomy {poziomy}")
+
+
+def reguly_karty(c, bledy, ostrz):
+    for t in c["talie"]:
+        for s in t["arkusze"]:
+            if s["typ"] != "karty_do_wyciecia":
+                continue
+            na = s["dane"].get("na_arkuszu")
+            if na not in (8, 9):
+                bledy.append(f"{s['id']}: KARTY wymaga 8 albo 9 kart na A4, jest {na}")
+        if not t.get("bez_podpisow"):
+            ostrz.append(f"talia {t['nazwa']!r} bez wersji dla nieczytających")
+
+
+def reguly_gry(c, bledy, ostrz):
+    for g in c["gry"]:
+        if len(g["zasady"]) > 8:
+            bledy.append(f"gra {g['nazwa']!r}: {len(g['zasady'])} kroków zasad "
+                         "— nie zmieszczą się na jednej stronie")
+        wymaga = " ".join(g["zasady"] + g.get("przygotowanie", [])).lower()
+        ma_arkusze = bool(g.get("arkusze"))
+        for slowo in ("pionek", "pionk", "kostk"):
+            if slowo in wymaga and not ma_arkusze:
+                bledy.append(f"gra {g['nazwa']!r}: zasady mówią o {slowo!r}, "
+                             "ale w pliku nie ma arkuszy z elementami")
+                break
+
+
+def reguly_segregator(c, bledy, ostrz):
+    for k in c["sekcje"]:
+        if k["instrukcja_przygotowania"]["typ"] != "lista_krokow":
+            ostrz.append(f"sekcja {k['temat']!r}: instrukcja przygotowania nie jest listą kroków")
+        if k["elementy_ruchome"]["typ"] != "elementy_ruchome":
+            bledy.append(f"sekcja {k['temat']!r}: brak listy elementów do zalaminowania")
+        elif not k["elementy_ruchome"]["dane"].get("rzep"):
+            bledy.append(f"sekcja {k['temat']!r}: brak informacji, gdzie przykleić rzep")
+
+
 def reguly_program(c, bledy, ostrz):
     tygodnie = c["tygodnie"]
 
@@ -123,65 +221,60 @@ def reguly_program(c, bledy, ostrz):
                 if dubel:
                     bledy.append(f"{s['id']}: wyraz powtórzony na jednej stronie: {dubel}")
 
-    # klucz odpowiedzi wymagany dla typów, które mają odpowiedzi
-    z_odp = {"lacz_sylaby", "uzupelnij_sylabe", "wybierz_wyraz", "dyktando_sylabowe"}
-    maja_klucz = {k["strona_id"] for k in c["klucz_odpowiedzi"]}
-    for t in tygodnie:
-        for s in t["material_dziecka"]:
-            if s["typ"] in z_odp and s["id"] not in maja_klucz:
-                bledy.append(f"{s['id']}: typ {s['typ']} wymaga klucza odpowiedzi")
-
-    # spójność ćwiczeń
-    for t in tygodnie:
-        for s in t["material_dziecka"]:
-            d = s["dane"]
-            if s["typ"] == "lacz_sylaby":
-                for a, b in d["pary"]:
-                    if a >= len(d["lewa"]) or b >= len(d["prawa"]):
-                        bledy.append(f"{s['id']}: para [{a},{b}] poza zakresem kolumn")
-                for kol in ("lewa", "prawa"):
-                    dubel = {x for x in d[kol] if d[kol].count(x) > 1}
-                    if dubel:
-                        bledy.append(f"{s['id']}: kolumna {kol} ma powtórzone pola {dubel} — "
-                                     "dziecko widzi dwa identyczne pola zamiast jednego")
-                bez_linii = set(range(len(d["lewa"]))) - {a for a, _ in d["pary"]}
-                if bez_linii:
-                    bledy.append(f"{s['id']}: pola lewej kolumny bez pary: {sorted(bez_linii)}")
-            if s["typ"] in ("uzupelnij_sylabe", "wybierz_wyraz"):
-                for i, p in enumerate(d["pozycje"]):
-                    if p["poprawna"] >= len(p["opcje"]):
-                        bledy.append(f"{s['id']}: pozycja {i} — indeks poprawnej poza opcjami")
-                    if len(set(p["opcje"])) != len(p["opcje"]):
-                        bledy.append(f"{s['id']}: pozycja {i} — powtórzona opcja, "
-                                     "ćwiczenie nie ma jednego rozwiązania")
-                odp = [p["opcje"][p["poprawna"]] for p in d["pozycje"]]
-                if len(odp) > 2 and len(set(odp)) < 2:
-                    bledy.append(f"{s['id']}: wszystkie {len(odp)} odpowiedzi to {odp[0]!r} — "
-                                 "dziecko trafia bez czytania")
-
-    # karta postępu zawsze pusta — żadnych danych dziecka
-    for t in tygodnie:
-        for w in t["karta_postepu"]["wiersze"]:
-            if re.search(r"\b(imię|imie|nazwisko|wiek dziecka|data urodzenia)\b", w.lower()):
-                bledy.append(f"T{t['nr']}: karta postępu prosi o dane dziecka: {w!r}")
-
-    # polecenia do dziecka: maks. 8 słów
-    for t in tygodnie:
-        for s in t["material_dziecka"]:
-            if len(s["polecenie"].split()) > 8:
-                bledy.append(f"{s['id']}: polecenie ma {len(s['polecenie'].split())} słów, maks. 8")
-
-    # fragment: min. 10 stron albo 1 pełny tydzień
-    if c["fragment"]["do_tygodnia"] < 1:
+    if c["fragment"].get("do_tygodnia", 1) < 1:
         bledy.append("fragment: musi obejmować co najmniej jeden pełny tydzień")
 
 
+def wszystkie_strony(c):
+    """Każda strona-ćwiczenie w dokumencie, niezależnie od archetypu."""
+    a = c["meta"]["archetyp"]
+    if a == "PROGRAM":
+        return [s for t in c["tygodnie"] for s in t["material_dziecka"]]
+    if a == "ZESZYT":
+        return [s for b in c["bloki"] for s in b["cwiczenia"]]
+    if a == "KARTY":
+        return [s for t in c["talie"] for s in t["arkusze"]]
+    if a == "SEGREGATOR":
+        return [s for k in c["sekcje"] for s in
+                [k["instrukcja_przygotowania"], k["plansza_bazowa"],
+                 k["elementy_ruchome"], *k.get("dodatkowe", [])]]
+    if a == "GRY":
+        return [s for g in c["gry"] for s in
+                ([g["plansza"]] if g.get("plansza") else []) + g.get("arkusze", [])]
+    if a == "PORADNIK":
+        return [s for r in c["rozdzialy"] for s in r["strony"]] + c.get("checklisty", [])
+    return []
+
+
 def bilans_stron(c):
-    """Ile stron wyjdzie z danych. Musi zgadzać się ze `strony_deklarowane`."""
-    n = 3  # tytułowa + jak korzystać ×2
-    for t in c["tygodnie"]:
-        n += 1 + len(t["material_dziecka"]) + 1 + 1 + 1
-    return n + 1  # klucz odpowiedzi
+    """Ile stron wyjdzie z danych. Musi zgadzać się ze `strony_deklarowane`.
+
+    Liczy dokładnie to, co składa szablon danego archetypu — jeśli któryś
+    szablon zmieni układ stron, to miejsce trzeba poprawić razem z nim.
+    """
+    a = c["meta"]["archetyp"]
+    klucz = 1 if c.get("klucz_odpowiedzi") else 0
+    if a == "PROGRAM":
+        n = 3  # tytułowa + jak korzystać + plan tygodni
+        for t in c["tygodnie"]:
+            n += 1 + len(t["material_dziecka"]) + 3   # karta rodzica, gra, czytanka, postęp
+        return n + klucz
+    n = 2  # okładka + jak korzystać
+    if a == "ZESZYT":
+        n += sum(1 + len(b["cwiczenia"]) for b in c["bloki"])
+    elif a == "KARTY":
+        n += sum(1 + len(t["arkusze"]) for t in c["talie"])
+        n += len(c.get("instrukcja_zabaw", []))
+    elif a == "SEGREGATOR":
+        n += sum(3 + len(k.get("dodatkowe", [])) for k in c["sekcje"])
+    elif a == "GRY":
+        n += sum(1 + (1 if g.get("plansza") else 0) + len(g.get("arkusze", []))
+                 for g in c["gry"])
+    elif a == "PORADNIK":
+        n += sum(len(r["strony"]) + (1 if r.get("do_zrobienia_w_tym_tygodniu") else 0)
+                 for r in c["rozdzialy"])
+        n += len(c.get("checklisty", []))
+    return n + klucz
 
 
 # ------------------------------------------------------------------------ wejścia
@@ -210,8 +303,12 @@ def waliduj_schema(slug):
     for sciezka, fraza, sekcja in frazy_zakazane(c):
         bledy.append(f"fraza zakazana [{sekcja}] {fraza!r} w {sciezka}")
 
-    if arch == "PROGRAM":
-        reguly_program(c, bledy, ostrz)
+    reguly_wspolne(c, schemat, bledy, ostrz)
+    for nazwa, funkcja in (("PROGRAM", reguly_program), ("ZESZYT", reguly_zeszyt),
+                           ("KARTY", reguly_karty), ("GRY", reguly_gry),
+                           ("SEGREGATOR", reguly_segregator)):
+        if arch == nazwa:
+            funkcja(c, bledy, ostrz)
 
     n = bilans_stron(c)
     dekl = c["meta"]["strony_deklarowane"]

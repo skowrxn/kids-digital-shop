@@ -8,10 +8,11 @@
    ========================================================================= #}
 
 {% macro stopka(nr) %}
+  {# Stopka celowo bez adresu i bez numeru wersji — nazwa marki nie jest
+     jeszcze przesądzona, a nie chcemy przerabiać PDF-ów po jej zmianie. #}
   <div class="stopka">
     <span>{{ c.meta.tytul }}</span>
-    <span class="stopka__srodek">lupa.pl</span>
-    <span><span class="stopka__nr">{{ nr }}</span> · v{{ c.meta.wersja }}</span>
+    <span class="stopka__nr">{{ nr }}</span>
   </div>
 {% endmacro %}
 
@@ -159,9 +160,7 @@
       <p class="okladka__meta">{{ c.wstep.get('ile_czasu_dziennie', '') }}</p>
     </div>
     <div class="okladka__dol">
-      Lupa · lupa.pl · wersja {{ c.meta.wersja }} ·
-      {{ c.meta.strony_deklarowane }} stron ·
-      licencja domowa, bez limitu wydruków
+      {{ c.meta.strony_deklarowane }} stron · licencja domowa, bez limitu wydruków
     </div>
   </div>
   {{ stopka(ns.nr) }}
@@ -190,22 +189,19 @@
   {{ stopka(ns.nr) }}
 </div>
 
-{# --- 3. czego to nie robi + plan tygodni --- #}
+{# --- 3. plan tygodni ---
+   Sekcji „czego ten materiał nie robi" NIE renderujemy. Pole
+   wstep.czego_nie_robi zostaje w content.json — służy spec.md i kreacjom
+   reklamowym, ale do PDF-a nie wchodzi (decyzja z 2026-09-25). #}
 {% set ns.nr = ns.nr + 1 %}
 <div class="strona">
-  <h2 class="sekcja">czego ten materiał nie robi</h2>
-  <div class="karta__blok karta__blok--akcent" style="margin-bottom:7mm">
-    <ul class="karta__lista">
-      {% for x in c.wstep.czego_nie_robi %}<li>{{ x }}</li>{% endfor %}
-    </ul>
-  </div>
+  <h2 class="sekcja">plan tygodni</h2>
   {% if c.wstep.get('kiedy_do_specjalisty') %}
-    <div class="karta__blok" style="margin-bottom:7mm">
+    <div class="karta__blok karta__blok--akcent" style="margin-bottom:7mm">
       <h3 class="pod">Kiedy zapytać specjalisty</h3>
       <p style="font-size:11pt;margin:0">{{ c.wstep.kiedy_do_specjalisty }}</p>
     </div>
   {% endif %}
-  <h3 class="pod">Plan tygodni</h3>
   <div class="spis">
     {% for t in c.tygodnie %}
       <div class="spis__wiersz">

@@ -1,0 +1,444 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lupa.pl/schema/PORADNIK.schema.json",
+  "title": "PORADNIK — materiał dla rodzica",
+  "description": "Jedyny archetyp z dominującą prozą. Maksimum 65 znaków w linii pilnuje print.css; validate.py sprawdza to na wyrenderowanym PDF-ie.",
+  "type": "object",
+  "required": [
+    "meta",
+    "wstep",
+    "rozdzialy",
+    "checklisty",
+    "klucz_odpowiedzi",
+    "fragment"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "slug",
+        "tytul",
+        "archetyp",
+        "wersja",
+        "wiek",
+        "strony_deklarowane",
+        "min_pt_dziecka"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "tytul": {
+          "type": "string"
+        },
+        "podtytul": {
+          "type": "string"
+        },
+        "archetyp": {
+          "const": "PORADNIK"
+        },
+        "wersja": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "wiek": {
+          "type": "string"
+        },
+        "kategoria": {
+          "type": "string"
+        },
+        "podkategoria": {
+          "type": "string"
+        },
+        "strony_deklarowane": {
+          "type": "integer",
+          "minimum": 8
+        },
+        "min_pt_dziecka": {
+          "type": "integer",
+          "minimum": 11
+        },
+        "ilustracja": {
+          "$ref": "#/$defs/ilustracja"
+        }
+      }
+    },
+    "wstep": {
+      "type": "object",
+      "required": [
+        "dla_kogo",
+        "obietnica",
+        "jak_korzystac",
+        "czego_nie_robi"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "dla_kogo": {
+          "type": "string"
+        },
+        "obietnica": {
+          "type": "string"
+        },
+        "warunek_wejscia": {
+          "type": "string"
+        },
+        "ile_czasu_dziennie": {
+          "type": "string"
+        },
+        "jak_korzystac": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "czego_nie_robi": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          },
+          "description": "NIE renderujemy tego w PDF-ie (decyzja z 2026-09-25). Zostaje jako dana dla spec.md i kreacji reklamowych."
+        },
+        "kiedy_do_specjalisty": {
+          "type": "string"
+        }
+      }
+    },
+    "rozdzialy": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "tytul",
+          "strony"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "tytul": {
+            "type": "string"
+          },
+          "strony": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/strona"
+            }
+          },
+          "do_zrobienia_w_tym_tygodniu": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "checklisty": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/strona"
+      }
+    },
+    "klucz_odpowiedzi": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "strona_id",
+          "odpowiedzi"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "strona_id": {
+            "type": "string"
+          },
+          "odpowiedzi": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "fragment": {
+      "type": "object",
+      "required": [
+        "do_strony",
+        "obietnica_na_stronie"
+      ],
+      "additionalProperties": false,
+      "description": "Żelazna zasada 1: minimum 10 stron.",
+      "properties": {
+        "do_strony": {
+          "type": "integer",
+          "minimum": 10
+        },
+        "obietnica_na_stronie": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "x-typy-z-odpowiedziami": [],
+  "$defs": {
+    "ilustracja": {
+      "type": "object",
+      "required": [
+        "id",
+        "brief"
+      ],
+      "additionalProperties": false,
+      "description": "Zlecenie na ilustrację. `brief` opisuje TYLKO kadr — styl dokłada renderer/ilustracje.py. `id` jest per motyw, nie per pozycja, żeby ten sam motyw nie kosztował dwa razy.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "brief": {
+          "type": "string",
+          "minLength": 10
+        },
+        "proporcje": {
+          "enum": [
+            "1:1",
+            "3:2",
+            "2:3",
+            "16:9"
+          ]
+        }
+      }
+    },
+    "strona": {
+      "type": "object",
+      "required": [
+        "id",
+        "typ",
+        "polecenie",
+        "dane"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "typ": {
+          "enum": [
+            "proza",
+            "checklista",
+            "formularz",
+            "lista_krokow",
+            "tabela"
+          ]
+        },
+        "polecenie": {
+          "type": "string",
+          "maxLength": 60,
+          "description": "Do dziecka albo do rodzica. Maks. 8 słów."
+        },
+        "dla_rodzica": {
+          "type": "string"
+        },
+        "dane": {
+          "type": "object"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "proza"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_proza"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "checklista"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_checklista"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "formularz"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_formularz"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "lista_krokow"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_lista_krokow"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "tabela"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dane": {
+                "$ref": "#/$defs/d_tabela"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "d_proza": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "akapity"
+      ],
+      "properties": {
+        "akapity": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "d_checklista": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pozycje"
+      ],
+      "properties": {
+        "pozycje": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "d_formularz": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pola"
+      ],
+      "properties": {
+        "pola": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "etykieta"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "etykieta": {
+                "type": "string"
+              },
+              "wysokosc_mm": {
+                "type": "integer",
+                "minimum": 6
+              },
+              "linie": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "d_lista_krokow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kroki"
+      ],
+      "properties": {
+        "kroki": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "d_tabela": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "wiersze"
+      ],
+      "properties": {
+        "wiersze": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "naglowki_kolumn": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

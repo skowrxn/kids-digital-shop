@@ -199,8 +199,8 @@ Obsada autorska z prototypu (`web/mockup/index.html`):
 | Michał Ptak | gry, teczki |
 | zespół Lupy | materiały sezonowe i zbiorcze |
 
-Stopka PDF-a nie zawiera autora — zawiera tytuł, numer strony, `lupa.pl`
-i numer wersji. Autor jest na stronie tytułowej.
+Stopka PDF-a zawiera **wyłącznie tytuł i numer strony**. Nie ma w niej
+autora, adresu ani numeru wersji.
 
 ---
 

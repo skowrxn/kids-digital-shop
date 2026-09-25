@@ -1,0 +1,235 @@
+{# =========================================================================
+   Wspólne makra dla WSZYSTKICH sześciu archetypów.
+
+   ZASADA: ten plik opisuje UKŁAD i nie zawiera ani jednego słowa treści
+   produktu. Wszystko, co czyta rodzic albo dziecko, przychodzi z
+   content.json. Dopisanie tu zdania merytorycznego jest błędem
+   architektonicznym — CLAUDE.md sekcja 2.
+
+   Szablon archetypu importuje to tak:
+     {% import '_cwiczenia.html.j2' as w %}
+   ========================================================================= #}
+
+{% macro stopka(c, nr) %}
+  {# Bez adresu i bez numeru wersji — nazwa marki nie jest przesądzona. #}
+  <div class="stopka">
+    <span>{{ c.meta.tytul }}</span>
+    <span class="stopka__nr">{{ nr }}</span>
+  </div>
+{% endmacro %}
+
+{% macro naglowek(etykieta, opis) %}
+  <div class="naglowek">
+    <span class="naglowek__tydzien">{{ etykieta }}</span>
+    <span class="naglowek__cel">{{ opis or '' }}</span>
+  </div>
+{% endmacro %}
+
+{% macro linie(ile, srodek=True) %}
+  <div class="linie">
+    {% for _ in range(ile) %}<div class="linia {{ 'linia--srodek' if srodek }}"></div>{% endfor %}
+  </div>
+{% endmacro %}
+
+{% macro obraz(ilu, klasa='') %}
+  <span class="obraz {{ klasa }}">
+    <img class="obraz__bw"    src="ilustracje/{{ ilu.id }}-bw.png" alt="">
+    <img class="obraz__kolor" src="ilustracje/{{ ilu.id }}.png" alt="">
+  </span>
+{% endmacro %}
+
+{# ---------------------------------------------------------------- ćwiczenie #}
+{% macro cwiczenie(s) %}
+  <p class="polecenie">{{ s.polecenie }}</p>
+  {% if s.get('dla_rodzica') %}<p class="dla-rodzica">{{ s.dla_rodzica }}</p>{% endif %}
+  {% set d = s.dane %}
+  {% set rozciagnij = s.typ in ('tabela', 'plansza_gry', 'karty_do_wyciecia') %}
+  <div class="tresc {{ 'tresc--rozciagnij' if rozciagnij else 'tresc--rozloz' }}">
+
+  {% if s.typ == 'tabela' %}
+    <table class="tabela-sylab">
+      {% if d.get('naglowki_kolumn') %}
+        <tr>{% for h in d.naglowki_kolumn %}<th>{{ h }}</th>{% endfor %}</tr>
+      {% endif %}
+      {% for w in d.wiersze %}<tr>{% for x in w %}<td>{{ x }}</td>{% endfor %}</tr>{% endfor %}
+    </table>
+
+  {% elif s.typ == 'sciezka' %}
+    <div class="sciezka">
+      {% for k in d.kroki %}
+        <span class="sciezka__krok">{{ k }}</span>
+        {% if not loop.last %}<span class="sciezka__strzalka">&rarr;</span>{% endif %}
+      {% endfor %}
+    </div>
+    {% if d.get('meta') %}<p class="sciezka__meta">Meta: {{ d.meta }}</p>{% endif %}
+
+  {% elif s.typ == 'lacz_pary' %}
+    <div class="lacz">
+      <div class="lacz__kol">
+        {% for x in d.lewa %}<div class="lacz__pole">{{ x }}</div>{% endfor %}
+      </div>
+      <div class="lacz__kol">
+        {% for x in d.prawa %}<div class="lacz__pole">{{ x }}</div>{% endfor %}
+      </div>
+    </div>
+
+  {% elif s.typ == 'wyrazy_do_czytania' %}
+    <div class="wyrazy">
+      {% for x in d.wyrazy %}
+        <div class="wyraz">
+          {%- for cz in x.sylaby -%}
+            {{ cz }}{% if not loop.last %}<span class="wyraz__dziel">·</span>{% endif %}
+          {%- endfor -%}
+        </div>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'uzupelnij' %}
+    <div class="pozycje">
+      {% for p in d.pozycje %}
+        <div class="pozycja">
+          <span class="pozycja__wzor">{{ p.wzor }}</span>
+          {% for o in p.opcje %}<span class="opcja">{{ o }}</span>{% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'wybierz' %}
+    <div class="pozycje pozycje--obrazkowe">
+      {% for p in d.pozycje %}
+        <div class="pozycja pozycja--obrazek">
+          {% if p.get('ilustracja') %}
+            {{ obraz(p.ilustracja, 'obraz--zadanie') }}
+          {% elif p.get('podpowiedz_rodzica') %}
+            <span class="pozycja__podpowiedz">{{ loop.index }}. {{ p.podpowiedz_rodzica }}</span>
+          {% endif %}
+          <span class="pozycja__opcje">
+            {% for o in p.opcje %}<span class="opcja">{{ o }}</span>{% endfor %}
+          </span>
+        </div>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'pisanie_po_sladzie' %}
+    <div class="slad">
+      {% for x in d.wzory %}
+        <div class="slad__wzor">{{ (x ~ '  ') * 3 }}</div>
+        {{ linie(d.get('linie_na_wzor', 2), d.get('liniatura') != 'gladka') }}
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'czytanie_zdan' %}
+    <div class="zdania">
+      {% for z in d.zdania %}<div class="zdanie">{{ z }}</div>{% endfor %}
+    </div>
+    {% if d.get('pytanie') %}<p class="pytanie">{{ d.pytanie }}</p>{% endif %}
+
+  {% elif s.typ == 'dyktando' %}
+    {{ linie(d.do_dyktowania | length, d.get('liniatura') != 'gladka') }}
+
+  {% elif s.typ == 'ramka_rysunkowa' %}
+    <div class="ramki">
+      {% for x in d.wyrazy %}
+        <div class="ramka" style="height:{{ d.get('wysokosc_ramki_mm', 55) }}mm">
+          <div class="ramka__wyraz">{{ x }}</div>
+        </div>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'formularz' %}
+    {% for p in d.pola %}
+      <div class="formularz__pole">
+        <div class="formularz__etykieta">{{ p.etykieta }}</div>
+        {{ linie(p.get('linie', 1), False) }}
+      </div>
+    {% endfor %}
+
+  {% elif s.typ == 'dzialania' %}
+    <div class="dzialania">
+      {% for x in d.zadania %}
+        <div class="dzialanie">
+          <span class="dzialanie__tresc">{{ x.tresc }}</span>
+          <span class="dzialanie__pole"></span>
+        </div>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'sortowanie' %}
+    <div class="sort__pula">
+      {% for x in d.elementy %}<span class="sort__zeton">{{ x }}</span>{% endfor %}
+    </div>
+    <div class="sort__kosze">
+      {% for k in d.kategorie %}
+        <div class="sort__kosz"><span class="sort__nazwa">{{ k.nazwa }}</span></div>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'sekwencja' %}
+    <div class="sekwencja">
+      {% for x in d.kroki %}
+        <span class="sekwencja__pole {{ 'sekwencja__pole--puste' if x == '' }}">{{ x }}</span>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'lista_krokow' %}
+    <ol class="gra__kroki">
+      {% for x in d.kroki %}<li>{{ x }}</li>{% endfor %}
+    </ol>
+
+  {% elif s.typ == 'proza' %}
+    {# Jedyne miejsce z dominującą prozą. Maks. 65 znaków w linii pilnuje CSS. #}
+    <div class="proza">
+      {% for a in d.akapity %}<p>{{ a }}</p>{% endfor %}
+    </div>
+
+  {% elif s.typ == 'checklista' %}
+    <ul class="checklista">
+      {% for x in d.pozycje %}<li><span class="checklista__box"></span>{{ x }}</li>{% endfor %}
+    </ul>
+
+  {% elif s.typ == 'karty_do_wyciecia' %}
+    {# Prawdziwe karty z liniami cięcia, nie opis „16 kart". Reguła twarda:
+       jeśli materiał wymaga elementów, są w pliku. #}
+    <div class="karty karty--{{ d.get('na_arkuszu', 9) }}">
+      {% for k in d.karty %}
+        <div class="karta-tnij">
+          <span class="karta-tnij__awers">{{ k.awers }}</span>
+          {% if k.get('rewers') %}<span class="karta-tnij__rewers">{{ k.rewers }}</span>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'plansza_gry' %}
+    <div class="plansza">
+      {% for p in d.pola %}
+        <div class="plansza__pole {{ 'plansza__pole--meta' if loop.last }}">
+          <span class="plansza__nr">{{ loop.index }}</span>
+          <span class="plansza__tresc">{{ p }}</span>
+        </div>
+      {% endfor %}
+    </div>
+
+  {% elif s.typ == 'elementy_ruchome' %}
+    <div class="elementy">
+      {% for e in d.elementy %}
+        <div class="element">
+          <span class="element__nazwa">{{ e.nazwa }}</span>
+          {% if e.get('ile') %}<span class="element__ile">{{ e.ile }} szt.</span>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    {% if d.get('rzep') %}
+      <p class="dla-rodzica">{{ d.rzep }}</p>
+    {% endif %}
+  {% endif %}
+  </div>
+{% endmacro %}
+
+{# Strona ćwiczenia w komplecie — używana przez wszystkie archetypy. #}
+{% macro strona_cwiczenia(c, s, etykieta, opis, nr) %}
+  <div class="strona">
+    {{ naglowek(etykieta, opis) }}
+    {{ cwiczenie(s) }}
+    {{ stopka(c, nr) }}
+  </div>
+{% endmacro %}

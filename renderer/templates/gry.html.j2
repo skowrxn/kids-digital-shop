@@ -1,0 +1,40 @@
+{# GRY — zasady na JEDNEJ stronie, pionki i kostka w pliku. #}
+{% import '_cwiczenia.html.j2' as w %}
+{% import '_wstep.html.j2' as ws %}
+{% set ns = namespace(nr=0) %}
+
+{% set ns.nr = ns.nr + 1 %}{{ ws.okladka(c, ns.nr) }}
+{% set ns.nr = ns.nr + 1 %}{{ ws.jak_korzystac(c, ns.nr) }}
+
+{% for g in c.gry %}
+  {# zasady: jedna strona, reguła twarda archetypu #}
+  {% set ns.nr = ns.nr + 1 %}
+  <div class="strona">
+    {{ w.naglowek('Gra ' ~ loop.index, g.gracze ~ ' · ' ~ g.czas_min ~ ' min') }}
+    <h2 class="sekcja">{{ g.nazwa }}</h2>
+    {% if g.get('cel') %}<p style="font-size:11pt;margin:0 0 5mm">{{ g.cel }}</p>{% endif %}
+    {% if g.get('przygotowanie') %}
+      <h3 class="pod">Przygotowanie</h3>
+      <ul class="karta__lista" style="margin-bottom:5mm">
+        {% for x in g.przygotowanie %}<li>{{ x }}</li>{% endfor %}
+      </ul>
+    {% endif %}
+    <h3 class="pod">Zasady</h3>
+    <ol class="gra__kroki">{% for x in g.zasady %}<li>{{ x }}</li>{% endfor %}</ol>
+    <h3 class="pod" style="margin-top:5mm">Warianty</h3>
+    <ul class="karta__lista">
+      {% for v in g.warianty_trudnosci %}<li><strong>{{ v.nazwa }}</strong> — {{ v.zmiana }}</li>{% endfor %}
+    </ul>
+    {{ w.stopka(c, ns.nr) }}
+  </div>
+  {% if g.get('plansza') %}
+    {% set ns.nr = ns.nr + 1 %}
+    {{ w.strona_cwiczenia(c, g.plansza, g.nazwa, 'plansza', ns.nr) }}
+  {% endif %}
+  {% for s in g.get('arkusze', []) %}
+    {% set ns.nr = ns.nr + 1 %}
+    {{ w.strona_cwiczenia(c, s, g.nazwa, 'do wycięcia', ns.nr) }}
+  {% endfor %}
+{% endfor %}
+
+{% set ns.nr = ns.nr + 1 %}{{ ws.klucz(c, ns.nr) }}

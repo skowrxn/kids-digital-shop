@@ -1,0 +1,38 @@
+{# KARTY — talia do wycięcia. 8 albo 9 kart na A4, linie cięcia. #}
+{% import '_cwiczenia.html.j2' as w %}
+{% import '_wstep.html.j2' as ws %}
+{% set ns = namespace(nr=0) %}
+
+{% set ns.nr = ns.nr + 1 %}{{ ws.okladka(c, ns.nr) }}
+{% set ns.nr = ns.nr + 1 %}{{ ws.jak_korzystac(c, ns.nr) }}
+
+{% for t in c.talie %}
+  {% set ns.nr = ns.nr + 1 %}
+  <div class="strona">
+    {{ w.naglowek('Talia ' ~ loop.index, t.format_mm[0] ~ ' × ' ~ t.format_mm[1] ~ ' mm') }}
+    <h2 class="sekcja">{{ t.nazwa }}</h2>
+    <p class="dla-rodzica">
+      Tnij po przerywanej linii. Karty wyjdą {{ t.format_mm[0] }} × {{ t.format_mm[1] }} mm.
+      {% if t.get('bez_podpisow') %}Dalej jest ta sama talia bez podpisów — dla dziecka, które jeszcze nie czyta.{% endif %}
+    </p>
+    {{ w.stopka(c, ns.nr) }}
+  </div>
+  {% for s in t.arkusze %}
+    {% set ns.nr = ns.nr + 1 %}
+    {{ w.strona_cwiczenia(c, s, t.nazwa, '', ns.nr) }}
+  {% endfor %}
+{% endfor %}
+
+{% for z in c.instrukcja_zabaw %}
+  {% set ns.nr = ns.nr + 1 %}
+  <div class="strona">
+    {{ w.naglowek('Zabawa ' ~ loop.index, z.get('wiek', '')) }}
+    <h2 class="sekcja">{{ z.nazwa }}</h2>
+    <ol class="gra__kroki" style="flex:1">
+      {% for k in z.kroki %}<li>{{ k }}</li>{% endfor %}
+    </ol>
+    {{ w.stopka(c, ns.nr) }}
+  </div>
+{% endfor %}
+
+{% set ns.nr = ns.nr + 1 %}{{ ws.klucz(c, ns.nr) }}

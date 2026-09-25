@@ -129,11 +129,17 @@ def main():
     out = kat / "out"
     out.mkdir(parents=True, exist_ok=True)
 
-    # ile stron ma objąć darmowy fragment — wstęp + pełne tygodnie
-    stron_wstepu = 3
-    do_tyg = c["fragment"]["do_tygodnia"]
-    stron_fragmentu = stron_wstepu + sum(
-        1 + len(t["material_dziecka"]) + 3 for t in c["tygodnie"][:do_tyg])
+    # Ile stron obejmuje darmowy fragment. PROGRAM liczy pełnymi tygodniami
+    # (żeby nie urwać tygodnia w pół), reszta archetypów podaje liczbę stron
+    # wprost. Żelazna zasada 1: minimum 10 stron.
+    if archetyp == "PROGRAM":
+        do_tyg = c["fragment"]["do_tygodnia"]
+        stron_fragmentu = 3 + sum(1 + len(t["material_dziecka"]) + 3
+                                  for t in c["tygodnie"][:do_tyg])
+        opis_fragmentu = f"wstęp + tygodnie 1–{do_tyg}"
+    else:
+        stron_fragmentu = c["fragment"]["do_strony"]
+        opis_fragmentu = "wstęp + początek materiału"
 
     brak = [i for i in (kat / "content.json").exists() and _wymagane_ilustracje(c) or []
             if not (kat / "ilustracje" / f"{i}-bw.png").exists()]
@@ -148,7 +154,7 @@ def main():
 
         html_fr = zbuduj_html(c, archetyp, kolor=False, tylko_strony=stron_fragmentu)
         do_pdf(strona, html_fr, out / "fragment.pdf", kat)
-        print(f"  fragment.pdf ({stron_fragmentu} stron: wstęp + tygodnie 1–{do_tyg})")
+        print(f"  fragment.pdf ({stron_fragmentu} stron: {opis_fragmentu})")
 
         if a.kolor:
             html_k = zbuduj_html(c, archetyp, kolor=True)
