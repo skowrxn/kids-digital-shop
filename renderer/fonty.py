@@ -45,6 +45,10 @@ ZNAKI = (
 #: w validate.py to wyłapuje — patrz „obcy krój".
 
 
+#: rodzina -> znaki z ZNAKI, których font NIE ZAWIERA. Wypełniane przez zrob().
+braki_globalne = {}
+
+
 def zrob(zrodlo: Path, rodzina: str, wagi, stale, wzorzec):
     pliki = sorted(zrodlo.glob(wzorzec))
     if not pliki:
@@ -59,6 +63,11 @@ def zrob(zrodlo: Path, rodzina: str, wagi, stale, wzorzec):
         osie = {k: v for k, v in osie.items() if k in dostepne}
         if osie:
             f = instancer.instantiateVariableFont(f, osie, inplace=False, updateFontNames=True)
+
+        brakujace = [c for c in dict.fromkeys(ZNAKI)
+                     if c.strip() and ord(c) not in f.getBestCmap()]
+        if brakujace:
+            braki_globalne.setdefault(rodzina, brakujace)
 
         opcje = subset.Options()
         opcje.flavor = "woff2"
@@ -93,6 +102,37 @@ def main():
             sys.exit(f"BŁĄD: {p.name} nadal jest wariacyjny — Chromium zrobi z niego Type3")
         f.close()
     print("Wszystkie kroje statyczne.")
+
+    # Subsetter po cichu pomija znaki, których font nie ma. Bez tego raportu
+    # lista ZNAKI bywa życzeniowa, a brak wychodzi dopiero jako obcy krój
+    # w gotowym PDF-ie.
+    if braki_globalne:
+        print("\nUWAGA — znaki z ZNAKI nieobecne w kroju:")
+        for rodzina, brak in braki_globalne.items():
+            print(f"  {rodzina}: {' '.join(brak)}")
+
+    # Treść produktu składa się WYŁĄCZNIE Plus Jakarta Sans — Bricolage
+    # obsługuje same nagłówki, które biorą się z tytułów, nie z ćwiczeń.
+    # Dlatego lista dla autorów treści jest oparta na Jakarcie, nie na
+    # części wspólnej obu krojów.
+    brak_jakarta = set(braki_globalne.get("PlusJakartaSans", []))
+    dostepne = "".join(c for c in dict.fromkeys(ZNAKI)
+                       if c.strip() and c not in brak_jakarta)
+    tylko_tresc = "".join(c for c in dostepne
+                          if c in set(braki_globalne.get("BricolageGrotesque", [])))
+    lista = WYJSCIE / "ZNAKI-DOSTEPNE.txt"
+    lista.write_text(
+        "# Znaki, których WOLNO używać w content.json.\n"
+        "# Plik generowany przez renderer/fonty.py. Nie edytuj ręcznie.\n"
+        "# Użycie znaku spoza tej listy = obcy krój w PDF-ie = build pada.\n"
+        "#\n"
+        "# Lista jest oparta na Plus Jakarta Sans, bo tym krojem składa się\n"
+        "# cała treść. Bricolage Grotesque obsługuje tylko nagłówki.\n"
+        + (f"# Poniższych NIE używaj w tytułach ani nagłówkach (brak ich\n"
+           f"# w Bricolage): {tylko_tresc}\n" if tylko_tresc else "")
+        + "\n" + dostepne + "\n", encoding="utf-8")
+    print(f"\nZapisano {lista.relative_to(ROOT)} — {len(dostepne)} znaków dla treści"
+          + (f", z czego {len(tylko_tresc)} nie nadaje się do nagłówków." if tylko_tresc else "."))
 
 
 if __name__ == "__main__":

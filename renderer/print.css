@@ -136,6 +136,17 @@ h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
 .lacz__pole{ border:.8pt solid var(--ink); border-radius:3mm; padding:3mm 2mm;
              text-align:center; font-size:22pt; font-weight:700; }
 
+/* Pola z dużym stopniem pisma muszą łamać długie wyrazy. Inaczej jedno
+   słowo w rodzaju „pasażerowie" czy „podekscytowania" wychodzi poza kartkę,
+   a wykrywa to dopiero bramka na wyrenderowanym PDF-ie. */
+.lacz__pole, .sciezka__krok, .opcja, .wyraz, .sekwencja__pole,
+.sort__zeton, .plansza__tresc, .zdanie, .czytanka__linia{
+  overflow-wrap:anywhere; hyphens:auto;
+}
+/* Wariant zwarty dla pól z długą treścią — dobierany w szablonie. */
+.lacz--gesto .lacz__pole{ font-size:15pt; }
+.sciezka--gesto .sciezka__krok{ font-size:15pt; padding:2.5mm 3.5mm; }
+
 .wyrazy{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
          align-content:space-evenly; gap:6mm 10mm; margin-top:6mm; flex:1; }
 .wyraz{ font-size:22pt; font-weight:700; letter-spacing:.01em; }

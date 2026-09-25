@@ -633,10 +633,10 @@
       "autor": "Michał Ptak",
       "cena_pln": 29,
       "strony_prototyp": 48,
-      "etap": "spec",
+      "etap": "walidacja",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:31:46Z"
+      "zaktualizowano": "2026-09-25T11:04:06Z"
     },
     {
       "slug": "teczka-zwierzeta",
@@ -1178,5 +1178,5 @@
       "zaktualizowano": "2026-08-31T14:55:38Z"
     }
   ],
-  "zaktualizowano": "2026-09-25T10:57:57Z"
+  "zaktualizowano": "2026-09-25T11:04:06Z"
 }

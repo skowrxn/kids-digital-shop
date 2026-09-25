@@ -1,0 +1,1885 @@
+{
+  "meta": {
+    "slug": "teczka-pojazdy",
+    "tytul": "Teczka tematyczna: Pojazdy",
+    "podtytul": "Jeden temat, dwadzieścia aktywności",
+    "archetyp": "SEGREGATOR",
+    "wersja": "1.0",
+    "wiek": "3–6 lat",
+    "kategoria": "busy",
+    "podkategoria": "teczki",
+    "strony_deklarowane": 48,
+    "min_pt_dziecka": 14
+  },
+  "wstep": {
+    "dla_kogo": "Dla dziecka, które od pół roku mówi wyłącznie o koparkach.",
+    "obietnica": "Dwadzieścia aktywności wokół jednego tematu, który dziecko i tak kocha — i nie trzeba go do nich namawiać.",
+    "warunek_wejscia": "Dziecko dopasowuje obrazek do obrazka i utrzymuje uwagę przez pięć minut.",
+    "ile_czasu_dziennie": "Od dziesięciu do dwudziestu minut, raz dziennie.",
+    "jak_korzystac": [
+      "Przygotuj jedną sekcję naraz. Pierwsza wystarczy na dwa tygodnie.",
+      "Wydrukuj, zalaminuj, wytnij i naklej rzepy. Instrukcja jest na pierwszej stronie sekcji.",
+      "Wepnij planszę w koszulkę i włóż do segregatora z twardymi okładkami.",
+      "Na stole zostaw jedną planszę i jej elementy. Reszta czeka w segregatorze.",
+      "Polecenia dla dziecka czytasz na głos. Dziecko pokazuje palcem i przekłada elementy.",
+      "Nazywaj pojazdy tak, jak nazywa je dziecko. Swoją nazwę dopowiedz obok.",
+      "Elementy są małe. Zostań przy dziecku i chowaj woreczki po zabawie.",
+      "Kończ, zanim dziecko się znudzi. Lepiej dziesięć minut niż trzydzieści.",
+      "Sekcje możesz robić w dowolnej kolejności, ale rosną trudnością."
+    ],
+    "czego_nie_robi": [
+      "Nie jest encyklopedią pojazdów.",
+      "Nie uczy czytania — aktywności są obrazkowe.",
+      "Wymaga zalaminowania, żeby przetrwała dłużej niż tydzień."
+    ]
+  },
+  "sekcje": [
+    {
+      "temat": "Dopasowanie",
+      "poziom": 1,
+      "instrukcja_przygotowania": {
+        "id": "s1-instrukcja",
+        "typ": "lista_krokow",
+        "polecenie": "Przygotuj sekcję przed pierwszą zabawą.",
+        "dane": {
+          "kroki": [
+            "Wydrukuj wszystkie strony tej sekcji na grubym papierze.",
+            "Zalaminuj arkusze albo oklej je szeroką taśmą klejącą.",
+            "Wytnij elementy po liniach cięcia i zaokrąglij rogi nożyczkami.",
+            "Naklej rzepy: miękki na planszy, twardy na spodzie elementu.",
+            "Elementy są małe. Zostań przy dziecku przez całą zabawę.",
+            "Po zabawie schowaj elementy do woreczka poza zasięgiem dziecka.",
+            "Planszę wepnij w koszulkę i włóż do segregatora.",
+            "Karty do rysowania zostaw bez laminowania — dziecko rysuje po nich ołówkiem."
+          ]
+        },
+        "dla_rodzica": "Przygotowanie sekcji zajmuje około 30 minut. Zrób je bez dziecka przy stole."
+      },
+      "plansza_bazowa": {
+        "id": "s1-plansza",
+        "typ": "sortowanie",
+        "polecenie": "Połóż pojazd na pasującym polu.",
+        "dane": {
+          "elementy": [
+            "koparka",
+            "autobus",
+            "traktor",
+            "rower",
+            "pociąg",
+            "śmieciarka"
+          ],
+          "kategorie": [
+            {
+              "nazwa": "pole z koparką",
+              "naleza": [
+                "koparka"
+              ]
+            },
+            {
+              "nazwa": "pole z autobusem",
+              "naleza": [
+                "autobus"
+              ]
+            },
+            {
+              "nazwa": "pole z traktorem",
+              "naleza": [
+                "traktor"
+              ]
+            },
+            {
+              "nazwa": "pole z rowerem",
+              "naleza": [
+                "rower"
+              ]
+            },
+            {
+              "nazwa": "pole z pociągiem",
+              "naleza": [
+                "pociąg"
+              ]
+            },
+            {
+              "nazwa": "pole ze śmieciarką",
+              "naleza": [
+                "śmieciarka"
+              ]
+            }
+          ]
+        },
+        "dla_rodzica": "Zacznij od trzech pól. Resztę zasłoń kartką i dołóż po kilku dniach."
+      },
+      "elementy_ruchome": {
+        "id": "s1-elementy",
+        "typ": "elementy_ruchome",
+        "polecenie": "Wytnij elementy do planszy dopasowania.",
+        "dane": {
+          "elementy": [
+            {
+              "nazwa": "koparka",
+              "ile": 2
+            },
+            {
+              "nazwa": "autobus",
+              "ile": 2
+            },
+            {
+              "nazwa": "traktor",
+              "ile": 2
+            },
+            {
+              "nazwa": "rower",
+              "ile": 2
+            },
+            {
+              "nazwa": "pociąg",
+              "ile": 2
+            },
+            {
+              "nazwa": "śmieciarka",
+              "ile": 2
+            }
+          ],
+          "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie wyciętego pojazdu."
+        },
+        "dla_rodzica": "Drugi komplet trzymaj w zapasie. Elementy giną pod kanapą szybciej, niż się wydaje."
+      },
+      "dodatkowe": [
+        {
+          "id": "s1-d01",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz pojazd z miejscem pracy.",
+          "dane": {
+            "lewa": [
+              "koparka",
+              "traktor",
+              "autobus",
+              "pociąg",
+              "śmieciarka",
+              "wóz strażacki"
+            ],
+            "prawa": [
+              "przystanek",
+              "tory",
+              "plac budowy",
+              "remiza",
+              "pole",
+              "ulica z koszami"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                3
+              ]
+            ]
+          },
+          "dla_rodzica": "Przeczytaj oba słowa na głos, potem poprowadź palec dziecka po linii."
+        },
+        {
+          "id": "s1-d02",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj pojazd w pustym polu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "koparka",
+                "rewers": "ma łyżkę i kopie dół"
+              },
+              {
+                "awers": "autobus",
+                "rewers": "wozi ludzi między przystankami"
+              },
+              {
+                "awers": "traktor",
+                "rewers": "ciągnie przyczepę po polu"
+              },
+              {
+                "awers": "rower",
+                "rewers": "ma dwa koła i pedały"
+              },
+              {
+                "awers": "pociąg",
+                "rewers": "jedzie po torach z wagonami"
+              },
+              {
+                "awers": "śmieciarka",
+                "rewers": "zabiera kosze spod domów"
+              },
+              {
+                "awers": "betoniarka",
+                "rewers": "miesza beton w obracającym się bębnie"
+              },
+              {
+                "awers": "wóz strażacki",
+                "rewers": "wiezie drabinę i wodę"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          },
+          "dla_rodzica": "Nazwę pojazdu czytasz ty, dziecko rysuje w pustym polu. Kreski wystarczą."
+        },
+        {
+          "id": "s1-d03",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz pojazd z tym, co wozi.",
+          "dane": {
+            "lewa": [
+              "koparka",
+              "śmieciarka",
+              "autobus",
+              "betoniarka",
+              "traktor",
+              "ciężarówka"
+            ],
+            "prawa": [
+              "beton",
+              "piasek",
+              "paczki",
+              "pasażerowie",
+              "worki ze śmieciami",
+              "siano"
+            ],
+            "pary": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                2
+              ]
+            ]
+          },
+          "dla_rodzica": "Jeśli dziecko się waha, zapytaj: co ten pojazd ma w środku?"
+        },
+        {
+          "id": "s1-d04",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj pojazd, który dziś widzieliście.",
+          "dane": {
+            "wyrazy": [
+              "pojazd z rana",
+              "pojazd po drodze",
+              "pojazd przed domem"
+            ],
+            "wysokosc_ramki_mm": 55
+          },
+          "dla_rodzica": "Rysuj razem na jednej ramce, jeśli dziecko nie chce zaczynać samo."
+        },
+        {
+          "id": "s1-d05",
+          "typ": "wybierz",
+          "polecenie": "Pokaż pojazd, o którym mówi dorosły.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Ma dużą łyżkę i kopie dół.",
+                "opcje": [
+                  "koparka",
+                  "rower",
+                  "autobus"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Zabiera worki ze śmieciami spod domu.",
+                "opcje": [
+                  "pociąg",
+                  "śmieciarka",
+                  "traktor"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Jedzie po torach i ciągnie wagony.",
+                "opcje": [
+                  "rower",
+                  "autobus",
+                  "pociąg"
+                ],
+                "poprawna": 2
+              },
+              {
+                "podpowiedz_rodzica": "Ma dwa koła i pedały.",
+                "opcje": [
+                  "rower",
+                  "betoniarka",
+                  "śmieciarka"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Wozi ludzi i staje na przystanku.",
+                "opcje": [
+                  "traktor",
+                  "autobus",
+                  "koparka"
+                ],
+                "poprawna": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Czytasz tylko zdanie z podpowiedzią. Dziecko pokazuje palcem jeden z trzech pojazdów."
+        }
+      ]
+    },
+    {
+      "temat": "Liczenie",
+      "poziom": 2,
+      "instrukcja_przygotowania": {
+        "id": "s2-instrukcja",
+        "typ": "lista_krokow",
+        "polecenie": "Przygotuj sekcję z liczeniem.",
+        "dane": {
+          "kroki": [
+            "Wydrukuj strony tej sekcji na grubym papierze.",
+            "Zalaminuj planszę i arkusz z pojazdami do wycinania.",
+            "Wytnij pojazdy i karty z liczbami po liniach cięcia.",
+            "Naklej rzepy: miękki na polu planszy, twardy na spodzie pojazdu.",
+            "Elementy są małe. Zostań przy dziecku i sprzątaj je po zabawie.",
+            "Strony z rubrykami i ramkami zostaw bez laminowania.",
+            "Włóż do segregatora ołówek i gumkę, żeby nie szukać ich za każdym razem."
+          ]
+        },
+        "dla_rodzica": "Karty z liczbami przydadzą się też poza teczką — do liczenia aut za oknem."
+      },
+      "plansza_bazowa": {
+        "id": "s2-plansza",
+        "typ": "sortowanie",
+        "polecenie": "Połóż pojazd przy właściwej liczbie kół.",
+        "dane": {
+          "elementy": [
+            "rower",
+            "hulajnoga",
+            "motocykl",
+            "samochód",
+            "traktor",
+            "autobus",
+            "ciężarówka",
+            "śmieciarka"
+          ],
+          "kategorie": [
+            {
+              "nazwa": "pole z dwoma kołami",
+              "naleza": [
+                "rower",
+                "hulajnoga",
+                "motocykl"
+              ]
+            },
+            {
+              "nazwa": "pole z czterema kołami",
+              "naleza": [
+                "samochód",
+                "traktor",
+                "autobus"
+              ]
+            },
+            {
+              "nazwa": "pole z sześcioma kołami",
+              "naleza": [
+                "ciężarówka",
+                "śmieciarka"
+              ]
+            }
+          ]
+        },
+        "dla_rodzica": "Niech dziecko dotknie każdego koła palcem i policzy na głos. Dotyk liczy się bardziej niż wynik."
+      },
+      "elementy_ruchome": {
+        "id": "s2-elementy",
+        "typ": "elementy_ruchome",
+        "polecenie": "Wytnij pojazdy do planszy z kołami.",
+        "dane": {
+          "elementy": [
+            {
+              "nazwa": "rower",
+              "ile": 1
+            },
+            {
+              "nazwa": "hulajnoga",
+              "ile": 1
+            },
+            {
+              "nazwa": "motocykl",
+              "ile": 1
+            },
+            {
+              "nazwa": "samochód",
+              "ile": 1
+            },
+            {
+              "nazwa": "traktor",
+              "ile": 1
+            },
+            {
+              "nazwa": "autobus",
+              "ile": 1
+            },
+            {
+              "nazwa": "ciężarówka",
+              "ile": 1
+            },
+            {
+              "nazwa": "śmieciarka",
+              "ile": 1
+            },
+            {
+              "nazwa": "karta z kropkami",
+              "ile": 6
+            }
+          ],
+          "rzep": "Miękki rzep naklej w rogu każdego pola z liczbą kół, twardy na spodzie pojazdu."
+        },
+        "dla_rodzica": "Karty z kropkami kładziecie obok pojazdu — tyle kropek, ile kół."
+      },
+      "dodatkowe": [
+        {
+          "id": "s2-d01",
+          "typ": "sortowanie",
+          "polecenie": "Połóż kartę przy pasującej liczbie kropek.",
+          "dane": {
+            "elementy": [
+              "karta z jednym pociągiem",
+              "karta z dwoma rowerami",
+              "karta z trzema autobusami",
+              "karta z jedną koparką",
+              "karta z dwiema hulajnogami",
+              "karta z trzema traktorami"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole z jedną kropką",
+                "naleza": [
+                  "karta z jednym pociągiem",
+                  "karta z jedną koparką"
+                ]
+              },
+              {
+                "nazwa": "pole z dwiema kropkami",
+                "naleza": [
+                  "karta z dwoma rowerami",
+                  "karta z dwiema hulajnogami"
+                ]
+              },
+              {
+                "nazwa": "pole z trzema kropkami",
+                "naleza": [
+                  "karta z trzema autobusami",
+                  "karta z trzema traktorami"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "Dziecko liczy pojazdy na karcie, nie kropki. Kropki są tylko celem."
+        },
+        {
+          "id": "s2-d02",
+          "typ": "sekwencja",
+          "polecenie": "Wstaw brakujące liczby na wagonach.",
+          "dane": {
+            "kroki": [
+              "1",
+              "2",
+              "",
+              "4",
+              "",
+              "6"
+            ],
+            "brakujace": [
+              "3",
+              "5"
+            ]
+          },
+          "dla_rodzica": "Policzcie wagony razem od lokomotywy. Puste wagony dziecko uzupełnia ołówkiem."
+        },
+        {
+          "id": "s2-d03",
+          "typ": "tabela",
+          "polecenie": "Policz pojazdy za oknem.",
+          "dane": {
+            "naglowki_kolumn": [
+              "pojazd",
+              "kreski",
+              "razem"
+            ],
+            "wiersze": [
+              [
+                "autobus",
+                "",
+                ""
+              ],
+              [
+                "rower",
+                "",
+                ""
+              ],
+              [
+                "koparka",
+                "",
+                ""
+              ],
+              [
+                "ciężarówka",
+                "",
+                ""
+              ],
+              [
+                "traktor",
+                "",
+                ""
+              ],
+              [
+                "motocykl",
+                "",
+                ""
+              ]
+            ]
+          },
+          "dla_rodzica": "Rubryki są puste. Za każdy zauważony pojazd dziecko stawia jedną kreskę."
+        },
+        {
+          "id": "s2-d04",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty z liczbami.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "1",
+                "rewers": "jedno koło"
+              },
+              {
+                "awers": "2",
+                "rewers": "dwa koła"
+              },
+              {
+                "awers": "3",
+                "rewers": "trzy koła"
+              },
+              {
+                "awers": "4",
+                "rewers": "cztery koła"
+              },
+              {
+                "awers": "5",
+                "rewers": "pięć kół"
+              },
+              {
+                "awers": "6",
+                "rewers": "sześć kół"
+              },
+              {
+                "awers": "7",
+                "rewers": "siedem kół"
+              },
+              {
+                "awers": "8",
+                "rewers": "osiem kół"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Kartę z liczbą kładziecie obok pojazdu z planszy. Dziecko sprawdza, czy pasuje."
+        },
+        {
+          "id": "s2-d05",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz garaż z liczbą pojazdów.",
+          "dane": {
+            "lewa": [
+              "garaż z dwoma rowerami",
+              "garaż z trzema autobusami",
+              "garaż z jedną koparką",
+              "garaż z czterema traktorami",
+              "garaż z pięcioma hulajnogami"
+            ],
+            "prawa": [
+              "3",
+              "1",
+              "5",
+              "2",
+              "4"
+            ],
+            "pary": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                2
+              ]
+            ]
+          },
+          "dla_rodzica": "Dziecko liczy pojazdy w garażu, potem szuka tej samej liczby po prawej."
+        },
+        {
+          "id": "s2-d06",
+          "typ": "wybierz",
+          "polecenie": "Pokaż, gdzie stoi więcej pojazdów.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Po lewej dwa rowery, po prawej pięć rowerów.",
+                "opcje": [
+                  "lewe pole",
+                  "prawe pole"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Po lewej cztery koparki, po prawej jedna koparka.",
+                "opcje": [
+                  "lewe pole",
+                  "prawe pole"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Po lewej trzy autobusy, po prawej sześć autobusów.",
+                "opcje": [
+                  "lewe pole",
+                  "prawe pole"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Po lewej pięć traktorów, po prawej dwa traktory.",
+                "opcje": [
+                  "lewe pole",
+                  "prawe pole"
+                ],
+                "poprawna": 0
+              }
+            ]
+          },
+          "dla_rodzica": "Nie poprawiaj od razu. Poproś, żeby dziecko policzyło oba pola jeszcze raz."
+        },
+        {
+          "id": "s2-d07",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Dorysuj pojazdom brakujące koła.",
+          "dane": {
+            "wyrazy": [
+              "rower — dwa koła",
+              "samochód — cztery koła",
+              "ciężarówka — sześć kół"
+            ],
+            "wysokosc_ramki_mm": 50
+          },
+          "dla_rodzica": "Koło może być zwykłym kółkiem. Liczy się liczba, nie kształt."
+        },
+        {
+          "id": "s2-d08",
+          "typ": "sekwencja",
+          "polecenie": "Dokończ rząd pojazdów.",
+          "dane": {
+            "kroki": [
+              "rower",
+              "autobus",
+              "rower",
+              "",
+              "rower",
+              "autobus",
+              "",
+              ""
+            ],
+            "brakujace": [
+              "autobus",
+              "rower",
+              "autobus"
+            ]
+          },
+          "dla_rodzica": "Powiedz rząd na głos jak wyliczankę. Rytm podpowiada dziecku odpowiedź."
+        },
+        {
+          "id": "s2-d09",
+          "typ": "formularz",
+          "polecenie": "Zaznacz, co policzyliście w tym tygodniu.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Pojazdy policzone w drodze do przedszkola",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Pojazdy policzone z okna",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Pojazd, którego było najwięcej",
+                "wysokosc_mm": 12,
+                "linie": 1
+              },
+              {
+                "etykieta": "Do policzenia następnym razem",
+                "wysokosc_mm": 14,
+                "linie": 2
+              }
+            ]
+          },
+          "dla_rodzica": "Rubryki wypełniasz u siebie w domu. Nic z tej strony nie wraca do nas."
+        }
+      ]
+    },
+    {
+      "temat": "Sortowanie",
+      "poziom": 3,
+      "instrukcja_przygotowania": {
+        "id": "s3-instrukcja",
+        "typ": "lista_krokow",
+        "polecenie": "Przygotuj sekcję z sortowaniem.",
+        "dane": {
+          "kroki": [
+            "Wydrukuj strony tej sekcji na grubym papierze.",
+            "Zalaminuj planszę z trzema polami i arkusz z pojazdami.",
+            "Wytnij pojazdy po liniach cięcia i zaokrąglij rogi.",
+            "Naklej rzepy: miękki na każdym polu planszy, twardy na spodzie pojazdu.",
+            "Elementy są małe. Zostań przy dziecku przez całą zabawę.",
+            "Schowaj wycięte pojazdy do woreczka strunowego i podpisz go.",
+            "Planszę wepnij w koszulkę, karty do sortowania trzymaj luzem."
+          ]
+        },
+        "dla_rodzica": "Jeden woreczek na jedną planszę. Wymieszane komplety kończą zabawę szybciej niż znudzenie."
+      },
+      "plansza_bazowa": {
+        "id": "s3-plansza",
+        "typ": "sortowanie",
+        "polecenie": "Podziel pojazdy na trzy pola.",
+        "dane": {
+          "elementy": [
+            "autobus",
+            "rower",
+            "koparka",
+            "pociąg",
+            "tramwaj",
+            "metro",
+            "łódka",
+            "prom"
+          ],
+          "kategorie": [
+            {
+              "nazwa": "pole: jedzie po drodze",
+              "naleza": [
+                "autobus",
+                "rower",
+                "koparka"
+              ]
+            },
+            {
+              "nazwa": "pole: jedzie po torach",
+              "naleza": [
+                "pociąg",
+                "tramwaj",
+                "metro"
+              ]
+            },
+            {
+              "nazwa": "pole: płynie po wodzie",
+              "naleza": [
+                "łódka",
+                "prom"
+              ]
+            }
+          ]
+        },
+        "dla_rodzica": "Zapytaj przy każdym pojeździe: po czym on jedzie? Dziecko odpowiada, zanim położy element."
+      },
+      "elementy_ruchome": {
+        "id": "s3-elementy",
+        "typ": "elementy_ruchome",
+        "polecenie": "Wytnij pojazdy do planszy sortowania.",
+        "dane": {
+          "elementy": [
+            {
+              "nazwa": "autobus",
+              "ile": 1
+            },
+            {
+              "nazwa": "rower",
+              "ile": 1
+            },
+            {
+              "nazwa": "koparka",
+              "ile": 1
+            },
+            {
+              "nazwa": "pociąg",
+              "ile": 1
+            },
+            {
+              "nazwa": "tramwaj",
+              "ile": 1
+            },
+            {
+              "nazwa": "metro",
+              "ile": 1
+            },
+            {
+              "nazwa": "łódka",
+              "ile": 1
+            },
+            {
+              "nazwa": "prom",
+              "ile": 1
+            },
+            {
+              "nazwa": "pasek z podpisem pola",
+              "ile": 3
+            }
+          ],
+          "rzep": "Miękki rzep naklej w trzech rzędach pola, twardy na spodzie każdego wyciętego pojazdu."
+        },
+        "dla_rodzica": "Paski z podpisami pól też są na rzep — możesz zmienić reguły sortowania w minutę."
+      },
+      "dodatkowe": [
+        {
+          "id": "s3-d01",
+          "typ": "sortowanie",
+          "polecenie": "Podziel pojazdy na duże i małe.",
+          "dane": {
+            "elementy": [
+              "hulajnoga",
+              "rower",
+              "motocykl",
+              "skuter",
+              "autobus",
+              "śmieciarka",
+              "betoniarka",
+              "dźwig"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole: zmieści się w windzie",
+                "naleza": [
+                  "hulajnoga",
+                  "rower",
+                  "motocykl",
+                  "skuter"
+                ]
+              },
+              {
+                "nazwa": "pole: potrzebuje dużego placu",
+                "naleza": [
+                  "autobus",
+                  "śmieciarka",
+                  "betoniarka",
+                  "dźwig"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "Porównanie z windą działa lepiej niż słowo duży. Dziecko widziało windę."
+        },
+        {
+          "id": "s3-d02",
+          "typ": "sortowanie",
+          "polecenie": "Podziel pojazdy na pracujące i wożące ludzi.",
+          "dane": {
+            "elementy": [
+              "koparka",
+              "betoniarka",
+              "śmieciarka",
+              "wywrotka",
+              "autobus",
+              "tramwaj",
+              "pociąg",
+              "taksówka"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole: pojazd do pracy",
+                "naleza": [
+                  "koparka",
+                  "betoniarka",
+                  "śmieciarka",
+                  "wywrotka"
+                ]
+              },
+              {
+                "nazwa": "pole: pojazd dla pasażerów",
+                "naleza": [
+                  "autobus",
+                  "tramwaj",
+                  "pociąg",
+                  "taksówka"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "Pytanie pomocnicze: czy można tym pojechać do babci?"
+        },
+        {
+          "id": "s3-d03",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz pojazd z osobą, która nim jeździ.",
+          "dane": {
+            "lewa": [
+              "autobus",
+              "pociąg",
+              "wóz strażacki",
+              "traktor",
+              "koparka",
+              "karetka"
+            ],
+            "prawa": [
+              "maszynista",
+              "rolnik",
+              "kierowca autobusu",
+              "ratownik",
+              "operator koparki",
+              "strażak"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                3
+              ]
+            ]
+          },
+          "dla_rodzica": "Nazwy zawodów czytasz ty. Dziecko dopowiada, co ta osoba robi w pracy."
+        },
+        {
+          "id": "s3-d04",
+          "typ": "sortowanie",
+          "polecenie": "Podziel pojazdy na głośne i ciche.",
+          "dane": {
+            "elementy": [
+              "rower",
+              "hulajnoga",
+              "rowerek biegowy",
+              "deskorolka",
+              "wóz strażacki",
+              "karetka",
+              "motocykl",
+              "śmieciarka"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole: słychać go z daleka",
+                "naleza": [
+                  "wóz strażacki",
+                  "karetka",
+                  "motocykl",
+                  "śmieciarka"
+                ]
+              },
+              {
+                "nazwa": "pole: jedzie prawie bezgłośnie",
+                "naleza": [
+                  "rower",
+                  "hulajnoga",
+                  "rowerek biegowy",
+                  "deskorolka"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "Pobawcie się w dźwięki. Dziecko naśladuje pojazd, zanim położy element."
+        },
+        {
+          "id": "s3-d05",
+          "typ": "wybierz",
+          "polecenie": "Pokaż pojazd, który tu nie pasuje.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Wszystkie jeżdżą po torach oprócz jednego.",
+                "opcje": [
+                  "pociąg",
+                  "tramwaj",
+                  "rower"
+                ],
+                "poprawna": 2
+              },
+              {
+                "podpowiedz_rodzica": "Wszystkie pracują na budowie oprócz jednego.",
+                "opcje": [
+                  "koparka",
+                  "autobus",
+                  "betoniarka"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Wszystkie mają dwa koła oprócz jednego.",
+                "opcje": [
+                  "rower",
+                  "motocykl",
+                  "śmieciarka"
+                ],
+                "poprawna": 2
+              },
+              {
+                "podpowiedz_rodzica": "Wszystkie wożą pasażerów oprócz jednego.",
+                "opcje": [
+                  "autobus",
+                  "wywrotka",
+                  "tramwaj"
+                ],
+                "poprawna": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Po wskazaniu zapytaj dlaczego. Uzasadnienie jest tu ważniejsze niż trafienie."
+        },
+        {
+          "id": "s3-d06",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty i posortuj je z dzieckiem.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "koparka"
+              },
+              {
+                "awers": "autobus"
+              },
+              {
+                "awers": "pociąg"
+              },
+              {
+                "awers": "rower"
+              },
+              {
+                "awers": "łódka"
+              },
+              {
+                "awers": "traktor"
+              },
+              {
+                "awers": "tramwaj"
+              },
+              {
+                "awers": "motocykl"
+              },
+              {
+                "awers": "śmieciarka"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          },
+          "dla_rodzica": "Dziecko rysuje pojazd w pustym polu, potem układa karty w kupki po swojemu."
+        },
+        {
+          "id": "s3-d08",
+          "typ": "sekwencja",
+          "polecenie": "Ułóż pojazdy od najmniejszego.",
+          "dane": {
+            "kroki": [
+              "hulajnoga",
+              "rower",
+              "",
+              "samochód",
+              "",
+              "pociąg"
+            ],
+            "brakujace": [
+              "motocykl",
+              "autobus"
+            ]
+          },
+          "dla_rodzica": "Pokaż dwa sąsiednie pojazdy i zapytaj, który jest większy. Potem dołóż kolejny."
+        },
+        {
+          "id": "s3-d09",
+          "typ": "formularz",
+          "polecenie": "Wasze pojazdy tygodnia.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Pojazd, który spodobał się najbardziej",
+                "wysokosc_mm": 12,
+                "linie": 1
+              },
+              {
+                "etykieta": "Pojazd widziany pierwszy raz",
+                "wysokosc_mm": 12,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sposób sortowania wymyślony przez dziecko",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Do powtórzenia w przyszłym tygodniu",
+                "wysokosc_mm": 14,
+                "linie": 2
+              }
+            ]
+          },
+          "dla_rodzica": "Ta strona zostaje u was. Wpisuj ołówkiem, żeby dało się ją użyć jeszcze raz."
+        }
+      ]
+    },
+    {
+      "temat": "Pierwsze słowa o pojazdach",
+      "poziom": 4,
+      "instrukcja_przygotowania": {
+        "id": "s4-instrukcja",
+        "typ": "lista_krokow",
+        "polecenie": "Przygotuj sekcję ze słowami.",
+        "dane": {
+          "kroki": [
+            "Wydrukuj strony tej sekcji na grubym papierze.",
+            "Zalaminuj planszę z pojazdami i arkusz z częściami.",
+            "Wytnij części pojazdów po liniach cięcia — są mniejsze niż w innych sekcjach.",
+            "Naklej rzepy: miękki przy pojeździe na planszy, twardy na spodzie części.",
+            "Elementy są małe. Zostań przy dziecku i licz je przed schowaniem.",
+            "Karty ze słowami zalaminuj osobno i trzymaj w drugim woreczku.",
+            "Strony z ramkami i rubrykami zostaw bez laminowania."
+          ]
+        },
+        "dla_rodzica": "Wszystkie słowa czytasz ty. Dziecko powtarza tyle, ile chce — bez poprawiania wymowy."
+      },
+      "plansza_bazowa": {
+        "id": "s4-plansza",
+        "typ": "sortowanie",
+        "polecenie": "Połóż część przy pasującym pojeździe.",
+        "dane": {
+          "elementy": [
+            "łyżka",
+            "drabina",
+            "przyczepa",
+            "bęben",
+            "dzwonek",
+            "wagon",
+            "kosz"
+          ],
+          "kategorie": [
+            {
+              "nazwa": "pole: koparka",
+              "naleza": [
+                "łyżka"
+              ]
+            },
+            {
+              "nazwa": "pole: wóz strażacki",
+              "naleza": [
+                "drabina"
+              ]
+            },
+            {
+              "nazwa": "pole: traktor",
+              "naleza": [
+                "przyczepa"
+              ]
+            },
+            {
+              "nazwa": "pole: betoniarka",
+              "naleza": [
+                "bęben"
+              ]
+            },
+            {
+              "nazwa": "pole: rower",
+              "naleza": [
+                "dzwonek"
+              ]
+            },
+            {
+              "nazwa": "pole: pociąg",
+              "naleza": [
+                "wagon"
+              ]
+            },
+            {
+              "nazwa": "pole: śmieciarka",
+              "naleza": [
+                "kosz"
+              ]
+            }
+          ]
+        },
+        "dla_rodzica": "Nazwij część na głos, zanim dziecko ją położy. To jest cała nauka na tej stronie."
+      },
+      "elementy_ruchome": {
+        "id": "s4-elementy",
+        "typ": "elementy_ruchome",
+        "polecenie": "Wytnij części pojazdów.",
+        "dane": {
+          "elementy": [
+            {
+              "nazwa": "łyżka koparki",
+              "ile": 1
+            },
+            {
+              "nazwa": "drabina",
+              "ile": 1
+            },
+            {
+              "nazwa": "przyczepa",
+              "ile": 1
+            },
+            {
+              "nazwa": "bęben betoniarki",
+              "ile": 1
+            },
+            {
+              "nazwa": "dzwonek",
+              "ile": 1
+            },
+            {
+              "nazwa": "wagon",
+              "ile": 2
+            },
+            {
+              "nazwa": "kosz na śmieci",
+              "ile": 1
+            },
+            {
+              "nazwa": "koło zapasowe",
+              "ile": 4
+            }
+          ],
+          "rzep": "Miękki rzep naklej obok każdego pojazdu na planszy, twardy na spodzie wyciętej części."
+        },
+        "dla_rodzica": "Koła zapasowe pasują do każdego pojazdu. Zostaw je na koniec jako nagrodę."
+      },
+      "dodatkowe": [
+        {
+          "id": "s4-d01",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz pojazd z jego częścią.",
+          "dane": {
+            "lewa": [
+              "koparka",
+              "rower",
+              "pociąg",
+              "betoniarka",
+              "wóz strażacki",
+              "traktor"
+            ],
+            "prawa": [
+              "dzwonek",
+              "obracający się bęben",
+              "łyżka",
+              "pług",
+              "wagon",
+              "drabina"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                3
+              ]
+            ]
+          },
+          "dla_rodzica": "Czytasz obie nazwy, dziecko prowadzi kreskę. Nazwę części powtórzcie dwa razy."
+        },
+        {
+          "id": "s4-d02",
+          "typ": "wybierz",
+          "polecenie": "Powiedz, co robi ten pojazd.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Koparka — co robi swoją łyżką?",
+                "opcje": [
+                  "kopie",
+                  "gasi",
+                  "piecze"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Wóz strażacki — po co jedzie na sygnale?",
+                "opcje": [
+                  "orze",
+                  "gasi",
+                  "kopie"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Traktor — co robi na polu?",
+                "opcje": [
+                  "orze",
+                  "pływa",
+                  "lata"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Autobus — co robi na przystanku?",
+                "opcje": [
+                  "kopie",
+                  "zabiera pasażerów",
+                  "orze"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Betoniarka — co wiezie na budowę?",
+                "opcje": [
+                  "beton",
+                  "ogień",
+                  "siano"
+                ],
+                "poprawna": 0
+              }
+            ]
+          },
+          "dla_rodzica": "Dziecko odpowiada słowem albo gestem. Gest liczy się tak samo."
+        },
+        {
+          "id": "s4-d03",
+          "typ": "sortowanie",
+          "polecenie": "Podziel słowa na pojazdy i czynności.",
+          "dane": {
+            "elementy": [
+              "koparka",
+              "kopie",
+              "traktor",
+              "orze",
+              "śmieciarka",
+              "wywozi",
+              "rower",
+              "jedzie"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole: to jest pojazd",
+                "naleza": [
+                  "koparka",
+                  "traktor",
+                  "śmieciarka",
+                  "rower"
+                ]
+              },
+              {
+                "nazwa": "pole: to robi pojazd",
+                "naleza": [
+                  "kopie",
+                  "orze",
+                  "wywozi",
+                  "jedzie"
+                ]
+              }
+            ]
+          },
+          "dla_rodzica": "Czytasz słowo, dziecko decyduje. Podpowiedź: pojazd można narysować, czynność trzeba pokazać."
+        },
+        {
+          "id": "s4-d04",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty ze słowami o pojazdach.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "koparka",
+                "rewers": "kopie dół na budowie"
+              },
+              {
+                "awers": "traktor",
+                "rewers": "orze pole i ciągnie przyczepę"
+              },
+              {
+                "awers": "śmieciarka",
+                "rewers": "zabiera kosze spod domów"
+              },
+              {
+                "awers": "autobus",
+                "rewers": "wozi ludzi i staje na przystanku"
+              },
+              {
+                "awers": "pociąg",
+                "rewers": "jedzie po torach z wagonami"
+              },
+              {
+                "awers": "rower",
+                "rewers": "ma dwa koła, pedały i dzwonek"
+              },
+              {
+                "awers": "betoniarka",
+                "rewers": "miesza beton w obracającym się bębnie"
+              },
+              {
+                "awers": "wóz strażacki",
+                "rewers": "wiezie wodę i długą drabinę"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Pokaż stronę ze słowem, przeczytaj zdanie z drugiej strony. Po tygodniu dziecko dopowie je samo."
+        },
+        {
+          "id": "s4-d05",
+          "typ": "sekwencja",
+          "polecenie": "Ułóż po kolei, co robi śmieciarka.",
+          "dane": {
+            "kroki": [
+              "podjeżdża pod dom",
+              "",
+              "wysypuje śmieci do środka",
+              "",
+              "odjeżdża na wysypisko"
+            ],
+            "brakujace": [
+              "podnosi kosz",
+              "stawia kosz na chodniku"
+            ]
+          },
+          "dla_rodzica": "Opowiedzcie to razem raz na głos, zanim dziecko zacznie układać."
+        },
+        {
+          "id": "s4-d06",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj pojazd i nazwij jego części.",
+          "dane": {
+            "wyrazy": [
+              "mój pojazd",
+              "jego koła",
+              "jego kierownica"
+            ],
+            "wysokosc_ramki_mm": 60
+          },
+          "dla_rodzica": "Po rysunku poproś, żeby dziecko pokazało palcem każdą część i nazwało ją."
+        },
+        {
+          "id": "s4-d07",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz pojazd z jego dźwiękiem.",
+          "dane": {
+            "lewa": [
+              "pociąg",
+              "rower",
+              "wóz strażacki",
+              "koparka",
+              "autobus",
+              "traktor"
+            ],
+            "prawa": [
+              "dzyń dzyń",
+              "iii-oo iii-oo",
+              "tu-tuu",
+              "pyr pyr pyr",
+              "brum brum",
+              "pssst przy drzwiach"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                3
+              ]
+            ]
+          },
+          "dla_rodzica": "Powiedz dźwięk na głos. Dziecko powtarza i dopiero potem szuka pojazdu."
+        },
+        {
+          "id": "s4-d08",
+          "typ": "wybierz",
+          "polecenie": "Powiedz, czym jedzie ta osoba.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Strażak jedzie gasić ogień.",
+                "opcje": [
+                  "wóz strażacki",
+                  "rower",
+                  "traktor"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Rolnik jedzie w pole.",
+                "opcje": [
+                  "tramwaj",
+                  "traktor",
+                  "łódka"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Listonosz objeżdża domy w małej wsi.",
+                "opcje": [
+                  "pociąg",
+                  "betoniarka",
+                  "rower"
+                ],
+                "poprawna": 2
+              },
+              {
+                "podpowiedz_rodzica": "Maszynista prowadzi skład wagonów.",
+                "opcje": [
+                  "pociąg",
+                  "hulajnoga",
+                  "koparka"
+                ],
+                "poprawna": 0
+              }
+            ]
+          },
+          "dla_rodzica": "Jeśli dziecko zna inną odpowiedź i umie ją uzasadnić, przyjmij ją."
+        },
+        {
+          "id": "s4-d09",
+          "typ": "formularz",
+          "polecenie": "Nowe słowa o pojazdach.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Nazwy pojazdów, które padły w tym tygodniu",
+                "wysokosc_mm": 18,
+                "linie": 3
+              },
+              {
+                "etykieta": "Nazwy części pojazdów",
+                "wysokosc_mm": 18,
+                "linie": 3
+              },
+              {
+                "etykieta": "Słowo, które wraca najczęściej",
+                "wysokosc_mm": 12,
+                "linie": 1
+              },
+              {
+                "etykieta": "Do powtórzenia przy następnej zabawie",
+                "wysokosc_mm": 14,
+                "linie": 2
+              }
+            ]
+          },
+          "dla_rodzica": "Rubryki są puste i zostają u was. Wypełnij je ołówkiem po zabawie."
+        }
+      ]
+    }
+  ],
+  "klucz_odpowiedzi": [
+    {
+      "strona_id": "s1-plansza",
+      "odpowiedzi": [
+        "pole z koparką: koparka",
+        "pole z autobusem: autobus",
+        "pole z traktorem: traktor",
+        "pole z rowerem: rower",
+        "pole z pociągiem: pociąg",
+        "pole ze śmieciarką: śmieciarka"
+      ]
+    },
+    {
+      "strona_id": "s1-d01",
+      "odpowiedzi": [
+        "koparka — plac budowy",
+        "traktor — pole",
+        "autobus — przystanek",
+        "pociąg — tory",
+        "śmieciarka — ulica z koszami",
+        "wóz strażacki — remiza"
+      ]
+    },
+    {
+      "strona_id": "s1-d03",
+      "odpowiedzi": [
+        "koparka — piasek",
+        "śmieciarka — worki ze śmieciami",
+        "autobus — pasażerowie",
+        "betoniarka — beton",
+        "traktor — siano",
+        "ciężarówka — paczki"
+      ]
+    },
+    {
+      "strona_id": "s1-d05",
+      "odpowiedzi": [
+        "koparka",
+        "śmieciarka",
+        "pociąg",
+        "rower",
+        "autobus"
+      ]
+    },
+    {
+      "strona_id": "s2-plansza",
+      "odpowiedzi": [
+        "dwa koła: rower, hulajnoga, motocykl",
+        "cztery koła: samochód, traktor, autobus",
+        "sześć kół: ciężarówka, śmieciarka"
+      ]
+    },
+    {
+      "strona_id": "s2-d01",
+      "odpowiedzi": [
+        "jedna kropka: karta z jednym pociągiem, karta z jedną koparką",
+        "dwie kropki: karta z dwoma rowerami, karta z dwiema hulajnogami",
+        "trzy kropki: karta z trzema autobusami, karta z trzema traktorami"
+      ]
+    },
+    {
+      "strona_id": "s2-d02",
+      "odpowiedzi": [
+        "trzeci wagon: 3",
+        "piąty wagon: 5"
+      ]
+    },
+    {
+      "strona_id": "s2-d05",
+      "odpowiedzi": [
+        "garaż z dwoma rowerami — 2",
+        "garaż z trzema autobusami — 3",
+        "garaż z jedną koparką — 1",
+        "garaż z czterema traktorami — 4",
+        "garaż z pięcioma hulajnogami — 5"
+      ]
+    },
+    {
+      "strona_id": "s2-d06",
+      "odpowiedzi": [
+        "prawe pole",
+        "lewe pole",
+        "prawe pole",
+        "lewe pole"
+      ]
+    },
+    {
+      "strona_id": "s2-d08",
+      "odpowiedzi": [
+        "czwarte miejsce: autobus",
+        "siódme miejsce: rower",
+        "ósme miejsce: autobus"
+      ]
+    },
+    {
+      "strona_id": "s3-plansza",
+      "odpowiedzi": [
+        "jedzie po drodze: autobus, rower, koparka",
+        "jedzie po torach: pociąg, tramwaj, metro",
+        "płynie po wodzie: łódka, prom"
+      ]
+    },
+    {
+      "strona_id": "s3-d01",
+      "odpowiedzi": [
+        "zmieści się w windzie: hulajnoga, rower, motocykl, skuter",
+        "potrzebuje dużego placu: autobus, śmieciarka, betoniarka, dźwig"
+      ]
+    },
+    {
+      "strona_id": "s3-d02",
+      "odpowiedzi": [
+        "pojazd do pracy: koparka, betoniarka, śmieciarka, wywrotka",
+        "pojazd dla pasażerów: autobus, tramwaj, pociąg, taksówka"
+      ]
+    },
+    {
+      "strona_id": "s3-d03",
+      "odpowiedzi": [
+        "autobus — kierowca autobusu",
+        "pociąg — maszynista",
+        "wóz strażacki — strażak",
+        "traktor — rolnik",
+        "koparka — operator koparki",
+        "karetka — ratownik"
+      ]
+    },
+    {
+      "strona_id": "s3-d04",
+      "odpowiedzi": [
+        "słychać go z daleka: wóz strażacki, karetka, motocykl, śmieciarka",
+        "jedzie prawie bezgłośnie: rower, hulajnoga, rowerek biegowy, deskorolka"
+      ]
+    },
+    {
+      "strona_id": "s3-d05",
+      "odpowiedzi": [
+        "rower",
+        "autobus",
+        "śmieciarka",
+        "wywrotka"
+      ]
+    },
+    {
+      "strona_id": "s3-d08",
+      "odpowiedzi": [
+        "trzecie miejsce: motocykl",
+        "piąte miejsce: autobus"
+      ]
+    },
+    {
+      "strona_id": "s4-plansza",
+      "odpowiedzi": [
+        "koparka — łyżka",
+        "wóz strażacki — drabina",
+        "traktor — przyczepa",
+        "betoniarka — bęben",
+        "rower — dzwonek",
+        "pociąg — wagon",
+        "śmieciarka — kosz"
+      ]
+    },
+    {
+      "strona_id": "s4-d01",
+      "odpowiedzi": [
+        "koparka — łyżka",
+        "rower — dzwonek",
+        "pociąg — wagon",
+        "betoniarka — obracający się bęben",
+        "wóz strażacki — drabina",
+        "traktor — pług"
+      ]
+    },
+    {
+      "strona_id": "s4-d02",
+      "odpowiedzi": [
+        "kopie",
+        "gasi",
+        "orze",
+        "zabiera pasażerów",
+        "beton"
+      ]
+    },
+    {
+      "strona_id": "s4-d03",
+      "odpowiedzi": [
+        "to jest pojazd: koparka, traktor, śmieciarka, rower",
+        "to robi pojazd: kopie, orze, wywozi, jedzie"
+      ]
+    },
+    {
+      "strona_id": "s4-d05",
+      "odpowiedzi": [
+        "drugie miejsce: podnosi kosz",
+        "czwarte miejsce: stawia kosz na chodniku"
+      ]
+    },
+    {
+      "strona_id": "s4-d07",
+      "odpowiedzi": [
+        "pociąg — tu-tuu",
+        "rower — dzyń dzyń",
+        "wóz strażacki — iii-oo iii-oo",
+        "koparka — brum brum",
+        "autobus — pssst przy drzwiach",
+        "traktor — pyr pyr pyr"
+      ]
+    },
+    {
+      "strona_id": "s4-d08",
+      "odpowiedzi": [
+        "wóz strażacki",
+        "traktor",
+        "rower",
+        "pociąg"
+      ]
+    }
+  ],
+  "fragment": {
+    "do_strony": 10,
+    "obietnica_na_stronie": "To pierwsza sekcja w całości: instrukcja przygotowania, plansza, elementy do wycięcia i pięć aktywności. Pełna teczka ma cztery takie sekcje."
+  }
+}

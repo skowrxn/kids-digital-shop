@@ -1,0 +1,2168 @@
+{
+  "meta": {
+    "slug": "szlaczki-i-wzory",
+    "tytul": "Szlaczki i wzory",
+    "podtytul": "120 stron od grubej linii do cienkiej",
+    "archetyp": "ZESZYT",
+    "wersja": "1.0",
+    "wiek": "4–6 lat",
+    "kategoria": "grafo",
+    "podkategoria": "szlaczki",
+    "strony_deklarowane": 120,
+    "min_pt_dziecka": 14
+  },
+  "wstep": {
+    "dla_kogo": "Dla przedszkolaka przygotowującego się do pisania.",
+    "obietnica": "Ręka dziecka schodzi z grubej kreski na cienką stopniowo, bez przeskoku, który zwykle kończy się zniechęceniem.",
+    "warunek_wejscia": "Dziecko trzyma kredkę i rysuje kreskę od punktu do punktu.",
+    "ile_czasu_dziennie": "Jedna strona dziennie. Pięć do dziesięciu minut.",
+    "jak_korzystac": [
+      "Drukuj pojedyncze strony. Cały zeszyt naraz zniechęca dziecko i ciebie.",
+      "Idźcie blokami od pierwszego do piątego. W bloku kolejność jest dowolna.",
+      "Blok 1 ma pas 20 mm, blok 5 ma 4 mm. Między nimi 14, 10 i 7 mm.",
+      "Zostań przy bloku, dopóki dziecko nie mieści się w pasie bez napinania ręki.",
+      "W bloku 1 i 2 daj grubą kredkę. Od bloku 4 wystarczy ołówek.",
+      "Jedna strona dziennie. Kończcie, zanim dziecko poprosi o koniec.",
+      "Nie poprawiaj gotowego śladu. Następną linijkę zacznijcie od nowa.",
+      "Strony z ramkami rób co kilka dni. To sprawdzian bez wzoru do odrysowania.",
+      "Jeśli po bloku 3 wzory się rozjeżdżają, wróćcie na tydzień do bloku 1."
+    ],
+    "czego_nie_robi": [
+      "Nie uczy liter. To ćwiczenia ręki przed pisaniem.",
+      "Nie ocenia ładności pisma dziecka.",
+      "Nie zadziała, jeśli dziecko boli ręka. Wtedy zacznijcie od „Piszę bez nacisku”."
+    ]
+  },
+  "bloki": [
+    {
+      "temat": "Grube ślady — pas 20 mm",
+      "poziom": 1,
+      "opis": "Najszerszy pas w całym zeszycie. Ręka ma dużo miejsca.",
+      "dla_rodzica": [
+        "Sprawdź chwyt: trzy palce, kredka luźno, nadgarstek leży na stole.",
+        "Nacisk ma być lekki. Jeśli kartka się przebija, weź grubszą kredkę.",
+        "Jedna strona dziennie wystarczy. Kończcie, zanim dziecko się znudzi.",
+        "Nie poprawiaj śladu dziecka. Pokaż własny wzór obok, na brudnopisie.",
+        "Przejdź do bloku 2, gdy dziecko trafia w pas bez napinania ręki."
+      ],
+      "cwiczenia": [
+        {
+          "id": "b1-kreski-pionowe",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj kreski z góry na dół.",
+          "dla_rodzica": "Każda kreska zaczyna się u góry. Pokaż to palcem przed startem.",
+          "dane": {
+            "wzory": [
+              "|||",
+              "|·|",
+              "|○|",
+              "|—|"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-kreski-poziome",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj kreski od lewej do prawej.",
+          "dla_rodzica": "Ręka jedzie w bok, kartka stoi w miejscu.",
+          "dane": {
+            "wzory": [
+              "———",
+              "—·—",
+              "—○—",
+              "—|—"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-ukosne-w-prawo",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj ukośne kreski w prawo.",
+          "dla_rodzica": "Ukos jest trudniejszy niż pion. Wolniej znaczy lepiej.",
+          "dane": {
+            "wzory": [
+              "///",
+              "/·/",
+              "/○/",
+              "/|/"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-ukosne-w-lewo",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj ukośne kreski w lewo.",
+          "dla_rodzica": "Ta sama kreska, druga strona. Dłoń może się obrócić.",
+          "dane": {
+            "wzory": [
+              "\\\\\\",
+              "\\·\\",
+              "\\○\\",
+              "\\|\\"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-krzyzyki",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj krzyżyki po śladzie.",
+          "dla_rodzica": "Najpierw wszystkie pionowe, potem wszystkie poziome.",
+          "dane": {
+            "wzory": [
+              "+++",
+              "+·+",
+              "+○+",
+              "×+×"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-iksy",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj iksy po śladzie.",
+          "dla_rodzica": "Dwie ukośne kreski, które się spotykają w środku.",
+          "dane": {
+            "wzory": [
+              "×××",
+              "×·×",
+              "×○×",
+              "×□×"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-duze-kola",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj duże koła po śladzie.",
+          "dla_rodzica": "Koło rysujemy w jedną stronę, bez zawracania.",
+          "dane": {
+            "wzory": [
+              "○○○",
+              "○·○",
+              "○|○",
+              "○—○"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-male-kolka",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj małe kółka po śladzie.",
+          "dla_rodzica": "Mniejsze koło to więcej pracy palców niż ramienia.",
+          "dane": {
+            "wzory": [
+              "◦◦◦",
+              "◦·◦",
+              "◦|◦",
+              "◦○◦"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-kwadraty",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj kwadraty po śladzie.",
+          "dla_rodzica": "Cztery kreski i cztery rogi. Rogi są ostre, nie okrągłe.",
+          "dane": {
+            "wzory": [
+              "□□□",
+              "□·□",
+              "□|□",
+              "□○□"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-rytm-kolo-kwadrat",
+          "typ": "sekwencja",
+          "polecenie": "Dorysuj dwa brakujące znaki.",
+          "dla_rodzica": "Przeczytaj rytm na głos: koło, kwadrat, koło, kwadrat.",
+          "dane": {
+            "kroki": [
+              "○",
+              "□",
+              "○",
+              "□",
+              "",
+              ""
+            ],
+            "brakujace": [
+              "○",
+              "□"
+            ]
+          }
+        },
+        {
+          "id": "b1-kropki",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Stawiaj kropki po śladzie.",
+          "dla_rodzica": "Kropka to dotknięcie, nie naciśnięcie.",
+          "dane": {
+            "wzory": [
+              "···",
+              "·|·",
+              "·○·",
+              "·□·"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-daszki",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj daszki po śladzie.",
+          "dla_rodzica": "Do góry i od razu w dół, bez przystanku na szczycie.",
+          "dane": {
+            "wzory": [
+              "^^^",
+              "^·^",
+              "^|^",
+              "^○^"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-fale",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj fale po śladzie.",
+          "dla_rodzica": "Fala nie ma rogów. Ręka płynie.",
+          "dane": {
+            "wzory": [
+              "~~~",
+              "~·~",
+              "~|~",
+              "~○~"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-ramki-deszcz",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Wypełnij ramki kreskami i kółkami.",
+          "dla_rodzica": "Dziecko używa kresek z poprzednich stron. Nic więcej nie potrzeba.",
+          "dane": {
+            "wyrazy": [
+              "Deszcz",
+              "Trawa",
+              "Słońce",
+              "Płot"
+            ],
+            "wysokosc_ramki_mm": 55
+          }
+        },
+        {
+          "id": "b1-dzioby-w-prawo",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj dzióbki w prawo.",
+          "dla_rodzica": "Wierzchołek zawsze po tej samej stronie.",
+          "dane": {
+            "wzory": [
+              ">>>",
+              ">·>",
+              ">|>",
+              ">○>"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-dzioby-w-lewo",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj dzióbki w lewo.",
+          "dla_rodzica": "Ten sam kształt odwrócony. Sprawdź, czy dziecko to widzi.",
+          "dane": {
+            "wzory": [
+              "<<<",
+              "<·<",
+              "<|<",
+              "<○<"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-luki-w-prawo",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj łuki otwarte w prawo.",
+          "dla_rodzica": "Łuk zaczynamy u góry i prowadzimy w dół.",
+          "dane": {
+            "wzory": [
+              "(((",
+              "(·(",
+              "(|(",
+              "(○("
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-pary-ksztaltow",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz takie same wzory.",
+          "dla_rodzica": "Linię prowadzi dziecko, jednym ruchem, bez odrywania kredki.",
+          "dane": {
+            "lewa": [
+              "|||",
+              "○○○",
+              "///",
+              "+++"
+            ],
+            "prawa": [
+              "///",
+              "+++",
+              "|||",
+              "○○○"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "b1-luki-w-lewo",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj łuki otwarte w lewo.",
+          "dla_rodzica": "Druga strona łuku. Często wychodzi trudniej.",
+          "dane": {
+            "wzory": [
+              ")))",
+              ")·)",
+              ")|)",
+              ")○)"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-strzalki-w-gore",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj strzałki do góry.",
+          "dla_rodzica": "Najpierw długa kreska, potem dwa krótkie daszki.",
+          "dane": {
+            "wzory": [
+              "↑↑↑",
+              "↑·↑",
+              "↑|↑",
+              "↑○↑"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-rytm-kreska",
+          "typ": "sekwencja",
+          "polecenie": "Dorysuj dwa brakujące znaki.",
+          "dla_rodzica": "Pionowa, pozioma, pionowa, pozioma. Rytm z dwóch ruchów.",
+          "dane": {
+            "kroki": [
+              "|",
+              "—",
+              "|",
+              "—",
+              "",
+              ""
+            ],
+            "brakujace": [
+              "|",
+              "—"
+            ]
+          }
+        },
+        {
+          "id": "b1-strzalki-w-prawo",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj strzałki w prawo.",
+          "dla_rodzica": "Strzałka pokazuje kierunek pisania. Przypomnij o tym.",
+          "dane": {
+            "wzory": [
+              "→→→",
+              "→·→",
+              "→|→",
+              "→○→"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-gwiazdki",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj gwiazdki po śladzie.",
+          "dla_rodzica": "Najtrudniejszy wzór w tym bloku. Wystarczy kilka sztuk.",
+          "dane": {
+            "wzory": [
+              "☆☆☆",
+              "☆·☆",
+              "☆|☆",
+              "☆○☆"
+            ],
+            "linie_na_wzor": 1,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b1-ramki-fale",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Wypełnij ramki wzorami ze stron obok.",
+          "dla_rodzica": "Bez wzoru do odrysowania. Ręka pracuje sama.",
+          "dane": {
+            "wyrazy": [
+              "Fale",
+              "Chmury",
+              "Schody",
+              "Kropki"
+            ],
+            "wysokosc_ramki_mm": 55
+          }
+        }
+      ]
+    },
+    {
+      "temat": "Szerokie ślady — pas 14 mm",
+      "poziom": 2,
+      "opis": "Pas węższy o jedną trzecią. Wzór ma już dwa elementy.",
+      "dla_rodzica": [
+        "Patrz na ramię: ma się poruszać razem z ręką, nie tylko palce.",
+        "Wzór prowadzimy od lewej do prawej. Zawsze w tę stronę.",
+        "Jeśli dziecko zaciska palce, zrób przerwę i rozmasuj dłoń.",
+        "Pozwól rysować w powietrzu przed każdą linijką. To skraca pracę.",
+        "Przejdź do bloku 3, gdy dziecko kończy stronę bez prośby o przerwę."
+      ],
+      "cwiczenia": [
+        {
+          "id": "b2-zygzak",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj zygzak bez odrywania kredki.",
+          "dla_rodzica": "Zygzak to jedna linia, nie osobne kreski.",
+          "dane": {
+            "wzory": [
+              "/\\/",
+              "\\/\\",
+              "^^^",
+              "^·^",
+              "^|^"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-fala-miekka",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj miękką falę po śladzie.",
+          "dla_rodzica": "Ramię pracuje, palce tylko trzymają.",
+          "dane": {
+            "wzory": [
+              "~~~",
+              "~·~",
+              "~|~",
+              "~○~",
+              "~~·"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-luki-gora",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj łuki jeden przy drugim.",
+          "dla_rodzica": "Łuki mają stać blisko siebie, ale się nie stykać.",
+          "dane": {
+            "wzory": [
+              "(((",
+              "((·",
+              "(·(",
+              "(|(",
+              "(○("
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-luki-dol",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj łuki odwrócone w drugą stronę.",
+          "dla_rodzica": "Jeśli dziecko myli strony, pokaż palcem pierwszy łuk.",
+          "dane": {
+            "wzory": [
+              ")))",
+              "))·",
+              ")·)",
+              ")|)",
+              ")○)"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-rytm-daszek-fala",
+          "typ": "sekwencja",
+          "polecenie": "Dorysuj dwa brakujące znaki.",
+          "dla_rodzica": "Ostry i miękki na zmianę. Pokaż ruch palcem w powietrzu.",
+          "dane": {
+            "kroki": [
+              "^",
+              "~",
+              "^",
+              "~",
+              "",
+              ""
+            ],
+            "brakujace": [
+              "^",
+              "~"
+            ]
+          }
+        },
+        {
+          "id": "b2-luki-naprzemienne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj łuki na zmianę.",
+          "dla_rodzica": "Raz w jedną stronę, raz w drugą. To już rytm.",
+          "dane": {
+            "wzory": [
+              "()(",
+              ")()",
+              "(·)",
+              ")·(",
+              "(|)"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-kolo-i-kreska",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj koło i kreskę na zmianę.",
+          "dla_rodzica": "Dwa różne ruchy w jednej linijce. Zwolnijcie.",
+          "dane": {
+            "wzory": [
+              "○|○",
+              "|○|",
+              "○—○",
+              "—○—",
+              "○·○"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-kwadrat-i-kropka",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj kwadrat i kropkę na zmianę.",
+          "dla_rodzica": "Kropka daje ręce moment odpoczynku.",
+          "dane": {
+            "wzory": [
+              "□·□",
+              "·□·",
+              "□○□",
+              "○□○",
+              "□|□"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-plus-i-iks",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj plus i iks na zmianę.",
+          "dla_rodzica": "Te dwa znaki różni tylko obrót. Powiedz to dziecku.",
+          "dane": {
+            "wzory": [
+              "+×+",
+              "×+×",
+              "+·+",
+              "×·×",
+              "+|+"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-ramki-dym",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Wypełnij ramki falą i pętlą.",
+          "dla_rodzica": "Wszystkie cztery to ruch ciągły, bez odrywania kredki.",
+          "dane": {
+            "wyrazy": [
+              "Dym",
+              "Wstążka",
+              "Sznurek",
+              "Loki"
+            ],
+            "wysokosc_ramki_mm": 55
+          }
+        },
+        {
+          "id": "b2-strzalki-w-bok",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj strzałki w obie strony.",
+          "dla_rodzica": "Grot rysujemy na końcu, nie na początku.",
+          "dane": {
+            "wzory": [
+              "→←→",
+              "←→←",
+              "→·→",
+              "←·←",
+              "→|←"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-strzalki-w-pion",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj strzałki do góry i w dół.",
+          "dla_rodzica": "Długa kreska najpierw, grot na końcu.",
+          "dane": {
+            "wzory": [
+              "↑↓↑",
+              "↓↑↓",
+              "↑·↑",
+              "↓·↓",
+              "↑|↓"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-dzioby-na-zmiane",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj dzióbki na zmianę.",
+          "dla_rodzica": "Wierzchołki spotykają się i rozchodzą.",
+          "dane": {
+            "wzory": [
+              "<><",
+              "><>",
+              "<·>",
+              ">·<",
+              "<|>"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-pary-rytmow",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz takie same wzory.",
+          "dla_rodzica": "Najpierw niech dziecko pokaże palcem, potem rysuje.",
+          "dane": {
+            "lewa": [
+              "~~~",
+              "(((",
+              ")))",
+              "^^^"
+            ],
+            "prawa": [
+              ")))",
+              "^^^",
+              "~~~",
+              "((("
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "b2-gwiazdki-i-kola",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj gwiazdkę i koło na zmianę.",
+          "dla_rodzica": "Gwiazdka to kilka kresek, koło to jeden ruch.",
+          "dane": {
+            "wzory": [
+              "☆○☆",
+              "○☆○",
+              "☆·☆",
+              "☆|☆",
+              "☆◦☆"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-romby",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj romby po śladzie.",
+          "dla_rodzica": "Romb ma cztery rogi, tak jak kwadrat postawiony na sztorc.",
+          "dane": {
+            "wzory": [
+              "♦·♦",
+              "·♦·",
+              "♦○♦",
+              "○♦○",
+              "♦|♦"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-cudzyslowy",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj podwójne ukośne kreski.",
+          "dla_rodzica": "Dwie kreski obok siebie, równolegle.",
+          "dane": {
+            "wzory": [
+              "«·»",
+              "«|»",
+              "«««",
+              "»»»",
+              "«○»"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-rytm-luki",
+          "typ": "sekwencja",
+          "polecenie": "Dorysuj dwa brakujące znaki.",
+          "dla_rodzica": "Łuk w jedną stronę, łuk w drugą.",
+          "dane": {
+            "kroki": [
+              "(",
+              ")",
+              "(",
+              ")",
+              "",
+              ""
+            ],
+            "brakujace": [
+              "(",
+              ")"
+            ]
+          }
+        },
+        {
+          "id": "b2-znaki-rowne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj znaki po śladzie.",
+          "dla_rodzica": "Tu ważne są odstępy, nie długość kresek.",
+          "dane": {
+            "wzory": [
+              "≠≠≠",
+              "≠·≠",
+              "≤·≥",
+              "≥·≤",
+              "≠|≠"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-kolka-u-gory",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj małe kółka u góry pasa.",
+          "dla_rodzica": "Kółko siedzi pod górną linią, nie na środku.",
+          "dane": {
+            "wzory": [
+              "°°°",
+              "°·°",
+              "°○°",
+              "°|°",
+              "°◦°"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-ptaszki",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj ptaszki po śladzie.",
+          "dla_rodzica": "W dół, potem w górę i dłużej. Jeden ruch.",
+          "dane": {
+            "wzory": [
+              "✓✓✓",
+              "✓·✓",
+              "✓|✓",
+              "✓○✓",
+              "✓◦✓"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-ptaszki-i-krzyzyki",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj ptaszek i krzyżyk na zmianę.",
+          "dla_rodzica": "Ostatnia strona bloku. Sprawdź, czy ręka jest luźna.",
+          "dane": {
+            "wzory": [
+              "✓✕✓",
+              "✕✓✕",
+              "✓·✕",
+              "✕·✓",
+              "✓|✕"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "gladka"
+          }
+        },
+        {
+          "id": "b2-ramki-gory",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Wypełnij ramki zygzakiem i spiralą.",
+          "dla_rodzica": "Ślimak zaczyna się w środku. Pokaż pierwszy zwój.",
+          "dane": {
+            "wyrazy": [
+              "Góry",
+              "Zygzak",
+              "Sprężyna",
+              "Ślimak"
+            ],
+            "wysokosc_ramki_mm": 55
+          }
+        }
+      ]
+    },
+    {
+      "temat": "Średnie ślady — pas 10 mm",
+      "poziom": 3,
+      "opis": "Pojawia się liniatura z linią środkową. Wzór ma trzy elementy.",
+      "dla_rodzica": [
+        "Od tego bloku pas ma linię środkową. Wzór dotyka obu linii.",
+        "Licz na głos rytm wzoru: raz, dwa, trzy. Ręka lubi rytm.",
+        "Pilnuj, żeby kartka leżała skosem, tak jak dziecku wygodnie.",
+        "Jeśli wzór ucieka do góry, przytrzymaj kartkę drugą ręką dziecka.",
+        "Przejdź do bloku 4, gdy dziecko mieści trzy elementy w jednym pasie."
+      ],
+      "cwiczenia": [
+        {
+          "id": "b3-kolo-kwadrat",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj koło i kwadrat na zmianę.",
+          "dla_rodzica": "Oba kształty mają dotykać górnej i dolnej linii.",
+          "dane": {
+            "wzory": [
+              "○□○",
+              "□○□",
+              "○□·",
+              "·○□",
+              "□·○"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-male-znaki",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobne znaki po śladzie.",
+          "dla_rodzica": "Drobne znaki siadają na linii środkowej.",
+          "dane": {
+            "wzory": [
+              "▪◦▪",
+              "◦▪◦",
+              "▪◦·",
+              "·▪◦",
+              "◦·▪"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-wachlarz",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj trzy kreski w wachlarz.",
+          "dla_rodzica": "Środkowa kreska prosto, boczne na skos.",
+          "dane": {
+            "wzory": [
+              "/|\\",
+              "\\|/",
+              "/|·",
+              "·|\\",
+              "/·\\"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-daszek-i-fala",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj daszek i falę na zmianę.",
+          "dla_rodzica": "Ostry i miękki ruch obok siebie. To trudne połączenie.",
+          "dane": {
+            "wzory": [
+              "^~^",
+              "~^~",
+              "^~·",
+              "·^~",
+              "~·^"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-rytm-trzech",
+          "typ": "sekwencja",
+          "polecenie": "Dorysuj brakujący znak.",
+          "dla_rodzica": "Rytm z trzech znaków. Dziecko musi przewidzieć czwarty krok.",
+          "dane": {
+            "kroki": [
+              "○",
+              "□",
+              "▪",
+              "○",
+              "□",
+              ""
+            ],
+            "brakujace": [
+              "▪"
+            ]
+          }
+        },
+        {
+          "id": "b3-luki-i-kreska",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj łuki z kreską w środku.",
+          "dla_rodzica": "Kreska w środku ma sięgać obu linii.",
+          "dane": {
+            "wzory": [
+              "(|)",
+              ")|(",
+              "(·)",
+              ")·(",
+              "|(|"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-strzalki-rytm",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj strzałki w trzech kierunkach.",
+          "dla_rodzica": "Powtarzajcie kierunki na głos: w prawo, w górę, w lewo.",
+          "dane": {
+            "wzory": [
+              "→↑←",
+              "←↓→",
+              "↑→↓",
+              "↓←↑",
+              "→·←"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-ptaszek-krzyzyk",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj ptaszek i krzyżyk w rytmie.",
+          "dla_rodzica": "Kropka to pauza. Ręka ma na niej odpocząć.",
+          "dane": {
+            "wzory": [
+              "✓·✕",
+              "✕·✓",
+              "✓✕·",
+              "·✓✕",
+              "✕✓·"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-ramki-tory",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Wypełnij ramki wzorem z kresek.",
+          "dla_rodzica": "Tu liczy się równy odstęp, nie równa długość.",
+          "dane": {
+            "wyrazy": [
+              "Tory",
+              "Drabina",
+              "Kłos",
+              "Siatka"
+            ],
+            "wysokosc_ramki_mm": 55
+          }
+        },
+        {
+          "id": "b3-gwiazdki-rytm",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj gwiazdki w rytmie.",
+          "dla_rodzica": "Pełna gwiazdka wymaga mocniejszego nacisku. Uważaj na kartkę.",
+          "dane": {
+            "wzory": [
+              "☆★☆",
+              "★☆★",
+              "☆·★",
+              "★·☆",
+              "☆○★"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-cudzyslow-i-kolo",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj ukośne kreski wokół koła.",
+          "dla_rodzica": "Kreski pochylają się do koła, nie od niego.",
+          "dane": {
+            "wzory": [
+              "«○»",
+              "»○«",
+              "«·»",
+              "»·«",
+              "«□»"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-plus-iks-rytm",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj plus i iks w rytmie.",
+          "dla_rodzica": "Cztery kreski na znak. Licz je razem z dzieckiem.",
+          "dane": {
+            "wzory": [
+              "+×+",
+              "×+×",
+              "+·×",
+              "×·+",
+              "+|×"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-pary-zlozone",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz takie same wzory.",
+          "dla_rodzica": "Wzory są podobne. Trzeba przeczytać cały, nie pierwszy znak.",
+          "dane": {
+            "lewa": [
+              "○□○",
+              "/|\\",
+              "→↑←",
+              "✓·✕"
+            ],
+            "prawa": [
+              "→↑←",
+              "✓·✕",
+              "○□○",
+              "/|\\"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "b3-trzy-ksztalty",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj trzy kształty po kolei.",
+          "dla_rodzica": "Najtrudniejsze ćwiczenie pamięci wzoru w tym bloku.",
+          "dane": {
+            "wzory": [
+              "○·□",
+              "□·○",
+              "○□▪",
+              "□▪○",
+              "▪○□"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-gora-dol",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj strzałki w górę i w dół.",
+          "dla_rodzica": "Sąsiednie strzałki mają być tej samej długości.",
+          "dane": {
+            "wzory": [
+              "↑↓↑",
+              "↓↑↓",
+              "↑·↓",
+              "↓·↑",
+              "↑|↓"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-fala-i-kreska",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj falę i kreskę na zmianę.",
+          "dla_rodzica": "Kreska prosto, fala miękko. Dwa ruchy, jedna linijka.",
+          "dane": {
+            "wzory": [
+              "~|~",
+              "|~|",
+              "~·|",
+              "|·~",
+              "||~"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-rytm-strzalek",
+          "typ": "sekwencja",
+          "polecenie": "Dorysuj brakującą strzałkę.",
+          "dla_rodzica": "W prawo, w górę, w lewo. Powtórz kierunki na głos.",
+          "dane": {
+            "kroki": [
+              "→",
+              "↑",
+              "←",
+              "→",
+              "↑",
+              ""
+            ],
+            "brakujace": [
+              "←"
+            ]
+          }
+        },
+        {
+          "id": "b3-ukosy-mieszane",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj ukośne kreski w obie strony.",
+          "dla_rodzica": "Jeśli ukos w lewo wychodzi gorzej, zrób go dwa razy.",
+          "dane": {
+            "wzory": [
+              "///",
+              "\\\\\\",
+              "/\\/",
+              "\\/\\",
+              "/·\\"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-znaki-porownania",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj znaki po śladzie.",
+          "dla_rodzica": "Dziecko nie musi wiedzieć, co znaczą. Rysuje kształt.",
+          "dane": {
+            "wzory": [
+              "≤≠≥",
+              "≥≠≤",
+              "≤·≥",
+              "≥·≤",
+              "≠·≠"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-od-kropki-do-kola",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj od najmniejszego do największego.",
+          "dla_rodzica": "Wielkość znaku zmienia się w jednej linijce.",
+          "dane": {
+            "wzory": [
+              "·◦○",
+              "○◦·",
+              "◦·○",
+              "○·◦",
+              "·○◦"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-gwiazdka-i-kwadrat",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj gwiazdkę i kwadrat na zmianę.",
+          "dla_rodzica": "Koniec bloku. Wzory są już złożone z trzech ruchów.",
+          "dane": {
+            "wzory": [
+              "☆·○",
+              "○·☆",
+              "☆□☆",
+              "□☆□",
+              "☆◦☆"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-ramki-koronka",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Wypełnij ramki drobnym wzorem.",
+          "dla_rodzica": "Wzory z powtórzeń. Dziecko wybiera własne znaki.",
+          "dane": {
+            "wyrazy": [
+              "Płatek",
+              "Koronka",
+              "Korale",
+              "Warkocz"
+            ],
+            "wysokosc_ramki_mm": 55
+          }
+        }
+      ]
+    },
+    {
+      "temat": "Wąskie ślady — pas 7 mm",
+      "poziom": 4,
+      "opis": "Pas jak w zeszycie pierwszoklasisty. Wzory są drobne i rytmiczne.",
+      "dla_rodzica": [
+        "Pas jest już wąski. Kredka może ustąpić miejsca ołówkowi.",
+        "Krótsze odcinki pracy: dwie linijki, przerwa, dwie linijki.",
+        "Obserwuj nadgarstek. Ma leżeć, a nie unosić się nad kartką.",
+        "Nie liczcie, ile wzorów wyszło równo. Liczy się cała linijka.",
+        "Przejdź do bloku 5, gdy dziecko utrzymuje rytm do końca strony."
+      ],
+      "cwiczenia": [
+        {
+          "id": "b4-kreski-drobne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobne kreski w rytmie.",
+          "dla_rodzica": "Pas jest wąski. Kreska ma dotykać obu linii.",
+          "dane": {
+            "wzory": [
+              "·|·",
+              "|·|",
+              "·||",
+              "||·"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-kolka-drobne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobne kółka w rytmie.",
+          "dla_rodzica": "Kółko mieści się między linią środkową a dolną.",
+          "dane": {
+            "wzory": [
+              "◦·◦",
+              "·◦·",
+              "◦◦·",
+              "·◦◦"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-kwadraciki",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj kwadraciki w rytmie.",
+          "dla_rodzica": "Rogi mają zostać ostre, nawet przy tej wielkości.",
+          "dane": {
+            "wzory": [
+              "▪·▪",
+              "·▪·",
+              "▪▪·",
+              "·▪▪"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-daszki-drobne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobne daszki w rytmie.",
+          "dla_rodzica": "Wierzchołek dotyka górnej linii pasa.",
+          "dane": {
+            "wzory": [
+              "^·^",
+              "·^·",
+              "^^·",
+              "·^^"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-rytm-wielkosci",
+          "typ": "sekwencja",
+          "polecenie": "Dorysuj brakujący znak.",
+          "dla_rodzica": "Znak rośnie: kropka, kółko, koło. Potem od nowa.",
+          "dane": {
+            "kroki": [
+              "·",
+              "◦",
+              "○",
+              "·",
+              "◦",
+              ""
+            ],
+            "brakujace": [
+              "○"
+            ]
+          }
+        },
+        {
+          "id": "b4-fale-drobne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobne fale w rytmie.",
+          "dla_rodzica": "Fala robi się drobna. Ruch przechodzi z ramienia na palce.",
+          "dane": {
+            "wzory": [
+              "~·~",
+              "·~·",
+              "~~·",
+              "·~~"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-ukosy-drobne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobne ukosy w rytmie.",
+          "dla_rodzica": "Kąt ma być ten sam w całej linijce.",
+          "dane": {
+            "wzory": [
+              "/·/",
+              "\\·\\",
+              "/·\\",
+              "\\·/"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-luki-drobne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobne łuki w rytmie.",
+          "dla_rodzica": "Łuk jest krótki, ale nadal okrągły.",
+          "dane": {
+            "wzory": [
+              "(·(",
+              ")·)",
+              "(·)",
+              ")·("
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-ramki-ziarna",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Wypełnij ramki drobnymi znakami.",
+          "dla_rodzica": "Im drobniej, tym lepiej. Ilość nie ma znaczenia.",
+          "dane": {
+            "wyrazy": [
+              "Mrowisko",
+              "Ziarna",
+              "Igły",
+              "Piasek"
+            ],
+            "wysokosc_ramki_mm": 55
+          }
+        },
+        {
+          "id": "b4-plus-iks-drobne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobny plus i iks.",
+          "dla_rodzica": "Cztery krótkie kreski. Nie muszą się stykać idealnie.",
+          "dane": {
+            "wzory": [
+              "+·+",
+              "×·×",
+              "+·×",
+              "×·+"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-kolo-kwadrat-drobne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobne koło i kwadrat.",
+          "dla_rodzica": "Okrągły i kanciasty ruch jeden po drugim.",
+          "dane": {
+            "wzory": [
+              "○·○",
+              "□·□",
+              "○·□",
+              "□·○"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-strzalki-poziome",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobne strzałki w bok.",
+          "dla_rodzica": "Grot bywa większy od kreski. Pilnuj proporcji.",
+          "dane": {
+            "wzory": [
+              "→·→",
+              "←·←",
+              "→·←",
+              "←·→"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-pary-drobne",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz takie same wzory.",
+          "dla_rodzica": "Drobne znaki łatwo pomylić. Daj dziecku czas.",
+          "dane": {
+            "lewa": [
+              "·|·",
+              "◦·◦",
+              "▪·▪",
+              "^·^"
+            ],
+            "prawa": [
+              "▪·▪",
+              "^·^",
+              "·|·",
+              "◦·◦"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "b4-strzalki-pionowe",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobne strzałki w pionie.",
+          "dla_rodzica": "Kreska pionowa idzie przez cały pas.",
+          "dane": {
+            "wzory": [
+              "↑·↑",
+              "↓·↓",
+              "↑·↓",
+              "↓·↑"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-ptaszki-drobne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobne ptaszki i krzyżyki.",
+          "dla_rodzica": "Ptaszek ma jedno ramię dłuższe. To ta sama zasada co wcześniej.",
+          "dane": {
+            "wzory": [
+              "✓·✓",
+              "✕·✕",
+              "✓·✕",
+              "✕·✓"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-gwiazdka-romb",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobną gwiazdkę i romb.",
+          "dla_rodzica": "Dwa najbardziej złożone znaki w zeszycie, teraz w małej skali.",
+          "dane": {
+            "wzory": [
+              "☆·☆",
+              "♦·♦",
+              "☆·♦",
+              "♦·☆"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-rytm-ptaszkow",
+          "typ": "sekwencja",
+          "polecenie": "Dorysuj brakujący znak.",
+          "dla_rodzica": "Rytm z dwóch znaków, ale zaczyna się od nieparzystego.",
+          "dane": {
+            "kroki": [
+              "✓",
+              "✕",
+              "✓",
+              "✕",
+              "✓",
+              ""
+            ],
+            "brakujace": [
+              "✕"
+            ]
+          }
+        },
+        {
+          "id": "b4-ukosne-pary",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj podwójne ukosy w rytmie.",
+          "dla_rodzica": "Dwie kreski obok siebie, ten sam odstęp za każdym razem.",
+          "dane": {
+            "wzory": [
+              "«·«",
+              "»·»",
+              "«·»",
+              "»·«"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-znaki-drobne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj drobne znaki w rytmie.",
+          "dla_rodzica": "Trzy krótkie kreski na znak. Odstęp jest ważniejszy od długości.",
+          "dane": {
+            "wzory": [
+              "≠·≠",
+              "≤·≤",
+              "≥·≥",
+              "≤·≥"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-kolka-u-gory-drobne",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj kółka przy górnej linii.",
+          "dla_rodzica": "Znak wisi u góry pasa, nie siada na dolnej linii.",
+          "dane": {
+            "wzory": [
+              "°·°",
+              "§·§",
+              "°·§",
+              "§·°"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-kropki-rzedy",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Stawiaj kropki równym rzędem.",
+          "dla_rodzica": "Koniec bloku. Kropki mają leżeć w jednej linii.",
+          "dane": {
+            "wzory": [
+              "…·…",
+              "·…·",
+              "……·",
+              "·……"
+            ],
+            "linie_na_wzor": 3,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-ramki-krople",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Wypełnij ramki cienkimi liniami.",
+          "dla_rodzica": "Cienka linia powstaje z lekkiego nacisku, nie z twardego ołówka.",
+          "dane": {
+            "wyrazy": [
+              "Krople",
+              "Nitki",
+              "Pajęczyna",
+              "Szron"
+            ],
+            "wysokosc_ramki_mm": 55
+          }
+        }
+      ]
+    },
+    {
+      "temat": "Cienkie ślady — pas 4 mm",
+      "poziom": 5,
+      "opis": "Najwęższy pas. Cztery linie i najdrobniejsze znaki w zeszycie.",
+      "dla_rodzica": [
+        "Najwęższy pas w zeszycie. Ołówek ma być dobrze zatemperowany.",
+        "Jedna linijka na raz wystarczy. Tu chodzi o precyzję, nie o ilość.",
+        "Jeśli ślad blednie albo drży, to znak, że ręka jest zmęczona.",
+        "Wracajcie czasem do bloku 1. Szeroki pas rozluźnia rękę.",
+        "Po tym bloku dziecko ma rękę gotową na liniaturę szkolną."
+      ],
+      "cwiczenia": [
+        {
+          "id": "b5-kropki-najdrobniejsze",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Stawiaj najdrobniejsze kropki.",
+          "dla_rodzica": "Cztery linie i najmniejszy znak. Ołówek musi być ostry.",
+          "dane": {
+            "wzory": [
+              "···",
+              "··…",
+              "…··"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-kolka-najdrobniejsze",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj najdrobniejsze kółka.",
+          "dla_rodzica": "Kółko mieści się między dwiema środkowymi liniami.",
+          "dane": {
+            "wzory": [
+              "◦◦◦",
+              "◦·◦",
+              "·◦·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-kwadraciki-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj najdrobniejsze kwadraciki.",
+          "dla_rodzica": "Cztery mikroskopijne kreski. Zwolnijcie o połowę.",
+          "dane": {
+            "wzory": [
+              "▪▪▪",
+              "▪·▪",
+              "·▪·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-kreski-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie kreski w pasie.",
+          "dla_rodzica": "Kreska przechodzi przez wszystkie cztery linie.",
+          "dane": {
+            "wzory": [
+              "|||",
+              "|·|",
+              "·|·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-rytm-kropek",
+          "typ": "sekwencja",
+          "polecenie": "Dorysuj brakujący znak.",
+          "dla_rodzica": "Dwie kropki, kółko. Najdrobniejszy rytm w zeszycie.",
+          "dane": {
+            "kroki": [
+              "·",
+              "·",
+              "◦",
+              "·",
+              "·",
+              ""
+            ],
+            "brakujace": [
+              "◦"
+            ]
+          }
+        },
+        {
+          "id": "b5-daszki-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie daszki w pasie.",
+          "dla_rodzica": "Wierzchołek trafia w górną linię, nie wyżej.",
+          "dane": {
+            "wzory": [
+              "^^^",
+              "^·^",
+              "·^·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-fale-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie fale w pasie.",
+          "dla_rodzica": "Fala mieści się w dwóch środkowych liniach.",
+          "dane": {
+            "wzory": [
+              "~~~",
+              "~·~",
+              "·~·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-ukosy-w-prawo-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie ukosy w prawo.",
+          "dla_rodzica": "Ten sam kąt w całej linijce. Sprawdź pierwsze trzy.",
+          "dane": {
+            "wzory": [
+              "///",
+              "/·/",
+              "·/·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-ramki-pylek",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Wypełnij ramki najdrobniejszym wzorem.",
+          "dla_rodzica": "Najdrobniejsze ćwiczenie w zeszycie. Wystarczy jedna ramka dziennie.",
+          "dane": {
+            "wyrazy": [
+              "Pyłek",
+              "Mak",
+              "Iskry",
+              "Piórko"
+            ],
+            "wysokosc_ramki_mm": 55
+          }
+        },
+        {
+          "id": "b5-ukosy-w-lewo-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie ukosy w lewo.",
+          "dla_rodzica": "Druga strona ukosu. Zwykle wymaga więcej powtórzeń.",
+          "dane": {
+            "wzory": [
+              "\\\\\\",
+              "\\·\\",
+              "·\\·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-luki-prawe-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie łuki w prawo.",
+          "dla_rodzica": "Łuk zostaje okrągły, choć jest mały.",
+          "dane": {
+            "wzory": [
+              "(((",
+              "(·(",
+              "·(·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-luki-lewe-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie łuki w lewo.",
+          "dla_rodzica": "Jeśli łuk się prostuje, wróć na chwilę do bloku 2.",
+          "dane": {
+            "wzory": [
+              ")))",
+              ")·)",
+              "·)·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-pary-cienkie",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz takie same wzory.",
+          "dla_rodzica": "Linie łączące mają być proste. To też ćwiczenie ręki.",
+          "dane": {
+            "lewa": [
+              "···",
+              "◦◦◦",
+              "|||",
+              "✓✓✓"
+            ],
+            "prawa": [
+              "|||",
+              "✓✓✓",
+              "···",
+              "◦◦◦"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "b5-plusy-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie plusy w pasie.",
+          "dla_rodzica": "Kreska pionowa przez cały pas, pozioma po środku.",
+          "dane": {
+            "wzory": [
+              "+++",
+              "+·+",
+              "·+·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-iksy-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie iksy w pasie.",
+          "dla_rodzica": "Obie kreski mają się skrzyżować na linii środkowej.",
+          "dane": {
+            "wzory": [
+              "×××",
+              "×·×",
+              "·×·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-ptaszki-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie ptaszki w pasie.",
+          "dla_rodzica": "Jeden ruch, bez odrywania ołówka.",
+          "dane": {
+            "wzory": [
+              "✓✓✓",
+              "✓·✓",
+              "·✓·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-rytm-znakow",
+          "typ": "sekwencja",
+          "polecenie": "Dorysuj brakujący znak.",
+          "dla_rodzica": "Znak, pauza, znak. Pauza też jest częścią wzoru.",
+          "dane": {
+            "kroki": [
+              "≠",
+              "·",
+              "≠",
+              "·",
+              "≠",
+              ""
+            ],
+            "brakujace": [
+              "·"
+            ]
+          }
+        },
+        {
+          "id": "b5-strzalki-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie strzałki w prawo.",
+          "dla_rodzica": "Kierunek pisania. Powtórzcie go na koniec zeszytu.",
+          "dane": {
+            "wzory": [
+              "→→→",
+              "→·→",
+              "·→·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-strzalki-gora-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie strzałki do góry.",
+          "dla_rodzica": "Ostatni ruch pionowy. Ma sięgać górnej linii.",
+          "dane": {
+            "wzory": [
+              "↑↑↑",
+              "↑·↑",
+              "·↑·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-znaki-cienkie",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Rysuj cienkie znaki w pasie.",
+          "dla_rodzica": "Ostatnia strona wzorów. Ręka jest gotowa na zeszyt szkolny.",
+          "dane": {
+            "wzory": [
+              "≠≠≠",
+              "≠·≠",
+              "·≠·"
+            ],
+            "linie_na_wzor": 4,
+            "liniatura": "czterolinia"
+          }
+        },
+        {
+          "id": "b5-ramki-mgla",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Wypełnij ramki lekkimi śladami.",
+          "dla_rodzica": "Ostatnia strona. Ślad ma być ledwo widoczny — to też umiejętność.",
+          "dane": {
+            "wyrazy": [
+              "Mgła",
+              "Rosa",
+              "Kurz",
+              "Puch"
+            ],
+            "wysokosc_ramki_mm": 55
+          }
+        }
+      ]
+    }
+  ],
+  "klucz_odpowiedzi": [
+    {
+      "strona_id": "b1-rytm-kolo-kwadrat",
+      "odpowiedzi": [
+        "○",
+        "□"
+      ]
+    },
+    {
+      "strona_id": "b1-pary-ksztaltow",
+      "odpowiedzi": [
+        "1 → 3",
+        "2 → 4",
+        "3 → 1",
+        "4 → 2"
+      ]
+    },
+    {
+      "strona_id": "b1-rytm-kreska",
+      "odpowiedzi": [
+        "|",
+        "—"
+      ]
+    },
+    {
+      "strona_id": "b2-rytm-daszek-fala",
+      "odpowiedzi": [
+        "^",
+        "~"
+      ]
+    },
+    {
+      "strona_id": "b2-pary-rytmow",
+      "odpowiedzi": [
+        "1 → 3",
+        "2 → 4",
+        "3 → 1",
+        "4 → 2"
+      ]
+    },
+    {
+      "strona_id": "b2-rytm-luki",
+      "odpowiedzi": [
+        "(",
+        ")"
+      ]
+    },
+    {
+      "strona_id": "b3-rytm-trzech",
+      "odpowiedzi": [
+        "▪"
+      ]
+    },
+    {
+      "strona_id": "b3-pary-zlozone",
+      "odpowiedzi": [
+        "1 → 3",
+        "2 → 4",
+        "3 → 1",
+        "4 → 2"
+      ]
+    },
+    {
+      "strona_id": "b3-rytm-strzalek",
+      "odpowiedzi": [
+        "←"
+      ]
+    },
+    {
+      "strona_id": "b4-rytm-wielkosci",
+      "odpowiedzi": [
+        "○"
+      ]
+    },
+    {
+      "strona_id": "b4-pary-drobne",
+      "odpowiedzi": [
+        "1 → 3",
+        "2 → 4",
+        "3 → 1",
+        "4 → 2"
+      ]
+    },
+    {
+      "strona_id": "b4-rytm-ptaszkow",
+      "odpowiedzi": [
+        "✕"
+      ]
+    },
+    {
+      "strona_id": "b5-rytm-kropek",
+      "odpowiedzi": [
+        "◦"
+      ]
+    },
+    {
+      "strona_id": "b5-pary-cienkie",
+      "odpowiedzi": [
+        "1 → 3",
+        "2 → 4",
+        "3 → 1",
+        "4 → 2"
+      ]
+    },
+    {
+      "strona_id": "b5-rytm-znakow",
+      "odpowiedzi": [
+        "·"
+      ]
+    }
+  ],
+  "fragment": {
+    "do_strony": 12,
+    "obietnica_na_stronie": "Dalej pas się zwęża: 14, 10, 7 i 4 mm. Pięć bloków, 112 kartek do zapisania."
+  }
+}

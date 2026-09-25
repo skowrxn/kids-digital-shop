@@ -1,0 +1,10 @@
+# Znaki, których WOLNO używać w content.json.
+# Plik generowany przez renderer/fonty.py. Nie edytuj ręcznie.
+# Użycie znaku spoza tej listy = obcy krój w PDF-ie = build pada.
+#
+# Lista jest oparta na Plus Jakarta Sans, bo tym krojem składa się
+# cała treść. Bricolage Grotesque obsługuje tylko nagłówki.
+# Poniższych NIE używaj w tytułach ani nagłówkach (brak ich
+# w Bricolage): □■○●★☆
+
+!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ĄĆĘŁŃÓŚŹŻąćęłńóśźż„”‘’—–…·×÷°§«»→←↑↓•□■○●★☆€±≤≥≠½¼¾
