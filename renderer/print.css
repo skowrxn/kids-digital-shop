@@ -224,8 +224,13 @@ h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
 .karta-tnij{ border:.5pt dashed var(--ink); padding:4mm 3mm;
              display:flex; flex-direction:column; justify-content:center;
              align-items:center; text-align:center; gap:2mm; min-height:52mm; }
-.karta-tnij__awers{ font-size:17pt; font-weight:700; line-height:1.2; }
+.karta-tnij__awers{ font-size:17pt; font-weight:700; line-height:1.2;
+                    overflow-wrap:anywhere; hyphens:auto; }
+.karty--gesto .karta-tnij__awers{ font-size:13pt; line-height:1.25; }
 .karta-tnij__rewers{ font-size:11pt; color:var(--slate); }
+/* Wersja dla nieczytających: miejsce na rysunek dziecka albo wklejone zdjęcie. */
+.karta-tnij__pole{ flex:1; align-self:stretch; border:.5pt solid var(--fold);
+                   border-radius:2mm; min-height:22mm; }
 
 .plansza{ display:grid; grid-template-columns:repeat(4,1fr); gap:0; flex:1; }
 .plansza__pole{ border:.5pt solid var(--ink); padding:3mm 2mm; min-height:26mm;

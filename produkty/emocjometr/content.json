@@ -1,0 +1,2331 @@
+{
+  "meta": {
+    "slug": "emocjometr",
+    "tytul": "Emocjometr",
+    "podtytul": "Karty rozmów o uczuciach",
+    "archetyp": "KARTY",
+    "wersja": "1.0",
+    "wiek": "4–9 lat",
+    "kategoria": "emocje",
+    "podkategoria": "rozpoznawanie",
+    "strony_deklarowane": 64,
+    "min_pt_dziecka": 14
+  },
+  "wstep": {
+    "dla_kogo": "Dla dziecka, które na pytanie „co się stało” odpowiada „nic”.",
+    "obietnica": "Dziecko pokazuje na karcie, co czuje, zamiast odpowiadać „nic”.",
+    "warunek_wejscia": "Dziecko potrafi wskazać palcem i nazwać kilka podstawowych uczuć: radość, złość, smutek.",
+    "ile_czasu_dziennie": "Pięć minut wieczorem. Jedna karta wystarczy.",
+    "jak_korzystac": [
+      "Wydrukuj najpierw samą talię min. Dwie kolejne dołóż później.",
+      "Zacznij od ośmiu kart, nie od czterdziestu pięciu.",
+      "Rozkładaj karty na stole, nie podawaj ich do ręki.",
+      "Zadaj jedno pytanie i czekaj. Cisza jest częścią ćwiczenia.",
+      "Nie poprawiaj wyboru dziecka. Każda karta jest dobrą odpowiedzią.",
+      "Talię sytuacji dołóż, gdy dziecko nazywa miny bez wahania.",
+      "Talię natężenia dołóż na końcu, gdy sytuacje idą gładko.",
+      "Używajcie kart przed trudnym momentem albo po nim, nigdy w trakcie.",
+      "Trzymaj pudełko w jednym miejscu, żeby dziecko samo po nie sięgało."
+    ],
+    "czego_nie_robi": [
+      "To nie jest terapia ani diagnoza. To pomoc do rozmowy.",
+      "Nie mówi nic o tym, jak się ma twoje dziecko. Pokazuje tylko, co wybrało dzisiaj.",
+      "Nie służy do rozstrzygania sporów między rodzeństwem.",
+      "Nie działa w środku wybuchu. Używacie go przed albo po.",
+      "Nie ocenia uczuć. Wszystkie są w porządku, różne bywają reakcje."
+    ],
+    "kiedy_do_specjalisty": "Jeśli awantury wracają codziennie i trwają godzinami, porozmawiaj z pediatrą przy najbliższej wizycie. To nie znaczy, że coś jest nie tak. Znaczy, że warto zapytać."
+  },
+  "talie": [
+    {
+      "nazwa": "Miny",
+      "format_mm": [
+        65,
+        90
+      ],
+      "bez_podpisow": true,
+      "arkusze": [
+        {
+          "id": "miny-przygotowanie",
+          "typ": "lista_krokow",
+          "polecenie": "Przygotuj talię min.",
+          "dla_rodzica": "Zrób to raz, bez dziecka. Zajmuje kwadrans.",
+          "dane": {
+            "kroki": [
+              "Wydrukuj pięć arkuszy z podpisami. Zwykły papier wystarczy.",
+              "Potnij karty po liniach. Zostaw trzy milimetry marginesu.",
+              "Zalaminuj albo oklej taśmą — karty przejdą przez mokre ręce.",
+              "Wybierz na początek osiem min, nie czterdzieści pięć.",
+              "Resztę schowaj do pudełka i dokładaj po kilka.",
+              "Trzymaj talię w jednym, stałym miejscu przy stole."
+            ]
+          }
+        },
+        {
+          "id": "miny-jak-uzywac",
+          "typ": "proza",
+          "polecenie": "Przeczytaj, zanim usiądziecie do kart.",
+          "dla_rodzica": "Dla rodzica. Dwie minuty czytania.",
+          "dane": {
+            "akapity": [
+              "Talia min jest pierwsza, bo jest najłatwiejsza. Dziecko nie musi nic wymyślać. Wybiera kartę i pokazuje.",
+              "Zacznij od ośmiu kart. Rozłóż je obrazkiem do góry i powiedz: wybierz tę, która pasuje do ciebie teraz. Potem czekaj. Cisza jest częścią tego ćwiczenia.",
+              "Kiedy dziecko wybierze, przeczytaj na głos opis z drugiej strony. Nie pytaj, czy na pewno. Nie proponuj innej karty.",
+              "Żadna mina nie jest lepsza ani gorsza. Wszystkie uczucia są w porządku. Różne bywają tylko reakcje i o nich rozmawiacie osobno.",
+              "Jeśli dziecko wybiera wciąż tę samą kartę, to też jest odpowiedź. Zapisz ją i wróćcie do niej innego dnia.",
+              "Nie używaj kart w środku wybuchu. Sięgacie po nie wcześniej albo kiedy już jest spokojnie."
+            ]
+          }
+        },
+        {
+          "id": "miny-podpisy-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Nazwa miny na górze, opis pod spodem.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Radość",
+                "rewers": "Szerokie usta, oczy się mrużą."
+              },
+              {
+                "awers": "Zadowolenie",
+                "rewers": "Lekki uśmiech, spokojne ramiona."
+              },
+              {
+                "awers": "Rozbawienie",
+                "rewers": "Trzęsące się ramiona, głośny śmiech."
+              },
+              {
+                "awers": "Zachwyt",
+                "rewers": "Szeroko otwarte oczy, cichy oddech."
+              },
+              {
+                "awers": "Duma",
+                "rewers": "Wyprostowane plecy, uniesiona broda."
+              },
+              {
+                "awers": "Ulga",
+                "rewers": "Długi wydech, opadające ramiona."
+              },
+              {
+                "awers": "Spokój",
+                "rewers": "Rozluźniona buzia, wolny oddech."
+              },
+              {
+                "awers": "Bezpieczeństwo",
+                "rewers": "Miękkie ciało, blisko kogoś swojego."
+              },
+              {
+                "awers": "Wdzięczność",
+                "rewers": "Ciepły wzrok prosto na kogoś."
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "miny-podpisy-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Nazwa miny na górze, opis pod spodem.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Czułość",
+                "rewers": "Delikatny dotyk, cichszy głos."
+              },
+              {
+                "awers": "Życzliwość",
+                "rewers": "Otwarte dłonie, uśmiech do kogoś."
+              },
+              {
+                "awers": "Nadzieja",
+                "rewers": "Uniesiona głowa, wzrok do przodu."
+              },
+              {
+                "awers": "Ciekawość",
+                "rewers": "Wychylona głowa, uważne oczy."
+              },
+              {
+                "awers": "Zapał",
+                "rewers": "Szybkie ręce, chęć zaczynania."
+              },
+              {
+                "awers": "Podekscytowanie",
+                "rewers": "Podskoki, głośniejszy i szybszy głos."
+              },
+              {
+                "awers": "Odwaga",
+                "rewers": "Krok do przodu, mocniejszy głos."
+              },
+              {
+                "awers": "Zaufanie",
+                "rewers": "Spokojny wzrok, luźne ramiona."
+              },
+              {
+                "awers": "Skupienie",
+                "rewers": "Zmarszczone czoło, cicha buzia."
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "miny-podpisy-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Nazwa miny na górze, opis pod spodem.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Zdziwienie",
+                "rewers": "Uniesione brwi, otwarte usta."
+              },
+              {
+                "awers": "Zaskoczenie",
+                "rewers": "Nagły podskok, krótki wdech."
+              },
+              {
+                "awers": "Wzruszenie",
+                "rewers": "Wilgotne oczy, ściśnięte gardło."
+              },
+              {
+                "awers": "Zmęczenie",
+                "rewers": "Ciężkie powieki, wolniejsze ruchy."
+              },
+              {
+                "awers": "Znudzenie",
+                "rewers": "Podparta głowa, wodzenie wzrokiem."
+              },
+              {
+                "awers": "Zniecierpliwienie",
+                "rewers": "Stukanie nogą, ciągłe zerkanie."
+              },
+              {
+                "awers": "Rozdrażnienie",
+                "rewers": "Ostry ton, szarpnięte ruchy."
+              },
+              {
+                "awers": "Napięcie",
+                "rewers": "Twarde ramiona, zaciśnięta szczęka."
+              },
+              {
+                "awers": "Ostrożność",
+                "rewers": "Powolny krok, uważne rozglądanie."
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "miny-podpisy-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Nazwa miny na górze, opis pod spodem.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Niepewność",
+                "rewers": "Wzruszone ramiona, ciche „nie wiem”."
+              },
+              {
+                "awers": "Zagubienie",
+                "rewers": "Rozglądanie się, ręce bez zajęcia."
+              },
+              {
+                "awers": "Onieśmielenie",
+                "rewers": "Chowanie się za plecami dorosłego."
+              },
+              {
+                "awers": "Zakłopotanie",
+                "rewers": "Zasłonięta buzia, niepewny uśmiech."
+              },
+              {
+                "awers": "Wstyd",
+                "rewers": "Spuszczony wzrok, gorące uszy."
+              },
+              {
+                "awers": "Poczucie winy",
+                "rewers": "Zgarbione plecy, ciche przepraszam."
+              },
+              {
+                "awers": "Niepokój",
+                "rewers": "Szybki oddech, ruszające się palce."
+              },
+              {
+                "awers": "Strach",
+                "rewers": "Otwarte oczy, wstrzymany oddech."
+              },
+              {
+                "awers": "Tęsknota",
+                "rewers": "Wzrok w dal, cicha buzia."
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "miny-podpisy-5",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Nazwa miny na górze, opis pod spodem.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Samotność",
+                "rewers": "Skulone ramiona, wzrok w podłogę."
+              },
+              {
+                "awers": "Smutek",
+                "rewers": "Opuszczone kąciki ust, ciężka głowa."
+              },
+              {
+                "awers": "Żal",
+                "rewers": "Drżąca broda, łzy w oczach."
+              },
+              {
+                "awers": "Zawód",
+                "rewers": "Opuszczone ręce, cichszy głos."
+              },
+              {
+                "awers": "Bezsilność",
+                "rewers": "Ciało bez sił, ciche „nie umiem”."
+              },
+              {
+                "awers": "Zazdrość",
+                "rewers": "Ściągnięte brwi, odwrócone ramiona."
+              },
+              {
+                "awers": "Obrzydzenie",
+                "rewers": "Zmarszczony nos, odsunięta głowa."
+              },
+              {
+                "awers": "Złość",
+                "rewers": "Zaciśnięte pięści, gorąca twarz."
+              },
+              {
+                "awers": "Wściekłość",
+                "rewers": "Bardzo gorąca twarz, głośny krzyk."
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "miny-bez-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj minę na pustej karcie.",
+          "dla_rodzica": "Wersja dla dziecka, które jeszcze nie czyta. Numer na dole odpowiada kolejności kart z podpisami.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "1"
+              },
+              {
+                "awers": "",
+                "rewers": "2"
+              },
+              {
+                "awers": "",
+                "rewers": "3"
+              },
+              {
+                "awers": "",
+                "rewers": "4"
+              },
+              {
+                "awers": "",
+                "rewers": "5"
+              },
+              {
+                "awers": "",
+                "rewers": "6"
+              },
+              {
+                "awers": "",
+                "rewers": "7"
+              },
+              {
+                "awers": "",
+                "rewers": "8"
+              },
+              {
+                "awers": "",
+                "rewers": "9"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "miny-bez-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj minę na pustej karcie.",
+          "dla_rodzica": "Wersja dla dziecka, które jeszcze nie czyta. Numer na dole odpowiada kolejności kart z podpisami.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "10"
+              },
+              {
+                "awers": "",
+                "rewers": "11"
+              },
+              {
+                "awers": "",
+                "rewers": "12"
+              },
+              {
+                "awers": "",
+                "rewers": "13"
+              },
+              {
+                "awers": "",
+                "rewers": "14"
+              },
+              {
+                "awers": "",
+                "rewers": "15"
+              },
+              {
+                "awers": "",
+                "rewers": "16"
+              },
+              {
+                "awers": "",
+                "rewers": "17"
+              },
+              {
+                "awers": "",
+                "rewers": "18"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "miny-bez-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj minę na pustej karcie.",
+          "dla_rodzica": "Wersja dla dziecka, które jeszcze nie czyta. Numer na dole odpowiada kolejności kart z podpisami.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "19"
+              },
+              {
+                "awers": "",
+                "rewers": "20"
+              },
+              {
+                "awers": "",
+                "rewers": "21"
+              },
+              {
+                "awers": "",
+                "rewers": "22"
+              },
+              {
+                "awers": "",
+                "rewers": "23"
+              },
+              {
+                "awers": "",
+                "rewers": "24"
+              },
+              {
+                "awers": "",
+                "rewers": "25"
+              },
+              {
+                "awers": "",
+                "rewers": "26"
+              },
+              {
+                "awers": "",
+                "rewers": "27"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "miny-bez-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj minę na pustej karcie.",
+          "dla_rodzica": "Wersja dla dziecka, które jeszcze nie czyta. Numer na dole odpowiada kolejności kart z podpisami.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "28"
+              },
+              {
+                "awers": "",
+                "rewers": "29"
+              },
+              {
+                "awers": "",
+                "rewers": "30"
+              },
+              {
+                "awers": "",
+                "rewers": "31"
+              },
+              {
+                "awers": "",
+                "rewers": "32"
+              },
+              {
+                "awers": "",
+                "rewers": "33"
+              },
+              {
+                "awers": "",
+                "rewers": "34"
+              },
+              {
+                "awers": "",
+                "rewers": "35"
+              },
+              {
+                "awers": "",
+                "rewers": "36"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "miny-bez-5",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj minę na pustej karcie.",
+          "dla_rodzica": "Wersja dla dziecka, które jeszcze nie czyta. Numer na dole odpowiada kolejności kart z podpisami.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "37"
+              },
+              {
+                "awers": "",
+                "rewers": "38"
+              },
+              {
+                "awers": "",
+                "rewers": "39"
+              },
+              {
+                "awers": "",
+                "rewers": "40"
+              },
+              {
+                "awers": "",
+                "rewers": "41"
+              },
+              {
+                "awers": "",
+                "rewers": "42"
+              },
+              {
+                "awers": "",
+                "rewers": "43"
+              },
+              {
+                "awers": "",
+                "rewers": "44"
+              },
+              {
+                "awers": "",
+                "rewers": "45"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "miny-slowa",
+          "typ": "tabela",
+          "polecenie": "Nazwij minę innym słowem.",
+          "dla_rodzica": "Im więcej słów, tym mniej „nic”. Czytaj na głos, dziecko wybiera.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Mina",
+              "Inne słowa na to samo"
+            ],
+            "wiersze": [
+              [
+                "Złość",
+                "wkurzenie, gniew, wściekłość, iskrzenie"
+              ],
+              [
+                "Smutek",
+                "żal, przykrość, ciężko na sercu"
+              ],
+              [
+                "Strach",
+                "obawa, niepokój, ciarki"
+              ],
+              [
+                "Radość",
+                "zadowolenie, frajda, lekkość"
+              ],
+              [
+                "Wstyd",
+                "zakłopotanie, gorące uszy"
+              ],
+              [
+                "Zazdrość",
+                "też tak chcę, niesprawiedliwie"
+              ],
+              [
+                "Zmęczenie",
+                "brak sił, ciężkie oczy"
+              ],
+              [
+                "Zniecierpliwienie",
+                "za wolno, nie mogę czekać"
+              ],
+              [
+                "Tęsknota",
+                "brak kogoś, pusto"
+              ],
+              [
+                "Duma",
+                "chcę to pokazać, udało mi się"
+              ],
+              [
+                "Ciekawość",
+                "chcę wiedzieć, co dalej"
+              ],
+              [
+                "Ulga",
+                "już po wszystkim, lżej"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "miny-pytania",
+          "typ": "tabela",
+          "polecenie": "Zadaj jedno pytanie, potem czekaj.",
+          "dla_rodzica": "Karta dla rodzica. Jedno pytanie na raz. Po pytaniu licz w myślach do dziesięciu.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Zapytaj",
+              "Po co"
+            ],
+            "wiersze": [
+              [
+                "Która karta pasuje do ciebie teraz?",
+                "Daje wybór zamiast pytania otwartego."
+              ],
+              [
+                "Gdzie to czujesz w ciele?",
+                "Przenosi rozmowę z głowy na brzuch i ramiona."
+              ],
+              [
+                "Co było tuż przedtem?",
+                "Szuka zdarzenia, nie powodu."
+              ],
+              [
+                "Czy ta mina była dziś jeszcze?",
+                "Pokazuje, że uczucia przychodzą i mijają."
+              ],
+              [
+                "Która karta pasowała rano?",
+                "Ćwiczy mówienie o tym, co minęło."
+              ],
+              [
+                "Co chciałbyś teraz zrobić?",
+                "Oddziela uczucie od reakcji."
+              ],
+              [
+                "Czego potrzebujesz ode mnie?",
+                "Pyta o pomoc zamiast jej narzucać."
+              ],
+              [
+                "Kto jeszcze mógł tak czuć?",
+                "Uczy patrzenia na drugą osobę."
+              ],
+              [
+                "Która karta pasuje do mnie?",
+                "Dziecko czyta twoją minę, nie tylko swoją."
+              ],
+              [
+                "Wybierz kartę na jutro rano.",
+                "Kończy rozmowę czymś do przodu."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "miny-notatnik",
+          "typ": "formularz",
+          "polecenie": "Zapisz, o czym rozmawialiście.",
+          "dla_rodzica": "Rubryki są puste. Wypełniasz je u siebie, dla siebie. Nic tu nie zostaje w pliku.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Data rozmowy",
+                "wysokosc_mm": 12,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wybrana karta",
+                "wysokosc_mm": 12,
+                "linie": 1
+              },
+              {
+                "etykieta": "Co działo się tuż przedtem",
+                "wysokosc_mm": 20,
+                "linie": 2
+              },
+              {
+                "etykieta": "Co pomogło",
+                "wysokosc_mm": 20,
+                "linie": 2
+              },
+              {
+                "etykieta": "Do czego wrócimy następnym razem",
+                "wysokosc_mm": 20,
+                "linie": 2
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Sytuacje",
+      "format_mm": [
+        65,
+        90
+      ],
+      "bez_podpisow": true,
+      "arkusze": [
+        {
+          "id": "syt-przygotowanie",
+          "typ": "lista_krokow",
+          "polecenie": "Przygotuj talię sytuacji.",
+          "dla_rodzica": "Dokładaj tę talię dopiero wtedy, gdy miny idą bez wahania.",
+          "dane": {
+            "kroki": [
+              "Wydrukuj jedenaście arkuszy z sytuacjami.",
+              "Potnij karty po liniach, zostaw trzy milimetry marginesu.",
+              "Podpis na dole mówi, skąd jest sytuacja: dom, szkoła, podwórko.",
+              "Podziel talię na kupki według tych podpisów.",
+              "Zacznij od jednej kupki, na przykład od domu.",
+              "Trzymaj talię min pod ręką — będzie potrzebna do pary."
+            ]
+          }
+        },
+        {
+          "id": "syt-jak-uzywac",
+          "typ": "proza",
+          "polecenie": "Przeczytaj, zanim dołożysz sytuacje.",
+          "dla_rodzica": "Dla rodzica. Dwie minuty czytania.",
+          "dane": {
+            "akapity": [
+              "Talia sytuacji działa tylko razem z minami. Czytasz sytuację na głos, dziecko dokłada do niej minę.",
+              "Nie ma tu dobrych i złych odpowiedzi. Dwoje dzieci wybierze dwie różne miny do tej samej karty i obie będą prawdziwe.",
+              "Jeśli dziecko wybierze minę, która cię zaskoczy, zapytaj o ciało: gdzie to czujesz. Nie pytaj, dlaczego akurat ta.",
+              "Możesz wybrać minę do tej samej sytuacji. Powiedz, co wybierasz i dlaczego. Dziecko uczy się wtedy, że dorośli też czują różnie.",
+              "Zacznij od kart łatwych: prezent, ślimak w trawie, kanapka od kolegi. Kupkę „trudne” zostaw na koniec.",
+              "Kart nie używacie do rozstrzygania sporów. Kiedy rodzeństwo się kłóci, odłóż talię i wróć do niej wieczorem."
+            ]
+          }
+        },
+        {
+          "id": "syt-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Sytuacje z jednego miejsca: dom. Podpis na dole pomaga sortować.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Ktoś bierze twoją zabawkę bez pytania.",
+                "rewers": "dom"
+              },
+              {
+                "awers": "Nie możesz znaleźć ulubionej książki.",
+                "rewers": "dom"
+              },
+              {
+                "awers": "Wieża z klocków rozsypuje się sama.",
+                "rewers": "dom"
+              },
+              {
+                "awers": "Mama mówi, że koniec bajki.",
+                "rewers": "dom"
+              },
+              {
+                "awers": "Trzeba wyłączyć tablet w środku gry.",
+                "rewers": "dom"
+              },
+              {
+                "awers": "Ktoś wchodzi do pokoju bez pukania.",
+                "rewers": "dom"
+              },
+              {
+                "awers": "Twój rysunek rozmazuje się od wody.",
+                "rewers": "dom"
+              },
+              {
+                "awers": "Tata przytula cię bez powodu.",
+                "rewers": "dom"
+              },
+              {
+                "awers": "Ulubiona skarpetka gdzieś znika.",
+                "rewers": "dom"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "syt-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Sytuacje z jednego miejsca: rodzeństwo. Podpis na dole pomaga sortować.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Siostra dostaje większy kawałek ciasta.",
+                "rewers": "rodzeństwo"
+              },
+              {
+                "awers": "Brat zajmuje twoje miejsce na kanapie.",
+                "rewers": "rodzeństwo"
+              },
+              {
+                "awers": "Rodzeństwo śmieje się z twojego pomysłu.",
+                "rewers": "rodzeństwo"
+              },
+              {
+                "awers": "Młodszy brat psuje twoją układankę.",
+                "rewers": "rodzeństwo"
+              },
+              {
+                "awers": "Siostra bierze twoją bluzę bez pytania.",
+                "rewers": "rodzeństwo"
+              },
+              {
+                "awers": "Rodzeństwo woła cię do wspólnej zabawy.",
+                "rewers": "rodzeństwo"
+              },
+              {
+                "awers": "Brat kończy grę, zanim zdążysz zagrać.",
+                "rewers": "rodzeństwo"
+              },
+              {
+                "awers": "Siostra staje przy tobie przy obcym psie.",
+                "rewers": "rodzeństwo"
+              },
+              {
+                "awers": "Musisz dzielić pokój z rodzeństwem.",
+                "rewers": "rodzeństwo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "syt-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Sytuacje z jednego miejsca: szkoła. Podpis na dole pomaga sortować.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Pierwszy dzień w nowej grupie.",
+                "rewers": "szkoła"
+              },
+              {
+                "awers": "Nauczycielka prosi cię o odpowiedź.",
+                "rewers": "szkoła"
+              },
+              {
+                "awers": "Nie rozumiesz polecenia z tablicy.",
+                "rewers": "szkoła"
+              },
+              {
+                "awers": "Twoja praca wisi na ścianie.",
+                "rewers": "szkoła"
+              },
+              {
+                "awers": "Nikt nie chce siedzieć obok ciebie.",
+                "rewers": "szkoła"
+              },
+              {
+                "awers": "Dzwonek dzwoni w środku twojej pracy.",
+                "rewers": "szkoła"
+              },
+              {
+                "awers": "Musisz stanąć przed całą grupą.",
+                "rewers": "szkoła"
+              },
+              {
+                "awers": "Ktoś mówi, że rysujesz brzydko.",
+                "rewers": "szkoła"
+              },
+              {
+                "awers": "Zapominasz przynieść potrzebną rzecz.",
+                "rewers": "szkoła"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "syt-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Sytuacje z jednego miejsca: plac zabaw. Podpis na dole pomaga sortować.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Ktoś spycha cię ze zjeżdżalni.",
+                "rewers": "plac zabaw"
+              },
+              {
+                "awers": "Kolejka do huśtawki wcale się nie rusza.",
+                "rewers": "plac zabaw"
+              },
+              {
+                "awers": "Ktoś woła cię do wspólnej zabawy.",
+                "rewers": "plac zabaw"
+              },
+              {
+                "awers": "Przewracasz się i obcierasz kolano.",
+                "rewers": "plac zabaw"
+              },
+              {
+                "awers": "Starsze dzieci zajmują całą piaskownicę.",
+                "rewers": "plac zabaw"
+              },
+              {
+                "awers": "Pada deszcz i trzeba wracać.",
+                "rewers": "plac zabaw"
+              },
+              {
+                "awers": "Pierwszy raz wchodzisz na wysoką drabinkę.",
+                "rewers": "plac zabaw"
+              },
+              {
+                "awers": "Ktoś zabiera twoją łopatkę.",
+                "rewers": "plac zabaw"
+              },
+              {
+                "awers": "Kończysz wyścig na ostatnim miejscu.",
+                "rewers": "plac zabaw"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "syt-5",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Sytuacje z jednego miejsca: koledzy. Podpis na dole pomaga sortować.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Przyjaciel bawi się dziś z kimś innym.",
+                "rewers": "koledzy"
+              },
+              {
+                "awers": "Ktoś nie zaprasza cię na urodziny.",
+                "rewers": "koledzy"
+              },
+              {
+                "awers": "Kolega dzieli się z tobą kanapką.",
+                "rewers": "koledzy"
+              },
+              {
+                "awers": "Ktoś mówi o tobie coś nieprawdziwego.",
+                "rewers": "koledzy"
+              },
+              {
+                "awers": "Dwie osoby szepczą i patrzą na ciebie.",
+                "rewers": "koledzy"
+              },
+              {
+                "awers": "Koleżanka oddaje ci pożyczoną zabawkę.",
+                "rewers": "koledzy"
+              },
+              {
+                "awers": "Ktoś przezywa cię na podwórku.",
+                "rewers": "koledzy"
+              },
+              {
+                "awers": "Zapraszasz kogoś, a on odmawia.",
+                "rewers": "koledzy"
+              },
+              {
+                "awers": "Ktoś czeka na ciebie przed domem.",
+                "rewers": "koledzy"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "syt-6",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Sytuacje z jednego miejsca: zadania. Podpis na dole pomaga sortować.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Zadanie jest trudniejsze, niż myślisz.",
+                "rewers": "zadania"
+              },
+              {
+                "awers": "Litery nie chcą zmieścić się w linijce.",
+                "rewers": "zadania"
+              },
+              {
+                "awers": "Udaje ci się przeczytać całe zdanie.",
+                "rewers": "zadania"
+              },
+              {
+                "awers": "Musisz zaczynać pracę od początku.",
+                "rewers": "zadania"
+              },
+              {
+                "awers": "Ktoś kończy szybciej niż ty.",
+                "rewers": "zadania"
+              },
+              {
+                "awers": "Nie pamiętasz, co było do zrobienia.",
+                "rewers": "zadania"
+              },
+              {
+                "awers": "Kończysz zadanie bez niczyjej pomocy.",
+                "rewers": "zadania"
+              },
+              {
+                "awers": "Dorosły pokazuje ci błąd w pracy.",
+                "rewers": "zadania"
+              },
+              {
+                "awers": "Siedzisz nad zadaniem bardzo długo.",
+                "rewers": "zadania"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "syt-7",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Sytuacje z jednego miejsca: wieczór. Podpis na dole pomaga sortować.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Na talerzu jest coś nieznanego.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Trzeba iść spać w środku zabawy.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "W pokoju jest ciemno i cicho.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Budzisz się w nocy i nikogo nie ma.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Ktoś czyta ci książkę przed snem.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Nie chce ci się jeść śniadania.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Obiad pachnie twoim ulubionym daniem.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Trzeba umyć zęby, choć nie masz ochoty.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Zasypiasz w łóżku rodziców.",
+                "rewers": "wieczór"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "syt-8",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Sytuacje z jednego miejsca: zmiany. Podpis na dole pomaga sortować.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Jedziecie w miejsce, którego nie znasz.",
+                "rewers": "zmiany"
+              },
+              {
+                "awers": "Plan dnia zmienia się nagle.",
+                "rewers": "zmiany"
+              },
+              {
+                "awers": "Zostajesz u babci na całą noc.",
+                "rewers": "zmiany"
+              },
+              {
+                "awers": "Ktoś nowy wprowadza się obok.",
+                "rewers": "zmiany"
+              },
+              {
+                "awers": "Idziecie do lekarza na szczepienie.",
+                "rewers": "zmiany"
+              },
+              {
+                "awers": "Wyjeżdżacie na wakacje jutro rano.",
+                "rewers": "zmiany"
+              },
+              {
+                "awers": "Trzeba pożegnać się przed wejściem do sali.",
+                "rewers": "zmiany"
+              },
+              {
+                "awers": "Przeprowadzacie się do innego mieszkania.",
+                "rewers": "zmiany"
+              },
+              {
+                "awers": "Rodzic wraca później, niż mówił.",
+                "rewers": "zmiany"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "syt-9",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Sytuacje z jednego miejsca: świat. Podpis na dole pomaga sortować.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Duży pies biegnie prosto na ciebie.",
+                "rewers": "świat"
+              },
+              {
+                "awers": "Znajdujesz w trawie małego ślimaka.",
+                "rewers": "świat"
+              },
+              {
+                "awers": "Burza huczy za oknem.",
+                "rewers": "świat"
+              },
+              {
+                "awers": "Twoja roślina w doniczce usycha.",
+                "rewers": "świat"
+              },
+              {
+                "awers": "Kot ucieka, kiedy chcesz go pogłaskać.",
+                "rewers": "świat"
+              },
+              {
+                "awers": "Ptak je okruszki z twojej ręki.",
+                "rewers": "świat"
+              },
+              {
+                "awers": "Pająk siedzi w rogu pokoju.",
+                "rewers": "świat"
+              },
+              {
+                "awers": "Zwierzak w domu jest chory.",
+                "rewers": "świat"
+              },
+              {
+                "awers": "Idziecie do lasu, kiedy robi się ciemno.",
+                "rewers": "świat"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "syt-10",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Sytuacje z jednego miejsca: okazje. Podpis na dole pomaga sortować.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Dostajesz prezent, o którym marzysz.",
+                "rewers": "okazje"
+              },
+              {
+                "awers": "Prezent okazuje się inny, niż chcesz.",
+                "rewers": "okazje"
+              },
+              {
+                "awers": "Wszyscy śpiewają tobie sto lat.",
+                "rewers": "okazje"
+              },
+              {
+                "awers": "Musisz podzielić się nowym prezentem.",
+                "rewers": "okazje"
+              },
+              {
+                "awers": "Twoje urodziny są dopiero za miesiąc.",
+                "rewers": "okazje"
+              },
+              {
+                "awers": "Ktoś zapomina o twoim ważnym dniu.",
+                "rewers": "okazje"
+              },
+              {
+                "awers": "Pomagasz zapakować prezent dla kogoś.",
+                "rewers": "okazje"
+              },
+              {
+                "awers": "Robisz laurkę dla babci.",
+                "rewers": "okazje"
+              },
+              {
+                "awers": "Przy stole siedzi bardzo dużo gości.",
+                "rewers": "okazje"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "syt-11",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Sytuacje z jednego miejsca: trudne. Podpis na dole pomaga sortować.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Dorośli rozmawiają głośno w drugim pokoju.",
+                "rewers": "trudne"
+              },
+              {
+                "awers": "Ktoś bliski wyjeżdża na długo.",
+                "rewers": "trudne"
+              },
+              {
+                "awers": "Twoja ulubiona rzecz pęka na pół.",
+                "rewers": "trudne"
+              },
+              {
+                "awers": "Ktoś śmieje się z ciebie przy innych.",
+                "rewers": "trudne"
+              },
+              {
+                "awers": "Coś nie udaje ci się trzeci raz.",
+                "rewers": "trudne"
+              },
+              {
+                "awers": "Trzeba przeprosić, choć jest ci trudno.",
+                "rewers": "trudne"
+              },
+              {
+                "awers": "Ktoś przeprasza ciebie.",
+                "rewers": "trudne"
+              },
+              {
+                "awers": "Czekasz na coś bardzo długo.",
+                "rewers": "trudne"
+              },
+              {
+                "awers": "Dzień kończy się inaczej, niż planujesz.",
+                "rewers": "trudne"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "syt-bez-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Zrób własne karty sytuacji.",
+          "dla_rodzica": "Puste karty na sytuacje z waszego domu. Dziecko rysuje, ty możesz dopisać jedno zdanie z boku.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "1"
+              },
+              {
+                "awers": "",
+                "rewers": "2"
+              },
+              {
+                "awers": "",
+                "rewers": "3"
+              },
+              {
+                "awers": "",
+                "rewers": "4"
+              },
+              {
+                "awers": "",
+                "rewers": "5"
+              },
+              {
+                "awers": "",
+                "rewers": "6"
+              },
+              {
+                "awers": "",
+                "rewers": "7"
+              },
+              {
+                "awers": "",
+                "rewers": "8"
+              },
+              {
+                "awers": "",
+                "rewers": "9"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "syt-bez-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Zrób własne karty sytuacji.",
+          "dla_rodzica": "Puste karty na sytuacje z waszego domu. Dziecko rysuje, ty możesz dopisać jedno zdanie z boku.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "10"
+              },
+              {
+                "awers": "",
+                "rewers": "11"
+              },
+              {
+                "awers": "",
+                "rewers": "12"
+              },
+              {
+                "awers": "",
+                "rewers": "13"
+              },
+              {
+                "awers": "",
+                "rewers": "14"
+              },
+              {
+                "awers": "",
+                "rewers": "15"
+              },
+              {
+                "awers": "",
+                "rewers": "16"
+              },
+              {
+                "awers": "",
+                "rewers": "17"
+              },
+              {
+                "awers": "",
+                "rewers": "18"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "syt-bez-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Zrób własne karty sytuacji.",
+          "dla_rodzica": "Puste karty na sytuacje z waszego domu. Dziecko rysuje, ty możesz dopisać jedno zdanie z boku.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "19"
+              },
+              {
+                "awers": "",
+                "rewers": "20"
+              },
+              {
+                "awers": "",
+                "rewers": "21"
+              },
+              {
+                "awers": "",
+                "rewers": "22"
+              },
+              {
+                "awers": "",
+                "rewers": "23"
+              },
+              {
+                "awers": "",
+                "rewers": "24"
+              },
+              {
+                "awers": "",
+                "rewers": "25"
+              },
+              {
+                "awers": "",
+                "rewers": "26"
+              },
+              {
+                "awers": "",
+                "rewers": "27"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "syt-sortowanie",
+          "typ": "tabela",
+          "polecenie": "Podziel karty na cztery kupki.",
+          "dla_rodzica": "Sortowanie samo w sobie jest ćwiczeniem. Rób je raz na jakiś czas — odpowiedzi się zmieniają.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Kupka",
+              "Co do niej trafia"
+            ],
+            "wiersze": [
+              [
+                "Łatwe",
+                "Karty, przy których dziecko od razu wie, co czuje."
+              ],
+              [
+                "Różnie",
+                "Raz tak, raz inaczej — zależy od dnia."
+              ],
+              [
+                "Trudne",
+                "Karty, przy których dziecko milknie albo zmienia temat."
+              ],
+              [
+                "Nasze",
+                "Puste karty, które sami zrobiliście."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "syt-pytania",
+          "typ": "tabela",
+          "polecenie": "Zadaj pytanie do wybranej sytuacji.",
+          "dla_rodzica": "Karta dla rodzica. Wybierz jedno pytanie, nie dziesięć.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Zapytaj",
+              "Po co"
+            ],
+            "wiersze": [
+              [
+                "Jaka mina pasuje do tej karty?",
+                "Podstawowe połączenie obu talii."
+              ],
+              [
+                "A gdyby to było w przedszkolu?",
+                "Pokazuje, że miejsce zmienia uczucie."
+              ],
+              [
+                "Co mogłaby czuć druga osoba?",
+                "Otwiera drugą stronę zdarzenia."
+              ],
+              [
+                "Zdarzyło się coś podobnego?",
+                "Łączy kartę z waszym życiem."
+              ],
+              [
+                "Co pomogłoby w tej chwili?",
+                "Szuka pomysłu, nie oceny."
+              ],
+              [
+                "Która mina byłaby najtrudniejsza?",
+                "Nazywa to, co dziecko omija."
+              ],
+              [
+                "Co zrobiłby ktoś bardzo spokojny?",
+                "Daje wzór bez pouczania."
+              ],
+              [
+                "Chcesz dołożyć drugą minę?",
+                "Uczy, że uczucia się mieszają."
+              ],
+              [
+                "Ta karta jest łatwa czy trudna?",
+                "Prowadzi do sortowania talii."
+              ],
+              [
+                "Jaką sytuację dopisalibyśmy sami?",
+                "Przechodzi do pustych kart."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "syt-wlasne",
+          "typ": "formularz",
+          "polecenie": "Zapisz sytuacje z waszego domu.",
+          "dla_rodzica": "Rubryki są puste i zostają u ciebie. Wpisuj zdarzenia, nie osoby.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Sytuacja z domu",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sytuacja z domu",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sytuacja z przedszkola lub szkoły",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sytuacja z przedszkola lub szkoły",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sytuacja z podwórka",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sytuacja z podwórka",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sytuacja, która wraca najczęściej",
+                "wysokosc_mm": 20,
+                "linie": 2
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Natężenie",
+      "format_mm": [
+        65,
+        90
+      ],
+      "bez_podpisow": true,
+      "arkusze": [
+        {
+          "id": "nat-przygotowanie",
+          "typ": "lista_krokow",
+          "polecenie": "Przygotuj talię natężenia.",
+          "dla_rodzica": "Ta talia jest trzecia. Ma sens, gdy dziecko nazywa miny bez wahania.",
+          "dane": {
+            "kroki": [
+              "Wydrukuj siedem arkuszy z kartami siły.",
+              "Potnij karty po liniach, zostaw trzy milimetry marginesu.",
+              "Ułóż je w trójki: trochę, sporo, bardzo dużo.",
+              "Spinaj każdą trójkę klamerką albo gumką.",
+              "Wyjmuj tylko tę trójkę, która pasuje do dzisiejszej rozmowy.",
+              "Resztę trzymaj w pudełku razem z pozostałymi taliami."
+            ]
+          }
+        },
+        {
+          "id": "nat-jak-uzywac",
+          "typ": "proza",
+          "polecenie": "Przeczytaj, zanim dołożysz natężenie.",
+          "dla_rodzica": "Dla rodzica. Dwie minuty czytania.",
+          "dane": {
+            "akapity": [
+              "Dziecko często ma jedno słowo na całą skalę. Wszystko jest „złe” albo „fajne”. Ta talia dokłada środek.",
+              "Weź trójkę kart do jednego uczucia i rozłóż od lewej do prawej: trochę, sporo, bardzo dużo. Dziecko wskazuje palcem.",
+              "Wskazanie wystarczy. Nie proś o wyjaśnienie, dlaczego to sporo, a nie trochę.",
+              "Siła uczucia zmienia się w ciągu dnia. Możecie wrócić do tej samej trójki po godzinie i wskazać inną kartę.",
+              "Najciekawsze rozmowy zaczynają się przy różnicy zdań. Ty widzisz „bardzo dużo”, dziecko wskazuje „trochę”. Powiedz, co widzisz, i zostaw jego wybór.",
+              "Skala nie ocenia. Nie ma tu kart lepszych po lewej i gorszych po prawej."
+            ]
+          }
+        },
+        {
+          "id": "nat-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Trzy karty na jedno uczucie. Układaj je od lewej: trochę, sporo, bardzo dużo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Trochę złości",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo złości",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo złości",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę smutku",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo smutku",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo smutku",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę strachu",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo strachu",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo strachu",
+                "rewers": "bardzo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "nat-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Trzy karty na jedno uczucie. Układaj je od lewej: trochę, sporo, bardzo dużo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Trochę radości",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo radości",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo radości",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę wstydu",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo wstydu",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo wstydu",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę zazdrości",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo zazdrości",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo zazdrości",
+                "rewers": "bardzo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "nat-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Trzy karty na jedno uczucie. Układaj je od lewej: trochę, sporo, bardzo dużo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Trochę zmęczenia",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo zmęczenia",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo zmęczenia",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę niecierpliwości",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo niecierpliwości",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo niecierpliwości",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę tęsknoty",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo tęsknoty",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo tęsknoty",
+                "rewers": "bardzo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "nat-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Trzy karty na jedno uczucie. Układaj je od lewej: trochę, sporo, bardzo dużo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Trochę dumy",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo dumy",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo dumy",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę ciekawości",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo ciekawości",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo ciekawości",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę ulgi",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo ulgi",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo ulgi",
+                "rewers": "bardzo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "nat-5",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Trzy karty na jedno uczucie. Układaj je od lewej: trochę, sporo, bardzo dużo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Trochę niepokoju",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo niepokoju",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo niepokoju",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę żalu",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo żalu",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo żalu",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę zawodu",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo zawodu",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo zawodu",
+                "rewers": "bardzo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "nat-6",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Trzy karty na jedno uczucie. Układaj je od lewej: trochę, sporo, bardzo dużo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Trochę rozdrażnienia",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo rozdrażnienia",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo rozdrażnienia",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę napięcia",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo napięcia",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo napięcia",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę samotności",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo samotności",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo samotności",
+                "rewers": "bardzo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "nat-7",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Trzy karty na jedno uczucie. Układaj je od lewej: trochę, sporo, bardzo dużo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Trochę zaskoczenia",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo zaskoczenia",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo zaskoczenia",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę podekscytowania",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo podekscytowania",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo podekscytowania",
+                "rewers": "bardzo"
+              },
+              {
+                "awers": "Trochę spokoju",
+                "rewers": "lekko"
+              },
+              {
+                "awers": "Sporo spokoju",
+                "rewers": "średnio"
+              },
+              {
+                "awers": "Bardzo dużo spokoju",
+                "rewers": "bardzo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "nat-bez-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Zrób własne karty siły uczucia.",
+          "dla_rodzica": "Puste karty dla dziecka, które nie czyta. Trzy kreski, pięć kresek, pełne pole — umówcie się na własny znak.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "1"
+              },
+              {
+                "awers": "",
+                "rewers": "2"
+              },
+              {
+                "awers": "",
+                "rewers": "3"
+              },
+              {
+                "awers": "",
+                "rewers": "4"
+              },
+              {
+                "awers": "",
+                "rewers": "5"
+              },
+              {
+                "awers": "",
+                "rewers": "6"
+              },
+              {
+                "awers": "",
+                "rewers": "7"
+              },
+              {
+                "awers": "",
+                "rewers": "8"
+              },
+              {
+                "awers": "",
+                "rewers": "9"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "nat-bez-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Zrób własne karty siły uczucia.",
+          "dla_rodzica": "Puste karty dla dziecka, które nie czyta. Trzy kreski, pięć kresek, pełne pole — umówcie się na własny znak.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "10"
+              },
+              {
+                "awers": "",
+                "rewers": "11"
+              },
+              {
+                "awers": "",
+                "rewers": "12"
+              },
+              {
+                "awers": "",
+                "rewers": "13"
+              },
+              {
+                "awers": "",
+                "rewers": "14"
+              },
+              {
+                "awers": "",
+                "rewers": "15"
+              },
+              {
+                "awers": "",
+                "rewers": "16"
+              },
+              {
+                "awers": "",
+                "rewers": "17"
+              },
+              {
+                "awers": "",
+                "rewers": "18"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "nat-bez-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Zrób własne karty siły uczucia.",
+          "dla_rodzica": "Puste karty dla dziecka, które nie czyta. Trzy kreski, pięć kresek, pełne pole — umówcie się na własny znak.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "19"
+              },
+              {
+                "awers": "",
+                "rewers": "20"
+              },
+              {
+                "awers": "",
+                "rewers": "21"
+              },
+              {
+                "awers": "",
+                "rewers": "22"
+              },
+              {
+                "awers": "",
+                "rewers": "23"
+              },
+              {
+                "awers": "",
+                "rewers": "24"
+              },
+              {
+                "awers": "",
+                "rewers": "25"
+              },
+              {
+                "awers": "",
+                "rewers": "26"
+              },
+              {
+                "awers": "",
+                "rewers": "27"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "nat-skala",
+          "typ": "tabela",
+          "polecenie": "Pokaż siłę uczucia na skali.",
+          "dla_rodzica": "Powieś tę stronę na lodówce. Dziecko może wskazywać poziom palcem, bez kart.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Poziom",
+              "Co widać",
+              "Co bywa pomocne"
+            ],
+            "wiersze": [
+              [
+                "1 — ledwo",
+                "Zwykły głos, ciało spokojne.",
+                "Nazwanie tego jednym słowem."
+              ],
+              [
+                "2 — trochę",
+                "Krótsze zdania, szybsze ruchy.",
+                "Szklanka wody, zmiana pokoju."
+              ],
+              [
+                "3 — sporo",
+                "Głośniejszy głos, napięte ramiona.",
+                "Dziesięć wolnych oddechów razem."
+              ],
+              [
+                "4 — dużo",
+                "Krzyk albo płacz, trudno słuchać.",
+                "Mniej słów, więcej ciszy obok."
+              ],
+              [
+                "5 — bardzo dużo",
+                "Całe ciało się trzęsie.",
+                "Bezpieczne miejsce, rozmowa później."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "nat-pytania",
+          "typ": "tabela",
+          "polecenie": "Zapytaj, jak mocno to czuje.",
+          "dla_rodzica": "Karta dla rodzica. Pytania działają najlepiej po fakcie, nie w trakcie.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Zapytaj",
+              "Po co"
+            ],
+            "wiersze": [
+              [
+                "Trochę, sporo czy bardzo dużo?",
+                "Trzy opcje zamiast pytania otwartego."
+              ],
+              [
+                "Ile było, kiedy wchodziliśmy do domu?",
+                "Pokazuje, że siła się zmienia."
+              ],
+              [
+                "A ile jest teraz?",
+                "Widać różnicę po kilku minutach."
+              ],
+              [
+                "Co podniosło to o jeden stopień?",
+                "Szuka zapalnika, nie winnego."
+              ],
+              [
+                "Co obniżyło to o jeden stopień?",
+                "Zbiera wasze działające sposoby."
+              ],
+              [
+                "Na którym stopniu trudno ci mówić?",
+                "Ustalacie granicę rozmowy."
+              ],
+              [
+                "Jaki znak dasz mi przy czwórce?",
+                "Umawiacie sygnał przed wybuchem."
+              ],
+              [
+                "Zgadnij, ile jest u mnie teraz.",
+                "Dziecko czyta też dorosłego."
+              ],
+              [
+                "Który stopień lubisz najbardziej?",
+                "Rozmowa o przyjemnych uczuciach."
+              ],
+              [
+                "Co robimy, gdy oboje mamy piątkę?",
+                "Plan na najtrudniejszy moment."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "nat-moja-skala",
+          "typ": "formularz",
+          "polecenie": "Zapisz, co pomaga na każdym stopniu.",
+          "dla_rodzica": "Rubryki są puste. Wypełnij je razem z dzieckiem, na spokojnie, przed wybuchem.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Stopień 1 — co pomaga",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Stopień 2 — co pomaga",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Stopień 3 — co pomaga",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Stopień 4 — co pomaga",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Stopień 5 — co pomaga",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Nasz umówiony znak",
+                "wysokosc_mm": 16,
+                "linie": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "instrukcja_zabaw": [
+    {
+      "nazwa": "Wybierz jedną",
+      "wiek": "4–9 lat",
+      "kroki": [
+        "Rozłóż osiem kart min obrazkiem do góry.",
+        "Powiedz: wybierz tę, która pasuje do ciebie teraz.",
+        "Czekaj w ciszy, licząc w myślach do dziesięciu.",
+        "Przeczytaj na głos opis z drugiej strony karty.",
+        "Podziękuj za wybór i odłóż kartę. Koniec."
+      ]
+    },
+    {
+      "nazwa": "Mina do sytuacji",
+      "wiek": "5–9 lat",
+      "kroki": [
+        "Rozłóż dwanaście kart min na stole.",
+        "Wyciągnij jedną kartę sytuacji i przeczytaj ją na głos.",
+        "Dziecko dokłada do niej minę, która pasuje.",
+        "Ty dokładasz swoją. Możecie mieć różne.",
+        "Powiedz jednym zdaniem, dlaczego wybierasz właśnie tę.",
+        "Zrób trzy sytuacje i odłóż talię."
+      ]
+    },
+    {
+      "nazwa": "Pokaż, nie mów",
+      "wiek": "4–9 lat",
+      "kroki": [
+        "Wylosuj kartę miny i nie pokazuj jej nikomu.",
+        "Zrób tę minę samą twarzą, bez słowa.",
+        "Reszta zgaduje, wskazując kartę ze stołu.",
+        "Kto zgadnie, losuje następną kartę.",
+        "Zagrajcie pięć rund i kończcie, zanim się znudzi."
+      ]
+    },
+    {
+      "nazwa": "Termometr",
+      "wiek": "5–9 lat",
+      "kroki": [
+        "Wybierz jedno uczucie i wyjmij jego trójkę kart.",
+        "Ułóż je od lewej: trochę, sporo, bardzo dużo.",
+        "Dziecko wskazuje palcem, ile jest teraz.",
+        "Ty też wskazujesz, ile jest u ciebie.",
+        "Wróćcie do tej samej trójki po godzinie."
+      ]
+    },
+    {
+      "nazwa": "Trzy karty wieczorem",
+      "wiek": "4–9 lat",
+      "kroki": [
+        "Po kolacji rozłóż całą talię min.",
+        "Dziecko wybiera kartę na rano, na południe i na wieczór.",
+        "Układa je obok siebie w kolejności dnia.",
+        "Opowiada o jednej z trzech, tej, którą samo wskaże.",
+        "Zbierzcie karty razem i odłóżcie do pudełka."
+      ]
+    },
+    {
+      "nazwa": "Memory min",
+      "wiek": "4–7 lat",
+      "kroki": [
+        "Wydrukuj arkusz z podpisami i ten sam bez podpisów.",
+        "Na pustych kartach narysujcie miny do tych samych numerów.",
+        "Potasuj obie połówki i rozłóż obrazkiem w dół.",
+        "Gracz odkrywa dwie karty i szuka pary.",
+        "Parę zabiera ten, kto nazwie minę na głos."
+      ]
+    },
+    {
+      "nazwa": "Opowiedz dalej",
+      "wiek": "6–9 lat",
+      "kroki": [
+        "Wyciągnij kartę sytuacji i przeczytaj ją na głos.",
+        "Dziecko wybiera minę i mówi jedno zdanie, co dalej.",
+        "Ty dokładasz drugie zdanie i drugą minę.",
+        "Kończcie historię na trzecim zdaniu dziecka.",
+        "Nie poprawiaj zakończenia, nawet dziwnego."
+      ]
+    },
+    {
+      "nazwa": "Ciche sortowanie",
+      "wiek": "5–9 lat",
+      "kroki": [
+        "Rozłóż dwadzieścia kart sytuacji na dywanie.",
+        "Dziecko dzieli je na kupki: łatwe, różnie, trudne.",
+        "Nie komentuj podziału i nie przekładaj kart.",
+        "Na koniec zapytaj o jedną kartę z kupki trudne.",
+        "Zrób to samo za miesiąc i porównajcie kupki."
+      ]
+    },
+    {
+      "nazwa": "Mina dla drugiego",
+      "wiek": "6–9 lat",
+      "kroki": [
+        "Wyciągnij kartę sytuacji z kupki koledzy.",
+        "Dziecko wybiera minę dla siebie w tej sytuacji.",
+        "Potem wybiera minę dla drugiej osoby z karty.",
+        "Połóżcie obie karty obok siebie i popatrzcie.",
+        "Zapytaj, co mogłoby pomóc tej drugiej osobie."
+      ]
+    },
+    {
+      "nazwa": "Runda przy stole",
+      "wiek": "4–9 lat",
+      "kroki": [
+        "Postaw pudełko z minami na środku stołu.",
+        "Każdy przy stole wyciąga jedną kartę, po kolei.",
+        "Mówi jedno zdanie: dziś czułem to, kiedy…",
+        "Nikt nie komentuje i nikt nie dopytuje.",
+        "Odkładacie karty do pudełka i jecie dalej."
+      ]
+    }
+  ],
+  "klucz_odpowiedzi": [],
+  "fragment": {
+    "do_strony": 18,
+    "obietnica_na_stronie": "Cała talia min: instrukcja, 45 kart z podpisami, te same karty bez podpisów, słownik min i karta pytań dla rodzica."
+  }
+}

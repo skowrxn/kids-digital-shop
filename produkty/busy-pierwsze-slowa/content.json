@@ -1,0 +1,4764 @@
+{
+  "meta": {
+    "slug": "busy-pierwsze-slowa",
+    "tytul": "Busy book: Pierwsze słowa",
+    "podtytul": "Segregator Montessori, 140 stron",
+    "archetyp": "SEGREGATOR",
+    "wersja": "1.0",
+    "wiek": "2–4 lata",
+    "kategoria": "busy",
+    "podkategoria": "maluch",
+    "strony_deklarowane": 140,
+    "min_pt_dziecka": 14
+  },
+  "wstep": {
+    "dla_kogo": "Dla dwulatka, który chce robić to samo co starsze rodzeństwo.",
+    "obietnica": "Segregator, który dwulatek otwiera sam i robi to samo, co starsze rodzeństwo przy stole.",
+    "warunek_wejscia": "Dziecko chwyta przedmioty palcami i utrzymuje uwagę przez kilka minut.",
+    "ile_czasu_dziennie": "Od pięciu do piętnastu minut, raz dziennie.",
+    "jak_korzystac": [
+      "Przygotuj jedną sekcję naraz. Pierwsza wystarczy na kilka tygodni.",
+      "Wydrukuj, zalaminuj, wytnij i naklej rzepy. Instrukcja jest na pierwszej stronie sekcji.",
+      "Wepnij planszę w koszulkę i włóż do segregatora z twardymi okładkami.",
+      "Na stole zostaw jedną planszę i jej elementy. Reszta czeka w segregatorze.",
+      "Nazywaj na głos to, co dziecko bierze do ręki. Nie poprawiaj wymowy.",
+      "Kończ zabawę, zanim dziecko się znudzi. Lepiej pięć minut niż dwadzieścia.",
+      "Elementy są małe. Zostań przy dziecku i chowaj woreczki po zabawie.",
+      "Do następnej sekcji przejdź wtedy, gdy poprzednia idzie dziecku łatwo."
+    ],
+    "czego_nie_robi": [
+      "Nie uczy czytania ani liczenia.",
+      "Nie jest gotowy od razu — wymaga wydrukowania, zalaminowania i naklejenia rzepów.",
+      "Nie nadaje się dla dziecka, które wkłada drobne elementy do ust."
+    ]
+  },
+  "sekcje": [
+    {
+      "temat": "Dopasowanie kolorów",
+      "poziom": 1,
+      "instrukcja_przygotowania": {
+        "id": "s1-instrukcja",
+        "typ": "lista_krokow",
+        "polecenie": "Przygotuj sekcję przed pierwszą zabawą.",
+        "dane": {
+          "kroki": [
+            "Wydrukuj wszystkie strony tej sekcji na grubym papierze.",
+            "Zamaluj kredkami pola i elementy zgodnie z podpisami.",
+            "Użyj tych samych kredek do pola i do elementu.",
+            "Zalaminuj arkusze albo oklej je szeroką taśmą klejącą.",
+            "Wytnij elementy po liniach cięcia i zaokrąglij rogi.",
+            "Naklej rzepy: miękki na planszy, twardy na elemencie.",
+            "Elementy są małe. Zostań przy dziecku przez całą zabawę.",
+            "Po zabawie schowaj elementy do woreczka poza zasięgiem dziecka.",
+            "Planszę wepnij w koszulkę i włóż do segregatora."
+          ]
+        },
+        "dla_rodzica": "Przygotowanie zajmuje około 40 minut. Zrób je bez dziecka przy stole."
+      },
+      "plansza_bazowa": {
+        "id": "s1-plansza",
+        "typ": "sortowanie",
+        "polecenie": "Połóż elementy na pasujących polach.",
+        "dane": {
+          "elementy": [
+            "żółte kółko",
+            "banan",
+            "czerwone kółko",
+            "truskawka",
+            "niebieskie kółko",
+            "kubek",
+            "zielone kółko",
+            "liść"
+          ],
+          "kategorie": [
+            {
+              "nazwa": "żółte pole",
+              "naleza": [
+                "żółte kółko",
+                "banan"
+              ]
+            },
+            {
+              "nazwa": "czerwone pole",
+              "naleza": [
+                "czerwone kółko",
+                "truskawka"
+              ]
+            },
+            {
+              "nazwa": "niebieskie pole",
+              "naleza": [
+                "niebieskie kółko",
+                "kubek"
+              ]
+            },
+            {
+              "nazwa": "zielone pole",
+              "naleza": [
+                "zielone kółko",
+                "liść"
+              ]
+            }
+          ]
+        },
+        "dla_rodzica": "Zacznij od dwóch pól. Trzecie i czwarte dołóż po kilku dniach."
+      },
+      "elementy_ruchome": {
+        "id": "s1-elementy",
+        "typ": "elementy_ruchome",
+        "polecenie": "Wytnij elementy do planszy kolorów.",
+        "dane": {
+          "elementy": [
+            {
+              "nazwa": "żółte kółko",
+              "ile": 2
+            },
+            {
+              "nazwa": "czerwone kółko",
+              "ile": 2
+            },
+            {
+              "nazwa": "niebieskie kółko",
+              "ile": 2
+            },
+            {
+              "nazwa": "zielone kółko",
+              "ile": 2
+            },
+            {
+              "nazwa": "banan",
+              "ile": 1
+            },
+            {
+              "nazwa": "truskawka",
+              "ile": 1
+            },
+            {
+              "nazwa": "kubek",
+              "ile": 1
+            },
+            {
+              "nazwa": "liść",
+              "ile": 1
+            }
+          ],
+          "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+        }
+      },
+      "dodatkowe": [
+        {
+          "id": "s1-d01",
+          "typ": "sortowanie",
+          "polecenie": "Podziel owoce na dwa pola.",
+          "dane": {
+            "elementy": [
+              "cytryna",
+              "gruszka",
+              "kukurydza",
+              "pomidor",
+              "wiśnia",
+              "papryka"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "żółte pole",
+                "naleza": [
+                  "cytryna",
+                  "gruszka",
+                  "kukurydza"
+                ]
+              },
+              {
+                "nazwa": "czerwone pole",
+                "naleza": [
+                  "pomidor",
+                  "wiśnia",
+                  "papryka"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s1-d02",
+          "typ": "sortowanie",
+          "polecenie": "Podziel elementy na trzy pola.",
+          "dane": {
+            "elementy": [
+              "ogórek",
+              "żabka",
+              "groszek",
+              "balon",
+              "skarpetka",
+              "wiaderko",
+              "kaczuszka",
+              "ser",
+              "słonecznik"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "zielone pole",
+                "naleza": [
+                  "ogórek",
+                  "żabka",
+                  "groszek"
+                ]
+              },
+              {
+                "nazwa": "niebieskie pole",
+                "naleza": [
+                  "balon",
+                  "skarpetka",
+                  "wiaderko"
+                ]
+              },
+              {
+                "nazwa": "żółte pole",
+                "naleza": [
+                  "kaczuszka",
+                  "ser",
+                  "słonecznik"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s1-d03",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz przedmiot z jego kolorem.",
+          "dane": {
+            "lewa": [
+              "banan",
+              "truskawka",
+              "liść",
+              "balon"
+            ],
+            "prawa": [
+              "zielone pole",
+              "niebieskie pole",
+              "żółte pole",
+              "czerwone pole"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s1-d04",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij dodatkowe kółka do zabawy.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "żółte kółko",
+                "ile": 4
+              },
+              {
+                "nazwa": "czerwone kółko",
+                "ile": 4
+              },
+              {
+                "nazwa": "niebieskie kółko",
+                "ile": 4
+              },
+              {
+                "nazwa": "zielone kółko",
+                "ile": 4
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+          },
+          "dla_rodzica": "Zapasowe kółka przydadzą się, gdy któreś zginie pod kanapą."
+        },
+        {
+          "id": "s1-d05",
+          "typ": "wybierz",
+          "polecenie": "Pokaż element w podanym kolorze.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz: pokaż żółty.",
+                "opcje": [
+                  "banan",
+                  "liść",
+                  "kubek"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: pokaż zielony.",
+                "opcje": [
+                  "truskawka",
+                  "ogórek",
+                  "balon"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: pokaż czerwony.",
+                "opcje": [
+                  "kubek",
+                  "liść",
+                  "pomidor"
+                ],
+                "poprawna": 2
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: pokaż niebieski.",
+                "opcje": [
+                  "wiaderko",
+                  "cytryna",
+                  "żabka"
+                ],
+                "poprawna": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "s1-d06",
+          "typ": "tabela",
+          "polecenie": "Poszukajcie tych kolorów w domu.",
+          "dane": {
+            "naglowki_kolumn": [
+              "kolor",
+              "w kuchni",
+              "w łazience"
+            ],
+            "wiersze": [
+              [
+                "żółty",
+                "banan",
+                "kaczuszka"
+              ],
+              [
+                "czerwony",
+                "pomidor",
+                "ręcznik"
+              ],
+              [
+                "niebieski",
+                "kubek",
+                "szczoteczka"
+              ],
+              [
+                "zielony",
+                "ogórek",
+                "mydło"
+              ]
+            ]
+          },
+          "dla_rodzica": "Nazywaj kolor głośno za każdym razem. Dziecko powtarza, kiedy chce."
+        }
+      ]
+    },
+    {
+      "temat": "Dopasowanie kształtów",
+      "poziom": 2,
+      "instrukcja_przygotowania": {
+        "id": "s2-instrukcja",
+        "typ": "lista_krokow",
+        "polecenie": "Przygotuj sekcję przed pierwszą zabawą.",
+        "dane": {
+          "kroki": [
+            "Wydrukuj wszystkie strony tej sekcji na grubym papierze.",
+            "Wytnij najpierw koła, kwadraty i trójkąty. Resztę zostaw na potem.",
+            "Małe i duże wersje kształtu trzymaj w osobnych woreczkach.",
+            "Zalaminuj arkusze albo oklej je szeroką taśmą klejącą.",
+            "Wytnij elementy po liniach cięcia i zaokrąglij rogi.",
+            "Naklej rzepy: miękki na planszy, twardy na elemencie.",
+            "Elementy są małe. Zostań przy dziecku przez całą zabawę.",
+            "Po zabawie schowaj elementy do woreczka poza zasięgiem dziecka.",
+            "Planszę wepnij w koszulkę i włóż do segregatora."
+          ]
+        },
+        "dla_rodzica": "Przygotowanie zajmuje około 40 minut. Zrób je bez dziecka przy stole."
+      },
+      "plansza_bazowa": {
+        "id": "s2-plansza",
+        "typ": "sortowanie",
+        "polecenie": "Połóż kształty na pasujących polach.",
+        "dane": {
+          "elementy": [
+            "koło duże",
+            "koło małe",
+            "kwadrat duży",
+            "kwadrat mały",
+            "trójkąt duży",
+            "trójkąt mały"
+          ],
+          "kategorie": [
+            {
+              "nazwa": "pole z kołem",
+              "naleza": [
+                "koło duże",
+                "koło małe"
+              ]
+            },
+            {
+              "nazwa": "pole z kwadratem",
+              "naleza": [
+                "kwadrat duży",
+                "kwadrat mały"
+              ]
+            },
+            {
+              "nazwa": "pole z trójkątem",
+              "naleza": [
+                "trójkąt duży",
+                "trójkąt mały"
+              ]
+            }
+          ]
+        }
+      },
+      "elementy_ruchome": {
+        "id": "s2-elementy",
+        "typ": "elementy_ruchome",
+        "polecenie": "Wytnij kształty do planszy.",
+        "dane": {
+          "elementy": [
+            {
+              "nazwa": "koło duże",
+              "ile": 2
+            },
+            {
+              "nazwa": "koło małe",
+              "ile": 2
+            },
+            {
+              "nazwa": "kwadrat duży",
+              "ile": 2
+            },
+            {
+              "nazwa": "kwadrat mały",
+              "ile": 2
+            },
+            {
+              "nazwa": "trójkąt duży",
+              "ile": 2
+            },
+            {
+              "nazwa": "trójkąt mały",
+              "ile": 2
+            }
+          ],
+          "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+        }
+      },
+      "dodatkowe": [
+        {
+          "id": "s2-d01",
+          "typ": "sortowanie",
+          "polecenie": "Podziel kształty na dwa pola.",
+          "dane": {
+            "elementy": [
+              "koło w kropki",
+              "koło gładkie",
+              "koło w paski",
+              "kwadrat w kropki",
+              "kwadrat gładki",
+              "kwadrat w paski"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole z kołem",
+                "naleza": [
+                  "koło w kropki",
+                  "koło gładkie",
+                  "koło w paski"
+                ]
+              },
+              {
+                "nazwa": "pole z kwadratem",
+                "naleza": [
+                  "kwadrat w kropki",
+                  "kwadrat gładki",
+                  "kwadrat w paski"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s2-d02",
+          "typ": "sortowanie",
+          "polecenie": "Podziel kształty na trzy pola.",
+          "dane": {
+            "elementy": [
+              "koło wąskie",
+              "koło szerokie",
+              "kwadrat wąski",
+              "kwadrat szeroki",
+              "trójkąt wąski",
+              "trójkąt szeroki"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole z kołem",
+                "naleza": [
+                  "koło wąskie",
+                  "koło szerokie"
+                ]
+              },
+              {
+                "nazwa": "pole z kwadratem",
+                "naleza": [
+                  "kwadrat wąski",
+                  "kwadrat szeroki"
+                ]
+              },
+              {
+                "nazwa": "pole z trójkątem",
+                "naleza": [
+                  "trójkąt wąski",
+                  "trójkąt szeroki"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s2-d03",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz kształt z przedmiotem.",
+          "dane": {
+            "lewa": [
+              "koło",
+              "kwadrat",
+              "trójkąt",
+              "prostokąt"
+            ],
+            "prawa": [
+              "dach",
+              "drzwi",
+              "talerz",
+              "okno"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s2-d04",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij kształty z rogami.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "kwadrat",
+                "ile": 4
+              },
+              {
+                "nazwa": "trójkąt",
+                "ile": 4
+              },
+              {
+                "nazwa": "prostokąt",
+                "ile": 4
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s2-d05",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij kształty bez rogów.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "koło",
+                "ile": 4
+              },
+              {
+                "nazwa": "owal",
+                "ile": 4
+              },
+              {
+                "nazwa": "półkole",
+                "ile": 4
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s2-d06",
+          "typ": "wybierz",
+          "polecenie": "Pokaż podany kształt.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz: pokaż koło.",
+                "opcje": [
+                  "koło",
+                  "kwadrat",
+                  "trójkąt"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: pokaż trójkąt.",
+                "opcje": [
+                  "kwadrat",
+                  "trójkąt",
+                  "koło"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: pokaż kwadrat.",
+                "opcje": [
+                  "trójkąt",
+                  "koło",
+                  "kwadrat"
+                ],
+                "poprawna": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "s2-d07",
+          "typ": "sortowanie",
+          "polecenie": "Podziel kształty na duże i małe.",
+          "dane": {
+            "elementy": [
+              "duże koło",
+              "duży kwadrat",
+              "duży trójkąt",
+              "małe koło",
+              "mały kwadrat",
+              "mały trójkąt"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole dużych",
+                "naleza": [
+                  "duże koło",
+                  "duży kwadrat",
+                  "duży trójkąt"
+                ]
+              },
+              {
+                "nazwa": "pole małych",
+                "naleza": [
+                  "małe koło",
+                  "mały kwadrat",
+                  "mały trójkąt"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s2-d08",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty kształtów bez podpisów.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "koło"
+              },
+              {
+                "awers": "kwadrat"
+              },
+              {
+                "awers": "trójkąt"
+              },
+              {
+                "awers": "prostokąt"
+              },
+              {
+                "awers": "owal"
+              },
+              {
+                "awers": "gwiazdka"
+              },
+              {
+                "awers": "serce"
+              },
+              {
+                "awers": "półkole"
+              },
+              {
+                "awers": "romb"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "s2-d10",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz duży kształt z małym.",
+          "dane": {
+            "lewa": [
+              "duże koło",
+              "duży kwadrat",
+              "duży trójkąt",
+              "duża gwiazdka"
+            ],
+            "prawa": [
+              "mały trójkąt",
+              "mała gwiazdka",
+              "małe koło",
+              "mały kwadrat"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s2-d11",
+          "typ": "sortowanie",
+          "polecenie": "Podziel kształty według rogów.",
+          "dane": {
+            "elementy": [
+              "kwadrat",
+              "trójkąt",
+              "prostokąt",
+              "romb",
+              "koło",
+              "owal",
+              "półkole",
+              "obwarzanek"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole z rogami",
+                "naleza": [
+                  "kwadrat",
+                  "trójkąt",
+                  "prostokąt",
+                  "romb"
+                ]
+              },
+              {
+                "nazwa": "pole bez rogów",
+                "naleza": [
+                  "koło",
+                  "owal",
+                  "półkole",
+                  "obwarzanek"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s2-d12",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij kształty do paska wzorów.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "koło",
+                "ile": 6
+              },
+              {
+                "nazwa": "kwadrat",
+                "ile": 6
+              },
+              {
+                "nazwa": "trójkąt",
+                "ile": 6
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej w każdym okienku paska, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s2-d13",
+          "typ": "sekwencja",
+          "polecenie": "Dołóż brakujący kształt do wzoru.",
+          "dane": {
+            "kroki": [
+              "koło",
+              "kwadrat",
+              "koło",
+              "kwadrat",
+              "koło",
+              ""
+            ],
+            "brakujace": [
+              "kwadrat"
+            ]
+          }
+        },
+        {
+          "id": "s2-d14",
+          "typ": "sekwencja",
+          "polecenie": "Dokończ wzór z trzech kształtów.",
+          "dane": {
+            "kroki": [
+              "koło",
+              "koło",
+              "trójkąt",
+              "koło",
+              "",
+              "trójkąt",
+              "koło",
+              "koło",
+              ""
+            ],
+            "brakujace": [
+              "koło",
+              "trójkąt"
+            ]
+          }
+        },
+        {
+          "id": "s2-d15",
+          "typ": "wybierz",
+          "polecenie": "Pokaż kształt, który tu nie pasuje.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "W rzędzie są dwa koła i jeden inny kształt.",
+                "opcje": [
+                  "koło duże",
+                  "kwadrat",
+                  "koło małe"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "W rzędzie są dwa kwadraty i jeden inny kształt.",
+                "opcje": [
+                  "kwadrat duży",
+                  "kwadrat mały",
+                  "trójkąt"
+                ],
+                "poprawna": 2
+              },
+              {
+                "podpowiedz_rodzica": "W rzędzie są dwa trójkąty i jeden inny kształt.",
+                "opcje": [
+                  "owal",
+                  "trójkąt duży",
+                  "trójkąt mały"
+                ],
+                "poprawna": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "s2-d16",
+          "typ": "tabela",
+          "polecenie": "Poszukajcie kształtów w mieszkaniu.",
+          "dane": {
+            "naglowki_kolumn": [
+              "kształt",
+              "gdzie szukać",
+              "co znajdziecie"
+            ],
+            "wiersze": [
+              [
+                "koło",
+                "kuchnia",
+                "talerz, pokrywka, zegar"
+              ],
+              [
+                "kwadrat",
+                "pokój",
+                "poduszka, okno, klocek"
+              ],
+              [
+                "trójkąt",
+                "kuchnia",
+                "kanapka przekrojona po skosie"
+              ],
+              [
+                "prostokąt",
+                "przedpokój",
+                "drzwi, wycieraczka, lustro"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s2-d17",
+          "typ": "lista_krokow",
+          "polecenie": "Zagrajcie w polowanie na kształty.",
+          "dane": {
+            "kroki": [
+              "Weź z segregatora jedną kartę kształtu.",
+              "Powiedz nazwę kształtu i pokaż kartę dziecku.",
+              "Chodźcie po mieszkaniu i szukajcie takiego samego kształtu.",
+              "Przy każdym znalezisku powiedz nazwę jeszcze raz.",
+              "Kończcie po trzech znaleziskach, zanim dziecku się znudzi."
+            ]
+          }
+        },
+        {
+          "id": "s2-d18",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Obrysuj kształty palcem, potem kredką.",
+          "dane": {
+            "wyrazy": [
+              "koło",
+              "kwadrat",
+              "trójkąt",
+              "prostokąt"
+            ],
+            "wysokosc_ramki_mm": 50
+          },
+          "dla_rodzica": "Najpierw palec po zalaminowanej planszy. Kredka dopiero za kilka dni."
+        }
+      ]
+    },
+    {
+      "temat": "Dopasowanie par",
+      "poziom": 3,
+      "instrukcja_przygotowania": {
+        "id": "s3-instrukcja",
+        "typ": "lista_krokow",
+        "polecenie": "Przygotuj sekcję przed pierwszą zabawą.",
+        "dane": {
+          "kroki": [
+            "Wydrukuj wszystkie strony tej sekcji na grubym papierze.",
+            "Wytnij elementy parami i od razu sprawdź, czy para jest pełna.",
+            "Każdą parę trzymaj razem do pierwszej zabawy.",
+            "Zalaminuj arkusze albo oklej je szeroką taśmą klejącą.",
+            "Wytnij elementy po liniach cięcia i zaokrąglij rogi.",
+            "Naklej rzepy: miękki na planszy, twardy na elemencie.",
+            "Elementy są małe. Zostań przy dziecku przez całą zabawę.",
+            "Po zabawie schowaj elementy do woreczka poza zasięgiem dziecka.",
+            "Planszę wepnij w koszulkę i włóż do segregatora."
+          ]
+        },
+        "dla_rodzica": "Przygotowanie zajmuje około 40 minut. Zrób je bez dziecka przy stole."
+      },
+      "plansza_bazowa": {
+        "id": "s3-plansza",
+        "typ": "lacz_pary",
+        "polecenie": "Połącz elementy, które chodzą parami.",
+        "dane": {
+          "lewa": [
+            "skarpetka w paski",
+            "rękawiczka w kropki",
+            "but z kokardką",
+            "kapeć w gwiazdki"
+          ],
+          "prawa": [
+            "druga rękawiczka w kropki",
+            "drugi but z kokardką",
+            "drugi kapeć w gwiazdki",
+            "druga skarpetka w paski"
+          ],
+          "pary": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ]
+        }
+      },
+      "elementy_ruchome": {
+        "id": "s3-elementy",
+        "typ": "elementy_ruchome",
+        "polecenie": "Wytnij elementy do planszy par.",
+        "dane": {
+          "elementy": [
+            {
+              "nazwa": "skarpetka w paski",
+              "ile": 2
+            },
+            {
+              "nazwa": "rękawiczka w kropki",
+              "ile": 2
+            },
+            {
+              "nazwa": "but z kokardką",
+              "ile": 2
+            },
+            {
+              "nazwa": "kapeć w gwiazdki",
+              "ile": 2
+            }
+          ],
+          "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+        }
+      },
+      "dodatkowe": [
+        {
+          "id": "s3-d01",
+          "typ": "lacz_pary",
+          "polecenie": "Dobierz skarpetki w pary.",
+          "dane": {
+            "lewa": [
+              "skarpetka w kropki",
+              "skarpetka w paski",
+              "skarpetka w gwiazdki",
+              "skarpetka w kwadraty"
+            ],
+            "prawa": [
+              "wzór w gwiazdki",
+              "wzór w kwadraty",
+              "wzór w kropki",
+              "wzór w paski"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s3-d02",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz przedmiot z jego cieniem.",
+          "dane": {
+            "lewa": [
+              "kot",
+              "kubek",
+              "łyżka",
+              "miś"
+            ],
+            "prawa": [
+              "cień łyżki",
+              "cień misia",
+              "cień kota",
+              "cień kubka"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s3-d03",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij cienie do dopasowania.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "cień kota",
+                "ile": 1
+              },
+              {
+                "nazwa": "cień kubka",
+                "ile": 1
+              },
+              {
+                "nazwa": "cień łyżki",
+                "ile": 1
+              },
+              {
+                "nazwa": "cień misia",
+                "ile": 1
+              },
+              {
+                "nazwa": "cień buta",
+                "ile": 1
+              },
+              {
+                "nazwa": "cień jabłka",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s3-d04",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz przedmioty, których używa się razem.",
+          "dane": {
+            "lewa": [
+              "łyżka",
+              "szczoteczka",
+              "klucz",
+              "skarpetka"
+            ],
+            "prawa": [
+              "kłódka",
+              "but",
+              "miska",
+              "pasta"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s3-d05",
+          "typ": "wybierz",
+          "polecenie": "Pokaż drugi taki sam element.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Trzymasz skarpetkę w paski.",
+                "opcje": [
+                  "skarpetka w kropki",
+                  "skarpetka w paski"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Trzymasz but z kokardką.",
+                "opcje": [
+                  "but z kokardką",
+                  "kapeć w gwiazdki"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Trzymasz rękawiczkę w kropki.",
+                "opcje": [
+                  "czapka",
+                  "rękawiczka w kropki"
+                ],
+                "poprawna": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "s3-d06",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz zwierzę z jego jedzeniem.",
+          "dane": {
+            "lewa": [
+              "królik",
+              "pies",
+              "kot",
+              "ptak"
+            ],
+            "prawa": [
+              "miska mleka",
+              "ziarno",
+              "marchewka",
+              "kość"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s3-d07",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij zwierzęta i ich jedzenie.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "królik",
+                "ile": 1
+              },
+              {
+                "nazwa": "pies",
+                "ile": 1
+              },
+              {
+                "nazwa": "kot",
+                "ile": 1
+              },
+              {
+                "nazwa": "ptak",
+                "ile": 1
+              },
+              {
+                "nazwa": "marchewka",
+                "ile": 1
+              },
+              {
+                "nazwa": "kość",
+                "ile": 1
+              },
+              {
+                "nazwa": "miska mleka",
+                "ile": 1
+              },
+              {
+                "nazwa": "ziarno",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s3-d08",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij pierwszą talię do memory.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "jabłko"
+              },
+              {
+                "awers": "jabłko (druga karta)"
+              },
+              {
+                "awers": "kot"
+              },
+              {
+                "awers": "kot (druga karta)"
+              },
+              {
+                "awers": "łyżka"
+              },
+              {
+                "awers": "łyżka (druga karta)"
+              },
+              {
+                "awers": "but"
+              },
+              {
+                "awers": "but (druga karta)"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          },
+          "dla_rodzica": "Zacznijcie od trzech par. Osiem par to na razie za dużo."
+        },
+        {
+          "id": "s3-d09",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij drugą talię do memory.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "piłka"
+              },
+              {
+                "awers": "piłka (druga karta)"
+              },
+              {
+                "awers": "kubek"
+              },
+              {
+                "awers": "kubek (druga karta)"
+              },
+              {
+                "awers": "miś"
+              },
+              {
+                "awers": "miś (druga karta)"
+              },
+              {
+                "awers": "banan"
+              },
+              {
+                "awers": "banan (druga karta)"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "s3-d10",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz zwierzę z jego domem.",
+          "dane": {
+            "lewa": [
+              "pies",
+              "ptak",
+              "ryba",
+              "koń"
+            ],
+            "prawa": [
+              "akwarium",
+              "stajnia",
+              "buda",
+              "gniazdo"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s3-d11",
+          "typ": "sortowanie",
+          "polecenie": "Podziel elementy na dwa koszyki.",
+          "dane": {
+            "elementy": [
+              "but sznurowany",
+              "kapeć",
+              "kalosz",
+              "sandał",
+              "rękawiczka wełniana",
+              "rękawiczka z jednym palcem",
+              "rękawiczka gumowa",
+              "rękawiczka skórzana"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "koszyk z butami",
+                "naleza": [
+                  "but sznurowany",
+                  "kapeć",
+                  "kalosz",
+                  "sandał"
+                ]
+              },
+              {
+                "nazwa": "koszyk z rękawiczkami",
+                "naleza": [
+                  "rękawiczka wełniana",
+                  "rękawiczka z jednym palcem",
+                  "rękawiczka gumowa",
+                  "rękawiczka skórzana"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s3-d12",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz część z całością.",
+          "dane": {
+            "lewa": [
+              "koło",
+              "komin",
+              "ogon",
+              "liść"
+            ],
+            "prawa": [
+              "kot",
+              "drzewo",
+              "samochód",
+              "dom"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s3-d13",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij części i całości.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "koło",
+                "ile": 1
+              },
+              {
+                "nazwa": "komin",
+                "ile": 1
+              },
+              {
+                "nazwa": "ogon",
+                "ile": 1
+              },
+              {
+                "nazwa": "liść",
+                "ile": 1
+              },
+              {
+                "nazwa": "samochód",
+                "ile": 1
+              },
+              {
+                "nazwa": "dom",
+                "ile": 1
+              },
+              {
+                "nazwa": "kot",
+                "ile": 1
+              },
+              {
+                "nazwa": "drzewo",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s3-d14",
+          "typ": "wybierz",
+          "polecenie": "Pokaż element pasujący do drugiego.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Masz łyżkę.",
+                "opcje": [
+                  "miska",
+                  "czapka",
+                  "klocek"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Masz klucz.",
+                "opcje": [
+                  "banan",
+                  "kłódka",
+                  "poduszka"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Masz szczoteczkę.",
+                "opcje": [
+                  "kredka",
+                  "widelec",
+                  "pasta"
+                ],
+                "poprawna": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "s3-d15",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz duży przedmiot z małym.",
+          "dane": {
+            "lewa": [
+              "duży kubek",
+              "duży but",
+              "duży miś",
+              "duża piłka"
+            ],
+            "prawa": [
+              "mały miś",
+              "mała piłka",
+              "mały kubek",
+              "mały but"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s3-d16",
+          "typ": "sekwencja",
+          "polecenie": "Dołóż brakujący element do rytmu.",
+          "dane": {
+            "kroki": [
+              "skarpetka",
+              "but",
+              "skarpetka",
+              "but",
+              "skarpetka",
+              ""
+            ],
+            "brakujace": [
+              "but"
+            ]
+          }
+        },
+        {
+          "id": "s3-d17",
+          "typ": "tabela",
+          "polecenie": "Znajdźcie te pary w domu.",
+          "dane": {
+            "naglowki_kolumn": [
+              "gdzie",
+              "pierwsza para",
+              "druga para"
+            ],
+            "wiersze": [
+              [
+                "szafa",
+                "dwie skarpetki",
+                "dwa buty"
+              ],
+              [
+                "kuchnia",
+                "dwa takie same kubki",
+                "dwie łyżeczki"
+              ],
+              [
+                "przedpokój",
+                "dwie rękawiczki",
+                "dwa kapcie"
+              ],
+              [
+                "łazienka",
+                "dwa ręczniki",
+                "dwie szczoteczki"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s3-d18",
+          "typ": "lista_krokow",
+          "polecenie": "Parujcie skarpetki przy praniu.",
+          "dane": {
+            "kroki": [
+              "Wysyp czyste skarpetki na dywan.",
+              "Wybierz jedną i połóż przed dzieckiem.",
+              "Poproś: znajdź drugą taką samą.",
+              "Przy każdej parze powiedz, co je łączy.",
+              "Zakończ po pięciu parach, resztę złóż sam."
+            ]
+          }
+        },
+        {
+          "id": "s3-d19",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij zapasowe skarpetki i buty.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "skarpetka w paski",
+                "ile": 2
+              },
+              {
+                "nazwa": "skarpetka w kropki",
+                "ile": 2
+              },
+              {
+                "nazwa": "but z kokardką",
+                "ile": 2
+              },
+              {
+                "nazwa": "kalosz",
+                "ile": 2
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s3-d20",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Dorysuj drugi element do pary.",
+          "dane": {
+            "wyrazy": [
+              "skarpetka",
+              "rękawiczka",
+              "but",
+              "kubek"
+            ],
+            "wysokosc_ramki_mm": 55
+          }
+        },
+        {
+          "id": "s3-d21",
+          "typ": "formularz",
+          "polecenie": "Zapisz, co dziecko dopasowuje samo.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Pary, które dziecko układa bez pomocy",
+                "wysokosc_mm": 20,
+                "linie": 3
+              },
+              {
+                "etykieta": "Pary, przy których potrzebuje podpowiedzi",
+                "wysokosc_mm": 20,
+                "linie": 3
+              },
+              {
+                "etykieta": "Data pierwszej samodzielnej pary",
+                "wysokosc_mm": 12,
+                "linie": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Rubryki zostają puste do wydruku. Wypełniasz je u siebie w domu."
+        }
+      ]
+    },
+    {
+      "temat": "Dopasowanie kategorii",
+      "poziom": 4,
+      "instrukcja_przygotowania": {
+        "id": "s4-instrukcja",
+        "typ": "lista_krokow",
+        "polecenie": "Przygotuj sekcję przed pierwszą zabawą.",
+        "dane": {
+          "kroki": [
+            "Wydrukuj wszystkie strony tej sekcji na grubym papierze.",
+            "Wytnij koszyki i przyklej je na planszy jako kieszonki.",
+            "Zacznij od dwóch koszyków. Trzeci dołóż po tygodniu.",
+            "Zalaminuj arkusze albo oklej je szeroką taśmą klejącą.",
+            "Wytnij elementy po liniach cięcia i zaokrąglij rogi.",
+            "Naklej rzepy: miękki na planszy, twardy na elemencie.",
+            "Elementy są małe. Zostań przy dziecku przez całą zabawę.",
+            "Po zabawie schowaj elementy do woreczka poza zasięgiem dziecka.",
+            "Planszę wepnij w koszulkę i włóż do segregatora."
+          ]
+        },
+        "dla_rodzica": "Przygotowanie zajmuje około 40 minut. Zrób je bez dziecka przy stole."
+      },
+      "plansza_bazowa": {
+        "id": "s4-plansza",
+        "typ": "sortowanie",
+        "polecenie": "Włóż elementy do pasujących koszyków.",
+        "dane": {
+          "elementy": [
+            "jabłko",
+            "chleb",
+            "ser",
+            "mleko",
+            "czapka",
+            "buty",
+            "kurtka",
+            "skarpetki"
+          ],
+          "kategorie": [
+            {
+              "nazwa": "koszyk z jedzeniem",
+              "naleza": [
+                "jabłko",
+                "chleb",
+                "ser",
+                "mleko"
+              ]
+            },
+            {
+              "nazwa": "koszyk z ubraniami",
+              "naleza": [
+                "czapka",
+                "buty",
+                "kurtka",
+                "skarpetki"
+              ]
+            }
+          ]
+        },
+        "dla_rodzica": "Nazywaj każdy element na głos, zanim dziecko go włoży."
+      },
+      "elementy_ruchome": {
+        "id": "s4-elementy",
+        "typ": "elementy_ruchome",
+        "polecenie": "Wytnij elementy do koszyków.",
+        "dane": {
+          "elementy": [
+            {
+              "nazwa": "jabłko",
+              "ile": 1
+            },
+            {
+              "nazwa": "chleb",
+              "ile": 1
+            },
+            {
+              "nazwa": "ser",
+              "ile": 1
+            },
+            {
+              "nazwa": "mleko",
+              "ile": 1
+            },
+            {
+              "nazwa": "czapka",
+              "ile": 1
+            },
+            {
+              "nazwa": "buty",
+              "ile": 1
+            },
+            {
+              "nazwa": "kurtka",
+              "ile": 1
+            },
+            {
+              "nazwa": "skarpetki",
+              "ile": 1
+            }
+          ],
+          "rzep": "Miękką część rzepu naklej pod każdym koszykiem, twardą na spodzie elementu."
+        }
+      },
+      "dodatkowe": [
+        {
+          "id": "s4-d01",
+          "typ": "sortowanie",
+          "polecenie": "Podziel elementy na dwa koszyki.",
+          "dane": {
+            "elementy": [
+              "pies",
+              "kot",
+              "krowa",
+              "kaczka",
+              "samochód",
+              "autobus",
+              "rower",
+              "łódka"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "koszyk ze zwierzętami",
+                "naleza": [
+                  "pies",
+                  "kot",
+                  "krowa",
+                  "kaczka"
+                ]
+              },
+              {
+                "nazwa": "koszyk z pojazdami",
+                "naleza": [
+                  "samochód",
+                  "autobus",
+                  "rower",
+                  "łódka"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s4-d02",
+          "typ": "sortowanie",
+          "polecenie": "Podziel jedzenie na dwa koszyki.",
+          "dane": {
+            "elementy": [
+              "gruszka",
+              "śliwka",
+              "winogrono",
+              "brzoskwinia",
+              "marchewka",
+              "ziemniak",
+              "burak",
+              "fasolka"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "koszyk z owocami",
+                "naleza": [
+                  "gruszka",
+                  "śliwka",
+                  "winogrono",
+                  "brzoskwinia"
+                ]
+              },
+              {
+                "nazwa": "koszyk z warzywami",
+                "naleza": [
+                  "marchewka",
+                  "ziemniak",
+                  "burak",
+                  "fasolka"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s4-d03",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij owoce i warzywa.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "gruszka",
+                "ile": 1
+              },
+              {
+                "nazwa": "śliwka",
+                "ile": 1
+              },
+              {
+                "nazwa": "winogrono",
+                "ile": 1
+              },
+              {
+                "nazwa": "brzoskwinia",
+                "ile": 1
+              },
+              {
+                "nazwa": "marchewka",
+                "ile": 1
+              },
+              {
+                "nazwa": "ziemniak",
+                "ile": 1
+              },
+              {
+                "nazwa": "burak",
+                "ile": 1
+              },
+              {
+                "nazwa": "fasolka",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej pod każdym koszykiem, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s4-d04",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij zwierzęta i pojazdy.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "pies",
+                "ile": 1
+              },
+              {
+                "nazwa": "kot",
+                "ile": 1
+              },
+              {
+                "nazwa": "krowa",
+                "ile": 1
+              },
+              {
+                "nazwa": "kaczka",
+                "ile": 1
+              },
+              {
+                "nazwa": "samochód",
+                "ile": 1
+              },
+              {
+                "nazwa": "autobus",
+                "ile": 1
+              },
+              {
+                "nazwa": "rower",
+                "ile": 1
+              },
+              {
+                "nazwa": "łódka",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej pod każdym koszykiem, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s4-d05",
+          "typ": "lacz_pary",
+          "polecenie": "Włóż element do właściwego koszyka.",
+          "dane": {
+            "lewa": [
+              "banan",
+              "szalik",
+              "miś",
+              "talerz"
+            ],
+            "prawa": [
+              "koszyk z zabawkami",
+              "koszyk z naczyniami",
+              "koszyk z jedzeniem",
+              "koszyk z ubraniami"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s4-d06",
+          "typ": "wybierz",
+          "polecenie": "Pokaż element, który tu nie pasuje.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Same owoce i jeden inny.",
+                "opcje": [
+                  "jabłko",
+                  "gruszka",
+                  "but"
+                ],
+                "poprawna": 2
+              },
+              {
+                "podpowiedz_rodzica": "Same zwierzęta i jeden inny.",
+                "opcje": [
+                  "pies",
+                  "rower",
+                  "kot"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Same ubrania i jeden inny.",
+                "opcje": [
+                  "banan",
+                  "czapka",
+                  "kurtka"
+                ],
+                "poprawna": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "s4-d07",
+          "typ": "sortowanie",
+          "polecenie": "Podziel elementy na dwa koszyki.",
+          "dane": {
+            "elementy": [
+              "kubek",
+              "poduszka",
+              "lampa",
+              "łyżka",
+              "huśtawka",
+              "wiaderko",
+              "piaskownica",
+              "rowerek"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "koszyk rzeczy z domu",
+                "naleza": [
+                  "kubek",
+                  "poduszka",
+                  "lampa",
+                  "łyżka"
+                ]
+              },
+              {
+                "nazwa": "koszyk rzeczy z podwórka",
+                "naleza": [
+                  "huśtawka",
+                  "wiaderko",
+                  "piaskownica",
+                  "rowerek"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s4-d08",
+          "typ": "sortowanie",
+          "polecenie": "Podziel zwierzęta na dwa koszyki.",
+          "dane": {
+            "elementy": [
+              "pies",
+              "kot",
+              "chomik",
+              "rybka",
+              "sarna",
+              "lis",
+              "wiewiórka",
+              "jeż"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "koszyk zwierząt z domu",
+                "naleza": [
+                  "pies",
+                  "kot",
+                  "chomik",
+                  "rybka"
+                ]
+              },
+              {
+                "nazwa": "koszyk zwierząt z lasu",
+                "naleza": [
+                  "sarna",
+                  "lis",
+                  "wiewiórka",
+                  "jeż"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s4-d09",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty do sortowania bez podpisów.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "jabłko"
+              },
+              {
+                "awers": "marchewka"
+              },
+              {
+                "awers": "pies"
+              },
+              {
+                "awers": "samochód"
+              },
+              {
+                "awers": "czapka"
+              },
+              {
+                "awers": "kubek"
+              },
+              {
+                "awers": "miś"
+              },
+              {
+                "awers": "łyżka"
+              },
+              {
+                "awers": "rower"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "s4-d11",
+          "typ": "sortowanie",
+          "polecenie": "Podziel przedmioty na dwa koszyki.",
+          "dane": {
+            "elementy": [
+              "garnek",
+              "widelec",
+              "czajnik",
+              "deska",
+              "mydło",
+              "ręcznik",
+              "gąbka",
+              "grzebień"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "koszyk z kuchni",
+                "naleza": [
+                  "garnek",
+                  "widelec",
+                  "czajnik",
+                  "deska"
+                ]
+              },
+              {
+                "nazwa": "koszyk z łazienki",
+                "naleza": [
+                  "mydło",
+                  "ręcznik",
+                  "gąbka",
+                  "grzebień"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s4-d12",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij przedmioty z kuchni i łazienki.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "garnek",
+                "ile": 1
+              },
+              {
+                "nazwa": "widelec",
+                "ile": 1
+              },
+              {
+                "nazwa": "czajnik",
+                "ile": 1
+              },
+              {
+                "nazwa": "deska",
+                "ile": 1
+              },
+              {
+                "nazwa": "mydło",
+                "ile": 1
+              },
+              {
+                "nazwa": "ręcznik",
+                "ile": 1
+              },
+              {
+                "nazwa": "gąbka",
+                "ile": 1
+              },
+              {
+                "nazwa": "grzebień",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej pod każdym koszykiem, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s4-d13",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz zwierzę z miejscem, gdzie mieszka.",
+          "dane": {
+            "lewa": [
+              "krowa",
+              "kura",
+              "wiewiórka",
+              "rybka"
+            ],
+            "prawa": [
+              "las",
+              "woda",
+              "obora",
+              "kurnik"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s4-d14",
+          "typ": "sortowanie",
+          "polecenie": "Podziel zwierzęta na duże i małe.",
+          "dane": {
+            "elementy": [
+              "koń",
+              "krowa",
+              "słoń",
+              "żyrafa",
+              "mysz",
+              "biedronka",
+              "ślimak",
+              "motyl"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "koszyk dużych",
+                "naleza": [
+                  "koń",
+                  "krowa",
+                  "słoń",
+                  "żyrafa"
+                ]
+              },
+              {
+                "nazwa": "koszyk małych",
+                "naleza": [
+                  "mysz",
+                  "biedronka",
+                  "ślimak",
+                  "motyl"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s4-d15",
+          "typ": "wybierz",
+          "polecenie": "Pokaż element, który tu nie pasuje.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Same pojazdy i jeden inny.",
+                "opcje": [
+                  "autobus",
+                  "ser",
+                  "rower"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Same naczynia i jeden inny.",
+                "opcje": [
+                  "talerz",
+                  "kubek",
+                  "szalik"
+                ],
+                "poprawna": 2
+              },
+              {
+                "podpowiedz_rodzica": "Same zabawki i jedna inna.",
+                "opcje": [
+                  "marchewka",
+                  "miś",
+                  "piłka"
+                ],
+                "poprawna": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "s4-d16",
+          "typ": "tabela",
+          "polecenie": "Posortujcie prawdziwe rzeczy w domu.",
+          "dane": {
+            "naglowki_kolumn": [
+              "koszyk",
+              "co wkładacie",
+              "gdzie to leży"
+            ],
+            "wiersze": [
+              [
+                "jedzenie",
+                "jabłko, chleb, ser",
+                "kuchnia"
+              ],
+              [
+                "ubrania",
+                "czapka, skarpetki, szalik",
+                "przedpokój"
+              ],
+              [
+                "zabawki",
+                "miś, piłka, klocek",
+                "pokój"
+              ],
+              [
+                "naczynia",
+                "kubek, łyżka, talerz",
+                "zlew"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s4-d17",
+          "typ": "sortowanie",
+          "polecenie": "Podziel elementy na dwa koszyki.",
+          "dane": {
+            "elementy": [
+              "klocek",
+              "piłka",
+              "lalka",
+              "samochodzik",
+              "talerz",
+              "kubek",
+              "łyżeczka",
+              "dzbanek"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "koszyk z zabawkami",
+                "naleza": [
+                  "klocek",
+                  "piłka",
+                  "lalka",
+                  "samochodzik"
+                ]
+              },
+              {
+                "nazwa": "koszyk z naczyniami",
+                "naleza": [
+                  "talerz",
+                  "kubek",
+                  "łyżeczka",
+                  "dzbanek"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s4-d18",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij zabawki i naczynia.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "klocek",
+                "ile": 1
+              },
+              {
+                "nazwa": "piłka",
+                "ile": 1
+              },
+              {
+                "nazwa": "lalka",
+                "ile": 1
+              },
+              {
+                "nazwa": "samochodzik",
+                "ile": 1
+              },
+              {
+                "nazwa": "talerz",
+                "ile": 1
+              },
+              {
+                "nazwa": "kubek",
+                "ile": 1
+              },
+              {
+                "nazwa": "łyżeczka",
+                "ile": 1
+              },
+              {
+                "nazwa": "dzbanek",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej pod każdym koszykiem, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s4-d19",
+          "typ": "sortowanie",
+          "polecenie": "Podziel pojazdy na trzy koszyki.",
+          "dane": {
+            "elementy": [
+              "samochód",
+              "autobus",
+              "traktor",
+              "samolot",
+              "balon",
+              "helikopter",
+              "łódka",
+              "statek",
+              "ponton"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "koszyk: jeździ",
+                "naleza": [
+                  "samochód",
+                  "autobus",
+                  "traktor"
+                ]
+              },
+              {
+                "nazwa": "koszyk: lata",
+                "naleza": [
+                  "samolot",
+                  "balon",
+                  "helikopter"
+                ]
+              },
+              {
+                "nazwa": "koszyk: pływa",
+                "naleza": [
+                  "łódka",
+                  "statek",
+                  "ponton"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s4-d20",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij pojazdy do trzech koszyków.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "samochód",
+                "ile": 1
+              },
+              {
+                "nazwa": "autobus",
+                "ile": 1
+              },
+              {
+                "nazwa": "traktor",
+                "ile": 1
+              },
+              {
+                "nazwa": "samolot",
+                "ile": 1
+              },
+              {
+                "nazwa": "balon",
+                "ile": 1
+              },
+              {
+                "nazwa": "helikopter",
+                "ile": 1
+              },
+              {
+                "nazwa": "łódka",
+                "ile": 1
+              },
+              {
+                "nazwa": "statek",
+                "ile": 1
+              },
+              {
+                "nazwa": "ponton",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej pod każdym koszykiem, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s4-d21",
+          "typ": "lista_krokow",
+          "polecenie": "Posortujcie zakupy po powrocie ze sklepu.",
+          "dane": {
+            "kroki": [
+              "Postaw na podłodze dwa pudełka albo dwie miski.",
+              "Do jednego wkładacie owoce, do drugiego resztę.",
+              "Podawaj dziecku po jednej rzeczy i nazywaj ją.",
+              "Pozwól włożyć ją tam, gdzie chce.",
+              "Jeśli trafi źle, nazwij rzecz jeszcze raz i podaj ponownie."
+            ]
+          }
+        },
+        {
+          "id": "s4-d22",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj, co włożysz do koszyka.",
+          "dane": {
+            "wyrazy": [
+              "jedzenie",
+              "ubrania",
+              "zabawki",
+              "naczynia"
+            ],
+            "wysokosc_ramki_mm": 55
+          }
+        },
+        {
+          "id": "s4-d23",
+          "typ": "tabela",
+          "polecenie": "Słowa do nazywania przy sortowaniu.",
+          "dane": {
+            "naglowki_kolumn": [
+              "koszyk",
+              "słowa"
+            ],
+            "wiersze": [
+              [
+                "jedzenie",
+                "jabłko, chleb, ser, mleko, banan, zupa"
+              ],
+              [
+                "ubrania",
+                "czapka, buty, kurtka, skarpetki, szalik, spodnie"
+              ],
+              [
+                "zwierzęta",
+                "pies, kot, krowa, kaczka, koń, mysz"
+              ],
+              [
+                "pojazdy",
+                "samochód, autobus, rower, łódka, samolot, traktor"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s4-d24",
+          "typ": "formularz",
+          "polecenie": "Zapisz koszyki, które dziecko już rozumie.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Koszyki sortowane bez pomocy",
+                "wysokosc_mm": 20,
+                "linie": 3
+              },
+              {
+                "etykieta": "Koszyki, przy których pomagasz",
+                "wysokosc_mm": 20,
+                "linie": 3
+              },
+              {
+                "etykieta": "Nowe słowo z tej sekcji",
+                "wysokosc_mm": 14,
+                "linie": 2
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "temat": "Układanie sekwencji",
+      "poziom": 5,
+      "instrukcja_przygotowania": {
+        "id": "s5-instrukcja",
+        "typ": "lista_krokow",
+        "polecenie": "Przygotuj sekcję przed pierwszą zabawą.",
+        "dane": {
+          "kroki": [
+            "Wydrukuj wszystkie strony tej sekcji na grubym papierze.",
+            "Wytnij pasek z okienkami i przyklej go na planszy.",
+            "Obrazki jednej historyjki trzymaj w jednym woreczku.",
+            "Zalaminuj arkusze albo oklej je szeroką taśmą klejącą.",
+            "Wytnij elementy po liniach cięcia i zaokrąglij rogi.",
+            "Naklej rzepy: miękki na planszy, twardy na elemencie.",
+            "Elementy są małe. Zostań przy dziecku przez całą zabawę.",
+            "Po zabawie schowaj elementy do woreczka poza zasięgiem dziecka.",
+            "Planszę wepnij w koszulkę i włóż do segregatora."
+          ]
+        },
+        "dla_rodzica": "Przygotowanie zajmuje około 40 minut. Zrób je bez dziecka przy stole."
+      },
+      "plansza_bazowa": {
+        "id": "s5-plansza",
+        "typ": "sekwencja",
+        "polecenie": "Ułóż obrazki po kolei na pasku.",
+        "dane": {
+          "kroki": [
+            "odkręcasz wodę",
+            "",
+            "spłukujesz ręce",
+            ""
+          ],
+          "brakujace": [
+            "namydlasz ręce",
+            "wycierasz ręce"
+          ]
+        },
+        "dla_rodzica": "Rób to przy prawdziwym myciu rąk. Pasek jest tylko przypomnieniem."
+      },
+      "elementy_ruchome": {
+        "id": "s5-elementy",
+        "typ": "elementy_ruchome",
+        "polecenie": "Wytnij obrazki do paska sekwencji.",
+        "dane": {
+          "elementy": [
+            {
+              "nazwa": "odkręcasz wodę",
+              "ile": 1
+            },
+            {
+              "nazwa": "namydlasz ręce",
+              "ile": 1
+            },
+            {
+              "nazwa": "spłukujesz ręce",
+              "ile": 1
+            },
+            {
+              "nazwa": "wycierasz ręce",
+              "ile": 1
+            }
+          ],
+          "rzep": "Miękką część rzepu naklej w każdym okienku paska, twardą na spodzie elementu."
+        }
+      },
+      "dodatkowe": [
+        {
+          "id": "s5-d01",
+          "typ": "sekwencja",
+          "polecenie": "Ułóż mycie zębów po kolei.",
+          "dane": {
+            "kroki": [
+              "wyciskasz pastę",
+              "",
+              "płuczesz usta",
+              ""
+            ],
+            "brakujace": [
+              "myjesz zęby",
+              "odkładasz szczoteczkę"
+            ]
+          }
+        },
+        {
+          "id": "s5-d02",
+          "typ": "sekwencja",
+          "polecenie": "Ułóż ubieranie się na dwór.",
+          "dane": {
+            "kroki": [
+              "",
+              "wkładasz buty",
+              "",
+              "zakładasz czapkę"
+            ],
+            "brakujace": [
+              "wkładasz spodnie",
+              "zapinasz kurtkę"
+            ]
+          }
+        },
+        {
+          "id": "s5-d03",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij obrazki do rutyn porannych.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "wyciskasz pastę",
+                "ile": 1
+              },
+              {
+                "nazwa": "myjesz zęby",
+                "ile": 1
+              },
+              {
+                "nazwa": "płuczesz usta",
+                "ile": 1
+              },
+              {
+                "nazwa": "odkładasz szczoteczkę",
+                "ile": 1
+              },
+              {
+                "nazwa": "wkładasz spodnie",
+                "ile": 1
+              },
+              {
+                "nazwa": "wkładasz buty",
+                "ile": 1
+              },
+              {
+                "nazwa": "zapinasz kurtkę",
+                "ile": 1
+              },
+              {
+                "nazwa": "zakładasz czapkę",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej w każdym okienku paska, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s5-d04",
+          "typ": "sekwencja",
+          "polecenie": "Ułóż robienie kanapki po kolei.",
+          "dane": {
+            "kroki": [
+              "kroisz chleb",
+              "",
+              "kładziesz ser",
+              ""
+            ],
+            "brakujace": [
+              "smarujesz masłem",
+              "jesz kanapkę"
+            ]
+          }
+        },
+        {
+          "id": "s5-d05",
+          "typ": "sekwencja",
+          "polecenie": "Ułóż sadzenie fasoli po kolei.",
+          "dane": {
+            "kroki": [
+              "",
+              "wkładasz nasionko",
+              "podlewasz ziemię",
+              ""
+            ],
+            "brakujace": [
+              "nasypujesz ziemi",
+              "rośnie kiełek"
+            ]
+          }
+        },
+        {
+          "id": "s5-d06",
+          "typ": "wybierz",
+          "polecenie": "Pokaż, co było pierwsze.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Mycie rąk.",
+                "opcje": [
+                  "odkręcasz wodę",
+                  "wycierasz ręce"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Ubieranie się.",
+                "opcje": [
+                  "zakładasz czapkę",
+                  "wkładasz spodnie"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Jedzenie kanapki.",
+                "opcje": [
+                  "kroisz chleb",
+                  "jesz kanapkę"
+                ],
+                "poprawna": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "s5-d07",
+          "typ": "sekwencja",
+          "polecenie": "Ułóż dzień po kolei.",
+          "dane": {
+            "kroki": [
+              "rano",
+              "",
+              "wieczór"
+            ],
+            "brakujace": [
+              "południe"
+            ]
+          }
+        },
+        {
+          "id": "s5-d08",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz początek z końcem.",
+          "dane": {
+            "lewa": [
+              "nasionko",
+              "jajko",
+              "ciasto",
+              "szczeniak"
+            ],
+            "prawa": [
+              "chleb",
+              "pies",
+              "roślina",
+              "kurczak"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s5-d09",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij obrazki początków i końców.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "nasionko",
+                "ile": 1
+              },
+              {
+                "nazwa": "roślina",
+                "ile": 1
+              },
+              {
+                "nazwa": "jajko",
+                "ile": 1
+              },
+              {
+                "nazwa": "kurczak",
+                "ile": 1
+              },
+              {
+                "nazwa": "ciasto",
+                "ile": 1
+              },
+              {
+                "nazwa": "chleb",
+                "ile": 1
+              },
+              {
+                "nazwa": "szczeniak",
+                "ile": 1
+              },
+              {
+                "nazwa": "pies",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej w każdym okienku paska, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s5-d10",
+          "typ": "sekwencja",
+          "polecenie": "Dokończ wzór na pasku.",
+          "dane": {
+            "kroki": [
+              "kółko",
+              "kwadrat",
+              "kółko",
+              "kwadrat",
+              "",
+              ""
+            ],
+            "brakujace": [
+              "kółko",
+              "kwadrat"
+            ]
+          }
+        },
+        {
+          "id": "s5-d11",
+          "typ": "sekwencja",
+          "polecenie": "Ułóż paski od najkrótszego.",
+          "dane": {
+            "kroki": [
+              "pasek najkrótszy",
+              "",
+              "pasek dłuższy",
+              ""
+            ],
+            "brakujace": [
+              "pasek krótki",
+              "pasek najdłuższy"
+            ]
+          }
+        },
+        {
+          "id": "s5-d12",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij paski czterech długości.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "pasek najkrótszy",
+                "ile": 1
+              },
+              {
+                "nazwa": "pasek krótki",
+                "ile": 1
+              },
+              {
+                "nazwa": "pasek dłuższy",
+                "ile": 1
+              },
+              {
+                "nazwa": "pasek najdłuższy",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej w każdym okienku paska, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s5-d13",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty rutyn bez podpisów.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "budzisz się"
+              },
+              {
+                "awers": "myjesz ręce"
+              },
+              {
+                "awers": "jesz śniadanie"
+              },
+              {
+                "awers": "ubierasz się"
+              },
+              {
+                "awers": "idziesz na spacer"
+              },
+              {
+                "awers": "jesz obiad"
+              },
+              {
+                "awers": "kąpiesz się"
+              },
+              {
+                "awers": "idziesz spać"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "s5-d15",
+          "typ": "sekwencja",
+          "polecenie": "Ułóż kąpiel po kolei.",
+          "dane": {
+            "kroki": [
+              "napuszczasz wodę",
+              "",
+              "wychodzisz z wanny",
+              ""
+            ],
+            "brakujace": [
+              "myjesz się gąbką",
+              "wycierasz się ręcznikiem"
+            ]
+          }
+        },
+        {
+          "id": "s5-d16",
+          "typ": "sekwencja",
+          "polecenie": "Ułóż wieczór po kolei.",
+          "dane": {
+            "kroki": [
+              "",
+              "wkładasz piżamę",
+              "słuchasz bajki",
+              ""
+            ],
+            "brakujace": [
+              "myjesz zęby",
+              "gasisz światło"
+            ]
+          }
+        },
+        {
+          "id": "s5-d17",
+          "typ": "sortowanie",
+          "polecenie": "Podziel obrazki na rano i wieczór.",
+          "dane": {
+            "elementy": [
+              "budzisz się",
+              "jesz śniadanie",
+              "ubierasz się",
+              "wkładasz piżamę",
+              "słuchasz bajki",
+              "gasisz światło"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole: rano",
+                "naleza": [
+                  "budzisz się",
+                  "jesz śniadanie",
+                  "ubierasz się"
+                ]
+              },
+              {
+                "nazwa": "pole: wieczór",
+                "naleza": [
+                  "wkładasz piżamę",
+                  "słuchasz bajki",
+                  "gasisz światło"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s5-d18",
+          "typ": "wybierz",
+          "polecenie": "Pokaż, co będzie dalej.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Namydliłeś ręce.",
+                "opcje": [
+                  "spłukujesz ręce",
+                  "odkręcasz wodę"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Włożyłeś spodnie.",
+                "opcje": [
+                  "zdejmujesz piżamę",
+                  "wkładasz buty"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Zjadłeś obiad.",
+                "opcje": [
+                  "myjesz ręce po jedzeniu",
+                  "kroisz chleb"
+                ],
+                "poprawna": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "s5-d19",
+          "typ": "sekwencja",
+          "polecenie": "Ułóż sprzątanie zabawek po kolei.",
+          "dane": {
+            "kroki": [
+              "wyjmujesz pudełko",
+              "",
+              "zamykasz pudełko",
+              ""
+            ],
+            "brakujace": [
+              "zbierasz klocki",
+              "odstawiasz pudełko na półkę"
+            ]
+          }
+        },
+        {
+          "id": "s5-d20",
+          "typ": "tabela",
+          "polecenie": "Ułóżcie plan dnia na lodówce.",
+          "dane": {
+            "naglowki_kolumn": [
+              "pora dnia",
+              "co robicie",
+              "obrazek z segregatora"
+            ],
+            "wiersze": [
+              [
+                "rano",
+                "mycie, ubieranie, śniadanie",
+                "cztery karty rutyn"
+              ],
+              [
+                "południe",
+                "spacer i obiad",
+                "dwie karty rutyn"
+              ],
+              [
+                "popołudnie",
+                "zabawa i sprzątanie",
+                "dwie karty rutyn"
+              ],
+              [
+                "wieczór",
+                "kąpiel, bajka, spanie",
+                "trzy karty rutyn"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s5-d21",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij strzałki i puste okienka.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "strzałka w prawo",
+                "ile": 6
+              },
+              {
+                "nazwa": "puste okienko",
+                "ile": 6
+              },
+              {
+                "nazwa": "ramka na cztery okienka",
+                "ile": 2
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej w każdym okienku paska, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s5-d22",
+          "typ": "lista_krokow",
+          "polecenie": "Pracujcie z paskiem przy prawdziwej czynności.",
+          "dane": {
+            "kroki": [
+              "Powieś pasek tam, gdzie robicie tę czynność.",
+              "Pokaż pierwsze okienko i nazwij, co się dzieje.",
+              "Zróbcie ten krok naprawdę, potem wróćcie do paska.",
+              "Dziecko przekłada element do następnego okienka.",
+              "Na końcu obejrzyjcie cały pasek i nazwijcie kroki."
+            ]
+          }
+        },
+        {
+          "id": "s5-d23",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj, co robisz rano po kolei.",
+          "dane": {
+            "wyrazy": [
+              "najpierw",
+              "potem",
+              "na końcu"
+            ],
+            "wysokosc_ramki_mm": 60
+          }
+        },
+        {
+          "id": "s5-d24",
+          "typ": "formularz",
+          "polecenie": "Zapisz, które sekwencje dziecko układa samo.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Sekwencje ułożone bez pomocy",
+                "wysokosc_mm": 20,
+                "linie": 3
+              },
+              {
+                "etykieta": "Sekwencje, przy których pomagasz",
+                "wysokosc_mm": 20,
+                "linie": 3
+              },
+              {
+                "etykieta": "Czynność, którą dziecko robi samodzielnie w domu",
+                "wysokosc_mm": 16,
+                "linie": 2
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "temat": "Pierwsze słowa",
+      "poziom": 5,
+      "instrukcja_przygotowania": {
+        "id": "s6-instrukcja",
+        "typ": "lista_krokow",
+        "polecenie": "Przygotuj sekcję przed pierwszą zabawą.",
+        "dane": {
+          "kroki": [
+            "Wydrukuj wszystkie strony tej sekcji na grubym papierze.",
+            "Wytnij najpierw dziesięć kart ze słowami, które dziecko zna.",
+            "Resztę talii dołóż dopiero wtedy, gdy nazywa te pierwsze.",
+            "Zalaminuj arkusze albo oklej je szeroką taśmą klejącą.",
+            "Wytnij elementy po liniach cięcia i zaokrąglij rogi.",
+            "Naklej rzepy: miękki na planszy, twardy na elemencie.",
+            "Elementy są małe. Zostań przy dziecku przez całą zabawę.",
+            "Po zabawie schowaj elementy do woreczka poza zasięgiem dziecka.",
+            "Planszę wepnij w koszulkę i włóż do segregatora."
+          ]
+        },
+        "dla_rodzica": "Przygotowanie zajmuje około 40 minut. Zrób je bez dziecka przy stole."
+      },
+      "plansza_bazowa": {
+        "id": "s6-plansza",
+        "typ": "lacz_pary",
+        "polecenie": "Połącz zwierzę z jego głosem.",
+        "dane": {
+          "lewa": [
+            "pies",
+            "kot",
+            "krowa",
+            "kaczka"
+          ],
+          "prawa": [
+            "kwa kwa",
+            "hau hau",
+            "miau",
+            "muu"
+          ],
+          "pary": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        "dla_rodzica": "Powiedz głos zwierzęcia. Dziecko szuka obrazka i powtarza."
+      },
+      "elementy_ruchome": {
+        "id": "s6-elementy",
+        "typ": "elementy_ruchome",
+        "polecenie": "Wytnij zwierzęta i ich głosy.",
+        "dane": {
+          "elementy": [
+            {
+              "nazwa": "pies",
+              "ile": 1
+            },
+            {
+              "nazwa": "kot",
+              "ile": 1
+            },
+            {
+              "nazwa": "krowa",
+              "ile": 1
+            },
+            {
+              "nazwa": "kaczka",
+              "ile": 1
+            },
+            {
+              "nazwa": "hau hau",
+              "ile": 1
+            },
+            {
+              "nazwa": "miau",
+              "ile": 1
+            },
+            {
+              "nazwa": "muu",
+              "ile": 1
+            },
+            {
+              "nazwa": "kwa kwa",
+              "ile": 1
+            }
+          ],
+          "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+        }
+      },
+      "dodatkowe": [
+        {
+          "id": "s6-d01",
+          "typ": "sortowanie",
+          "polecenie": "Podziel obrazki na dwa pola.",
+          "dane": {
+            "elementy": [
+              "pies",
+              "kot",
+              "krowa",
+              "kura",
+              "kubek",
+              "łyżka",
+              "but",
+              "piłka"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole ze zwierzętami",
+                "naleza": [
+                  "pies",
+                  "kot",
+                  "krowa",
+                  "kura"
+                ]
+              },
+              {
+                "nazwa": "pole z przedmiotami",
+                "naleza": [
+                  "kubek",
+                  "łyżka",
+                  "but",
+                  "piłka"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s6-d02",
+          "typ": "wybierz",
+          "polecenie": "Pokaż obrazek, który pasuje do słowa.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz: kubek.",
+                "opcje": [
+                  "kubek",
+                  "but",
+                  "piłka"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: but.",
+                "opcje": [
+                  "miś",
+                  "but",
+                  "łyżka"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: piłka.",
+                "opcje": [
+                  "czapka",
+                  "kot",
+                  "piłka"
+                ],
+                "poprawna": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "s6-d03",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij pierwsze dziesięć obrazków.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "mama",
+                "ile": 1
+              },
+              {
+                "nazwa": "tata",
+                "ile": 1
+              },
+              {
+                "nazwa": "pies",
+                "ile": 1
+              },
+              {
+                "nazwa": "kot",
+                "ile": 1
+              },
+              {
+                "nazwa": "miś",
+                "ile": 1
+              },
+              {
+                "nazwa": "kubek",
+                "ile": 1
+              },
+              {
+                "nazwa": "łyżka",
+                "ile": 1
+              },
+              {
+                "nazwa": "but",
+                "ile": 1
+              },
+              {
+                "nazwa": "czapka",
+                "ile": 1
+              },
+              {
+                "nazwa": "piłka",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s6-d04",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij kolejne dziesięć obrazków.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "woda",
+                "ile": 1
+              },
+              {
+                "nazwa": "chleb",
+                "ile": 1
+              },
+              {
+                "nazwa": "banan",
+                "ile": 1
+              },
+              {
+                "nazwa": "mleko",
+                "ile": 1
+              },
+              {
+                "nazwa": "auto",
+                "ile": 1
+              },
+              {
+                "nazwa": "dom",
+                "ile": 1
+              },
+              {
+                "nazwa": "łóżko",
+                "ile": 1
+              },
+              {
+                "nazwa": "lampa",
+                "ile": 1
+              },
+              {
+                "nazwa": "ręka",
+                "ile": 1
+              },
+              {
+                "nazwa": "noga",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s6-d05",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty z domu bez podpisów.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "łóżko"
+              },
+              {
+                "awers": "lampa"
+              },
+              {
+                "awers": "krzesło"
+              },
+              {
+                "awers": "stół"
+              },
+              {
+                "awers": "drzwi"
+              },
+              {
+                "awers": "okno"
+              },
+              {
+                "awers": "kubek"
+              },
+              {
+                "awers": "łyżka"
+              },
+              {
+                "awers": "garnek"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "s6-d06",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij te same karty z podpisami.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "łóżko"
+              },
+              {
+                "awers": "lampa"
+              },
+              {
+                "awers": "krzesło"
+              },
+              {
+                "awers": "stół"
+              },
+              {
+                "awers": "drzwi"
+              },
+              {
+                "awers": "okno"
+              },
+              {
+                "awers": "kubek"
+              },
+              {
+                "awers": "łyżka"
+              },
+              {
+                "awers": "garnek"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "s6-d07",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty z jedzeniem bez podpisów.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "chleb"
+              },
+              {
+                "awers": "banan"
+              },
+              {
+                "awers": "jabłko"
+              },
+              {
+                "awers": "mleko"
+              },
+              {
+                "awers": "woda"
+              },
+              {
+                "awers": "ser"
+              },
+              {
+                "awers": "zupa"
+              },
+              {
+                "awers": "jajko"
+              },
+              {
+                "awers": "marchewka"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "s6-d08",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij te same karty z podpisami.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "chleb"
+              },
+              {
+                "awers": "banan"
+              },
+              {
+                "awers": "jabłko"
+              },
+              {
+                "awers": "mleko"
+              },
+              {
+                "awers": "woda"
+              },
+              {
+                "awers": "ser"
+              },
+              {
+                "awers": "zupa"
+              },
+              {
+                "awers": "jajko"
+              },
+              {
+                "awers": "marchewka"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "s6-d09",
+          "typ": "sortowanie",
+          "polecenie": "Podziel jedzenie na dwa pola.",
+          "dane": {
+            "elementy": [
+              "chleb",
+              "ser",
+              "jabłko",
+              "zupa",
+              "mleko",
+              "woda",
+              "sok",
+              "herbata"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole: to się je",
+                "naleza": [
+                  "chleb",
+                  "ser",
+                  "jabłko",
+                  "zupa"
+                ]
+              },
+              {
+                "nazwa": "pole: to się pije",
+                "naleza": [
+                  "mleko",
+                  "woda",
+                  "sok",
+                  "herbata"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s6-d10",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz czynność z przedmiotem.",
+          "dane": {
+            "lewa": [
+              "pije",
+              "je",
+              "śpi",
+              "myje się"
+            ],
+            "prawa": [
+              "łóżko",
+              "mydło",
+              "kubek",
+              "łyżka"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s6-d11",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij obrazki czynności.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "pije",
+                "ile": 1
+              },
+              {
+                "nazwa": "je",
+                "ile": 1
+              },
+              {
+                "nazwa": "śpi",
+                "ile": 1
+              },
+              {
+                "nazwa": "myje się",
+                "ile": 1
+              },
+              {
+                "nazwa": "biegnie",
+                "ile": 1
+              },
+              {
+                "nazwa": "siedzi",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s6-d12",
+          "typ": "wybierz",
+          "polecenie": "Pokaż obrazek, na którym ktoś śpi.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz: kto śpi.",
+                "opcje": [
+                  "dziecko śpi",
+                  "dziecko je"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: kto je.",
+                "opcje": [
+                  "kot biegnie",
+                  "kot je"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: kto pije.",
+                "opcje": [
+                  "pies pije",
+                  "pies siedzi"
+                ],
+                "poprawna": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "s6-d13",
+          "typ": "wybierz",
+          "polecenie": "Pokaż, gdzie schował się miś.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz: miś jest w pudełku.",
+                "opcje": [
+                  "miś w pudełku",
+                  "miś na pudełku",
+                  "miś pod pudełkiem"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: miś jest na pudełku.",
+                "opcje": [
+                  "miś w pudełku",
+                  "miś na pudełku",
+                  "miś pod pudełkiem"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: miś jest pod pudełkiem.",
+                "opcje": [
+                  "miś w pudełku",
+                  "miś na pudełku",
+                  "miś pod pudełkiem"
+                ],
+                "poprawna": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "s6-d14",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij misia i pudełko.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "miś",
+                "ile": 1
+              },
+              {
+                "nazwa": "pudełko otwarte",
+                "ile": 1
+              },
+              {
+                "nazwa": "pudełko zamknięte",
+                "ile": 1
+              },
+              {
+                "nazwa": "krzesło",
+                "ile": 1
+              },
+              {
+                "nazwa": "stół",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+          },
+          "dla_rodzica": "Do tej zabawy najlepszy jest prawdziwy miś i prawdziwe pudełko."
+        },
+        {
+          "id": "s6-d15",
+          "typ": "sortowanie",
+          "polecenie": "Podziel obrazki na dwa pola.",
+          "dane": {
+            "elementy": [
+              "ręka",
+              "noga",
+              "ucho",
+              "nos",
+              "czapka",
+              "but",
+              "sweter",
+              "szalik"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "pole: to jest ciało",
+                "naleza": [
+                  "ręka",
+                  "noga",
+                  "ucho",
+                  "nos"
+                ]
+              },
+              {
+                "nazwa": "pole: to się wkłada",
+                "naleza": [
+                  "czapka",
+                  "but",
+                  "sweter",
+                  "szalik"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "s6-d16",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty zwierząt bez podpisów.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "pies"
+              },
+              {
+                "awers": "kot"
+              },
+              {
+                "awers": "krowa"
+              },
+              {
+                "awers": "kura"
+              },
+              {
+                "awers": "koń"
+              },
+              {
+                "awers": "kaczka"
+              },
+              {
+                "awers": "owca"
+              },
+              {
+                "awers": "świnka"
+              },
+              {
+                "awers": "koza"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "s6-d18",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz zwierzę z jego dzieckiem.",
+          "dane": {
+            "lewa": [
+              "kura",
+              "kot",
+              "pies",
+              "krowa"
+            ],
+            "prawa": [
+              "szczeniak",
+              "cielę",
+              "kurczak",
+              "kocię"
+            ],
+            "pary": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s6-d19",
+          "typ": "sekwencja",
+          "polecenie": "Ułóż historyjkę i opowiedz ją.",
+          "dane": {
+            "kroki": [
+              "miś się budzi",
+              "",
+              "miś idzie na spacer",
+              ""
+            ],
+            "brakujace": [
+              "miś je śniadanie",
+              "miś wraca do łóżka"
+            ]
+          }
+        },
+        {
+          "id": "s6-d20",
+          "typ": "wybierz",
+          "polecenie": "Pokaż, gdzie jest jeden przedmiot.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz: jeden kubek.",
+                "opcje": [
+                  "jeden kubek",
+                  "trzy kubki"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: dużo klocków.",
+                "opcje": [
+                  "jeden klocek",
+                  "dużo klocków"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz: jedno jabłko.",
+                "opcje": [
+                  "jedno jabłko",
+                  "cztery jabłka"
+                ],
+                "poprawna": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "s6-d21",
+          "typ": "tabela",
+          "polecenie": "Pierwsze słowa do nazywania — lista jeden.",
+          "dane": {
+            "naglowki_kolumn": [
+              "grupa",
+              "słowa"
+            ],
+            "wiersze": [
+              [
+                "ludzie",
+                "mama, tata, babcia, dziadek, dziecko"
+              ],
+              [
+                "zwierzęta",
+                "pies, kot, krowa, kura, koń, kaczka"
+              ],
+              [
+                "jedzenie",
+                "chleb, banan, jabłko, mleko, woda, ser"
+              ],
+              [
+                "dom",
+                "łóżko, lampa, krzesło, stół, drzwi, okno"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s6-d22",
+          "typ": "tabela",
+          "polecenie": "Pierwsze słowa do nazywania — lista dwa.",
+          "dane": {
+            "naglowki_kolumn": [
+              "grupa",
+              "słowa"
+            ],
+            "wiersze": [
+              [
+                "ubrania",
+                "czapka, but, sweter, szalik, spodnie"
+              ],
+              [
+                "czynności",
+                "je, pije, śpi, biegnie, siedzi, myje się"
+              ],
+              [
+                "ciało",
+                "ręka, noga, ucho, nos, oko, brzuch"
+              ],
+              [
+                "małe słowa",
+                "tak, nie, jeszcze, daj, mam, tu"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s6-d23",
+          "typ": "elementy_ruchome",
+          "polecenie": "Wytnij zapasowe obrazki do talii.",
+          "dane": {
+            "elementy": [
+              {
+                "nazwa": "mama",
+                "ile": 1
+              },
+              {
+                "nazwa": "tata",
+                "ile": 1
+              },
+              {
+                "nazwa": "babcia",
+                "ile": 1
+              },
+              {
+                "nazwa": "dziadek",
+                "ile": 1
+              },
+              {
+                "nazwa": "sweter",
+                "ile": 1
+              },
+              {
+                "nazwa": "szalik",
+                "ile": 1
+              },
+              {
+                "nazwa": "oko",
+                "ile": 1
+              },
+              {
+                "nazwa": "brzuch",
+                "ile": 1
+              }
+            ],
+            "rzep": "Miękką część rzepu naklej na środku pola na planszy, twardą na spodzie elementu."
+          }
+        },
+        {
+          "id": "s6-d24",
+          "typ": "lista_krokow",
+          "polecenie": "Nazywajcie obrazki razem, po kolei.",
+          "dane": {
+            "kroki": [
+              "Połóż przed dzieckiem trzy karty, nie więcej.",
+              "Powiedz nazwę pierwszej karty jeden raz, wyraźnie.",
+              "Poczekaj chwilę. Nie poprawiaj, jeśli dziecko powie inaczej.",
+              "Powtórz nazwę i odłóż kartę na bok.",
+              "Skończ, zanim dziecko odejdzie od stołu."
+            ]
+          }
+        },
+        {
+          "id": "s6-d25",
+          "typ": "lista_krokow",
+          "polecenie": "Zagrajcie w woreczek z niespodzianką.",
+          "dane": {
+            "kroki": [
+              "Włóż do woreczka pięć wyciętych obrazków.",
+              "Dziecko wyjmuje jeden obrazek i pokazuje ci go.",
+              "Nazwij to, co jest na obrazku.",
+              "Poszukajcie tej rzeczy naprawdę, w domu.",
+              "Odłóżcie obrazek do woreczka i wyciągnijcie następny."
+            ]
+          }
+        },
+        {
+          "id": "s6-d26",
+          "typ": "formularz",
+          "polecenie": "Zapisz słowa, które dziecko już mówi.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Słowa mówione samodzielnie",
+                "wysokosc_mm": 24,
+                "linie": 4
+              },
+              {
+                "etykieta": "Słowa, które dziecko pokazuje palcem",
+                "wysokosc_mm": 24,
+                "linie": 4
+              },
+              {
+                "etykieta": "Data wypełnienia karty",
+                "wysokosc_mm": 12,
+                "linie": 1
+              }
+            ]
+          },
+          "dla_rodzica": "Karta jest pusta do wydruku. Wypełniasz ją u siebie, dla siebie."
+        }
+      ]
+    }
+  ],
+  "klucz_odpowiedzi": [
+    {
+      "strona_id": "s1-plansza",
+      "odpowiedzi": [
+        "żółte pole: żółte kółko, banan",
+        "czerwone pole: czerwone kółko, truskawka",
+        "niebieskie pole: niebieskie kółko, kubek",
+        "zielone pole: zielone kółko, liść"
+      ]
+    },
+    {
+      "strona_id": "s1-d01",
+      "odpowiedzi": [
+        "żółte pole: cytryna, gruszka, kukurydza",
+        "czerwone pole: pomidor, wiśnia, papryka"
+      ]
+    },
+    {
+      "strona_id": "s1-d02",
+      "odpowiedzi": [
+        "zielone pole: ogórek, żabka, groszek",
+        "niebieskie pole: balon, skarpetka, wiaderko",
+        "żółte pole: kaczuszka, ser, słonecznik"
+      ]
+    },
+    {
+      "strona_id": "s1-d03",
+      "odpowiedzi": [
+        "banan — żółte pole",
+        "truskawka — czerwone pole",
+        "liść — zielone pole",
+        "balon — niebieskie pole"
+      ]
+    },
+    {
+      "strona_id": "s1-d05",
+      "odpowiedzi": [
+        "banan",
+        "ogórek",
+        "pomidor",
+        "wiaderko"
+      ]
+    },
+    {
+      "strona_id": "s2-plansza",
+      "odpowiedzi": [
+        "pole z kołem: koło duże, koło małe",
+        "pole z kwadratem: kwadrat duży, kwadrat mały",
+        "pole z trójkątem: trójkąt duży, trójkąt mały"
+      ]
+    },
+    {
+      "strona_id": "s2-d01",
+      "odpowiedzi": [
+        "pole z kołem: koło w kropki, koło gładkie, koło w paski",
+        "pole z kwadratem: kwadrat w kropki, kwadrat gładki, kwadrat w paski"
+      ]
+    },
+    {
+      "strona_id": "s2-d02",
+      "odpowiedzi": [
+        "pole z kołem: koło wąskie, koło szerokie",
+        "pole z kwadratem: kwadrat wąski, kwadrat szeroki",
+        "pole z trójkątem: trójkąt wąski, trójkąt szeroki"
+      ]
+    },
+    {
+      "strona_id": "s2-d03",
+      "odpowiedzi": [
+        "koło — talerz",
+        "kwadrat — okno",
+        "trójkąt — dach",
+        "prostokąt — drzwi"
+      ]
+    },
+    {
+      "strona_id": "s2-d06",
+      "odpowiedzi": [
+        "koło",
+        "trójkąt",
+        "kwadrat"
+      ]
+    },
+    {
+      "strona_id": "s2-d07",
+      "odpowiedzi": [
+        "pole dużych: duże koło, duży kwadrat, duży trójkąt",
+        "pole małych: małe koło, mały kwadrat, mały trójkąt"
+      ]
+    },
+    {
+      "strona_id": "s2-d10",
+      "odpowiedzi": [
+        "duże koło — małe koło",
+        "duży kwadrat — mały kwadrat",
+        "duży trójkąt — mały trójkąt",
+        "duża gwiazdka — mała gwiazdka"
+      ]
+    },
+    {
+      "strona_id": "s2-d11",
+      "odpowiedzi": [
+        "pole z rogami: kwadrat, trójkąt, prostokąt, romb",
+        "pole bez rogów: koło, owal, półkole, obwarzanek"
+      ]
+    },
+    {
+      "strona_id": "s2-d13",
+      "odpowiedzi": [
+        "kwadrat"
+      ]
+    },
+    {
+      "strona_id": "s2-d14",
+      "odpowiedzi": [
+        "koło",
+        "trójkąt"
+      ]
+    },
+    {
+      "strona_id": "s2-d15",
+      "odpowiedzi": [
+        "kwadrat",
+        "trójkąt",
+        "owal"
+      ]
+    },
+    {
+      "strona_id": "s3-plansza",
+      "odpowiedzi": [
+        "skarpetka w paski — druga skarpetka w paski",
+        "rękawiczka w kropki — druga rękawiczka w kropki",
+        "but z kokardką — drugi but z kokardką",
+        "kapeć w gwiazdki — drugi kapeć w gwiazdki"
+      ]
+    },
+    {
+      "strona_id": "s3-d01",
+      "odpowiedzi": [
+        "skarpetka w kropki — wzór w kropki",
+        "skarpetka w paski — wzór w paski",
+        "skarpetka w gwiazdki — wzór w gwiazdki",
+        "skarpetka w kwadraty — wzór w kwadraty"
+      ]
+    },
+    {
+      "strona_id": "s3-d02",
+      "odpowiedzi": [
+        "kot — cień kota",
+        "kubek — cień kubka",
+        "łyżka — cień łyżki",
+        "miś — cień misia"
+      ]
+    },
+    {
+      "strona_id": "s3-d04",
+      "odpowiedzi": [
+        "łyżka — miska",
+        "szczoteczka — pasta",
+        "klucz — kłódka",
+        "skarpetka — but"
+      ]
+    },
+    {
+      "strona_id": "s3-d05",
+      "odpowiedzi": [
+        "skarpetka w paski",
+        "but z kokardką",
+        "rękawiczka w kropki"
+      ]
+    },
+    {
+      "strona_id": "s3-d06",
+      "odpowiedzi": [
+        "królik — marchewka",
+        "pies — kość",
+        "kot — miska mleka",
+        "ptak — ziarno"
+      ]
+    },
+    {
+      "strona_id": "s3-d10",
+      "odpowiedzi": [
+        "pies — buda",
+        "ptak — gniazdo",
+        "ryba — akwarium",
+        "koń — stajnia"
+      ]
+    },
+    {
+      "strona_id": "s3-d11",
+      "odpowiedzi": [
+        "koszyk z butami: but sznurowany, kapeć, kalosz, sandał",
+        "koszyk z rękawiczkami: rękawiczka wełniana, rękawiczka z jednym palcem, rękawiczka gumowa, rękawiczka skórzana"
+      ]
+    },
+    {
+      "strona_id": "s3-d12",
+      "odpowiedzi": [
+        "koło — samochód",
+        "komin — dom",
+        "ogon — kot",
+        "liść — drzewo"
+      ]
+    },
+    {
+      "strona_id": "s3-d14",
+      "odpowiedzi": [
+        "miska",
+        "kłódka",
+        "pasta"
+      ]
+    },
+    {
+      "strona_id": "s3-d15",
+      "odpowiedzi": [
+        "duży kubek — mały kubek",
+        "duży but — mały but",
+        "duży miś — mały miś",
+        "duża piłka — mała piłka"
+      ]
+    },
+    {
+      "strona_id": "s3-d16",
+      "odpowiedzi": [
+        "but"
+      ]
+    },
+    {
+      "strona_id": "s4-plansza",
+      "odpowiedzi": [
+        "koszyk z jedzeniem: jabłko, chleb, ser, mleko",
+        "koszyk z ubraniami: czapka, buty, kurtka, skarpetki"
+      ]
+    },
+    {
+      "strona_id": "s4-d01",
+      "odpowiedzi": [
+        "koszyk ze zwierzętami: pies, kot, krowa, kaczka",
+        "koszyk z pojazdami: samochód, autobus, rower, łódka"
+      ]
+    },
+    {
+      "strona_id": "s4-d02",
+      "odpowiedzi": [
+        "koszyk z owocami: gruszka, śliwka, winogrono, brzoskwinia",
+        "koszyk z warzywami: marchewka, ziemniak, burak, fasolka"
+      ]
+    },
+    {
+      "strona_id": "s4-d05",
+      "odpowiedzi": [
+        "banan — koszyk z jedzeniem",
+        "szalik — koszyk z ubraniami",
+        "miś — koszyk z zabawkami",
+        "talerz — koszyk z naczyniami"
+      ]
+    },
+    {
+      "strona_id": "s4-d06",
+      "odpowiedzi": [
+        "but",
+        "rower",
+        "banan"
+      ]
+    },
+    {
+      "strona_id": "s4-d07",
+      "odpowiedzi": [
+        "koszyk rzeczy z domu: kubek, poduszka, lampa, łyżka",
+        "koszyk rzeczy z podwórka: huśtawka, wiaderko, piaskownica, rowerek"
+      ]
+    },
+    {
+      "strona_id": "s4-d08",
+      "odpowiedzi": [
+        "koszyk zwierząt z domu: pies, kot, chomik, rybka",
+        "koszyk zwierząt z lasu: sarna, lis, wiewiórka, jeż"
+      ]
+    },
+    {
+      "strona_id": "s4-d11",
+      "odpowiedzi": [
+        "koszyk z kuchni: garnek, widelec, czajnik, deska",
+        "koszyk z łazienki: mydło, ręcznik, gąbka, grzebień"
+      ]
+    },
+    {
+      "strona_id": "s4-d13",
+      "odpowiedzi": [
+        "krowa — obora",
+        "kura — kurnik",
+        "wiewiórka — las",
+        "rybka — woda"
+      ]
+    },
+    {
+      "strona_id": "s4-d14",
+      "odpowiedzi": [
+        "koszyk dużych: koń, krowa, słoń, żyrafa",
+        "koszyk małych: mysz, biedronka, ślimak, motyl"
+      ]
+    },
+    {
+      "strona_id": "s4-d15",
+      "odpowiedzi": [
+        "ser",
+        "szalik",
+        "marchewka"
+      ]
+    },
+    {
+      "strona_id": "s4-d17",
+      "odpowiedzi": [
+        "koszyk z zabawkami: klocek, piłka, lalka, samochodzik",
+        "koszyk z naczyniami: talerz, kubek, łyżeczka, dzbanek"
+      ]
+    },
+    {
+      "strona_id": "s4-d19",
+      "odpowiedzi": [
+        "koszyk: jeździ: samochód, autobus, traktor",
+        "koszyk: lata: samolot, balon, helikopter",
+        "koszyk: pływa: łódka, statek, ponton"
+      ]
+    },
+    {
+      "strona_id": "s5-plansza",
+      "odpowiedzi": [
+        "namydlasz ręce",
+        "wycierasz ręce"
+      ]
+    },
+    {
+      "strona_id": "s5-d01",
+      "odpowiedzi": [
+        "myjesz zęby",
+        "odkładasz szczoteczkę"
+      ]
+    },
+    {
+      "strona_id": "s5-d02",
+      "odpowiedzi": [
+        "wkładasz spodnie",
+        "zapinasz kurtkę"
+      ]
+    },
+    {
+      "strona_id": "s5-d04",
+      "odpowiedzi": [
+        "smarujesz masłem",
+        "jesz kanapkę"
+      ]
+    },
+    {
+      "strona_id": "s5-d05",
+      "odpowiedzi": [
+        "nasypujesz ziemi",
+        "rośnie kiełek"
+      ]
+    },
+    {
+      "strona_id": "s5-d06",
+      "odpowiedzi": [
+        "odkręcasz wodę",
+        "wkładasz spodnie",
+        "kroisz chleb"
+      ]
+    },
+    {
+      "strona_id": "s5-d07",
+      "odpowiedzi": [
+        "południe"
+      ]
+    },
+    {
+      "strona_id": "s5-d08",
+      "odpowiedzi": [
+        "nasionko — roślina",
+        "jajko — kurczak",
+        "ciasto — chleb",
+        "szczeniak — pies"
+      ]
+    },
+    {
+      "strona_id": "s5-d10",
+      "odpowiedzi": [
+        "kółko",
+        "kwadrat"
+      ]
+    },
+    {
+      "strona_id": "s5-d11",
+      "odpowiedzi": [
+        "pasek krótki",
+        "pasek najdłuższy"
+      ]
+    },
+    {
+      "strona_id": "s5-d15",
+      "odpowiedzi": [
+        "myjesz się gąbką",
+        "wycierasz się ręcznikiem"
+      ]
+    },
+    {
+      "strona_id": "s5-d16",
+      "odpowiedzi": [
+        "myjesz zęby",
+        "gasisz światło"
+      ]
+    },
+    {
+      "strona_id": "s5-d17",
+      "odpowiedzi": [
+        "pole: rano: budzisz się, jesz śniadanie, ubierasz się",
+        "pole: wieczór: wkładasz piżamę, słuchasz bajki, gasisz światło"
+      ]
+    },
+    {
+      "strona_id": "s5-d18",
+      "odpowiedzi": [
+        "spłukujesz ręce",
+        "wkładasz buty",
+        "myjesz ręce po jedzeniu"
+      ]
+    },
+    {
+      "strona_id": "s5-d19",
+      "odpowiedzi": [
+        "zbierasz klocki",
+        "odstawiasz pudełko na półkę"
+      ]
+    },
+    {
+      "strona_id": "s6-plansza",
+      "odpowiedzi": [
+        "pies — hau hau",
+        "kot — miau",
+        "krowa — muu",
+        "kaczka — kwa kwa"
+      ]
+    },
+    {
+      "strona_id": "s6-d01",
+      "odpowiedzi": [
+        "pole ze zwierzętami: pies, kot, krowa, kura",
+        "pole z przedmiotami: kubek, łyżka, but, piłka"
+      ]
+    },
+    {
+      "strona_id": "s6-d02",
+      "odpowiedzi": [
+        "kubek",
+        "but",
+        "piłka"
+      ]
+    },
+    {
+      "strona_id": "s6-d09",
+      "odpowiedzi": [
+        "pole: to się je: chleb, ser, jabłko, zupa",
+        "pole: to się pije: mleko, woda, sok, herbata"
+      ]
+    },
+    {
+      "strona_id": "s6-d10",
+      "odpowiedzi": [
+        "pije — kubek",
+        "je — łyżka",
+        "śpi — łóżko",
+        "myje się — mydło"
+      ]
+    },
+    {
+      "strona_id": "s6-d12",
+      "odpowiedzi": [
+        "dziecko śpi",
+        "kot je",
+        "pies pije"
+      ]
+    },
+    {
+      "strona_id": "s6-d13",
+      "odpowiedzi": [
+        "miś w pudełku",
+        "miś na pudełku",
+        "miś pod pudełkiem"
+      ]
+    },
+    {
+      "strona_id": "s6-d15",
+      "odpowiedzi": [
+        "pole: to jest ciało: ręka, noga, ucho, nos",
+        "pole: to się wkłada: czapka, but, sweter, szalik"
+      ]
+    },
+    {
+      "strona_id": "s6-d18",
+      "odpowiedzi": [
+        "kura — kurczak",
+        "kot — kocię",
+        "pies — szczeniak",
+        "krowa — cielę"
+      ]
+    },
+    {
+      "strona_id": "s6-d19",
+      "odpowiedzi": [
+        "miś je śniadanie",
+        "miś wraca do łóżka"
+      ]
+    },
+    {
+      "strona_id": "s6-d20",
+      "odpowiedzi": [
+        "jeden kubek",
+        "dużo klocków",
+        "jedno jabłko"
+      ]
+    }
+  ],
+  "fragment": {
+    "do_strony": 11,
+    "obietnica_na_stronie": "Cała pierwsza sekcja: instrukcja przygotowania, plansza, elementy do wycięcia i sześć stron ćwiczeń."
+  }
+}

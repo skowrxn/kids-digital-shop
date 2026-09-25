@@ -1,0 +1,2818 @@
+{
+  "meta": {
+    "slug": "litery-od-zera",
+    "tytul": "Litery od zera",
+    "podtytul": "Poznajemy alfabet bez pośpiechu",
+    "archetyp": "PROGRAM",
+    "wersja": "1.0",
+    "wiek": "4–6 lat",
+    "kategoria": "czytanie",
+    "podkategoria": "litery",
+    "strony_deklarowane": 96,
+    "min_pt_dziecka": 14
+  },
+  "wstep": {
+    "warunek_wejscia": "Dziecko pyta, co to za znaczki, i wytrzymuje przy stole dziesięć minut. Nie musi znać ani jednej litery.",
+    "obietnica": "Po dwunastu tygodniach dziecko rozpoznaje dwadzieścia cztery litery drukowane — wielkie i małe — i układa z nich swoje imię.",
+    "ile_czasu_dziennie": "10 minut, trzy albo cztery razy w tygodniu.",
+    "jak_korzystac": [
+      "Drukuj po jednym tygodniu naraz. To trzy albo cztery strony dla dziecka.",
+      "Zacznij od karty rodzica. Zajmuje minutę i mówi, co powiedzieć przez cały tydzień.",
+      "Rób jedną stronę dziennie. Dwie, jeśli dziecko prosi — nigdy więcej.",
+      "Mów głoskę, nie nazwę litery: „mmm”, nie „em”. To jedna zmiana, która robi największą różnicę.",
+      "Grę zostaw na koniec tygodnia. Działa jako powtórka i jako nagroda.",
+      "Nie przechodź dalej, dopóki nie zgadza się warunek z rubryki „kiedy dalej”.",
+      "Jeśli tydzień nie wyszedł, powtórz go. Program nie ma terminu."
+    ],
+    "czego_nie_robi": [
+      "To nie jest terapia ani diagnoza. To ćwiczenia do zrobienia w domu.",
+      "Nie uczy czytania sylabami. To kolejny krok, osobny materiał.",
+      "Nie uczy pisania liter z pamięci. Dziecko pisze wyłącznie po śladzie.",
+      "Nie wprowadza liter z ogonkami ani dwuznaków: Ą, Ę, Ś, CZ, SZ. Zostają na później.",
+      "Nie ma terminu. Dwie litery na tydzień to sugestia, nie norma.",
+      "Nie ocenia dziecka i nie porównuje go z nikim innym."
+    ],
+    "kiedy_do_specjalisty": "Jeśli po tygodniu 6 dziecko nadal nie zapamiętuje żadnej litery, albo jeśli nie słyszy pierwszej głoski w wyrazie — porozmawiaj z logopedą. To nie znaczy, że coś jest nie tak. Znaczy, że warto zapytać."
+  },
+  "tygodnie": [
+    {
+      "nr": 1,
+      "cel": "W tym tygodniu dziecko pokazuje litery A i O wśród innych znaków.",
+      "poziom_trudnosci": 1,
+      "nowy_material": {
+        "litery": [
+          "A",
+          "O"
+        ],
+        "sylaby": [
+          "A",
+          "O",
+          "a",
+          "o"
+        ],
+        "opis": "Dwie samogłoski. A i O słychać najwyraźniej i mają zupełnie inny kształt — daszek i kółko."
+      },
+      "powtorka": {
+        "z_tygodni": []
+      },
+      "material_dziecka": [
+        {
+          "id": "t1-litery",
+          "typ": "sylaby_tabela",
+          "polecenie": "Pokaż i nazwij każdą literę.",
+          "dla_rodzica": "Mów głoskę, nie nazwę litery. Prowadź palcem od lewej.",
+          "dane": {
+            "wiersze": [
+              [
+                "A",
+                "a"
+              ],
+              [
+                "O",
+                "o"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "wielka",
+              "mała"
+            ]
+          }
+        },
+        {
+          "id": "t1-sluch",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl literę, którą słyszysz.",
+          "dla_rodzica": "Przeczytaj podpowiedź i przeciągnij pierwszą głoskę.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: ananas.",
+                "opcje": [
+                  "A",
+                  "O"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: okno.",
+                "opcje": [
+                  "A",
+                  "O"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: album.",
+                "opcje": [
+                  "O",
+                  "A"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: oko.",
+                "opcje": [
+                  "A",
+                  "O"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: aparat.",
+                "opcje": [
+                  "O",
+                  "A"
+                ],
+                "poprawna": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "t1-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dla_rodzica": "Dwa razy po śladzie wystarczy. Nie prostuj chwytu w trakcie.",
+          "dane": {
+            "wzory": [
+              "A",
+              "a",
+              "O",
+              "o"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t1-sciezka",
+          "typ": "sylaby_sciezka",
+          "polecenie": "Idź palcem i mów literę.",
+          "dla_rodzica": "Jedna litera na jedno dotknięcie. Bez pośpiechu.",
+          "dane": {
+            "kroki": [
+              "A",
+              "O",
+              "A",
+              "O",
+              "O",
+              "A",
+              "O",
+              "A",
+              "A",
+              "O",
+              "A",
+              "O"
+            ],
+            "meta": "O"
+          }
+        }
+      ],
+      "gra": {
+        "nazwa": "Polowanie na A i O",
+        "cel": "Dziecko wiąże dźwięk na początku wyrazu z kształtem litery.",
+        "gracze": "2",
+        "czas_min": 10,
+        "przygotowanie": [
+          "Wytnij dwie karty: A i O.",
+          "Połóż obie karty na stole."
+        ],
+        "zasady": [
+          "Mów wyraz. Dziecko klepie kartę z pierwszą literą.",
+          "Za trafienie karta zostaje u dziecka na jedną kolejkę.",
+          "Gra kończy się po dziesięciu wyrazach."
+        ],
+        "elementy_do_wyciecia": [
+          "karta z literą A",
+          "karta z literą O"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Ala i okno",
+        "czyta": "rodzic",
+        "linie": [
+          "Ala patrzy przez okno.",
+          "Na dworze pada.",
+          "Obok okna stoi doniczka.",
+          "Ala rysuje na szybie kółko.",
+          "Kółko wygląda jak litera O.",
+          "Potem rysuje daszek. To litera A."
+        ],
+        "pytania": [
+          "Pokaż w tekście literę A.",
+          "Ile razy widzisz literę O?"
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "Mów głoskę, nie nazwę litery: „a”, „o”. Nie „a jak Adam”.",
+          "„Popatrz, to jest A. Otwórz buzię szeroko: aaa.”",
+          "„Znajdź drugie A na tej stronie.”"
+        ],
+        "na_co_uwazac": [
+          "Nie poprawiaj wymowy. Na tym etapie liczy się kształt litery.",
+          "Jeśli dziecko myli A z O, połóż oba znaki obok siebie i porównajcie kształt palcem."
+        ],
+        "kiedy_dalej": [
+          "Przejdź do tygodnia 2, kiedy dziecko trzy razy pod rząd wskaże A i O wśród innych znaków."
+        ],
+        "jesli_nie_idzie": [
+          "Powtórz tydzień. Program nie ma terminu.",
+          "Skróć spotkanie do pięciu minut i wróć następnego dnia."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 1 — rubryki wypełnia dorosły",
+        "wiersze": [
+          "Pokazuję literę A wśród innych",
+          "Piszę A po śladzie",
+          "Pokazuję literę O wśród innych",
+          "Piszę O po śladzie",
+          "Słyszę A i O w wyrazie",
+          "Znajduję obie litery na stronie z poprzedniego tygodnia"
+        ],
+        "kolumny": [
+          "próba 1",
+          "próba 2",
+          "próba 3"
+        ]
+      }
+    },
+    {
+      "nr": 2,
+      "cel": "W tym tygodniu dziecko poznaje M i E i słyszy je na początku wyrazu.",
+      "poziom_trudnosci": 2,
+      "nowy_material": {
+        "litery": [
+          "M",
+          "E"
+        ],
+        "sylaby": [
+          "M",
+          "E",
+          "m",
+          "e"
+        ],
+        "opis": "M da się ciągnąć w nieskończoność: mmm. E to druga samogłoska. Razem z A dają pierwszy wyraz."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          1
+        ],
+        "sylaby": [
+          "A",
+          "O",
+          "a",
+          "o"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t2-litery",
+          "typ": "sylaby_tabela",
+          "polecenie": "Pokaż i nazwij każdą literę.",
+          "dla_rodzica": "Mów głoskę, nie nazwę litery. Prowadź palcem od lewej.",
+          "dane": {
+            "wiersze": [
+              [
+                "M",
+                "m"
+              ],
+              [
+                "E",
+                "e"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "wielka",
+              "mała"
+            ]
+          }
+        },
+        {
+          "id": "t2-sluch",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl literę, którą słyszysz.",
+          "dla_rodzica": "Przeczytaj podpowiedź i przeciągnij pierwszą głoskę.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: mama.",
+                "opcje": [
+                  "M",
+                  "E",
+                  "A"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: ekran.",
+                "opcje": [
+                  "E",
+                  "M",
+                  "O"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: mysz.",
+                "opcje": [
+                  "A",
+                  "M",
+                  "E"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: echo.",
+                "opcje": [
+                  "M",
+                  "E",
+                  "A"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: album.",
+                "opcje": [
+                  "O",
+                  "M",
+                  "A"
+                ],
+                "poprawna": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "t2-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dla_rodzica": "Dwa razy po śladzie wystarczy. Nie prostuj chwytu w trakcie.",
+          "dane": {
+            "wzory": [
+              "M",
+              "m",
+              "E",
+              "e"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        }
+      ],
+      "gra": {
+        "nazwa": "Pary liter",
+        "cel": "Dziecko kojarzy wielką literę z małą.",
+        "gracze": "2",
+        "czas_min": 10,
+        "przygotowanie": [
+          "Wytnij osiem kart: A, a, O, o, M, m, E, e.",
+          "Rozłóż je napisem do dołu."
+        ],
+        "zasady": [
+          "Odkrywajcie po dwie karty.",
+          "Parę zabiera ten, kto odkrył wielką i małą tę samą literę.",
+          "Gracie, aż skończą się karty."
+        ],
+        "elementy_do_wyciecia": [
+          "osiem kart: A, a, O, o, M, m, E, e"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Mama i Ewa",
+        "czyta": "rodzic",
+        "linie": [
+          "Mama woła Ewę na obiad.",
+          "Ewa biegnie przez korytarz.",
+          "Na stole stoi miska.",
+          "W misce jest makaron.",
+          "Ewa próbuje i mówi: mmm."
+        ],
+        "pytania": [
+          "Pokaż literę M w wyrazie mama.",
+          "Znajdź literę E w wyrazie Ewa."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„M można ciągnąć: mmmmm. Spróbuj razem ze mną.”",
+          "„W wyrazie mama słychać M dwa razy.”"
+        ],
+        "na_co_uwazac": [
+          "Dziecko może mówić „em” zamiast „mmm”. Nie poprawiaj ostro, po prostu powtórz swoją wersję.",
+          "E bywa mylone z A. Pokaż, że E ma trzy poziome kreski."
+        ],
+        "kiedy_dalej": [
+          "Przejdź dalej, kiedy dziecko samo wskaże M i E na stronie z tygodnia 1."
+        ],
+        "jesli_nie_idzie": [
+          "Wróć do A i O na jeden dzień, potem spróbuj jeszcze raz.",
+          "Rób tylko jedną stronę dziennie, nawet jeśli dziecko chce więcej."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 2 — rubryki wypełnia dorosły",
+        "wiersze": [
+          "Pokazuję literę M wśród innych",
+          "Piszę M po śladzie",
+          "Pokazuję literę E wśród innych",
+          "Piszę E po śladzie",
+          "Słyszę M i E w wyrazie",
+          "Znajduję obie litery na stronie z poprzedniego tygodnia"
+        ],
+        "kolumny": [
+          "próba 1",
+          "próba 2",
+          "próba 3"
+        ]
+      }
+    },
+    {
+      "nr": 3,
+      "cel": "W tym tygodniu dziecko odróżnia T od I i łączy wielkie litery z małymi.",
+      "poziom_trudnosci": 3,
+      "nowy_material": {
+        "litery": [
+          "T",
+          "I"
+        ],
+        "sylaby": [
+          "T",
+          "I",
+          "t",
+          "i"
+        ],
+        "opis": "T to krótkie puknięcie językiem, I to najwęższa litera. Dwa kształty, których nie da się pomylić."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          1,
+          2
+        ],
+        "sylaby": [
+          "A",
+          "O",
+          "a",
+          "o",
+          "M",
+          "E",
+          "m",
+          "e"
+        ],
+        "wyrazy": [
+          "MAMA"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t3-litery",
+          "typ": "sylaby_tabela",
+          "polecenie": "Pokaż i nazwij każdą literę.",
+          "dla_rodzica": "Mów głoskę, nie nazwę litery. Prowadź palcem od lewej.",
+          "dane": {
+            "wiersze": [
+              [
+                "T",
+                "t"
+              ],
+              [
+                "I",
+                "i"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "wielka",
+              "mała"
+            ]
+          }
+        },
+        {
+          "id": "t3-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dla_rodzica": "Dwa razy po śladzie wystarczy. Nie prostuj chwytu w trakcie.",
+          "dane": {
+            "wzory": [
+              "T",
+              "t",
+              "I",
+              "i"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t3-lacz",
+          "typ": "lacz_sylaby",
+          "polecenie": "Połącz wielką literę z małą.",
+          "dla_rodzica": "Kolumna po prawej jest wymieszana. Nie podpowiadaj palcem.",
+          "dane": {
+            "lewa": [
+              "A",
+              "O",
+              "M",
+              "E",
+              "T",
+              "I"
+            ],
+            "prawa": [
+              "a",
+              "o",
+              "m",
+              "e",
+              "t",
+              "i"
+            ],
+            "pary": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                5
+              ]
+            ]
+          }
+        }
+      ],
+      "gra": {
+        "nazwa": "Litera na plecach",
+        "cel": "Dziecko rozpoznaje kształt litery bez patrzenia.",
+        "gracze": "2",
+        "czas_min": 8,
+        "przygotowanie": [
+          "Nic nie trzeba wycinać."
+        ],
+        "zasady": [
+          "Rysuj palcem literę na plecach dziecka.",
+          "Dziecko mówi, która to litera.",
+          "Potem zamieniacie się rolami."
+        ],
+        "elementy_do_wyciecia": []
+      },
+      "czytanka": {
+        "tytul": "Tata i mata",
+        "czyta": "rodzic",
+        "linie": [
+          "Tata rozkłada matę na trawie.",
+          "Na macie siada Tomek.",
+          "Obok leży piłka.",
+          "Tomek liczy: raz, dwa, trzy.",
+          "Tata mówi: tu jest mata, a tu tata."
+        ],
+        "pytania": [
+          "Pokaż literę T w wyrazie tata.",
+          "Ile liter I widzisz w tym tekście?"
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„T to krótkie puknięcie: t, t, t.”",
+          "„I jest najwęższą literą. Ma kropkę tylko wtedy, gdy jest mała.”"
+        ],
+        "na_co_uwazac": [
+          "Małe i oraz małe l wyglądają podobnie. L poznacie dopiero w tygodniu 5 — na razie nie wyprzedzaj.",
+          "Przy łączeniu par nie podpowiadaj palcem. Poczekaj pięć sekund."
+        ],
+        "kiedy_dalej": [
+          "Przejdź dalej, kiedy dziecko połączy wszystkie sześć par wielka–mała bez podpowiedzi."
+        ],
+        "jesli_nie_idzie": [
+          "Zrób łączenie na dwa razy: najpierw trzy pary, następnego dnia kolejne trzy."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 3 — rubryki wypełnia dorosły",
+        "wiersze": [
+          "Pokazuję literę T wśród innych",
+          "Piszę T po śladzie",
+          "Pokazuję literę I wśród innych",
+          "Piszę I po śladzie",
+          "Słyszę T i I w wyrazie",
+          "Znajduję obie litery na stronie z poprzedniego tygodnia"
+        ],
+        "kolumny": [
+          "próba 1",
+          "próba 2",
+          "próba 3"
+        ]
+      }
+    },
+    {
+      "nr": 4,
+      "cel": "W tym tygodniu dziecko poznaje U i K i wyłapuje je w mowie.",
+      "poziom_trudnosci": 4,
+      "nowy_material": {
+        "litery": [
+          "U",
+          "K"
+        ],
+        "sylaby": [
+          "U",
+          "K",
+          "u",
+          "k"
+        ],
+        "opis": "U domyka zestaw łatwych samogłosek. K to mocne puknięcie z tyłu buzi, dobrze słyszalne na początku wyrazu."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          2,
+          3
+        ],
+        "sylaby": [
+          "M",
+          "E",
+          "m",
+          "e",
+          "T",
+          "I",
+          "t",
+          "i"
+        ],
+        "wyrazy": [
+          "TATA",
+          "MATA",
+          "OTO"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t4-litery",
+          "typ": "sylaby_tabela",
+          "polecenie": "Pokaż i nazwij każdą literę.",
+          "dla_rodzica": "Mów głoskę, nie nazwę litery. Prowadź palcem od lewej.",
+          "dane": {
+            "wiersze": [
+              [
+                "U",
+                "u"
+              ],
+              [
+                "K",
+                "k"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "wielka",
+              "mała"
+            ]
+          }
+        },
+        {
+          "id": "t4-sluch",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl literę, którą słyszysz.",
+          "dla_rodzica": "Przeczytaj podpowiedź i przeciągnij pierwszą głoskę.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: ul.",
+                "opcje": [
+                  "U",
+                  "K",
+                  "A"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: kot.",
+                "opcje": [
+                  "E",
+                  "K",
+                  "U"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: ucho.",
+                "opcje": [
+                  "K",
+                  "M",
+                  "U"
+                ],
+                "poprawna": 2
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: kura.",
+                "opcje": [
+                  "K",
+                  "T",
+                  "O"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: tata.",
+                "opcje": [
+                  "U",
+                  "I",
+                  "T"
+                ],
+                "poprawna": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "t4-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dla_rodzica": "Dwa razy po śladzie wystarczy. Nie prostuj chwytu w trakcie.",
+          "dane": {
+            "wzory": [
+              "U",
+              "u",
+              "K",
+              "k"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        }
+      ],
+      "gra": {
+        "nazwa": "Litera pod kubkiem",
+        "cel": "Dziecko łączy podpowiedź słuchową z literą.",
+        "gracze": "2",
+        "czas_min": 10,
+        "przygotowanie": [
+          "Wytnij karty z literami U i K.",
+          "Przygotuj zwykły kubek."
+        ],
+        "zasady": [
+          "Schowaj jedną kartę pod kubkiem.",
+          "Powiedz wyraz, w którym słychać tę literę na początku.",
+          "Dziecko zgaduje, potem odkrywacie kubek."
+        ],
+        "elementy_do_wyciecia": [
+          "karta z literą U",
+          "karta z literą K"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Kubek i ul",
+        "czyta": "rodzic",
+        "linie": [
+          "Kuba niesie kubek z wodą.",
+          "Idzie przez ogród.",
+          "Przy płocie stoi ul.",
+          "Kuba przystaje i patrzy.",
+          "Pszczoły wracają do ula.",
+          "Kuba mówi cicho: uuu."
+        ],
+        "pytania": [
+          "Pokaż literę K w wyrazie Kuba.",
+          "Znajdź wyraz, który zaczyna się na U."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„K słychać z tyłu buzi: k, k, k.”",
+          "„U mówimy z dzióbkiem. Zobacz, jak ustawiam usta.”"
+        ],
+        "na_co_uwazac": [
+          "U i O brzmią podobnie. Mów je jedno po drugim i przesadnie ustawiaj usta.",
+          "Nie wymagaj, żeby dziecko pisało samo. W tym programie piszemy wyłącznie po śladzie."
+        ],
+        "kiedy_dalej": [
+          "Przejdź dalej, kiedy dziecko rozpozna U i K w czterech wyrazach na pięć."
+        ],
+        "jesli_nie_idzie": [
+          "Zagraj w literę pod kubkiem drugi raz. Ta gra uczy więcej niż kolejna strona."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 4 — rubryki wypełnia dorosły",
+        "wiersze": [
+          "Pokazuję literę U wśród innych",
+          "Piszę U po śladzie",
+          "Pokazuję literę K wśród innych",
+          "Piszę K po śladzie",
+          "Słyszę U i K w wyrazie",
+          "Znajduję obie litery na stronie z poprzedniego tygodnia"
+        ],
+        "kolumny": [
+          "próba 1",
+          "próba 2",
+          "próba 3"
+        ]
+      }
+    },
+    {
+      "nr": 5,
+      "cel": "W tym tygodniu dziecko szuka L i Y wśród dziesięciu poznanych liter.",
+      "poziom_trudnosci": 5,
+      "nowy_material": {
+        "litery": [
+          "L",
+          "Y"
+        ],
+        "sylaby": [
+          "L",
+          "Y",
+          "l",
+          "y"
+        ],
+        "opis": "L ciągnie się jak M, więc idzie łatwo. Y jest najtrudniejszą samogłoską i słychać ją głównie na końcu wyrazu."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          3,
+          4
+        ],
+        "sylaby": [
+          "T",
+          "I",
+          "t",
+          "i",
+          "U",
+          "K",
+          "u",
+          "k"
+        ],
+        "wyrazy": [
+          "KOT",
+          "MAK",
+          "AUTO",
+          "KAKAO"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t5-litery",
+          "typ": "sylaby_tabela",
+          "polecenie": "Pokaż i nazwij każdą literę.",
+          "dla_rodzica": "Mów głoskę, nie nazwę litery. Prowadź palcem od lewej.",
+          "dane": {
+            "wiersze": [
+              [
+                "L",
+                "l"
+              ],
+              [
+                "Y",
+                "y"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "wielka",
+              "mała"
+            ]
+          }
+        },
+        {
+          "id": "t5-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dla_rodzica": "Dwa razy po śladzie wystarczy. Nie prostuj chwytu w trakcie.",
+          "dane": {
+            "wzory": [
+              "L",
+              "l",
+              "Y",
+              "y"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t5-szukaj",
+          "typ": "sylaby_tabela",
+          "polecenie": "Zakreśl litery L i Y.",
+          "dla_rodzica": "Czytaj wiersz po wierszu, od lewej do prawej.",
+          "dane": {
+            "wiersze": [
+              [
+                "A",
+                "L",
+                "O",
+                "Y",
+                "M",
+                "L"
+              ],
+              [
+                "Y",
+                "T",
+                "L",
+                "I",
+                "Y",
+                "U"
+              ],
+              [
+                "K",
+                "L",
+                "E",
+                "Y",
+                "O",
+                "L"
+              ],
+              [
+                "L",
+                "U",
+                "Y",
+                "M",
+                "L",
+                "T"
+              ],
+              [
+                "I",
+                "Y",
+                "K",
+                "L",
+                "A",
+                "Y"
+              ]
+            ]
+          }
+        }
+      ],
+      "gra": {
+        "nazwa": "Wyścig po literę",
+        "cel": "Dziecko odnajduje literę wśród dziesięciu innych.",
+        "gracze": "2",
+        "czas_min": 12,
+        "przygotowanie": [
+          "Wytnij karty z literami A, O, M, E, T, I, U, K, L, Y.",
+          "Rozłóż je na dywanie napisem do góry."
+        ],
+        "zasady": [
+          "Mów literę na głos.",
+          "Dziecko biegnie i przynosi właściwą kartę.",
+          "Po dziesięciu literach policzcie trafienia."
+        ],
+        "elementy_do_wyciecia": [
+          "dziesięć kart: A, O, M, E, T, I, U, K, L, Y"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Lato u babci",
+        "czyta": "rodzic",
+        "linie": [
+          "Ola jedzie do babci na lato.",
+          "Bierze ze sobą lalkę.",
+          "W ogrodzie lata motyl.",
+          "Ola biegnie za motylem.",
+          "Motyl siada na liściu.",
+          "Ola patrzy i nie rusza się."
+        ],
+        "pytania": [
+          "Pokaż literę L w wyrazie lalka.",
+          "W którym wyrazie słychać Y na końcu?"
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„L ciągnie się jak M: lllll.”",
+          "„Y słychać na końcu: kotYYY.”"
+        ],
+        "na_co_uwazac": [
+          "Y jest trudne. Wystarczy, że dziecko rozpozna kształt — dźwięk dojdzie sam.",
+          "Przy zakreślaniu liter pilnuj, żeby dziecko szło od lewej do prawej."
+        ],
+        "kiedy_dalej": [
+          "Przejdź dalej, kiedy dziecko zakreśli na stronie co najmniej osiem z dziesięciu liter L i Y."
+        ],
+        "jesli_nie_idzie": [
+          "Zakryj kartką dolne wiersze. Mniej znaków na raz to mniej zmęczenia."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 5 — rubryki wypełnia dorosły",
+        "wiersze": [
+          "Pokazuję literę L wśród innych",
+          "Piszę L po śladzie",
+          "Pokazuję literę Y wśród innych",
+          "Piszę Y po śladzie",
+          "Słyszę L i Y w wyrazie",
+          "Znajduję obie litery na stronie z poprzedniego tygodnia"
+        ],
+        "kolumny": [
+          "próba 1",
+          "próba 2",
+          "próba 3"
+        ]
+      }
+    },
+    {
+      "nr": 6,
+      "cel": "W tym tygodniu dziecko poznaje D i S i wstawia brakującą literę do wyrazu.",
+      "poziom_trudnosci": 6,
+      "nowy_material": {
+        "litery": [
+          "D",
+          "S"
+        ],
+        "sylaby": [
+          "D",
+          "S",
+          "d",
+          "s"
+        ],
+        "opis": "S syczy, D puka. D wprowadzamy tutaj, a B dopiero pięć tygodni później — tak, żeby oba kształty nie spotkały się za wcześnie."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          4,
+          5
+        ],
+        "sylaby": [
+          "U",
+          "K",
+          "u",
+          "k",
+          "L",
+          "Y",
+          "l",
+          "y"
+        ],
+        "wyrazy": [
+          "LATO",
+          "LALKA",
+          "MOTYL",
+          "KOTY"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t6-litery",
+          "typ": "sylaby_tabela",
+          "polecenie": "Pokaż i nazwij każdą literę.",
+          "dla_rodzica": "Mów głoskę, nie nazwę litery. Prowadź palcem od lewej.",
+          "dane": {
+            "wiersze": [
+              [
+                "D",
+                "d"
+              ],
+              [
+                "S",
+                "s"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "wielka",
+              "mała"
+            ]
+          }
+        },
+        {
+          "id": "t6-sluch",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl literę, którą słyszysz.",
+          "dla_rodzica": "Przeczytaj podpowiedź i przeciągnij pierwszą głoskę.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: dom.",
+                "opcje": [
+                  "D",
+                  "S",
+                  "T"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: sok.",
+                "opcje": [
+                  "K",
+                  "S",
+                  "D"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: sowa.",
+                "opcje": [
+                  "D",
+                  "S",
+                  "U"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: dym.",
+                "opcje": [
+                  "S",
+                  "D",
+                  "Y"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: lalka.",
+                "opcje": [
+                  "D",
+                  "L",
+                  "S"
+                ],
+                "poprawna": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "t6-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dla_rodzica": "Dwa razy po śladzie wystarczy. Nie prostuj chwytu w trakcie.",
+          "dane": {
+            "wzory": [
+              "D",
+              "d",
+              "S",
+              "s"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t6-uzupelnij",
+          "typ": "uzupelnij_sylabe",
+          "polecenie": "Wstaw brakującą literę.",
+          "dla_rodzica": "Przeczytaj cały wyraz na głos. Dziecko wybiera literę.",
+          "dane": {
+            "pozycje": [
+              {
+                "wzor": "_OM",
+                "opcje": [
+                  "S",
+                  "D",
+                  "K"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "SO_",
+                "opcje": [
+                  "D",
+                  "T",
+                  "K"
+                ],
+                "poprawna": 2
+              },
+              {
+                "wzor": "LI_",
+                "opcje": [
+                  "T",
+                  "S",
+                  "D"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "_YM",
+                "opcje": [
+                  "L",
+                  "S",
+                  "D"
+                ],
+                "poprawna": 2
+              },
+              {
+                "wzor": "MO_A",
+                "opcje": [
+                  "T",
+                  "D",
+                  "S"
+                ],
+                "poprawna": 1
+              }
+            ]
+          }
+        }
+      ],
+      "gra": {
+        "nazwa": "Dom dla litery",
+        "cel": "Dziecko sortuje litery według pierwszej głoski wyrazu.",
+        "gracze": "2",
+        "czas_min": 12,
+        "przygotowanie": [
+          "Wytnij karty z literami D i S.",
+          "Przygotuj dwa talerzyki."
+        ],
+        "zasady": [
+          "Połóż po jednej karcie przy każdym talerzyku.",
+          "Mów wyraz. Dziecko kładzie żeton na właściwym talerzyku.",
+          "Żetonem może być klocek albo guzik z domu."
+        ],
+        "elementy_do_wyciecia": [
+          "karta z literą D",
+          "karta z literą S"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Dom i sok",
+        "czyta": "rodzic",
+        "linie": [
+          "Adam wraca do domu.",
+          "W kuchni stoi dzbanek.",
+          "W dzbanku jest sok.",
+          "Adam nalewa pół szklanki.",
+          "Pije powoli.",
+          "Potem odstawia szklankę na blat."
+        ],
+        "pytania": [
+          "Pokaż literę D w wyrazie dom.",
+          "Znajdź dwa wyrazy z literą S."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„D puka: d, d, d. S syczy jak wąż: sssss.”",
+          "„Brakuje jednej litery. Powiem wyraz, a ty wybierz.”"
+        ],
+        "na_co_uwazac": [
+          "Przy wstawianiu litery przeczytaj wyraz na głos. Dziecko jeszcze nie czyta samo.",
+          "Nie wprowadzaj B, choć kształt kusi. B przyjdzie w tygodniu 11."
+        ],
+        "kiedy_dalej": [
+          "Przejdź dalej, kiedy dziecko wstawi poprawnie cztery litery z pięciu."
+        ],
+        "jesli_nie_idzie": [
+          "Zrób stronę z wyrazami ustnie, bez zakreślania. Wrócicie do niej za tydzień."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 6 — rubryki wypełnia dorosły",
+        "wiersze": [
+          "Pokazuję literę D wśród innych",
+          "Piszę D po śladzie",
+          "Pokazuję literę S wśród innych",
+          "Piszę S po śladzie",
+          "Słyszę D i S w wyrazie",
+          "Znajduję obie litery na stronie z poprzedniego tygodnia"
+        ],
+        "kolumny": [
+          "próba 1",
+          "próba 2",
+          "próba 3"
+        ]
+      }
+    },
+    {
+      "nr": 7,
+      "cel": "W tym tygodniu dziecko odróżnia N od M i rozpoznaje R.",
+      "poziom_trudnosci": 7,
+      "nowy_material": {
+        "litery": [
+          "N",
+          "R"
+        ],
+        "sylaby": [
+          "N",
+          "R",
+          "n",
+          "r"
+        ],
+        "opis": "N brzmi podobnie do M, więc porównujemy je wprost. R zostawiliśmy do tej pory, bo bywa trudne do wymówienia — tu tylko je rozpoznajemy."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          5,
+          6
+        ],
+        "sylaby": [
+          "L",
+          "Y",
+          "l",
+          "y",
+          "D",
+          "S",
+          "d",
+          "s"
+        ],
+        "wyrazy": [
+          "DOM",
+          "SOK",
+          "LIS",
+          "DYM"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t7-litery",
+          "typ": "sylaby_tabela",
+          "polecenie": "Pokaż i nazwij każdą literę.",
+          "dla_rodzica": "Mów głoskę, nie nazwę litery. Prowadź palcem od lewej.",
+          "dane": {
+            "wiersze": [
+              [
+                "N",
+                "n"
+              ],
+              [
+                "R",
+                "r"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "wielka",
+              "mała"
+            ]
+          }
+        },
+        {
+          "id": "t7-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dla_rodzica": "Dwa razy po śladzie wystarczy. Nie prostuj chwytu w trakcie.",
+          "dane": {
+            "wzory": [
+              "N",
+              "n",
+              "R",
+              "r"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t7-lacz",
+          "typ": "lacz_sylaby",
+          "polecenie": "Połącz wielką literę z małą.",
+          "dla_rodzica": "Kolumna po prawej jest wymieszana. Nie podpowiadaj palcem.",
+          "dane": {
+            "lewa": [
+              "N",
+              "R",
+              "D",
+              "S",
+              "K",
+              "U"
+            ],
+            "prawa": [
+              "n",
+              "r",
+              "d",
+              "s",
+              "k",
+              "u"
+            ],
+            "pary": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                5
+              ]
+            ]
+          }
+        },
+        {
+          "id": "t7-ramka",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj coś na tę literę.",
+          "dla_rodzica": "Przeczytaj literę. Wyraz wymyśla dziecko, rysunku nie poprawiaj.",
+          "dane": {
+            "wyrazy": [
+              "N",
+              "R"
+            ],
+            "wysokosc_ramki_mm": 70
+          }
+        }
+      ],
+      "gra": {
+        "nazwa": "Ciche N czy M",
+        "cel": "Dziecko odróżnia dwa podobne dźwięki.",
+        "gracze": "2",
+        "czas_min": 10,
+        "przygotowanie": [
+          "Wytnij karty z literami N, M i R."
+        ],
+        "zasady": [
+          "Mów wyraz szeptem.",
+          "Dziecko podnosi kartę z pierwszą literą.",
+          "Przy pomyłce powiedz wyraz jeszcze raz, wolniej."
+        ],
+        "elementy_do_wyciecia": [
+          "karta z literą N",
+          "karta z literą M",
+          "karta z literą R"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Nora i rak",
+        "czyta": "na_zmiane",
+        "linie": [
+          "Zosia idzie nad strumień.",
+          "Pod kamieniem jest nora.",
+          "W norze siedzi rak.",
+          "Rak wystawia szczypce.",
+          "Zosia odkłada kamień na miejsce.",
+          "Rak wraca do nory."
+        ],
+        "pytania": [
+          "Pokaż literę N w wyrazie nora.",
+          "Ile razy widzisz literę R?"
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„M to dwie górki, N to jedna.”",
+          "„R warczy: rrrr. Posłuchaj, jak brzmi w wyrazie rak.”"
+        ],
+        "na_co_uwazac": [
+          "Jeśli dziecko nie wymawia R, nic nie szkodzi. Tu tylko rozpoznajemy literę.",
+          "Do ramki dziecko rysuje samo. Nie poprawiaj rysunku."
+        ],
+        "kiedy_dalej": [
+          "Przejdź dalej, kiedy dziecko odróżni M od N w trzech wyrazach pod rząd."
+        ],
+        "jesli_nie_idzie": [
+          "Wróć do gry z tygodnia 2 i dołóż do talii karty N i R."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 7 — rubryki wypełnia dorosły",
+        "wiersze": [
+          "Pokazuję literę N wśród innych",
+          "Piszę N po śladzie",
+          "Pokazuję literę R wśród innych",
+          "Piszę R po śladzie",
+          "Słyszę N i R w wyrazie",
+          "Znajduję obie litery na stronie z poprzedniego tygodnia"
+        ],
+        "kolumny": [
+          "próba 1",
+          "próba 2",
+          "próba 3"
+        ]
+      }
+    },
+    {
+      "nr": 8,
+      "cel": "W tym tygodniu dziecko porównuje W z M i wstawia P do wyrazu.",
+      "poziom_trudnosci": 8,
+      "nowy_material": {
+        "litery": [
+          "P",
+          "W"
+        ],
+        "sylaby": [
+          "P",
+          "W",
+          "p",
+          "w"
+        ],
+        "opis": "P i W mają wyraźne kształty. W stawiamy obok M, bo to ten sam znak do góry nogami — lepiej porównać je świadomie."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          6,
+          7
+        ],
+        "sylaby": [
+          "D",
+          "S",
+          "d",
+          "s",
+          "N",
+          "R",
+          "n",
+          "r"
+        ],
+        "wyrazy": [
+          "NOS",
+          "RAK",
+          "KURA",
+          "MUR"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t8-litery",
+          "typ": "sylaby_tabela",
+          "polecenie": "Pokaż i nazwij każdą literę.",
+          "dla_rodzica": "Mów głoskę, nie nazwę litery. Prowadź palcem od lewej.",
+          "dane": {
+            "wiersze": [
+              [
+                "P",
+                "p"
+              ],
+              [
+                "W",
+                "w"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "wielka",
+              "mała"
+            ]
+          }
+        },
+        {
+          "id": "t8-sluch",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl literę, którą słyszysz.",
+          "dla_rodzica": "Przeczytaj podpowiedź i przeciągnij pierwszą głoskę.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: pan.",
+                "opcje": [
+                  "P",
+                  "W",
+                  "D"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: woda.",
+                "opcje": [
+                  "P",
+                  "W",
+                  "S"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: rower.",
+                "opcje": [
+                  "W",
+                  "R",
+                  "P"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: pies.",
+                "opcje": [
+                  "S",
+                  "P",
+                  "W"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: nos.",
+                "opcje": [
+                  "N",
+                  "P",
+                  "W"
+                ],
+                "poprawna": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "t8-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dla_rodzica": "Dwa razy po śladzie wystarczy. Nie prostuj chwytu w trakcie.",
+          "dane": {
+            "wzory": [
+              "P",
+              "p",
+              "W",
+              "w"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t8-uzupelnij",
+          "typ": "uzupelnij_sylabe",
+          "polecenie": "Wstaw brakującą literę.",
+          "dla_rodzica": "Przeczytaj cały wyraz na głos. Dziecko wybiera literę.",
+          "dane": {
+            "pozycje": [
+              {
+                "wzor": "_AN",
+                "opcje": [
+                  "W",
+                  "P",
+                  "D"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "WO_A",
+                "opcje": [
+                  "P",
+                  "T",
+                  "D"
+                ],
+                "poprawna": 2
+              },
+              {
+                "wzor": "MA_A",
+                "opcje": [
+                  "P",
+                  "W",
+                  "N"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "_UR",
+                "opcje": [
+                  "P",
+                  "M",
+                  "W"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "LAM_A",
+                "opcje": [
+                  "P",
+                  "W",
+                  "N"
+                ],
+                "poprawna": 0
+              }
+            ]
+          }
+        }
+      ],
+      "gra": {
+        "nazwa": "Papierowe litery",
+        "cel": "Dziecko odtwarza kształt litery ręką.",
+        "gracze": "2",
+        "czas_min": 15,
+        "przygotowanie": [
+          "Przygotuj gazetę albo makulaturę."
+        ],
+        "zasady": [
+          "Zwijajcie paski papieru w wałeczki.",
+          "Z wałeczków układajcie po kolei P, W i M.",
+          "Na koniec dziecko mówi, czym różni się W od M."
+        ],
+        "elementy_do_wyciecia": []
+      },
+      "czytanka": {
+        "tytul": "Woda i parasol",
+        "czyta": "na_zmiane",
+        "linie": [
+          "Pada od rana.",
+          "Ola bierze parasol.",
+          "Idzie po wodzie w kaloszach.",
+          "Przy bramie czeka Kuba.",
+          "Kuba nie ma parasola.",
+          "Ola wpuszcza go pod swój."
+        ],
+        "pytania": [
+          "Pokaż literę P w wyrazie parasol.",
+          "Znajdź wyraz z literą W na początku."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„W to M postawione na głowie. Obróć kartkę i zobacz.”",
+          "„P puka wargami: p, p, p.”"
+        ],
+        "na_co_uwazac": [
+          "W i M to najczęstsza pomyłka w tym tygodniu. Porównujcie je za każdym razem.",
+          "Przy wyrazach z brakującą literą czytaj wyraz, nie literuj go."
+        ],
+        "kiedy_dalej": [
+          "Przejdź dalej, kiedy dziecko samo powie, czym różni się W od M."
+        ],
+        "jesli_nie_idzie": [
+          "Ułóżcie W i M z wałeczków papieru jeszcze raz. Ręka zapamiętuje szybciej niż oko."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 8 — rubryki wypełnia dorosły",
+        "wiersze": [
+          "Pokazuję literę P wśród innych",
+          "Piszę P po śladzie",
+          "Pokazuję literę W wśród innych",
+          "Piszę W po śladzie",
+          "Słyszę P i W w wyrazie",
+          "Znajduję obie litery na stronie z poprzedniego tygodnia"
+        ],
+        "kolumny": [
+          "próba 1",
+          "próba 2",
+          "próba 3"
+        ]
+      }
+    },
+    {
+      "nr": 9,
+      "cel": "W tym tygodniu dziecko zapisuje dyktowane litery i idzie ścieżką z liter.",
+      "poziom_trudnosci": 9,
+      "nowy_material": {
+        "litery": [
+          "J",
+          "C"
+        ],
+        "sylaby": [
+          "J",
+          "C",
+          "j",
+          "c"
+        ],
+        "opis": "J ma haczyk schodzący pod linię, C to otwarty łuk. Obie litery trafiają się na końcu wyrazów, więc ćwiczymy też słuch."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          7,
+          8
+        ],
+        "sylaby": [
+          "N",
+          "R",
+          "n",
+          "r",
+          "P",
+          "W",
+          "p",
+          "w"
+        ],
+        "wyrazy": [
+          "WODA",
+          "PAN",
+          "MAPA",
+          "LAMPA"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t9-litery",
+          "typ": "sylaby_tabela",
+          "polecenie": "Pokaż i nazwij każdą literę.",
+          "dla_rodzica": "Mów głoskę, nie nazwę litery. Prowadź palcem od lewej.",
+          "dane": {
+            "wiersze": [
+              [
+                "J",
+                "j"
+              ],
+              [
+                "C",
+                "c"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "wielka",
+              "mała"
+            ]
+          }
+        },
+        {
+          "id": "t9-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dla_rodzica": "Dwa razy po śladzie wystarczy. Nie prostuj chwytu w trakcie.",
+          "dane": {
+            "wzory": [
+              "J",
+              "j",
+              "C",
+              "c"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t9-sciezka",
+          "typ": "sylaby_sciezka",
+          "polecenie": "Idź palcem i mów literę.",
+          "dla_rodzica": "Jedna litera na jedno dotknięcie. Bez pośpiechu.",
+          "dane": {
+            "kroki": [
+              "J",
+              "C",
+              "A",
+              "J",
+              "N",
+              "C",
+              "R",
+              "J",
+              "C",
+              "O",
+              "J",
+              "C"
+            ],
+            "meta": "C"
+          }
+        },
+        {
+          "id": "t9-dyktando",
+          "typ": "dyktando_sylabowe",
+          "polecenie": "Zapisz litery, które słyszysz.",
+          "dla_rodzica": "Dyktuj po jednej literze i czekaj, aż dziecko skończy.",
+          "dane": {
+            "do_dyktowania": [
+              "J",
+              "C",
+              "N",
+              "R",
+              "j",
+              "c",
+              "n",
+              "r"
+            ],
+            "liniatura": "trzylinia"
+          }
+        }
+      ],
+      "gra": {
+        "nazwa": "Łańcuch liter",
+        "cel": "Dziecko utrzymuje uwagę na kolejności liter.",
+        "gracze": "2",
+        "czas_min": 10,
+        "przygotowanie": [
+          "Wytnij karty z literami J, C, N i R."
+        ],
+        "zasady": [
+          "Pierwszy gracz kładzie kartę i nazywa literę.",
+          "Drugi dokłada kolejną i powtarza cały łańcuch od początku.",
+          "Gra kończy się przy pierwszej pomyłce — zaczynacie od nowa."
+        ],
+        "elementy_do_wyciecia": [
+          "karta z literą J",
+          "karta z literą C",
+          "karta z literą N",
+          "karta z literą R"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Jajko i koc",
+        "czyta": "na_zmiane",
+        "linie": [
+          "Rano Ewa robi jajko na miękko.",
+          "Adam rozkłada koc na podłodze.",
+          "Jedzą śniadanie na kocu.",
+          "Obok stoi kubek z mlekiem.",
+          "Po śniadaniu składają koc.",
+          "Koc wraca na półkę."
+        ],
+        "pytania": [
+          "Pokaż literę J w wyrazie jajko.",
+          "Znajdź wyraz z literą C na końcu."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„J ma haczyk, który schodzi pod linię.”",
+          "„Teraz ja mówię literę, a ty ją zapisujesz.”"
+        ],
+        "na_co_uwazac": [
+          "W dyktandzie mów jedną literę i czekaj. Nie dyktuj po dwie naraz.",
+          "Jeśli dziecko pisze lustrzanie, pokaż wzór z góry strony i nie komentuj więcej."
+        ],
+        "kiedy_dalej": [
+          "Przejdź dalej, kiedy dziecko zapisze sześć z ośmiu dyktowanych liter."
+        ],
+        "jesli_nie_idzie": [
+          "Skróć dyktando do czterech liter. Resztę zrób następnego dnia."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 9 — rubryki wypełnia dorosły",
+        "wiersze": [
+          "Pokazuję literę J wśród innych",
+          "Piszę J po śladzie",
+          "Pokazuję literę C wśród innych",
+          "Piszę C po śladzie",
+          "Słyszę J i C w wyrazie",
+          "Znajduję obie litery na stronie z poprzedniego tygodnia"
+        ],
+        "kolumny": [
+          "próba 1",
+          "próba 2",
+          "próba 3"
+        ]
+      }
+    },
+    {
+      "nr": 10,
+      "cel": "W tym tygodniu dziecko odróżnia L od Ł i wstawia Z do wyrazu.",
+      "poziom_trudnosci": 10,
+      "nowy_material": {
+        "litery": [
+          "Z",
+          "Ł"
+        ],
+        "sylaby": [
+          "Z",
+          "Ł",
+          "z",
+          "ł"
+        ],
+        "opis": "Z to trzy kreski, Ł to znane już L z kreseczką. Pierwsza litera z dodatkiem — dziecko widzi, że drobny znak zmienia dźwięk."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          8,
+          9
+        ],
+        "sylaby": [
+          "P",
+          "W",
+          "p",
+          "w",
+          "J",
+          "C",
+          "j",
+          "c"
+        ],
+        "wyrazy": [
+          "JAJKO",
+          "NOC",
+          "KOC",
+          "CUKIER"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t10-litery",
+          "typ": "sylaby_tabela",
+          "polecenie": "Pokaż i nazwij każdą literę.",
+          "dla_rodzica": "Mów głoskę, nie nazwę litery. Prowadź palcem od lewej.",
+          "dane": {
+            "wiersze": [
+              [
+                "Z",
+                "z"
+              ],
+              [
+                "Ł",
+                "ł"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "wielka",
+              "mała"
+            ]
+          }
+        },
+        {
+          "id": "t10-sluch",
+          "typ": "wybierz_wyraz",
+          "polecenie": "Zakreśl literę, którą słyszysz.",
+          "dla_rodzica": "Przeczytaj podpowiedź i przeciągnij pierwszą głoskę.",
+          "dane": {
+            "pozycje": [
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: zupa.",
+                "opcje": [
+                  "Z",
+                  "Ł",
+                  "S"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: łapa.",
+                "opcje": [
+                  "L",
+                  "Ł",
+                  "Z"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: zamek.",
+                "opcje": [
+                  "C",
+                  "Z",
+                  "Ł"
+                ],
+                "poprawna": 1
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: łoś.",
+                "opcje": [
+                  "Ł",
+                  "Z",
+                  "L"
+                ],
+                "poprawna": 0
+              },
+              {
+                "podpowiedz_rodzica": "Powiedz wolno: jajko.",
+                "opcje": [
+                  "Z",
+                  "J",
+                  "Ł"
+                ],
+                "poprawna": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "t10-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dla_rodzica": "Dwa razy po śladzie wystarczy. Nie prostuj chwytu w trakcie.",
+          "dane": {
+            "wzory": [
+              "Z",
+              "z",
+              "Ł",
+              "ł"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t10-uzupelnij",
+          "typ": "uzupelnij_sylabe",
+          "polecenie": "Wstaw brakującą literę.",
+          "dla_rodzica": "Przeczytaj cały wyraz na głos. Dziecko wybiera literę.",
+          "dane": {
+            "pozycje": [
+              {
+                "wzor": "ZAM_K",
+                "opcje": [
+                  "O",
+                  "E",
+                  "A"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "MA_PA",
+                "opcje": [
+                  "L",
+                  "Ł",
+                  "Z"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "_IMA",
+                "opcje": [
+                  "D",
+                  "Z",
+                  "Ł"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "ŁA_KA",
+                "opcje": [
+                  "Z",
+                  "M",
+                  "W"
+                ],
+                "poprawna": 2
+              },
+              {
+                "wzor": "KO_",
+                "opcje": [
+                  "Z",
+                  "Ł",
+                  "C"
+                ],
+                "poprawna": 2
+              }
+            ]
+          }
+        }
+      ],
+      "gra": {
+        "nazwa": "Zupa z liter",
+        "cel": "Dziecko wyławia literę z większego zbioru.",
+        "gracze": "2",
+        "czas_min": 12,
+        "przygotowanie": [
+          "Wytnij karty ze wszystkimi poznanymi literami.",
+          "Wrzuć je do miski i wymieszaj."
+        ],
+        "zasady": [
+          "Dziecko wyjmuje kartę i nazywa literę.",
+          "Jeśli nazwie dobrze, odkłada kartę na swój stos.",
+          "Jeśli nie — karta wraca do miski."
+        ],
+        "elementy_do_wyciecia": [
+          "karty z dwudziestoma dwiema poznanymi literami"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Zupa i małpa",
+        "czyta": "na_zmiane",
+        "linie": [
+          "Tomek ogląda książkę o zwierzętach.",
+          "Na obrazku siedzi małpa.",
+          "Małpa trzyma banana w łapie.",
+          "Tomek pokazuje obrazek mamie.",
+          "Mama stawia na stole talerz zupy.",
+          "Tomek je i patrzy na małpę."
+        ],
+        "pytania": [
+          "Pokaż literę Z w wyrazie zupa.",
+          "Znajdź literę Ł w wyrazie łapa."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„Ł to L z kreseczką. Kreseczka zmienia dźwięk.”",
+          "„Z to trzy kreski: góra, ukos, dół.”"
+        ],
+        "na_co_uwazac": [
+          "L i Ł to jedyna para w tym programie, która różni się jednym znakiem. Pokazuj je zawsze obok siebie.",
+          "Przy wyrazie małpa zwróć uwagę, że Ł jest w środku, nie na początku."
+        ],
+        "kiedy_dalej": [
+          "Przejdź dalej, kiedy dziecko wskaże Ł wśród pięciu liter L."
+        ],
+        "jesli_nie_idzie": [
+          "Wypisz na kartce pięć razy L i raz Ł. Niech dziecko znajdzie tę jedną."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 10 — rubryki wypełnia dorosły",
+        "wiersze": [
+          "Pokazuję literę Z wśród innych",
+          "Piszę Z po śladzie",
+          "Pokazuję literę Ł wśród innych",
+          "Piszę Ł po śladzie",
+          "Słyszę Z i Ł w wyrazie",
+          "Znajduję obie litery na stronie z poprzedniego tygodnia"
+        ],
+        "kolumny": [
+          "próba 1",
+          "próba 2",
+          "próba 3"
+        ]
+      }
+    },
+    {
+      "nr": 11,
+      "cel": "W tym tygodniu dziecko odróżnia B od D i G od P.",
+      "poziom_trudnosci": 11,
+      "nowy_material": {
+        "litery": [
+          "B",
+          "G"
+        ],
+        "sylaby": [
+          "B",
+          "G",
+          "b",
+          "g"
+        ],
+        "opis": "B wprowadzamy pięć tygodni po D, a G trzy tygodnie po P. To kształty, które najłatwiej pomylić, więc dzielimy je czasem."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          9,
+          10
+        ],
+        "sylaby": [
+          "J",
+          "C",
+          "j",
+          "c",
+          "Z",
+          "Ł",
+          "z",
+          "ł"
+        ],
+        "wyrazy": [
+          "ZUPA",
+          "KOZA",
+          "MAŁPA",
+          "ZAMEK"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t11-litery",
+          "typ": "sylaby_tabela",
+          "polecenie": "Pokaż i nazwij każdą literę.",
+          "dla_rodzica": "Mów głoskę, nie nazwę litery. Prowadź palcem od lewej.",
+          "dane": {
+            "wiersze": [
+              [
+                "B",
+                "b"
+              ],
+              [
+                "G",
+                "g"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "wielka",
+              "mała"
+            ]
+          }
+        },
+        {
+          "id": "t11-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dla_rodzica": "Dwa razy po śladzie wystarczy. Nie prostuj chwytu w trakcie.",
+          "dane": {
+            "wzory": [
+              "B",
+              "b",
+              "G",
+              "g"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t11-lacz",
+          "typ": "lacz_sylaby",
+          "polecenie": "Połącz wielką literę z małą.",
+          "dla_rodzica": "Kolumna po prawej jest wymieszana. Nie podpowiadaj palcem.",
+          "dane": {
+            "lewa": [
+              "B",
+              "G",
+              "P",
+              "W",
+              "Z",
+              "Ł"
+            ],
+            "prawa": [
+              "b",
+              "g",
+              "p",
+              "w",
+              "z",
+              "ł"
+            ],
+            "pary": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                5
+              ]
+            ]
+          }
+        },
+        {
+          "id": "t11-dyktando",
+          "typ": "dyktando_sylabowe",
+          "polecenie": "Zapisz litery, które słyszysz.",
+          "dla_rodzica": "Dyktuj po jednej literze i czekaj, aż dziecko skończy.",
+          "dane": {
+            "do_dyktowania": [
+              "B",
+              "G",
+              "P",
+              "W",
+              "b",
+              "g",
+              "p",
+              "w"
+            ],
+            "liniatura": "trzylinia"
+          }
+        }
+      ],
+      "gra": {
+        "nazwa": "Bingo literowe",
+        "cel": "Dziecko odróżnia B od D i G od P.",
+        "gracze": "2",
+        "czas_min": 15,
+        "przygotowanie": [
+          "Wytnij karty z literami B, D, G i P.",
+          "Narysuj dziecku planszę cztery na cztery i wpiszcie w kratki te cztery litery."
+        ],
+        "zasady": [
+          "Losuj kartę i nazywaj literę.",
+          "Dziecko zakrywa jedną kratkę z tą literą.",
+          "Wygrywa pełny rząd — w poziomie albo w pionie."
+        ],
+        "elementy_do_wyciecia": [
+          "karta z literą B",
+          "karta z literą D",
+          "karta z literą G",
+          "karta z literą P"
+        ]
+      },
+      "czytanka": {
+        "tytul": "But i guma",
+        "czyta": "na_zmiane",
+        "linie": [
+          "Kuba szuka drugiego buta.",
+          "But leży pod łóżkiem.",
+          "W bucie jest kamyk.",
+          "Kuba wytrząsa kamyk na dywan.",
+          "Potem wiąże sznurówkę.",
+          "Guma w skarpecie uwiera."
+        ],
+        "pytania": [
+          "Pokaż literę B w wyrazie but.",
+          "Znajdź wyraz z literą G."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„B ma brzuszek po prawej. D ma brzuszek po lewej.”",
+          "„Patrz na brzuszek, nie na kreskę.”"
+        ],
+        "na_co_uwazac": [
+          "Mylenie B i D jest normalne w tym wieku i mija. Nie komentuj pomyłek.",
+          "G i P też bywają mylone. Porównajcie ogonki: G zakręca, P nie."
+        ],
+        "kiedy_dalej": [
+          "Przejdź dalej, kiedy dziecko wskaże B wśród czterech liter D."
+        ],
+        "jesli_nie_idzie": [
+          "Zostaw B i D na dwa dni. Wróćcie do nich po grze z tygodnia 5."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 11 — rubryki wypełnia dorosły",
+        "wiersze": [
+          "Pokazuję literę B wśród innych",
+          "Piszę B po śladzie",
+          "Pokazuję literę G wśród innych",
+          "Piszę G po śladzie",
+          "Słyszę B i G w wyrazie",
+          "Znajduję obie litery na stronie z poprzedniego tygodnia"
+        ],
+        "kolumny": [
+          "próba 1",
+          "próba 2",
+          "próba 3"
+        ]
+      }
+    },
+    {
+      "nr": 12,
+      "cel": "W tym tygodniu dziecko zna wszystkie 24 litery i układa z nich swoje imię.",
+      "poziom_trudnosci": 12,
+      "nowy_material": {
+        "litery": [
+          "F",
+          "H"
+        ],
+        "sylaby": [
+          "F",
+          "H",
+          "f",
+          "h"
+        ],
+        "opis": "Dwie ostatnie litery. Rzadkie w wyrazach, więc zostawiamy je na koniec, kiedy reszta alfabetu już siedzi."
+      },
+      "powtorka": {
+        "z_tygodni": [
+          10,
+          11
+        ],
+        "sylaby": [
+          "Z",
+          "Ł",
+          "z",
+          "ł",
+          "B",
+          "G",
+          "b",
+          "g"
+        ],
+        "wyrazy": [
+          "BUT",
+          "NOGA",
+          "BUDA",
+          "GUMA"
+        ]
+      },
+      "material_dziecka": [
+        {
+          "id": "t12-litery",
+          "typ": "sylaby_tabela",
+          "polecenie": "Pokaż i nazwij każdą literę.",
+          "dla_rodzica": "Mów głoskę, nie nazwę litery. Prowadź palcem od lewej.",
+          "dane": {
+            "wiersze": [
+              [
+                "F",
+                "f"
+              ],
+              [
+                "H",
+                "h"
+              ]
+            ],
+            "naglowki_kolumn": [
+              "wielka",
+              "mała"
+            ]
+          }
+        },
+        {
+          "id": "t12-pisanie",
+          "typ": "pisanie_sylab",
+          "polecenie": "Napisz po śladzie.",
+          "dla_rodzica": "Dwa razy po śladzie wystarczy. Nie prostuj chwytu w trakcie.",
+          "dane": {
+            "wzory": [
+              "F",
+              "f",
+              "H",
+              "h"
+            ],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "t12-uzupelnij",
+          "typ": "uzupelnij_sylabe",
+          "polecenie": "Wstaw brakującą literę.",
+          "dla_rodzica": "Przeczytaj cały wyraz na głos. Dziecko wybiera literę.",
+          "dane": {
+            "pozycje": [
+              {
+                "wzor": "_OKA",
+                "opcje": [
+                  "H",
+                  "F",
+                  "B"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "_AMAK",
+                "opcje": [
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "poprawna": 2
+              },
+              {
+                "wzor": "_IGURA",
+                "opcje": [
+                  "F",
+                  "H",
+                  "B"
+                ],
+                "poprawna": 0
+              },
+              {
+                "wzor": "_UMOR",
+                "opcje": [
+                  "F",
+                  "H",
+                  "G"
+                ],
+                "poprawna": 1
+              },
+              {
+                "wzor": "_ARFA",
+                "opcje": [
+                  "H",
+                  "B",
+                  "G"
+                ],
+                "poprawna": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "t12-szukaj",
+          "typ": "sylaby_tabela",
+          "polecenie": "Zakreśl litery F i H.",
+          "dla_rodzica": "Czytaj wiersz po wierszu, od lewej do prawej.",
+          "dane": {
+            "wiersze": [
+              [
+                "A",
+                "F",
+                "O",
+                "H",
+                "M",
+                "F"
+              ],
+              [
+                "H",
+                "T",
+                "F",
+                "I",
+                "H",
+                "U"
+              ],
+              [
+                "K",
+                "F",
+                "E",
+                "H",
+                "O",
+                "F"
+              ],
+              [
+                "F",
+                "U",
+                "H",
+                "M",
+                "F",
+                "T"
+              ],
+              [
+                "I",
+                "H",
+                "K",
+                "F",
+                "A",
+                "H"
+              ]
+            ]
+          }
+        }
+      ],
+      "gra": {
+        "nazwa": "Moje imię",
+        "cel": "Dziecko układa swoje imię z pojedynczych liter.",
+        "gracze": "2",
+        "czas_min": 15,
+        "przygotowanie": [
+          "Wytnij arkusz z dwudziestoma czterema literami.",
+          "Jeśli jakaś litera powtarza się w imieniu, wytnij ją drugi raz."
+        ],
+        "zasady": [
+          "Dziecko wybiera litery i układa z nich swoje imię.",
+          "Sprawdźcie razem kolejność, od lewej do prawej.",
+          "Potem ułóżcie imię kogoś jeszcze z domu."
+        ],
+        "elementy_do_wyciecia": [
+          "arkusz z dwudziestoma czterema literami do wycięcia"
+        ]
+      },
+      "czytanka": {
+        "tytul": "Foka i hamak",
+        "czyta": "na_zmiane",
+        "linie": [
+          "Zosia ogląda zdjęcie foki.",
+          "Foka leży na kamieniu.",
+          "Obok wisi hamak.",
+          "W hamaku śpi kot.",
+          "Zosia rysuje fokę i hamak.",
+          "Pod rysunkiem układa litery swojego imienia."
+        ],
+        "pytania": [
+          "Pokaż literę F w wyrazie foka.",
+          "Znajdź literę H w wyrazie hamak."
+        ]
+      },
+      "karta_rodzica": {
+        "co_powiedziec": [
+          "„To ostatnie dwie litery. Znasz już całe dwadzieścia cztery.”",
+          "„Poszukaj liter ze swojego imienia i ułóż je po kolei.”"
+        ],
+        "na_co_uwazac": [
+          "Przy układaniu imienia nie podpowiadaj kolejności. Poczekaj i dopiero potem pomóż.",
+          "Jeśli w imieniu jest litera z ogonkiem, dołóż ją ręcznie na osobnym skrawku."
+        ],
+        "kiedy_dalej": [
+          "Program jest skończony, kiedy dziecko ułoży swoje imię z wyciętych liter bez wzoru."
+        ],
+        "jesli_nie_idzie": [
+          "Ułóżcie najpierw krótsze imię — Ola, Ewa albo Adam. Potem wróćcie do własnego."
+        ]
+      },
+      "karta_postepu": {
+        "naglowek": "Tydzień 12 — rubryki wypełnia dorosły",
+        "wiersze": [
+          "Pokazuję literę F wśród innych",
+          "Piszę F po śladzie",
+          "Pokazuję literę H wśród innych",
+          "Piszę H po śladzie",
+          "Słyszę F i H w wyrazie",
+          "Znajduję obie litery na stronie z poprzedniego tygodnia"
+        ],
+        "kolumny": [
+          "próba 1",
+          "próba 2",
+          "próba 3"
+        ]
+      }
+    }
+  ],
+  "klucz_odpowiedzi": [
+    {
+      "strona_id": "t1-sluch",
+      "odpowiedzi": [
+        "A",
+        "O",
+        "A",
+        "O",
+        "A"
+      ]
+    },
+    {
+      "strona_id": "t2-sluch",
+      "odpowiedzi": [
+        "M",
+        "E",
+        "M",
+        "E",
+        "A"
+      ]
+    },
+    {
+      "strona_id": "t3-lacz",
+      "odpowiedzi": [
+        "A – a",
+        "O – o",
+        "M – m",
+        "E – e",
+        "T – t",
+        "I – i"
+      ]
+    },
+    {
+      "strona_id": "t4-sluch",
+      "odpowiedzi": [
+        "U",
+        "K",
+        "U",
+        "K",
+        "T"
+      ]
+    },
+    {
+      "strona_id": "t6-sluch",
+      "odpowiedzi": [
+        "D",
+        "S",
+        "S",
+        "D",
+        "L"
+      ]
+    },
+    {
+      "strona_id": "t6-uzupelnij",
+      "odpowiedzi": [
+        "DOM",
+        "SOK",
+        "LIS",
+        "DYM",
+        "MODA"
+      ]
+    },
+    {
+      "strona_id": "t7-lacz",
+      "odpowiedzi": [
+        "N – n",
+        "R – r",
+        "D – d",
+        "S – s",
+        "K – k",
+        "U – u"
+      ]
+    },
+    {
+      "strona_id": "t8-sluch",
+      "odpowiedzi": [
+        "P",
+        "W",
+        "R",
+        "P",
+        "N"
+      ]
+    },
+    {
+      "strona_id": "t8-uzupelnij",
+      "odpowiedzi": [
+        "PAN",
+        "WODA",
+        "MAPA",
+        "MUR",
+        "LAMPA"
+      ]
+    },
+    {
+      "strona_id": "t9-dyktando",
+      "odpowiedzi": [
+        "J",
+        "C",
+        "N",
+        "R",
+        "j",
+        "c",
+        "n",
+        "r"
+      ]
+    },
+    {
+      "strona_id": "t10-sluch",
+      "odpowiedzi": [
+        "Z",
+        "Ł",
+        "Z",
+        "Ł",
+        "J"
+      ]
+    },
+    {
+      "strona_id": "t10-uzupelnij",
+      "odpowiedzi": [
+        "ZAMEK",
+        "MAŁPA",
+        "ZIMA",
+        "ŁAWKA",
+        "KOC"
+      ]
+    },
+    {
+      "strona_id": "t11-lacz",
+      "odpowiedzi": [
+        "B – b",
+        "G – g",
+        "P – p",
+        "W – w",
+        "Z – z",
+        "Ł – ł"
+      ]
+    },
+    {
+      "strona_id": "t11-dyktando",
+      "odpowiedzi": [
+        "B",
+        "G",
+        "P",
+        "W",
+        "b",
+        "g",
+        "p",
+        "w"
+      ]
+    },
+    {
+      "strona_id": "t12-uzupelnij",
+      "odpowiedzi": [
+        "FOKA",
+        "HAMAK",
+        "FIGURA",
+        "HUMOR",
+        "HARFA"
+      ]
+    }
+  ],
+  "fragment": {
+    "do_tygodnia": 1,
+    "obietnica_na_stronie": "Cztery pierwsze strony z 96. Cały fragment pobierzesz za darmo, bez zakładania konta."
+  }
+}

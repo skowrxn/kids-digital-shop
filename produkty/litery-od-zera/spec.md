@@ -29,7 +29,9 @@ Dziecko pyta, co to za znaczki, i wytrzymuje przy stole dziesięć minut.
 
 ## Obietnica
 
-Po programie dziecko rozpoznaje wszystkie litery drukowane i układa z nich swoje imię.
+Po programie dziecko rozpoznaje **dwadzieścia cztery** litery drukowane (wielkie i małe) i układa z nich swoje imię.
+
+*(Doprecyzowanie: przy tempie dwóch liter na tydzień i 96 stronach mieszczą się 24 litery. Ogonki i dwuznaki zostają na później i są wymienione w sekcji „czego materiał NIE robi”.)*
 
 ## Progresja
 
@@ -41,6 +43,7 @@ Cały tydzień 1 plus wstęp, 11 stron.
 
 ## Czego ten materiał NIE robi
 
+- Nie wprowadza liter z ogonkami ani dwuznaków: Ą, Ę, Ś, Ć, Ź, Ń, CZ, SZ, RZ, CH.
 - Nie uczy czytania sylabami. To kolejny krok: „Czytam sylabami”.
 - Nie uczy pisania liter, tylko ich rozpoznawania i pisania po śladzie.
 - Nie ma terminu. Jedna litera na dwa dni to sugestia, nie norma.

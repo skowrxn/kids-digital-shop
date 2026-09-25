@@ -200,11 +200,24 @@
 
   {% elif s.typ == 'karty_do_wyciecia' %}
     {# Prawdziwe karty z liniami cięcia, nie opis „16 kart". Reguła twarda:
-       jeśli materiał wymaga elementów, są w pliku. #}
-    <div class="karty karty--{{ d.get('na_arkuszu', 9) }}">
+       jeśli materiał wymaga elementów, są w pliku.
+
+       z_podpisami: false to wersja dla dziecka, które jeszcze nie czyta —
+       zamiast napisu jest puste pole na rysunek albo wklejone zdjęcie.
+       Bez tego rozróżnienia obie wersje drukowałyby się identycznie. #}
+    {% set podpisy = d.get('z_podpisami', True) %}
+    {# Stopień pisma karty dobiera najdłuższy napis: „podekscytowania" nie
+       mieści się w polu przy 17 pt i wychodzi poza kartkę. #}
+    {% set naj_awers = d.karty | map(attribute='awers') | map('length') | max %}
+    <div class="karty karty--{{ d.get('na_arkuszu', 9) }}
+                {{ 'karty--gesto' if naj_awers > 14 }}">
       {% for k in d.karty %}
         <div class="karta-tnij">
-          <span class="karta-tnij__awers">{{ k.awers }}</span>
+          {% if podpisy and k.awers %}
+            <span class="karta-tnij__awers">{{ k.awers }}</span>
+          {% else %}
+            <span class="karta-tnij__pole"></span>
+          {% endif %}
           {% if k.get('rewers') %}<span class="karta-tnij__rewers">{{ k.rewers }}</span>{% endif %}
         </div>
       {% endfor %}

@@ -66,10 +66,10 @@
       "autor": "Kasia Wrona",
       "cena_pln": 59,
       "strony_prototyp": 140,
-      "etap": "spec",
+      "etap": "walidacja",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:31:46Z",
+      "zaktualizowano": "2026-09-25T10:52:51Z",
       "flagowy": true,
       "icp_glowne": "ICP-3-pogoda"
     },
@@ -175,10 +175,10 @@
       "autor": "Julia Rak",
       "cena_pln": 39,
       "strony_prototyp": 64,
-      "etap": "spec",
+      "etap": "walidacja",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:31:46Z"
+      "zaktualizowano": "2026-09-25T10:52:51Z"
     },
     {
       "slug": "ferie-bez-ekranu",
@@ -269,10 +269,10 @@
       "autor": "Julia Rak",
       "cena_pln": 39,
       "strony_prototyp": 72,
-      "etap": "spec",
+      "etap": "walidacja",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:31:46Z",
+      "zaktualizowano": "2026-09-25T10:52:51Z",
       "flagowy": true,
       "icp_glowne": "ICP-5-zlosc"
     },
@@ -361,10 +361,10 @@
       "autor": "Kasia Wrona",
       "cena_pln": 45,
       "strony_prototyp": 96,
-      "etap": "spec",
+      "etap": "walidacja",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:31:46Z"
+      "zaktualizowano": "2026-09-25T10:52:51Z"
     },
     {
       "slug": "litery-pisane",
@@ -1178,5 +1178,5 @@
       "zaktualizowano": "2026-08-31T14:55:38Z"
     }
   ],
-  "zaktualizowano": "2026-09-25T10:40:57Z"
+  "zaktualizowano": "2026-09-25T10:52:51Z"
 }

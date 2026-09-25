@@ -25,7 +25,7 @@ SPECY = {
    obietnica="Dziecko pokazuje na karcie, co czuje, zamiast odpowiadać „nic”.",
    warunek="Dziecko potrafi wskazać palcem i nazwać kilka podstawowych emocji: radość, złość, smutek.",
    progresja="Trzy talie: miny, sytuacje i natężenie. Zaczynacie od min, bo są najłatwiejsze. Talia sytuacji ma sens dopiero, gdy dziecko nazywa miny bez wahania.",
-   fragment="Talia min w komplecie, 11 stron: instrukcja, karty z podpisami, karty bez podpisów i dwie zabawy.",
+   fragment="Talia min w komplecie, 18 stron: instrukcja cięcia, karty z podpisami, karty bez podpisów, słownik min i karta pytań dla rodzica. Talia liczy 45 min, więc kończy się dopiero na stronie 18.",
    nie=["Nie jest narzędziem oceny stanu dziecka. To pomoc do rozmowy.",
         "Nie służy do rozstrzygania sporów między rodzeństwem.",
         "Nie działa w środku wybuchu. Używacie go przed albo po."]),
@@ -102,11 +102,12 @@ SPECY = {
         "Nie ćwiczy pisania cyfr ładnie — tylko ich rozpoznawania.",
         "Nie jest testem gotowości szkolnej."]),
  "litery-od-zera": dict(
-   obietnica="Po programie dziecko rozpoznaje wszystkie litery drukowane i układa z nich swoje imię.",
+   obietnica="Po programie dziecko rozpoznaje dwadzieścia cztery litery drukowane (wielkie i małe) i układa z nich swoje imię.",
    warunek="Dziecko pyta, co to za znaczki, i wytrzymuje przy stole dziesięć minut.",
    progresja="Litery po dwie na tydzień, w kolejności od najłatwiejszych do wymówienia. Każdy tydzień powtarza litery z dwóch poprzednich. Trudność rośnie monotonicznie.",
    fragment="Cały tydzień 1 plus wstęp, 11 stron.",
-   nie=["Nie uczy czytania sylabami. To kolejny krok: „Czytam sylabami”.",
+   nie=["Nie wprowadza liter z ogonkami ani dwuznaków: Ą, Ę, Ś, Ć, Ź, Ń, CZ, SZ, RZ, CH.",
+        "Nie uczy czytania sylabami. To kolejny krok: „Czytam sylabami”.",
         "Nie uczy pisania liter, tylko ich rozpoznawania i pisania po śladzie.",
         "Nie ma terminu. Jedna litera na dwa dni to sugestia, nie norma."]),
  "gloski-szumiace": dict(

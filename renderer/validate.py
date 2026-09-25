@@ -156,6 +156,11 @@ def reguly_karty(c, bledy, ostrz):
                 bledy.append(f"{s['id']}: KARTY wymaga 8 albo 9 kart na A4, jest {na}")
         if not t.get("bez_podpisow"):
             ostrz.append(f"talia {t['nazwa']!r} bez wersji dla nieczytających")
+        elif not any(s["typ"] == "karty_do_wyciecia"
+                     and s["dane"].get("z_podpisami") is False for s in t["arkusze"]):
+            bledy.append(f"talia {t['nazwa']!r} deklaruje bez_podpisow, ale nie ma "
+                         "ani jednego arkusza z z_podpisami: false — wersja dla "
+                         "nieczytających istniałaby tylko jako dana")
 
 
 def reguly_gry(c, bledy, ostrz):

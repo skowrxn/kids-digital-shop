@@ -37,7 +37,9 @@ Trzy talie: miny, sytuacje i natężenie. Zaczynacie od min, bo są najłatwiejs
 
 ## Zakres darmowego fragmentu
 
-Talia min w komplecie, 11 stron: instrukcja, karty z podpisami, karty bez podpisów i dwie zabawy.
+Talia min w komplecie, **18 stron**: instrukcja cięcia, karty z podpisami, karty bez podpisów, słownik min i karta pytań dla rodzica.
+
+*(Korekta wobec pierwotnego szacunku 11 stron: talia liczy 45 min, więc kończy się dopiero na stronie 18. Fragment tniemy po pełnych stronach od początku pliku, więc urwanie talii w połowie dałoby fragment bez wersji dla nieczytających.)*
 
 ## Czego ten materiał NIE robi
 

@@ -1,0 +1,1174 @@
+{
+  "meta": {
+    "slug": "kiedy-jestem-zly",
+    "tytul": "Kiedy jestem zły",
+    "podtytul": "Plan na wybuch, ustalony na spokojnie",
+    "archetyp": "ZESZYT",
+    "wersja": "1.0",
+    "wiek": "5–9 lat",
+    "kategoria": "emocje",
+    "podkategoria": "zlosc",
+    "strony_deklarowane": 72,
+    "min_pt_dziecka": 14
+  },
+  "wstep": {
+    "dla_kogo": "Dla dziecka, u którego złość przychodzi szybciej, niż zdąży pomyśleć.",
+    "obietnica": "Dziecko ma ustaloną wcześniej ścieżkę na moment, w którym zaczyna się gotować — i zna ją, zanim będzie potrzebna.",
+    "warunek_wejscia": "Dziecko potrafi nazwać, że jest złe, choćby po fakcie.",
+    "ile_czasu_dziennie": "15–20 minut, dwa lub trzy razy w tygodniu.",
+    "jak_korzystac": [
+      "Siadaj do tego zeszytu w spokojny dzień. Nie w trakcie awantury.",
+      "Blok pierwszy zrób w całości, zanim przejdziesz dalej. Plan nie zadziała, jeśli dziecko nie rozpoznaje sygnałów.",
+      "Jedna strona na raz. Skończ, zanim dziecko się znudzi, a nie wtedy, gdy już się znudziło.",
+      "Ćwiczenia oddechowe powtarzajcie krótko i często, przy zabawie albo przed snem.",
+      "Wszystkie rubryki są puste. Wypełniacie je u siebie, swoimi słowami.",
+      "To nie jest niczyja wina. Złość jest częścią dorastania i nie znika od ćwiczeń — zmienia się to, co dziecko z nią robi."
+    ],
+    "czego_nie_robi": [
+      "To nie jest materiał do robienia w trakcie awantury.",
+      "To nie jest terapia ani ocena tego, czy złość dziecka jest w normie.",
+      "Nie sprawi, że dziecko przestanie się złościć. Złość zostaje, zmienia się to, co dziecko z nią robi."
+    ],
+    "kiedy_do_specjalisty": "Jeśli wybuchy wracają codziennie przez kilka tygodni i po nich dziecko długo nie może się uspokoić, porozmawiaj z psychologiem dziecięcym."
+  },
+  "bloki": [
+    {
+      "temat": "Gdzie w ciele zaczyna się złość",
+      "poziom": 1,
+      "opis": "Zanim powstanie plan, dziecko musi zauważyć, że coś się zaczyna. Ten blok uczy jednej rzeczy: złość ma początek i ten początek czuć w ciele.",
+      "dla_rodzica": [
+        "Mów o swoich sygnałach na głos: „mnie robi się gorąco w karku”. Dziecko łatwiej nazwie swoje, gdy usłyszy twoje.",
+        "Nie poprawiaj odpowiedzi dziecka. Tu nie ma dobrych i złych sygnałów, są jego własne.",
+        "Jeśli dziecko mówi „nic nie czuję”, wróćcie do tego bloku za tydzień. To częste i nie jest problemem.",
+        "Nie używaj kart z tego bloku jako wyliczanki w trakcie kłótni."
+      ],
+      "cwiczenia": [
+        {
+          "id": "b1-zlosc-czuje-kazdy",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj z dorosłym te zdania.",
+          "dla_rodzica": "Przeczytaj na głos, potem poproś dziecko, żeby przeczytało jedno wybrane zdanie samo.",
+          "dane": {
+            "zdania": [
+              "Złość czuje każdy.",
+              "Złość nie jest zła.",
+              "Złość mówi, że coś mi nie pasuje.",
+              "Złość ma początek, środek i koniec.",
+              "Początek widać najtrudniej.",
+              "Tego właśnie będziemy się uczyć."
+            ],
+            "pytanie": "Co robi twoje ciało, zanim krzykniesz?"
+          }
+        },
+        {
+          "id": "b1-mapa-ciala",
+          "typ": "tabela",
+          "polecenie": "Zaznacz, co czujesz w swoim ciele.",
+          "dla_rodzica": "Przeczytaj wiersze po kolei. Dziecko zaznacza krzyżykiem te, które zna. Puste pola zostają puste.",
+          "dane": {
+            "naglowki_kolumn": ["Miejsce w ciele", "Co się tam dzieje", "Znam to"],
+            "wiersze": [
+              ["twarz", "robi się gorąca", ""],
+              ["ręce", "zaciskają się w pięści", ""],
+              ["brzuch", "ściska się jak supeł", ""],
+              ["gardło", "łapie krótki oddech", ""],
+              ["nogi", "chcą tupać albo biec", ""],
+              ["uszy", "szumią, dźwięki są za głośne", ""],
+              ["serce", "bije mocno i szybko", ""],
+              ["oczy", "pieką od łez", ""]
+            ]
+          }
+        },
+        {
+          "id": "b1-narysuj-swoja-zlosc",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj swoją złość w ramce.",
+          "dla_rodzica": "Nie podpowiadaj kształtu ani koloru. Zapytaj potem: gdzie ona mieszka w twoim ciele?",
+          "dane": {
+            "wyrazy": ["moja złość"],
+            "wysokosc_ramki_mm": 110
+          }
+        },
+        {
+          "id": "b1-sortowanie-sygnalow",
+          "typ": "sortowanie",
+          "polecenie": "Wpisz sygnały do dwóch kolumn.",
+          "dla_rodzica": "Chodzi o różnicę: część złości widzi tylko dziecko, część widzą wszyscy dookoła.",
+          "dane": {
+            "elementy": [
+              "gorące policzki",
+              "zaciśnięte pięści",
+              "szybki oddech",
+              "ściśnięty brzuch",
+              "głośny głos",
+              "tupanie",
+              "mocne bicie serca",
+              "zmarszczone brwi"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "Czuję to w środku",
+                "naleza": ["gorące policzki", "szybki oddech", "ściśnięty brzuch", "mocne bicie serca"]
+              },
+              {
+                "nazwa": "Widać to z zewnątrz",
+                "naleza": ["zaciśnięte pięści", "głośny głos", "tupanie", "zmarszczone brwi"]
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-termometr-zlosci",
+          "typ": "sciezka",
+          "polecenie": "Pokaż palcem, gdzie jesteś teraz.",
+          "dla_rodzica": "Wracajcie do tej strony przy zwykłych okazjach, nie tylko przy złości. Wtedy stanie się wspólnym językiem.",
+          "dane": {
+            "kroki": [
+              "Jest spokojnie.",
+              "Coś mnie zaczyna uwierać.",
+              "Robi mi się gorąco.",
+              "Ściskam pięści i mówię głośniej.",
+              "Wybucham."
+            ],
+            "meta": "Im wcześniej zauważysz, tym więcej możesz zrobić."
+          }
+        },
+        {
+          "id": "b1-karta-mojej-zlosci",
+          "typ": "formularz",
+          "polecenie": "Wypełnij kartę na spokojnie.",
+          "dla_rodzica": "Pisz ty, dziecko dyktuje. Zawieście kartę tam, gdzie oboje ją widzicie.",
+          "dane": {
+            "pola": [
+              { "etykieta": "Pierwszy sygnał, który czuję w ciele", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Co wtedy robią moje ręce", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Co słyszę wtedy w głowie", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Co pomaga mi najszybciej", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Kogo wtedy wołam", "wysokosc_mm": 14, "linie": 1 },
+              { "etykieta": "Czego wtedy nie chcę słyszeć", "wysokosc_mm": 18, "linie": 2 }
+            ]
+          }
+        },
+        {
+          "id": "b1-lacz-pary-sygnal",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz część ciała z sygnałem.",
+          "dane": {
+            "lewa": ["Pięści", "Twarz", "Brzuch", "Nogi", "Gardło"],
+            "prawa": ["robi się gorąca", "zaciskają się", "chcą tupać", "ściska się", "łapie krótki oddech"],
+            "pary": [[0, 1], [1, 0], [2, 3], [3, 2], [4, 4]]
+          }
+        },
+        {
+          "id": "b1-co-bylo-pierwsze",
+          "typ": "sekwencja",
+          "polecenie": "Uzupełnij brakujące kroki historii.",
+          "dla_rodzica": "Kuba i Ola to postacie z zeszytu. Nie podstawiajcie imion z waszego domu.",
+          "dane": {
+            "kroki": [
+              "Kuba buduje wieżę z klocków.",
+              "",
+              "Kuba czuje gorąco na twarzy.",
+              "",
+              "Kuba tupie i krzyczy."
+            ],
+            "brakujace": ["Wieża się przewraca.", "Kuba zaciska pięści."]
+          }
+        }
+      ]
+    },
+    {
+      "temat": "Trzy oddechy, które da się zrobić wszędzie",
+      "poziom": 2,
+      "opis": "Trzy sposoby oddychania, opisane krok po kroku. Ćwiczy się je na spokojnie, żeby ciało znało je, zanim będą potrzebne.",
+      "dla_rodzica": [
+        "Ćwiczcie oddech, gdy jest dobrze. Oddech ćwiczony pierwszy raz w czasie wybuchu nie działa.",
+        "Trzy razy wystarczy. Dłużej dziecko zaczyna kręcić się w głowie.",
+        "Pozwól dziecku wybrać jeden ulubiony oddech i zostawcie ten jeden.",
+        "Nie mów „uspokój się i oddychaj”. Oddychaj razem z dzieckiem, bez komentarza."
+      ],
+      "cwiczenia": [
+        {
+          "id": "b2-po-co-oddech",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj, po co ćwiczymy oddech.",
+          "dane": {
+            "zdania": [
+              "Kiedy się złoszczę, oddech robi się krótki.",
+              "Krótki oddech mówi ciału: uciekaj albo walcz.",
+              "Długi wydech mówi ciału: jesteś bezpieczny.",
+              "Dlatego ćwiczymy długi wydech.",
+              "Trzy oddechy wystarczą."
+            ],
+            "pytanie": "Który oddech wypróbujesz pierwszy?"
+          }
+        },
+        {
+          "id": "b2-swieczka-kroki",
+          "typ": "lista_krokow",
+          "polecenie": "Przeczytaj kroki oddechu świeczki.",
+          "dla_rodzica": "Możesz wystawić palec jako świeczkę. Dziecko dmucha tak, żeby palec czuł ciepło, a nie podmuch.",
+          "dane": {
+            "kroki": [
+              "Usiądź prosto i połóż ręce na kolanach.",
+              "Wystaw przed siebie jeden palec. To twoja świeczka.",
+              "Wciągnij powietrze nosem, policz w głowie do trzech.",
+              "Dmuchaj na świeczkę powoli i długo, aż skończy ci się powietrze.",
+              "Świeczka ma się chwiać, a nie zgasnąć.",
+              "Powtórz trzy razy."
+            ]
+          }
+        },
+        {
+          "id": "b2-swieczka-slowa",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Napisz te słowa po śladzie.",
+          "dane": {
+            "wzory": ["WDECH", "WYDECH", "POWOLI"],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b2-swieczka-tabela",
+          "typ": "tabela",
+          "polecenie": "Zaznacz dni z oddechem świeczki.",
+          "dla_rodzica": "Rubryki zostawiamy puste. Wypełniacie je u siebie, jednym krzyżykiem dziennie.",
+          "dane": {
+            "naglowki_kolumn": ["Dzień", "Rano", "Wieczorem"],
+            "wiersze": [
+              ["poniedziałek", "", ""],
+              ["wtorek", "", ""],
+              ["środa", "", ""],
+              ["czwartek", "", ""],
+              ["piątek", "", ""],
+              ["sobota", "", ""],
+              ["niedziela", "", ""]
+            ]
+          }
+        },
+        {
+          "id": "b2-swieczka-ramka",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj świeczkę, którą zdmuchujesz.",
+          "dane": {
+            "wyrazy": ["moja świeczka"],
+            "wysokosc_ramki_mm": 100
+          }
+        },
+        {
+          "id": "b2-kwadrat-kroki",
+          "typ": "lista_krokow",
+          "polecenie": "Przeczytaj kroki oddechu kwadratu.",
+          "dla_rodzica": "Dziecko może wodzić palcem po krawędzi stołu albo książki. Każdy bok to jeden krok.",
+          "dane": {
+            "kroki": [
+              "Znajdź coś w kształcie kwadratu: książkę, kafelek, okno.",
+              "Wodź palcem po pierwszym boku i wciągaj powietrze. Licz do czterech.",
+              "Drugi bok: zatrzymaj powietrze. Licz do czterech.",
+              "Trzeci bok: wypuszczaj powietrze. Licz do czterech.",
+              "Czwarty bok: poczekaj. Licz do czterech.",
+              "Zrób tak trzy okrążenia."
+            ]
+          }
+        },
+        {
+          "id": "b2-kwadrat-liczenie",
+          "typ": "sciezka",
+          "polecenie": "Przejdź ścieżkę, licząc do czterech.",
+          "dane": {
+            "kroki": [
+              "Wdech: 1, 2, 3, 4.",
+              "Trzymam: 1, 2, 3, 4.",
+              "Wydech: 1, 2, 3, 4.",
+              "Czekam: 1, 2, 3, 4.",
+              "I od początku."
+            ],
+            "meta": "Licz w głowie, nie na głos."
+          }
+        },
+        {
+          "id": "b2-kwadrat-palce",
+          "typ": "lista_krokow",
+          "polecenie": "Policz oddech kwadratu na palcach.",
+          "dla_rodzica": "Wersja na stojąco, do sklepu i autobusu. Nikt z zewnątrz tego nie widzi.",
+          "dane": {
+            "kroki": [
+              "Schowaj rękę w kieszeni albo trzymaj ją nisko.",
+              "Dotykaj kciukiem kolejnych palców: raz, dwa, trzy, cztery.",
+              "Pierwsze cztery dotknięcia to wdech.",
+              "Drugie cztery to zatrzymanie.",
+              "Trzecie cztery to wydech.",
+              "Czwarte cztery to czekanie."
+            ]
+          }
+        },
+        {
+          "id": "b2-kwadrat-tabela",
+          "typ": "tabela",
+          "polecenie": "Zaznacz dni z oddechem kwadratu.",
+          "dane": {
+            "naglowki_kolumn": ["Dzień", "Gdzie ćwiczyłem", "Ile okrążeń"],
+            "wiersze": [
+              ["poniedziałek", "", ""],
+              ["wtorek", "", ""],
+              ["środa", "", ""],
+              ["czwartek", "", ""],
+              ["piątek", "", ""],
+              ["sobota", "", ""],
+              ["niedziela", "", ""]
+            ]
+          }
+        },
+        {
+          "id": "b2-pszczola-kroki",
+          "typ": "lista_krokow",
+          "polecenie": "Przeczytaj kroki oddechu pszczoły.",
+          "dla_rodzica": "Ten oddech bywa najskuteczniejszy, bo brzęczenie czuć w głowie i trudno jednocześnie myśleć o kłótni.",
+          "dane": {
+            "kroki": [
+              "Zatkaj uszy kciukami, delikatnie.",
+              "Wciągnij powietrze nosem.",
+              "Wypuszczaj powietrze i brzęcz: mmmmm.",
+              "Brzęcz tak długo, aż skończy się powietrze.",
+              "Posłuchaj, jak brzęczenie drga w głowie.",
+              "Powtórz trzy razy."
+            ]
+          }
+        },
+        {
+          "id": "b2-pszczola-dzwiek",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj, jak brzmi ten oddech.",
+          "dane": {
+            "zdania": [
+              "Pszczoła brzęczy nisko i równo.",
+              "Nie krzyczy i nie piszczy.",
+              "Brzęczenie ma drgać w nosie i w policzkach.",
+              "Jeśli boli gardło, brzęczysz za mocno.",
+              "Ciszej znaczy lepiej."
+            ],
+            "pytanie": "Gdzie czujesz brzęczenie najmocniej?"
+          }
+        },
+        {
+          "id": "b2-pszczola-tabela",
+          "typ": "tabela",
+          "polecenie": "Zaznacz dni z oddechem pszczoły.",
+          "dane": {
+            "naglowki_kolumn": ["Dzień", "Ile razy", "Pomogło"],
+            "wiersze": [
+              ["poniedziałek", "", ""],
+              ["wtorek", "", ""],
+              ["środa", "", ""],
+              ["czwartek", "", ""],
+              ["piątek", "", ""],
+              ["sobota", "", ""],
+              ["niedziela", "", ""]
+            ]
+          }
+        },
+        {
+          "id": "b2-ktory-oddech-dla-mnie",
+          "typ": "formularz",
+          "polecenie": "Zapisz, który oddech pomaga najszybciej.",
+          "dla_rodzica": "Wybór należy do dziecka, nawet jeśli tobie pomaga inny.",
+          "dane": {
+            "pola": [
+              { "etykieta": "Mój oddech numer jeden", "wysokosc_mm": 16, "linie": 1 },
+              { "etykieta": "Kiedy działa najlepiej", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Gdzie mogę go zrobić, żeby nikt nie patrzył", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Co mi przeszkadza w oddychaniu", "wysokosc_mm": 18, "linie": 2 }
+            ]
+          }
+        },
+        {
+          "id": "b2-lacz-oddech-z-krokiem",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz nazwę oddechu z krokiem.",
+          "dane": {
+            "lewa": ["Świeczka", "Kwadrat", "Pszczoła"],
+            "prawa": ["Brzęczę na wydechu.", "Liczę do czterech.", "Dmucham długo i powoli."],
+            "pary": [[0, 2], [1, 1], [2, 0]]
+          }
+        },
+        {
+          "id": "b2-uzupelnij-kroki",
+          "typ": "uzupelnij",
+          "polecenie": "Wybierz właściwe słowo w luce.",
+          "dane": {
+            "pozycje": [
+              { "wzor": "Wdech robię przez ___.", "opcje": ["ucho", "nos"], "poprawna": 1 },
+              { "wzor": "Wydech robię przez ___.", "opcje": ["usta", "kolano"], "poprawna": 0 },
+              { "wzor": "W oddechu kwadratu liczę do ___.", "opcje": ["stu", "czterech"], "poprawna": 1 },
+              { "wzor": "Oddechu uczę się, kiedy jest ___.", "opcje": ["spokojnie", "najgłośniej"], "poprawna": 0 }
+            ]
+          }
+        },
+        {
+          "id": "b2-sekwencja-swieczka",
+          "typ": "sekwencja",
+          "polecenie": "Uzupełnij brakujące kroki oddechu.",
+          "dane": {
+            "kroki": [
+              "Siadam prosto.",
+              "",
+              "Wciągam powietrze nosem.",
+              "",
+              "Dmucham powoli na świeczkę.",
+              "Powtarzam trzy razy."
+            ],
+            "brakujace": ["Wystawiam palec przed siebie.", "Liczę w głowie do trzech."]
+          }
+        },
+        {
+          "id": "b2-cwicz-na-spokojnie",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj, kiedy ćwiczyć oddech.",
+          "dla_rodzica": "Najważniejsza strona tego bloku. Oddech ma być nudny i znany, zanim będzie potrzebny.",
+          "dane": {
+            "zdania": [
+              "Oddechu uczę się, gdy jest dobrze.",
+              "Ćwiczę przed snem albo przy zabawie.",
+              "Ćwiczę w aucie i w kolejce.",
+              "Wtedy ciało zapamięta, co robić.",
+              "W trudnej chwili nie trzeba się już niczego uczyć."
+            ]
+          }
+        },
+        {
+          "id": "b2-moja-karta-oddechow",
+          "typ": "formularz",
+          "polecenie": "Wypełnij kartę swoich oddechów.",
+          "dane": {
+            "pola": [
+              { "etykieta": "Oddech na dom", "wysokosc_mm": 16, "linie": 1 },
+              { "etykieta": "Oddech na sklep i autobus", "wysokosc_mm": 16, "linie": 1 },
+              { "etykieta": "Oddech na szkołę", "wysokosc_mm": 16, "linie": 1 },
+              { "etykieta": "Kto ćwiczy razem ze mną", "wysokosc_mm": 16, "linie": 1 },
+              { "etykieta": "Umówione hasło, które przypomina o oddechu", "wysokosc_mm": 18, "linie": 2 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "temat": "Plan na wybuch, ustalony na spokojnie",
+      "poziom": 3,
+      "opis": "Plan powstaje w dobry dzień i wisi na ścianie. W trudnej chwili nikt niczego nie wymyśla — wszystko jest już ustalone.",
+      "dla_rodzica": [
+        "Plan ustalacie razem. Plan napisany przez dorosłego nad głową dziecka nie zadziała.",
+        "Zapisz też, co robisz ty. Dziecko ma wiedzieć, czego się po tobie spodziewać.",
+        "Plan zawiedzie kilka razy, zanim zacznie działać. Tak bywa u każdego i nie znaczy, że jest zły.",
+        "Nie używaj planu jako kary. Przerwa to nie jest ukarany kąt.",
+        "Po wszystkim wracacie do planu i poprawiacie jeden punkt. Nie cały."
+      ],
+      "cwiczenia": [
+        {
+          "id": "b3-czym-jest-plan",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj, czym jest plan.",
+          "dane": {
+            "zdania": [
+              "Plan to trzy rzeczy, które robię po kolei.",
+              "Ustalam go, kiedy jest spokojnie.",
+              "Kiedy jest gorąco, nic nie wymyślam.",
+              "Po prostu robię to, co już ustaliliśmy.",
+              "Plan wisi na ścianie i mogę na niego patrzeć."
+            ],
+            "pytanie": "Gdzie powiesicie wasz plan?"
+          }
+        },
+        {
+          "id": "b3-kiedy-ustalamy",
+          "typ": "lista_krokow",
+          "polecenie": "Przeczytaj, kiedy siadacie do planu.",
+          "dla_rodzica": "Dobry moment to dzień bez awantury, po jedzeniu, bez pośpiechu. Zły moment to godzina po wybuchu.",
+          "dane": {
+            "kroki": [
+              "Wybierzcie spokojny dzień.",
+              "Usiądźcie obok siebie, nie naprzeciwko.",
+              "Odłóżcie telefony poza zasięg ręki.",
+              "Umówcie się na piętnaście minut i tyle.",
+              "Zacznijcie od tego, co ostatnio poszło dobrze."
+            ]
+          }
+        },
+        {
+          "id": "b3-moje-iskry",
+          "typ": "formularz",
+          "polecenie": "Zapisz, co zwykle zaczyna złość.",
+          "dla_rodzica": "Wypisujcie konkrety: „gdy przegrywam w grze”, a nie „gdy jest nerwowo”.",
+          "dane": {
+            "pola": [
+              { "etykieta": "Co najczęściej zaczyna", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "O jakiej porze dnia dzieje się to najczęściej", "wysokosc_mm": 16, "linie": 1 },
+              { "etykieta": "W którym miejscu", "wysokosc_mm": 16, "linie": 1 },
+              { "etykieta": "Co było tuż przedtem", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Co pomogło ostatnim razem", "wysokosc_mm": 18, "linie": 2 }
+            ]
+          }
+        },
+        {
+          "id": "b3-sortowanie-iskier",
+          "typ": "sortowanie",
+          "polecenie": "Wpisz iskry do dwóch kolumn.",
+          "dla_rodzica": "Lewa kolumna to wasza robota na jutro. Prawa to ta, na którą potrzebny jest plan.",
+          "dane": {
+            "elementy": [
+              "przegrana w grze",
+              "głód",
+              "pośpiech rano",
+              "hałas w autobusie",
+              "przerwana zabawa",
+              "zmęczenie wieczorem",
+              "za ciasny sweter",
+              "nagła zmiana planów"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "Da się przygotować wcześniej",
+                "naleza": ["głód", "pośpiech rano", "zmęczenie wieczorem", "za ciasny sweter"]
+              },
+              {
+                "nazwa": "Przychodzi znienacka",
+                "naleza": ["przegrana w grze", "hałas w autobusie", "przerwana zabawa", "nagła zmiana planów"]
+              }
+            ]
+          }
+        },
+        {
+          "id": "b3-trzy-kroki-planu",
+          "typ": "lista_krokow",
+          "polecenie": "Przeczytaj trzy kroki planu.",
+          "dane": {
+            "kroki": [
+              "STOP — zauważam sygnał w ciele i przerywam to, co robię.",
+              "ODDECH — robię trzy oddechy, które wybrałem.",
+              "SŁOWA — mówię jedno zdanie o tym, czego potrzebuję."
+            ]
+          }
+        },
+        {
+          "id": "b3-slowa-ktore-mowie",
+          "typ": "tabela",
+          "polecenie": "Przeczytaj słowa zamiast krzyku.",
+          "dla_rodzica": "Wybierzcie razem dwa zdania i zostawcie tylko je. Pięć zdań nikt nie pamięta.",
+          "dane": {
+            "naglowki_kolumn": ["Zamiast", "Mówię"],
+            "wiersze": [
+              ["krzyku", "Jestem zły."],
+              ["rzucania rzeczami", "Potrzebuję przerwy."],
+              ["trzaskania drzwiami", "Chcę być chwilę sam."],
+              ["ucieczki bez słowa", "Idę do mojego miejsca."],
+              ["milczenia", "Nie chcę teraz rozmawiać."],
+              ["płaczu w kącie", "Pomóż mi, proszę."]
+            ]
+          }
+        },
+        {
+          "id": "b3-pisanie-slow",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Napisz te zdania po śladzie.",
+          "dane": {
+            "wzory": ["JESTEM ZŁY", "POTRZEBUJĘ PRZERWY", "POMÓŻ MI"],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b3-moje-miejsce-przerwy",
+          "typ": "formularz",
+          "polecenie": "Zapisz, gdzie robisz przerwę.",
+          "dla_rodzica": "Miejsce wybiera dziecko. Drzwi zostają otwarte, zawsze.",
+          "dane": {
+            "pola": [
+              { "etykieta": "Moje miejsce przerwy w domu", "wysokosc_mm": 16, "linie": 1 },
+              { "etykieta": "Moje miejsce przerwy poza domem", "wysokosc_mm": 16, "linie": 1 },
+              { "etykieta": "Co tam ze sobą zabieram", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Jak długo tam zostaję", "wysokosc_mm": 14, "linie": 1 }
+            ]
+          }
+        },
+        {
+          "id": "b3-znak-umowiony",
+          "typ": "lista_krokow",
+          "polecenie": "Ustalcie znak ręką na przerwę.",
+          "dla_rodzica": "Znak działa, bo nie wymaga mówienia. W momencie, gdy gardło się ściska, to bywa jedyne wyjście.",
+          "dane": {
+            "kroki": [
+              "Wymyślcie jeden gest, na przykład dłoń na sercu.",
+              "Gest znaczy: potrzebuję przerwy, teraz.",
+              "Po geście nikt o nic nie pyta.",
+              "Dorosły odpowiada tym samym gestem.",
+              "Pokażcie ten gest trzy razy dzisiaj, dla zabawy.",
+              "Tak ręka go zapamięta."
+            ]
+          }
+        },
+        {
+          "id": "b3-karty-planu",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty i powieś je.",
+          "dla_rodzica": "Powieście je na wysokości oczu dziecka, nie swojej.",
+          "dane": {
+            "na_arkuszu": 9,
+            "z_podpisami": true,
+            "karty": [
+              { "awers": "STOP", "rewers": "Przerywam to, co robię." },
+              { "awers": "ODDECH", "rewers": "Trzy razy, powoli." },
+              { "awers": "SŁOWA", "rewers": "Mówię, czego potrzebuję." },
+              { "awers": "Jestem zły.", "rewers": "Wolno to powiedzieć." },
+              { "awers": "Potrzebuję przerwy.", "rewers": "Idę do mojego miejsca." },
+              { "awers": "Pomóż mi.", "rewers": "Dorosły przychodzi." },
+              { "awers": "Już mogę rozmawiać.", "rewers": "Wracam." },
+              { "awers": "Chcę wody.", "rewers": "Zimna woda pomaga." },
+              { "awers": "Chcę uścisk.", "rewers": "Albo nie chcę. Też dobrze." }
+            ]
+          }
+        },
+        {
+          "id": "b3-sciezka-planu",
+          "typ": "sciezka",
+          "polecenie": "Przejdź ścieżkę planu palcem.",
+          "dane": {
+            "kroki": [
+              "Czuję sygnał w ciele.",
+              "Pokazuję umówiony znak.",
+              "Idę do mojego miejsca.",
+              "Robię trzy oddechy.",
+              "Mówię jedno zdanie.",
+              "Wracam, kiedy jestem gotowy."
+            ],
+            "meta": "Ćwiczcie tę ścieżkę na sucho, w spokojny dzień."
+          }
+        },
+        {
+          "id": "b3-uzupelnij-plan",
+          "typ": "uzupelnij",
+          "polecenie": "Wybierz słowo pasujące do luki.",
+          "dane": {
+            "pozycje": [
+              { "wzor": "Pierwszy krok planu to ___.", "opcje": ["stop", "krzyk"], "poprawna": 0 },
+              { "wzor": "Drugi krok planu to ___.", "opcje": ["bieg", "oddech"], "poprawna": 1 },
+              { "wzor": "Trzeci krok planu to ___.", "opcje": ["słowa", "cisza"], "poprawna": 0 },
+              { "wzor": "Plan ustalamy, kiedy jest ___.", "opcje": ["gorąco", "spokojnie"], "poprawna": 1 }
+            ]
+          }
+        },
+        {
+          "id": "b3-sekwencja-planu",
+          "typ": "sekwencja",
+          "polecenie": "Uzupełnij brakujące kroki planu.",
+          "dane": {
+            "kroki": [
+              "Czuję pierwszy sygnał w ciele.",
+              "",
+              "Robię trzy oddechy.",
+              "",
+              "Wracam, kiedy jestem gotowy."
+            ],
+            "brakujace": ["Pokazuję umówiony znak ręką.", "Mówię, czego potrzebuję."]
+          }
+        },
+        {
+          "id": "b3-co-robi-dorosly",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj, co robi dorosły.",
+          "dla_rodzica": "Przeczytaj to dziecku na głos i dotrzymaj. Ta strona jest zobowiązaniem dorosłego, nie dziecka.",
+          "dane": {
+            "zdania": [
+              "Dorosły widzi znak i nie pyta.",
+              "Dorosły ścisza głos.",
+              "Dorosły nie ciągnie za rękę.",
+              "Dorosły czeka obok albo za drzwiami.",
+              "Dorosły rozmawia dopiero później.",
+              "Dorosły też może potrzebować przerwy."
+            ]
+          }
+        },
+        {
+          "id": "b3-plan-na-odrabianie",
+          "typ": "formularz",
+          "polecenie": "Wypełnij plan na zadanie domowe.",
+          "dla_rodzica": "Tu najczęściej robi się gorąco. Ustalcie przerwę z góry, zanim będzie potrzebna.",
+          "dane": {
+            "pola": [
+              { "etykieta": "Ile minut pracujemy bez przerwy", "wysokosc_mm": 14, "linie": 1 },
+              { "etykieta": "Co robimy w przerwie", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Po czym poznaję, że robi się gorąco", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Co mówię, gdy nie rozumiem zadania", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Kiedy kończymy, nawet jeśli nie wszystko zrobione", "wysokosc_mm": 16, "linie": 1 }
+            ]
+          }
+        },
+        {
+          "id": "b3-plan-na-poranek",
+          "typ": "formularz",
+          "polecenie": "Wypełnij plan na trudny poranek.",
+          "dane": {
+            "pola": [
+              { "etykieta": "Co przygotowujemy wieczorem", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "O której wstajemy", "wysokosc_mm": 14, "linie": 1 },
+              { "etykieta": "Czego rano nie robimy", "wysokosc_mm": 16, "linie": 1 },
+              { "etykieta": "Co jem, zanim wyjdziemy", "wysokosc_mm": 14, "linie": 1 }
+            ]
+          }
+        },
+        {
+          "id": "b3-lacz-sytuacja-krok",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz sytuację z pierwszym krokiem.",
+          "dane": {
+            "lewa": ["Przegrana w grze", "Hałas w sklepie", "Trudne zadanie", "Pośpiech rano"],
+            "prawa": [
+              "Zakrywam uszy dłońmi.",
+              "Odkładam kartkę i liczę do czterech.",
+              "Odchodzę od stołu na minutę.",
+              "Mówię: potrzebuję chwili."
+            ],
+            "pary": [[0, 2], [1, 0], [2, 1], [3, 3]]
+          }
+        },
+        {
+          "id": "b3-po-wybuchu",
+          "typ": "lista_krokow",
+          "polecenie": "Przeczytaj, co robicie po wybuchu.",
+          "dla_rodzica": "Rozmowa po wszystkim ma naprawiać, nie rozliczać. Zacznij od siebie: „ja też podniosłem głos”.",
+          "dane": {
+            "kroki": [
+              "Poczekajcie, aż oddech się uspokoi.",
+              "Napijcie się wody.",
+              "Powiedz jedno zdanie o tym, co czułeś.",
+              "Zapytaj dziecko, co czuło ono.",
+              "Ustalcie razem, co naprawiacie: rozsypane klocki, przeprosiny, zepsuty rysunek.",
+              "Wróćcie do planu i zmieńcie w nim jeden punkt.",
+              "Nie wracajcie do tego wieczorem przed snem."
+            ]
+          }
+        },
+        {
+          "id": "b3-nasza-umowa",
+          "typ": "formularz",
+          "polecenie": "Zapiszcie waszą umowę na spokojnie.",
+          "dane": {
+            "pola": [
+              { "etykieta": "Nasz umówiony znak", "wysokosc_mm": 14, "linie": 1 },
+              { "etykieta": "Co robi dziecko", "wysokosc_mm": 20, "linie": 3 },
+              { "etykieta": "Co robi dorosły", "wysokosc_mm": 20, "linie": 3 },
+              { "etykieta": "Czego oboje nie robimy", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Kiedy sprawdzamy, czy plan działa", "wysokosc_mm": 14, "linie": 1 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "temat": "Kącik wyciszenia do urządzenia w domu",
+      "poziom": 4,
+      "opis": "Stałe miejsce, do którego dziecko idzie samo. Nie jest karą i nie ma w nim ekranu. Ten blok mówi, co w nim jest i jak go urządzić.",
+      "dla_rodzica": [
+        "Kącik nie może być miejscem, w które wysyłasz dziecko. Ma być miejscem, do którego dziecko idzie.",
+        "Jeśli raz użyjesz go jako kary, przestanie działać i trudno to odkręcić.",
+        "Metr kwadratowy wystarczy. Kąt pokoju, przestrzeń za fotelem, dół szafy z wyjętymi półkami.",
+        "Ty też możesz z niego korzystać. To najmocniejszy sygnał, jaki możesz dać.",
+        "Raz w miesiącu sprawdźcie razem, czy coś w nim wymienić."
+      ],
+      "cwiczenia": [
+        {
+          "id": "b4-co-to-jest-kacik",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj, czym jest kącik wyciszenia.",
+          "dane": {
+            "zdania": [
+              "Kącik to moje miejsce na przerwę.",
+              "Idę tam, kiedy chcę.",
+              "Nikt mnie tam nie wysyła.",
+              "Nie jest to kara.",
+              "Wychodzę, kiedy oddech się uspokoi.",
+              "Dorosły czeka i nie pogania."
+            ],
+            "pytanie": "Gdzie w waszym domu zmieści się kącik?"
+          }
+        },
+        {
+          "id": "b4-gdzie-go-zrobic",
+          "typ": "lista_krokow",
+          "polecenie": "Przeczytaj, gdzie ustawić kącik.",
+          "dane": {
+            "kroki": [
+              "Wybierzcie róg pokoju, w którym nikt nie przechodzi.",
+              "Sprawdźcie, czy da się tam usiąść i wyciągnąć nogi.",
+              "Ustawcie plecami do ściany, twarzą do pokoju.",
+              "Zostawcie widok na drzwi — tak jest bezpieczniej.",
+              "Nie robcie go w łóżku, bo łóżko służy do spania.",
+              "Nie robcie go za zamkniętymi drzwiami."
+            ]
+          }
+        },
+        {
+          "id": "b4-lista-rzeczy",
+          "typ": "tabela",
+          "polecenie": "Przeczytaj listę rzeczy do kącika.",
+          "dla_rodzica": "Wybierzcie cztery, nie osiem. Nadmiar rzeczy sam w sobie pobudza.",
+          "dane": {
+            "naglowki_kolumn": ["Rzecz", "Do czego służy", "Mamy"],
+            "wiersze": [
+              ["miękka poduszka", "można ją mocno ścisnąć", ""],
+              ["koc", "otula, gdy w środku jest zimno", ""],
+              ["minutnik z piaskiem", "pokazuje, ile czasu minęło", ""],
+              ["karta trzech oddechów", "przypomina, co robić", ""],
+              ["słoik z brokatem", "patrzę, jak opada", ""],
+              ["gniotek albo piłeczka", "ręce mają co robić", ""],
+              ["kartka i kredka", "rysuję, zamiast mówić", ""],
+              ["butelka z wodą", "zimna woda pomaga gardłu", ""]
+            ]
+          }
+        },
+        {
+          "id": "b4-czego-tam-nie-ma",
+          "typ": "lista_krokow",
+          "polecenie": "Przeczytaj, czego w kąciku nie ma.",
+          "dane": {
+            "kroki": [
+              "Nie ma ekranu: telefonu, tabletu, telewizora.",
+              "Nie ma zamkniętych drzwi.",
+              "Nie ma zadań domowych.",
+              "Nie ma listy obowiązków na ścianie.",
+              "Nie ma zegara, który tyka głośno.",
+              "Nie ma rzeczy, które można zniszczyć i potem żałować."
+            ]
+          }
+        },
+        {
+          "id": "b4-plan-kacika",
+          "typ": "ramka_rysunkowa",
+          "polecenie": "Narysuj swój kącik wyciszenia.",
+          "dla_rodzica": "Rysunek zrobiony przed urządzaniem sprawia, że kącik jest dziecka, a nie twój.",
+          "dane": {
+            "wyrazy": ["mój kącik"],
+            "wysokosc_ramki_mm": 115
+          }
+        },
+        {
+          "id": "b4-tabliczka-na-drzwi",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij tabliczki i powieś je.",
+          "dane": {
+            "na_arkuszu": 8,
+            "z_podpisami": true,
+            "karty": [
+              { "awers": "Jestem w kąciku.", "rewers": "Nie pytaj na razie." },
+              { "awers": "Już mogę rozmawiać.", "rewers": "Możesz podejść." },
+              { "awers": "Chcę, żebyś był obok.", "rewers": "Usiądź, nic nie mów." },
+              { "awers": "Chcę być sam.", "rewers": "Zostań za drzwiami." },
+              { "awers": "Potrzebuję wody.", "rewers": "Przynieś, proszę." },
+              { "awers": "Potrzebuję uścisku.", "rewers": "Bez słów." }
+            ]
+          }
+        },
+        {
+          "id": "b4-karty-oddechow-do-kacika",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty oddechów do kącika.",
+          "dla_rodzica": "Powieście je w kąciku na wysokości siedzącego dziecka.",
+          "dane": {
+            "na_arkuszu": 9,
+            "z_podpisami": true,
+            "karty": [
+              { "awers": "Świeczka 1", "rewers": "Wystaw palec przed siebie." },
+              { "awers": "Świeczka 2", "rewers": "Wciągnij powietrze nosem." },
+              { "awers": "Świeczka 3", "rewers": "Dmuchaj długo i powoli." },
+              { "awers": "Kwadrat 1", "rewers": "Wdech: licz do czterech." },
+              { "awers": "Kwadrat 2", "rewers": "Trzymaj: licz do czterech." },
+              { "awers": "Kwadrat 3", "rewers": "Wydech: licz do czterech." },
+              { "awers": "Pszczoła 1", "rewers": "Zatkaj uszy kciukami." },
+              { "awers": "Pszczoła 2", "rewers": "Wciągnij powietrze nosem." },
+              { "awers": "Pszczoła 3", "rewers": "Brzęcz cicho: mmmmm." }
+            ]
+          }
+        },
+        {
+          "id": "b4-karty-pomyslow",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty pomysłów na spokój.",
+          "dla_rodzica": "Niech dziecko wybierze trzy i wyrzuci resztę. Wybór jest częścią ćwiczenia.",
+          "dane": {
+            "na_arkuszu": 9,
+            "z_podpisami": true,
+            "karty": [
+              { "awers": "Ściśnij poduszkę dziesięć razy.", "rewers": "Mocno, potem coraz słabiej." },
+              { "awers": "Napij się zimnej wody.", "rewers": "Małymi łykami." },
+              { "awers": "Policz pięć rzeczy dookoła.", "rewers": "Po cichu, dla siebie." },
+              { "awers": "Owiń się kocem.", "rewers": "Cały, razem z nogami." },
+              { "awers": "Narysuj złość na kartce.", "rewers": "Potem zgnieć kartkę." },
+              { "awers": "Przeciągnij się mocno.", "rewers": "Ręce do góry, na pięć." },
+              { "awers": "Pogłaszcz coś miękkiego.", "rewers": "Powoli, w jedną stronę." },
+              { "awers": "Popatrz, jak opada brokat.", "rewers": "Aż całkiem opadnie." },
+              { "awers": "Zrób trzy oddechy.", "rewers": "Ten, który wybrałeś." }
+            ]
+          }
+        },
+        {
+          "id": "b4-slowa-na-sciane",
+          "typ": "pisanie_po_sladzie",
+          "polecenie": "Napisz te słowa po śladzie.",
+          "dane": {
+            "wzory": ["MÓJ KĄCIK", "TU JEST SPOKÓJ", "WRACAM, GDY CHCĘ"],
+            "linie_na_wzor": 2,
+            "liniatura": "trzylinia"
+          }
+        },
+        {
+          "id": "b4-ile-czasu",
+          "typ": "lista_krokow",
+          "polecenie": "Przeczytaj, ile trwa pobyt.",
+          "dla_rodzica": "Nie ustawiaj głośnego budzika. Minutnik z piaskiem nie dzwoni i nikogo nie pogania.",
+          "dane": {
+            "kroki": [
+              "Odwróć minutnik z piaskiem.",
+              "Zostań, dopóki piasek się nie przesypie.",
+              "Jeśli chcesz zostać dłużej, odwróć go jeszcze raz.",
+              "Jeśli chcesz wyjść wcześniej, wychodzisz.",
+              "Nikt nie liczy minut za ciebie."
+            ]
+          }
+        },
+        {
+          "id": "b4-sortowanie-rzeczy",
+          "typ": "sortowanie",
+          "polecenie": "Wpisz rzeczy do dwóch kolumn.",
+          "dane": {
+            "elementy": [
+              "miękka poduszka",
+              "tablet",
+              "minutnik z piaskiem",
+              "karta oddechów",
+              "głośna zabawka",
+              "koc",
+              "lista zadań domowych",
+              "słoik z brokatem"
+            ],
+            "kategorie": [
+              {
+                "nazwa": "Pasuje do kącika",
+                "naleza": ["miękka poduszka", "minutnik z piaskiem", "karta oddechów", "koc", "słoik z brokatem"]
+              },
+              {
+                "nazwa": "Zostaje poza kącikiem",
+                "naleza": ["tablet", "głośna zabawka", "lista zadań domowych"]
+              }
+            ]
+          }
+        },
+        {
+          "id": "b4-kto-moze-wejsc",
+          "typ": "czytanie_zdan",
+          "polecenie": "Przeczytaj, kto może wejść.",
+          "dane": {
+            "zdania": [
+              "Do kącika wchodzę ja.",
+              "Dorosły wchodzi, gdy go zaproszę.",
+              "Rodzeństwo pyta, zanim wejdzie.",
+              "Jeśli powiem „nie teraz”, nikt się nie obraża.",
+              "Kącik jest też dla dorosłego, gdy ja z niego nie korzystam."
+            ]
+          }
+        },
+        {
+          "id": "b4-moje-zasady-kacika",
+          "typ": "formularz",
+          "polecenie": "Zapiszcie trzy zasady kącika.",
+          "dla_rodzica": "Trzy zasady, nie dziesięć. Napisane słowami dziecka, nawet jeśli brzmią dziwnie.",
+          "dane": {
+            "pola": [
+              { "etykieta": "Zasada pierwsza", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Zasada druga", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Zasada trzecia", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Kto te zasady ustalił", "wysokosc_mm": 14, "linie": 1 }
+            ]
+          }
+        },
+        {
+          "id": "b4-lacz-rzecz-z-zadaniem",
+          "typ": "lacz_pary",
+          "polecenie": "Połącz rzecz z jej zadaniem.",
+          "dane": {
+            "lewa": ["Poduszka", "Minutnik", "Karta oddechów", "Koc", "Słoik z brokatem"],
+            "prawa": [
+              "Pokazuje, ile czasu minęło.",
+              "Można ją mocno ścisnąć.",
+              "Przypomina trzy kroki.",
+              "Otula, gdy w środku jest zimno.",
+              "Patrzę, jak opada."
+            ],
+            "pary": [[0, 1], [1, 0], [2, 2], [3, 3], [4, 4]]
+          }
+        },
+        {
+          "id": "b4-sciezka-do-kacika",
+          "typ": "sciezka",
+          "polecenie": "Przejdź ścieżkę do kącika palcem.",
+          "dane": {
+            "kroki": [
+              "Czuję sygnał w ciele.",
+              "Pokazuję znak.",
+              "Wstaję i idę do kącika.",
+              "Odwracam minutnik.",
+              "Robię trzy oddechy.",
+              "Wybieram jedną kartę pomysłu.",
+              "Wracam, kiedy jestem gotowy."
+            ],
+            "meta": "Przejdźcie tę ścieżkę raz na sucho, zanim będzie potrzebna."
+          }
+        },
+        {
+          "id": "b4-kacik-w-podrozy",
+          "typ": "lista_krokow",
+          "polecenie": "Przeczytaj, co pakujesz do woreczka.",
+          "dla_rodzica": "Mały woreczek w plecaku zastępuje kącik w aucie, u babci i w poczekalni.",
+          "dane": {
+            "kroki": [
+              "Weź płócienny woreczek albo kosmetyczkę.",
+              "Włóż gniotek albo piłeczkę.",
+              "Włóż kartę trzech oddechów.",
+              "Włóż trzy karty pomysłów.",
+              "Włóż coś miękkiego do dotykania.",
+              "Trzymaj woreczek zawsze w tym samym miejscu plecaka."
+            ]
+          }
+        },
+        {
+          "id": "b4-uzupelnij-zasady",
+          "typ": "uzupelnij",
+          "polecenie": "Wybierz słowo pasujące do zasady.",
+          "dane": {
+            "pozycje": [
+              { "wzor": "Do kącika idę, ___.", "opcje": ["za karę", "kiedy chcę"], "poprawna": 1 },
+              { "wzor": "W kąciku nie ma ___.", "opcje": ["ekranu", "poduszki"], "poprawna": 0 },
+              { "wzor": "Wychodzę, kiedy oddech się ___.", "opcje": ["uspokoi", "skończy"], "poprawna": 0 },
+              { "wzor": "Drzwi zostają ___.", "opcje": ["zamknięte na klucz", "otwarte"], "poprawna": 1 }
+            ]
+          }
+        },
+        {
+          "id": "b4-po-wyjsciu-z-kacika",
+          "typ": "lista_krokow",
+          "polecenie": "Przeczytaj, co robicie potem.",
+          "dla_rodzica": "Nie zaczynaj od pytania „dlaczego”. Zacznij od zdania o sobie.",
+          "dane": {
+            "kroki": [
+              "Dorosły mówi: dobrze, że wróciłeś.",
+              "Nikt nie wraca od razu do sprzeczki.",
+              "Zróbcie coś zwykłego: wodę, kanapkę, spacer do okna.",
+              "Do rozmowy wracacie później, nawet następnego dnia.",
+              "Sprawdźcie, czy coś w kąciku wymaga zmiany."
+            ]
+          }
+        },
+        {
+          "id": "b4-nasza-karta-kacika",
+          "typ": "formularz",
+          "polecenie": "Wypełnij kartę waszego kącika.",
+          "dane": {
+            "pola": [
+              { "etykieta": "Gdzie stoi nasz kącik", "wysokosc_mm": 14, "linie": 1 },
+              { "etykieta": "Co w nim jest", "wysokosc_mm": 20, "linie": 3 },
+              { "etykieta": "Czego w nim nie ma", "wysokosc_mm": 18, "linie": 2 },
+              { "etykieta": "Kto z niego korzysta", "wysokosc_mm": 14, "linie": 1 },
+              { "etykieta": "Co wymieniamy za miesiąc", "wysokosc_mm": 18, "linie": 2 }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "klucz_odpowiedzi": [
+    {
+      "strona_id": "b1-sortowanie-sygnalow",
+      "odpowiedzi": [
+        "Czuję to w środku: gorące policzki, szybki oddech, ściśnięty brzuch, mocne bicie serca",
+        "Widać to z zewnątrz: zaciśnięte pięści, głośny głos, tupanie, zmarszczone brwi"
+      ]
+    },
+    {
+      "strona_id": "b1-lacz-pary-sygnal",
+      "odpowiedzi": [
+        "Pięści — zaciskają się",
+        "Twarz — robi się gorąca",
+        "Brzuch — ściska się",
+        "Nogi — chcą tupać",
+        "Gardło — łapie krótki oddech"
+      ]
+    },
+    {
+      "strona_id": "b1-co-bylo-pierwsze",
+      "odpowiedzi": ["Wieża się przewraca.", "Kuba zaciska pięści."]
+    },
+    {
+      "strona_id": "b2-lacz-oddech-z-krokiem",
+      "odpowiedzi": [
+        "Świeczka — Dmucham długo i powoli.",
+        "Kwadrat — Liczę do czterech.",
+        "Pszczoła — Brzęczę na wydechu."
+      ]
+    },
+    {
+      "strona_id": "b2-uzupelnij-kroki",
+      "odpowiedzi": ["nos", "usta", "czterech", "spokojnie"]
+    },
+    {
+      "strona_id": "b2-sekwencja-swieczka",
+      "odpowiedzi": ["Wystawiam palec przed siebie.", "Liczę w głowie do trzech."]
+    },
+    {
+      "strona_id": "b3-sortowanie-iskier",
+      "odpowiedzi": [
+        "Da się przygotować wcześniej: głód, pośpiech rano, zmęczenie wieczorem, za ciasny sweter",
+        "Przychodzi znienacka: przegrana w grze, hałas w autobusie, przerwana zabawa, nagła zmiana planów"
+      ]
+    },
+    {
+      "strona_id": "b3-uzupelnij-plan",
+      "odpowiedzi": ["stop", "oddech", "słowa", "spokojnie"]
+    },
+    {
+      "strona_id": "b3-sekwencja-planu",
+      "odpowiedzi": ["Pokazuję umówiony znak ręką.", "Mówię, czego potrzebuję."]
+    },
+    {
+      "strona_id": "b3-lacz-sytuacja-krok",
+      "odpowiedzi": [
+        "Przegrana w grze — Odchodzę od stołu na minutę.",
+        "Hałas w sklepie — Zakrywam uszy dłońmi.",
+        "Trudne zadanie — Odkładam kartkę i liczę do czterech.",
+        "Pośpiech rano — Mówię: potrzebuję chwili."
+      ]
+    },
+    {
+      "strona_id": "b4-sortowanie-rzeczy",
+      "odpowiedzi": [
+        "Pasuje do kącika: miękka poduszka, minutnik z piaskiem, karta oddechów, koc, słoik z brokatem",
+        "Zostaje poza kącikiem: tablet, głośna zabawka, lista zadań domowych"
+      ]
+    },
+    {
+      "strona_id": "b4-lacz-rzecz-z-zadaniem",
+      "odpowiedzi": [
+        "Poduszka — Można ją mocno ścisnąć.",
+        "Minutnik — Pokazuje, ile czasu minęło.",
+        "Karta oddechów — Przypomina trzy kroki.",
+        "Koc — Otula, gdy w środku jest zimno.",
+        "Słoik z brokatem — Patrzę, jak opada."
+      ]
+    },
+    {
+      "strona_id": "b4-uzupelnij-zasady",
+      "odpowiedzi": ["kiedy chcę", "ekranu", "uspokoi", "otwarte"]
+    }
+  ],
+  "fragment": {
+    "do_strony": 11,
+    "obietnica_na_stronie": "Blok pierwszy w całości: osiem stron o tym, gdzie w ciele zaczyna się złość, razem z kartą „mojej złości” do powieszenia na ścianie."
+  }
+}
