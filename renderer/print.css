@@ -65,6 +65,8 @@ html,body{
 .tresc{ flex:1; display:flex; flex-direction:column; min-height:0; }
 .tresc--rozciagnij > *{ flex:1; }
 .tresc--rozloz{ justify-content:space-evenly; }
+.tresc--od-gory{ justify-content:flex-start; }
+.tresc--od-gory > *{ flex:0 0 auto; }
 .strona:last-child{ break-after:auto; }
 
 /* Bez ramek dookoła strony i bez teł pełnostronicowych — reguła twarda. */
@@ -113,12 +115,18 @@ h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
 /* Komórka bez sylaby nie dostaje obramowania — ostatni wiersz bywa niepełny. */
 .tabela-sylab td:empty{ border:none; }
 
+/* Wariant tekstowy: tabela ze zdaniami, nie z sylabami. */
+.tabela-sylab--tekst{ height:auto; }
+.tabela-sylab--tekst td{ font-size:11pt; font-weight:400; line-height:1.4;
+                         text-align:left; padding:3mm; vertical-align:top; }
+.tabela-sylab--tekst th{ text-align:left; }
+
 .sciezka{ display:flex; flex-wrap:wrap; align-items:center; align-content:space-evenly;
           gap:4mm 3mm; margin-top:8mm; flex:1; }
 .sciezka__krok{ border:.8pt solid var(--ink); border-radius:4mm;
                 padding:3mm 5mm; font-size:22pt; font-weight:700; }
 .sciezka__strzalka{ font-size:14pt; color:var(--slate); }
-.sciezka__meta{ font-size:10pt; color:var(--slate); margin-top:5mm; }
+.sciezka__meta{ font-size:11pt; color:var(--slate); margin-top:5mm; }
 
 /* Wąskie pola i szeroka przerwa w środku — dziecko musi mieć gdzie
    poprowadzić linię między kolumnami. */
@@ -187,7 +195,18 @@ h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
 .sekwencja__pole--puste{ border-style:dashed; min-height:16mm; }
 
 /* PORADNIK: jedyny archetyp z dominującą prozą. Maks. 65 znaków w linii —
-   przy 12pt Jakarcie to ok. 112 mm, stąd ograniczenie szerokości. */
+   przy 12pt Jakarcie to ok. 112 mm. Miara obowiązuje CAŁĄ stronę
+   poradnika, nie tylko akapity: lista kroków i tabela tekstowa łamią
+   się tak samo jak proza. Walidator mierzy to na wyrenderowanym PDF-ie. */
+.strona--poradnik .tresc,
+.strona--poradnik .karta__lista,
+.strona--poradnik .gra__kroki,
+.strona--poradnik .spis,
+.strona--poradnik .karta__blok p,
+.strona--poradnik .okladka__obietnica,
+.strona--poradnik .okladka__meta,
+.strona--poradnik .okladka__dol,
+.strona--poradnik .dla-rodzica{ max-width:112mm; }
 .proza{ max-width:112mm; }
 .proza p{ font-size:12pt; line-height:1.62; margin:0 0 4.5mm; }
 
@@ -206,7 +225,7 @@ h3.pod{ font-size:12pt; font-weight:800; margin:0 0 2.5mm;
              display:flex; flex-direction:column; justify-content:center;
              align-items:center; text-align:center; gap:2mm; min-height:52mm; }
 .karta-tnij__awers{ font-size:17pt; font-weight:700; line-height:1.2; }
-.karta-tnij__rewers{ font-size:10pt; color:var(--slate); }
+.karta-tnij__rewers{ font-size:11pt; color:var(--slate); }
 
 .plansza{ display:grid; grid-template-columns:repeat(4,1fr); gap:0; flex:1; }
 .plansza__pole{ border:.5pt solid var(--ink); padding:3mm 2mm; min-height:26mm;
@@ -300,8 +319,14 @@ body.kolor .obraz .obraz__kolor{ display:block; }
 .postep__nota{ font-size:11pt; color:var(--slate); margin-top:6mm; }
 
 /* -------------------------------------------------------------- formularz */
-.formularz__pole{ margin-bottom:5mm; }
-.formularz__etykieta{ font-size:10pt; font-weight:800; margin-bottom:1.5mm; }
+/* Formularz dzieli wysokość strony między pola, zamiast rosnąć w dół.
+   Bez tego arkusz z dziesięcioma rubrykami wychodzi poza obszar zadruku. */
+.formularz__pole{ display:flex; flex-direction:column; flex:1;
+                  min-height:0; margin-bottom:3mm; }
+.formularz__etykieta{ font-size:11pt; font-weight:800; margin-bottom:1.5mm; }
+.formularz__pole .linie{ flex:1; display:flex; flex-direction:column;
+                         justify-content:space-between; margin:0; }
+.formularz__pole .linia{ flex:1; min-height:7mm; height:auto; }
 
 /* ------------------------------------------------------------- okładka */
 .okladka{ display:flex; flex-direction:column; height:100%; }

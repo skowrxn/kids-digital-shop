@@ -62,8 +62,15 @@ def zbuduj_html(c, archetyp, kolor, tylko_strony=None):
 
     if tylko_strony:
         # fragment: zostawiamy tylko pierwsze N stron, numeracja się nie zmienia
-        strony = re.findall(r'<div class="strona">.*?</div>\s*(?=<div class="strona">|\Z)',
-                            tresc, re.S)
+        # Uwaga: strony mogą nieść dodatkowe klasy (np. strona--poradnik),
+        # więc dopasowujemy PREFIKS klasy, nie całą wartość atrybutu.
+        strony = re.findall(
+            r'<div class="strona[^"]*">.*?</div>\s*(?=<div class="strona[^"]*">|\Z)',
+            tresc, re.S)
+        if len(strony) < tylko_strony:
+            sys.exit(f"BŁĄD: podział na strony dał {len(strony)}, "
+                     f"a fragment ma mieć {tylko_strony} — sprawdź wyrażenie "
+                     "dzielące w zbuduj_html()")
         tresc = "".join(strony[:tylko_strony])
 
     css = (RENDERER / "print.css").read_text(encoding="utf-8")

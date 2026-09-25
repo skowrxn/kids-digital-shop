@@ -345,6 +345,16 @@ def waliduj_pdf(slug):
     if abs(d.page_count - dekl) > 2:
         bledy.append(f"pelny.pdf ma {d.page_count} stron, spec deklaruje {dekl} (tolerancja ±2)")
 
+    # Obcy krój w PDF-ie = treść użyła znaku spoza podzbioru fontu i Chromium
+    # podstawił zastępczy. Typografia cicho się rozjeżdża, więc to błąd.
+    nasze = ("PlusJakartaSans", "BricolageGrotesque")
+    obce = {f[3].split("+")[-1] for i in range(d.page_count)
+            for f in d.get_page_fonts(i)
+            if f[3] and not any(n in f[3] for n in nasze)}
+    for krój in sorted(obce):
+        bledy.append(f"obcy krój w PDF-ie: {krój} — jakiś znak wypadł poza "
+                     "podzbiór fontu, uzupełnij ZNAKI w renderer/fonty.py")
+
     najgorsza, maks = None, 0.0
     for i, strona in enumerate(d, 1):
         pix = strona.get_pixmap(dpi=72, colorspace=fitz.csGRAY)
@@ -390,6 +400,24 @@ def waliduj_pdf(slug):
     for rozmiar, (i, probka) in sorted(za_male.items()):
         bledy.append(f"strona {i}: tekst {rozmiar}pt poniżej podłogi 11pt: {probka!r}")
     d.close()
+
+    # PORADNIK: maksimum 65 znaków w linii. Mierzymy na wyrenderowanym
+    # PDF-ie, bo dopiero tam widać, gdzie Chromium złamał wiersz.
+    if c["meta"]["archetyp"] == "PORADNIK":
+        d = fitz.open(pelny)
+        najdluzsza = (0, None, "")
+        for i, strona in enumerate(d, 1):
+            for b in strona.get_text("dict")["blocks"]:
+                for l in b.get("lines", []):
+                    tekst = "".join(sp["text"] for sp in l["spans"]).strip()
+                    if len(tekst) > najdluzsza[0]:
+                        najdluzsza = (len(tekst), i, tekst)
+        d.close()
+        ile, i, probka = najdluzsza
+        if ile > 68:
+            bledy.append(f"strona {i}: linia ma {ile} znaków, maks. 65 — {probka[:60]!r}")
+        else:
+            ostrz.append(f"najdłuższa linia: {ile} znaków (limit 65)")
 
     if fragment.exists():
         f = fitz.open(fragment)

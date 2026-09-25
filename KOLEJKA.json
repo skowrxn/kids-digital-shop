@@ -252,10 +252,10 @@
       "autor": "Ala Dębska",
       "cena_pln": 29,
       "strony_prototyp": 56,
-      "etap": "spec",
+      "etap": "walidacja",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:31:46Z",
+      "zaktualizowano": "2026-09-25T10:40:57Z",
       "flagowy": true,
       "icp_glowne": "ICP-0-ekran"
     },
@@ -286,10 +286,10 @@
       "autor": "Julia Rak",
       "cena_pln": 25,
       "strony_prototyp": 40,
-      "etap": "spec",
+      "etap": "walidacja",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:31:46Z"
+      "zaktualizowano": "2026-09-25T10:40:57Z"
     },
     {
       "slug": "kosmos-dla-poczatkujacych",
@@ -436,10 +436,10 @@
       "autor": "zespół Lupy",
       "cena_pln": 19,
       "strony_prototyp": 32,
-      "etap": "spec",
+      "etap": "walidacja",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:31:46Z",
+      "zaktualizowano": "2026-09-25T10:40:57Z",
       "flagowy": true,
       "icp_glowne": "ICP-4-system"
     },
@@ -528,10 +528,10 @@
       "autor": "Michał Ptak",
       "cena_pln": 39,
       "strony_prototyp": 80,
-      "etap": "spec",
+      "etap": "walidacja",
       "proba": 0,
       "ostatni_blad": null,
-      "zaktualizowano": "2026-09-25T10:31:46Z"
+      "zaktualizowano": "2026-09-25T10:40:57Z"
     },
     {
       "slug": "rozmowa-z-nauczycielem",
@@ -1178,5 +1178,5 @@
       "zaktualizowano": "2026-08-31T14:55:38Z"
     }
   ],
-  "zaktualizowano": "2026-09-25T10:31:46Z"
+  "zaktualizowano": "2026-09-25T10:40:57Z"
 }

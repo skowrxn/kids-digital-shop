@@ -1,0 +1,1800 @@
+{
+  "meta": {
+    "slug": "karty-rutyn",
+    "tytul": "Karty rutyn: poranek i wieczór",
+    "podtytul": "48 kart i tablica",
+    "archetyp": "KARTY",
+    "wersja": "1.0",
+    "wiek": "3–7 lat",
+    "kategoria": "rutyny",
+    "podkategoria": "plan-dnia",
+    "strony_deklarowane": 56,
+    "min_pt_dziecka": 14
+  },
+  "wstep": {
+    "dla_kogo": "Dla domu, w którym poranek to codziennie ta sama awantura.",
+    "obietnica": "Dziecko samo przechodzi przez poranek i wieczór, przesuwając kartę po każdej zrobionej rzeczy — bez przypominania za każdym razem.",
+    "warunek_wejscia": "Dziecko rozpoznaje przedmioty na obrazkach i potrafi wykonać prostą czynność samodzielnie. Czytać nie musi.",
+    "ile_czasu_dziennie": "Pierwszy tydzień: dziesięć minut dziennie razem przy tablicy. Potem tyle, ile trwa sam poranek.",
+    "jak_korzystac": [
+      "Wydrukuj najpierw samą talię poranną. Wieczorną dołóż za tydzień.",
+      "Wybierz osiem kart, nie dwadzieścia cztery. Resztę odłóż do pudełka.",
+      "Ustalcie kolejność razem, przy stole, zanim cokolwiek powiesisz.",
+      "Powieś tablicę na wysokości oczu dziecka, przy drzwiach albo w łazience.",
+      "Przez pierwszy tydzień przechodź z dzieckiem kartę po karcie.",
+      "Kiedy osiem kart działa bez przypominania, dołóż dwie kolejne.",
+      "Karty pokazują kolejność. Nie stawiaj przy nich punktów ani naklejek."
+    ],
+    "czego_nie_robi": [
+      "To nie jest system nagród ani kar. Karty pokazują kolejność, nie oceniają.",
+      "Nie zadziała sama z siebie. Przez pierwszy tydzień przechodzicie przez nie razem.",
+      "Nie zastępuje rozmowy o tym, dlaczego rano trzeba wyjść z domu o ósmej.",
+      "To nie jest terapia ani diagnoza. To narzędzie do ułożenia dnia w domu."
+    ],
+    "kiedy_do_specjalisty": "Jeśli po dwóch miesiącach poranek wygląda tak samo jak przed kartami, porozmawiaj z pediatrą przy najbliższej wizycie. To nie znaczy, że coś jest nie tak. Znaczy, że warto zapytać."
+  },
+  "talie": [
+    {
+      "nazwa": "Poranek",
+      "format_mm": [
+        65,
+        90
+      ],
+      "bez_podpisow": true,
+      "arkusze": [
+        {
+          "id": "por-przygotowanie",
+          "typ": "lista_krokow",
+          "polecenie": "Przygotuj talię poranną.",
+          "dla_rodzica": "Zrób to raz, wieczorem, bez dziecka. Zajmuje kwadrans.",
+          "dane": {
+            "kroki": [
+              "Wydrukuj sześć kolejnych arkuszy. Zwykły papier wystarczy.",
+              "Potnij karty po liniach. Zostaw trzy milimetry marginesu.",
+              "Zalaminuj albo oklej taśmą — karty przetrwają mokre ręce.",
+              "Przyklej rzep albo magnes na odwrocie każdej karty.",
+              "Powieś tablicę na wysokości oczu dziecka, nie swoich.",
+              "Zacznij od ośmiu kart. Resztę dołóżcie za tydzień."
+            ]
+          }
+        },
+        {
+          "id": "por-karty-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Dla dziecka, które czyta albo rozpoznaje wyrazy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Wstań z łóżka.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Pościel łóżko.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Odsłoń zasłony.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Idź do toalety.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Umyj ręce.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Umyj buzię.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Umyj zęby.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Uczesz włosy.",
+                "rewers": "poranek"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "por-karty-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Dla dziecka, które czyta albo rozpoznaje wyrazy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Zdejmij piżamę.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Ubierz bieliznę i skarpetki.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Włóż spodnie.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Włóż koszulkę.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Włóż sweter.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Nakryj do stołu.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Zjedz śniadanie.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Odnieś talerz do zlewu.",
+                "rewers": "poranek"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "por-karty-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Dla dziecka, które czyta albo rozpoznaje wyrazy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Wypij szklankę wody.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Nakarm zwierzaka.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Spakuj plecak.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Włóż bidon do plecaka.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Weź czapkę.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Załóż buty.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Załóż kurtkę.",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Wyjdź z domu.",
+                "rewers": "poranek"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "por-rysunkowe-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj na pustych kartach.",
+          "dla_rodzica": "Wersja dla dziecka, które nie czyta. Pole na karcie jest puste — dziecko rysuje czynność albo wklejacie zdjęcie. Opis pod ramką jest dla ciebie, nie dla dziecka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Wstawanie z łóżka",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Ścielenie łóżka",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Odsłanianie zasłon",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Toaleta",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Mycie rąk",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Mycie buzi",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Mycie zębów",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Czesanie włosów",
+                "rewers": "poranek"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "por-rysunkowe-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj na pustych kartach.",
+          "dla_rodzica": "Wersja dla dziecka, które nie czyta. Pole na karcie jest puste — dziecko rysuje czynność albo wklejacie zdjęcie. Opis pod ramką jest dla ciebie, nie dla dziecka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Zdejmowanie piżamy",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Bielizna i skarpetki",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Spodnie",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Koszulka",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Sweter",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Nakrywanie do stołu",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Śniadanie",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Talerz do zlewu",
+                "rewers": "poranek"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "por-rysunkowe-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj na pustych kartach.",
+          "dla_rodzica": "Wersja dla dziecka, które nie czyta. Pole na karcie jest puste — dziecko rysuje czynność albo wklejacie zdjęcie. Opis pod ramką jest dla ciebie, nie dla dziecka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Szklanka wody",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Karmienie zwierzaka",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Pakowanie plecaka",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Bidon do plecaka",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Czapka",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Buty",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Kurtka",
+                "rewers": "poranek"
+              },
+              {
+                "awers": "Wyjście z domu",
+                "rewers": "poranek"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "por-tablica",
+          "typ": "formularz",
+          "polecenie": "Ułóż karty na tablicy.",
+          "dla_rodzica": "Osiem pustych rubryk. Wkładasz karty w kolejności, którą ustalicie razem. Rubryki zostają puste — nic tu nie wpisujesz na stałe.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Karta 1",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 2",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 3",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 4",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 5",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 6",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 7",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 8",
+                "wysokosc_mm": 26,
+                "linie": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "por-pasek",
+          "typ": "formularz",
+          "polecenie": "Powieś pasek przy drzwiach.",
+          "dla_rodzica": "Pięć rubryk na ostatnie kroki przed wyjściem. Wieszasz na wysokości klamki.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Karta 1",
+                "wysokosc_mm": 22,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 2",
+                "wysokosc_mm": 22,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 3",
+                "wysokosc_mm": 22,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 4",
+                "wysokosc_mm": 22,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 5",
+                "wysokosc_mm": 22,
+                "linie": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "por-kolejnosc-mlodsze",
+          "typ": "tabela",
+          "polecenie": "Sprawdź kolejność dla młodszego dziecka.",
+          "dla_rodzica": "Propozycja na start dla trzy- i czterolatka. Osiem kart, nie więcej.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Po kolei",
+              "Karta",
+              "Ile to trwa"
+            ],
+            "wiersze": [
+              [
+                "1",
+                "Wstań z łóżka.",
+                "1 minuta"
+              ],
+              [
+                "2",
+                "Idź do toalety.",
+                "3 minuty"
+              ],
+              [
+                "3",
+                "Umyj ręce.",
+                "1 minuta"
+              ],
+              [
+                "4",
+                "Zdejmij piżamę.",
+                "3 minuty"
+              ],
+              [
+                "5",
+                "Włóż koszulkę.",
+                "3 minuty"
+              ],
+              [
+                "6",
+                "Włóż spodnie.",
+                "3 minuty"
+              ],
+              [
+                "7",
+                "Zjedz śniadanie.",
+                "15 minut"
+              ],
+              [
+                "8",
+                "Umyj zęby.",
+                "2 minuty"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "por-kolejnosc-starsze",
+          "typ": "tabela",
+          "polecenie": "Sprawdź kolejność dla starszego dziecka.",
+          "dla_rodzica": "Wersja dla pięcio- i siedmiolatka. Dochodzi pakowanie i zwierzak.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Po kolei",
+              "Karta",
+              "Ile to trwa"
+            ],
+            "wiersze": [
+              [
+                "1",
+                "Wstań z łóżka.",
+                "1 minuta"
+              ],
+              [
+                "2",
+                "Pościel łóżko.",
+                "2 minuty"
+              ],
+              [
+                "3",
+                "Umyj zęby.",
+                "2 minuty"
+              ],
+              [
+                "4",
+                "Ubierz bieliznę i skarpetki.",
+                "3 minuty"
+              ],
+              [
+                "5",
+                "Zjedz śniadanie.",
+                "15 minut"
+              ],
+              [
+                "6",
+                "Nakarm zwierzaka.",
+                "3 minuty"
+              ],
+              [
+                "7",
+                "Spakuj plecak.",
+                "5 minut"
+              ],
+              [
+                "8",
+                "Załóż buty.",
+                "3 minuty"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "por-weekend",
+          "typ": "tabela",
+          "polecenie": "Zobacz wersję na weekend.",
+          "dla_rodzica": "W sobotę zostaje pięć kart. Reszta wraca do pudełka.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Zostaje",
+              "Znika"
+            ],
+            "wiersze": [
+              [
+                "Idź do toalety.",
+                "Spakuj plecak."
+              ],
+              [
+                "Umyj zęby.",
+                "Włóż bidon do plecaka."
+              ],
+              [
+                "Zjedz śniadanie.",
+                "Weź czapkę."
+              ],
+              [
+                "Ubierz bieliznę i skarpetki.",
+                "Załóż buty."
+              ],
+              [
+                "Nakarm zwierzaka.",
+                "Wyjdź z domu."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "por-pospiech",
+          "typ": "lista_krokow",
+          "polecenie": "Wybierz pięć kart na pośpiech.",
+          "dla_rodzica": "Dzień, w którym zaspaliście. Skracasz talię, nie tempo.",
+          "dane": {
+            "kroki": [
+              "Zdejmij z tablicy wszystko poza pięcioma kartami.",
+              "Zostaw: toaleta, ubranie, zęby, buty, kurtka.",
+              "Powiedz dziecku, ile kart zostało. Pokaż palcem.",
+              "Śniadanie weźcie do ręki. Karta wraca jutro.",
+              "Wieczorem odłóż pozostałe karty na miejsce."
+            ]
+          }
+        },
+        {
+          "id": "por-notatki",
+          "typ": "formularz",
+          "polecenie": "Zapisz, co zmieniliście.",
+          "dla_rodzica": "Rubryki na twoje notatki po pierwszym tygodniu. Zostają puste, dopóki sam ich nie wypełnisz. Nie wpisuj tu nic o dziecku.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Karta, która działa od razu",
+                "wysokosc_mm": 30,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta, przy której się zacina",
+                "wysokosc_mm": 30,
+                "linie": 0
+              },
+              {
+                "etykieta": "Kolejność do przestawienia",
+                "wysokosc_mm": 30,
+                "linie": 0
+              },
+              {
+                "etykieta": "Co dołożyć za tydzień",
+                "wysokosc_mm": 30,
+                "linie": 0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Wieczór",
+      "format_mm": [
+        65,
+        90
+      ],
+      "bez_podpisow": true,
+      "arkusze": [
+        {
+          "id": "wie-przygotowanie",
+          "typ": "lista_krokow",
+          "polecenie": "Przygotuj talię wieczorną.",
+          "dla_rodzica": "Zrób to raz, wieczorem, bez dziecka. Zajmuje kwadrans.",
+          "dane": {
+            "kroki": [
+              "Wydrukuj sześć kolejnych arkuszy. Zwykły papier wystarczy.",
+              "Potnij karty po liniach. Zostaw trzy milimetry marginesu.",
+              "Zalaminuj albo oklej taśmą — karty przetrwają mokre ręce.",
+              "Przyklej rzep albo magnes na odwrocie każdej karty.",
+              "Powieś tablicę na wysokości oczu dziecka, nie swoich.",
+              "Zacznij od ośmiu kart. Resztę dołóżcie za tydzień."
+            ]
+          }
+        },
+        {
+          "id": "wie-karty-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Dla dziecka, które czyta albo rozpoznaje wyrazy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Odłóż tablet.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Posprzątaj zabawki.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Odnieś kubek do zlewu.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Zjedz kolację.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Odnieś talerz do zlewu.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Podlej kwiatka.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Nakarm zwierzaka.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Włóż brudne ubrania do kosza.",
+                "rewers": "wieczór"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "wie-karty-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Dla dziecka, które czyta albo rozpoznaje wyrazy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Przygotuj ręcznik.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Wybierz piżamę.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Wejdź do wanny.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Umyj włosy.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Umyj całe ciało.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Wytrzyj się ręcznikiem.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Ubierz piżamę.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Umyj zęby.",
+                "rewers": "wieczór"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "wie-karty-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty po liniach.",
+          "dla_rodzica": "Wersja z podpisami. Dla dziecka, które czyta albo rozpoznaje wyrazy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Idź do toalety.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Przygotuj ubrania na rano.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Spakuj plecak na jutro.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Wybierz książkę.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Poczytajcie razem.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Zgaś duże światło.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Przytul się i powiedz dobranoc.",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Zamknij oczy.",
+                "rewers": "wieczór"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "wie-rysunkowe-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj na pustych kartach.",
+          "dla_rodzica": "Wersja dla dziecka, które nie czyta. Pole na karcie jest puste — dziecko rysuje czynność albo wklejacie zdjęcie. Opis pod ramką jest dla ciebie, nie dla dziecka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Odkładanie tabletu",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Sprzątanie zabawek",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Kubek do zlewu",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Kolacja",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Talerz do zlewu",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Podlewanie kwiatka",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Karmienie zwierzaka",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Brudne ubrania do kosza",
+                "rewers": "wieczór"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "wie-rysunkowe-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj na pustych kartach.",
+          "dla_rodzica": "Wersja dla dziecka, które nie czyta. Pole na karcie jest puste — dziecko rysuje czynność albo wklejacie zdjęcie. Opis pod ramką jest dla ciebie, nie dla dziecka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Przygotowanie ręcznika",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Wybór piżamy",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Wejście do wanny",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Mycie włosów",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Mycie całego ciała",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Wycieranie ręcznikiem",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Ubieranie piżamy",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Mycie zębów",
+                "rewers": "wieczór"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "wie-rysunkowe-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj na pustych kartach.",
+          "dla_rodzica": "Wersja dla dziecka, które nie czyta. Pole na karcie jest puste — dziecko rysuje czynność albo wklejacie zdjęcie. Opis pod ramką jest dla ciebie, nie dla dziecka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Toaleta",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Ubrania na rano",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Pakowanie plecaka",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Wybór książki",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Czytanie razem",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Gaszenie dużego światła",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Przytulenie i dobranoc",
+                "rewers": "wieczór"
+              },
+              {
+                "awers": "Zamykanie oczu",
+                "rewers": "wieczór"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "wie-tablica",
+          "typ": "formularz",
+          "polecenie": "Ułóż karty na tablicy.",
+          "dla_rodzica": "Osiem pustych rubryk na wieczór. Wieszasz w łazience albo przy łóżku.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Karta 1",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 2",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 3",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 4",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 5",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 6",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 7",
+                "wysokosc_mm": 26,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 8",
+                "wysokosc_mm": 26,
+                "linie": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "wie-pasek",
+          "typ": "formularz",
+          "polecenie": "Powieś pasek przy łóżku.",
+          "dla_rodzica": "Pięć rubryk na ostatnie kroki przed snem.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Karta 1",
+                "wysokosc_mm": 22,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 2",
+                "wysokosc_mm": 22,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 3",
+                "wysokosc_mm": 22,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 4",
+                "wysokosc_mm": 22,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 5",
+                "wysokosc_mm": 22,
+                "linie": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "wie-kolejnosc-mlodsze",
+          "typ": "tabela",
+          "polecenie": "Sprawdź kolejność dla młodszego dziecka.",
+          "dla_rodzica": "Propozycja dla trzy- i czterolatka. Kąpiel, piżama, książka, spanie.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Po kolei",
+              "Karta",
+              "Ile to trwa"
+            ],
+            "wiersze": [
+              [
+                "1",
+                "Posprzątaj zabawki.",
+                "5 minut"
+              ],
+              [
+                "2",
+                "Zjedz kolację.",
+                "15 minut"
+              ],
+              [
+                "3",
+                "Wejdź do wanny.",
+                "10 minut"
+              ],
+              [
+                "4",
+                "Wytrzyj się ręcznikiem.",
+                "3 minuty"
+              ],
+              [
+                "5",
+                "Ubierz piżamę.",
+                "3 minuty"
+              ],
+              [
+                "6",
+                "Umyj zęby.",
+                "2 minuty"
+              ],
+              [
+                "7",
+                "Poczytajcie razem.",
+                "10 minut"
+              ],
+              [
+                "8",
+                "Zamknij oczy.",
+                "1 minuta"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "wie-kolejnosc-starsze",
+          "typ": "tabela",
+          "polecenie": "Sprawdź kolejność dla starszego dziecka.",
+          "dla_rodzica": "Wersja dla pięcio- i siedmiolatka. Dochodzi jutrzejszy plecak.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Po kolei",
+              "Karta",
+              "Ile to trwa"
+            ],
+            "wiersze": [
+              [
+                "1",
+                "Odłóż tablet.",
+                "1 minuta"
+              ],
+              [
+                "2",
+                "Posprzątaj zabawki.",
+                "5 minut"
+              ],
+              [
+                "3",
+                "Zjedz kolację.",
+                "15 minut"
+              ],
+              [
+                "4",
+                "Spakuj plecak na jutro.",
+                "5 minut"
+              ],
+              [
+                "5",
+                "Wejdź do wanny.",
+                "10 minut"
+              ],
+              [
+                "6",
+                "Ubierz piżamę.",
+                "3 minuty"
+              ],
+              [
+                "7",
+                "Umyj zęby.",
+                "2 minuty"
+              ],
+              [
+                "8",
+                "Poczytajcie razem.",
+                "10 minut"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "wie-weekend",
+          "typ": "tabela",
+          "polecenie": "Zobacz wersję na weekend.",
+          "dla_rodzica": "W piątek wieczór jest luźniejszy. Zostaje sześć kart.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Zostaje",
+              "Znika"
+            ],
+            "wiersze": [
+              [
+                "Posprzątaj zabawki.",
+                "Przygotuj ubrania na rano."
+              ],
+              [
+                "Zjedz kolację.",
+                "Spakuj plecak na jutro."
+              ],
+              [
+                "Wejdź do wanny.",
+                "Wybierz książkę."
+              ],
+              [
+                "Ubierz piżamę.",
+                "Zgaś duże światło."
+              ],
+              [
+                "Umyj zęby.",
+                "Odłóż tablet."
+              ],
+              [
+                "Zamknij oczy.",
+                "Podlej kwiatka."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "wie-poza-domem",
+          "typ": "lista_krokow",
+          "polecenie": "Wybierz karty na nocleg poza domem.",
+          "dla_rodzica": "U babci, na wakacjach, w hotelu. Bierzesz sześć kart i gumkę.",
+          "dane": {
+            "kroki": [
+              "Wybierz sześć kart, które da się zrobić wszędzie.",
+              "Spnij je gumką i włóż do bocznej kieszeni torby.",
+              "Na miejscu rozłóż je na stoliku albo na parapecie.",
+              "Kolejność zostaje ta sama co w domu. To jest cały sens.",
+              "Po powrocie wróćcie do pełnej tablicy tego samego wieczora."
+            ]
+          }
+        },
+        {
+          "id": "wie-notatki",
+          "typ": "formularz",
+          "polecenie": "Zapisz, co zmieniliście.",
+          "dla_rodzica": "Rubryki na twoje notatki. Zostają puste, dopóki sam ich nie wypełnisz.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Karta, która działa od razu",
+                "wysokosc_mm": 30,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta, przy której się zacina",
+                "wysokosc_mm": 30,
+                "linie": 0
+              },
+              {
+                "etykieta": "Kolejność do przestawienia",
+                "wysokosc_mm": 30,
+                "linie": 0
+              },
+              {
+                "etykieta": "Co dołożyć za tydzień",
+                "wysokosc_mm": 30,
+                "linie": 0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Karty puste",
+      "format_mm": [
+        65,
+        90
+      ],
+      "bez_podpisow": true,
+      "arkusze": [
+        {
+          "id": "pus-jak-pisac",
+          "typ": "lista_krokow",
+          "polecenie": "Dopisz własną kartę.",
+          "dla_rodzica": "Rób to razem z dzieckiem. Karta, którą samo wymyśliło, wraca na tablicę chętniej.",
+          "dane": {
+            "kroki": [
+              "Wypisz czynności, o które przypominasz codziennie po kilka razy.",
+              "Wykreśl te, które trwają dłużej niż pięć minut.",
+              "Zostaw najwyżej trzy. Więcej naraz się nie przyjmie.",
+              "Wpisz je na kartach z linią albo narysuj na kartach bez linii.",
+              "Dołóż jedną kartę na tydzień, nie trzy naraz."
+            ]
+          }
+        },
+        {
+          "id": "pus-pomysly-dom",
+          "typ": "tabela",
+          "polecenie": "Wybierz pomysły z domu.",
+          "dla_rodzica": "Gotowe czynności do przepisania na puste karty. Wybierz dwie, nie dwanaście.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Czynność",
+              "Kiedy pasuje"
+            ],
+            "wiersze": [
+              [
+                "Podlej kwiatka.",
+                "rano"
+              ],
+              [
+                "Wynieś kubek do zlewu.",
+                "wieczorem"
+              ],
+              [
+                "Złóż piżamę.",
+                "rano"
+              ],
+              [
+                "Odkurz okruszki spod stołu.",
+                "wieczorem"
+              ],
+              [
+                "Wyjmij pranie z pralki.",
+                "wieczorem"
+              ],
+              [
+                "Ustaw buty przy drzwiach.",
+                "wieczorem"
+              ],
+              [
+                "Napełnij miskę zwierzakowi.",
+                "rano"
+              ],
+              [
+                "Zamknij okno w pokoju.",
+                "wieczorem"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "pus-pomysly-wyjscia",
+          "typ": "tabela",
+          "polecenie": "Wybierz pomysły na wyjścia.",
+          "dla_rodzica": "Karty na przedszkole, basen, zajęcia. Trzymaj je w osobnej kopercie.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Czynność",
+              "Gdzie pasuje"
+            ],
+            "wiersze": [
+              [
+                "Spakuj strój na basen.",
+                "basen"
+              ],
+              [
+                "Weź ręcznik i klapki.",
+                "basen"
+              ],
+              [
+                "Włóż worek z kapciami.",
+                "przedszkole"
+              ],
+              [
+                "Weź bidon.",
+                "zajęcia"
+              ],
+              [
+                "Sprawdź, czy masz rękawiczki.",
+                "zima"
+              ],
+              [
+                "Weź czapkę z daszkiem.",
+                "lato"
+              ],
+              [
+                "Spakuj drugie śniadanie.",
+                "szkoła"
+              ],
+              [
+                "Weź kartę na autobus.",
+                "szkoła"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "pus-pomysly-weekend",
+          "typ": "tabela",
+          "polecenie": "Wybierz pomysły na weekend.",
+          "dla_rodzica": "Sobota i niedziela mają inny rytm. Te karty wkładasz tylko na dwa dni.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Czynność",
+              "Kto pomaga"
+            ],
+            "wiersze": [
+              [
+                "Nakryj do stołu dla wszystkich.",
+                "razem"
+              ],
+              [
+                "Wybierz książkę na wieczór.",
+                "samo"
+              ],
+              [
+                "Posegreguj klocki do pudełka.",
+                "razem"
+              ],
+              [
+                "Przynieś pranie z suszarki.",
+                "samo"
+              ],
+              [
+                "Wytrzyj stół po obiedzie.",
+                "samo"
+              ],
+              [
+                "Zapakuj plecak na spacer.",
+                "razem"
+              ],
+              [
+                "Odłóż buty na półkę.",
+                "samo"
+              ],
+              [
+                "Wybierz ubranie na jutro.",
+                "samo"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "pus-z-linia-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wpisz czynność na karcie.",
+          "dla_rodzica": "Karty z linią na podpis. Piszesz drukowanymi literami, tak jak w talii poranka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "pus-z-linia-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wpisz czynność na karcie.",
+          "dla_rodzica": "Karty z linią na podpis. Piszesz drukowanymi literami, tak jak w talii poranka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "pus-z-linia-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wpisz czynność na karcie.",
+          "dla_rodzica": "Karty z linią na podpis. Piszesz drukowanymi literami, tak jak w talii poranka.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "pus-bez-linii-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj czynność na karcie.",
+          "dla_rodzica": "Karty bez linii. Dziecko rysuje albo wklejacie zdjęcie zrobione telefonem.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "pus-bez-linii-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj czynność na karcie.",
+          "dla_rodzica": "Karty bez linii. Dziecko rysuje albo wklejacie zdjęcie zrobione telefonem.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "pus-bez-linii-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Narysuj czynność na karcie.",
+          "dla_rodzica": "Karty bez linii. Dziecko rysuje albo wklejacie zdjęcie zrobione telefonem.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              },
+              {
+                "awers": "",
+                "rewers": "moja karta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": false
+          }
+        },
+        {
+          "id": "pus-tablica-wlasna",
+          "typ": "formularz",
+          "polecenie": "Ułóż własną tablicę.",
+          "dla_rodzica": "Pusta tablica na porę dnia, której nie ma w zestawie: popołudnie, sobota, wyjazd. Nagłówek wpisujesz ręką.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Nagłówek tablicy",
+                "wysokosc_mm": 24,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 1",
+                "wysokosc_mm": 24,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 2",
+                "wysokosc_mm": 24,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 3",
+                "wysokosc_mm": 24,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 4",
+                "wysokosc_mm": 24,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta 5",
+                "wysokosc_mm": 24,
+                "linie": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "pus-notatki",
+          "typ": "formularz",
+          "polecenie": "Zapisz, co się zmieniło.",
+          "dla_rodzica": "Rubryki na notatki po miesiącu. Puste — wypełniasz u siebie i nikomu nie oddajesz.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Co dziecko robi teraz bez przypominania",
+                "wysokosc_mm": 30,
+                "linie": 0
+              },
+              {
+                "etykieta": "Przy czym nadal jesteś potrzebny",
+                "wysokosc_mm": 30,
+                "linie": 0
+              },
+              {
+                "etykieta": "Karta, która nie wypaliła",
+                "wysokosc_mm": 30,
+                "linie": 0
+              },
+              {
+                "etykieta": "Następna karta do dołożenia",
+                "wysokosc_mm": 30,
+                "linie": 0
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "instrukcja_zabaw": [
+    {
+      "nazwa": "Ułóż poranek po kolei",
+      "wiek": "3–7 lat",
+      "kroki": [
+        "Rozłóż osiem kart porannych na stole, pomieszane.",
+        "Poproś, żeby dziecko ułożyło je od wstawania do wyjścia.",
+        "Nie poprawiaj w trakcie. Poczekaj, aż skończy.",
+        "Przejdźcie kolejność palcem i nazwijcie każdą kartę na głos.",
+        "Jeśli coś jest nie tak, zapytaj: co robimy zaraz po myciu zębów?"
+      ]
+    },
+    {
+      "nazwa": "Karta po karcie",
+      "wiek": "3–7 lat",
+      "kroki": [
+        "Powieś karty na tablicy w ustalonej kolejności.",
+        "Po każdej zrobionej rzeczy dziecko przesuwa kartę na drugą stronę tablicy.",
+        "Ty nie przesuwasz nic. To jedyna zasada dla dorosłego.",
+        "Na koniec policzcie razem, ile kart się przesunęło."
+      ]
+    },
+    {
+      "nazwa": "Co zniknęło",
+      "wiek": "4–7 lat",
+      "kroki": [
+        "Rozłóż sześć kart obrazkiem do góry. Nazwijcie każdą.",
+        "Poproś, żeby dziecko zamknęło oczy. Zabierz jedną kartę.",
+        "Dziecko otwiera oczy i mówi, której karty brakuje.",
+        "Zamieńcie się rolami. Teraz ty zamykasz oczy."
+      ]
+    },
+    {
+      "nazwa": "Wyścig z klepsydrą",
+      "wiek": "4–7 lat",
+      "kroki": [
+        "Wybierzcie trzy karty, przy których zwykle się przeciąga.",
+        "Odwróć klepsydrę albo nastaw minutnik na pięć minut.",
+        "Dziecko robi trzy rzeczy, zanim piasek się przesypie.",
+        "Nie komentuj tempa. Liczy się to, że karty są zrobione.",
+        "Następnym razem dołóż czwartą kartę, nie skracaj czasu."
+      ]
+    },
+    {
+      "nazwa": "Zamiana ról",
+      "wiek": "4–7 lat",
+      "kroki": [
+        "Dajesz dziecku całą talię wieczorną.",
+        "Dziecko wydaje ci karty po kolei, a ty wykonujesz polecenia.",
+        "Udawaj, że zapominasz o jednej karcie. Niech cię poprawi.",
+        "Na koniec zapytaj, którą kartę było najtrudniej ci zrobić."
+      ]
+    },
+    {
+      "nazwa": "Pomieszany wieczór",
+      "wiek": "5–7 lat",
+      "kroki": [
+        "Ułóż osiem kart wieczornych w dobrej kolejności.",
+        "Przestaw dwie karty, kiedy dziecko nie patrzy.",
+        "Dziecko szuka, co jest nie na swoim miejscu.",
+        "Zapytaj, dlaczego piżama nie może być przed kąpielą."
+      ]
+    },
+    {
+      "nazwa": "Dwie talie, jeden stos",
+      "wiek": "3–6 lat",
+      "kroki": [
+        "Wymieszaj karty poranne i wieczorne w jednym stosie.",
+        "Dziecko rozdziela je na dwie kupki: rano i wieczorem.",
+        "Podpowiedź jest na odwrocie karty — sprawdzacie dopiero na koniec.",
+        "Karty, które pasują do obu pór, odłóżcie osobno. Takich jest kilka."
+      ]
+    },
+    {
+      "nazwa": "Karta na jutro",
+      "wiek": "4–7 lat",
+      "kroki": [
+        "Wieczorem rozłóż trzy karty, których jeszcze nie ma na tablicy.",
+        "Dziecko wybiera jedną i kładzie ją na tablicy na rano.",
+        "Rano robicie tylko tę jedną nową rzecz. Reszta bez zmian.",
+        "Jeśli poszło, karta zostaje na stałe. Jeśli nie — wraca do pudełka."
+      ]
+    },
+    {
+      "nazwa": "Pary",
+      "wiek": "3–6 lat",
+      "kroki": [
+        "Weź osiem kart z podpisami i osiem tych samych kart z rysunkiem.",
+        "Rozłóż rysunkowe w rzędzie, podpisane trzymaj w ręce.",
+        "Podawaj kartę z podpisem, dziecko kładzie ją przy pasującym rysunku.",
+        "Przeczytaj podpis na głos dopiero po dopasowaniu."
+      ]
+    },
+    {
+      "nazwa": "Walizka",
+      "wiek": "4–7 lat",
+      "kroki": [
+        "Powiedz, że jedziecie na dwie noce do babci.",
+        "Dziecko wybiera z talii sześć kart, które zabierze ze sobą.",
+        "Zapytaj o każdą: czy da się to zrobić u babci?",
+        "Spnijcie wybrane karty gumką i włóżcie do torby."
+      ]
+    }
+  ],
+  "klucz_odpowiedzi": [
+    {
+      "strona_id": "por-tablica",
+      "odpowiedzi": [
+        "Proponowana kolejność poranna, młodsze dziecko: wstań, toaleta, umyj ręce, zdejmij piżamę, koszulka, spodnie, śniadanie, umyj zęby.",
+        "Proponowana kolejność poranna, starsze dziecko: wstań, pościel łóżko, umyj zęby, bielizna i skarpetki, śniadanie, zwierzak, plecak, buty.",
+        "Zasada: ubranie zawsze po toalecie, zęby zawsze po śniadaniu."
+      ]
+    },
+    {
+      "strona_id": "wie-tablica",
+      "odpowiedzi": [
+        "Proponowana kolejność wieczorna, młodsze dziecko: zabawki, kolacja, wanna, ręcznik, piżama, zęby, książka, oczy.",
+        "Proponowana kolejność wieczorna, starsze dziecko: tablet, zabawki, kolacja, plecak na jutro, wanna, piżama, zęby, książka.",
+        "Zasada: zęby zawsze po kolacji, książka zawsze na końcu."
+      ]
+    },
+    {
+      "strona_id": "pus-tablica-wlasna",
+      "odpowiedzi": [
+        "Karty, które pasują i rano, i wieczorem: toaleta, mycie rąk, mycie zębów, karmienie zwierzaka, odnoszenie talerza.",
+        "Jeśli układacie popołudnie, zacznij od trzech kart. Popołudnie jest krótsze niż wam się wydaje."
+      ]
+    }
+  ],
+  "fragment": {
+    "do_strony": 12,
+    "obietnica_na_stronie": "Cztery pierwsze strony z 56. Cały fragment pobierzesz za darmo, bez zakładania konta."
+  }
+}

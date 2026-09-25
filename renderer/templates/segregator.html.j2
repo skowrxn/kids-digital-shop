@@ -7,15 +7,16 @@
 {% set ns.nr = ns.nr + 1 %}{{ ws.jak_korzystac(c, ns.nr) }}
 
 {% for sek in c.sekcje %}
+  {% set nr_sekcji = loop.index %}
   {% set ns.nr = ns.nr + 1 %}
-  {{ w.strona_cwiczenia(c, sek.instrukcja_przygotowania, 'Sekcja ' ~ loop.index, sek.temat, ns.nr) }}
+  {{ w.strona_cwiczenia(c, sek.instrukcja_przygotowania, 'Sekcja ' ~ nr_sekcji, sek.temat, ns.nr) }}
   {% set ns.nr = ns.nr + 1 %}
-  {{ w.strona_cwiczenia(c, sek.plansza_bazowa, 'Sekcja ' ~ loop.index, sek.temat, ns.nr) }}
+  {{ w.strona_cwiczenia(c, sek.plansza_bazowa, 'Sekcja ' ~ nr_sekcji, sek.temat, ns.nr) }}
   {% set ns.nr = ns.nr + 1 %}
-  {{ w.strona_cwiczenia(c, sek.elementy_ruchome, 'Sekcja ' ~ loop.index, sek.temat, ns.nr) }}
+  {{ w.strona_cwiczenia(c, sek.elementy_ruchome, 'Sekcja ' ~ nr_sekcji, sek.temat, ns.nr) }}
   {% for s in sek.get('dodatkowe', []) %}
     {% set ns.nr = ns.nr + 1 %}
-    {{ w.strona_cwiczenia(c, s, 'Sekcja ' ~ loop.parent.loop.index, sek.temat, ns.nr) }}
+    {{ w.strona_cwiczenia(c, s, 'Sekcja ' ~ nr_sekcji, sek.temat, ns.nr) }}
   {% endfor %}
 {% endfor %}
 

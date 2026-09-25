@@ -1,0 +1,771 @@
+{
+  "meta": {
+    "slug": "kiedy-nic-nie-dziala",
+    "tytul": "Kiedy nic nie działa",
+    "podtytul": "Co robić, gdy dziecko odmawia",
+    "archetyp": "PORADNIK",
+    "wersja": "1.0",
+    "wiek": "dowolny",
+    "kategoria": "rodzic",
+    "podkategoria": "motywacja",
+    "strony_deklarowane": 40,
+    "min_pt_dziecka": 12
+  },
+  "wstep": {
+    "dla_kogo": "Dla rodzica, który kupił już trzy programy i żaden nie ruszył.",
+    "obietnica": "Rozpoznasz, która z czterech najczęstszych przyczyn dotyczy waszego domu, i będziesz mieć jedną rzecz do sprawdzenia w tym tygodniu.",
+    "warunek_wejscia": "Żaden. To materiał dla ciebie, nie dla dziecka.",
+    "ile_czasu_dziennie": "Czytasz jeden rozdział, około dwudziestu minut. Sprawdzasz jedną rzecz przez tydzień.",
+    "jak_korzystac": [
+      "Przeczytaj spis czterech rozdziałów. Wybierz ten, który brzmi znajomo.",
+      "Czytaj jeden rozdział naraz. Cztery naraz nic ci nie dadzą.",
+      "Na końcu rozdziału jest lista rzeczy do sprawdzenia. Wybierz jedną.",
+      "Sprawdzaj ją przez siedem dni, zanim zmienisz cokolwiek innego.",
+      "Rubryki w środku są puste. Pisz w nich u siebie, ołówkiem.",
+      "Jeśli po tygodniu nic się nie zmieniło, wróć i przeczytaj następny rozdział."
+    ],
+    "czego_nie_robi": [
+      "Nie opisuje stanu twojego dziecka ani twojego.",
+      "Nie obiecuje, że po tygodniu dziecko samo siądzie do nauki.",
+      "Nie jest poradnikiem wychowawczym. Dotyczy jednej rzeczy: odmowy siadania do materiałów.",
+      "Nie zawiera ćwiczeń dla dziecka. To tekst, który czytasz sam."
+    ],
+    "kiedy_do_specjalisty": "Jeśli odmowa dotyczy też jedzenia, snu i wychodzenia z domu, i trwa od kilku tygodni — porozmawiaj z pediatrą. Ten materiał dotyczy wyłącznie siadania do kartek."
+  },
+  "rozdzialy": [
+    {
+      "tytul": "rozdział 1. materiał jest nie na miarę",
+      "strony": [
+        {
+          "id": "r1-s1",
+          "typ": "proza",
+          "polecenie": "Zacznij tutaj",
+          "dane": {
+            "akapity": [
+              "Kupiłeś materiał, który wyglądał dobrze. Dziecko usiadło raz. Za drugim razem zaczęło kręcić się na krześle po dwóch minutach. Za trzecim powiedziało, że nie chce.",
+              "Pierwsze, co przychodzi do głowy, to że dziecku się nie chce. Rzadko o to chodzi. Znacznie częściej materiał jest nie na miarę — albo o pół kroku za trudny, albo o dwa kroki za łatwy.",
+              "Dziecko nie powie ci „to jest za trudne”. Powie „nudne” albo nie powie nic. Odmowa to najtańszy sposób, żeby nie przegrać przy stole.",
+              "Ten rozdział pokazuje, jak to sprawdzić w trzy minuty, bez rozmowy o motywacji."
+            ]
+          }
+        },
+        {
+          "id": "r1-s2",
+          "typ": "proza",
+          "polecenie": "Co się dzieje pod spodem",
+          "dane": {
+            "akapity": [
+              "Przy zadaniu za trudnym dziecko robi bilans. Jeśli spróbuje i nie da rady, zobaczysz, że nie dało rady. Jeśli nie spróbuje, nikt niczego nie zobaczy.",
+              "Dlatego odmowa pojawia się zanim zadanie w ogóle się zacznie. Nie po pięciu błędach, tylko przy wyjmowaniu kartki.",
+              "Przy zadaniu za łatwym mechanizm jest inny, ale efekt ten sam. Dziecko już to umie. Robienie tego jeszcze raz wygląda dla niego jak kara za to, że umie.",
+              "Obie wersje wyglądają identycznie z twojej strony stołu. Dlatego zgadywanie nie działa i trzeba to zmierzyć."
+            ]
+          }
+        },
+        {
+          "id": "r1-s3",
+          "typ": "tabela",
+          "polecenie": "Co słyszysz, a co to znaczy",
+          "dla_rodzica": "Tabela nie ocenia dziecka. Porządkuje to, co już widziałeś.",
+          "dane": {
+            "naglowki_kolumn": [
+              "co dziecko robi lub mówi",
+              "częściej znaczy"
+            ],
+            "wiersze": [
+              [
+                "Odmawia, zanim zobaczy kartkę",
+                "za trudne — broni się przed porażką"
+              ],
+              [
+                "Zaczyna i po jednym zadaniu odchodzi",
+                "za trudne — pierwsze zadanie zjadło całą siłę"
+              ],
+              [
+                "Robi szybko, byle jak, pyta „już?”",
+                "za łatwe — nie ma po co się starać"
+              ],
+              [
+                "Dopisuje własne żarty na kartce",
+                "za łatwe — szuka sobie zajęcia"
+              ],
+              [
+                "Prosi, żebyś siedział obok cały czas",
+                "za trudne — potrzebuje podpowiedzi co krok"
+              ],
+              [
+                "Mówi „nudne” przy każdym materiale",
+                "sprawdź oba warianty, zaczynając od trudności"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "r1-s4",
+          "typ": "proza",
+          "polecenie": "Zasada ośmiu na dziesięć",
+          "dane": {
+            "akapity": [
+              "Materiał jest na miarę, kiedy dziecko robi osiem zadań z dziesięciu samo. Dwa mogą wymagać twojej podpowiedzi. Nie zero, bo wtedy jest za łatwo.",
+              "Dziesięć na dziesięć oznacza, że dziecko się nudzi, choć z pozoru wszystko idzie dobrze. Pięć na dziesięć oznacza, że za tydzień usłyszysz „nie chcę”.",
+              "Tę proporcję liczysz na jednej stronie, nie na całym zeszycie. Jedna strona to wystarczająca próbka.",
+              "Nie mów dziecku, że liczysz. Policz po cichu, po fakcie."
+            ]
+          }
+        },
+        {
+          "id": "r1-s5",
+          "typ": "lista_krokow",
+          "polecenie": "Test trzech minut",
+          "dla_rodzica": "Rób to raz, przy zwykłym zadaniu. Nie zapowiadaj testu.",
+          "dane": {
+            "kroki": [
+              "Wybierz jedną stronę z materiału, który dziecko odrzuciło.",
+              "Zakryj kartką wszystko poza pierwszym zadaniem.",
+              "Powiedz: zrób tylko to jedno, potem odkładamy.",
+              "Nie podpowiadaj przez pierwsze trzy minuty. Siedź obok i milcz.",
+              "Zapisz sobie, co się stało: zrobiło samo, zrobiło z pomocą, nie zaczęło.",
+              "Powtórz jutro z zadaniem o poziom łatwiejszym z tego samego materiału.",
+              "Porównaj oba dni. Różnica pokaże ci kierunek."
+            ]
+          }
+        },
+        {
+          "id": "r1-s6",
+          "typ": "proza",
+          "polecenie": "Kiedy wyjdzie za łatwo",
+          "dane": {
+            "akapity": [
+              "Za łatwo bywa trudniejsze do przyjęcia niż za trudno. Kupiłeś materiał na wiek dziecka i wygląda na to, że dziecko ten wiek wyprzedziło w jednym obszarze.",
+              "To nie znaczy, że masz kupować wyżej wszystko. Dzieci rosną nierówno. Ktoś czyta jak siedmiolatek i liczy jak czterolatek, i to jest zwykła sytuacja.",
+              "Zamiast zmieniać cały materiał, zmień porcję. Z dziesięciu zadań zostaw trzy najtrudniejsze i przeskocz resztę.",
+              "Przeskakiwanie stron nie jest oszukiwaniem. Materiał ma służyć dziecku, nie odwrotnie."
+            ]
+          }
+        },
+        {
+          "id": "r1-s7",
+          "typ": "formularz",
+          "polecenie": "Miejsce na twoje notatki",
+          "dla_rodzica": "Rubryki są puste. Wypełnij je u siebie, ołówkiem.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Materiał, który sprawdzałem",
+                "wysokosc_mm": 12,
+                "linie": 1
+              },
+              {
+                "etykieta": "Dzień 1 — ile zadań z dziesięciu samo",
+                "wysokosc_mm": 12,
+                "linie": 1
+              },
+              {
+                "etykieta": "Dzień 2 — ile zadań z dziesięciu samo",
+                "wysokosc_mm": 12,
+                "linie": 1
+              },
+              {
+                "etykieta": "Co powiedziało, zanim zaczęło",
+                "wysokosc_mm": 20,
+                "linie": 2
+              },
+              {
+                "etykieta": "Wniosek: za trudne, za łatwe, na miarę",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Co zmieniam w przyszłym tygodniu",
+                "wysokosc_mm": 24,
+                "linie": 3
+              }
+            ]
+          }
+        }
+      ],
+      "do_zrobienia_w_tym_tygodniu": [
+        "Zrób test trzech minut na materiale, który dziecko odrzuciło.",
+        "Policz, ile zadań z dziesięciu dziecko robi bez twojej podpowiedzi.",
+        "Jeśli wyszło mniej niż siedem, znajdź materiał o poziom niżej.",
+        "Jeśli wyszło dziesięć, zostaw trzy najtrudniejsze zadania i przeskocz resztę.",
+        "Nie zmieniaj w tym tygodniu pory dnia ani długości siedzenia. Jedna zmiana naraz."
+      ]
+    },
+    {
+      "tytul": "rozdział 2. walczycie z godziną, nie z dzieckiem",
+      "strony": [
+        {
+          "id": "r2-s1",
+          "typ": "proza",
+          "polecenie": "Ta sama kartka, inna godzina",
+          "dane": {
+            "akapity": [
+              "Bywa tak, że ten sam materiał w sobotę rano idzie gładko, a w czwartek o osiemnastej kończy się trzaśnięciem drzwiami.",
+              "Jeśli to twoja sytuacja, problem nie leży w materiale. Leży w godzinie, o której go wyjmujesz.",
+              "Popołudnie po przedszkolu albo po szkole to dla dziecka koniec długiej zmiany. Ono już przez sześć godzin siedziało, słuchało i czekało na swoją kolej.",
+              "Prośba o jeszcze dwadzieścia minut siedzenia trafia w moment, w którym zapas jest na zerze."
+            ]
+          }
+        },
+        {
+          "id": "r2-s2",
+          "typ": "proza",
+          "polecenie": "Dlaczego wieczór jest najgorszy",
+          "dane": {
+            "akapity": [
+              "Wieczorem dziecko traci nie umiejętności, tylko zdolność do proszenia o pomoc i do przyjęcia poprawki. Umie tyle samo co rano. Nie umie tego znieść.",
+              "Dlatego wieczorne błędy wyglądają na cofnięcie. „Przecież wczoraj to czytał.” Czytał, tylko wczoraj było wpół do dziesiątej rano.",
+              "Ty też jesteś wtedy na końcu swojego dnia. Dwie zmęczone osoby przy jednej kartce to nie jest test materiału. To test wytrzymałości.",
+              "Nic z tego nie znaczy, że robisz coś źle. Znaczy tylko, że godzina jest kiepsko wybrana, a to jest do zmiany."
+            ]
+          }
+        },
+        {
+          "id": "r2-s3",
+          "typ": "tabela",
+          "polecenie": "Pory dnia i co zwykle działa",
+          "dla_rodzica": "Punkt wyjścia, nie reguła. Sprawdź u siebie.",
+          "dane": {
+            "naglowki_kolumn": [
+              "pora",
+              "co zwykle wchodzi",
+              "czego unikać"
+            ],
+            "wiersze": [
+              [
+                "Rano przed wyjściem",
+                "pięć minut czegoś znanego",
+                "nowego materiału i pośpiechu"
+              ],
+              [
+                "Zaraz po powrocie",
+                "nic, jedzenie i spokój",
+                "kartek w pierwszej godzinie"
+              ],
+              [
+                "Godzinę po powrocie, po jedzeniu",
+                "krótkie zadanie, które dziecko już zna",
+                "długich serii i nowych zasad"
+              ],
+              [
+                "Po kolacji",
+                "gra, karty, czytanie na głos przez ciebie",
+                "pisania i liczenia"
+              ],
+              [
+                "Weekend rano",
+                "nowy materiał, trudniejsze rzeczy",
+                "odrabiania całego tygodnia naraz"
+              ],
+              [
+                "W aucie i w poczekalni",
+                "pytania, wyliczanki, zgadywanki",
+                "czegokolwiek, co wymaga stołu"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "r2-s4",
+          "typ": "proza",
+          "polecenie": "Szukasz okna, nie planu",
+          "dane": {
+            "akapity": [
+              "Nie chodzi o to, żeby ułożyć plan tygodnia. Chodzi o znalezienie jednego okna w ciągu dnia, w którym dziecko jest najedzone, wybiegane i jeszcze nie senne.",
+              "U większości domów to okno jest krótkie i pada w jednym, powtarzalnym miejscu. Trzeba je znaleźć raz.",
+              "Kiedy je znajdziesz, przestań negocjować porę. Materiał wychodzi o tej godzinie i o żadnej innej. To zdejmuje z was codzienną rozmowę „to może teraz?”.",
+              "Jeśli okno wypada tylko w weekend, to też jest odpowiedź. Dwa razy w tygodniu o dobrej porze biją pięć razy o złej."
+            ]
+          }
+        },
+        {
+          "id": "r2-s5",
+          "typ": "lista_krokow",
+          "polecenie": "Jak znaleźć swoje okno",
+          "dane": {
+            "kroki": [
+              "Przez pięć dni wyjmuj ten sam, krótki materiał.",
+              "Każdego dnia wyjmuj go o innej porze: rano, po powrocie, po jedzeniu, przed kolacją, po kolacji.",
+              "Nic nie zapowiadaj i nie tłumacz dziecku, że sprawdzasz.",
+              "Zapisz jedną rzecz: ile minut dziecko siedziało, zanim wstało.",
+              "Piątego dnia porównaj pięć liczb.",
+              "Najdłuższa liczba wskazuje twoje okno. Od przyszłego tygodnia wyjmuj materiał tylko wtedy."
+            ]
+          }
+        },
+        {
+          "id": "r2-s6",
+          "typ": "proza",
+          "polecenie": "Gdy dobrej pory nie ma",
+          "dane": {
+            "akapity": [
+              "Czasem żadna z pięciu prób nie wypada dobrze. Dni są pełne, wracacie o osiemnastej, a weekend zjadają zakupy i dziadkowie.",
+              "Wtedy nie szukaj dłużej. Zmniejsz materiał do rozmiaru, który mieści się w złej porze: jedno zadanie, trzy minuty, przy stole w kuchni.",
+              "Trzy minuty dziennie przez miesiąc to półtorej godziny. Dwadzieścia minut raz na dwa tygodnie, zakończone awanturą, to mniej niż zero.",
+              "Zmniejszanie nie jest odpuszczaniem. To jedyny sposób, żeby cokolwiek zostało w kalendarzu, który już jest pełny."
+            ]
+          }
+        },
+        {
+          "id": "r2-s7",
+          "typ": "formularz",
+          "polecenie": "Pięć dni obserwacji",
+          "dla_rodzica": "Wpisuj godzinę i liczbę minut. Nic więcej.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Dzień 1 — godzina / minuty przy stole",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Dzień 2 — godzina / minuty przy stole",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Dzień 3 — godzina / minuty przy stole",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Dzień 4 — godzina / minuty przy stole",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Dzień 5 — godzina / minuty przy stole",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Nasze okno wypada o godzinie",
+                "wysokosc_mm": 16,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "r2-s8",
+          "typ": "proza",
+          "polecenie": "Zanim przejdziesz dalej",
+          "dane": {
+            "akapity": [
+              "Jeśli po zmianie pory dziecko siedzi dłużej, masz odpowiedź i nie musisz czytać dalej.",
+              "Jeśli o każdej porze jest tak samo, przyczyna leży gdzie indziej. Przejdź do rozdziału trzeciego.",
+              "Jedna uwaga na koniec: zmiana pory działa powoli. Daj jej pełny tydzień, zanim uznasz, że nie pomogła.",
+              "Nie cofaj przy tym zmian z rozdziału pierwszego. Jeśli obniżyłeś poziom materiału, zostaw go na dole."
+            ]
+          }
+        }
+      ],
+      "do_zrobienia_w_tym_tygodniu": [
+        "Przez pięć dni wyjmij ten sam krótki materiał o pięciu różnych porach.",
+        "Zapisuj tylko jedną liczbę dziennie: minuty przy stole.",
+        "Wybierz porę z najdłuższym czasem i trzymaj ją przez kolejny tydzień.",
+        "Jeśli żadna pora nie działa, skróć materiał do trzech minut dziennie.",
+        "Nie zmieniaj przy tym poziomu materiału. Jedna zmiana naraz."
+      ]
+    },
+    {
+      "tytul": "rozdział 3. kartka przestała być o kartce",
+      "strony": [
+        {
+          "id": "r3-s1",
+          "typ": "proza",
+          "polecenie": "Kiedy stawka jest inna",
+          "dane": {
+            "akapity": [
+              "Jest trzecia sytuacja, w której poziom i pora są w porządku, a dziecko i tak nie siada. Wtedy przy stole gra się już o coś innego niż litery.",
+              "Najczęściej o dwie rzeczy: kto tu decyduje i czy ja cię mam tylko wtedy, kiedy pracuję.",
+              "To brzmi poważnie, a jest zwyczajne. Dziecko ma w ciągu dnia bardzo mało decyzji do podjęcia. Odmowa jest jedną z niewielu, które zawsze ma pod ręką.",
+              "Jeśli odmowa działa, to znaczy, że jest skuteczna. Nie jest złośliwa."
+            ]
+          }
+        },
+        {
+          "id": "r3-s2",
+          "typ": "proza",
+          "polecenie": "Po czym to poznasz",
+          "dane": {
+            "akapity": [
+              "Rozpoznasz to po tym, że walka toczy się o rzeczy poboczne. O to, którym ołówkiem, gdzie usiąść, czy najpierw sok, czy najpierw kartka.",
+              "Drugi sygnał: dziecko robi te same zadania u babci albo w świetlicy bez żadnego oporu, a przy tobie nie.",
+              "Trzeci: kiedy odpuszczasz i odkładasz materiał, nastrój wraca w dwie minuty. Nie było zmęczenia, było przeciąganie liny.",
+              "Zauważ, że żaden z tych sygnałów nie mówi nic o twoim dziecku jako o dziecku. Mówi o tym, jak ułożyła się wasza sytuacja przy stole."
+            ]
+          }
+        },
+        {
+          "id": "r3-s3",
+          "typ": "tabela",
+          "polecenie": "Co mówi, o co idzie gra",
+          "dane": {
+            "naglowki_kolumn": [
+              "zdanie dziecka",
+              "co bywa pod spodem"
+            ],
+            "wiersze": [
+              [
+                "„Nie teraz, za chwilę”",
+                "chce sam wybrać moment"
+              ],
+              [
+                "„A ty co będziesz robić?”",
+                "chce, żebyś został przy stole"
+              ],
+              [
+                "„To głupie, nie będę”",
+                "chce, żeby decyzja należała do niego"
+              ],
+              [
+                "„Zrób ty pierwszy”",
+                "chce wspólnej czynności, nie sprawdzania"
+              ],
+              [
+                "„W szkole już to robiłem”",
+                "chce, żeby jego zdanie coś zmieniło"
+              ],
+              [
+                "Cisza i odwrócona głowa",
+                "przeciąganie liny trwa, tylko bez słów"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "r3-s4",
+          "typ": "proza",
+          "polecenie": "Oddaj decyzję, zostaw ramę",
+          "dane": {
+            "akapity": [
+              "Najprostsze wyjście jest niewygodne: oddać dziecku część decyzji, zanim samo je sobie weźmie przez odmowę.",
+              "Rama zostaje twoja. Dziś siadamy do kartek — to nie jest do negocjacji. W ramie oddajesz wszystko, co możesz oddać bez szkody.",
+              "Które zadanie pierwsze. Który ołówek. Przy stole czy na podłodze. Teraz czy za dziesięć minut, gdy skończy się bajka.",
+              "To nie są ustępstwa. To są decyzje, które i tak nie mają dla ciebie znaczenia, a dla dziecka mają."
+            ]
+          }
+        },
+        {
+          "id": "r3-s5",
+          "typ": "lista_krokow",
+          "polecenie": "Trzy wybory na jedno siadanie",
+          "dla_rodzica": "Wybierz trzy, nie więcej. Za dużo wyborów też męczy.",
+          "dane": {
+            "kroki": [
+              "Zanim usiądziecie, powiedz jedno zdanie: robimy dziś dwie strony.",
+              "Pokaż dwie kartki i pozwól wybrać, która pierwsza.",
+              "Zapytaj, czym chce pisać. Przyjmij odpowiedź, nawet jeśli to kredka.",
+              "Zapytaj, czy zaczynamy teraz, czy po minutniku ustawionym na pięć minut.",
+              "Kiedy wybierze, nie wracaj do tematu i nie komentuj wyboru.",
+              "Po skończeniu powiedz, co zrobiliście, a nie jak mu poszło."
+            ]
+          }
+        },
+        {
+          "id": "r3-s6",
+          "typ": "proza",
+          "polecenie": "Gdy stawką jesteś ty",
+          "dane": {
+            "akapity": [
+              "Druga wersja tej samej gry jest cichsza. Dziecko zauważyło, że kiedy siedzi nad kartką, masz dla niego pełne dwadzieścia minut.",
+              "Wtedy opór nie dotyczy zadania, tylko tego, co jest wokół. Przeciąganie jednego wiersza na kwadrans przedłuża twoją obecność.",
+              "Rozwiązanie nie polega na skracaniu wspólnego czasu. Polega na odczepieniu twojej obecności od wyniku.",
+              "Daj te same dwadzieścia minut bez kartki, osobnym blokiem, i pilnuj, żeby były co dzień. Wtedy kartka przestaje być biletem do ciebie."
+            ]
+          }
+        },
+        {
+          "id": "r3-s7",
+          "typ": "lista_krokow",
+          "polecenie": "Co powiedzieć zamiast",
+          "dane": {
+            "kroki": [
+              "Zamiast „no już, siadaj” — „zaczynamy za pięć minut, wybierz kartkę”.",
+              "Zamiast „przecież to umiesz” — „to jest trudne, zrobimy dwa i kończymy”.",
+              "Zamiast „inne dzieci to robią” — nic. Tego zdania nie zastępujemy niczym.",
+              "Zamiast „jeszcze jedna strona” — „koniec, umawialiśmy się na dwie”.",
+              "Zamiast „nie chcesz, to nie” — „dziś już nie wracamy do tego, jutro o tej samej porze”.",
+              "Zamiast oceniania po skończeniu — powiedz na głos, co widziałeś: usiadł, zrobił dwie strony, wstał."
+            ]
+          }
+        },
+        {
+          "id": "r3-s8",
+          "typ": "formularz",
+          "polecenie": "Tydzień bez przeciągania liny",
+          "dla_rodzica": "Jedna kratka na dzień. Zaznacz ołówkiem.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Trzy wybory, które oddałem w tym tygodniu",
+                "wysokosc_mm": 24,
+                "linie": 3
+              },
+              {
+                "etykieta": "Dni, w których dziecko usiadło bez kłótni",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Dwadzieścia minut bez kartki — które dni wyszły",
+                "wysokosc_mm": 18,
+                "linie": 2
+              },
+              {
+                "etykieta": "Zdanie, które najczęściej mi się wymykało",
+                "wysokosc_mm": 18,
+                "linie": 2
+              },
+              {
+                "etykieta": "Co zostawiam na przyszły tydzień",
+                "wysokosc_mm": 20,
+                "linie": 2
+              }
+            ]
+          }
+        }
+      ],
+      "do_zrobienia_w_tym_tygodniu": [
+        "Wypisz trzy decyzje przy stole, które możesz oddać dziecku bez szkody.",
+        "Oddaj je codziennie przez siedem dni, zawsze te same.",
+        "Powiedz przed siadaniem jedno zdanie o tym, ile dziś robicie. Nie zmieniaj go w trakcie.",
+        "Znajdź dwadzieścia minut wspólnego czasu bez kartek i wstaw je na stałe.",
+        "Policz, w ile dni dziecko usiadło bez kłótni. Porównaj z tygodniem wcześniejszym."
+      ]
+    },
+    {
+      "tytul": "rozdział 4. porcja bez widocznego końca",
+      "strony": [
+        {
+          "id": "r4-s1",
+          "typ": "proza",
+          "polecenie": "Dziecko nie widzi końca",
+          "dane": {
+            "akapity": [
+              "Czwarta przyczyna jest najprostsza do naprawienia i najczęściej przeoczana. Porcja jest za duża, a dziecko nie widzi, gdzie się kończy.",
+              "Dorosły patrzy na zeszyt i wie, że dziś robi dwie strony z sześćdziesięciu. Dziecko patrzy na ten sam zeszyt i widzi sześćdziesiąt.",
+              "Grube materiały działają na dziecko odwrotnie niż na kupującego. Ciebie gruby plik przekonuje, że warto było zapłacić. Dziecko odstrasza.",
+              "Odmowa przy grubym zeszycie zwykle nie dotyczy dzisiejszych zadań. Dotyczy tego, co widać za nimi."
+            ]
+          }
+        },
+        {
+          "id": "r4-s2",
+          "typ": "proza",
+          "polecenie": "Dlaczego koniec musi być widoczny",
+          "dane": {
+            "akapity": [
+              "Dziecko w wieku przedszkolnym i wczesnoszkolnym słabo szacuje czas. „Chwilka” i „godzina” to dla niego prawie to samo słowo.",
+              "Dlatego zdanie „to zajmie tylko moment” nie uspokaja. Nie da się go sprawdzić. Sprawdzić da się kartkę, minutnik i liczbę.",
+              "Koniec, który widać, zmienia zadanie z otwartego w zamknięte. Zamknięte zadania dziecko podejmuje znacznie częściej.",
+              "To działa nawet wtedy, gdy porcja zostaje ta sama. Zmienia się tylko to, ile dziecko o niej wie."
+            ]
+          }
+        },
+        {
+          "id": "r4-s3",
+          "typ": "tabela",
+          "polecenie": "Jak pokazać, gdzie koniec",
+          "dane": {
+            "naglowki_kolumn": [
+              "zamiast",
+              "zrób tak"
+            ],
+            "wiersze": [
+              [
+                "Cały zeszyt na stole",
+                "dwie wyjęte kartki, reszta w szufladzie"
+              ],
+              [
+                "„Pracujemy, aż skończysz”",
+                "minutnik na dziesięć minut, widoczny"
+              ],
+              [
+                "„Zrób, ile dasz radę”",
+                "„robimy cztery zadania, zakreśl je teraz”"
+              ],
+              [
+                "Strona z dwudziestoma przykładami",
+                "zakryta kartką, odsłaniany jeden rząd"
+              ],
+              [
+                "Program na osiem tygodni w jednym pliku",
+                "wydrukowany jeden tydzień naraz"
+              ],
+              [
+                "„Jeszcze tylko to i to”",
+                "koniec tam, gdzie się umówiliście"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "r4-s4",
+          "typ": "proza",
+          "polecenie": "Umowa przed, nie w trakcie",
+          "dane": {
+            "akapity": [
+              "Porcję ustalacie przed siadaniem. Nie po trzech zadaniach, kiedy widzisz, że idzie dobrze.",
+              "Dokładanie w trakcie jest najkrótszą drogą do tego, że jutro dziecko nie usiądzie. Raz dołożone zadanie kosztuje tydzień zaufania do umowy.",
+              "Jeśli dziecko chce zrobić więcej, to jest inna sprawa — zgódź się, ale nazwij to na głos: „to już jest dodatkowe, umowa była na dwie strony”.",
+              "Dzięki temu następnym razem umowa dalej coś znaczy."
+            ]
+          }
+        },
+        {
+          "id": "r4-s5",
+          "typ": "lista_krokow",
+          "polecenie": "Jak pociąć zadanie na porcje",
+          "dane": {
+            "kroki": [
+              "Weź dzisiejszy materiał i policz, ile jest w nim zadań.",
+              "Podziel tę liczbę na pół. To jest twoja nowa porcja na jedno siadanie.",
+              "Wyjmij tylko te kartki. Resztę schowaj poza zasięgiem wzroku.",
+              "Pokaż dziecku porcję i powiedz liczbę: robimy cztery.",
+              "Połóż obok minutnik albo cztery klocki — po każdym zadaniu jeden znika.",
+              "Kończ dokładnie tam, gdzie się umówiliście, nawet jeśli idzie świetnie."
+            ]
+          }
+        },
+        {
+          "id": "r4-s6",
+          "typ": "proza",
+          "polecenie": "Minutnik zamiast namawiania",
+          "dane": {
+            "akapity": [
+              "Minutnik przejmuje rolę, którą do tej pory miałeś ty. To on mówi, kiedy koniec, i to z nim dziecko się nie kłóci.",
+              "Ustaw krótko. Dziesięć minut przy pierwszych próbach, nie dwadzieścia. Krótki czas, który się udał, jest wart więcej niż długi, który się rozsypał.",
+              "Nie przedłużaj, kiedy dzwoni. Nawet w środku zadania. Wiarygodność minutnika jest tu ważniejsza niż jedno dokończone ćwiczenie.",
+              "Po dwóch tygodniach możesz dodać pięć minut. Nie wcześniej i nie więcej."
+            ]
+          }
+        },
+        {
+          "id": "r4-s7",
+          "typ": "proza",
+          "polecenie": "Kończ o jedno zadanie za wcześnie",
+          "dane": {
+            "akapity": [
+              "Najlepszy moment na koniec jest wtedy, gdy dziecko wciąż ma ochotę. Nie wtedy, gdy przestało mieć.",
+              "Brzmi to marnotrawnie, bo zostawiasz na stole dobrą passę. Ta passa wraca jutro jako chęć siadania. Zmęczenie wraca jutro jako odmowa.",
+              "Praktycznie: kiedy widzisz, że idzie gładko, zrób jeszcze jedno zadanie i kończ. Nie trzy.",
+              "Po kilku dniach zauważysz, że to dziecko prosi o jeszcze jedną kartkę. To jest moment, na którym ci zależy — i nie musisz go przyspieszać."
+            ]
+          }
+        },
+        {
+          "id": "r4-s8",
+          "typ": "formularz",
+          "polecenie": "Twoja porcja na ten tydzień",
+          "dla_rodzica": "Wypełnij raz, na początku tygodnia.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Ile zadań robiliśmy do tej pory na raz",
+                "wysokosc_mm": 12,
+                "linie": 1
+              },
+              {
+                "etykieta": "Nowa porcja — połowa tej liczby",
+                "wysokosc_mm": 12,
+                "linie": 1
+              },
+              {
+                "etykieta": "Minutnik ustawiony na",
+                "wysokosc_mm": 12,
+                "linie": 1
+              },
+              {
+                "etykieta": "Gdzie chowam resztę materiału",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Dni, w których skończyliśmy zgodnie z umową",
+                "wysokosc_mm": 18,
+                "linie": 2
+              },
+              {
+                "etykieta": "Kiedy dziecko poprosiło o jeszcze jedno zadanie",
+                "wysokosc_mm": 20,
+                "linie": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "r4-s9",
+          "typ": "proza",
+          "polecenie": "Gdy żadna z czterech nie pasuje",
+          "dane": {
+            "akapity": [
+              "Przeszedłeś cztery rozdziały i żaden nie brzmi jak wasz dom. To się zdarza i nie oznacza, że coś przeoczyłeś.",
+              "Wtedy zrób najprostszą rzecz: odłóż materiały na dwa tygodnie. Nie zapowiadaj powrotu i nie wracaj do tematu.",
+              "Po dwóch tygodniach wyjmij coś zupełnie innego niż to, co odmawiało: grę, karty, czytanie na głos przez ciebie.",
+              "Jeśli odmowa dotyczy też jedzenia, snu i wychodzenia z domu, i trwa od kilku tygodni — porozmawiaj z pediatrą. To pytanie poza zakresem tego materiału.",
+              "Trzy kupione programy, które nie ruszyły, nie są miarą tego, jakim jesteś rodzicem. Są miarą tego, jak trudno trafić w moment."
+            ]
+          }
+        }
+      ],
+      "do_zrobienia_w_tym_tygodniu": [
+        "Policz dzisiejszą porcję i podziel ją na pół.",
+        "Wyjmuj tylko dzisiejsze kartki. Resztę chowaj poza zasięgiem wzroku.",
+        "Powiedz liczbę zadań przed siadaniem i nie zmieniaj jej w trakcie.",
+        "Ustaw minutnik na dziesięć minut i nie przedłużaj, kiedy zadzwoni.",
+        "Kończ o jedno zadanie wcześniej, niż masz ochotę."
+      ]
+    }
+  ],
+  "checklisty": [
+    {
+      "id": "check-pierwszy-tydzien",
+      "typ": "checklista",
+      "polecenie": "Checklista: pierwszy tydzień",
+      "dla_rodzica": "Odhacz to, co już zrobiłeś. Jedna zmiana naraz.",
+      "dane": {
+        "pozycje": [
+          "Wybrałem jeden rozdział, ten który brzmiał najbardziej znajomo.",
+          "Zrobiłem test trzech minut i policzyłem zadania zrobione samodzielnie.",
+          "Wiem, o której godzinie dziecko wytrzymuje przy stole najdłużej.",
+          "Porcja na jedno siadanie jest o połowę mniejsza niż tydzień temu.",
+          "Reszta materiału leży schowana, nie na stole.",
+          "Mówię liczbę zadań przed siadaniem, nie w trakcie.",
+          "Oddałem dziecku trzy decyzje i nie komentuję jego wyborów.",
+          "Minutnik jest ustawiony krótko i nie przedłużam, kiedy dzwoni.",
+          "Kończymy tam, gdzie się umówiliśmy, także w dobre dni.",
+          "Nie zmieniłem w tym tygodniu nic poza jedną rzeczą."
+        ]
+      }
+    },
+    {
+      "id": "check-gdy-znowu-odmowi",
+      "typ": "checklista",
+      "polecenie": "Checklista: gdy znowu odmówi",
+      "dla_rodzica": "Przejdź po kolei, zanim cokolwiek powiesz.",
+      "dane": {
+        "pozycje": [
+          "Sprawdziłem godzinę. Czy to nasze okno, czy koniec długiego dnia.",
+          "Sprawdziłem, czy dziecko jest najedzone i czy wcześniej się ruszało.",
+          "Spojrzałem na materiał: czy dziecko zrobi z niego osiem zadań z dziesięciu.",
+          "Sprawdziłem, ile zadań widzi na stole. Schowałem nadmiar.",
+          "Powiedziałem jedno krótkie zdanie o tym, ile dziś robimy.",
+          "Dałem wybór: która kartka pierwsza i czym pisze.",
+          "Odczekałem trzy minuty w ciszy, zanim zacząłem podpowiadać.",
+          "Nie dokładałem zadań w trakcie, choć szło dobrze.",
+          "Jeśli odmowa została, odłożyłem materiał bez kłótni i bez komentarza.",
+          "Umówiłem następny raz na konkretną porę, nie na „kiedyś”.",
+          "Zapisałem, co się działo, żeby porównać za tydzień."
+        ]
+      }
+    }
+  ],
+  "klucz_odpowiedzi": [],
+  "fragment": {
+    "do_strony": 10,
+    "obietnica_na_stronie": "Cały rozdział pierwszy: jak w trzy minuty sprawdzić, czy materiał jest na miarę dziecka."
+  }
+}

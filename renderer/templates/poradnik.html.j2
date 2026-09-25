@@ -3,14 +3,15 @@
 {% import '_wstep.html.j2' as ws %}
 {% set ns = namespace(nr=0) %}
 
-{% set ns.nr = ns.nr + 1 %}{{ ws.okladka(c, ns.nr) }}
-{% set ns.nr = ns.nr + 1 %}{{ ws.jak_korzystac(c, ns.nr) }}
+{% set ns.nr = ns.nr + 1 %}{{ ws.okladka(c, ns.nr, 'strona--poradnik') }}
+{% set ns.nr = ns.nr + 1 %}{{ ws.jak_korzystac(c, ns.nr, 'strona--poradnik') }}
 
 {% for r in c.rozdzialy %}
+  {% set nr_rozdzialu = loop.index %}
   {% for s in r.strony %}
     {% set ns.nr = ns.nr + 1 %}
-    <div class="strona">
-      {{ w.naglowek('Rozdział ' ~ loop.parent.loop.index, r.tytul) }}
+    <div class="strona strona--poradnik">
+      {{ w.naglowek('Rozdział ' ~ nr_rozdzialu, r.tytul) }}
       {% if loop.first %}<h2 class="sekcja">{{ r.tytul }}</h2>{% endif %}
       {{ w.cwiczenie(s) }}
       {{ w.stopka(c, ns.nr) }}
@@ -18,8 +19,8 @@
   {% endfor %}
   {% if r.get('do_zrobienia_w_tym_tygodniu') %}
     {% set ns.nr = ns.nr + 1 %}
-    <div class="strona">
-      {{ w.naglowek('Rozdział ' ~ loop.index, r.tytul) }}
+    <div class="strona strona--poradnik">
+      {{ w.naglowek('Rozdział ' ~ nr_rozdzialu, r.tytul) }}
       <h2 class="sekcja">do zrobienia w tym tygodniu</h2>
       <ul class="checklista" style="flex:1">
         {% for x in r.do_zrobienia_w_tym_tygodniu %}
@@ -33,7 +34,7 @@
 
 {% for s in c.get('checklisty', []) %}
   {% set ns.nr = ns.nr + 1 %}
-  {{ w.strona_cwiczenia(c, s, 'Checklista', '', ns.nr) }}
+  {{ w.strona_cwiczenia(c, s, 'Checklista', '', ns.nr, 'strona--poradnik') }}
 {% endfor %}
 
-{% set ns.nr = ns.nr + 1 %}{{ ws.klucz(c, ns.nr) }}
+{% set ns.nr = ns.nr + 1 %}{{ ws.klucz(c, ns.nr, 'strona--poradnik') }}

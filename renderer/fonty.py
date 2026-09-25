@@ -35,8 +35,14 @@ ZNAKI = (
     + "ĄĆĘŁŃÓŚŹŻąćęłńóśźż"
     + "„”‘’—–…·×÷°§«»"
     + "→←↑↓✓✕"
-    + "€zł"
+    + "•◦▪□■○●★☆♦♥♠♣"      # znaczniki list, oczka kostek, symbole na kartach
+    + "①②③④⑤⑥"
+    + "€zł±≤≥≠½¼¾"
 )
+
+#: Gdy w PDF-ie pojawi się krój spoza tej listy, znaczy to, że treść użyła
+#: znaku spoza podzbioru i Chromium podstawił font zastępczy. Bramka
+#: w validate.py to wyłapuje — patrz „obcy krój".
 
 
 def zrob(zrodlo: Path, rodzina: str, wagi, stale, wzorzec):

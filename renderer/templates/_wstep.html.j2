@@ -2,8 +2,8 @@
    decyzja z 2026-09-25. Pole wstep.czego_nie_robi zostaje w danych. #}
 {% import '_cwiczenia.html.j2' as w %}
 
-{% macro okladka(c, nr) %}
-<div class="strona">
+{% macro okladka(c, nr, klasa='') %}
+<div class="strona {{ klasa }}">
   <div class="okladka">
     <div class="okladka__gora {{ 'okladka__gora--z-obrazkiem' if c.meta.get('ilustracja') }}">
       {% if c.meta.get('ilustracja') %}{{ w.obraz(c.meta.ilustracja, 'obraz--okladka') }}{% endif %}
@@ -25,8 +25,8 @@
 </div>
 {% endmacro %}
 
-{% macro jak_korzystac(c, nr) %}
-<div class="strona">
+{% macro jak_korzystac(c, nr, klasa='') %}
+<div class="strona {{ klasa }}">
   <h2 class="sekcja">jak z tego korzystać</h2>
   <div class="karta" style="flex:1">
     <div class="karta__blok karta__blok--akcent">
@@ -56,9 +56,9 @@
 </div>
 {% endmacro %}
 
-{% macro klucz(c, nr) %}
+{% macro klucz(c, nr, klasa='') %}
 {% if c.klucz_odpowiedzi %}
-<div class="strona">
+<div class="strona {{ klasa }}">
   <h2 class="sekcja">klucz odpowiedzi</h2>
   <p class="dla-rodzica" style="margin-bottom:5mm">Dla rodzica.</p>
   <div class="kolumny-klucza">

@@ -213,23 +213,35 @@ def zlecenia(c):
 
     Id jest per MOTYW, nie per pozycja: KOT wraca w tygodniach 8 i 9, a to
     ma być ten sam obrazek — jeden koszt i jedna spójna talia wizualna.
+
+    Obchód stron idzie przez wszystkie_strony() z walidatora, żeby oba
+    moduły widziały ten sam dokument niezależnie od archetypu.
     """
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from validate import wszystkie_strony
+
     out = {}
-    if c["meta"].get("ilustracja"):
-        i = c["meta"]["ilustracja"]
-        out[i["id"]] = (i["brief"], i.get("proporcje", "1:1"))
-    for t in c["tygodnie"]:
-        if t.get("ilustracja"):
-            i = t["ilustracja"]
-            out[i["id"]] = (i["brief"], i.get("proporcje", "3:2"))
-        for s in t["material_dziecka"]:
-            dane = s["dane"]
-            if not isinstance(dane, dict):
-                continue
-            for p in dane.get("pozycje", []):
-                if isinstance(p, dict) and p.get("ilustracja"):
-                    i = p["ilustracja"]
-                    out[i["id"]] = (i["brief"], i.get("proporcje", "1:1"))
+
+    def dodaj(i, domyslne="1:1"):
+        if i:
+            out[i["id"]] = (i["brief"], i.get("proporcje", domyslne))
+
+    dodaj(c["meta"].get("ilustracja"), "3:2")
+    for t in c.get("tygodnie", []):
+        dodaj(t.get("ilustracja"), "3:2")
+    for b in c.get("bloki", []):
+        dodaj(b.get("ilustracja"), "3:2")
+
+    for s in wszystkie_strony(c):
+        dane = s.get("dane")
+        if not isinstance(dane, dict):
+            continue
+        for p in dane.get("pozycje", []):
+            if isinstance(p, dict):
+                dodaj(p.get("ilustracja"))
+        for k in dane.get("karty", []):
+            if isinstance(k, dict):
+                dodaj(k.get("ilustracja"))
     return out
 
 

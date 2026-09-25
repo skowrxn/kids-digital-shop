@@ -43,11 +43,22 @@
   <p class="polecenie">{{ s.polecenie }}</p>
   {% if s.get('dla_rodzica') %}<p class="dla-rodzica">{{ s.dla_rodzica }}</p>{% endif %}
   {% set d = s.dane %}
-  {% set rozciagnij = s.typ in ('tabela', 'plansza_gry', 'karty_do_wyciecia') %}
-  <div class="tresc {{ 'tresc--rozciagnij' if rozciagnij else 'tresc--rozloz' }}">
+  {# Ta sama tabela niesie sylaby (krótkie, 26 pt) i zdania (długie, 11 pt).
+     O wariancie decyduje najdłuższa komórka, nie autor treści. #}
+  {% set tabela_tekstowa = s.typ == 'tabela'
+       and (d.wiersze | map('map', 'length') | map('max') | max) > 12 %}
+  {# Ćwiczenia z polami do wypełnienia rozciągają się na całą wysokość,
+     bo dziecko ma gdzie pisać. Treść do czytania zaczyna od góry — inaczej
+     akapit wisi na środku pustej kartki. #}
+  {% set od_gory = s.typ in ('proza', 'checklista', 'lista_krokow',
+                             'elementy_ruchome', 'wyrazy_do_czytania') or tabela_tekstowa %}
+  {% set rozciagnij = s.typ in ('tabela', 'plansza_gry', 'karty_do_wyciecia')
+       and not tabela_tekstowa %}
+  <div class="tresc {{ 'tresc--rozciagnij' if rozciagnij
+                       else ('tresc--od-gory' if od_gory else 'tresc--rozloz') }}">
 
   {% if s.typ == 'tabela' %}
-    <table class="tabela-sylab">
+    <table class="tabela-sylab {{ 'tabela-sylab--tekst' if tabela_tekstowa }}">
       {% if d.get('naglowki_kolumn') %}
         <tr>{% for h in d.naglowki_kolumn %}<th>{{ h }}</th>{% endfor %}</tr>
       {% endif %}
@@ -226,8 +237,8 @@
 {% endmacro %}
 
 {# Strona ćwiczenia w komplecie — używana przez wszystkie archetypy. #}
-{% macro strona_cwiczenia(c, s, etykieta, opis, nr) %}
-  <div class="strona">
+{% macro strona_cwiczenia(c, s, etykieta, opis, nr, klasa='') %}
+  <div class="strona {{ klasa }}">
     {{ naglowek(etykieta, opis) }}
     {{ cwiczenie(s) }}
     {{ stopka(c, nr) }}

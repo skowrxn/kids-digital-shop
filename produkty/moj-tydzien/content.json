@@ -1,0 +1,2021 @@
+{
+  "meta": {
+    "slug": "moj-tydzien",
+    "tytul": "Mój tydzień",
+    "podtytul": "Planer nauki dla rodzica",
+    "archetyp": "ZESZYT",
+    "wersja": "1.0",
+    "wiek": "dowolny",
+    "kategoria": "rodzic",
+    "podkategoria": "planowanie",
+    "strony_deklarowane": 32,
+    "min_pt_dziecka": 12
+  },
+  "wstep": {
+    "dla_kogo": "Dla rodzica, który ma materiały, ale nigdy nie wie, kiedy je zrobić.",
+    "obietnica": "W niedzielę wieczorem w pięć minut rozpisujesz tydzień i wiesz, co odpuszczasz.",
+    "warunek_wejscia": "Brak. Planer wypełnia rodzic.",
+    "ile_czasu_dziennie": "Pięć minut raz w tygodniu na planowanie. Reszta to czas przy stole.",
+    "jak_korzystac": [
+      "Wydrukuj arkusze pojedynczo. Jeden tydzień to jedna kartka.",
+      "Usiądź w niedzielę wieczorem i weź jeden arkusz tygodnia.",
+      "Wpisuj ołówkiem. Plan ma się zmieniać w środku tygodnia.",
+      "Planuj najwyżej cztery dni. Puste dni są częścią planu.",
+      "Przy każdym dniu podaj liczbę minut. Piętnaście to dobra liczba.",
+      "Wypełnij rubrykę „Czego nie robimy w tym tygodniu”. To ona daje spokój.",
+      "Powieś arkusz tam, gdzie pracujecie. Stare arkusze odkładaj na bok.",
+      "Po czterech tygodniach weź arkusz podsumowania miesiąca.",
+      "Przy dwojgu i trojgu dzieci bierz arkusze z drugiego bloku."
+    ],
+    "czego_nie_robi": [
+      "Nie planuje za ciebie. Rubryki są puste.",
+      "Nie jest kalendarzem rodzinnym ani listą zakupów.",
+      "Nie ma dat. Wpisujesz własne, więc planer nie traci ważności.",
+      "Nie zawiera materiałów do pracy z dzieckiem. Porządkuje te, które już masz."
+    ]
+  },
+  "bloki": [
+    {
+      "temat": "Planer podstawowy",
+      "poziom": 1,
+      "opis": "Arkusze tygodniowe dla jednego dziecka. Dziesięć tygodni, czyli ponad dwa miesiące.",
+      "dla_rodzica": [
+        "Weź jeden arkusz na tydzień. Nie wypełniaj kilku naraz.",
+        "Planuj najwyżej cztery dni. Puste dni są częścią planu.",
+        "Rubryka „Czego nie robimy w tym tygodniu” jest obowiązkowa."
+      ],
+      "cwiczenia": [
+        {
+          "id": "b1-jak-wypelnic",
+          "typ": "lista_krokow",
+          "polecenie": "Wypełnij arkusz w pięć minut",
+          "dla_rodzica": "Przeczytaj raz. Potem wracasz tu tylko przy pierwszym arkuszu.",
+          "dane": {
+            "kroki": [
+              "Usiądź w niedzielę wieczorem. Weź jeden arkusz tygodnia i ołówek.",
+              "Wpisz dni, w które naprawdę siądziecie. Cztery wystarczą.",
+              "Przy każdym dniu napisz jedną rzecz: nazwę materiału albo ćwiczenia.",
+              "Dopisz liczbę minut. Piętnaście to dobra liczba na start.",
+              "Wypełnij rubrykę „Czego nie robimy w tym tygodniu”. Wypisz to, co świadomie zostawiasz.",
+              "Powieś arkusz tam, gdzie pracujecie. Lodówka albo bok szafki.",
+              "W niedzielę weź kolejny arkusz. Stary zostaw — przyda się przy podsumowaniu."
+            ]
+          }
+        },
+        {
+          "id": "b1-siatka-tygodnia",
+          "typ": "tabela",
+          "polecenie": "Siatka tygodnia — wpisz ołówkiem",
+          "dla_rodzica": "Ta sama siatka co w arkuszach, tylko szersza. Dobra, gdy planujesz dwa tygodnie naraz.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Dzień",
+              "Co robimy",
+              "Ile minut",
+              "Zrobione"
+            ],
+            "wiersze": [
+              [
+                "Poniedziałek",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Wtorek",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Środa",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Czwartek",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Piątek",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Sobota",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Niedziela",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        },
+        {
+          "id": "b1-tydzien-01",
+          "typ": "formularz",
+          "polecenie": "Rozpisz tydzień w pięć minut",
+          "dla_rodzica": "Wypełnij ołówkiem. Pierwszy tydzień zwykle jest za ambitny.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Jedna rzecz, która ma się udać",
+                "wysokosc_mm": 10,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-tydzien-02",
+          "typ": "formularz",
+          "polecenie": "Wpisz cztery dni, nie siedem",
+          "dla_rodzica": "Wpisz najwyżej cztery dni. Trzy to też tydzień.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Co powtarzamy z zeszłego tygodnia",
+                "wysokosc_mm": 10,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-tydzien-03",
+          "typ": "formularz",
+          "polecenie": "Zaplanuj tydzień ołówkiem",
+          "dla_rodzica": "Minuty licz uczciwie. Piętnaście wystarczy.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Materiał, który drukuję w niedzielę",
+                "wysokosc_mm": 10,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-tydzien-04",
+          "typ": "formularz",
+          "polecenie": "Rozpisz tydzień i minuty",
+          "dla_rodzica": "Jeśli dzień wypadnie, nie przepisuj go. Zostaw pusty.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Dzień zapasowy, jeśli coś wypadnie",
+                "wysokosc_mm": 10,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-tydzien-05",
+          "typ": "formularz",
+          "polecenie": "Wpisz dni, w które siądziecie",
+          "dla_rodzica": "Rubryka o odpuszczaniu jest ważniejsza niż plan.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Co robimy, kiedy zostaje pięć minut",
+                "wysokosc_mm": 10,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-tydzien-06",
+          "typ": "formularz",
+          "polecenie": "Rozpisz tydzień — krótkie wpisy",
+          "dla_rodzica": "Drukuj po jednym arkuszu. Jeden tydzień to jedna kartka.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Czego nie drukuję w tym tygodniu",
+                "wysokosc_mm": 10,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-tydzien-07",
+          "typ": "formularz",
+          "polecenie": "Zaplanuj tydzień, zostaw luz",
+          "dla_rodzica": "Wpisuj nazwy plików tak, jak masz je na dysku.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Pora dnia, o której siadamy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-tydzien-08",
+          "typ": "formularz",
+          "polecenie": "Rozpisz tydzień i odpuść resztę",
+          "dla_rodzica": "Powtórka z zeszłego tygodnia liczy się jako pełny dzień.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Jedno zadanie, które przenoszę dalej",
+                "wysokosc_mm": 10,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-tydzien-09",
+          "typ": "formularz",
+          "polecenie": "Wpisz plan na siedem dni",
+          "dla_rodzica": "Jeśli dwa dni wyglądają tak samo, to dobrze.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Co poszło łatwiej niż tydzień temu",
+                "wysokosc_mm": 10,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-tydzien-10",
+          "typ": "formularz",
+          "polecenie": "Rozpisz ostatni tydzień miesiąca",
+          "dla_rodzica": "Porównuj ten tydzień z poprzednim, nie z planem idealnym.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — co robimy",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Z czego rezygnuję bez żalu",
+                "wysokosc_mm": 10,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-tydzien-lekki",
+          "typ": "formularz",
+          "polecenie": "Tydzień bez sił — trzy dni",
+          "dla_rodzica": "Weź ten arkusz w tygodniu, w którym wiesz, że nie dacie rady siedem razy.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Dzień pierwszy — co robimy",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Dzień drugi — co robimy",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Dzień trzeci — co robimy",
+                "wysokosc_mm": 14,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 16,
+                "linie": 3
+              },
+              {
+                "etykieta": "Co wystarczy, żeby tydzień się liczył",
+                "wysokosc_mm": 14,
+                "linie": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-co-mam-na-dysku",
+          "typ": "formularz",
+          "polecenie": "Spisz, co już masz do druku",
+          "dla_rodzica": "Wypełniasz raz. Potem planujesz z tej listy, zamiast szukać w folderach.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Materiał do czytania — nazwa pliku",
+                "wysokosc_mm": 10,
+                "linie": 3
+              },
+              {
+                "etykieta": "Materiał do liczenia — nazwa pliku",
+                "wysokosc_mm": 10,
+                "linie": 3
+              },
+              {
+                "etykieta": "Materiał do pisania — nazwa pliku",
+                "wysokosc_mm": 10,
+                "linie": 3
+              },
+              {
+                "etykieta": "Gry i karty do wycięcia",
+                "wysokosc_mm": 10,
+                "linie": 3
+              },
+              {
+                "etykieta": "Wydrukowane, jeszcze nieużyte",
+                "wysokosc_mm": 10,
+                "linie": 3
+              },
+              {
+                "etykieta": "Do skasowania — nie pasuje na teraz",
+                "wysokosc_mm": 10,
+                "linie": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-stala-pora",
+          "typ": "sciezka",
+          "polecenie": "Ustal jedną stałą porę",
+          "dla_rodzica": "Stała pora działa lepiej niż dłuższy czas. Wybierz ją raz i nie zmieniaj przez miesiąc.",
+          "dane": {
+            "meta": "Cztery kroki, jeden wieczór.",
+            "kroki": [
+              "Wybierz porę, o której i tak jesteście przy stole.",
+              "Sprawdź, czy ta pora działa w cztery dni tygodnia.",
+              "Wpisz ją do arkusza tygodnia przy każdym zaplanowanym dniu.",
+              "Po dwóch tygodniach oceń, czy trafiłeś. Jeśli nie, przesuń o godzinę."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "temat": "Dwoje i troje dzieci",
+      "poziom": 2,
+      "opis": "Ta sama siatka tygodnia, ale z osobną kolumną na każde dziecko. Inna logistyka, inne minuty.",
+      "dla_rodzica": [
+        "Przy dwojgu dzieci nie planuj dwóch osobnych sesji. Planuj jedną, z dwoma zadaniami.",
+        "Kolumny opisuj po kolei: pierwsze, drugie, trzecie. Nie wpisuj imion.",
+        "Jeśli jedno dziecko pracuje samo, wpisz tylko minuty. Nie musisz siedzieć obok."
+      ],
+      "cwiczenia": [
+        {
+          "id": "b2-jak-dzielic-czas",
+          "typ": "lista_krokow",
+          "polecenie": "Podziel czas między dzieci",
+          "dla_rodzica": "Czytasz raz, na początku bloku.",
+          "dane": {
+            "kroki": [
+              "Ustal jedną porę dla całej dwójki albo trójki. Siadacie razem.",
+              "Młodszemu daj zadanie, które robi samo: wycinanie, rysowanie, naklejki.",
+              "Ze starszym pracuj pierwsze pięć minut. Potem zamień się.",
+              "W arkuszu wpisz minuty osobno dla każdej kolumny.",
+              "Raz w tygodniu zaplanuj dzień tylko dla jednego dziecka. Drugie ma wtedy wolne.",
+              "Jeśli sesja się sypie, kończ obie naraz. Nie ciągnij jednej na siłę."
+            ]
+          }
+        },
+        {
+          "id": "b2-siatka-dwoje",
+          "typ": "tabela",
+          "polecenie": "Siatka tygodnia dla dwojga",
+          "dla_rodzica": "Pierwsze i drugie dziecko to kolumny, nie osoby. Podpisz je u siebie.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Dzień",
+              "Pierwsze dziecko",
+              "Drugie dziecko",
+              "Ile minut"
+            ],
+            "wiersze": [
+              [
+                "Poniedziałek",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Wtorek",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Środa",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Czwartek",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Piątek",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Sobota",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Niedziela",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        },
+        {
+          "id": "b2-tydzien-dwoje-01",
+          "typ": "formularz",
+          "polecenie": "Rozpisz tydzień dla dwojga",
+          "dla_rodzica": "Jeśli oba wpisy w jednym dniu są długie, skreśl jeden.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Poniedziałek — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 12,
+                "linie": 2
+              },
+              {
+                "etykieta": "Dzień, w którym pracuje tylko jedno",
+                "wysokosc_mm": 10,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b2-tydzien-dwoje-02",
+          "typ": "formularz",
+          "polecenie": "Drugi tydzień dla dwojga",
+          "dla_rodzica": "Porównaj minuty z poprzednim arkuszem. Jeśli rosną, zetnij je.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Poniedziałek — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — pierwsze dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — drugie dziecko",
+                "wysokosc_mm": 9,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut",
+                "wysokosc_mm": 7,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 12,
+                "linie": 2
+              },
+              {
+                "etykieta": "Co robią razem, bez dzielenia",
+                "wysokosc_mm": 10,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b2-siatka-troje",
+          "typ": "tabela",
+          "polecenie": "Siatka tygodnia dla trojga",
+          "dla_rodzica": "Przy trojgu planuj krótko. Dziesięć minut na kolumnę to realny tydzień.",
+          "dane": {
+            "naglowki_kolumn": [
+              "Dzień",
+              "Pierwsze dziecko",
+              "Drugie dziecko",
+              "Trzecie dziecko",
+              "Ile minut"
+            ],
+            "wiersze": [
+              [
+                "Poniedziałek",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Wtorek",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Środa",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Czwartek",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Piątek",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Sobota",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Niedziela",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        },
+        {
+          "id": "b2-tydzien-troje-01",
+          "typ": "formularz",
+          "polecenie": "Rozpisz tydzień dla trojga",
+          "dla_rodzica": "Trzy kolumny w jednym dniu to rzadkość. Zwykle wypełnisz dwie.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Poniedziałek — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Poniedziałek — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut łącznie",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 10,
+                "linie": 2
+              },
+              {
+                "etykieta": "Zadanie, które robią wszyscy naraz",
+                "wysokosc_mm": 8,
+                "linie": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b2-tydzien-troje-02",
+          "typ": "formularz",
+          "polecenie": "Drugi tydzień dla trojga",
+          "dla_rodzica": "Jeśli któraś kolumna jest pusta trzeci tydzień, przesuń ją na osobny dzień.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Poniedziałek — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Poniedziałek — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Poniedziałek — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Wtorek — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Środa — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czwartek — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Piątek — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Sobota — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — pierwsze dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — drugie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Niedziela — trzecie dziecko",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Ile minut łącznie",
+                "wysokosc_mm": 8,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym tygodniu",
+                "wysokosc_mm": 10,
+                "linie": 2
+              },
+              {
+                "etykieta": "Kolumna, która czeka na swój dzień",
+                "wysokosc_mm": 8,
+                "linie": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "temat": "Podsumowanie miesiąca",
+      "poziom": 3,
+      "opis": "Cztery arkusze tygodnia z tyłu, jeden arkusz podsumowania z przodu. Piętnaście minut raz na miesiąc.",
+      "dla_rodzica": [
+        "Rozłóż przed sobą cztery wypełnione arkusze tygodnia.",
+        "Patrz na to, co zrobiliście, nie na to, co planowałeś.",
+        "Odpuszczenie czegoś na stałe to wynik, nie porażka."
+      ],
+      "cwiczenia": [
+        {
+          "id": "b3-jak-podsumowac",
+          "typ": "lista_krokow",
+          "polecenie": "Podsumuj miesiąc w kwadrans",
+          "dla_rodzica": "Raz na cztery tygodnie. Najlepiej w tę samą niedzielę, w którą planujesz nowy tydzień.",
+          "dane": {
+            "kroki": [
+              "Rozłóż cztery ostatnie arkusze tygodnia obok siebie.",
+              "Policz dni, w które naprawdę siedliście. Zapisz liczbę.",
+              "Zaznacz materiał, po który sięgnęliście więcej niż raz. To jest ten, który działa.",
+              "Wypisz to, czego nie zrobiliście ani razu w cztery tygodnie.",
+              "Z tej listy wybierz jedną rzecz i odpuść ją na stałe.",
+              "Przepisz do nowego arkusza tylko to, co zostało."
+            ]
+          }
+        },
+        {
+          "id": "b3-miesiac-01",
+          "typ": "formularz",
+          "polecenie": "Podsumuj pierwszy miesiąc",
+          "dla_rodzica": "Wypełniaj po kolei. Nie wracaj do rubryk, które zostawiłeś puste.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Ile dni w miesiącu naprawdę siedliście",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Najdłuższa seria dni z rzędu",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Materiał, po który sięgnęliście najczęściej",
+                "wysokosc_mm": 12,
+                "linie": 2
+              },
+              {
+                "etykieta": "Co zadziałało — wypisz trzy rzeczy",
+                "wysokosc_mm": 16,
+                "linie": 3
+              },
+              {
+                "etykieta": "Czego nie zrobiliście ani razu",
+                "wysokosc_mm": 16,
+                "linie": 3
+              },
+              {
+                "etykieta": "Pora dnia, która sprawdziła się najlepiej",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Co było trudniejsze niż myślałeś",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Co dziecko robi dziś łatwiej niż miesiąc temu",
+                "wysokosc_mm": 16,
+                "linie": 3
+              },
+              {
+                "etykieta": "Jedna zmiana na kolejny miesiąc",
+                "wysokosc_mm": 12,
+                "linie": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "b3-miesiac-02",
+          "typ": "formularz",
+          "polecenie": "Podsumuj kolejny miesiąc",
+          "dla_rodzica": "Porównaj liczby z poprzednim arkuszem. To jedyne porównanie, które ma sens.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Ile dni w miesiącu naprawdę siedliście",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Najdłuższa seria dni z rzędu",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Materiał, po który sięgnęliście najczęściej",
+                "wysokosc_mm": 12,
+                "linie": 2
+              },
+              {
+                "etykieta": "Co zadziałało — wypisz trzy rzeczy",
+                "wysokosc_mm": 16,
+                "linie": 3
+              },
+              {
+                "etykieta": "Czego nie zrobiliście ani razu",
+                "wysokosc_mm": 16,
+                "linie": 3
+              },
+              {
+                "etykieta": "Pora dnia, która sprawdziła się najlepiej",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Co było trudniejsze niż myślałeś",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Co dziecko robi dziś łatwiej niż miesiąc temu",
+                "wysokosc_mm": 16,
+                "linie": 3
+              },
+              {
+                "etykieta": "Jedna zmiana na kolejny miesiąc",
+                "wysokosc_mm": 12,
+                "linie": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "b3-odpuszczam-na-stale",
+          "typ": "formularz",
+          "polecenie": "Wypisz, co odpuszczasz na stałe",
+          "dla_rodzica": "Ta strona ma być krótka. Trzy skreślenia w miesiącu to dużo.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Odpuszczam na stałe — pierwsza rzecz",
+                "wysokosc_mm": 12,
+                "linie": 2
+              },
+              {
+                "etykieta": "Dlaczego to nie zadziałało u nas",
+                "wysokosc_mm": 12,
+                "linie": 2
+              },
+              {
+                "etykieta": "Odpuszczam na stałe — druga rzecz",
+                "wysokosc_mm": 12,
+                "linie": 2
+              },
+              {
+                "etykieta": "Dlaczego to nie zadziałało u nas",
+                "wysokosc_mm": 12,
+                "linie": 2
+              },
+              {
+                "etykieta": "Wracam do tego dopiero, gdy",
+                "wysokosc_mm": 14,
+                "linie": 2
+              },
+              {
+                "etykieta": "Zostawiam, choć idzie wolno",
+                "wysokosc_mm": 14,
+                "linie": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "b3-plan-na-kolejny-miesiac",
+          "typ": "formularz",
+          "polecenie": "Rozpisz kolejny miesiąc",
+          "dla_rodzica": "Cztery pola, cztery tygodnie. Jedno zdanie na tydzień, nie więcej.",
+          "dane": {
+            "pola": [
+              {
+                "etykieta": "Tydzień pierwszy — co robimy",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Tydzień drugi — co robimy",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Tydzień trzeci — co robimy",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Tydzień czwarty — co robimy",
+                "wysokosc_mm": 16,
+                "linie": 2
+              },
+              {
+                "etykieta": "Ile minut dziennie planuję",
+                "wysokosc_mm": 10,
+                "linie": 1
+              },
+              {
+                "etykieta": "Czego nie robimy w tym miesiącu",
+                "wysokosc_mm": 16,
+                "linie": 3
+              },
+              {
+                "etykieta": "Po czym poznam, że miesiąc się udał",
+                "wysokosc_mm": 14,
+                "linie": 2
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "klucz_odpowiedzi": [],
+  "fragment": {
+    "do_strony": 10,
+    "obietnica_na_stronie": "Dalej jest pięć kolejnych arkuszy tygodnia, wersja dla dwojga i trojga dzieci oraz arkusze podsumowania miesiąca."
+  }
+}

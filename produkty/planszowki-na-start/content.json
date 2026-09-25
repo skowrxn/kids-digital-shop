@@ -1,0 +1,3142 @@
+{
+  "meta": {
+    "slug": "planszowki-na-start",
+    "tytul": "Planszówki na start",
+    "podtytul": "Sześć gier do wydruku i sklejenia",
+    "archetyp": "GRY",
+    "wersja": "1.0",
+    "wiek": "4–8 lat",
+    "kategoria": "gry",
+    "podkategoria": "planszowki",
+    "strony_deklarowane": 80,
+    "min_pt_dziecka": 14
+  },
+  "wstep": {
+    "dla_kogo": "Dla rodzin, które grają w niedzielę i mają dość Chińczyka.",
+    "obietnica": "Gracie w niedzielę w coś innego niż Chińczyk. Przygotowanie to jeden wydruk i dziesięć minut z nożyczkami.",
+    "warunek_wejscia": "Dziecko liczy do sześciu i wytrzymuje przegraną do końca partii.",
+    "ile_czasu_dziennie": "Jedna partia trwa od piętnastu do dwudziestu pięciu minut.",
+    "jak_korzystac": [
+      "Wydrukuj tylko tę grę, w którą chcecie zagrać dzisiaj.",
+      "Planszę i karty wydrukuj na grubszym papierze, jeśli masz.",
+      "Wytnij karty wzdłuż linii. Przy pierwszym wycinaniu pomaga dorosły.",
+      "Przeczytaj zasady na głos, zanim rozdacie pionki.",
+      "Zagraj pierwszą partię razem z dzieckiem. Druga idzie już sama.",
+      "Każdą grę trzymaj w osobnej kopercie z jej nazwą.",
+      "Zacznij od wariantu łatwiejszego, jeśli dziecko ma cztery lata.",
+      "Gry idą od najprostszej do najdłuższej. Nie musisz trzymać się kolejności."
+    ],
+    "czego_nie_robi": [
+      "Nie uczy konkretnego przedmiotu szkolnego.",
+      "Nie działa bez dorosłego przy pierwszej partii.",
+      "Nie zawiera gier na czas — u nas nikt się nie ściga."
+    ]
+  },
+  "gry": [
+    {
+      "nazwa": "Sześć kroków",
+      "cel": "Dziecko liczy oczka, przesuwa pionek i mówi wynik na głos.",
+      "gracze": "2–4",
+      "czas_min": 15,
+      "przygotowanie": [
+        "Wydrukuj planszę oraz arkusze z pionkami, kostką i kartami.",
+        "Wytnij pionki, zegnij podstawki i sklej je.",
+        "Wytnij sześć kart kostki i potasuj je.",
+        "Potasuj karty z kropkami i połóż je zakryte obok planszy."
+      ],
+      "zasady": [
+        "Ustawcie pionki na polu Start.",
+        "Połóżcie potasowane karty kostki zakryte obok planszy.",
+        "Zaczyna najmłodszy gracz. Potem ruch idzie w lewo.",
+        "W swojej kolejce weź wierzchnią kartę kostki.",
+        "Policz oczka i przesuń pionek o tyle pól.",
+        "Odłóż kartę na spód stosu.",
+        "Jeśli na polu jest polecenie, wykonaj je od razu.",
+        "Wygrywa ten, kto pierwszy stanie na polu Meta."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Grajcie tylko kartami z jednym, dwoma i trzema oczkami."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Losuj dwie karty kostki i przesuń się o sumę oczek."
+        }
+      ],
+      "plansza": {
+        "id": "g1-plansza",
+        "typ": "plansza_gry",
+        "polecenie": "Rozłóż planszę na środku stołu.",
+        "dane": {
+          "pola": [
+            "Start",
+            "Policz palce u jednej ręki",
+            "Przesuń się o 1 do przodu",
+            "Powiedz, ile masz lat",
+            "Weź kartę z kropkami",
+            "Klaśnij trzy razy",
+            "Stój jedną kolejkę",
+            "Policz krzesła przy stole",
+            "Przesuń się o 2 do przodu",
+            "Cofnij się o 1 pole",
+            "Weź kartę z kropkami",
+            "Policz do sześciu na głos",
+            "Podskocz trzy razy",
+            "Przesuń się o 1 do przodu",
+            "Cofnij się o 2 pola",
+            "Weź kartę z liczbą",
+            "Policz okna w pokoju",
+            "Stój jedną kolejkę",
+            "Przesuń się o 3 do przodu",
+            "Powiedz liczbę większą o jeden od pięciu",
+            "Weź kartę z kropkami",
+            "Cofnij się o 1 pole",
+            "Policz kroki do drzwi",
+            "Meta"
+          ]
+        },
+        "dla_rodzica": "Pola idą jedno za drugim, od Startu do Mety. Sklejać nie trzeba."
+      },
+      "arkusze": [
+        {
+          "id": "g1-pionki",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij pionki i zegnij podstawki.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Pionek z kółkiem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z kwadratem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z trójkątem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z kreską",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Naklej pionki na kartonik z pudełka po płatkach. Będą stały prosto."
+        },
+        {
+          "id": "g1-kostka",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty kostki i potasuj je.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "•",
+                "rewers": "1"
+              },
+              {
+                "awers": "• •",
+                "rewers": "2"
+              },
+              {
+                "awers": "• • •",
+                "rewers": "3"
+              },
+              {
+                "awers": "• •\n• •",
+                "rewers": "4"
+              },
+              {
+                "awers": "• •\n•\n• •",
+                "rewers": "5"
+              },
+              {
+                "awers": "• • •\n• • •",
+                "rewers": "6"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Zamiast rzutu kostką losujecie wierzchnią kartę. Po ruchu wraca na spód stosu."
+        },
+        {
+          "id": "g1-kropki-a",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Policz kropki na karcie.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "•",
+                "rewers": "1"
+              },
+              {
+                "awers": "• •",
+                "rewers": "2"
+              },
+              {
+                "awers": "• • •",
+                "rewers": "3"
+              },
+              {
+                "awers": "• • • •",
+                "rewers": "4"
+              },
+              {
+                "awers": "• • • • •",
+                "rewers": "5"
+              },
+              {
+                "awers": "• • • • • •",
+                "rewers": "6"
+              },
+              {
+                "awers": "• • • • • • •",
+                "rewers": "7"
+              },
+              {
+                "awers": "• • • • • • • •",
+                "rewers": "8"
+              },
+              {
+                "awers": "• • • • • • • • •",
+                "rewers": "9"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g1-kropki-b",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Policz kropki i powiedz wynik.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "•",
+                "rewers": "1"
+              },
+              {
+                "awers": "• •",
+                "rewers": "2"
+              },
+              {
+                "awers": "• • •",
+                "rewers": "3"
+              },
+              {
+                "awers": "• • • •",
+                "rewers": "4"
+              },
+              {
+                "awers": "• • • • •",
+                "rewers": "5"
+              },
+              {
+                "awers": "• • • • • •",
+                "rewers": "6"
+              },
+              {
+                "awers": "• • • • • • •",
+                "rewers": "7"
+              },
+              {
+                "awers": "• • • • • • • •",
+                "rewers": "8"
+              },
+              {
+                "awers": "• • • • • • • • •",
+                "rewers": "9"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Drugi komplet. Przydaje się, gdy gracie we czworo."
+        },
+        {
+          "id": "g1-liczby",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Przeczytaj liczbę na karcie.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "1",
+                "rewers": "jeden"
+              },
+              {
+                "awers": "2",
+                "rewers": "dwa"
+              },
+              {
+                "awers": "3",
+                "rewers": "trzy"
+              },
+              {
+                "awers": "4",
+                "rewers": "cztery"
+              },
+              {
+                "awers": "5",
+                "rewers": "pięć"
+              },
+              {
+                "awers": "6",
+                "rewers": "sześć"
+              },
+              {
+                "awers": "7",
+                "rewers": "siedem"
+              },
+              {
+                "awers": "8",
+                "rewers": "osiem"
+              },
+              {
+                "awers": "9",
+                "rewers": "dziewięć"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g1-zadania",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wykonaj zadanie z karty.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Policz krzesła przy stole."
+              },
+              {
+                "awers": "Policz okna w tym pokoju."
+              },
+              {
+                "awers": "Policz swoje palce u jednej ręki."
+              },
+              {
+                "awers": "Policz kroki do drzwi."
+              },
+              {
+                "awers": "Policz łyżki w szufladzie."
+              },
+              {
+                "awers": "Policz książki na jednej półce."
+              },
+              {
+                "awers": "Policz guziki na swojej bluzce."
+              },
+              {
+                "awers": "Policz nogi wszystkich graczy."
+              },
+              {
+                "awers": "Policz kubki w szafce."
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Po kolei",
+      "cel": "Dziecko układa zdarzenia w kolejności i mówi, co było pierwsze.",
+      "gracze": "2–4",
+      "czas_min": 20,
+      "przygotowanie": [
+        "Wydrukuj planszę, arkusz z pionkami, arkusz z kostką i cztery arkusze historyjek.",
+        "Wytnij pionki i sklej podstawki.",
+        "Wytnij karty kostki i potasuj je.",
+        "Wytnij karty historyjek. Każdy arkusz trzymaj w osobnej kopercie."
+      ],
+      "zasady": [
+        "Ustawcie pionki na polu Start.",
+        "Rozłóżcie karty jednej historyjki napisami do góry.",
+        "Wylosuj kartę kostki i przesuń pionek o tyle pól.",
+        "Przeczytaj polecenie z pola i wykonaj je.",
+        "Jeśli pole każe ułożyć historyjkę, weź trzy karty.",
+        "Ułóż je w kolejności i powiedz, co było pierwsze.",
+        "Jeśli kolejność się zgadza, idź o jedno pole dalej.",
+        "Wygrywa ten, kto pierwszy stanie na polu Meta."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Układajcie dwie karty zamiast trzech. Trzecią odłóż."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Ułóż historyjkę i opowiedz ją jednym zdaniem."
+        }
+      ],
+      "plansza": {
+        "id": "g2-plansza",
+        "typ": "plansza_gry",
+        "polecenie": "Rozłóż planszę na środku stołu.",
+        "dane": {
+          "pola": [
+            "Start",
+            "Ułóż historyjkę z trzech kart",
+            "Przesuń się o 1 do przodu",
+            "Powiedz, co robisz po śniadaniu",
+            "Ułóż dni tygodnia od poniedziałku",
+            "Stój jedną kolejkę",
+            "Cofnij się o 1 pole",
+            "Ułóż historyjkę z trzech kart",
+            "Przesuń się o 2 do przodu",
+            "Powiedz, co było wczoraj",
+            "Ułóż liczby od najmniejszej",
+            "Weź kartę kolejności",
+            "Przesuń się o 1 do przodu",
+            "Ułóż pory dnia po kolei",
+            "Cofnij się o 2 pola",
+            "Ułóż historyjkę z trzech kart",
+            "Powiedz, co robisz przed snem",
+            "Stój jedną kolejkę",
+            "Weź kartę kolejności",
+            "Przesuń się o 3 do przodu",
+            "Ułóż historyjkę z trzech kart",
+            "Powiedz, jaki dzień będzie jutro",
+            "Cofnij się o 1 pole",
+            "Meta"
+          ]
+        }
+      },
+      "arkusze": [
+        {
+          "id": "g2-pionki",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij pionki i zegnij podstawki.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Pionek z kółkiem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z kwadratem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z trójkątem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z kreską",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Naklej pionki na kartonik z pudełka po płatkach. Będą stały prosto."
+        },
+        {
+          "id": "g2-kostka",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty kostki i potasuj je.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "•",
+                "rewers": "1"
+              },
+              {
+                "awers": "• •",
+                "rewers": "2"
+              },
+              {
+                "awers": "• • •",
+                "rewers": "3"
+              },
+              {
+                "awers": "• •\n• •",
+                "rewers": "4"
+              },
+              {
+                "awers": "• •\n•\n• •",
+                "rewers": "5"
+              },
+              {
+                "awers": "• • •\n• • •",
+                "rewers": "6"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Zamiast rzutu kostką losujecie wierzchnią kartę. Po ruchu wraca na spód stosu."
+        },
+        {
+          "id": "g2-historyjki-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Ułóż trzy karty po kolei.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Nalewasz mleko do miski",
+                "rewers": "Historyjka 1"
+              },
+              {
+                "awers": "Jesz płatki",
+                "rewers": "Historyjka 1"
+              },
+              {
+                "awers": "Myjesz miskę",
+                "rewers": "Historyjka 1"
+              },
+              {
+                "awers": "Wyciskasz pastę na szczoteczkę",
+                "rewers": "Historyjka 2"
+              },
+              {
+                "awers": "Myjesz zęby",
+                "rewers": "Historyjka 2"
+              },
+              {
+                "awers": "Płuczesz usta",
+                "rewers": "Historyjka 2"
+              },
+              {
+                "awers": "Wyjmujesz skarpetki z szuflady",
+                "rewers": "Historyjka 3"
+              },
+              {
+                "awers": "Wkładasz skarpetki",
+                "rewers": "Historyjka 3"
+              },
+              {
+                "awers": "Zawiązujesz buty",
+                "rewers": "Historyjka 3"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Na arkuszu są trzy historyjki po trzy karty. Potasuj je przed grą."
+        },
+        {
+          "id": "g2-historyjki-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Ułóż trzy karty po kolei.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Sypiesz mąkę do miski",
+                "rewers": "Historyjka 1"
+              },
+              {
+                "awers": "Mieszasz ciasto",
+                "rewers": "Historyjka 1"
+              },
+              {
+                "awers": "Wyjmujesz ciasto z piekarnika",
+                "rewers": "Historyjka 1"
+              },
+              {
+                "awers": "Sypiesz ziemię do doniczki",
+                "rewers": "Historyjka 2"
+              },
+              {
+                "awers": "Wkładasz nasionko",
+                "rewers": "Historyjka 2"
+              },
+              {
+                "awers": "Podlewasz doniczkę",
+                "rewers": "Historyjka 2"
+              },
+              {
+                "awers": "Wkładasz kurtkę",
+                "rewers": "Historyjka 3"
+              },
+              {
+                "awers": "Wychodzisz na podwórko",
+                "rewers": "Historyjka 3"
+              },
+              {
+                "awers": "Wracasz na obiad",
+                "rewers": "Historyjka 3"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Na arkuszu są trzy historyjki po trzy karty. Potasuj je przed grą."
+        },
+        {
+          "id": "g2-historyjki-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Ułóż trzy karty po kolei.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Odkręcasz wodę",
+                "rewers": "Historyjka 1"
+              },
+              {
+                "awers": "Wchodzisz do wanny",
+                "rewers": "Historyjka 1"
+              },
+              {
+                "awers": "Wycierasz się ręcznikiem",
+                "rewers": "Historyjka 1"
+              },
+              {
+                "awers": "Bierzesz kartkę",
+                "rewers": "Historyjka 2"
+              },
+              {
+                "awers": "Rysujesz dom",
+                "rewers": "Historyjka 2"
+              },
+              {
+                "awers": "Wieszasz rysunek na lodówce",
+                "rewers": "Historyjka 2"
+              },
+              {
+                "awers": "Piszesz listę zakupów",
+                "rewers": "Historyjka 3"
+              },
+              {
+                "awers": "Wkładasz chleb do koszyka",
+                "rewers": "Historyjka 3"
+              },
+              {
+                "awers": "Płacisz przy kasie",
+                "rewers": "Historyjka 3"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Na arkuszu są trzy historyjki po trzy karty. Potasuj je przed grą."
+        },
+        {
+          "id": "g2-historyjki-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Ułóż trzy karty po kolei.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Zbierasz klocki z podłogi",
+                "rewers": "Historyjka 1"
+              },
+              {
+                "awers": "Wkładasz je do pudełka",
+                "rewers": "Historyjka 1"
+              },
+              {
+                "awers": "Zamykasz pudełko",
+                "rewers": "Historyjka 1"
+              },
+              {
+                "awers": "Składasz kartkę na pół",
+                "rewers": "Historyjka 2"
+              },
+              {
+                "awers": "Wkładasz ją do koperty",
+                "rewers": "Historyjka 2"
+              },
+              {
+                "awers": "Wrzucasz list do skrzynki",
+                "rewers": "Historyjka 2"
+              },
+              {
+                "awers": "Stawiasz pierwszy klocek",
+                "rewers": "Historyjka 3"
+              },
+              {
+                "awers": "Budujesz wieżę",
+                "rewers": "Historyjka 3"
+              },
+              {
+                "awers": "Wieża się przewraca",
+                "rewers": "Historyjka 3"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Na arkuszu są trzy historyjki po trzy karty. Potasuj je przed grą."
+        },
+        {
+          "id": "g2-dni-tygodnia",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Ułóż dni tygodnia po kolei.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "poniedziałek",
+                "rewers": "1"
+              },
+              {
+                "awers": "wtorek",
+                "rewers": "2"
+              },
+              {
+                "awers": "środa",
+                "rewers": "3"
+              },
+              {
+                "awers": "czwartek",
+                "rewers": "4"
+              },
+              {
+                "awers": "piątek",
+                "rewers": "5"
+              },
+              {
+                "awers": "sobota",
+                "rewers": "6"
+              },
+              {
+                "awers": "niedziela",
+                "rewers": "7"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g2-pory-dnia",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Ułóż pory dnia po kolei.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "świt",
+                "rewers": "1"
+              },
+              {
+                "awers": "rano",
+                "rewers": "2"
+              },
+              {
+                "awers": "przedpołudnie",
+                "rewers": "3"
+              },
+              {
+                "awers": "południe",
+                "rewers": "4"
+              },
+              {
+                "awers": "popołudnie",
+                "rewers": "5"
+              },
+              {
+                "awers": "wieczór",
+                "rewers": "6"
+              },
+              {
+                "awers": "noc",
+                "rewers": "7"
+              },
+              {
+                "awers": "środek nocy",
+                "rewers": "8"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g2-liczby-rosnaco",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Ułóż liczby od najmniejszej.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "1",
+                "rewers": "miejsce 1"
+              },
+              {
+                "awers": "2",
+                "rewers": "miejsce 2"
+              },
+              {
+                "awers": "3",
+                "rewers": "miejsce 3"
+              },
+              {
+                "awers": "4",
+                "rewers": "miejsce 4"
+              },
+              {
+                "awers": "5",
+                "rewers": "miejsce 5"
+              },
+              {
+                "awers": "6",
+                "rewers": "miejsce 6"
+              },
+              {
+                "awers": "7",
+                "rewers": "miejsce 7"
+              },
+              {
+                "awers": "8",
+                "rewers": "miejsce 8"
+              },
+              {
+                "awers": "9",
+                "rewers": "miejsce 9"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g2-kolejnosc",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Powiedz, co robisz najpierw.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Co najpierw: myjesz ręce czy jesz?"
+              },
+              {
+                "awers": "Co najpierw: wkładasz skarpetki czy buty?"
+              },
+              {
+                "awers": "Co najpierw: otwierasz drzwi czy wychodzisz?"
+              },
+              {
+                "awers": "Co najpierw: nalewasz wodę czy pijesz?"
+              },
+              {
+                "awers": "Co najpierw: bierzesz kredkę czy rysujesz?"
+              },
+              {
+                "awers": "Co najpierw: zakładasz kurtkę czy ją zapinasz?"
+              },
+              {
+                "awers": "Co najpierw: kroisz chleb czy smarujesz masłem?"
+              },
+              {
+                "awers": "Co najpierw: wstajesz czy ścielisz łóżko?"
+              },
+              {
+                "awers": "Co najpierw: odsuwasz krzesło czy siadasz?"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Pamiętam",
+      "cel": "Dziecko szuka par i zapamiętuje, gdzie leży odkryta karta.",
+      "gracze": "2–4",
+      "czas_min": 20,
+      "przygotowanie": [
+        "Wybierz jeden komplet par i wydrukuj oba jego arkusze.",
+        "Wytnij szesnaście kart. Oba arkusze mają te same słowa.",
+        "Wytnij pionki i karty kostki.",
+        "Rozłóż karty napisami do dołu, w czterech rzędach po cztery."
+      ],
+      "zasady": [
+        "Ustawcie pionki na polu Start.",
+        "Rozłóżcie karty napisami do dołu, w rzędach.",
+        "Zaczyna najmłodszy gracz. Potem ruch idzie w lewo.",
+        "W swojej kolejce odkryj dwie karty i przeczytaj je na głos.",
+        "Jeśli są takie same, zabierz parę i przesuń pionek o jedno pole.",
+        "Jeśli są różne, odłóż je zakryte na to samo miejsce.",
+        "Jeśli pionek stanie na polu z poleceniem, wykonaj je.",
+        "Gra kończy się przy ostatniej parze. Wygrywa dalszy pionek."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Wytnij tylko cztery pary i rozłóż je w dwóch rzędach."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Dołóż drugi komplet i grajcie szesnastoma parami."
+        }
+      ],
+      "plansza": {
+        "id": "g3-plansza",
+        "typ": "plansza_gry",
+        "polecenie": "Rozłóż planszę obok kart.",
+        "dane": {
+          "pola": [
+            "Start",
+            "Odkryj dwie karty",
+            "Przesuń się o 1 do przodu",
+            "Stój jedną kolejkę",
+            "Odkryj dwie karty",
+            "Powiedz z pamięci trzy słowa ze stołu",
+            "Cofnij się o 1 pole",
+            "Odkryj dwie karty",
+            "Przesuń się o 2 do przodu",
+            "Oddaj jedną parę do puli",
+            "Odkryj dwie karty",
+            "Wskaż kartę, którą już widziałeś",
+            "Przesuń się o 1 do przodu",
+            "Odkryj dwie karty",
+            "Stój jedną kolejkę",
+            "Powiedz nazwy dwóch zabranych par",
+            "Odkryj dwie karty",
+            "Cofnij się o 2 pola",
+            "Przesuń się o 3 do przodu",
+            "Odkryj dwie karty",
+            "Zamień jedną parę z sąsiadem",
+            "Odkryj dwie karty",
+            "Przesuń się o 1 do przodu",
+            "Meta"
+          ]
+        }
+      },
+      "arkusze": [
+        {
+          "id": "g3-pionki",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij pionki i zegnij podstawki.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Pionek z kółkiem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z kwadratem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z trójkątem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z kreską",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Naklej pionki na kartonik z pudełka po płatkach. Będą stały prosto."
+        },
+        {
+          "id": "g3-kostka",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty kostki i potasuj je.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "•",
+                "rewers": "1"
+              },
+              {
+                "awers": "• •",
+                "rewers": "2"
+              },
+              {
+                "awers": "• • •",
+                "rewers": "3"
+              },
+              {
+                "awers": "• •\n• •",
+                "rewers": "4"
+              },
+              {
+                "awers": "• •\n•\n• •",
+                "rewers": "5"
+              },
+              {
+                "awers": "• • •\n• • •",
+                "rewers": "6"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Zamiast rzutu kostką losujecie wierzchnią kartę. Po ruchu wraca na spód stosu."
+        },
+        {
+          "id": "g3-memory-a1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Rozłóż karty napisami do dołu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "łyżka",
+                "rewers": "dom"
+              },
+              {
+                "awers": "kubek",
+                "rewers": "dom"
+              },
+              {
+                "awers": "krzesło",
+                "rewers": "dom"
+              },
+              {
+                "awers": "lampa",
+                "rewers": "dom"
+              },
+              {
+                "awers": "poduszka",
+                "rewers": "dom"
+              },
+              {
+                "awers": "klucz",
+                "rewers": "dom"
+              },
+              {
+                "awers": "zegar",
+                "rewers": "dom"
+              },
+              {
+                "awers": "dywan",
+                "rewers": "dom"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Komplet „dom”, arkusz 1 z dwóch. Oba arkusze mają te same słowa — to są pary."
+        },
+        {
+          "id": "g3-memory-a2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Rozłóż karty napisami do dołu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "łyżka",
+                "rewers": "dom"
+              },
+              {
+                "awers": "kubek",
+                "rewers": "dom"
+              },
+              {
+                "awers": "krzesło",
+                "rewers": "dom"
+              },
+              {
+                "awers": "lampa",
+                "rewers": "dom"
+              },
+              {
+                "awers": "poduszka",
+                "rewers": "dom"
+              },
+              {
+                "awers": "klucz",
+                "rewers": "dom"
+              },
+              {
+                "awers": "zegar",
+                "rewers": "dom"
+              },
+              {
+                "awers": "dywan",
+                "rewers": "dom"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Komplet „dom”, arkusz 2 z dwóch. Oba arkusze mają te same słowa — to są pary."
+        },
+        {
+          "id": "g3-memory-b1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Rozłóż karty napisami do dołu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "kot",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "pies",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "ryba",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "sowa",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "koń",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "żaba",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "mysz",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "jeż",
+                "rewers": "zwierzęta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Komplet „zwierzęta”, arkusz 1 z dwóch. Oba arkusze mają te same słowa — to są pary."
+        },
+        {
+          "id": "g3-memory-b2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Rozłóż karty napisami do dołu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "kot",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "pies",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "ryba",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "sowa",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "koń",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "żaba",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "mysz",
+                "rewers": "zwierzęta"
+              },
+              {
+                "awers": "jeż",
+                "rewers": "zwierzęta"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Komplet „zwierzęta”, arkusz 2 z dwóch. Oba arkusze mają te same słowa — to są pary."
+        },
+        {
+          "id": "g3-memory-c1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Rozłóż karty napisami do dołu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "jabłko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "chleb",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "ser",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "marchew",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "gruszka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "zupa",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "jajko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "miód",
+                "rewers": "jedzenie"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Komplet „jedzenie”, arkusz 1 z dwóch. Oba arkusze mają te same słowa — to są pary."
+        },
+        {
+          "id": "g3-memory-c2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Rozłóż karty napisami do dołu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "jabłko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "chleb",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "ser",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "marchew",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "gruszka",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "zupa",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "jajko",
+                "rewers": "jedzenie"
+              },
+              {
+                "awers": "miód",
+                "rewers": "jedzenie"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Komplet „jedzenie”, arkusz 2 z dwóch. Oba arkusze mają te same słowa — to są pary."
+        },
+        {
+          "id": "g3-memory-d1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Rozłóż karty napisami do dołu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "piłka",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "huśtawka",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "drzewo",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "kałuża",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "liść",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "kamień",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "płot",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "ławka",
+                "rewers": "podwórko"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Komplet „podwórko”, arkusz 1 z dwóch. Oba arkusze mają te same słowa — to są pary."
+        },
+        {
+          "id": "g3-memory-d2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Rozłóż karty napisami do dołu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "piłka",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "huśtawka",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "drzewo",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "kałuża",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "liść",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "kamień",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "płot",
+                "rewers": "podwórko"
+              },
+              {
+                "awers": "ławka",
+                "rewers": "podwórko"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Komplet „podwórko”, arkusz 2 z dwóch. Oba arkusze mają te same słowa — to są pary."
+        },
+        {
+          "id": "g3-memory-e1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Rozłóż karty napisami do dołu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "auto",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "rower",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "pociąg",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "łódka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "traktor",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "autobus",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "hulajnoga",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "samolot",
+                "rewers": "pojazdy"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Komplet „pojazdy”, arkusz 1 z dwóch. Oba arkusze mają te same słowa — to są pary."
+        },
+        {
+          "id": "g3-memory-e2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Rozłóż karty napisami do dołu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "auto",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "rower",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "pociąg",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "łódka",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "traktor",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "autobus",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "hulajnoga",
+                "rewers": "pojazdy"
+              },
+              {
+                "awers": "samolot",
+                "rewers": "pojazdy"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Komplet „pojazdy”, arkusz 2 z dwóch. Oba arkusze mają te same słowa — to są pary."
+        },
+        {
+          "id": "g3-memory-f1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Rozłóż karty napisami do dołu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "czapka",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "szalik",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "sweter",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "spodnie",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "kurtka",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "rękawiczki",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "koszula",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "skarpetki",
+                "rewers": "ubrania"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Komplet „ubrania”, arkusz 1 z dwóch. Oba arkusze mają te same słowa — to są pary."
+        },
+        {
+          "id": "g3-memory-f2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Rozłóż karty napisami do dołu.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "czapka",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "szalik",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "sweter",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "spodnie",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "kurtka",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "rękawiczki",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "koszula",
+                "rewers": "ubrania"
+              },
+              {
+                "awers": "skarpetki",
+                "rewers": "ubrania"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Komplet „ubrania”, arkusz 2 z dwóch. Oba arkusze mają te same słowa — to są pary."
+        }
+      ]
+    },
+    {
+      "nazwa": "Dwie drogi",
+      "cel": "Dziecko wybiera drogę, płaci żetonem i widzi, co z tego wyszło.",
+      "gracze": "2–4",
+      "czas_min": 25,
+      "przygotowanie": [
+        "Wydrukuj planszę, pionki, kostkę, trzy arkusze żetonów i karty wyboru.",
+        "Wytnij pionki i karty kostki.",
+        "Wytnij żetony. Rozdaj każdemu po trzy, resztę zostaw w banku.",
+        "Potasuj karty wyboru i karty zdarzeń. Połóż je zakryte obok planszy."
+      ],
+      "zasady": [
+        "Ustawcie pionki na polu Start. Każdy bierze trzy żetony.",
+        "Połóżcie karty wyboru i karty zdarzeń zakryte obok planszy.",
+        "W swojej kolejce wylosuj kartę kostki i przesuń pionek.",
+        "Na rozwidleniu wybierz drogę krótszą albo dłuższą.",
+        "Krótsza droga kosztuje żeton. Dłuższa jest za darmo.",
+        "Na polu z kartą weź kartę i zdecyduj, co robisz.",
+        "Powiedz na głos, co wybierasz i dlaczego.",
+        "Wygrywa ten, kto pierwszy stanie na Mecie z żetonem w ręce."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Każdy zaczyna z pięcioma żetonami i nie płaci za krótszą drogę."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Zaczynacie z jednym żetonem, a na Mecie liczycie, kto ma więcej."
+        }
+      ],
+      "plansza": {
+        "id": "g4-plansza",
+        "typ": "plansza_gry",
+        "polecenie": "Rozłóż planszę i bank żetonów.",
+        "dane": {
+          "pola": [
+            "Start",
+            "Weź kartę wyboru",
+            "Przesuń się o 1 do przodu",
+            "Rozwidlenie: krótsza albo dłuższa droga",
+            "Krótsza droga: oddaj żeton",
+            "Dłuższa droga: idź dalej bez opłaty",
+            "Weź kartę wyboru",
+            "Weź żeton z banku",
+            "Stój jedną kolejkę",
+            "Przesuń się o 2 do przodu",
+            "Weź kartę zdarzenia",
+            "Oddaj żeton do banku",
+            "Rozwidlenie: krótsza albo dłuższa droga",
+            "Krótsza droga: oddaj dwa żetony",
+            "Dłuższa droga: cofnij się o 1 pole",
+            "Weź kartę wyboru",
+            "Weź dwa żetony z banku",
+            "Cofnij się o 2 pola",
+            "Weź kartę zdarzenia",
+            "Przesuń się o 3 do przodu",
+            "Weź kartę wyboru",
+            "Oddaj żeton albo stój jedną kolejkę",
+            "Weź żeton z banku",
+            "Meta"
+          ]
+        },
+        "dla_rodzica": "Po rozwidleniu krótsza droga ma dwa pola, dłuższa cztery. Oba tory wracają na wspólne pole."
+      },
+      "arkusze": [
+        {
+          "id": "g4-pionki",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij pionki i zegnij podstawki.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Pionek z kółkiem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z kwadratem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z trójkątem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z kreską",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Naklej pionki na kartonik z pudełka po płatkach. Będą stały prosto."
+        },
+        {
+          "id": "g4-kostka",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty kostki i potasuj je.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "•",
+                "rewers": "1"
+              },
+              {
+                "awers": "• •",
+                "rewers": "2"
+              },
+              {
+                "awers": "• • •",
+                "rewers": "3"
+              },
+              {
+                "awers": "• •\n• •",
+                "rewers": "4"
+              },
+              {
+                "awers": "• •\n•\n• •",
+                "rewers": "5"
+              },
+              {
+                "awers": "• • •\n• • •",
+                "rewers": "6"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Zamiast rzutu kostką losujecie wierzchnią kartę. Po ruchu wraca na spód stosu."
+        },
+        {
+          "id": "g4-zetony-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij żetony i rozdaj po trzy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Żeton 1",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 2",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 3",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 4",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 5",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 6",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 7",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 8",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 9",
+                "rewers": "Lupa"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Trzy arkusze dają dwadzieścia siedem żetonów. Reszta leży w banku."
+        },
+        {
+          "id": "g4-zetony-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij żetony i rozdaj po trzy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Żeton 1",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 2",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 3",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 4",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 5",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 6",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 7",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 8",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 9",
+                "rewers": "Lupa"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Trzy arkusze dają dwadzieścia siedem żetonów. Reszta leży w banku."
+        },
+        {
+          "id": "g4-zetony-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij żetony i rozdaj po trzy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Żeton 1",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 2",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 3",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 4",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 5",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 6",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 7",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 8",
+                "rewers": "Lupa"
+              },
+              {
+                "awers": "Żeton 9",
+                "rewers": "Lupa"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Trzy arkusze dają dwadzieścia siedem żetonów. Reszta leży w banku."
+        },
+        {
+          "id": "g4-wybory-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wybierz jedną z dwóch rzeczy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Weź dwa żetony albo idź o trzy pola."
+              },
+              {
+                "awers": "Idź o jedno pole albo oddaj żeton i idź o cztery."
+              },
+              {
+                "awers": "Oddaj żeton albo stój jedną kolejkę."
+              },
+              {
+                "awers": "Weź żeton albo cofnij sąsiada o jedno pole."
+              },
+              {
+                "awers": "Idź o dwa pola albo daj żeton graczowi z tyłu."
+              },
+              {
+                "awers": "Weź trzy żetony albo cofnij się o jedno pole."
+              },
+              {
+                "awers": "Stój jedną kolejkę albo oddaj dwa żetony."
+              },
+              {
+                "awers": "Idź o cztery pola albo weź dwa żetony."
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g4-wybory-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wybierz jedną z dwóch rzeczy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Oddaj żeton albo pozwól sąsiadowi iść o dwa pola."
+              },
+              {
+                "awers": "Weź żeton albo powiedz słowo na literę K."
+              },
+              {
+                "awers": "Idź o dwa pola albo policz na głos do dziesięciu."
+              },
+              {
+                "awers": "Weź dwa żetony albo zamień się miejscem z sąsiadem."
+              },
+              {
+                "awers": "Oddaj dwa żetony albo wróć o trzy pola."
+              },
+              {
+                "awers": "Idź o jedno pole albo weź kartę jeszcze raz."
+              },
+              {
+                "awers": "Weź żeton albo daj żeton ostatniemu graczowi."
+              },
+              {
+                "awers": "Idź o trzy pola albo oddaj żeton i idź o pięć."
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g4-wybory-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wybierz jedną z dwóch rzeczy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Stój jedną kolejkę albo cofnij się o dwa pola."
+              },
+              {
+                "awers": "Weź dwa żetony albo przesuń sąsiada o dwa pola."
+              },
+              {
+                "awers": "Oddaj żeton albo podskocz pięć razy."
+              },
+              {
+                "awers": "Idź o dwa pola albo weź jeden żeton."
+              },
+              {
+                "awers": "Weź trzy żetony albo stój jedną kolejkę."
+              },
+              {
+                "awers": "Idź o pięć pól albo oddaj dwa żetony."
+              },
+              {
+                "awers": "Oddaj żeton albo powiedz trzy słowa na literę M."
+              },
+              {
+                "awers": "Weź żeton albo cofnij się o jedno pole."
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g4-wybory-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wybierz jedną z dwóch rzeczy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Idź o jedno pole albo weź dwa żetony."
+              },
+              {
+                "awers": "Oddaj dwa żetony albo pozwól sąsiadowi wziąć dwie karty."
+              },
+              {
+                "awers": "Weź dwa żetony albo idź o dwa pola."
+              },
+              {
+                "awers": "Idź o trzy pola albo daj żeton graczowi z przodu."
+              },
+              {
+                "awers": "Stój jedną kolejkę albo weź trzy żetony."
+              },
+              {
+                "awers": "Oddaj żeton albo klaśnij osiem razy."
+              },
+              {
+                "awers": "Weź żeton albo idź o dwa pola."
+              },
+              {
+                "awers": "Idź o cztery pola albo stój jedną kolejkę."
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g4-wybory-5",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wybierz jedną z dwóch rzeczy.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Weź dwa żetony albo powiedz, co lubisz jeść."
+              },
+              {
+                "awers": "Oddaj żeton albo cofnij się o dwa pola."
+              },
+              {
+                "awers": "Idź o dwa pola albo daj dwa żetony sąsiadowi."
+              },
+              {
+                "awers": "Weź trzy żetony albo idź o jedno pole."
+              },
+              {
+                "awers": "Oddaj dwa żetony albo idź o sześć pól."
+              },
+              {
+                "awers": "Idź o jedno pole albo stój i weź dwa żetony."
+              },
+              {
+                "awers": "Weź żeton albo zamień żeton na dwa pola."
+              },
+              {
+                "awers": "Idź o trzy pola albo oddaj żeton i weź kartę."
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g4-zdarzenia",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Przeczytaj kartę i zrób, co mówi.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Ktoś z graczy oddaje ci jeden żeton."
+              },
+              {
+                "awers": "Oddajesz jeden żeton do banku."
+              },
+              {
+                "awers": "Bierzesz dwa żetony z banku."
+              },
+              {
+                "awers": "Wszyscy przesuwają pionek o jedno pole."
+              },
+              {
+                "awers": "Najdalszy pionek cofa się o dwa pola."
+              },
+              {
+                "awers": "Najbliższy Startu pionek idzie o trzy pola."
+              },
+              {
+                "awers": "Zamieniasz się żetonami z sąsiadem z lewej."
+              },
+              {
+                "awers": "Bierzesz żeton i mówisz, na co go wydasz."
+              },
+              {
+                "awers": "Stoisz jedną kolejkę i liczysz swoje żetony."
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Słowo na start",
+      "cel": "Dziecko wymyśla słowa z jednej kategorii i na jedną literę.",
+      "gracze": "2–4",
+      "czas_min": 20,
+      "przygotowanie": [
+        "Wydrukuj planszę, pionki, kostkę literową i karty kategorii.",
+        "Wytnij pionki i sześć kart z literami.",
+        "Wytnij karty kategorii oraz karty słów.",
+        "Potasuj oba stosy i połóż je zakryte obok planszy."
+      ],
+      "zasady": [
+        "Ustawcie pionki na polu Start.",
+        "Połóżcie karty kategorii i karty słów zakryte obok planszy.",
+        "W swojej kolejce wylosuj kartę kostki i przesuń pionek.",
+        "Na polu z literą weź wierzchnią kartę kategorii.",
+        "Powiedz jedno słowo z tej kategorii na tę literę.",
+        "Jeśli nikt nie zna słowa, podpowiada dorosły i gracie dalej.",
+        "Za trafione słowo przesuń pionek o jedno pole.",
+        "Wygrywa ten, kto pierwszy stanie na polu Meta."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Wystarczy słowo z kategorii. Litery nie sprawdzacie."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Powiedz dwa słowa z kategorii na tę samą literę."
+        }
+      ],
+      "plansza": {
+        "id": "g5-plansza",
+        "typ": "plansza_gry",
+        "polecenie": "Rozłóż planszę na środku stołu.",
+        "dane": {
+          "pola": [
+            "Start",
+            "Weź kartę kategorii",
+            "Litera K: powiedz słowo",
+            "Przesuń się o 1 do przodu",
+            "Weź kartę słowa",
+            "Litera M: powiedz słowo",
+            "Stój jedną kolejkę",
+            "Weź kartę kategorii",
+            "Cofnij się o 1 pole",
+            "Litera S: powiedz słowo",
+            "Weź kartę zadania",
+            "Przesuń się o 2 do przodu",
+            "Weź kartę kategorii",
+            "Litera L: powiedz słowo",
+            "Weź kartę słowa",
+            "Cofnij się o 2 pola",
+            "Litera P: powiedz słowo",
+            "Weź kartę zadania",
+            "Przesuń się o 1 do przodu",
+            "Weź kartę kategorii",
+            "Litera B: powiedz słowo",
+            "Stój jedną kolejkę",
+            "Weź kartę słowa",
+            "Meta"
+          ]
+        }
+      },
+      "arkusze": [
+        {
+          "id": "g5-pionki",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij pionki i zegnij podstawki.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Pionek z kółkiem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z kwadratem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z trójkątem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z kreską",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Naklej pionki na kartonik z pudełka po płatkach. Będą stały prosto."
+        },
+        {
+          "id": "g5-kostka-liter",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty z literami.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "K",
+                "rewers": "litera K"
+              },
+              {
+                "awers": "M",
+                "rewers": "litera M"
+              },
+              {
+                "awers": "S",
+                "rewers": "litera S"
+              },
+              {
+                "awers": "L",
+                "rewers": "litera L"
+              },
+              {
+                "awers": "P",
+                "rewers": "litera P"
+              },
+              {
+                "awers": "B",
+                "rewers": "litera B"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "To kostka literowa. Losujecie kartę zamiast rzucać kostką."
+        },
+        {
+          "id": "g5-kategorie-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Powiedz słowo z tej kategorii.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Zwierzęta domowe",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Owoce",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Warzywa",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy w kuchni",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Ubrania",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "To, co jeździ",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Zabawki",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Meble",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Napoje",
+                "rewers": "kategoria"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g5-kategorie-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Powiedz słowo z tej kategorii.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Ptaki",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy w łazience",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy miękkie",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy zimne",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy okrągłe",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy ciężkie",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Owady",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Drzewa",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Kwiaty",
+                "rewers": "kategoria"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g5-kategorie-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Powiedz słowo z tej kategorii.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Rzeczy w plecaku",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy w lodówce",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Dźwięki na podwórku",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy na stole",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Zwierzęta w lesie",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Zwierzęta w wodzie",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy z papieru",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy z drewna",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy, które świecą",
+                "rewers": "kategoria"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g5-kategorie-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Powiedz słowo z tej kategorii.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Sprzęty w kuchni",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy w sklepie",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Części ciała",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Dni tygodnia",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Pory roku",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy w ogrodzie",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Słodycze",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy, które latają",
+                "rewers": "kategoria"
+              },
+              {
+                "awers": "Rzeczy, które pływają",
+                "rewers": "kategoria"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g5-slowa-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Powiedz słowo zaczynające się tak samo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "kot",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "mama",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "sowa",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "lala",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "miś",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "ryba",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "dom",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "auto",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "pies",
+                "rewers": "słowo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g5-slowa-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Powiedz słowo zaczynające się tak samo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "kubek",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "lampa",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "klucz",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "zegar",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "łyżka",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "krzesło",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "poduszka",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "szafa",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "okno",
+                "rewers": "słowo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g5-slowa-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Powiedz słowo zaczynające się tak samo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "jabłko",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "chleb",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "ser",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "gruszka",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "zupa",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "jajko",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "miód",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "masło",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "bułka",
+                "rewers": "słowo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g5-slowa-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Powiedz słowo zaczynające się tak samo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "piłka",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "rower",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "drzewo",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "liść",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "kamień",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "ławka",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "płot",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "huśtawka",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "kałuża",
+                "rewers": "słowo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g5-slowa-5",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Powiedz słowo zaczynające się tak samo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "czapka",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "szalik",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "sweter",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "kurtka",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "spodnie",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "koszula",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "rękawiczki",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "skarpetki",
+                "rewers": "słowo"
+              },
+              {
+                "awers": "buty",
+                "rewers": "słowo"
+              }
+            ],
+            "na_arkuszu": 9,
+            "z_podpisami": true
+          }
+        },
+        {
+          "id": "g5-zadania",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wymień trzy rzeczy z karty.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Wymień trzy rzeczy, które są miękkie."
+              },
+              {
+                "awers": "Wymień trzy zwierzęta, które mają cztery łapy."
+              },
+              {
+                "awers": "Wymień trzy rzeczy, które mieszczą się w dłoni."
+              },
+              {
+                "awers": "Wymień trzy rzeczy, które robisz rano."
+              },
+              {
+                "awers": "Wymień trzy rzeczy, które stoją w kuchni."
+              },
+              {
+                "awers": "Wymień trzy owoce."
+              },
+              {
+                "awers": "Wymień trzy rzeczy, które jeżdżą."
+              },
+              {
+                "awers": "Wymień trzy rzeczy cięższe od kubka."
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "Jedno wspólne",
+      "cel": "Dziecko przegląda dwa zestawy słów i znajduje to jedno, które się powtarza.",
+      "gracze": "2–4",
+      "czas_min": 15,
+      "przygotowanie": [
+        "Wydrukuj planszę, pionki, kostkę i jeden arkusz kart.",
+        "Wytnij siedem kart. Jeden arkusz to jedna runda.",
+        "Rozdaj każdemu po jednej karcie.",
+        "Resztę kart połóż zakrytą na środku stołu."
+      ],
+      "zasady": [
+        "Wytnij jeden arkusz kart. Każdy arkusz to jedna runda.",
+        "Rozdajcie po jednej karcie. Resztę połóżcie zakrytą na środku.",
+        "Ustawcie pionki na polu Start.",
+        "W swojej kolejce odkryj wierzchnią kartę ze stosu.",
+        "Znajdź słowo, które jest na obu kartach. Nikt cię nie goni.",
+        "Każde dwie karty mają dokładnie jedno wspólne słowo.",
+        "Gdy znajdziesz, weź kartę i przesuń pionek o jedno pole.",
+        "Wygrywa ten, kto pierwszy stanie na polu Meta."
+      ],
+      "warianty_trudnosci": [
+        {
+          "nazwa": "Łatwiej",
+          "zmiana": "Dorosły czyta oba zestawy słów na głos, po kolei."
+        },
+        {
+          "nazwa": "Trudniej",
+          "zmiana": "Po znalezieniu słowa ułóż z nim krótkie zdanie."
+        }
+      ],
+      "plansza": {
+        "id": "g6-plansza",
+        "typ": "plansza_gry",
+        "polecenie": "Rozłóż planszę obok stosu kart.",
+        "dane": {
+          "pola": [
+            "Start",
+            "Odkryj kartę ze stosu",
+            "Przesuń się o 1 do przodu",
+            "Odkryj kartę ze stosu",
+            "Powiedz wspólne słowo i ułóż zdanie",
+            "Stój jedną kolejkę",
+            "Odkryj kartę ze stosu",
+            "Cofnij się o 1 pole",
+            "Przesuń się o 2 do przodu",
+            "Odkryj kartę ze stosu",
+            "Wskaż słowo, które masz na swojej karcie",
+            "Odkryj kartę ze stosu",
+            "Przesuń się o 1 do przodu",
+            "Weź nowy arkusz kart",
+            "Odkryj kartę ze stosu",
+            "Cofnij się o 2 pola",
+            "Stój jedną kolejkę",
+            "Odkryj kartę ze stosu",
+            "Przesuń się o 3 do przodu",
+            "Odkryj kartę ze stosu",
+            "Powiedz wspólne słowo na głos",
+            "Odkryj kartę ze stosu",
+            "Przesuń się o 1 do przodu",
+            "Meta"
+          ]
+        }
+      },
+      "arkusze": [
+        {
+          "id": "g6-pionki",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij pionki i zegnij podstawki.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "Pionek z kółkiem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z kwadratem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z trójkątem",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              },
+              {
+                "awers": "Pionek z kreską",
+                "rewers": "Zegnij wzdłuż linii i sklej podstawkę"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Naklej pionki na kartonik z pudełka po płatkach. Będą stały prosto."
+        },
+        {
+          "id": "g6-kostka",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Wytnij karty kostki i potasuj je.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "•",
+                "rewers": "1"
+              },
+              {
+                "awers": "• •",
+                "rewers": "2"
+              },
+              {
+                "awers": "• • •",
+                "rewers": "3"
+              },
+              {
+                "awers": "• •\n• •",
+                "rewers": "4"
+              },
+              {
+                "awers": "• •\n•\n• •",
+                "rewers": "5"
+              },
+              {
+                "awers": "• • •\n• • •",
+                "rewers": "6"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Zamiast rzutu kostką losujecie wierzchnią kartę. Po ruchu wraca na spód stosu."
+        },
+        {
+          "id": "g6-karty-1",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Znajdź jedno wspólne słowo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "kot · dom · ryba",
+                "rewers": "Runda 1"
+              },
+              {
+                "awers": "kot · miś · lala",
+                "rewers": "Runda 1"
+              },
+              {
+                "awers": "kot · auto · sowa",
+                "rewers": "Runda 1"
+              },
+              {
+                "awers": "dom · miś · auto",
+                "rewers": "Runda 1"
+              },
+              {
+                "awers": "dom · lala · sowa",
+                "rewers": "Runda 1"
+              },
+              {
+                "awers": "ryba · miś · sowa",
+                "rewers": "Runda 1"
+              },
+              {
+                "awers": "ryba · lala · auto",
+                "rewers": "Runda 1"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Siedem kart jednej rundy. Każde dwie karty mają dokładnie jedno wspólne słowo."
+        },
+        {
+          "id": "g6-karty-2",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Znajdź jedno wspólne słowo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "kubek · łyżka · lampa",
+                "rewers": "Runda 2"
+              },
+              {
+                "awers": "kubek · klucz · zegar",
+                "rewers": "Runda 2"
+              },
+              {
+                "awers": "kubek · poduszka · krzesło",
+                "rewers": "Runda 2"
+              },
+              {
+                "awers": "łyżka · klucz · poduszka",
+                "rewers": "Runda 2"
+              },
+              {
+                "awers": "łyżka · zegar · krzesło",
+                "rewers": "Runda 2"
+              },
+              {
+                "awers": "lampa · klucz · krzesło",
+                "rewers": "Runda 2"
+              },
+              {
+                "awers": "lampa · zegar · poduszka",
+                "rewers": "Runda 2"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Siedem kart jednej rundy. Każde dwie karty mają dokładnie jedno wspólne słowo."
+        },
+        {
+          "id": "g6-karty-3",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Znajdź jedno wspólne słowo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "jabłko · chleb · ser",
+                "rewers": "Runda 3"
+              },
+              {
+                "awers": "jabłko · gruszka · zupa",
+                "rewers": "Runda 3"
+              },
+              {
+                "awers": "jabłko · jajko · miód",
+                "rewers": "Runda 3"
+              },
+              {
+                "awers": "chleb · gruszka · jajko",
+                "rewers": "Runda 3"
+              },
+              {
+                "awers": "chleb · zupa · miód",
+                "rewers": "Runda 3"
+              },
+              {
+                "awers": "ser · gruszka · miód",
+                "rewers": "Runda 3"
+              },
+              {
+                "awers": "ser · zupa · jajko",
+                "rewers": "Runda 3"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Siedem kart jednej rundy. Każde dwie karty mają dokładnie jedno wspólne słowo."
+        },
+        {
+          "id": "g6-karty-4",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Znajdź jedno wspólne słowo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "piłka · rower · drzewo",
+                "rewers": "Runda 4"
+              },
+              {
+                "awers": "piłka · liść · kamień",
+                "rewers": "Runda 4"
+              },
+              {
+                "awers": "piłka · ławka · płot",
+                "rewers": "Runda 4"
+              },
+              {
+                "awers": "rower · liść · ławka",
+                "rewers": "Runda 4"
+              },
+              {
+                "awers": "rower · kamień · płot",
+                "rewers": "Runda 4"
+              },
+              {
+                "awers": "drzewo · liść · płot",
+                "rewers": "Runda 4"
+              },
+              {
+                "awers": "drzewo · kamień · ławka",
+                "rewers": "Runda 4"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Siedem kart jednej rundy. Każde dwie karty mają dokładnie jedno wspólne słowo."
+        },
+        {
+          "id": "g6-karty-5",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Znajdź jedno wspólne słowo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "czapka · szalik · sweter",
+                "rewers": "Runda 5"
+              },
+              {
+                "awers": "czapka · kurtka · spodnie",
+                "rewers": "Runda 5"
+              },
+              {
+                "awers": "czapka · koszula · rękawiczki",
+                "rewers": "Runda 5"
+              },
+              {
+                "awers": "szalik · kurtka · koszula",
+                "rewers": "Runda 5"
+              },
+              {
+                "awers": "szalik · spodnie · rękawiczki",
+                "rewers": "Runda 5"
+              },
+              {
+                "awers": "sweter · kurtka · rękawiczki",
+                "rewers": "Runda 5"
+              },
+              {
+                "awers": "sweter · spodnie · koszula",
+                "rewers": "Runda 5"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Siedem kart jednej rundy. Każde dwie karty mają dokładnie jedno wspólne słowo."
+        },
+        {
+          "id": "g6-karty-6",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Znajdź jedno wspólne słowo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "pociąg · łódka · traktor",
+                "rewers": "Runda 6"
+              },
+              {
+                "awers": "pociąg · autobus · samolot",
+                "rewers": "Runda 6"
+              },
+              {
+                "awers": "pociąg · hulajnoga · wóz",
+                "rewers": "Runda 6"
+              },
+              {
+                "awers": "łódka · autobus · hulajnoga",
+                "rewers": "Runda 6"
+              },
+              {
+                "awers": "łódka · samolot · wóz",
+                "rewers": "Runda 6"
+              },
+              {
+                "awers": "traktor · autobus · wóz",
+                "rewers": "Runda 6"
+              },
+              {
+                "awers": "traktor · samolot · hulajnoga",
+                "rewers": "Runda 6"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Siedem kart jednej rundy. Każde dwie karty mają dokładnie jedno wspólne słowo."
+        },
+        {
+          "id": "g6-karty-7",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Znajdź jedno wspólne słowo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "kwiat · trawa · chmura",
+                "rewers": "Runda 7"
+              },
+              {
+                "awers": "kwiat · deszcz · słońce",
+                "rewers": "Runda 7"
+              },
+              {
+                "awers": "kwiat · wiatr · śnieg",
+                "rewers": "Runda 7"
+              },
+              {
+                "awers": "trawa · deszcz · wiatr",
+                "rewers": "Runda 7"
+              },
+              {
+                "awers": "trawa · słońce · śnieg",
+                "rewers": "Runda 7"
+              },
+              {
+                "awers": "chmura · deszcz · śnieg",
+                "rewers": "Runda 7"
+              },
+              {
+                "awers": "chmura · słońce · wiatr",
+                "rewers": "Runda 7"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Siedem kart jednej rundy. Każde dwie karty mają dokładnie jedno wspólne słowo."
+        },
+        {
+          "id": "g6-karty-8",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Znajdź jedno wspólne słowo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "pies · koń · żaba",
+                "rewers": "Runda 8"
+              },
+              {
+                "awers": "pies · mysz · jeż",
+                "rewers": "Runda 8"
+              },
+              {
+                "awers": "pies · krowa · kura",
+                "rewers": "Runda 8"
+              },
+              {
+                "awers": "koń · mysz · krowa",
+                "rewers": "Runda 8"
+              },
+              {
+                "awers": "koń · jeż · kura",
+                "rewers": "Runda 8"
+              },
+              {
+                "awers": "żaba · mysz · kura",
+                "rewers": "Runda 8"
+              },
+              {
+                "awers": "żaba · jeż · krowa",
+                "rewers": "Runda 8"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Siedem kart jednej rundy. Każde dwie karty mają dokładnie jedno wspólne słowo."
+        },
+        {
+          "id": "g6-karty-9",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Znajdź jedno wspólne słowo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "książka · kredka · nożyczki",
+                "rewers": "Runda 9"
+              },
+              {
+                "awers": "książka · papier · klej",
+                "rewers": "Runda 9"
+              },
+              {
+                "awers": "książka · gumka · linijka",
+                "rewers": "Runda 9"
+              },
+              {
+                "awers": "kredka · papier · gumka",
+                "rewers": "Runda 9"
+              },
+              {
+                "awers": "kredka · klej · linijka",
+                "rewers": "Runda 9"
+              },
+              {
+                "awers": "nożyczki · papier · linijka",
+                "rewers": "Runda 9"
+              },
+              {
+                "awers": "nożyczki · klej · gumka",
+                "rewers": "Runda 9"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Siedem kart jednej rundy. Każde dwie karty mają dokładnie jedno wspólne słowo."
+        },
+        {
+          "id": "g6-karty-10",
+          "typ": "karty_do_wyciecia",
+          "polecenie": "Znajdź jedno wspólne słowo.",
+          "dane": {
+            "karty": [
+              {
+                "awers": "mama · tata · babcia",
+                "rewers": "Runda 10"
+              },
+              {
+                "awers": "mama · dziadek · brat",
+                "rewers": "Runda 10"
+              },
+              {
+                "awers": "mama · siostra · kolega",
+                "rewers": "Runda 10"
+              },
+              {
+                "awers": "tata · dziadek · siostra",
+                "rewers": "Runda 10"
+              },
+              {
+                "awers": "tata · brat · kolega",
+                "rewers": "Runda 10"
+              },
+              {
+                "awers": "babcia · dziadek · kolega",
+                "rewers": "Runda 10"
+              },
+              {
+                "awers": "babcia · brat · siostra",
+                "rewers": "Runda 10"
+              }
+            ],
+            "na_arkuszu": 8,
+            "z_podpisami": true
+          },
+          "dla_rodzica": "Siedem kart jednej rundy. Każde dwie karty mają dokładnie jedno wspólne słowo."
+        }
+      ]
+    }
+  ],
+  "klucz_odpowiedzi": [
+    {
+      "strona_id": "g2-historyjki-1",
+      "odpowiedzi": [
+        "Śniadanie: nalewasz mleko, jesz płatki, myjesz miskę.",
+        "Zęby: wyciskasz pastę, myjesz zęby, płuczesz usta.",
+        "Ubieranie: wyjmujesz skarpetki, wkładasz je, zawiązujesz buty."
+      ]
+    },
+    {
+      "strona_id": "g2-liczby-rosnaco",
+      "odpowiedzi": [
+        "Od najmniejszej: 1, 2, 3, 4, 5, 6, 7, 8, 9."
+      ]
+    },
+    {
+      "strona_id": "g2-dni-tygodnia",
+      "odpowiedzi": [
+        "poniedziałek, wtorek, środa, czwartek, piątek, sobota, niedziela"
+      ]
+    },
+    {
+      "strona_id": "g6-karty-1",
+      "odpowiedzi": [
+        "Każde dwie karty rundy mają dokładnie jedno wspólne słowo.",
+        "Karta 1 i karta 2 — wspólne słowo: kot.",
+        "Karta 1 i karta 4 — wspólne słowo: dom.",
+        "Karta 2 i karta 6 — wspólne słowo: miś."
+      ]
+    }
+  ],
+  "fragment": {
+    "do_strony": 10,
+    "obietnica_na_stronie": "Pierwsza gra w komplecie: zasady, plansza, pionki, kostka i karty."
+  }
+}

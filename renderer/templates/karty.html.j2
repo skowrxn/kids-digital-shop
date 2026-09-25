@@ -7,9 +7,10 @@
 {% set ns.nr = ns.nr + 1 %}{{ ws.jak_korzystac(c, ns.nr) }}
 
 {% for t in c.talie %}
+  {% set nr_talii = loop.index %}
   {% set ns.nr = ns.nr + 1 %}
   <div class="strona">
-    {{ w.naglowek('Talia ' ~ loop.index, t.format_mm[0] ~ ' × ' ~ t.format_mm[1] ~ ' mm') }}
+    {{ w.naglowek('Talia ' ~ nr_talii, t.format_mm[0] ~ ' × ' ~ t.format_mm[1] ~ ' mm') }}
     <h2 class="sekcja">{{ t.nazwa }}</h2>
     <p class="dla-rodzica">
       Tnij po przerywanej linii. Karty wyjdą {{ t.format_mm[0] }} × {{ t.format_mm[1] }} mm.
