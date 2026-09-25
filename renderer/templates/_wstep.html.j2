@@ -56,20 +56,23 @@
 </div>
 {% endmacro %}
 
-{% macro klucz(c, nr, klasa='') %}
-{% if c.klucz_odpowiedzi %}
+{# Klucz łamie się na tyle stron, ile trzeba. Podział liczy podziel_klucz()
+   w validate.py — ta sama funkcja, z której korzysta bilans stron, więc
+   szablon nigdy nie narysuje innej liczby stron, niż policzył walidator. #}
+{% macro klucz(c, grupy, nr_od, klasa='') %}
+{% for grupa in grupy %}
 <div class="strona {{ klasa }}">
-  <h2 class="sekcja">klucz odpowiedzi</h2>
+  <h2 class="sekcja">klucz odpowiedzi{% if grupy | length > 1 %} ({{ loop.index }}/{{ grupy | length }}){% endif %}</h2>
   <p class="dla-rodzica" style="margin-bottom:5mm">Dla rodzica.</p>
   <div class="kolumny-klucza">
-    {% for k in c.klucz_odpowiedzi %}
+    {% for k in grupa %}
       <div class="klucz__wpis">
         <span class="klucz__id">{{ k.strona_id }}</span><br>
         {{ k.odpowiedzi | join(' · ') }}
       </div>
     {% endfor %}
   </div>
-  {{ w.stopka(c, nr) }}
+  {{ w.stopka(c, nr_od + loop.index0) }}
 </div>
-{% endif %}
+{% endfor %}
 {% endmacro %}

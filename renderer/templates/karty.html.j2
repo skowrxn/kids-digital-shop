@@ -36,4 +36,4 @@
   </div>
 {% endfor %}
 
-{% set ns.nr = ns.nr + 1 %}{{ ws.klucz(c, ns.nr) }}
+{{ ws.klucz(c, klucz_strony, ns.nr + 1) }}

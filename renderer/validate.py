@@ -246,6 +246,34 @@ def wszystkie_strony(c):
     return []
 
 
+#: ile linii mieści się w trzech kolumnach klucza na jednej stronie A4
+LINII_NA_STRONIE_KLUCZA = 54
+
+
+def podziel_klucz(c):
+    """Dzieli klucz odpowiedzi na strony.
+
+    Jedno źródło prawdy dla renderera i dla bilansu stron — inaczej szablon
+    rysuje inną liczbę stron, niż walidator policzył, i rozjazd wychodzi
+    dopiero na wyrenderowanym PDF-ie.
+
+    Wysokość wpisu liczymy z długości odpowiedzi, bo wpis z dwudziestoma
+    wyrazami zajmuje kilka linii, a wpis z dwoma jedną.
+    """
+    grupy, biezaca, linie = [], [], 0
+    for k in c.get("klucz_odpowiedzi", []):
+        dlugosc = len(" · ".join(k["odpowiedzi"]))
+        waga = 1 + max(1, -(-dlugosc // 34))      # linia id + zawijane odpowiedzi
+        if biezaca and linie + waga > LINII_NA_STRONIE_KLUCZA:
+            grupy.append(biezaca)
+            biezaca, linie = [], 0
+        biezaca.append(k)
+        linie += waga
+    if biezaca:
+        grupy.append(biezaca)
+    return grupy
+
+
 def bilans_stron(c):
     """Ile stron wyjdzie z danych. Musi zgadzać się ze `strony_deklarowane`.
 
@@ -253,7 +281,7 @@ def bilans_stron(c):
     szablon zmieni układ stron, to miejsce trzeba poprawić razem z nim.
     """
     a = c["meta"]["archetyp"]
-    klucz = 1 if c.get("klucz_odpowiedzi") else 0
+    klucz = len(podziel_klucz(c))
     if a == "PROGRAM":
         n = 3  # tytułowa + jak korzystać + plan tygodni
         for t in c["tygodnie"]:

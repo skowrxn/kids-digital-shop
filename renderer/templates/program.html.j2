@@ -337,20 +337,6 @@
   </div>
 {% endfor %}
 
-{# --- klucz odpowiedzi --- #}
-{% set ns.nr = ns.nr + 1 %}
-<div class="strona">
-  <h2 class="sekcja">klucz odpowiedzi</h2>
-  <p class="dla-rodzica" style="margin-bottom:5mm">
-    Dla rodzica. Numer przy odpowiedzi wskazuje tydzień i ćwiczenie.
-  </p>
-  <div class="kolumny-klucza">
-    {% for k in c.klucz_odpowiedzi %}
-      <div class="klucz__wpis">
-        <span class="klucz__id">{{ k.strona_id }}</span><br>
-        {{ k.odpowiedzi | join(' · ') }}
-      </div>
-    {% endfor %}
-  </div>
-  {{ stopka(ns.nr) }}
-</div>
+{# --- klucz odpowiedzi: łamie się na tyle stron, ile trzeba --- #}
+{% import '_wstep.html.j2' as ws %}
+{{ ws.klucz(c, klucz_strony, ns.nr + 1) }}

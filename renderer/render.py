@@ -58,7 +58,10 @@ def css_fontow():
 def zbuduj_html(c, archetyp, kolor, tylko_strony=None):
     env = Environment(loader=FileSystemLoader(str(RENDERER / "templates")),
                       undefined=StrictUndefined, trim_blocks=True, lstrip_blocks=True)
-    tresc = env.get_template(f"{archetyp.lower()}.html.j2").render(c=c)
+    sys.path.insert(0, str(RENDERER))
+    from validate import podziel_klucz
+    tresc = env.get_template(f"{archetyp.lower()}.html.j2").render(
+        c=c, klucz_strony=podziel_klucz(c))
 
     if tylko_strony:
         # fragment: zostawiamy tylko pierwsze N stron, numeracja się nie zmienia

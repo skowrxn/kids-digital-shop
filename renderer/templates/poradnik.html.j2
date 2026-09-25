@@ -37,4 +37,4 @@
   {{ w.strona_cwiczenia(c, s, 'Checklista', '', ns.nr, 'strona--poradnik') }}
 {% endfor %}
 
-{% set ns.nr = ns.nr + 1 %}{{ ws.klucz(c, ns.nr, 'strona--poradnik') }}
+{{ ws.klucz(c, klucz_strony, ns.nr + 1, 'strona--poradnik') }}
